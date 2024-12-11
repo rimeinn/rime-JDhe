@@ -1,0 +1,2970 @@
+# Rime dictionary
+# encoding: utf-8
+# 地名 地铁
+#
+---
+name: place
+version: "2024-05-21"
+sort: by_weight
+...
+四道桥	si;nk;aa,ke;ys;ke; dao;fq;zu;hu;zz; qiao;wp;mq;ep;ml;	3
+桥户营	qiao;wp;mq;ep;ml; hu;qq;dp,du;mh;du; ying;zo;cl;ld;ck;	0
+上岸	shang;pd,pu;aa,ba;yf;la; an;ps;ug;ve;eg;	7531
+栗园庄	li;pw;xm;ve;xm; yuan;nk;ky;rp;ke; zhuang;rg;gt;xg;gt;	0
+小园	xiao;pf;ad;yx;ld; yuan;nk;ky;rp;ke;	20
+石厂	shi;tt;kp,aa,ak,pk;ms;ak; chang;rr;ap;xc;ap;	8
+苹果园	ping;zs,zf;cp;lh;cp; guo;vw;ad,tm;qe;ln; yuan;nk;ky;rp;ke;	64
+古城	gu;so;uk;cg;uk; cheng;gh;ti;ga;ti;	1811
+八角游乐园	ba;ff;pd;hb;pn; jiao;gp;dy;xt;dy; you;ka;dz;kh;dz; le;uf;pd,px;by;pd; yuan;nk;ky;rp;ke;	5
+八宝山	ba;ff;pd;hb;pn; bao;ia,ih;by;wi;by; shan;pp;aa;vs;lk;	37
+玉泉路	yu;ah,aa;ad,wd;ni;wd; quan;so;bu,ub;uk;bu; lu;go;zg;ps;zk;	63
+五棵松	wu;gg;aa;wu;aa; ke;ww;mg;ee;mg; song;wp;mg;ek;ms;	95
+万寿路	wan;du;ag,ap;fp;ap; shou;uk;cf,fc;ak;fc; lu;go;zg;ps;zk;	5
+公主坟	gong;fp;sb,bs;hk;bs; zhu;ig;dw;in;dw; fen;gj;tw;gv;tw;	28
+军事博物馆	jun;it;bi;wy;bi; shi;dp;aa;fb;al; bo;sk;uc,uf;nk;uc; wu;bi;nw;qe;nw; guan;gd;ug;qk;uk;	40
+木樨地	mu;ww;ad;em;an,un; xi;wb;mx;eq;mn; di;gr,ga;ty;ge;ty;	36
+南礼士路	nan;ss;ua,uy;ng;ug,ag; li;hr;ug;fa;pv; shi;gg;aa;gs;ua; lu;go;zg;ps;zk;	6
+复兴门	fu;ej;pw,rw,wo;eh;pw; xing;hf;ba,db;kh;xb; men;oo;dg;am;dv;	37
+西单	xi;pp;aa;vx;aa; dan;fs;ba,bd;hn;bl;	198
+天安门西	tian;ue;ad;fm;ad; an;iy;bn;wb;bn; men;oo;dg;am;dv; xi;pp;aa;vx;aa;	8
+天安门东	tian;ue;ad;fm;ad; an;iy;bn;wb;bn; men;oo;dg;am;dv; dong;df,af;ad,qx;ry;ad;	8
+王府井	wang;aa;aa;nw;at; fu;rw,rk;gf;xk;gc; jing;up;aa,ep;qj;al;	289
+东单	dong;df,af;ad,qx;ry;ad; dan;fs;ba,bd;hn;bl;	96
+建国门	jian;rq;zy;bu;zy; guo;na,nh;ky;ri;ky; men;oo;dg;am;dv;	54
+永安里	yong;hh;dd;ik;dn; an;iy;bn;wb;bn; li;vg;aa,tt;dl;la;	9
+国贸	guo;na,nh;ky;ri;ky; mao;um;bd,lb;bo;pr;	650
+大望路	da;xx;ad;md;un; wang;ia;wo;fn;ww; lu;go;zg;ps;zk;	31
+四惠	si;nk;aa,ke;ys;ke; hui;dn;xh,hx;nh;ax;	16
+四惠东	si;nk;aa,ke;ys;ke; hui;dn;xh,hx;nh;ax; dong;df,af;ad,qx;ry;ad;	1
+积水潭	ji;uf;hv;xh;hb; shui;oo;ad,uv;ks;ln; tan;ks;dt;kn;du;	121
+鼓楼大街	gu;gl;vd,uv;hc;uy; lou;wy;ml;eb;mn; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	33
+安定门	an;iy;bn;wb;bn; ding;ie;bp;wt;br; men;oo;dg;am;dv;	23
+雍和宫	yong;ia;wv;zu;wf; he;uo;hk;xd;hk; gong;io;bl;wd;bk;	166
+东直门	dong;df,af;ad,qx;ry;ad; zhi;sd,su;aa,uq;nf;uq; men;oo;dg;am;dv;	129
+东四十条	dong;df,af;ad,qx;ry;ad; si;nk;aa,ke;ys;ke; shi;ss;aa;ns;al; tiao;jf;wm;he;wm;	14
+朝阳门	zhao;sl;ou,uo;nv;uo; yang;bv;eo;to;eo; men;oo;dg;am;dv;	53
+北京站	bei;la;ap,bj;av;lb; jing;if;wx;gy;wx; zhan;bo;lv;id;lk;	129
+崇文门	chong;pf;uz;vf;ex; wen;jj;wi,dd;vw;wx; men;oo;dg;am;dv;	37
+前门	qian;fi;bd,qd;hp;bd; men;oo;dg;am;dv;	437
+和平门	he;uo;hk;xd;hk; ping;ds,sf;aa,gb;eh;au; men;oo;dg;am;dv;	10
+宣武门	xuan;id;bg;wf;ba; wu;dr,ha;vy,yv;fs;av; men;oo;dg;am;dv;	37
+长椿街	zhang;uh;pd;pc;pn; chun;wv;mi;eo;mo; jie;hj;xg,xi;pg;ii;	5
+阜成门	fu;us;pu,uk,vu;tn;pu; cheng;rh;gg,wg;na;wv; men;oo;dg;am;dv;	26
+车公庄	che;tt;aa;yc;al; gong;fp;sb,bs;hk;bs; zhuang;rg;gt;xg;gt;	11
+西直门	xi;pp;aa;vx;aa; zhi;sd,su;aa,uq;nf;uq; men;oo;dg;am;dv;	102
+天宫院	tian;ue;ad;fm;ad; gong;io;bl;wd;bk; yuan;bk;ew;tp;ee;	1
+生物医药基地	sheng;aa;na;ls;pf; wu;bi;nw;qe;nw; yi;dr;ku;no;ku; yao;zh;cy;li;cu; ji;vg;tq,qt;zg;qt; di;gr,ga;ty;ge;ty;	1
+义和庄	yi;hy,yh;di,id;ib;dx; he;uo;hk;xd;hk; zhuang;rg;gt;xg;gt;	1
+黄村火车站	huang;zf;ad,cb;nh;cb; cun;wk;mc;ek;mc; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+黄村西大街	huang;zf;ad,cb;nh;cb; cun;wk;mc;ek;mc; xi;pp;aa;vx;aa; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	1
+清源路	qing;kl;dq;kv;do; yuan;kf;dy;ky;dx; lu;go;zg;ps;zk;	5
+枣园	zao;dh;cd;ew;ad; yuan;nk;ky;rp;ke;	20
+高米店南	gao;io;wk;gg;wk; mi;ll;dd;pm;dm; dian;ro;gv;xd;gk; nan;ss;ua,uy;ng;ug,ag;	4
+高米店北	gao;io;wk;gg;wk; mi;ll;dd;pm;dm; dian;ro;gv;xd;gk; bei;la;ap,bj;av;lb;	0
+西红门	xi;pp;aa;vx;aa; hong;ep;sg;iu;sg; men;oo;dg;am;dv;	11
+新宫	xin;bp;jq;it;lj; gong;io;bl;wd;bk;	14
+公益西桥	gong;fp;sb,bs;hk;bs; yi;fd,fa;mb;ka;bm; xi;pp;aa;vx;aa; qiao;wp;mq;ep;ml;	1
+角门西	jiao;gp;dy;xt;dy; men;oo;dg;am;dv; xi;pp;aa;vx;aa;	0
+马家堡	ma;zz;aa,vh;nm;va; jia;ih;bu;wj;bu; bao;xg;tb;jg;rt;	6
+北京南站	bei;la;ap,bj;av;lb; jing;if;wx;gy;wx; nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	48
+陶然亭	tao;bp;ef,et;ta;ef; ran;fn;hq;vc;ph; ting;ij;wd,db,dd;ga;wd;	40
+菜市口	cai;zw;cc;le;cm; shi;iy;wj;zr;wj; kou;oo;aa;dk;la;	59
+灵境胡同	ling;st;hx,xh;bc;eh; jing;gk;tj;gp;te; hu;sl;og;cv;uo; tong;oo;kk;md;kk;	2
+西四	xi;pp;aa;vx;aa; si;nk;aa,ke;ys;ke;	40
+平安里	ping;ds,sf;aa,gb;eh;au; an;iy;bn;wb;bn; li;vg;aa,tt;dl;la;	19
+新街口	xin;bp;jq;it;lj; jie;hj;xg,xi;pg;ii; kou;oo;aa;dk;la;	176
+动物园	dong;uu;ly,yl;bs;el; wu;bi;nw;qe;nw; yuan;nk;ky;rp;ke;	1455
+国家图书馆	guo;na,nh;ky;ri;ky; jia;ih;bu;wj;bu; tu;nh;kd;rw;kd; shu;rh;ad,vd;ai;vd; guan;gd;ug;qk;uk;	257
+魏公村	wei;us;gw;xa;hg; gong;fp;sb,bs;hk;bs; cun;wk;mc;ek;mc;	33
+人民大学	ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	222
+海淀黄庄	hai;kh;dm;kk;dm; dian;ke;dd;kt;dr; huang;zf;ad,cb;nh;cb; zhuang;rg;gt;xg;gt;	23
+中关村	zhong;op;aa,ka;dg;ll; guan;fx;bt,qd;hm;bt; cun;wk;mc;ek;mc;	597
+北京大学东门	bei;la;ap,bj;av;lb; jing;if;wx;gy;wx; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; dong;df,af;ad,qx;ry;ad; men;oo;dg;am;dv;	6
+圆明园	yuan;nm;ky;ro;kr; ming;vl;oo;ov;oo; yuan;nk;ky;rp;ke;	658
+西苑	xi;pp;aa;vx;aa; yuan;zt;ce,cy;lz;cv;	119
+北宫门	bei;la;ap,bj;av;lb; gong;io;bl;wd;bk; men;oo;dg;am;dv;	17
+安河桥北	an;iy;bn;wb;bn; he;kj;dk;kz;dk; qiao;wp;mq;ep;ml; bei;la;ap,bj;av;lb;	31
+宋家庄	song;iw;bm;we;bm; jia;ih;bu;wj;bu; zhuang;rg;gt;xg;gt;	27
+刘家窑	liu;ji;dw,wd;vp;wd; jia;ih;bu;wj;bu; yao;ip;xf,bf;ea;bf;	9
+蒲黄榆	pu;zh;cp;ln;cf; huang;zf;ad,cb;nh;cb; yu;wi;my;ep;md;	3
+天坛东门	tian;ue;ad;fm;ad; tan;gp;ty;gb;ts; dong;df,af;ad,qx;ry;ad; men;oo;dg;am;dv;	3
+磁器口	ci;tp;uz;mi;uy; qi;oo;kk,qk;dd;kk; kou;oo;aa;dk;la;	71
+灯市口	deng;tj;hd;ca;hd; shi;iy;wj;zr;wj; kou;oo;aa;dk;la;	10
+东四	dong;df,af;ad,qx;ry;ad; si;nk;aa,ke;ys;ke;	77
+张自忠路	zhang;rh;gi;bp;gi; zi;ss;pa,po;oi;po; zhong;on;xv;dh;vx; lu;go;zg;ps;zk;	13
+北新桥	bei;la;ap,bj;av;lb; xin;bp;jq;it;lj; qiao;wp;mq;ep;ml;	34
+和平里北街	he;uo;hk;xd;hk; ping;ds,sf;aa,gb;eh;au; li;vg;aa,tt;dl;la; bei;la;ap,bj;av;lb; jie;hj;xg,xi;pg;ii;	3
+和平西桥	he;uo;hk;xd;hk; ping;ds,sf;aa,gb;eh;au; xi;pp;aa;vx;aa; qiao;wp;mq;ep;ml;	2
+惠新西街南口	hui;dn;xh,hx;nh;ax; xin;bp;jq;it;lj; xi;pp;aa;vx;aa; jie;hj;xg,xi;pg;ii; nan;ss;ua,uy;ng;ug,ag; kou;oo;aa;dk;la;	1
+惠新西街北口	hui;dn;xh,hx;nh;ax; xin;bp;jq;it;lj; xi;pp;aa;vx;aa; jie;hj;xg,xi;pg;ii; bei;la;ap,bj;av;lb; kou;oo;aa;dk;la;	0
+大屯路东	da;xx;ad;md;un; tun;dr;ag;fs;av; lu;go;zg;ps;zk; dong;df,af;ad,qx;ry;ad;	0
+北苑路北	bei;la;ap,bj;av;lb; yuan;zt;ce,cy;lz;cv; lu;go;zg;ps;zk; bei;la;ap,bj;av;lb;	0
+立水桥南	li;bb;da;il;wa; shui;oo;ad,uv;ks;ln; qiao;wp;mq;ep;ml; nan;ss;ua,uy;ng;ug,ag;	0
+立水桥	li;bb;da;il;wa; shui;oo;ad,uv;ks;ln; qiao;wp;mq;ep;ml;	9
+天通苑南	tian;ue;ad;fm;ad; tong;pq;zy;ku;zy; yuan;zt;ce,cy;lz;cv; nan;ss;ua,uy;ng;ug,ag;	0
+天通苑	tian;ue;ad;fm;ad; tong;pq;zy;ku;zy; yuan;zt;ce,cy;lz;cv;	59
+天通苑北	tian;ue;ad;fm;ad; tong;pq;zy;ku;zy; yuan;zt;ce,cy;lz;cv; bei;la;ap,bj;av;lb;	2
+潞城	lu;ko;dl;ks;dk; cheng;gh;ti;ga;ti;	8
+东夏园	dong;df,af;ad,qx;ry;ad; xia;dj;wz,aw;fh;aw; yuan;nk;ky;rp;ke;	0
+郝家府	hao;gb;ei;gt;te; jia;ih;bu;wj;bu; fu;rw,rk;gf;xk;gc;	0
+北运河东	bei;la;ap,bj;av;lb; yun;uq;zy;bu;zs; he;kj;dk;kz;dk; dong;df,af;ad,qx;ry;ad;	0
+北运河西	bei;la;ap,bj;av;lb; yun;uq;zy;bu;zs; he;kj;dk;kz;dk; xi;pp;aa;vx;aa;	0
+通州北关	tong;pq;zy;ku;zy; zhou;hp;id,da;oo;dl; bei;la;ap,bj;av;lb; guan;fx;bt,qd;hm;bt;	1
+物资学院路	wu;bi;nw;qe;nw; zi;fm;bc;wo;dr; xue;ha;dz,zb;kh;xz; yuan;bk;ew;tp;ee; lu;go;zg;ps;zk;	0
+草房	cao;zs;cz;ln;cu; fang;qf;hf;ml;hf;	28
+常营	chang;hy;jk,xd,dd;sr;xj; ying;zo;cl;ld;ck;	37
+黄渠	huang;zf;ad,cb;nh;cb; qu;kw;mj;ke;dm;	3
+褡裢坡	da;ho;yd,yh;td;pk; lian;hq;yl;tu;pz; po;gl;tp;gr;ty;	2
+青年路	qing;al;of,fo;av;fo; nian;es;ra,pa;ev;pl; lu;go;zg;ps;zk;	20
+十里堡	shi;ss;aa;ns;al; li;vg;aa,tt;dl;la; pu;xg;tb;jg;rt;	7
+金台路	jin;ed,ef;ra,pa;zj;ra; tai;po;sk;kd;sk; lu;go;zg;ps;zk;	3
+呼家楼	hu;op;kh;dn;kh; jia;ih;bu;wj;bu; lou;wy;ml;eb;mn;	13
+东大桥	dong;df,af;ad,qx;ry;ad; da;xx;ad;md;un; qiao;wp;mq;ep;ml;	18
+南锣鼓巷	nan;ss;ua,uy;ng;ug,ag; luo;df;jl;zl;jx; gu;gl;vd,uv;hc;uy; xiang;zt;sg,gs;lv;cs;	222
+北海北	bei;la;ap,bj;av;lb; hai;kh;dm;kk;dm; bei;la;ap,bj;av;lb;	15
+车公庄西	che;tt;aa;yc;al; gong;fp;sb,bs;hk;bs; zhuang;rg;gt;xg;gt; xi;pp;aa;vx;aa;	2
+白石桥南	bai;ss;pa,po;ub;po; shi;tt;kp,aa,ak,pk;ms;ak; qiao;wp;mq;ep;ml; nan;ss;ua,uy;ng;ug,ag;	0
+花园桥	hua;za;ch;lv;cb; yuan;nk;ky;rp;ke; qiao;wp;mq;ep;ml;	2
+慈寿寺	ci;fn;xz;hh;bx; shou;uk;cf,fc;ak;fc; si;gk;ct,tc;gk;tc;	0
+海淀五路居	hai;kh;dm;kk;dm; dian;ke;dd;kt;dr; wu;gg;aa;wu;aa; lu;go;zg;ps;zk; ju;qo;ug;cc;uk;	0
+田村	tian;ww;aa;qt;ku; cun;wk;mc;ek;mc;	107
+廖公庄	liao;ru;gl,gp;xe;gp; gong;fp;sb,bs;hk;bs; zhuang;rg;gt;xg;gt;	0
+西黄村	xi;pp;aa;vx;aa; huang;zf;ad,cb;nh;cb; cun;wk;mc;ek;mc;	7
+杨庄	yang;wu;my;ee;mp; zhuang;rg;gt;xg;gt;	6
+金安桥	jin;ed,ef;ra,pa;zj;ra; an;iy;bn;wb;bn; qiao;wp;mq;ep;ml;	4
+焦化厂	jiao;xn;hv,vh;uc;rh; hua;xa;rb;jv;rb; chang;rr;ap;xc;ap;	15
+双合	shuang;ll;yy;rr;yy; he;eo;rk;jd;rk;	10
+垡头	fa;xg;tf;jg;rt; tou;hx;dd;wm;dd;	2
+欢乐谷景区	huan;le;yq;re;yr; le;uf;pd,px;by;pd; gu;fo;bk,kr;hg;bk; jing;vf;oj;oy;ox; qu;dr;ki;nb;kx;	0
+南楼梓庄	nan;ss;ua,uy;ng;ug,ag; lou;wy;ml;eb;mn; zi;ws;mx;en;mu; zhuang;rg;gt;xg;gt;	0
+化工	hua;xa;rb;jv;rb; gong;pp;aa;ug;aa;	2343
+百子湾	bai;ds;ab;fu;ab; zi;aa;aa,vh;hi;va; wan;kr;dw;kb;dg;	23
+大郊亭	da;xx;ad;md;un; jiao;ib;ej;at;we; ting;ij;wd,db,dd;ga;wd;	1
+九龙山	jiu;ur;py;kj;pv; long;sh;ad;tl;ud; shan;pp;aa;vs;lk;	17
+广渠门外	guang;rr;dp;xg;di,wp; qu;kw;mj;ke;dm; men;oo;dg;am;dv; wai;fh;xb;ly;xb;	2
+广渠门内	guang;rr;dp;xg;di,wp; qu;kw;mj;ke;dm; men;oo;dg;am;dv; nei;oe;ad,kr;mj;ld;	1
+桥湾	qiao;wp;mq;ep;ml; wan;kr;dw;kb;dg;	1
+珠市口	zhu;ae;wv;na;wv; shi;iy;wj;zr;wj; kou;oo;aa;dk;la;	12
+虎坊桥	hu;pi;hj;zh;hj; fang;gf;tf;gl;tf; qiao;wp;mq;ep;ml;	13
+广安门内	guang;rr;dp;xg;di,wp; an;iy;bn;wb;bn; men;oo;dg;am;dv; nei;oe;ad,kr;mj;ld;	3
+达官营	da;xq;zd;mu;zd; guan;id;bg,bk;wk;bk; ying;zo;cl;ld;ck;	4
+湾子	wan;kr;dw;kb;dg; zi;aa;aa,vh;hi;va;	5
+北京西站	bei;la;ap,bj;av;lb; jing;if;wx;gy;wx; xi;pp;aa;vx;aa; zhan;bo;lv;id;lk;	63
+中国美术馆	zhong;op;aa,ka;dg;ll; guo;na,nh;ky;ri;ky; mei;fx;dy,yd;gm;yd; shu;wh;md;ei;md; guan;gd;ug;qk;uk;	23
+什刹海	shen;xs;ru;jn;ru; sha;yi;du;bp;xd; hai;kh;dm;kk;dm;	101
+安德里北街	an;iy;bn;wb;bn; de;hn;xx;wh;ix; li;vg;aa,tt;dl;la; bei;la;ap,bj;av;lb; jie;hj;xg,xi;pg;ii;	0
+安华桥	an;iy;bn;wb;bn; hua;xs;uh;jn;ru; qiao;wp;mq;ep;ml;	1
+北土城	bei;la;ap,bj;av;lb; tu;gg;aa;gt;ua; cheng;gh;ti;ga;ti;	12
+奥体中心	ao;ux;dm,pd;tm;pd; ti;xd;rb;jf;rb; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	64
+奥林匹克公园	ao;ux;dm,pd;tm;pd; lin;ww;mm;ee;mm; pi;dr;ke;np;ke; ke;sk;eg,ux;cp;ue; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	36
+森林公园南门	sen;ww;ml;ee;mm; lin;ww;mm;ee;mm; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke; nan;ss;ua,uy;ng;ug,ag; men;oo;dg;am;dv;	1
+林萃桥	lin;ww;mm;ee;mm; cui;zs;cz;ln;cu; qiao;wp;mq;ep;ml;	0
+永泰庄	yong;hh;dd;ik;dn; tai;uo;fu,uf;ak;fu; zhuang;rg;gt;xg;gt;	4
+西小口	xi;pp;aa;vx;aa; xiao;pf;ad;yx;ld; kou;oo;aa;dk;la;	3
+育新	yu;il;os,wo;bv;wo; xin;bp;jq;it;lj;	9
+霍营	huo;ya;yv;tu;yf; ying;zo;cl;ld;ck;	13
+回龙观东大街	hui;no;kk;rd;kk; long;sh;ad;tl;ud; guan;lk;jy,yj;re;ye; dong;df,af;ad,qx;ry;ad; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+平西府	ping;ds,sf;aa,gb;eh;au; xi;pp;aa;vx;aa; fu;rw,rk;gf;xk;gc;	1
+育知路	yu;il;os,wo;bv;wo; zhi;eo;uk,ku;od;uk; lu;go;zg;ps;zk;	0
+朱辛庄	zhu;ee;pw;ta;nn,pw; xin;bs;lu;nx;lu; zhuang;rg;gt;xg;gt;	1
+天桥	tian;ue;ad;fm;ad; qiao;wp;mq;ep;ml;	422
+永定门外	yong;hh;dd;ik;dn; ding;ie;bp;wt;br; men;oo;dg;am;dv; wai;fh;xb;ly;xb;	1
+木樨园	mu;ww;ad;em;an,un; xi;wb;mx;eq;mn; yuan;nk;ky;rp;ke;	5
+海户屯	hai;kh;dm;kk;dm; hu;qq;dp,du;mh;du; tun;dr;ag;fs;av;	1
+大红门南	da;xx;ad;md;un; hong;ep;sg;iu;sg; men;oo;dg;am;dv; nan;ss;ua,uy;ng;ug,ag;	0
+和义	he;uo;hk;xd;hk; yi;hy,yh;di,id;ib;dx;	44
+东高地	dong;df,af;ad,qx;ry;ad; gao;io;wk;gg;wk; di;gr,ga;ty;ge;ty;	5
+火箭万源	huo;tt;dd;ch;dr; jian;ni;vq;rp;vd; wan;du;ag,ap;fp;ap; yuan;kf;dy;ky;dx;	0
+五福堂	wu;gg;aa;wu;aa; fu;hw;uf,ut;fq;pt; tang;hg;tk,dt,xt;sg;xt;	1
+德茂	de;hn;xx;wh;ix; mao;zh;cw;ln;cw;	5
+瀛海	ying;ky;dy;ki;df; hai;kh;dm;kk;dm;	12
+郭公庄	guo;ib;ex;gt;we; gong;fp;sb,bs;hk;bs; zhuang;rg;gt;xg;gt;	2
+丰台科技园	feng;aa;aa;af;al; tai;po;sk;kd;sk; ke;uh,us;hd;xj;hu; ji;jl;fv;uc;fy; yuan;nk;ky;rp;ke;	9
+科怡路	ke;uh,us;hd;xj;hu; yi;no;xt;hd;xk; lu;go;zg;ps;zk;	0
+丰台南路	feng;aa;aa;af;al; tai;po;sk;kd;sk; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+丰台东大街	feng;aa;aa;af;al; tai;po;sk;kd;sk; dong;df,af;ad,qx;ry;ad; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+七里庄	qi;aa;ag;rq;av; li;vg;aa,tt;dl;la; zhuang;rg;gt;xg;gt;	1
+六里桥	liu;if;wb,dd,db;al;wb; li;vg;aa,tt;dl;la; qiao;wp;mq;ep;ml;	10
+六里桥东	liu;if;wb,dd,db;al;wb; li;vg;aa,tt;dl;la; qiao;wp;mq;ep;ml; dong;df,af;ad,qx;ry;ad;	0
+白堆子	bai;ss;pa,po;ub;po; dui;ga;tv;gu;tf; zi;aa;aa,vh;hi;va;	2
+巴沟	ba;tt;ag,kg,vg;mb;sl,vv; gou;kp;dg;kk;ds;	10
+苏州街	su;zf;cb;lh;cb; zhou;hp;id,da;oo;dl; jie;hj;xg,xi;pg;ii;	27
+知春里	zhi;eo;uk,ku;od;uk; chun;uv;of,fo;ao;fo; li;vg;aa,tt;dl;la;	4
+知春路	zhi;eo;uk,ku;od;uk; chun;uv;of,fo;ao;fo; lu;go;zg;ps;zk;	29
+西土城	xi;pp;aa;vx;aa; tu;gg;aa;gt;ua; cheng;gh;ti;ga;ti;	8
+牡丹园	mu;bg;nt;qg;nt; dan;ua,ud,uz,od,oz;pd;mz;pa; yuan;nk;ky;rp;ke;	25
+健德门	jian;xq;rj;ju;rz; de;hn;xx;wh;ix; men;oo;dg;am;dv;	7
+安贞门	an;iy;bn;wb;bn; zhen;pm;bb;yo;lr; men;oo;dg;am;dv;	1
+芍药居	shao;zh;cu;li;cu; yao;zh;cy;li;cu; ju;qo;ug;cc;uk;	14
+太阳宫	tai;xh;dd;mi;dd; yang;bv;eo;to;eo; gong;io;bl;wd;bk;	30
+三元桥	san;uu;aa;ts;ae; yuan;uk;aw,ee;mp;ee; qiao;wp;mq;ep;ml;	43
+亮马桥	liang;ii;wj,jb;go;wj; ma;zz;aa,vh;nm;va; qiao;wp;mq;ep;ml;	38
+农业展览馆	nong;ih;by,ny;wt;dn; ye;pd;aa;cy;la; zhan;qh;uy;ct;un; lan;pk;jv;pe;le; guan;gd;ug;qk;uk;	1
+团结湖	tuan;nu;kc;rt;kc; jie;eo;sj;id;sk; hu;kl;dh;kv;do;	8
+金台夕照	jin;ed,ef;ra,pa;zj;ra; tai;po;sk;kd;sk; xi;ff;pd;lx;pd; zhao;vn;hv;oc;oh;	7
+双井	shuang;ll;yy;rr;yy; jing;up;aa,ep;qj;al;	22
+劲松	jing;ru;lg;rs;vl; song;wp;mg;ek;ms;	41
+潘家园	pan;kw;df;kq;dt; jia;ih;bu;wj;bu; yuan;nk;ky;rp;ke;	64
+十里河	shi;ss;aa;ns;al; li;vg;aa,tt;dl;la; he;kj;dk;kz;dk;	22
+分钟寺	fen;fu,fi;bd,db;hp;bd; zhong;dp;jv;zg;jv; si;gk;ct,tc;gk;tc;	4
+成寿寺	cheng;rh;gg,wg;na;wv; shou;uk;cf,fc;ak;fc; si;gk;ct,tc;gk;tc;	0
+石榴庄	shi;tt;kp,aa,ak,pk;ms;ak; liu;ww;ml;eq;mt; zhuang;rg;gt;xg;gt;	0
+大红门	da;xx;ad;md;un; hong;ep;sg;iu;sg; men;oo;dg;am;dv;	20
+角门东	jiao;gp;dy;xt;dy; men;oo;dg;am;dv; dong;df,af;ad,qx;ry;ad;	5
+草桥	cao;zs;cz;ln;cu; qiao;wp;mq;ep;ml;	16
+纪家庙	ji;et;sj;iv;sj; jia;ih;bu;wj;bu; miao;rp;gy;xd;gy;	2
+首经贸	shou;fs;qz;ho;bz; jing;ep;sg;iu;sg; mao;um;bd,lb;bo;pr;	239
+丰台站	feng;aa;aa;af;al; tai;po;sk;kd;sk; zhan;bo;lv;id;lk;	1
+泥洼	ni;ka;dn;kv;db; wa;kg;dg;kg;dt;	4
+西局	xi;pp;aa;vx;aa; ju;qo;uk;cd;uk;	1
+莲花桥	lian;zq;cl;lu;cz; hua;za;ch;lv;cb; qiao;wp;mq;ep;ml;	1
+西钓鱼台	xi;pp;aa;vx;aa; diao;dh;ju;zi;ju; yu;qq;da;wv;da; tai;po;sk;kd;sk;	2
+车道沟	che;tt;aa;yc;al; dao;fq;zu;hu;zz; gou;kp;dg;kk;ds;	1
+长春桥	chang;uh;pd;pc;pn; chun;uv;of,fo;ao;fo; qiao;wp;mq;ep;ml;	3
+火器营	huo;tt;dd;ch;dr; qi;oo;kk,qk;dd;kk; ying;zo;cl;ld;ck;	14
+大钟寺	da;xx;ad;md;un; zhong;dp;jv;zg;jv; si;gk;ct,tc;gk;tc;	13
+五道口	wu;gg;aa;wu;aa; dao;fq;zu;hu;zz; kou;oo;aa;dk;la;	529
+上地	shang;pd,pu;aa,ba;yf;la; di;gr,ga;ty;ge;ty;	90
+西二旗	xi;pp;aa;vx;aa; er;uu;aa;me;aa; qi;ff;fq;lh;fb;	79
+龙泽	long;sh;ad;tl;ud; ze;kp;df;ku;dl;	8
+回龙观	hui;no;kk;rd;kk; long;sh;ad;tl;ud; guan;lk;jy,yj;re;ye;	77
+北苑	bei;la;ap,bj;av;lb; yuan;zt;ce,cy;lz;cv;	68
+望京西	wang;ia;wo;fn;ww; jing;if;wx;gy;wx; xi;pp;aa;vx;aa;	3
+光熙门	guang;hk;ea,xw;mg;xw; xi;dn;hs;qc;kh; men;oo;dg;am;dv;	1
+柳芳	liu;wb;mm;eb;me; fang;zf;cf;ll;cf;	4
+善各庄	shan;fo;yk,ka,kq;gd;yk; ge;jo;wk;sg;wk; zhuang;rg;gt;xg;gt;	1
+来广营	lai;uf,ef,dl;am,wb;ah;an; guang;rr;dp;xg;di,wp; ying;zo;cl;ld;ck;	23
+东湖渠	dong;df,af;ad,qx;ry;ad; hu;kl;dh;kv;do; qu;kw;mj;ke;dm;	0
+望京	wang;ia;wo;fn;ww; jing;if;wx;gy;wx;	273
+阜通	fu;us;pu,uk,vu;tn;pu; tong;pq;zy;ku;zy;	2
+望京南	wang;ia;wo;fn;ww; jing;if;wx;gy;wx; nan;ss;ua,uy;ng;ug,ag;	0
+将台	jiang;lk;dc,jc,pc;ak;dc; tai;po;sk;kd;sk;	0
+东风北桥	dong;df,af;ad,qx;ry;ad; feng;iy;ji;ob;jx; bei;la;ap,bj;av;lb; qiao;wp;mq;ep;ml;	0
+枣营	zao;dh;cd;ew;ad; ying;zo;cl;ld;ck;	3
+朝阳公园	zhao;sl;ou,uo;nv;uo; yang;bv;eo;to;eo; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	35
+平乐园	ping;ds,sf;aa,gb;eh;au; le;uf;pd,px;by;pd; yuan;nk;ky;rp;ke;	2
+北工大西门	bei;la;ap,bj;av;lb; gong;pp;aa;ug;aa; da;xx;ad;md;un; xi;pp;aa;vx;aa; men;oo;dg;am;dv;	1
+方庄	fang;ff;dg,wd,dp,dw;lf;dw; zhuang;rg;gt;xg;gt;	14
+景泰	jing;vf;oj;oy;ox; tai;uo;fu,uf;ak;fu;	116
+大井	da;xx;ad;md;un; jing;up;aa,ep;qj;al;	38
+郭庄子	guo;ib;ex;gt;we; zhuang;rg;gt;xg;gt; zi;aa;aa,vh;hi;va;	0
+大瓦窑	da;xx;ad;md;un; wa;dh;ad;rw;ad; yao;ip;xf,bf;ea;bf;	1
+园博园	yuan;nk;ky;rp;ke; bo;sk;uc,uf;nk;uc; yuan;nk;ky;rp;ke;	38
+张郭庄	zhang;rh;gi;bp;gi; guo;ib;ex;gt;we; zhuang;rg;gt;xg;gt;	4
+俸伯	feng;xp;rf;ju;rl; bo;xs;rb;ju;rb;	7
+顺义	shun;um;yi;ow;ir; yi;hy,yh;di,id;ib;dx;	130
+石门	shi;tt;kp,aa,ak,pk;ms;ak; men;oo;dg;am;dv;	235
+南法信	nan;ss;ua,uy;ng;ug,ag; fa;kp;dq;kk;ds; xin;xo,xc;ry;js;rk;	10
+后沙峪	hou;uo;pk;xd;pk; sha;ku;du;kt;du; yu;po;ug;vh;ek;	1
+花梨坎	hua;za;ch;lv;cb; li;uw;ml;xe;hm; kan;ge;tq;ge;tr;	2
+国展	guo;na,nh;ky;ri;ky; zhan;qh;uy;ct;un;	15
+孙河	sun;af;zx;hy;zx; he;kj;dk;kz;dk;	13
+马泉营	ma;zz;aa,vh;nm;va; quan;so;bu,ub;uk;bu; ying;zo;cl;ld;ck;	1
+崔各庄	cui;pa;uv;vu;ef; ge;jo;wk;sg;wk; zhuang;rg;gt;xg;gt;	3
+望京东	wang;ia;wo;fn;ww; jing;if;wx;gy;wx; dong;df,af;ad,qx;ry;ad;	0
+关庄	guan;fx;bt,qd;hm;bt; zhuang;rg;gt;xg;gt;	0
+安立路	an;iy;bn;wb;bn; li;bb;da;il;wa; lu;go;zg;ps;zk;	2
+北沙滩	bei;la;ap,bj;av;lb; sha;ku;du;kt;du; tan;ka;dn;ku;df;	6
+六道口	liu;if;wb,dd,db;al;wb; dao;fq;zu;hu;zz; kou;oo;aa;dk;la;	14
+清华东路西口	qing;kl;dq;kv;do; hua;xs;uh;jn;ru; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk; xi;pp;aa;vx;aa; kou;oo;aa;dk;la;	3
+北安河	bei;la;ap,bj;av;lb; an;iy;bn;wb;bn; he;kj;dk;kz;dk;	5
+温阳路	wen;kd,ka;dm,dw;ka;dm; yang;bv;eo;to;eo; lu;go;zg;ps;zk;	0
+稻香湖路	dao;us;hj,hy;xp;hj; xiang;uv;ho;xo;ho; hu;kl;dh;kv;do; lu;go;zg;ps;zk;	0
+屯佃	tun;dr;ag;fs;av; dian;xw;rt;jq;rt;	0
+永丰	yong;hh;dd;ik;dn; feng;aa;aa;af;al;	116
+永丰南	yong;hh;dd;ik;dn; feng;aa;aa;af;al; nan;ss;ua,uy;ng;ug,ag;	0
+西北旺	xi;pp;aa;vx;aa; bei;la;ap,bj;av;lb; wang;va;ow;on;ow;	16
+马连洼	ma;zz;aa,vh;nm;va; lian;tq;zi;yu;zi; wa;kg;dg;kg;dt;	4
+农大南路	nong;ih;by,ny;wt;dn; da;xx;ad;md;un; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+高碑店	gao;io;wk;gg;wk; bei;ts;ub;mn;uu; dian;ro;gv;xd;gk;	18
+传媒大学	chuan;xh;rv;ji;rv; mei;yw;nm;be;nm; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	103
+双桥	shuang;ll;yy;rr;yy; qiao;wp;mq;ep;ml;	26
+管庄	guan;nd;vg;rk;vk; zhuang;rg;gt;xg;gt;	9
+八里桥	ba;ff;pd;hb;pn; li;vg;aa,tt;dl;la; qiao;wp;mq;ep;ml;	16
+通州北苑	tong;pq;zy;ku;zy; zhou;hp;id,da;oo;dl; bei;la;ap,bj;av;lb; yuan;zt;ce,cy;lz;cv;	5
+果园	guo;vw;ad,tm;qe;ln; yuan;nk;ky;rp;ke;	504
+九棵树	jiu;ur;py;kj;pv; ke;ww;mg;ee;mg; shu;wk;md;ek;mc;	4
+梨园	li;uw;ml;xe;hm; yuan;nk;ky;rp;ke;	150
+临河里	lin;pd;ao,do;po;la; he;kj;dk;kz;dk; li;vg;aa,tt;dl;la;	0
+土桥	tu;gg;aa;gt;ua; qiao;wp;mq;ep;ml;	4
+昌平西山口	chang;vv;oo;oo;oo; ping;ds,sf;aa,gb;eh;au; xi;pp;aa;vx;aa; shan;pp;aa;vs;lk; kou;oo;aa;dk;la;	8
+十三陵景区	shi;ss;aa;ns;al; san;uu;aa;ts;ae; ling;bj;el,ew;th;ew; jing;vf;oj;oy;ox; qu;dr;ki;nb;kx;	2
+昌平	chang;vv;oo;oo;oo; ping;ds,sf;aa,gb;eh;au;	451
+昌平东关	chang;vv;oo;oo;oo; ping;ds,sf;aa,gb;eh;au; dong;df,af;ad,qx;ry;ad; guan;fx;bt,qd;hm;bt;	9
+北邵洼	bei;la;ap,bj;av;lb; shao;ib,rb;ev;pt;de; wa;kg;dg;kg;dt;	0
+南邵	nan;ss;ua,uy;ng;ug,ag; shao;ib,rb;ev;pt;de;	2
+沙河高教园	sha;ku;du;kt;du; he;kj;dk;kz;dk; gao;io;wk;gg;wk; jiao;gj;wx;qh;lw; yuan;nk;ky;rp;ke;	4
+沙河	sha;ku;du;kt;du; he;kj;dk;kz;dk;	223
+巩华城	gong;ph;gf;ui;gf; hua;xs;uh;jn;ru; cheng;gh;ti;ga;ti;	0
+生命科学园	sheng;aa;na;ls;pf; ming;eb;re;jz;re; ke;uh,us;hd;xj;hu; xue;ha;dz,zb;kh;xz; yuan;nk;ky;rp;ke;	5
+阎村东	yan;os;mj,mx;ap;mj; cun;wk;mc;ek;mc; dong;df,af;ad,qx;ry;ad;	0
+苏庄	su;zf;cb;lh;cb; zhuang;rg;gt;xg;gt;	1
+良乡南关	liang;hh;dg;ii;dg; xiang;ru;ap,vp;ix;vp; nan;ss;ua,uy;ng;ug,ag; guan;fx;bt,qd;hm;bt;	0
+良乡大学城西	liang;hh;dg;ii;dg; xiang;ru;ap,vp;ix;vp; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; cheng;gh;ti;ga;ti; xi;pp;aa;vx;aa;	0
+良乡大学城	liang;hh;dg;ii;dg; xiang;ru;ap,vp;ix;vp; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; cheng;gh;ti;ga;ti;	8
+良乡大学城北	liang;hh;dg;ii;dg; xiang;ru;ap,vp;ix;vp; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; cheng;gh;ti;ga;ti; bei;la;ap,bj;av;lb;	0
+广阳城	guang;rr;dp;xg;di,wp; yang;bv;eo;to;eo; cheng;gh;ti;ga;ti;	0
+篱笆房	li;np,nh;vl;rv;vd; ba;nt;vb;rm;vb; fang;qf;hf;ml;hf;	1
+长阳	zhang;uh;pd;pc;pn; yang;bv;eo;to;eo;	68
+稻田	dao;us;hj,hy;xp;hj; tian;ww;aa;qt;ku;	298
+大葆台	da;xx;ad;md;un; bao;zw;cb;le;cm; tai;po;sk;kd;sk;	1
+T3航站楼	T3;;;;; hang;;;;; zhan;ti;vk;io;vj; lou;bo;lv;id;lk;	12
+T2航站楼	T2;;;;; hang;;;;; zhan;ti;vk;io;vj; lou;bo;lv;id;lk;	19
+颐和园西门	yi;dm;yi;qw;kr; he;uo;hk;xd;hk; yuan;nk;ky;rp;ke; xi;pp;aa;vx;aa; men;oo;dg;am;dv;	3
+茶棚	cha;zf;cm;le;cm; peng;wl;mp;ev;mo;	15
+万安	wan;du;ag,ap;fp;ap; an;iy;bn;wb;bn;	58
+植物园	zhi;wd,wu;mv;ef;mq; wu;bi;nw;qe;nw; yuan;nk;ky;rp;ke;	432
+香山	xiang;uv;ho;xo;ho; shan;pp;aa;vs;lk;	284
+紫草坞	zi;rf;sc;si;vx; cao;zs;cz;ln;cu; wu;gd;tw;gx;tw;	0
+阎村	yan;os;mj,mx;ap;mj; cun;wk;mc;ek;mc;	2
+星城	xing;va;ou;ol;ou; cheng;gh;ti;ga;ti;	54
+大石河东	da;xx;ad;md;un; shi;tt;kp,aa,ak,pk;ms;ak; he;kj;dk;kz;dk; dong;df,af;ad,qx;ry;ad;	0
+马各庄	ma;zz;aa,vh;nm;va; ge;jo;wk;sg;wk; zhuang;rg;gt;xg;gt;	5
+饶乐府	rao;gk;uy;qp;uw; yue;uf;pd,px;by;pd; fu;rw,rk;gf;xk;gc;	0
+房山城关	fang;qf;hf;ml;hf; shan;pp;aa;vs;lk; cheng;gh;ti;ga;ti; guan;fx;bt,qd;hm;bt;	0
+燕山	yan;vn;ch,hb;lc;ah,nh; shan;pp;aa;vs;lk;	343
+肖村	xiao;hl;ox,xo;yv;xo; cun;wk;mc;ek;mc;	0
+小红门	xiao;pf;ad;yx;ld; hong;ep;sg;iu;sg; men;oo;dg;am;dv;	1
+旧宫	jiu;pv;ao;go;lo; gong;io;bl;wd;bk;	14
+亦庄桥	yi;ii,if;wb,wy,dd;zc;wd; zhuang;rg;gt;xg;gt; qiao;wp;mq;ep;ml;	0
+亦庄文化园	yi;ii,if;wb,wy,dd;zc;wd; zhuang;rg;gt;xg;gt; wen;jj;wi,dd;vw;wx; hua;xa;rb;jv;rb; yuan;nk;ky;rp;ke;	0
+万源街	wan;du;ag,ap;fp;ap; yuan;kf;dy;ky;dx; jie;hj;xg,xi;pg;ii;	0
+荣京东街	rong;zw;cm,mb;le;cm; jing;if;wx;gy;wx; dong;df,af;ad,qx;ry;ad; jie;hj;xg,xi;pg;ii;	1
+荣昌东街	rong;zw;cm,mb;le;cm; chang;vv;oo;oo;oo; dong;df,af;ad,qx;ry;ad; jie;hj;xg,xi;pg;ii;	0
+同济南路	tong;oo;kk;md;kk; ji;kp;dq;kq;dl; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+经海路	jing;ep;sg;iu;sg; hai;kh;dm;kk;dm; lu;go;zg;ps;zk;	6
+次渠南	ci;fe;dq;we;dr; qu;kw;mj;ke;dm; nan;ss;ua,uy;ng;ug,ag;	0
+次渠	ci;fe;dq;we;dr; qu;kw;mj;ke;dm;	5
+亦庄火车站	yi;ii,if;wb,wy,dd;zc;wd; zhuang;rg;gt;xg;gt; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+莘庄	xin;zs;cx;ln;cu; zhuang;rg;gt;xg;gt;	67
+外环路	wai;fh;xb;ly;xb; huan;ah;wb;nc;wb; lu;go;zg;ps;zk;	5
+莲花路	lian;zq;cl;lu;cz; hua;za;ch;lv;cb; lu;go;zg;ps;zk;	9
+锦江乐园	jin;dy;jb,jj;zr;jj; jiang;kp;dg;ku;dg; le;uf;pd,px;by;pd; yuan;nk;ky;rp;ke;	3
+上海南站	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	27
+漕宝路	cao;kv;dc;ko;do; bao;ia,ih;by;wi;by; lu;go;zg;ps;zk;	16
+上海体育馆	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; guan;gd;ug;qk;uk;	10
+徐家汇	xu;hf;xy;wx;ih; jia;ih;bu;wj;bu; hui;kr;dk;kn;dk;	163
+衡山路	heng;hj;xd,xi;pw;ii; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	57
+常熟路	chang;hy;jk,xd,dd;sr;xj; shu;in;hu;gc;wh; lu;go;zg;ps;zk;	29
+陕西南路	shan;bx;ej;th;ej; xi;pp;aa;vx;aa; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	39
+黄陂南路	huang;zf;ad,cb;nh;cb; pi;bl;ep;tr;ey; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	7
+人民广场	ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	167
+新闸路	xin;bp;jq;it;lj; zha;op;mj;as;mj; lu;go;zg;ps;zk;	12
+汉中路	han;kl;dy;kr;dy; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	6
+上海火车站	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	27
+中山北路	zhong;op;aa,ka;dg;ll; shan;pp;aa;vs;lk; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	31
+延长路	yan;uq;zv;tu;zv; chang;uh;pd;pc;pn; lu;go;zg;ps;zk;	3
+上海马戏城	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; ma;zz;aa,vh;nm;va; xi;la;yg;rp;yg; cheng;gh;ti;ga;ti;	0
+汶水路	wen;kj;dw;kv;dw; shui;oo;ad,uv;ks;ln; lu;go;zg;ps;zk;	1
+彭浦新村	peng;gu;pd,up;he;up; pu;kh;df;kn;df; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	1
+共康路	gong;zf;bc,cb;lh;cb; kang;ro;gl;xk;gn; lu;go;zg;ps;zk;	0
+通河新村	tong;pq;zy;ku;zy; he;kj;dk;kz;dk; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	3
+呼兰路	hu;op;kh;dn;kh; lan;fu;bs,qe;ht;bs; lu;go;zg;ps;zk;	0
+共富新村	gong;zf;bc,cb;lh;cb; fu;iw;bf,bt;wq;bt; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	0
+宝安公路	bao;ia,ih;by;wi;by; an;iy;bn;wb;bn; gong;fp;sb,bs;hk;bs; lu;go;zg;ps;zk;	0
+友谊西路	you;sl;yu,uy;nr;uy; yi;cu;yy;sf;yq; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	4
+富锦路	fu;iw;bf,bt;wq;bt; jin;dy;jb,jj;zr;jj; lu;go;zg;ps;zk;	1
+广兰路	guang;rr;dp;xg;di,wp; lan;fu;bs,qe;ht;bs; lu;go;zg;ps;zk;	8
+金科路	jin;ed,ef;ra,pa;zj;ra; ke;uh,us;hd;xj;hu; lu;go;zg;ps;zk;	5
+张江高科	zhang;rh;gi;bp;gi; jiang;kp;dg;ku;dg; gao;io;wk;gg;wk; ke;uh,us;hd;xj;hu;	12
+龙阳路	long;sh;ad;tl;ud; yang;bv;eo;to;eo; lu;go;zg;ps;zk;	32
+世纪公园	shi;vr;ca,cv,aa;la;av; ji;et;sj;iv;sj; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	26
+上海科技馆	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; ke;uh,us;hd;xj;hu; ji;jl;fv;uc;fy; guan;gd;ug;qk;uk;	19
+世纪大道	shi;vr;ca,cv,aa;la;av; ji;et;sj;iv;sj; da;xx;ad;md;un; dao;fq;zu;hu;zz;	59
+东昌路	dong;df,af;ad,qx;ry;ad; chang;vv;oo;oo;oo; lu;go;zg;ps;zk;	2
+陆家嘴	lu;bp;ej;tm;ej; jia;ih;bu;wj;bu; zui;op;kj,kz;dt;ky;	487
+南京东路	nan;ss;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	65
+南京西路	nan;ss;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	96
+静安寺	jing;ap;qv;ab;fl; an;iy;bn;wb;bn; si;gk;ct,tc;gk;tc;	111
+江苏路	jiang;kp;dg;ku;dg; su;zf;cb;lh;cb; lu;go;zg;ps;zk;	51
+中山公园	zhong;op;aa,ka;dg;ll; shan;pp;aa;vs;lk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	134
+娄山关路	lou;ly;mn,nm;pb;mn; shan;pp;aa;vs;lk; guan;fx;bt,qd;hm;bt; lu;go;zg;ps;zk;	5
+威宁路	wei;rh;gn,ng,wn;nb;ad,wn,xn; ning;ij;bd;wa;bd; lu;go;zg;ps;zk;	1
+北新泾	bei;la;ap,bj;av;lb; xin;bp;jq;it;lj; jing;kp;dg;ku;dg;	2
+淞虹路	song;kp;ds;kk;ds; hong;fp;ig;cu;ig; lu;go;zg;ps;zk;	3
+虹桥2号航站楼	hong;fp;ig;cu;ig; qiao;wp;mq;ep;ml; 2;;;;; hao;or;kk;da;kv; hang;ti;vk;io;vj; zhan;bo;lv;id;lk; lou;wy;ml;eb;mn;	0
+虹桥火车站	hong;fp;ig;cu;ig; qiao;wp;mq;ep;ml; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	38
+徐泾东	xu;hf;xy;wx;ih; jing;kp;dg;ku;dg; dong;df,af;ad,qx;ry;ad;	3
+浦东国际机场	pu;kh;df;kn;df; dong;df,af;ad,qx;ry;ad; guo;na,nh;ky;ri;ky; ji;bf;eu;tf;ex; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp;	14
+海天三路	hai;kh;dm;kk;dm; tian;ue;ad;fm;ad; san;uu;aa;ts;ae; lu;go;zg;ps;zk;	2
+远东大道	yuan;uq;zy;mu;ze; dong;df,af;ad,qx;ry;ad; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+凌空路	ling;fj;dl,dw;wh;dw; kong;ip;xg,bg;eu;bg; lu;go;zg;ps;zk;	1
+川沙	chuan;up;pa;oc;pl; sha;ku;du;kt;du;	52
+华夏东路	hua;xs;uh;jn;ru; xia;dj;wz,aw;fh;aw; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+创新中路	chuang;ei;dc;jp;rd; xin;bp;jq;it;lj; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+唐镇	tang;ro;gk;xd;gk; zhen;df;jv;zh;jb;	11
+江杨北路	jiang;kp;dg;ku;dg; yang;wu;my;ee;mp; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	1
+铁力路	tie;de;ju;zh;ju; li;uu;gp;sl;vp; lu;go;zg;ps;zk;	0
+友谊路	you;sl;yu,uy;nr;uy; yi;cu;yy;sf;yq; lu;go;zg;ps;zk;	13
+宝杨路	bao;ia,ih;by;wi;by; yang;wu;my;ee;mp; lu;go;zg;ps;zk;	3
+水产路	shui;oo;ad,uv;ks;ln; chan;bu,br,ir;dp,li,wp;ix;lp; lu;go;zg;ps;zk;	1
+淞滨路	song;kp;ds;kk;ds; bin;kf;db;kh;db; lu;go;zg;ps;zk;	0
+张华浜	zhang;rh;gi;bp;gi; hua;xs;uh;jn;ru; bang;kf;db;kh;db;	1
+淞发路	song;kp;ds;kk;ds; fa;rh;ay,fd,vy,yd;si;vd; lu;go;zg;ps;zk;	0
+长江南路	chang;uh;pd;pc;pn; jiang;kp;dg;ku;dg; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+殷高西路	yin;ul;pu,uu;zr;py; gao;io;wk;gg;wk; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	1
+江湾镇	jiang;kp;dg;ku;dg; wan;kr;dw;kb;dg; zhen;df;jv;zh;jb;	4
+大柏树	da;xx;ad;md;un; bai;ws;mb;eu;mb; shu;wk;md;ek;mc;	11
+赤峰路	chi;gf,gi;tb,ty;gc;td; feng;pa;uf;va;ef; lu;go;zg;ps;zk;	8
+虹口足球场	hong;fp;ig;cu;ig; kou;oo;aa;dk;la; zu;gg;kv;pu;kr; qiu;ah;wq;ni;wq; chang;gu;ty;ge;tp;	18
+东宝兴路	dong;df,af;ad,qx;ry;ad; bao;ia,ih;by;wi;by; xing;hf;ba,db;kh;xb; lu;go;zg;ps;zk;	1
+宝山路	bao;ia,ih;by;wi;by; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	4
+中潭路	zhong;op;aa,ka;dg;ll; tan;ks;dt;kn;du; lu;go;zg;ps;zk;	2
+镇坪路	zhen;df;jv;zh;jb; ping;gf,gs;tp;gh;tp; lu;go;zg;ps;zk;	8
+曹杨路	cao;dv;oc,co;fo;ao; yang;wu;my;ee;mp; lu;go;zg;ps;zk;	8
+金沙江路	jin;ed,ef;ra,pa;zj;ra; sha;ku;du;kt;du; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	6
+延安西路	yan;uq;zv;tu;zv; an;iy;bn;wb;bn; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	19
+虹桥路	hong;fp;ig;cu;ig; qiao;wp;mq;ep;ml; lu;go;zg;ps;zk;	7
+宜山路	yi;iu;bq;wf;bq; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	12
+漕溪路	cao;kv;dc;ko;do; xi;kx;dx;km;dd; lu;go;zg;ps;zk;	2
+龙漕路	long;sh;ad;tl;ud; cao;kv;dc;ko;do; lu;go;zg;ps;zk;	2
+石龙路	shi;tt;kp,aa,ak,pk;ms;ak; long;sh;ad;tl;ud; lu;go;zg;ps;zk;	0
+海伦路	hai;kh;dm;kk;dm; lun;;rl;jj;rb; lu;go;zg;ps;zk;	10
+临平路	lin;pd;ao,do;po;la; ping;ds,sf;aa,gb;eh;au; lu;go;zg;ps;zk;	0
+大连路	da;xx;ad;md;un; lian;tq;zi;yu;zi; lu;go;zg;ps;zk;	10
+杨树浦路	yang;wu;my;ee;mp; shu;wk;md;ek;mc; pu;kh;df;kn;df; lu;go;zg;ps;zk;	5
+浦东大道	pu;kh;df;kn;df; dong;df,af;ad,qx;ry;ad; da;xx;ad;md;un; dao;fq;zu;hu;zz;	4
+浦电路(4号线)	pu;kh;df;kn;df; dian;ee,ve;ag,og;oa;lv; lu;go;zg;ps;zk; (4;;;;; hao;;;;; xian;or;kk;da;kv; );ea;sj;ip;sj;	0
+蓝村路	lan;zd,za;cj;la;cm; cun;wk;mc;ek;mc; lu;go;zg;ps;zk;	3
+塘桥	tang;go;tt;gd;tk; qiao;wp;mq;ep;ml;	4
+南浦大桥	nan;ss;ua,uy;ng;ug,ag; pu;kh;df;kn;df; da;xx;ad;md;un; qiao;wp;mq;ep;ml;	14
+西藏南路	xi;pp;aa;vx;aa; zang;zh;cg,ci;lq;ci; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	6
+鲁班路	lu;qv;yo;wo;ao; ban;au,aa;dw,ww;nn;ww; lu;go;zg;ps;zk;	13
+大木桥路	da;xx;ad;md;un; mu;ww;ad;em;an,un; qiao;wp;mq;ep;ml; lu;go;zg;ps;zk;	3
+东安路	dong;df,af;ad,qx;ry;ad; an;iy;bn;wb;bn; lu;go;zg;ps;zk;	7
+上海体育场	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; chang;gu;ty;ge;tp;	8
+闵行开发区	min;oj;mw;av;mw; xing;hj;xd,xi;px;ii; kai;dz,dp,up;ac;fl;ac; fa;rh;ay,fd,vy,yd;si;vd; qu;dr;ki;nb;kx;	4
+文井路	wen;jj;wi,dd;vw;wx; jing;up;aa,ep;qj;al; lu;go;zg;ps;zk;	0
+华宁路	hua;xs;uh;jn;ru; ning;ij;bd;wa;bd; lu;go;zg;ps;zk;	3
+金平路	jin;ed,ef;ra,pa;zj;ra; ping;ds,sf;aa,gb;eh;au; lu;go;zg;ps;zk;	1
+东川路	dong;df,af;ad,qx;ry;ad; chuan;up;pa;oc;pl; lu;go;zg;ps;zk;	30
+春申路	chun;uv;of,fo;ao;fo; shen;vp;aa,oa;og;ll; lu;go;zg;ps;zk;	4
+银都路	yin;dh;jg;zi;jg; dou;gb;ev;qt;le; lu;go;zg;ps;zk;	3
+颛桥	zhuan;pm;ye;vw;er; qiao;wp;mq;ep;ml;	9
+北桥	bei;la;ap,bj;av;lb; qiao;wp;mq;ep;ml;	28
+剑川路	jian;ei;da,dq;jp;rd; chuan;up;pa;oc;pl; lu;go;zg;ps;zk;	3
+江川路	jiang;kp;dg;ku;dg; chuan;up;pa;oc;pl; lu;go;zg;ps;zk;	5
+西渡	xi;pp;aa;vx;aa; du;kl;dd;kr;dy;	92
+萧塘	xiao;zf;cs;lh;cs; tang;go;tt;gd;tk;	0
+奉浦大道	feng;up;ff;au;fl; pu;kh;df;kn;df; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+环城东路	huan;ah;wb;nc;wb; cheng;gh;ti;ga;ti; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	4
+望园路	wang;ia;wo;fn;ww; yuan;nk;ky;rp;ke; lu;go;zg;ps;zk;	0
+金海湖	jin;ed,ef;ra,pa;zj;ra; hai;kh;dm;kk;dm; hu;kl;dh;kv;do;	7
+奉贤新城	feng;up;ff;au;fl; xian;pm;by;po;lr; xin;bp;jq;it;lj; cheng;gh;ti;ga;ti;	5
+东方体育中心	dong;df,af;ad,qx;ry;ad; fang;ff;dg,wd,dp,dw;lf;dw; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	6
+灵岩南路	ling;st;hx,xh;bc;eh; yan;pt;uu;vm;eu; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+上南路	shang;pd,pu;aa,ba;yf;la; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	3
+华夏西路	hua;xs;uh;jn;ru; xia;dj;wz,aw;fh;aw; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+高青路	gao;io;wk;gg;wk; qing;al;of,fo;av;fo; lu;go;zg;ps;zk;	1
+东明路	dong;df,af;ad,qx;ry;ad; ming;vl;oo;ov;oo; lu;go;zg;ps;zk;	5
+高科西路	gao;io;wk;gg;wk; ke;uh,us;hd;xj;hu; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	2
+临沂新村	lin;pd;ao,do;po;la; yi;kp;dj;kt;dj; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	3
+上海儿童医学中心	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; er;kk;pg;pe;pv; tong;bg;ll;id;ll; yi;dr;ku;no;ku; xue;ha;dz,zb;kh;xz; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	10
+浦电路(6号线)	pu;kh;df;kn;df; dian;ee,ve;ag,og;oa;lv; lu;go;zg;ps;zk; (6;;;;; hao;;;;; xian;or;kk;da;kv; );ea;sj;ip;sj;	0
+源深体育中心	yuan;kf;dy;ky;dx; shen;kw;dm;ke;dm; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	1
+民生路	min;rr;ag,kq,vg;dm;vv; sheng;aa;na;ls;pf; lu;go;zg;ps;zk;	12
+北洋泾路	bei;la;ap,bj;av;lb; yang;kp;dy;kg;dy; jing;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+德平路	de;hn;xx;wh;ix; ping;ds,sf;aa,gb;eh;au; lu;go;zg;ps;zk;	1
+云山路	yun;up;es,se;by;es; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	0
+金桥路	jin;ed,ef;ra,pa;zj;ra; qiao;wp;mq;ep;ml; lu;go;zg;ps;zk;	2
+博兴路	bo;sk;uc,uf;nk;uc; xing;hf;ba,db;kh;xb; lu;go;zg;ps;zk;	0
+五莲路	wu;gg;aa;wu;aa; lian;zq;cl;lu;cz; lu;go;zg;ps;zk;	0
+巨峰路	ju;dr;kk,aa;nn;ka; feng;pa;uf;va;ef; lu;go;zg;ps;zk;	3
+东靖路	dong;df,af;ad,qx;ry;ad; jing;bl;lq;iv;lo; lu;go;zg;ps;zk;	0
+五洲大道	wu;gg;aa;wu;aa; zhou;kp;dv;ko;dl,dv; da;xx;ad;md;un; dao;fq;zu;hu;zz;	1
+洲海路	zhou;kp;dv;ko;dl,dv; hai;kh;dm;kk;dm; lu;go;zg;ps;zk;	0
+外高桥保税区南	wai;fh;xb;ly;xb; gao;io;wk;gg;wk; qiao;wp;mq;ep;ml; bao;xw;rd;je;rm; shui;uk;hd;xp;he; qu;dr;ki;nb;kx; nan;ss;ua,uy;ng;ug,ag;	0
+航津路	hang;ti;vk;io;vj; jin;kp;dy;kb;dy; lu;go;zg;ps;zk;	0
+外高桥保税区北	wai;fh;xb;ly;xb; gao;io;wk;gg;wk; qiao;wp;mq;ep;ml; bao;xw;rd;je;rm; shui;uk;hd;xp;he; qu;dr;ki;nb;kx; bei;la;ap,bj;av;lb;	0
+港城路	gang;kt;dx;kv;ds; cheng;gh;ti;ga;ti; lu;go;zg;ps;zk;	2
+花木路	hua;za;ch;lv;cb; mu;ww;ad;em;an,un; lu;go;zg;ps;zk;	8
+芳华路	fang;zf;cf;ll;cf; hua;xs;uh;jn;ru; lu;go;zg;ps;zk;	5
+锦绣路	jin;dy;jb,jj;zr;jj; xiu;eu;sx;iv;sn; lu;go;zg;ps;zk;	3
+杨高南路	yang;wu;my;ee;mp; gao;io;wk;gg;wk; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	3
+云台路	yun;up;es,se;by;es; tai;po;sk;kd;sk; lu;go;zg;ps;zk;	0
+耀华路	yao;ha;gd,gv;mu;xf; hua;xs;uh;jn;ru; lu;go;zg;ps;zk;	4
+长清路	zhang;uh;pd;pc;pn; qing;kl;dq;kv;do; lu;go;zg;ps;zk;	0
+后滩	hou;uo;pk;xd;pk; tan;ka;dn;ku;df;	6
+龙华中路	long;sh;ad;tl;ud; hua;xs;uh;jn;ru; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	9
+肇嘉浜路	zhao;qp;hy,yw;mb;hy; jia;go;uj;hd;uk; bang;kf;db;kh;db; lu;go;zg;ps;zk;	16
+昌平路	chang;vv;oo;oo;oo; ping;ds,sf;aa,gb;eh;au; lu;go;zg;ps;zk;	3
+长寿路	chang;uh;pd;pc;pn; shou;uk;cf,fc;ak;fc; lu;go;zg;ps;zk;	4
+岚皋路	lan;py;uf;vb;ex; gao;ss;bu;un;bu; lu;go;zg;ps;zk;	4
+新村路	xin;bp;jq;it;lj; cun;wk;mc;ek;mc; lu;go;zg;ps;zk;	2
+大华三路	da;xx;ad;md;un; hua;xs;uh;jn;ru; san;uu;aa;ts;ae; lu;go;zg;ps;zk;	0
+行知路	xing;hj;xd,xi;px;ii; zhi;eo;uk,ku;od;uk; lu;go;zg;ps;zk;	0
+大场镇	da;xx;ad;md;un; chang;gu;ty;ge;tp; zhen;df;jv;zh;jb;	3
+场中路	chang;gu;ty;ge;tp; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	1
+上大路	shang;pd,pu;aa,ba;yf;la; da;xx;ad;md;un; lu;go;zg;ps;zk;	10
+南陈路	nan;ss;ua,uy;ng;ug,ag; chen;bf;ed;ty;ed; lu;go;zg;ps;zk;	2
+上海大学	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	1887
+祁华路	qi;hb;eu,ue;ft;pe; hua;xs;uh;jn;ru; lu;go;zg;ps;zk;	1
+顾村公园	gu;rm;ye;xw;ir; cun;wk;mc;ek;mc; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	1
+刘行	liu;ji;dw,wd;vp;wd; xing;hj;xd,xi;px;ii;	2
+潘广路	pan;kw;df;kq;dt; guang;rr;dp;xg;di,wp; lu;go;zg;ps;zk;	0
+罗南新村	luo;af;sx;yl;sx; nan;ss;ua,uy;ng;ug,ag; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	1
+美兰湖	mei;fx;dy,yd;gm;yd; lan;fu;bs,qe;ht;bs; hu;kl;dh;kv;do;	4
+沈杜公路	shen;kk;dg,dy;kp;dv; du;wg;mt;eg;mt; gong;fp;sb,bs;hk;bs; lu;go;zg;ps;zk;	1
+联航路	lian;dx;eg;qm;et; hang;ti;vk;io;vj; lu;go;zg;ps;zk;	0
+江月路	jiang;kp;dg;ku;dg; yue;ll;oy,pa,yt;vy;ka; lu;go;zg;ps;zk;	1
+浦江镇	pu;kh;df;kn;df; jiang;kp;dg;ku;dg; zhen;df;jv;zh;jb;	8
+芦恒路	lu;zq;ch;lm;ch; heng;nd;xg;hf;xa; lu;go;zg;ps;zk;	1
+凌兆新村	ling;fj;dl,dw;wh;dw; zhao;uh,kh,kf,uf;ed,dd;pw;ed; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	3
+杨思	yang;wu;my;ee;mp; si;wn;tx,xt;qh;tx;	31
+成山路	cheng;rh;gg,wg;na;wv; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	1
+中华艺术宫	zhong;op;aa,ka;dg;ll; hua;xs;uh;jn;ru; yi;zr;cy;la;cv; shu;wh;md;ei;md; gong;io;bl;wd;bk;	12
+陆家浜路	lu;bp;ej;tm;ej; jia;ih;bu;wj;bu; bang;kf;db;kh;db; lu;go;zg;ps;zk;	4
+老西门	lao;ga;bl,lb;ql;lb; xi;pp;aa;vx;aa; men;oo;dg;am;dv;	19
+大世界	da;xx;ad;md;un; shi;vr;ca,cv,aa;la;av; jie;wp;tj;qp;tl;	405
+曲阜路	qu;pd,vp;aa,oa;yq;la; fu;us;pu,uk,vu;tn;pu; lu;go;zg;ps;zk;	4
+中兴路	zhong;op;aa,ka;dg;ll; xing;hf;ba,db;kh;xb; lu;go;zg;ps;zk;	9
+西藏北路	xi;pp;aa;vx;aa; zang;zh;cg,ci;lq;ci; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	1
+曲阳路	qu;pd,vp;aa,oa;yq;la; yang;bv;eo;to;eo; lu;go;zg;ps;zk;	2
+四平路	si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; lu;go;zg;ps;zk;	39
+鞍山新村	an;vy;ga;tb;gn; shan;pp;aa;vs;lk; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	0
+江浦路	jiang;kp;dg;ku;dg; pu;kh;df;kn;df; lu;go;zg;ps;zk;	1
+黄兴路	huang;zf;ad,cb;nh;cb; xing;hf;ba,db;kh;xb; lu;go;zg;ps;zk;	5
+延吉中路	yan;uq;zv;tu;zv; ji;go;ku,uk;gd;uk; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+黄兴公园	huang;zf;ad,cb;nh;cb; xing;hf;ba,db;kh;xb; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	4
+翔殷路	xiang;fd;yy;gz;yx; yin;ul;pu,uu;zr;py; lu;go;zg;ps;zk;	10
+嫩江路	nen;yj;ni,nw;bh;nw; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+市光路	shi;iy;wj;zr;wj; guang;hk;ea,xw;mg;xw; lu;go;zg;ps;zk;	0
+曹路	cao;dv;oc,co;fo;ao; lu;go;zg;ps;zk;	9
+民雷路	min;rr;ag,kq,vg;dm;vv; lei;yw;yt;tq;yt; lu;go;zg;ps;zk;	0
+顾唐路	gu;rm;ye;xw;ir; tang;ro;gk;xd;gk; lu;go;zg;ps;zk;	1
+金海路	jin;ed,ef;ra,pa;zj;ra; hai;kh;dm;kk;dm; lu;go;zg;ps;zk;	4
+金吉路	jin;ed,ef;ra,pa;zj;ra; ji;go;ku,uk;gd;uk; lu;go;zg;ps;zk;	0
+金桥	jin;ed,ef;ra,pa;zj;ra; qiao;wp;mq;ep;ml;	98
+台儿庄路	tai;po;sk;kd;sk; er;kk;pg;pe;pv; zhuang;rg;gt;xg;gt; lu;go;zg;ps;zk;	1
+蓝天路	lan;zd,za;cj;la;cm; tian;ue;ad;fm;ad; lu;go;zg;ps;zk;	3
+芳甸路	fang;zf;cf;ll;cf; dian;uw;gt,tg;nq;bt; lu;go;zg;ps;zk;	3
+杨高中路	yang;wu;my;ee;mp; gao;io;wk;gg;wk; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+商城路	shang;io;wk,lk,dk;id;wk; cheng;gh;ti;ga;ti; lu;go;zg;ps;zk;	9
+小南门	xiao;pf;ad;yx;ld; nan;ss;ua,uy;ng;ug,ag; men;oo;dg;am;dv;	31
+马当路	ma;zz;aa,vh;nm;va; dang;hs;xx;yb;xe; lu;go;zg;ps;zk;	10
+打浦桥	da;jj;fd;ua;fd; pu;kh;df;kn;df; qiao;wp;mq;ep;ml;	12
+嘉善路	jia;go;uj;hd;uk; shan;fo;yk,ka,kq;gd;yk; lu;go;zg;ps;zk;	11
+桂林路	gui;wg;mg;eg;mt; lin;ww;mm;ee;mm; lu;go;zg;ps;zk;	10
+漕河泾开发区	cao;kv;dc;ko;do; he;kj;dk;kz;dk; jing;kp;dg;ku;dg; kai;dz,dp,up;ac;fl;ac; fa;rh;ay,fd,vy,yd;si;vd; qu;dr;ki;nb;kx;	1
+合川路	he;eo;rk;jd;rk; chuan;up;pa;oc;pl; lu;go;zg;ps;zk;	1
+星中路	xing;va;ou;ol;ou; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+七宝	qi;aa;ag;rq;av; bao;ia,ih;by;wi;by;	151
+中春路	zhong;op;aa,ka;dg;ll; chun;uv;of,fo;ao;fo; lu;go;zg;ps;zk;	1
+九亭	jiu;ur;py;kj;pv; ting;ij;wd,db,dd;ga;wd;	15
+泗泾	si;kk;ds;ky;de; jing;kp;dg;ku;dg;	22
+佘山	she;ef;ru;jf;rx; shan;pp;aa;vs;lk;	56
+洞泾	dong;ko;dt;kd;dk; jing;kp;dg;ku;dg;	2
+松江大学城	song;wp;mg;ek;ms; jiang;kp;dg;ku;dg; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; cheng;gh;ti;ga;ti;	76
+松江新城	song;wp;mg;ek;ms; jiang;kp;dg;ku;dg; xin;bp;jq;it;lj; cheng;gh;ti;ga;ti;	6
+松江体育中心	song;wp;mg;ek;ms; jiang;kp;dg;ku;dg; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	1
+醉白池	zui;ps;yz;yn;yu; bai;ss;pa,po;ub;po; chi;kr;dy;ke;dy;	1
+松江南站	song;wp;mg;ek;ms; jiang;kp;dg;ku;dg; nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	5
+新江湾城	xin;bp;jq;it;lj; jiang;kp;dg;ku;dg; wan;kr;dw;kb;dg; cheng;gh;ti;ga;ti;	4
+殷高东路	yin;ul;pu,uu;zr;py; gao;io;wk;gg;wk; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+三门路	san;uu;aa;ts;ae; men;oo;dg;am;dv; lu;go;zg;ps;zk;	0
+江湾体育场	jiang;kp;dg;ku;dg; wan;kr;dw;kb;dg; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; chang;gu;ty;ge;tp;	7
+五角场	wu;gg;aa;wu;aa; jiao;gp;dy;xt;dy; chang;gu;ty;ge;tp;	147
+国权路	guo;na,nh;ky;ri;ky; quan;wl;my;er;my; lu;go;zg;ps;zk;	8
+同济大学	tong;oo;kk;md;kk; ji;kp;dq;kq;dl; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	1325
+邮电新村	you;vb;ey;dt;ye; dian;ee,ve;ag,og;oa;lv; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	1
+四川北路	si;nk;aa,ke;ys;ke; chuan;up;pa;oc;pl; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	26
+天潼路	tian;ue;ad;fm;ad; tong;kg;dt;kd;dl; lu;go;zg;ps;zk;	0
+豫园	yu;ph;yx;iw;sn; yuan;nk;ky;rp;ke;	43
+新天地	xin;bp;jq;it;lj; tian;ue;ad;fm;ad; di;gr,ga;ty;ge;ty;	414
+上海图书馆	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; tu;nh;kd;rw;kd; shu;rh;ad,vd;ai;vd; guan;gd;ug;qk;uk;	44
+交通大学	jiao;iy;li,wf,df;ab;wx; tong;pq;zy;ku;zy; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	301
+宋园路	song;iw;bm;we;bm; yuan;nk;ky;rp;ke; lu;go;zg;ps;zk;	2
+伊犁路	yi;xu;ry;jt;ry; li;ub;nl;xq;hn; lu;go;zg;ps;zk;	0
+水城路	shui;oo;ad,uv;ks;ln; cheng;gh;ti;ga;ti; lu;go;zg;ps;zk;	0
+龙溪路	long;sh;ad;tl;ud; xi;kx;dx;km;dd; lu;go;zg;ps;zk;	0
+龙柏新村	long;sh;ad;tl;ud; bai;ws;mb;eu;mb; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	6
+紫藤路	zi;rf;sc;si;vx; teng;zo;ct;lk;cu; lu;go;zg;ps;zk;	2
+航中路	hang;ti;vk;io;vj; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+上海动物园	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; dong;uu;ly,yl;bs;el; wu;bi;nw;qe;nw; yuan;nk;ky;rp;ke;	14
+虹桥1号航站楼	hong;fp;ig;cu;ig; qiao;wp;mq;ep;ml; 1;;;;; hao;or;kk;da;kv; hang;ti;vk;io;vj; zhan;bo;lv;id;lk; lou;wy;ml;eb;mn;	0
+嘉定北	jia;go;uj;hd;uk; ding;ie;bp;wt;br; bei;la;ap,bj;av;lb;	6
+嘉定西	jia;go;uj;hd;uk; ding;ie;bp;wt;br; xi;pp;aa;vx;aa;	1
+白银路	bai;ss;pa,po;ub;po; yin;dh;jg;zi;jg; lu;go;zg;ps;zk;	0
+嘉定新城	jia;go;uj;hd;uk; ding;ie;bp;wt;br; xin;bp;jq;it;lj; cheng;gh;ti;ga;ti;	12
+马陆	ma;zz;aa,vh;nm;va; lu;bp;ej;tm;ej;	20
+南翔	nan;ss;ua,uy;ng;ug,ag; xiang;fd;yy;gz;yx;	47
+桃浦新村	tao;wh,wf;mv;ew;md; pu;kh;df;kn;df; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	0
+武威路	wu;dr,ha;vy,yv;fs;av; wei;rh;gn,ng,wn;nb;ad,wn,xn; lu;go;zg;ps;zk;	0
+祁连山路	qi;hb;eu,ue;ft;pe; lian;tq;zi;yu;zi; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	1
+李子园	li;wa;mz;eh;mz; zi;aa;aa,vh;hi;va; yuan;nk;ky;rp;ke;	5
+上海西站	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; xi;pp;aa;vx;aa; zhan;bo;lv;id;lk;	1
+真如	zhen;sf;uj;nh;ub; ru;yo;nk;bd;nk;	565
+枫桥路	feng;wy;mf;eb;mx; qiao;wp;mq;ep;ml; lu;go;zg;ps;zk;	0
+隆德路	long;ba;eu;tl;eu; de;hn;xx;wh;ix; lu;go;zg;ps;zk;	0
+上海游泳馆	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; you;ka;dz;kh;dz; yong;kh;dy;kk;dy; guan;gd;ug;qk;uk;	1
+龙华	long;sh;ad;tl;ud; hua;xs;uh;jn;ru;	196
+云锦路	yun;up;es,se;by;es; jin;dy;jb,jj;zr;jj; lu;go;zg;ps;zk;	2
+龙耀路	long;sh;ad;tl;ud; yao;ha;gd,gv;mu;xf; lu;go;zg;ps;zk;	1
+三林	san;uu;aa;ts;ae; lin;ww;mm;ee;mm;	26
+三林东	san;uu;aa;ts;ae; lin;ww;mm;ee;mm; dong;df,af;ad,qx;ry;ad;	1
+浦三路	pu;kh;df;kn;df; san;uu;aa;ts;ae; lu;go;zg;ps;zk;	1
+御桥	yu;hb;xx;wz;ie; qiao;wp;mq;ep;ml;	6
+罗山路	luo;af;sx;yl;sx; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	1
+秀沿路	xiu;uu;hn;xv;hn; yan;ko;dk;kd;dk; lu;go;zg;ps;zk;	3
+康新公路	kang;ro;gl;xk;gn; xin;bp;jq;it;lj; gong;fp;sb,bs;hk;bs; lu;go;zg;ps;zk;	1
+迪士尼	di;vq;zy;du;zy; shi;gg;aa;gs;ua; ni;qa;ub;cv;ub;	4713
+上海赛车场	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; sai;im;bb;wo;br; che;tt;aa;yc;al; chang;gu;ty;ge;tp;	6
+昌吉东路	chang;vv;oo;oo;oo; ji;go;ku,uk;gd;uk; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+上海汽车城	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; qi;ks;dq;kv;dq; che;tt;aa;yc;al; cheng;gh;ti;ga;ti;	5
+安亭	an;iy;bn;wb;bn; ting;ij;wd,db,dd;ga;wd;	36
+兆丰路	zhao;uh,kh,kf,uf;ed,dd;pw;ed; feng;aa;aa;af;al; lu;go;zg;ps;zk;	0
+光明路	guang;hk;ea,xw;mg;xw; ming;vl;oo;ov;oo; lu;go;zg;ps;zk;	5
+花桥	hua;za;ch;lv;cb; qiao;wp;mq;ep;ml;	38
+七莘路	qi;aa;ag;rq;av; shen;zs;cx;ln;cu; lu;go;zg;ps;zk;	1
+虹莘路	hong;fp;ig;cu;ig; shen;zs;cx;ln;cu; lu;go;zg;ps;zk;	0
+顾戴路	gu;rm;ye;xw;ir; dai;sf,ha;gg,gy;nh;ub; lu;go;zg;ps;zk;	1
+东兰路	dong;df,af;ad,qx;ry;ad; lan;fu;bs,qe;ht;bs; lu;go;zg;ps;zk;	0
+虹梅路	hong;fp;ig;cu;ig; mei;wh;mm;ek;mm; lu;go;zg;ps;zk;	17
+虹漕路	hong;fp;ig;cu;ig; cao;kv;dc;ko;do; lu;go;zg;ps;zk;	1
+桂林公园	gui;wg;mg;eg;mt; lin;ww;mm;ee;mm; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+国际客运中心	guo;na,nh;ky;ri;ky; ji;bf;eu;tf;ex; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	4
+提篮桥	ti;je;fu;ut;fr; lan;nd,na;vj;ra;vm; qiao;wp;mq;ep;ml;	13
+江浦公园	jiang;kp;dg;ku;dg; pu;kh;df;kn;df; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+宁国路	ning;ij;bd;wa;bd; guo;na,nh;ky;ri;ky; lu;go;zg;ps;zk;	4
+隆昌路	long;ba;eu;tl;eu; chang;vv;oo;oo;oo; lu;go;zg;ps;zk;	4
+爱国路	ai;hl;vy;yr;py; guo;na,nh;ky;ri;ky; lu;go;zg;ps;zk;	3
+复兴岛	fu;ej;pw,rw,wo;eh;pw; xing;hf;ba,db;kh;xb; dao;up;nu,un;xv;pe;	3
+东陆路	dong;df,af;ad,qx;ry;ad; lu;bp;ej;tm;ej; lu;go;zg;ps;zk;	0
+杨高北路	yang;wu;my;ee;mp; gao;io;wk;gg;wk; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	2
+金京路	jin;ed,ef;ra,pa;zj;ra; jing;if;wx;gy;wx; lu;go;zg;ps;zk;	0
+申江路	shen;vp;aa,oa;og;ll; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	1
+金运路	jin;ed,ef;ra,pa;zj;ra; yun;uq;zy;bu;zs; lu;go;zg;ps;zk;	1
+金沙江西路	jin;ed,ef;ra,pa;zj;ra; sha;ku;du;kt;du; jiang;kp;dg;ku;dg; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+丰庄	feng;aa;aa;af;al; zhuang;rg;gt;xg;gt;	2
+祁连山南路	qi;hb;eu,ue;ft;pe; lian;tq;zi;yu;zi; shan;pp;aa;vs;lk; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+真北路	zhen;sf;uj;nh;ub; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	0
+大渡河路	da;xx;ad;md;un; du;kl;dd;kr;dy; he;kj;dk;kz;dk; lu;go;zg;ps;zk;	2
+武宁路	wu;dr,ha;vy,yv;fs;av; ning;ij;bd;wa;bd; lu;go;zg;ps;zk;	5
+江宁路	jiang;kp;dg;ku;dg; ning;ij;bd;wa;bd; lu;go;zg;ps;zk;	7
+自然博物馆	zi;ss;pa,po;oi;po; ran;fn;hq;vc;ph; bo;sk;uc,uf;nk;uc; wu;bi;nw;qe;nw; guan;gd;ug;qk;uk;	0
+淮海中路	huai;ka;dv;ku;df; hai;kh;dm;kk;dm; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	83
+世博会博物馆	shi;vr;ca,cv,aa;la;av; bo;sk;uc,uf;nk;uc; hui;ep;ry;jb;rs; bo;sk;uc,uf;nk;uc; wu;bi;nw;qe;nw; guan;gd;ug;qk;uk;	2
+世博大道	shi;vr;ca,cv,aa;la;av; bo;sk;uc,uf;nk;uc; da;xx;ad;md;un; dao;fq;zu;hu;zz;	4
+华鹏路	hua;xs;uh;jn;ru; peng;lc;np;vx;on; lu;go;zg;ps;zk;	0
+下南路	xia;dh;ab,ad;fy;ab; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+北蔡	bei;la;ap,bj;av;lb; cai;zf;cj;lf;cx;	4
+陈春路	chen;bf;ed;ty;ed; chun;uv;of,fo;ao;fo; lu;go;zg;ps;zk;	0
+莲溪路	lian;zq;cl;lu;cz; xi;kx;dx;km;dd; lu;go;zg;ps;zk;	0
+华夏中路	hua;xs;uh;jn;ru; xia;dj;wz,aw;fh;aw; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+中科路	zhong;op;aa,ka;dg;ll; ke;uh,us;hd;xj;hu; lu;go;zg;ps;zk;	2
+学林路	xue;ha;dz,zb;kh;xz; lin;ww;mm;ee;mm; lu;go;zg;ps;zk;	0
+张江路	zhang;rh;gi;bp;gi; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+周浦东	zhou;oo,uo;kj,kk;md;kk; pu;kh;df;kn;df; dong;df,af;ad,qx;ry;ad;	2
+鹤沙航城	he;ic;nv;wx;dn; sha;ku;du;kt;du; hang;ti;vk;io;vj; cheng;gh;ti;ga;ti;	0
+航头东	hang;ti;vk;io;vj; tou;hx;dd;wm;dd; dong;df,af;ad,qx;ry;ad;	0
+新场	xin;bp;jq;it;lj; chang;gu;ty;ge;tp;	47
+野生动物园	ye;vp;ly,yl;di;ll; sheng;aa;na;ls;pf; dong;uu;ly,yl;bs;el; wu;bi;nw;qe;nw; yuan;nk;ky;rp;ke;	84
+惠南	hui;dn;xh,hx;nh;ax; nan;ss;ua,uy;ng;ug,ag;	5
+惠南东	hui;dn;xh,hx;nh;ax; nan;ss;ua,uy;ng;ug,ag; dong;df,af;ad,qx;ry;ad;	1
+书院	shu;rh;ad,vd;ai;vd; yuan;bk;ew;tp;ee;	1397
+临港大道	lin;pd;ao,do;po;la; gang;kt;dx;kv;ds; da;xx;ad;md;un; dao;fq;zu;hu;zz;	1
+滴水湖	di;ko;dd,dg;kc;dk; shui;oo;ad,uv;ks;ln; hu;kl;dh;kv;do;	61
+诸光路	zhu;cv;yv;so;yo; guang;hk;ea,xw;mg;xw; lu;go;zg;ps;zk;	2
+蟠龙路	pan;fw;if;cq;it; long;sh;ad;tl;ud; lu;go;zg;ps;zk;	0
+徐盈路	xu;hf;xy;wx;ih; ying;rd,ra;my;va;nm; lu;go;zg;ps;zk;	1
+徐泾北城	xu;hf;xy;wx;ih; jing;kp;dg;ku;dg; bei;la;ap,bj;av;lb; cheng;gh;ti;ga;ti;	0
+嘉松中路	jia;go;uj;hd;uk; song;wp;mg;ek;ms; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+赵巷	zhao;qy;zi;pb;tx; xiang;zt;sg,gs;lv;cs;	4
+汇金路	hui;kr;dk;kn;dk; jin;ed,ef;ra,pa;zj;ra; lu;go;zg;ps;zk;	0
+青浦新城	qing;al;of,fo;av;fo; pu;kh;df;kn;df; xin;bp;jq;it;lj; cheng;gh;ti;ga;ti;	5
+漕盈路	cao;kv;dc;ko;do; ying;rd,ra;my;va;nm; lu;go;zg;ps;zk;	0
+淀山湖大道	dian;ke;dd;kt;dr; shan;pp;aa;vs;lk; hu;kl;dh;kv;do; da;xx;ad;md;un; dao;fq;zu;hu;zz;	1
+朱家角	zhu;ee;pw;ta;nn,pw; jia;ih;bu;wj;bu; jiao;gp;dy;xt;dy;	28
+东方绿舟	dong;df,af;ad,qx;ry;ad; fang;ff;dg,wd,dp,dw;lf;dw; lv;eo;sl;ik;su; zhou;tt;pd;io;pd;	4
+三鲁公路	san;uu;aa;ts;ae; lu;qv;yo;wo;ao; gong;fp;sb,bs;hk;bs; lu;go;zg;ps;zk;	0
+闵瑞路	min;oj;mw;av;mw; rui;ae;we;nl;we; lu;go;zg;ps;zk;	0
+浦航路	pu;kh;df;kn;df; hang;ti;vk;io;vj; lu;go;zg;ps;zk;	0
+东城一路	dong;df,af;ad,qx;ry;ad; cheng;gh;ti;ga;ti; yi;dd;aa;fi;aa; lu;go;zg;ps;zk;	0
+汇臻路	hui;kr;dk;kn;dk; zhen;dw,df;vq;yx;ah; lu;go;zg;ps;zk;	1
+西塱	xi;pp;aa;vx;aa; lang;hg;tl;ig;dt;	0
+坑口	keng;gi;tk;go;tj; kou;oo;aa;dk;la;	57
+花地湾	hua;za;ch;lv;cb; di;gr,ga;ty;ge;ty; wan;kr;dw;kb;dg;	2
+芳村	fang;zf;cf;ll;cf; cun;wk;mc;ek;mc;	36
+黄沙	huang;zf;ad,cb;nh;cb; sha;ku;du;kt;du;	413
+陈家祠	chen;bf;ed;ty;ed; jia;ih;bu;wj;bu; ci;ho;us;fd;pk;	10
+西门口	xi;pp;aa;vx;aa; men;oo;dg;am;dv; kou;oo;aa;dk;la;	6
+公园前	gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke; qian;fi;bd,qd;hp;bd;	13
+农讲所	nong;ih;by,ny;wt;dn; jiang;cp;yj;sq;yj; suo;up;hj,jh;mt;pj;	5
+烈士陵园	lie;fn;hl;gc;dh; shi;gg;aa;gs;ua; ling;bj;el,ew;th;ew; yuan;nk;ky;rp;ke;	110
+东山口	dong;df,af;ad,qx;ry;ad; shan;pp;aa;vs;lk; kou;oo;aa;dk;la;	18
+杨箕	yang;wu;my;ee;mp; ji;nf;vq;rh;vb;	3
+体育西路	ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	6
+体育中心	ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	86
+广州东站	guang;rr;dp;xg;di,wp; zhou;hp;id,da;oo;dl; dong;df,af;ad,qx;ry;ad; zhan;bo;lv;id;lk;	10
+广州南站	guang;rr;dp;xg;di,wp; zhou;hp;id,da;oo;dl; nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	21
+石壁	shi;tt;kp,aa,ak,pk;ms;ak; bi;qg;tb,tx;cg;ut;	161
+会江	hui;ep;ry;jb;rs; jiang;kp;dg;ku;dg;	0
+南浦	nan;ss;ua,uy;ng;ug,ag; pu;kh;df;kn;df;	26
+洛溪	luo;ko;dg;ks;dk; xi;kx;dx;km;dd;	2
+南洲	nan;ss;ua,uy;ng;ug,ag; zhou;kp;dv;ko;dl,dv;	10
+东晓南	dong;df,af;ad,qx;ry;ad; xiao;vk;oy;op;ow; nan;ss;ua,uy;ng;ug,ag;	2
+江泰路	jiang;kp;dg;ku;dg; tai;uo;fu,uf;ak;fu; lu;go;zg;ps;zk;	0
+昌岗	chang;vv;oo;oo;oo; gang;py;ug;vb;ex;	2
+江南西	jiang;kp;dg;ku;dg; nan;ss;ua,uy;ng;ug,ag; xi;pp;aa;vx;aa;	17
+市二宫	shi;iy;wj;zr;wj; er;uu;aa;me;aa; gong;io;bl;wd;bk;	1
+海珠广场	hai;kh;dm;kk;dm; zhu;ae;wv;na;wv; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	1
+纪念堂	ji;et;sj;iv;sj; nian;en;xj;jh;rx; tang;hg;tk,dt,xt;sg;xt;	43
+越秀公园	yue;qh;zy;pn;tv; xiu;uu;hn;xv;hn; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	13
+广州火车站	guang;rr;dp;xg;di,wp; zhou;hp;id,da;oo;dl; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	27
+三元里	san;uu;aa;ts;ae; yuan;uk;aw,ee;mp;ee; li;vg;aa,tt;dl;la;	48
+飞翔公园	fei;rh;yd;cf;vd; xiang;fd;yy;gz;yx; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+白云公园	bai;ss;pa,po;ub;po; yun;up;es,se;by;es; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+白云文化广场	bai;ss;pa,po;ub;po; yun;up;es,se;by;es; wen;jj;wi,dd;vw;wx; hua;xa;rb;jv;rb; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+萧岗	xiao;zf;cs;lh;cs; gang;py;ug;vb;ex;	0
+江夏	jiang;kp;dg;ku;dg; xia;dj;wz,aw;fh;aw;	248
+黄边	huang;zf;ad,cb;nh;cb; bian;uq;zl;su;zl;	4
+嘉禾望岗	jia;go;uj;hd;uk; he;uw,sf;pd,pm;xh;pm,qn; wang;ia;wo;fn;ww; gang;py;ug;vb;ex;	6
+番禺广场	pan;hw,uw;tb,pt,tm;tq;pt; yu;vh;ad,od;qv;ld; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	1
+市桥	shi;iy;wj;zr;wj; qiao;wp;mq;ep;ml;	4
+汉溪长隆	han;kl;dy;kr;dy; xi;kx;dx;km;dd; zhang;uh;pd;pc;pn; long;ba;eu;tl;eu;	0
+大石	da;xx;ad;md;un; shi;tt;kp,aa,ak,pk;ms;ak;	307
+厦滘	sha;rj;ix;xh;iw; jiao;ko;dk;kd;dk;	0
+沥滘	li;ku;dl;ks;dl; jiao;ko;dk;kd;dk;	1
+大塘	da;xx;ad;md;un; tang;go;tt;gd;tk;	13
+客村	ke;io;bg;ws;bk; cun;wk;mc;ek;mc;	8
+广州塔	guang;rr;dp;xg;di,wp; zhou;hp;id,da;oo;dl; ta;go;td,th;gd;tk;	89
+珠江新城	zhu;ae;wv;na;wv; jiang;kp;dg;ku;dg; xin;bp;jq;it;lj; cheng;gh;ti;ga;ti;	103
+石牌桥	shi;tt;kp,aa,ak,pk;ms;ak; pai;us;pb;an;pu; qiao;wp;mq;ep;ml;	12
+岗顶	gang;py;ug;vb;ex; ding;jm;dy,yd;aw;dr;	13
+华师	hua;xs;uh;jn;ru; shi;py;ab,aj,db,dj;pr;lj;	1134
+五山	wu;gg;aa;wu;aa; shan;pp;aa;vs;lk;	46
+天河客运站	tian;ue;ad;fm;ad; he;kj;dk;kz;dk; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhan;bo;lv;id;lk;	5
+机场北(2号航站楼)	ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; bei;la;ap,bj;av;lb; (2;;;;; hao;;;;; hang;or;kk;da;kv; zhan;ti;vk;io;vj; lou;bo;lv;id;lk; );wy;ml;eb;mn;	0
+机场南(1号航站楼)	ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; nan;ss;ua,uy;ng;ug,ag; (1;;;;; hao;;;;; hang;or;kk;da;kv; zhan;ti;vk;io;vj; lou;bo;lv;id;lk; );wy;ml;eb;mn;	0
+高增	gao;io;wk;gg;wk; zeng;gv;tc;go;to;	29
+人和	ren;ee;pd;jr;pn; he;uo;hk;xd;hk;	2244
+龙归	long;sh;ad;tl;ud; gui;ps;ax,dx;pb;le;	5
+白云大道北	bai;ss;pa,po;ub;po; yun;up;es,se;by;es; da;xx;ad;md;un; dao;fq;zu;hu;zz; bei;la;ap,bj;av;lb;	0
+永泰	yong;hh;dd;ik;dn; tai;uo;fu,uf;ak;fu;	96
+同和	tong;oo;kk;md;kk; he;uo;hk;xd;hk;	0
+京溪南方医院	jing;if;wx;gy;wx; xi;kx;dx;km;dd; nan;ss;ua,uy;ng;ug,ag; fang;ff;dg,wd,dp,dw;lf;dw; yi;dr;ku;no;ku; yuan;bk;ew;tp;ee;	0
+梅花园	mei;wh;mm;ek;mm; hua;za;ch;lv;cb; yuan;nk;ky;rp;ke;	7
+燕塘	yan;vn;ch,hb;lc;ah,nh; tang;go;tt;gd;tk;	10
+林和西	lin;ww;mm;ee;mm; he;uo;hk;xd;hk; xi;pp;aa;vx;aa;	9
+黄村	huang;zf;ad,cb;nh;cb; cun;wk;mc;ek;mc;	39
+车陂	che;tt;aa;yc;al; bei;bl;ep;tr;ey;	7
+车陂南	che;tt;aa;yc;al; bei;bl;ep;tr;ey; nan;ss;ua,uy;ng;ug,ag;	3
+万胜围	wan;du;ag,ap;fp;ap; sheng;la;ou;vl;ou; wei;np;kw;rg;kw;	3
+官洲	guan;id;bg,bk;wk;bk; zhou;kp;dv;ko;dl,dv;	2
+大学城北	da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; cheng;gh;ti;ga;ti; bei;la;ap,bj;av;lb;	0
+大学城南	da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; cheng;gh;ti;ga;ti; nan;ss;ua,uy;ng;ug,ag;	4
+新造	xin;bp;jq;it;lj; zao;bq;zg;qu;zk;	176
+石碁	shi;tt;kp,aa,ak,pk;ms;ak; qi;vt;qu,uq;zm;;	1
+海傍	hai;kh;dm;kk;dm; bang;xf;rp;jl;rf;	0
+低涌	di;xh;rd;ji;rd; yong;ki,kp;dy;kt;dy;	0
+东涌	dong;df,af;ad,qx;ry;ad; yong;ki,kp;dy;kt;dy;	11
+庆盛	qing;rx;gd;xm;gd; sheng;rd,ra;mi;na;im;	7
+黄阁汽车城	huang;zf;ad,cb;nh;cb; ge;oo;mg;as;mk; qi;ks;dq;kv;dq; che;tt;aa;yc;al; cheng;gh;ti;ga;ti;	0
+黄阁	huang;zf;ad,cb;nh;cb; ge;oo;mg;as;mk;	0
+蕉门	jiao;zn;cj;lc;ch; men;oo;dg;am;dv;	4
+金洲	jin;ed,ef;ra,pa;zj;ra; zhou;kp;dv;ko;dl,dv;	18
+飞沙角	fei;rh;yd;cf;vd; sha;ku;du;kt;du; jiao;gp;dy;xt;dy;	0
+广隆	guang;rr;dp;xg;di,wp; long;ba;eu;tl;eu;	7
+大涌	da;xx;ad;md;un; yong;ki,kp;dy;kt;dy;	7
+塘坑	tang;go;tt;gd;tk; keng;gi;tk;go;tj;	3
+南横	nan;ss;ua,uy;ng;ug,ag; heng;wf;mh;en;mb;	6
+南沙客运港	nan;ss;ua,uy;ng;ug,ag; sha;ku;du;kt;du; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; gang;kt;dx;kv;ds;	0
+滘口	jiao;ko;dk;kd;dk; kou;oo;aa;dk;la;	2
+坦尾	tan;gd;td;gf;ta; wei;qr,qa;um;cv;um;	1
+中山八	zhong;op;aa,ka;dg;ll; shan;pp;aa;vs;lk; ba;ff;pd;hb;pn;	3
+西场	xi;pp;aa;vx;aa; chang;gu;ty;ge;tp;	0
+西村	xi;pp;aa;vx;aa; cun;wk;mc;ek;mc;	244
+小北	xiao;pf;ad;yx;ld; bei;la;ap,bj;av;lb;	482
+淘金	tao;kp;df,dt;ka;df; jin;ed,ef;ra,pa;zj;ra;	470
+区庄	qu;dr;ki;nb;kx; zhuang;rg;gt;xg;gt;	2
+五羊邨	wu;gg;aa;wu;aa; yang;fp;da;gy;bl; cun;db;et;ft;te;	0
+猎德	lie;bv;qx;mo;qo; de;hn;xx;wh;ix;	15
+潭村	tan;ks;dt;kn;du; cun;wk;mc;ek;mc;	4
+员村	yuan;om;kb;do;kr; cun;wk;mc;ek;mc;	5
+科韵路	ke;uh,us;hd;xj;hu; yun;bf,cf;yy;xw;ld; lu;go;zg;ps;zk;	16
+东圃	dong;df,af;ad,qx;ry;ad; pu;nh;kf;rn;kf;	6
+三溪	san;uu;aa;ts;ae; xi;kx;dx;km;dd;	10
+鱼珠	yu;qq;da;wv;da; zhu;ae;wv;na;wv;	7
+大沙地	da;xx;ad;md;un; sha;ku;du;kt;du; di;gr,ga;ty;ge;ty;	3
+大沙东	da;xx;ad;md;un; sha;ku;du;kt;du; dong;df,af;ad,qx;ry;ad;	0
+文冲	wen;jj;wi,dd;vw;wx; chong;fp;dv;wg;dv;	0
+香雪	xiang;uv;ho;xo;ho; xue;ys;yx;tb;ye;	38
+萝岗	luo;zf;cl;ll;cx; gang;py;ug;vb;ex;	12
+苏元	su;zf;cb;lh;cb; yuan;uk;aw,ee;mp;ee;	23
+暹岗	xian;vq;zv;ou;zf; gang;py;ug;vb;ex;	0
+金峰	jin;ed,ef;ra,pa;zj;ra; feng;pa;uf;va;ef;	14
+黄陂	huang;zf;ad,cb;nh;cb; pi;bl;ep;tr;ey;	29
+高塘石	gao;io;wk;gg;wk; tang;go;tt;gd;tk; shi;tt;kp,aa,ak,pk;ms;ak;	0
+柯木塱	ke;wj;mk;ez;mk; mu;ww;ad;em;an,un; lang;hg;tl;ig;dt;	0
+龙洞	long;sh;ad;tl;ud; dong;ko;dt;kd;dk;	43
+长湴	zhang;uh;pd;pc;pn; ban;kd;db;kc;dy;	0
+天平架	tian;ue;ad;fm;ad; ping;ds,sf;aa,gb;eh;au; jia;uw;mj;se;lm;	0
+沙河顶	sha;ku;du;kt;du; he;kj;dk;kz;dk; ding;jm;dy,yd;aw;dr;	1
+黄花岗	huang;zf;ad,cb;nh;cb; hua;za;ch;lv;cb; gang;py;ug;vb;ex;	8
+东湖	dong;df,af;ad,qx;ry;ad; hu;kl;dh;kv;do;	304
+团一大广场	tuan;nu;kc;rt;kc; yi;dd;aa;fi;aa; da;xx;ad;md;un; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+北京路	bei;la;ap,bj;av;lb; jing;if;wx;gy;wx; lu;go;zg;ps;zk;	41
+一德路	yi;dd;aa;fi;aa; de;hn;xx;wh;ix; lu;go;zg;ps;zk;	10
+文化公园	wen;jj;wi,dd;vw;wx; hua;xa;rb;jv;rb; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	37
+如意坊	ru;yo;nk;bd;nk; yi;bn,cn;xy,lx;xh;lx; fang;gf;tf;gl;tf;	1
+河沙	he;kj;dk;kz;dk; sha;ku;du;kt;du;	78
+沙贝	sha;ku;du;kt;du; bei;mm;ad,kr;ob;kr;	2
+横沙	heng;wf;mh;en;mb; sha;ku;du;kt;du;	0
+浔峰岗	xun;kk;dx,p;dx;kk;dc; feng;pa;uf;va;ef; gang;py;ug;vb;ex;	0
+板桥	ban;wl;mf;er;my; qiao;wp;mq;ep;ml;	56
+员岗	yuan;om;kb;do;kr; gang;py;ug;vb;ex;	1
+南村万博	nan;ss;ua,uy;ng;ug,ag; cun;wk;mc;ek;mc; wan;du;ag,ap;fp;ap; bo;sk;uc,uf;nk;uc;	0
+钟村	zhong;dp;jv;zg;jv; cun;wk;mc;ek;mc;	3
+谢村	xie;ck;yu;sk;yc; cun;wk;mc;ek;mc;	4
+凤凰新村	feng;il;jy;or;jy; huang;ia;jh;on;jw; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	0
+沙园	sha;ku;du;kt;du; yuan;nk;ky;rp;ke;	0
+宝岗大道	bao;ia,ih;by;wi;by; gang;py;ug;vb;ex; da;xx;ad;md;un; dao;fq;zu;hu;zz;	5
+晓港	xiao;vk;oy;op;ow; gang;kt;dx;kv;ds;	0
+中大	zhong;op;aa,ka;dg;ll; da;xx;ad;md;un;	1292
+鹭江	lu;gc;nl;px;zn; jiang;kp;dg;ku;dg;	15
+赤岗	chi;gf,gi;tb,ty;gc;td; gang;py;ug;vb;ex;	7
+磨碟沙	mo;dt,rt;mu,um;zm;gu; die;tw;um,uy;me;um; sha;ku;du;kt;du;	2
+新港东	xin;bp;jq;it;lj; gang;kt;dx;kv;ds; dong;df,af;ad,qx;ry;ad;	0
+琶洲	pa;at;bw,wb;nm;wb; zhou;kp;dv;ko;dl,dv;	25
+清塘	qing;kl;dq;kv;do; tang;go;tt;gd;tk;	4
+清布	qing;kl;dq;kv;do; bu;sy;ju,uj;nr;uj;	1
+莲塘	lian;zq;cl;lu;cz; tang;go;tt;gd;tk;	12
+马鞍山公园	ma;zz;aa,vh;nm;va; an;vy;ga;tb;gn; shan;pp;aa;vs;lk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+花都广场	hua;za;ch;lv;cb; dou;gb;ev;qt;le; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+花果山公园	hua;za;ch;lv;cb; guo;vw;ad,tm;qe;ln; shan;pp;aa;vs;lk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+花城路	hua;za;ch;lv;cb; cheng;gh;ti;ga;ti; lu;go;zg;ps;zk;	0
+广州北站	guang;rr;dp;xg;di,wp; zhou;hp;id,da;oo;dl; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk;	2
+花都汽车城	hua;za;ch;lv;cb; dou;gb;ev;qt;le; qi;ks;dq;kv;dq; che;tt;aa;yc;al; cheng;gh;ti;ga;ti;	0
+飞鹅岭	fei;rh;yd;cf;vd; e;uc;nw;tx;wn; ling;pp;ul;vk;es;	0
+裕丰围	yu;ho;yg;th;pk; feng;aa;aa;af;al; wei;np;kw;rg;kw;	0
+双岗	shuang;ll;yy;rr;yy; gang;py;ug;vb;ex;	3
+南海神庙	nan;ss;ua,uy;ng;ug,ag; hai;kh;dm;kk;dm; shen;hp;uu;fg;pu; miao;rp;gy;xd;gy;	3
+夏园	xia;dj;wz,aw;fh;aw; yuan;nk;ky;rp;ke;	1
+南岗	nan;ss;ua,uy;ng;ug,ag; gang;py;ug;vb;ex;	10
+沙村	sha;ku;du;kt;du; cun;wk;mc;ek;mc;	60
+白江	bai;ss;pa,po;ub;po; jiang;kp;dg;ku;dg;	2
+新塘	xin;bp;jq;it;lj; tang;go;tt;gd;tk;	44
+官湖	guan;id;bg,bk;wk;bk; hu;kl;dh;kv;do;	6
+新沙	xin;bp;jq;it;lj; sha;ku;du;kt;du;	5
+白云东平	bai;ss;pa,po;ub;po; yun;up;es,se;by;es; dong;df,af;ad,qx;ry;ad; ping;ds,sf;aa,gb;eh;au;	0
+夏良	xia;dj;wz,aw;fh;aw; liang;hh;dg;ii;dg;	0
+太和	tai;xh;dd;mi;dd; he;uo;hk;xd;hk;	0
+竹料	zhu;nn;gg;ru;gg,pl; liao;ls,lh;md;pj;mu;	6
+钟落潭	zhong;dp;jv;zg;jv; luo;zo;cl;ls;ck; tan;ks;dt;kn;du;	2
+马沥	ma;zz;aa,vh;nm;va; li;ku;dl;ks;dl;	0
+新和	xin;bp;jq;it;lj; he;uo;hk;xd;hk;	0
+太平	tai;xh;dd;mi;dd; ping;ds,sf;aa,gb;eh;au;	1703
+神岗	shen;hp;uu;fg;pu; gang;py;ug;vb;ex;	0
+赤草	chi;gf,gi;tb,ty;gc;td; cao;zs;cz;ln;cu;	0
+从化客运站	cong;ee;rr;jj;rr; hua;xa;rb;jv;rb; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhan;bo;lv;id;lk;	0
+东风	dong;df,af;ad,qx;ry;ad; feng;iy;ji;ob;jx;	1771
+红卫	hong;ep;sg;iu;sg; wei;bd;ea,ga;zf;ea,va;	51
+新南	xin;bp;jq;it;lj; nan;ss;ua,uy;ng;ug,ag;	132
+枫下	feng;wy;mf;eb;mx; xia;dh;ab,ad;fy;ab;	0
+知识城	zhi;eo;uk,ku;od;uk; shi;cf;yv;sh;yb; cheng;gh;ti;ga;ti;	0
+何棠下	he;xj;rk;jz;rk; tang;hw;dd,mk,xd,xm;se;xm; xia;dh;ab,ad;fy;ab;	0
+旺村	wang;va;ow;on;ow; cun;wk;mc;ek;mc;	0
+汤村	tang;ku;dy;ke;dp; cun;wk;mc;ek;mc;	1
+镇龙北	zhen;df;jv;zh;jb; long;sh;ad;tl;ud; bei;la;ap,bj;av;lb;	0
+镇龙	zhen;df;jv;zh;jb; long;sh;ad;tl;ud;	1
+镇龙西	zhen;df;jv;zh;jb; long;sh;ad;tl;ud; xi;pp;aa;vx;aa;	0
+中新	zhong;op;aa,ka;dg;ll; xin;bp;jq;it;lj;	8
+坑贝	keng;gi;tk;go;tj; bei;mm;ad,kr;ob;kr;	0
+凤岗	feng;il;jy;or;jy; gang;py;ug;vb;ex;	3
+朱村	zhu;ee;pw;ta;nn,pw; cun;wk;mc;ek;mc;	4
+山田	shan;pp;aa;vs;lk; tian;ww;aa;qt;ku;	443
+钟岗	zhong;dp;jv;zg;jv; gang;py;ug;vb;ex;	0
+增城广场	zeng;gv;tc;go;to; cheng;gh;ti;ga;ti; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+海心沙	hai;kh;dm;kk;dm; xin;nn;dd;hx;dd; sha;ku;du;kt;du;	14
+大剧院	da;xx;ad;md;un; ju;qi;dj;cp;ud; yuan;bk;ew;tp;ee;	280
+花城大道	hua;za;ch;lv;cb; cheng;gh;ti;ga;ti; da;xx;ad;md;un; dao;fq;zu;hu;zz;	2
+妇儿中心	fu;ys;nx;bb;ne; er;kk;pg;pe;pv; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	1
+黄埔大道	huang;zf;ad,cb;nh;cb; pu;gh;tf;gn;tf; da;xx;ad;md;un; dao;fq;zu;hu;zz;	7
+天河南	tian;ue;ad;fm;ad; he;kj;dk;kz;dk; nan;ss;ua,uy;ng;ug,ag;	2
+体育中心南	ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd; nan;ss;ua,uy;ng;ug,ag;	0
+石溪	shi;tt;kp,aa,ak,pk;ms;ak; xi;kx;dx;km;dd;	100
+燕岗	yan;vn;ch,hb;lc;ah,nh; gang;py;ug;vb;ex;	1
+沙涌	sha;ku;du;kt;du; yong;ki,kp;dy;kt;dy;	1
+鹤洞	he;ic;nv;wx;dn; dong;ko;dt;kd;dk;	1
+菊树	ju;zl;cj,cm;lp;cm; shu;wk;md;ek;mc;	1
+龙溪	long;sh;ad;tl;ud; xi;kx;dx;km;dd;	14
+金融高新区	jin;ed,ef;ra,pa;zj;ra; rong;df;ig;nc;ai; gao;io;wk;gg;wk; xin;bp;jq;it;lj; qu;dr;ki;nb;kx;	3
+千灯湖	qian;ss;pa;lq;pu; deng;tj;hd;ca;hd; hu;kl;dh;kv;do;	4
+礌岗	lei;tw;ul;mq;ut; gang;py;ug;vb;ex;	0
+南桂路	nan;ss;ua,uy;ng;ug,ag; gui;wg;mg;eg;mt; lu;go;zg;ps;zk;	0
+桂城	gui;wg;mg;eg;mt; cheng;gh;ti;ga;ti;	3
+朝安	chao;sl;ou,uo;nv;uo; an;iy;bn;wb;bn;	5
+普君北路	pu;fv;ob,bo;ho;bo; jun;ro;ky;bd;yk; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	0
+祖庙	zu;hu;uq;ff;pq; miao;rp;gy;xd;gy;	52
+同济路	tong;oo;kk;md;kk; ji;kp;dq;kq;dl; lu;go;zg;ps;zk;	1
+季华园	ji;ua;hz;xh;hz; hua;xs;uh;jn;ru; yuan;nk;ky;rp;ke;	0
+魁奇路	kui;ss,sh;gd;aj;gu; qi;xj;dk;mz;dk; lu;go;zg;ps;zk;	2
+澜石	lan;kf;dl;kh;dj; shi;tt;kp,aa,ak,pk;ms;ak;	0
+世纪莲	shi;vr;ca,cv,aa;la;av; ji;et;sj;iv;sj; lian;zq;cl;lu;cz;	3
+东平	dong;df,af;ad,qx;ry;ad; ping;ds,sf;aa,gb;eh;au;	112
+新城东	xin;bp;jq;it;lj; cheng;gh;ti;ga;ti; dong;df,af;ad,qx;ry;ad;	0
+罗湖	luo;af;sx;yl;sx; hu;kl;dh;kv;do;	138
+老街	lao;ga;bl,lb;ql;lb; jie;hj;xg,xi;pg;ii;	464
+科学馆	ke;uh,us;hd;xj;hu; xue;ha;dz,zb;kh;xz; guan;gd;ug;qk;uk;	38
+华强路	hua;xs;uh;jn;ru; qiang;rf;gs;bc;gi; lu;go;zg;ps;zk;	1
+岗厦	gang;py;ug;vb;ex; sha;rj;ix;xh;iw;	3
+会展中心	hui;ep;ry;jb;rs; zhan;qh;uy;ct;un; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	121
+购物公园	gou;mp;bg;ok;ks; wu;bi;nw;qe;nw; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	13
+香蜜湖	xiang;uv;ho;xo;ho; mi;if;ib,bi;wc;bi; hu;kl;dh;kv;do;	19
+车公庙	che;tt;aa;yc;al; gong;fp;sb,bs;hk;bs; miao;rp;gy;xd;gy;	28
+竹子林	zhu;nn;gg;ru;gg,pl; zi;aa;aa,vh;hi;va; lin;ww;mm;ee;mm;	17
+侨城东	qiao;xp;rq;jp;rl; cheng;gh;ti;ga;ti; dong;df,af;ad,qx;ry;ad;	5
+华侨城	hua;xs;uh;jn;ru; qiao;xp;rq;jp;rl; cheng;gh;ti;ga;ti;	186
+世界之窗	shi;vr;ca,cv,aa;la;av; jie;wp;tj;qp;tl; zhi;hh;dd;ri;dn; chuang;ij,if;xx,bx;eh;bw;	132
+白石洲	bai;ss;pa,po;ub;po; shi;tt;kp,aa,ak,pk;ms;ak; zhou;kp;dv;ko;dl,dv;	17
+高新园	gao;io;wk;gg;wk; xin;bp;jq;it;lj; yuan;nk;ky;rp;ke;	19
+深大	shen;kw;dm;ke;dm; da;xx;ad;md;un;	1491
+桃园	tao;wh,wf;mv;ew;md; yuan;nk;ky;rp;ke;	492
+大新	da;xx;ad;md;un; xin;bp;jq;it;lj;	3
+鲤鱼门	li;qg;yl;wd;al; yu;qq;da;wv;da; men;oo;dg;am;dv;	7
+前海湾	qian;fi;bd,qd;hp;bd; hai;kh;dm;kk;dm; wan;kr;dw;kb;dg;	4
+新安	xin;bp;jq;it;lj; an;iy;bn;wb;bn;	150
+宝安中心	bao;ia,ih;by;wi;by; an;iy;bn;wb;bn; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	2
+宝体	bao;ia,ih;by;wi;by; ti;xd;rb;jf;rb;	0
+坪洲	ping;gf,gs;tp;gh;tp; zhou;kp;dv;ko;dl,dv;	0
+西乡	xi;pp;aa;vx;aa; xiang;ru;ap,vp;ix;vp;	106
+固戍	gu;no;kg;rc;kk; shu;rh;gd,hd,wd;ni;ad,wd;	7
+后瑞	hou;uo;pk;xd;pk; rui;ae;we;nl;we;	3
+机场东	ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; dong;df,af;ad,qx;ry;ad;	8
+赤湾	chi;gf,gi;tb,ty;gc;td; wan;kr;dw;kb;dg;	4
+蛇口港	she;fa;it;cv;ib; kou;oo;aa;dk;la; gang;kt;dx;kv;ds;	6
+海上世界	hai;kh;dm;kk;dm; shang;pd,pu;aa,ba;yf;la; shi;vr;ca,cv,aa;la;av; jie;wp;tj;qp;tl;	43
+水湾	shui;oo;ad,uv;ks;ln; wan;kr;dw;kb;dg;	15
+东角头	dong;df,af;ad,qx;ry;ad; jiao;gp;dy;xt;dy; tou;hx;dd;wm;dd;	5
+湾厦	wan;kr;dw;kb;dg; sha;rj;ix;xh;iw;	5
+海月	hai;kh;dm;kk;dm; yue;ll;oy,pa,yt;vy;ka;	22
+登良	deng;rd;dd;hz;va; liang;hh;dg;ii;dg;	1
+后海	hou;uo;pk;xd;pk; hai;kh;dm;kk;dm;	234
+科苑	ke;uh,us;hd;xj;hu; yuan;zt;ce,cy;lz;cv;	14
+红树湾南	hong;ep;sg;iu;sg; shu;wk;md;ek;mc; wan;kr;dw;kb;dg; nan;ss;ua,uy;ng;ug,ag;	1
+侨城北	qiao;xp;rq;jp;rl; cheng;gh;ti;ga;ti; bei;la;ap,bj;av;lb;	0
+深康	shen;kw;dm;ke;dm; kang;ro;gl;xk;gn;	0
+安托山	an;iy;bn;wb;bn; tuo;ja,jr;fq,ft;ur;fq; shan;pp;aa;vs;lk;	4
+侨香	qiao;xp;rq;jp;rl; xiang;uv;ho;xo;ho;	6
+香蜜	xiang;uv;ho;xo;ho; mi;if;ib,bi;wc;bi;	58
+香梅北	xiang;uv;ho;xo;ho; mei;wh;mm;ek;mm; bei;la;ap,bj;av;lb;	0
+景田	jing;vf;oj;oy;ox; tian;ww;aa;qt;ku;	20
+莲花西	lian;zq;cl;lu;cz; hua;za;ch;lv;cb; xi;pp;aa;vx;aa;	1
+福田	fu;hw;uf,ut;fq;pt; tian;ww;aa;qt;ku;	793
+市民中心	shi;iy;wj;zr;wj; min;rr;ag,kq,vg;dm;vv; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	79
+岗厦北	gang;py;ug;vb;ex; sha;rj;ix;xh;iw; bei;la;ap,bj;av;lb;	1
+华强北	hua;xs;uh;jn;ru; qiang;rf;gs;bc;gi; bei;la;ap,bj;av;lb;	313
+燕南	yan;vn;ch,hb;lc;ah,nh; nan;ss;ua,uy;ng;ug,ag;	243
+湖贝	hu;kl;dh;kv;do; bei;mm;ad,kr;ob;kr;	4
+黄贝岭	huang;zf;ad,cb;nh;cb; bei;mm;ad,kr;ob;kr; ling;pp;ul;vk;es;	5
+新秀	xin;bp;jq;it;lj; xiu;uu;hn;xv;hn;	1412
+益田	yi;fd,fa;mb;ka;bm; tian;ww;aa;qt;ku;	19
+石厦	shi;tt;kp,aa,ak,pk;ms;ak; sha;rj;ix;xh;iw;	6
+少年宫	shao;pu;xp;yt;xp; nian;es;ra,pa;ev;pl; gong;io;bl;wd;bk;	156
+莲花村	lian;zq;cl;lu;cz; hua;za;ch;lv;cb; cun;wk;mc;ek;mc;	6
+华新	hua;xs;uh;jn;ru; xin;bp;jq;it;lj;	20
+通新岭	tong;pq;zy;ku;zy; xin;bp;jq;it;lj; ling;pp;ul;vk;es;	0
+红岭	hong;ep;sg;iu;sg; ling;pp;ul;vk;es;	59
+晒布	shai;vp;ox;ov;ox; bu;sy;ju,uj;nr;uj;	16
+翠竹	cui;ds;yz;zn;xu; zhu;nn;gg;ru;gg,pl;	62
+田贝	tian;ww;aa;qt;ku; bei;mm;ad,kr;ob;kr;	1
+水贝	shui;oo;ad,uv;ks;ln; bei;mm;ad,kr;ob;kr;	121
+草埔	cao;zs;cz;ln;cu; pu;gh;tf;gn;tf;	1
+布吉	bu;sy;ju,uj;nr;uj; ji;go;ku,uk;gd;uk;	34
+木棉湾	mu;ww;ad;em;an,un; mian;wy;mb,mj;er;mj; wan;kr;dw;kb;dg;	2
+大芬	da;xx;ad;md;un; fen;zi,zu;cf;lp;cd;	13
+丹竹头	dan;ua,ud,uz,od,oz;pd;mz;pa; zhu;nn;gg;ru;gg,pl; tou;hx;dd;wm;dd;	0
+六约	liu;if;wb,dd,db;al;wb; yue;eh;su;ii;su;	0
+横岗	heng;wf;mh;en;mb; gang;py;ug;vb;ex;	10
+永湖	yong;hh;dd;ik;dn; hu;kl;dh;kv;do;	0
+荷坳	he;zj;ch;lz;ck; ao;gu;ty;gs;tl;	0
+大运	da;xx;ad;md;un; yun;uq;zy;bu;zs;	137
+爱联	ai;hl;vy;yr;py; lian;dx;eg;qm;et;	2
+吉祥	ji;go;ku,uk;gd;uk; xiang;hp;uy;fg;py;	636
+龙城广场	long;sh;ad;tl;ud; cheng;gh;ti;ga;ti; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	2
+南联	nan;ss;ua,uy;ng;ug,ag; lian;dx;eg;qm;et;	30
+双龙	shuang;ll;yy;rr;yy; long;sh;ad;tl;ud;	154
+福田口岸	fu;hw;uf,ut;fq;pt; tian;ww;aa;qt;ku; kou;oo;aa;dk;la; an;ps;ug;ve;eg;	17
+福民	fu;hw;uf,ut;fq;pt; min;rr;ag,kq,vg;dm;vv;	9
+莲花北	lian;zq;cl;lu;cz; hua;za;ch;lv;cb; bei;la;ap,bj;av;lb;	0
+上梅林	shang;pd,pu;aa,ba;yf;la; mei;wh;mm;ek;mm; lin;ww;mm;ee;mm;	7
+民乐	min;rr;ag,kq,vg;dm;vv; yue;uf;pd,px;by;pd;	770
+白石龙	bai;ss;pa,po;ub;po; shi;tt;kp,aa,ak,pk;ms;ak; long;sh;ad;tl;ud;	8
+深圳北站	shen;kw;dm;ke;dm; zhen;gp;ti;go;ti; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk;	29
+红山	hong;ep;sg;iu;sg; shan;pp;aa;vs;lk;	218
+上塘	shang;pd,pu;aa,ba;yf;la; tang;go;tt;gd;tk;	9
+龙胜	long;sh;ad;tl;ud; sheng;la;ou;vl;ou;	8
+清湖	qing;kl;dq;kv;do; hu;kl;dh;kv;do;	9
+临海	lin;pd;ao,do;po;la; hai;kh;dm;kk;dm;	202
+宝华	bao;ia,ih;by;wi;by; hua;xs;uh;jn;ru;	111
+翻身	fan;hd;yf;tz;px; shen;uu;pp;zs;pp;	2867
+灵芝	ling;st;hx,xh;bc;eh; zhi;zh;cv;lr;cv;	373
+洪浪北	hong;kf;dg;kh;db; lang;kh;dl;ki;dl; bei;la;ap,bj;av;lb;	1
+兴东	xing;hf;ba,db;kh;xb; dong;df,af;ad,qx;ry;ad;	5
+留仙洞	liu;uw;td,tl,lt;bq;pt; xian;xp;ru;jv;re; dong;ko;dt;kd;dk;	3
+西丽	xi;pp;aa;vx;aa; li;dh;ad;fv;ad;	44
+大学城	da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; cheng;gh;ti;ga;ti;	932
+塘朗	tang;go;tt;gd;tk; lang;hl;ol;iv;do;	9
+长岭陂	zhang;uh;pd;pc;pn; ling;pp;ul;vk;es; bei;bl;ep;tr;ey;	2
+民治	min;rr;ag,kq,vg;dm;vv; zhi;ko;dt;kd;dk;	45
+五和	wu;gg;aa;wu;aa; he;uo;hk;xd;hk;	0
+坂田	ban;gl;tf;gr;ty; tian;ww;aa;qt;ku;	150
+杨美	yang;wu;my;ee;mp; mei;fx;dy,yd;gm;yd;	1
+上水径	shang;pd,pu;aa,ba;yf;la; shui;oo;ad,uv;ks;ln; jing;hp;xg;wu;ig;	2
+下水径	xia;dh;ab,ad;fy;ab; shui;oo;ad,uv;ks;ln; jing;hp;xg;wu;ig;	0
+长龙	chang;uh;pd;pc;pn; long;sh;ad;tl;ud;	113
+百鸽笼	bai;ds;ab;fu;ab; ge;ec;nh;jx;rn; long;nh;vl;rt;vl;	0
+布心	bu;sy;ju,uj;nr;uj; xin;nn;dd;hx;dd;	0
+太安	tai;xh;dd;mi;dd; an;iy;bn;wb;bn;	15
+怡景	yi;no;xt;hd;xk; jing;vf;oj;oy;ox;	1
+西丽湖	xi;pp;aa;vx;aa; li;dh;ad;fv;ad; hu;kl;dh;kv;do;	3
+茶光	cha;zf;cm;le;cm; guang;hk;ea,xw;mg;xw;	0
+珠光	zhu;ae;wv;na;wv; guang;hk;ea,xw;mg;xw;	155
+龙井	long;sh;ad;tl;ud; jing;up;aa,ep;qj;al;	217
+桃源村	tao;wh,wf;mv;ew;md; yuan;kf;dy;ky;dx; cun;wk;mc;ek;mc;	14
+深云	shen;kw;dm;ke;dm; yun;up;es,se;by;es;	0
+农林	nong;ih;by,ny;wt;dn; lin;ww;mm;ee;mm;	530
+上沙	shang;pd,pu;aa,ba;yf;la; sha;ku;du;kt;du;	6
+沙尾	sha;ku;du;kt;du; wei;qr,qa;um;cv;um;	6
+皇岗村	huang;sa;bw;un;bw; gang;py;ug;vb;ex; cun;wk;mc;ek;mc;	0
+皇岗口岸	huang;sa;bw;un;bw; gang;py;ug;vb;ex; kou;oo;aa;dk;la; an;ps;ug;ve;eg;	9
+赤尾	chi;gf,gi;tb,ty;gc;td; wei;qr,qa;um;cv;um;	5
+华强南	hua;xs;uh;jn;ru; qiang;rf;gs;bc;gi; nan;ss;ua,uy;ng;ug,ag;	3
+黄木岗	huang;zf;ad,cb;nh;cb; mu;ww;ad;em;an,un; gang;py;ug;vb;ex;	0
+八卦岭	ba;ff;pd;hb;pn; gua;gh;bg;gy;tb; ling;pp;ul;vk;es;	12
+红岭北	hong;ep;sg;iu;sg; ling;pp;ul;vk;es; bei;la;ap,bj;av;lb;	1
+笋岗	sun;nu;vy;rt;vy; gang;py;ug;vb;ex;	4
+洪湖	hong;kf;dg;kh;db; hu;kl;dh;kv;do;	53
+深湾	shen;kw;dm;ke;dm; wan;kr;dw;kb;dg;	2
+深圳湾公园	shen;kw;dm;ke;dm; zhen;gp;ti;go;ti; wan;kr;dw;kb;dg; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	29
+下沙	xia;dh;ab,ad;fy;ab; sha;ku;du;kt;du;	128
+香梅	xiang;uv;ho;xo;ho; mei;wh;mm;ek;mm;	38
+梅景	mei;wh;mm;ek;mm; jing;vf;oj;oy;ox;	1
+下梅林	xia;dh;ab,ad;fy;ab; mei;wh;mm;ek;mm; lin;ww;mm;ee;mm;	2
+梅村	mei;wh;mm;ek;mm; cun;wk;mc;ek;mc;	17
+孖岭	ma;aa;zz;hh;zz; ling;pp;ul;vk;es;	0
+银湖	yin;dh;jg;zi;jg; hu;kl;dh;kv;do;	31
+泥岗	ni;ka;dn;kv;db; gang;py;ug;vb;ex;	58
+园岭	yuan;nk;ky;rp;ke; ling;pp;ul;vk;es;	11
+鹿丹村	lu;ra;gb,lb;xl;gb; dan;ua,ud,uz,od,oz;pd;mz;pa; cun;wk;mc;ek;mc;	0
+人民南	ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; nan;ss;ua,uy;ng;ug,ag;	0
+向西村	xiang;uo;pk;td;pk; xi;pp;aa;vx;aa; cun;wk;mc;ek;mc;	5
+文锦	wen;jj;wi,dd;vw;wx; jin;dy;jb,jj;zr;jj;	13
+碧头	bi;at;ub,up;nm;wu; tou;hx;dd;wm;dd;	1
+松岗	song;wp;mg;ek;ms; gang;py;ug;vb;ex;	30
+后亭	hou;uo;pk;xd;pk; ting;ij;wd,db,dd;ga;wd;	1
+沙井	sha;ku;du;kt;du; jing;up;aa,ep;qj;al;	54
+马安山	ma;zz;aa,vh;nm;va; an;iy;bn;wb;bn; shan;pp;aa;vs;lk;	0
+塘尾	tang;go;tt;gd;tk; wei;qr,qa;um;cv;um;	0
+桥头	qiao;wp;mq;ep;ml; tou;hx;dd;wm;dd;	227
+福永	fu;hw;uf,ut;fq;pt; yong;hh;dd;ik;dn;	27
+机场北	ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; bei;la;ap,bj;av;lb;	10
+机场	ji;wi;mj;eo;mj; chang;gu;ty;ge;tp;	5899
+碧海湾	bi;at;ub,up;nm;wu; hai;kh;dm;kk;dm; wan;kr;dw;kb;dg;	1
+宝安	bao;ia,ih;by;wi;by; an;iy;bn;wb;bn;	171
+南山	nan;ss;ua,uy;ng;ug,ag; shan;pp;aa;vs;lk;	1006
+汉口北	han;kl;dy;kr;dy; kou;oo;aa;dk;la; bei;la;ap,bj;av;lb;	1
+滠口新城	she;kl;dn;kr;dy; kou;oo;aa;dk;la; xin;bp;jq;it;lj; cheng;gh;ti;ga;ti;	0
+滕子岗	teng;lo;ou;vk;ou; zi;aa;aa,vh;hi;va; gang;py;ug;vb;ex;	0
+堤角	di;ge;tu;gt;tr; jiao;gp;dy;xt;dy;	4
+新荣	xin;bp;jq;it;lj; rong;zw;cm,mb;le;cm;	11
+丹水池	dan;ua,ud,uz,od,oz;pd;mz;pa; shui;oo;ad,uv;ks;ln; chi;kr;dy;ke;dy;	0
+徐州新村	xu;hf;xy;wx;ih; zhou;hp;id,da;oo;dl; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	0
+二七路	er;uu;aa;me;aa; qi;aa;ag;rq;av; lu;go;zg;ps;zk;	1
+头道街	tou;hx;dd;wm;dd; dao;fq;zu;hu;zz; jie;hj;xg,xi;pg;ii;	2
+黄浦路	huang;zf;ad,cb;nh;cb; pu;kh;df;kn;df; lu;go;zg;ps;zk;	1
+三阳路	san;uu;aa;ts;ae; yang;bv;eo;to;eo; lu;go;zg;ps;zk;	5
+大智路	da;xx;ad;md;un; zhi;ev;ov;oo;uo; lu;go;zg;ps;zk;	6
+循礼门	xun;hs;xd;wq;io; li;hr;ug;fa;pv; men;oo;dg;am;dv;	4
+利济北路	li;ui;hd,dh;xp;hd; ji;kp;dq;kq;dl; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	0
+崇仁路	chong;pf;uz;vf;ex; ren;xu;re;jm;re; lu;go;zg;ps;zk;	1
+硚口路	qiao;tp;uq;mp;ul; kou;oo;aa;dk;la; lu;go;zg;ps;zk;	0
+太平洋	tai;xh;dd;mi;dd; ping;ds,sf;aa,gb;eh;au; yang;kp;dy;kg;dy;	3371
+宗关	zong;if;bu;wf;bx; guan;fx;bt,qd;hm;bt;	1
+汉西一路	han;kl;dy;kr;dy; xi;pp;aa;vx;aa; yi;dd;aa;fi;aa; lu;go;zg;ps;zk;	1
+古田四路	gu;so;uk;cg;uk; tian;ww;aa;qt;ku; si;nk;aa,ke;ys;ke; lu;go;zg;ps;zk;	1
+古田三路	gu;so;uk;cg;uk; tian;ww;aa;qt;ku; san;uu;aa;ts;ae; lu;go;zg;ps;zk;	1
+古田二路	gu;so;uk;cg;uk; tian;ww;aa;qt;ku; er;uu;aa;me;aa; lu;go;zg;ps;zk;	1
+古田一路	gu;so;uk;cg;uk; tian;ww;aa;qt;ku; yi;dd;aa;fi;aa; lu;go;zg;ps;zk;	0
+舵落口	duo;ta;vt;iv;vb; luo;zo;cl;ls;ck; kou;oo;aa;dk;la;	0
+竹叶海	zhu;nn;gg;ru;gg,pl; ye;os;ku;dn;ku; hai;kh;dm;kk;dm;	1
+额头湾	e;im;yk;ww;br; tou;hx;dd;wm;dd; wan;kr;dw;kb;dg;	0
+五环大道	wu;gg;aa;wu;aa; huan;ah;wb;nc;wb; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+东吴大道	dong;df,af;ad,qx;ry;ad; wu;ox;kt;dm;kt; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+码头潭公园	ma;tz;um;mn;um; tou;hx;dd;wm;dd; tan;ks;dt;kn;du; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+三店	san;uu;aa;ts;ae; dian;ro;gv;xd;gk;	7
+径河	jing;hp;xg;wu;ig; he;kj;dk;kz;dk;	0
+佛祖岭	fo;xp;rf;jt;rf; zu;hu;uq;ff;pq; ling;pp;ul;vk;es;	0
+藏龙东街	cang;zh;cg,ci;lq;ci; long;sh;ad;tl;ud; dong;df,af;ad,qx;ry;ad; jie;hj;xg,xi;pg;ii;	0
+秀湖	xiu;uu;hn;xv;hn; hu;kl;dh;kv;do;	17
+金融港北	jin;ed,ef;ra,pa;zj;ra; rong;df;ig;nc;ai; gang;kt;dx;kv;ds; bei;la;ap,bj;av;lb;	0
+黄龙山路	huang;zf;ad,cb;nh;cb; long;sh;ad;tl;ud; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	0
+光谷火车站	guang;hk;ea,xw;mg;xw; gu;fo;bk,kr;hg;bk; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	1
+佳园路	jia;xg;rg;jg;rt; yuan;nk;ky;rp;ke; lu;go;zg;ps;zk;	0
+光谷大道	guang;hk;ea,xw;mg;xw; gu;fo;bk,kr;hg;bk; da;xx;ad;md;un; dao;fq;zu;hu;zz;	7
+华中科技大学	hua;xs;uh;jn;ru; zhong;op;aa,ka;dg;ll; ke;uh,us;hd;xj;hu; ji;jl;fv;uc;fy; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	927
+珞雄路	luo;ao;wg;ns;wk; xiong;sa;vh,vs;nu;uf; lu;go;zg;ps;zk;	1
+光谷广场	guang;hk;ea,xw;mg;xw; gu;fo;bk,kr;hg;bk; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	12
+杨家湾	yang;wu;my;ee;mp; jia;ih;bu;wj;bu; wan;kr;dw;kb;dg;	12
+虎泉	hu;pi;hj;zh;hj; quan;so;bu,ub;uk;bu;	10
+广埠屯	guang;rr;dp;xg;di,wp; bu;gs;tf,tu;gn;tu; tun;dr;ag;fs;av;	24
+街道口	jie;hj;xg,xi;pg;ii; dao;fq;zu;hu;zz; kou;oo;aa;dk;la;	55
+宝通寺	bao;ia,ih;by;wi;by; tong;pq;zy;ku;zy; si;gk;ct,tc;gk;tc;	9
+中南路	zhong;op;aa,ka;dg;ll; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	5
+洪山广场	hong;kf;dg;kh;db; shan;pp;aa;vs;lk; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	5
+小龟山	xiao;pf;ad;yx;ld; gui;gr;dd;wg;dv; shan;pp;aa;vs;lk;	0
+螃蟹岬	pang;ff;ip;cl;if; xie;gf;ij;xc;di; jia;pp;uj;vs;ej;	4
+积玉桥	ji;uf;hv;xh;hb; yu;ah,aa;ad,wd;ni;wd; qiao;wp;mq;ep;ml;	5
+江汉路	jiang;kp;dg;ku;dg; han;kl;dy;kr;dy; lu;go;zg;ps;zk;	104
+王家墩东	wang;aa;aa;nw;at; jia;ih;bu;wj;bu; dun;gj;td;gh;tw; dong;df,af;ad,qx;ry;ad;	1
+范湖	fan;zt;ce,cf;lz;cv; hu;kl;dh;kv;do;	3
+汉口火车站	han;kl;dy;kr;dy; kou;oo;aa;dk;la; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	10
+长港路	zhang;uh;pd;pc;pn; gang;kt;dx;kv;ds; lu;go;zg;ps;zk;	0
+常青花园	chang;hy;jk,xd,dd;sr;xj; qing;al;of,fo;av;fo; hua;za;ch;lv;cb; yuan;nk;ky;rp;ke;	2
+金银潭	jin;ed,ef;ra,pa;zj;ra; yin;dh;jg;zi;jg; tan;ks;dt;kn;du;	26
+常青城	chang;hy;jk,xd,dd;sr;xj; qing;al;of,fo;av;fo; cheng;gh;ti;ga;ti;	0
+宏图大道	hong;ip;bh,bs;wk;bs; tu;nh;kd;rw;kd; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+盘龙城	pan;td,ta;mv,vm;ia;vm; long;sh;ad;tl;ud; cheng;gh;ti;ga;ti;	38
+巨龙大道	ju;dr;kk,aa;nn;ka; long;sh;ad;tl;ud; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+宋家岗	song;iw;bm;we;bm; jia;ih;bu;wj;bu; gang;py;ug;vb;ex;	0
+航空总部	hang;ti;vk;io;vj; kong;ip;xg,bg;eu;bg; zong;fn;bx,xk;hh;bx; bu;bb;ek,ep;it;le;	1
+天河机场	tian;ue;ad;fm;ad; he;kj;dk;kz;dk; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp;	15
+沌阳大道	dun;kr;dt;ks;dt; yang;bv;eo;to;eo; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+东风公司	dong;df,af;ad,qx;ry;ad; feng;iy;ji;ob;jx; gong;fp;sb,bs;hk;bs; si;ro;gk,ka;ad;vk;	7
+三角湖	san;uu;aa;ts;ae; jiao;gp;dy;xt;dy; hu;kl;dh;kv;do;	2
+汉阳客运站	han;kl;dy;kr;dy; yang;bv;eo;to;eo; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhan;bo;lv;id;lk;	0
+四新大道	si;nk;aa,ke;ys;ke; xin;bp;jq;it;lj; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+陶家岭	tao;bp;ef,et;ta;ef; jia;ih;bu;wj;bu; ling;pp;ul;vk;es;	0
+龙阳村	long;sh;ad;tl;ud; yang;bv;eo;to;eo; cun;wk;mc;ek;mc;	0
+王家湾	wang;aa;aa;nw;at; jia;ih;bu;wj;bu; wan;kr;dw;kb;dg;	14
+双墩	shuang;ll;yy;rr;yy; dun;gj;td;gh;tw;	16
+武汉商务区	wu;dr,ha;vy,yv;fs;av; han;kl;dy;kr;dy; shang;io;wk,lk,dk;id;wk; wu;ju;wl;hs;wl; qu;dr;ki;nb;kx;	0
+云飞路	yun;up;es,se;by;es; fei;rh;yd;cf;vd; lu;go;zg;ps;zk;	0
+菱角湖	ling;zj;cl,cw;lh;cw; jiao;gp;dy;xt;dy; hu;kl;dh;kv;do;	3
+香港路	xiang;uv;ho;xo;ho; gang;kt;dx;kv;ds; lu;go;zg;ps;zk;	5
+惠济二路	hui;dn;xh,hx;nh;ax; ji;kp;dq;kq;dl; er;uu;aa;me;aa; lu;go;zg;ps;zk;	0
+赵家条	zhao;qy;zi;pb;tx; jia;ih;bu;wj;bu; tiao;jf;wm;he;wm;	0
+罗家庄	luo;af;sx;yl;sx; jia;ih;bu;wj;bu; zhuang;rg;gt;xg;gt;	0
+二七小路	er;uu;aa;me;aa; qi;aa;ag;rq;av; xiao;pf;ad;yx;ld; lu;go;zg;ps;zk;	0
+兴业路	xing;hf;ba,db;kh;xb; ye;pd;aa;cy;la; lu;go;zg;ps;zk;	4
+后湖大道	hou;uo;pk;xd;pk; hu;kl;dh;kv;do; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+市民之家	shi;iy;wj;zr;wj; min;rr;ag,kq,vg;dm;vv; zhi;hh;dd;ri;dn; jia;ih;bu;wj;bu;	2
+黄金口	huang;zf;ad,cb;nh;cb; jin;ed,ef;ra,pa;zj;ra; kou;oo;aa;dk;la;	5
+孟家铺	meng;ad,aa;mz,zm;ha;zm; jia;ih;bu;wj;bu; pu;dh;jf;zn;jf;	0
+永安堂	yong;hh;dd;ik;dn; an;iy;bn;wb;bn; tang;hg;tk,dt,xt;sg;xt;	0
+玉龙路	yu;ah,aa;ad,wd;ni;wd; long;sh;ad;tl;ud; lu;go;zg;ps;zk;	0
+十里铺	shi;ss;aa;ns;al; li;vg;aa,tt;dl;la; pu;dh;jf;zn;jf;	33
+七里庙	qi;aa;ag;rq;av; li;vg;aa,tt;dl;la; miao;rp;gy;xd;gy;	0
+五里墩	wu;gg;aa;wu;aa; li;vg;aa,tt;dl;la; dun;gj;td;gh;tw;	7
+汉阳火车站	han;kl;dy;kr;dy; yang;bv;eo;to;eo; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	1
+钟家村	zhong;dp;jv;zg;jv; jia;ih;bu;wj;bu; cun;wk;mc;ek;mc;	7
+拦江路	lan;ju;fl;ut;fs; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+复兴路	fu;ej;pw,rw,wo;eh;pw; xing;hf;ba,db;kh;xb; lu;go;zg;ps;zk;	34
+首义路	shou;fs;qz;ho;bz; yi;hy,yh;di,id;ib;dx; lu;go;zg;ps;zk;	0
+武昌火车站	wu;dr,ha;vy,yv;fs;av; chang;vv;oo;oo;oo; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	13
+梅苑小区	mei;wh;mm;ek;mm; yuan;zt;ce,cy;lz;cv; xiao;pf;ad;yx;ld; qu;dr;ki;nb;kx;	0
+楚河汉街	chu;we;mp,pl;et;mr; he;kj;dk;kz;dk; han;kl;dy;kr;dy; jie;hj;xg,xi;pg;ii;	42
+青鱼嘴	qing;al;of,fo;av;fo; yu;qq;da;wv;da; zui;op;kj,kz;dt;ky;	0
+东亭	dong;df,af;ad,qx;ry;ad; ting;ij;wd,db,dd;ga;wd;	5
+岳家嘴	yue;up;uq,qu;tv;qe; jia;ih;bu;wj;bu; zui;op;kj,kz;dt;ky;	2
+铁机路	tie;de;ju;zh;ju; ji;wi;mj;eo;mj; lu;go;zg;ps;zk;	1
+罗家港	luo;af;sx;yl;sx; jia;ih;bu;wj;bu; gang;kt;dx;kv;ds;	0
+园林路	yuan;nk;ky;rp;ke; lin;ww;mm;ee;mm; lu;go;zg;ps;zk;	1
+仁和路	ren;xu;re;jm;re; he;uo;hk;xd;hk; lu;go;zg;ps;zk;	3
+工业四路	gong;pp;aa;ug;aa; ye;pd;aa;cy;la; si;nk;aa,ke;ys;ke; lu;go;zg;ps;zk;	0
+杨春湖	yang;wu;my;ee;mp; chun;uv;of,fo;ao;fo; hu;kl;dh;kv;do;	2
+武汉火车站	wu;dr,ha;vy,yv;fs;av; han;kl;dy;kr;dy; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	8
+金银湖公园	jin;ed,ef;ra,pa;zj;ra; yin;dh;jg;zi;jg; hu;kl;dh;kv;do; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+金银湖	jin;ed,ef;ra,pa;zj;ra; yin;dh;jg;zi;jg; hu;kl;dh;kv;do;	1
+园博园北	yuan;nk;ky;rp;ke; bo;sk;uc,uf;nk;uc; yuan;nk;ky;rp;ke; bei;la;ap,bj;av;lb;	0
+轻工大学	qing;tp;ig;yu;ig; gong;pp;aa;ug;aa; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	4
+杨汊湖	yang;wu;my;ee;mp; cha;kh;di;ki;di; hu;kl;dh;kv;do;	0
+石桥	shi;tt;kp,aa,ak,pk;ms;ak; qiao;wp;mq;ep;ml;	140
+唐家墩	tang;ro;gk;xd;gk; jia;ih;bu;wj;bu; dun;gj;td;gh;tw;	1
+三眼桥	san;uu;aa;ts;ae; yan;sh;og;qi;og; qiao;wp;mq;ep;ml;	3
+苗栗路	miao;zw;ct;lq;ct; li;pw;xm;ve;xm; lu;go;zg;ps;zk;	2
+六渡桥	liu;if;wb,dd,db;al;wb; du;kl;dd;kr;dy; qiao;wp;mq;ep;ml;	10
+汉正街	han;kl;dy;kr;dy; zheng;dr;av;fs;av; jie;hj;xg,xi;pg;ii;	27
+武胜路	wu;dr,ha;vy,yv;fs;av; sheng;la;ou;vl;ou; lu;go;zg;ps;zk;	7
+琴台	qin;ar;wj;na;wv; tai;po;sk;kd;sk;	26
+马鹦路	ma;zz;aa,vh;nm;va; ying;mc;ny;ox;kn; lu;go;zg;ps;zk;	0
+建港	jian;rq;zy;bu;zy; gang;kt;dx;kv;ds;	8
+前进村	qian;fi;bd,qd;hp;bd; jin;uq;zj;qu;zj; cun;wk;mc;ek;mc;	0
+国博中心北	guo;na,nh;ky;ri;ky; bo;sk;uc,uf;nk;uc; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd; bei;la;ap,bj;av;lb;	0
+国博中心南	guo;na,nh;ky;ri;ky; bo;sk;uc,uf;nk;uc; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd; nan;ss;ua,uy;ng;ug,ag;	0
+老关村	lao;ga;bl,lb;ql;lb; guan;fx;bt,qd;hm;bt; cun;wk;mc;ek;mc;	0
+江城大道	jiang;kp;dg;ku;dg; cheng;gh;ti;ga;ti; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+车城东路	che;tt;aa;yc;al; cheng;gh;ti;ga;ti; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+常码头	chang;hy;jk,xd,dd;sr;xj; ma;tz;um;mn;um; tou;hx;dd;wm;dd;	0
+取水楼	qu;dl;ey,ye;qr;ey; shui;oo;ad,uv;ks;ln; lou;wy;ml;eb;mn;	0
+徐家棚	xu;hf;xy;wx;ih; jia;ih;bu;wj;bu; peng;wl;mp;ev;mo;	3
+湖北大学	hu;kl;dh;kv;do; bei;la;ap,bj;av;lb; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	306
+新河街	xin;bp;jq;it;lj; he;kj;dk;kz;dk; jie;hj;xg,xi;pg;ii;	0
+小东门	xiao;pf;ad;yx;ld; dong;df,af;ad,qx;ry;ad; men;oo;dg;am;dv;	20
+瑞安街	rui;ae;we;nl;we; an;iy;bn;wb;bn; jie;hj;xg,xi;pg;ii;	0
+建安街	jian;rq;zy;bu;zy; an;iy;bn;wb;bn; jie;hj;xg,xi;pg;ii;	0
+湖工大	hu;kl;dh;kv;do; gong;pp;aa;ug;aa; da;xx;ad;md;un;	9
+野芷湖	ye;vp;ly,yl;di;ll; zhi;zr;cv;ls;cv; hu;kl;dh;kv;do;	2
+新路村	xin;bp;jq;it;lj; lu;go;zg;ps;zk; cun;wk;mc;ek;mc;	0
+大花岭	da;xx;ad;md;un; hua;za;ch;lv;cb; ling;pp;ul;vk;es;	2
+江夏客厅	jiang;kp;dg;ku;dg; xia;dj;wz,aw;fh;aw; ke;io;bg;ws;bk; ting;rj;id;xa;id;	0
+谭鑫培公园	tan;cs;yt;sn;yu; xin;ed,ef;jj;zz;jj; pei;go;tk,tp;gd;tk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	2
+北华街	bei;la;ap,bj;av;lb; hua;xs;uh;jn;ru; jie;hj;xg,xi;pg;ii;	0
+纸坊大街	zhi;er;su;ib;su; fang;gf;tf;gl;tf; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+青龙山地铁小镇	qing;al;of,fo;av;fo; long;sh;ad;tl;ud; shan;pp;aa;vs;lk; di;gr,ga;ty;ge;ty; tie;de;ju;zh;ju; xiao;pf;ad;yx;ld; zhen;df;jv;zh;jb;	0
+金潭路	jin;ed,ef;ra,pa;zj;ra; tan;ks;dt;kn;du; lu;go;zg;ps;zk;	0
+塔子湖	ta;go;td,th;gd;tk; zi;aa;aa,vh;hi;va; hu;kl;dh;kv;do;	1
+中一路	zhong;op;aa,ka;dg;ll; yi;dd;aa;fi;aa; lu;go;zg;ps;zk;	0
+竹叶山	zhu;nn;gg;ru;gg,pl; ye;os;ku;dn;ku; shan;pp;aa;vs;lk;	0
+徐东	xu;hf;xy;wx;ih; dong;df,af;ad,qx;ry;ad;	25
+汪家墩	wang;ka;dw;kn;dw; jia;ih;bu;wj;bu; dun;gj;td;gh;tw;	0
+湖口	hu;kl;dh;kv;do; kou;oo;aa;dk;la;	58
+光谷同济医院	guang;hk;ea,xw;mg;xw; gu;fo;bk,kr;hg;bk; tong;oo;kk;md;kk; ji;kp;dq;kq;dl; yi;dr;ku;no;ku; yuan;bk;ew;tp;ee;	0
+光谷生物园	guang;hk;ea,xw;mg;xw; gu;fo;bk,kr;hg;bk; sheng;aa;na;ls;pf; wu;bi;nw;qe;nw; yuan;nk;ky;rp;ke;	0
+光谷四路	guang;hk;ea,xw;mg;xw; gu;fo;bk,kr;hg;bk; si;nk;aa,ke;ys;ke; lu;go;zg;ps;zk;	1
+光谷五路	guang;hk;ea,xw;mg;xw; gu;fo;bk,kr;hg;bk; wu;gg;aa;wu;aa; lu;go;zg;ps;zk;	0
+光谷六路	guang;hk;ea,xw;mg;xw; gu;fo;bk,kr;hg;bk; liu;if;wb,dd,db;al;wb; lu;go;zg;ps;zk;	0
+豹澥	bao;uh;vu;mi;vu; xie;kb;dj;kq;dn;	0
+光谷七路	guang;hk;ea,xw;mg;xw; gu;fo;bk,kr;hg;bk; qi;aa;ag;rq;av; lu;go;zg;ps;zk;	0
+长岭山	zhang;uh;pd;pc;pn; ling;pp;ul;vk;es; shan;pp;aa;vs;lk;	0
+未来一路	wei;ee;ex,ad;aw;an; lai;uf,ef,dl;am,wb;ah;an; yi;dd;aa;fi;aa; lu;go;zg;ps;zk;	0
+未来三路	wei;ee;ex,ad;aw;an; lai;uf,ef,dl;am,wb;ah;an; san;uu;aa;ts;ae; lu;go;zg;ps;zk;	0
+左岭	zuo;sp;gu,ug;nu;ug; ling;pp;ul;vk;es;	12
+百步亭花园路	bai;ds;ab;fu;ab; bu;ru;vx;ss;vp; ting;ij;wd,db,dd;ga;wd; hua;za;ch;lv;cb; yuan;nk;ky;rp;ke; lu;go;zg;ps;zk;	1
+新荣客运站	xin;bp;jq;it;lj; rong;zw;cm,mb;le;cm; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhan;bo;lv;id;lk;	0
+幸福湾	xing;gs;tu,ty;gg;tg; fu;hw;uf,ut;fq;pt; wan;kr;dw;kb;dg;	0
+朱家河	zhu;ee;pw;ta;nn,pw; jia;ih;bu;wj;bu; he;kj;dk;kz;dk;	0
+谌家矶	chen;cr;yu;sa;yv; jia;ih;bu;wj;bu; ji;ti;uj;mo;uj;	1
+青龙	qing;al;of,fo;av;fo; long;sh;ad;tl;ud;	675
+高车	gao;io;wk;gg;wk; che;tt;aa;yc;al;	29
+武湖	wu;dr,ha;vy,yv;fs;av; hu;kl;dh;kv;do;	0
+沙口	sha;ku;du;kt;du; kou;oo;aa;dk;la;	51
+军民村	jun;it;bi;wy;bi; min;rr;ag,kq,vg;dm;vv; cun;wk;mc;ek;mc;	0
+武生院	wu;dr,ha;vy,yv;fs;av; sheng;aa;na;ls;pf; yuan;bk;ew;tp;ee;	0
+阳逻	yang;bv;eo;to;eo; luo;aq;zl;yu;zx;	84
+阳逻开发区	yang;bv;eo;to;eo; luo;aq;zl;yu;zx; kai;dz,dp,up;ac;fl;ac; fa;rh;ay,fd,vy,yd;si;vd; qu;dr;ki;nb;kx;	0
+施岗	shi;fr;fy;le;fy; gang;py;ug;vb;ex;	0
+金台	jin;ed,ef;ra,pa;zj;ra; tai;po;sk;kd;sk;	32
+刘园	liu;ji;dw,wd;vp;wd; yuan;nk;ky;rp;ke;	0
+瑞景新苑	rui;ae;we;nl;we; jing;vf;oj;oy;ox; xin;bp;jq;it;lj; yuan;zt;ce,cy;lz;cv;	0
+佳园里	jia;xg;rg;jg;rt; yuan;nk;ky;rp;ke; li;vg;aa,tt;dl;la;	0
+本溪路	ben;wd;aa,ma;ef;aa; xi;kx;dx;km;dd; lu;go;zg;ps;zk;	0
+勤俭道	qin;vu;lj;ls;nl; jian;xd;ra,rq;jf;ra; dao;fq;zu;hu;zz;	0
+洪湖里	hong;kf;dg;kh;db; hu;kl;dh;kv;do; li;vg;aa,tt;dl;la;	0
+西站	xi;pp;aa;vx;aa; zhan;bo;lv;id;lk;	75
+西北角	xi;pp;aa;vx;aa; bei;la;ap,bj;av;lb; jiao;gp;dy;xt;dy;	149
+西南角	xi;pp;aa;vx;aa; nan;ss;ua,uy;ng;ug,ag; jiao;gp;dy;xt;dy;	112
+二纬路	er;uu;aa;me;aa; wei;ep;sw;ig;sw; lu;go;zg;ps;zk;	0
+海光寺	hai;kh;dm;kk;dm; guang;hk;ea,xw;mg;xw; si;gk;ct,tc;gk;tc;	2
+鞍山道	an;vy;ga;tb;gn; shan;pp;aa;vs;lk; dao;fq;zu;hu;zz;	3
+营口道	ying;zo;cl;ld;ck; kou;oo;aa;dk;la; dao;fq;zu;hu;zz;	15
+小白楼	xiao;pf;ad;yx;ld; bai;ss;pa,po;ub;po; lou;wy;ml;eb;mn;	21
+下瓦房	xia;dh;ab,ad;fy;ab; wa;dh;ad;rw;ad; fang;qf;hf;ml;hf;	1
+南楼	nan;ss;ua,uy;ng;ug,ag; lou;wy;ml;eb;mn;	51
+土城	tu;gg;aa;gt;ua; cheng;gh;ti;ga;ti;	50
+陈塘庄	chen;bf;ed;ty;ed; tang;go;tt;gd;tk; zhuang;rg;gt;xg;gt;	1
+华山里	hua;xs;uh;jn;ru; shan;pp;aa;vs;lk; li;vg;aa,tt;dl;la;	0
+财经大学	cai;mu;bc;ot;kc; jing;ep;sg;iu;sg; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	647
+双林	shuang;ll;yy;rr;yy; lin;ww;mm;ee;mm;	32
+李楼	li;wa;mz;eh;mz; lou;wy;ml;eb;mn;	1
+滨海国际机场	bin;kf;db;kh;db; hai;kh;dm;kk;dm; guo;na,nh;ky;ri;ky; ji;bf;eu;tf;ex; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp;	1
+空港经济区	kong;ip;xg,bg;eu;bg; gang;kt;dx;kv;ds; jing;ep;sg;iu;sg; ji;kp;dq;kq;dl; qu;dr;ki;nb;kx;	1
+国山路	guo;na,nh;ky;ri;ky; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	0
+登州路	deng;rd;dd;hz;va; zhou;hp;id,da;oo;dl; lu;go;zg;ps;zk;	8
+屿东城	yu;pd;uy;vf;ey; dong;df,af;ad,qx;ry;ad; cheng;gh;ti;ga;ti;	0
+翠阜新村	cui;ds;yz;zn;xu; fu;us;pu,uk,vu;tn;pu; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	0
+靖江路	jing;bl;lq;iv;lo; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+顺驰桥	shun;um;yi;ow;ir; chi;zr;my;ne;my; qiao;wp;mq;ep;ml;	0
+远洋国际中心	yuan;uq;zy;mu;ze; yang;kp;dy;kg;dy; guo;na,nh;ky;ri;ky; ji;bf;eu;tf;ex; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	16
+天津站	tian;ue;ad;fm;ad; jin;kp;dy;kb;dy; zhan;bo;lv;id;lk;	36
+建国道	jian;rq;zy;bu;zy; guo;na,nh;ky;ri;ky; dao;fq;zu;hu;zz;	0
+东南角	dong;df,af;ad,qx;ry;ad; nan;ss;ua,uy;ng;ug,ag; jiao;gp;dy;xt;dy;	100
+鼓楼	gu;gl;vd,uv;hc;uy; lou;wy;ml;eb;mn;	406
+广开四马路	guang;rr;dp;xg;di,wp; kai;dz,dp,up;ac;fl;ac; si;nk;aa,ke;ys;ke; ma;zz;aa,vh;nm;va; lu;go;zg;ps;zk;	1
+长虹公园	chang;uh;pd;pc;pn; hong;fp;ig;cu;ig; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+咸阳路	xian;rh;gk,kg,wk;nd;ad,wk,xk; yang;bv;eo;to;eo; lu;go;zg;ps;zk;	0
+芥园西道	jie;zp;cj;lp;cl; yuan;nk;ky;rp;ke; xi;pp;aa;vx;aa; dao;fq;zu;hu;zz;	0
+卞兴	bian;ih;dx;zy;dx; xing;hf;ba,db;kh;xb;	0
+曹庄	cao;dv;oc,co;fo;ao; zhuang;rg;gt;xg;gt;	4
+小淀	xiao;pf;ad;yx;ld; dian;ke;dd;kt;dr;	0
+丰产河	feng;aa;aa;af;al; chan;bu,br,ir;dp,li,wp;ix;lp; he;kj;dk;kz;dk;	0
+华北集团	hua;xs;uh;jn;ru; bei;la;ap,bj;av;lb; ji;xw;mv,vm;ue;rm; tuan;nu;kc;rt;kc;	5
+天士力	tian;ue;ad;fm;ad; shi;gg;aa;gs;ua; li;uu;gp;sl;vp;	77
+宜兴埠	yi;iu;bq;wf;bq; xing;hf;ba,db;kh;xb; bu;gs;tf,tu;gn;tu;	1
+张兴庄	zhang;rh;gi;bp;gi; xing;hf;ba,db;kh;xb; zhuang;rg;gt;xg;gt;	0
+铁东路	tie;de;ju;zh;ju; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+北站	bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk;	186
+中山路	zhong;op;aa,ka;dg;ll; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	332
+金狮桥	jin;ed,ef;ra,pa;zj;ra; shi;by;qu;mr;qj; qiao;wp;mq;ep;ml;	0
+津湾广场	jin;kp;dy;kb;dy; wan;kr;dw;kb;dg; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	7
+和平路	he;uo;hk;xd;hk; ping;ds,sf;aa,gb;eh;au; lu;go;zg;ps;zk;	12
+西康路	xi;pp;aa;vx;aa; kang;ro;gl;xk;gn; lu;go;zg;ps;zk;	8
+吴家窑	wu;ox;kt;dm;kt; jia;ih;bu;wj;bu; yao;ip;xf,bf;ea;bf;	0
+天塔	tian;ue;ad;fm;ad; ta;go;td,th;gd;tk;	9
+周邓纪念馆	zhou;oo,uo;kj,kk;md;kk; deng;lb;ey,ye;rt;ye; ji;et;sj;iv;sj; nian;en;xj;jh;rx; guan;gd;ug;qk;uk;	1
+红旗南路	hong;ep;sg;iu;sg; qi;ff;fq;lh;fb; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+王顶堤	wang;aa;aa;nw;at; ding;jm;dy,yd;aw;dr; di;ge;tu;gt;tr;	2
+华苑	hua;xs;uh;jn;ru; yuan;zt;ce,cy;lz;cv;	7
+高新区	gao;io;wk;gg;wk; xin;bp;jq;it;lj; qu;dr;ki;nb;kx;	344
+学府工业区	xue;ha;dz,zb;kh;xz; fu;rw,rk;gf;xk;gc; gong;pp;aa;ug;aa; ye;pd;aa;cy;la; qu;dr;ki;nb;kx;	0
+杨伍庄	yang;wu;my;ee;mp; wu;xg;rw;jw;rw; zhuang;rg;gt;xg;gt;	0
+南站	nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	131
+中医一附院	zhong;op;aa,ka;dg;ll; yi;dr;ku;no;ku; yi;dd;aa;fi;aa; fu;bk,bw;ef;tk;ec; yuan;bk;ew;tp;ee;	6
+昌凌路	chang;vv;oo;oo;oo; ling;fj;dl,dw;wh;dw; lu;go;zg;ps;zk;	0
+凌宾路	ling;fj;dl,dw;wh;dw; bin;if;bb;wh;bb; lu;go;zg;ps;zk;	0
+肿瘤医院	zhong;lp;ov;vg;ov; liu;mw;bl;aq;bt; yi;dr;ku;no;ku; yuan;bk;ew;tp;ee;	458
+天津宾馆	tian;ue;ad;fm;ad; jin;kp;dy;kb;dy; bin;if;bb;wh;bb; guan;gd;ug;qk;uk;	1
+文化中心	wen;jj;wi,dd;vw;wx; hua;xa;rb;jv;rb; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	344
+西南楼	xi;pp;aa;vx;aa; nan;ss;ua,uy;ng;ug,ag; lou;wy;ml;eb;mn;	0
+直沽	zhi;sd,su;aa,uq;nf;uq; gu;ko;dg;kc;dk;	6
+津塘路	jin;kp;dy;kb;dy; tang;go;tt;gd;tk; lu;go;zg;ps;zk;	0
+成林道	cheng;rh;gg,wg;na;wv; lin;ww;mm;ee;mm; dao;fq;zu;hu;zz;	0
+幸福公园	xing;gs;tu,ty;gg;tg; fu;hw;uf,ut;fq;pt; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	3
+月牙河	yue;ll;oy,pa,yt;vy;ka; ya;du;ap;ly;ap; he;kj;dk;kz;dk;	1
+金钟河大街	jin;ed,ef;ra,pa;zj;ra; zhong;dp;jv;zg;jv; he;kj;dk;kz;dk; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+建昌道	jian;rq;zy;bu;zy; chang;vv;oo;oo;oo; dao;fq;zu;hu;zz;	0
+思源路	si;wn;tx,xt;qh;tx; yuan;kf;dy;ky;dx; lu;go;zg;ps;zk;	0
+志成路	zhi;gn;ux,xu;gh;ux; cheng;rh;gg,wg;na;wv; lu;go;zg;ps;zk;	0
+宜兴埠北	yi;iu;bq;wf;bq; xing;hf;ba,db;kh;xb; bu;gs;tf,tu;gn;tu; bei;la;ap,bj;av;lb;	0
+辽河北道	liao;rq;zl;ru;zl; he;kj;dk;kz;dk; bei;la;ap,bj;av;lb; dao;fq;zu;hu;zz;	0
+淮河道	huai;ka;dv;ku;df; he;kj;dk;kz;dk; dao;fq;zu;hu;zz;	0
+职业大学	zhi;df;ev;qh;eb; ye;pd;aa;cy;la; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	65
+北辰道	bei;la;ap,bj;av;lb; chen;rh;iy;fc;in; dao;fq;zu;hu;zz;	0
+丹河北道	dan;ua,ud,uz,od,oz;pd;mz;pa; he;kj;dk;kz;dk; bei;la;ap,bj;av;lb; dao;fq;zu;hu;zz;	0
+北辰科技园北	bei;la;ap,bj;av;lb; chen;rh;iy;fc;in; ke;uh,us;hd;xj;hu; ji;jl;fv;uc;fy; yuan;nk;ky;rp;ke; bei;la;ap,bj;av;lb;	0
+南孙庄	nan;ss;ua,uy;ng;ug,ag; sun;af;zx;hy;zx; zhuang;rg;gt;xg;gt;	0
+南何庄	nan;ss;ua,uy;ng;ug,ag; he;xj;rk;jz;rk; zhuang;rg;gt;xg;gt;	0
+大毕庄	da;xx;ad;md;un; bi;as;bu,ub;vn;bu; zhuang;rg;gt;xg;gt;	0
+金钟街	jin;ed,ef;ra,pa;zj;ra; zhong;dp;jv;zg;jv; jie;hj;xg,xi;pg;ii;	0
+徐庄子	xu;hf;xy;wx;ih; zhuang;rg;gt;xg;gt; zi;aa;aa,vh;hi;va;	0
+民权门	min;rr;ag,kq,vg;dm;vv; quan;wl;my;er;my; men;oo;dg;am;dv;	0
+北宁公园	bei;la;ap,bj;av;lb; ning;ij;bd;wa;bd; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	1
+新开河	xin;bp;jq;it;lj; kai;dz,dp,up;ac;fl;ac; he;kj;dk;kz;dk;	3
+外院附中	wai;fh;xb;ly;xb; yuan;bk;ew;tp;ee; fu;bk,bw;ef;tk;ec; zhong;op;aa,ka;dg;ll;	0
+天泰路	tian;ue;ad;fm;ad; tai;uo;fu,uf;ak;fu; lu;go;zg;ps;zk;	0
+北竹林	bei;la;ap,bj;av;lb; zhu;nn;gg;ru;gg,pl; lin;ww;mm;ee;mm;	0
+人民医院	ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; yi;dr;ku;no;ku; yuan;bk;ew;tp;ee;	425
+宜宾道	yi;iu;bq;wf;bq; bin;if;bb;wh;bb; dao;fq;zu;hu;zz;	0
+鞍山西道	an;vy;ga;tb;gn; shan;pp;aa;vs;lk; xi;pp;aa;vx;aa; dao;fq;zu;hu;zz;	2
+天拖	tian;ue;ad;fm;ad; tuo;jr;fy;ue;fy;	0
+一中心医院	yi;dd;aa;fi;aa; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd; yi;dr;ku;no;ku; yuan;bk;ew;tp;ee;	1
+迎风道	ying;uq;ze;bu;ze; feng;iy;ji;ob;jx; dao;fq;zu;hu;zz;	0
+南翠屏	nan;ss;ua,uy;ng;ug,ag; cui;ds;yz;zn;xu; ping;qp,qz;ub;cl;uk;	0
+水上公园东路	shui;oo;ad,uv;ks;ln; shang;pd,pu;aa,ba;yf;la; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+乐园道	le;uf;pd,px;by;pd; yuan;nk;ky;rp;ke; dao;fq;zu;hu;zz;	0
+尖山路	jian;px;xd;ym;xd; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	1
+黑牛城道	hei;nn;ad,ha;ph;lh; niu;bb;pa;qn;pl; cheng;gh;ti;ga;ti; dao;fq;zu;hu;zz;	0
+梅江道	mei;wh;mm;ek;mm; jiang;kp;dg;ku;dg; dao;fq;zu;hu;zz;	0
+左江道	zuo;sp;gu,ug;nu;ug; jiang;kp;dg;ku;dg; dao;fq;zu;hu;zz;	0
+梅江公园	mei;wh;mm;ek;mm; jiang;kp;dg;ku;dg; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+梅江会展中心	mei;wh;mm;ek;mm; jiang;kp;dg;ku;dg; hui;ep;ry;jb;rs; zhan;qh;uy;ct;un; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	1
+解放南路	jie;gb;jn;xq;dn; fang;fj;wf,fw;lh;fw; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	12
+洞庭路	dong;ko;dt;kd;dk; ting;rq;gt;xu;gz; lu;go;zg;ps;zk;	0
+梅林路	mei;wh;mm;ek;mm; lin;ww;mm;ee;mm; lu;go;zg;ps;zk;	0
+东海路	dong;df,af;ad,qx;ry;ad; hai;kh;dm;kk;dm; lu;go;zg;ps;zk;	2
+太湖路	tai;xh;dd;mi;dd; hu;kl;dh;kv;do; lu;go;zg;ps;zk;	2
+市民广场	shi;iy;wj;zr;wj; min;rr;ag,kq,vg;dm;vv; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	13
+泰达	tai;uo;fu,uf;ak;fu; da;xq;zd;mu;zd;	100
+塘沽	tang;go;tt;gd;tk; gu;ko;dg;kc;dk;	45
+胡家园	hu;sl;og;cv;uo; jia;ih;bu;wj;bu; yuan;nk;ky;rp;ke;	0
+钢管公司	gang;dy;jg;zb;jx; guan;nd;vg;rk;vk; gong;fp;sb,bs;hk;bs; si;ro;gk,ka;ad;vk;	0
+军粮城	jun;it;bi;wy;bi; liang;lh;ml;pi;ml; cheng;gh;ti;ga;ti;	1
+小东庄	xiao;pf;ad;yx;ld; dong;df,af;ad,qx;ry;ad; zhuang;rg;gt;xg;gt;	0
+东丽开发区	dong;df,af;ad,qx;ry;ad; li;dh;ad;fv;ad; kai;dz,dp,up;ac;fl;ac; fa;rh;ay,fd,vy,yd;si;vd; qu;dr;ki;nb;kx;	0
+新立	xin;bp;jq;it;lj; li;bb;da;il;wa;	33
+张贵庄	zhang;rh;gi;bp;gi; gui;fm;ba,vb;co;vr; zhuang;rg;gt;xg;gt;	0
+二号桥	er;uu;aa;me;aa; hao;or;kk;da;kv; qiao;wp;mq;ep;ml;	2
+一号桥	yi;dd;aa;fi;aa; hao;or;kk;da;kv; qiao;wp;mq;ep;ml;	6
+中山门	zhong;op;aa,ka;dg;ll; shan;pp;aa;vs;lk; men;oo;dg;am;dv;	7
+东兴路	dong;df,af;ad,qx;ry;ad; xing;hf;ba,db;kh;xb; lu;go;zg;ps;zk;	0
+十一经路	shi;ss;aa;ns;al; yi;dd;aa;fi;aa; jing;ep;sg;iu;sg; lu;go;zg;ps;zk;	0
+大王庄	dai;xx;ad;md;un; wang;aa;aa;nw;at; zhuang;rg;gt;xg;gt;	7
+空港新城江宁	kong;ip;xg,bg;eu;bg; gang;kt;dx;kv;ds; xin;bp;jq;it;lj; cheng;gh;ti;ga;ti; jiang;kp;dg;ku;dg; ning;ij;bd;wa;bd;	0
+禄口机场	lu;ho;ul;fk;pu; kou;oo;aa;dk;la; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp;	12
+翔宇路南	xiang;fd;yy;gz;yx; yu;is;by;wn;by; lu;go;zg;ps;zk; nan;ss;ua,uy;ng;ug,ag;	0
+翔宇路北	xiang;fd;yy;gz;yx; yu;is;by;wn;by; lu;go;zg;ps;zk; bei;la;ap,bj;av;lb;	0
+正方中路	zheng;dr;av;fs;av; fang;ff;dg,wd,dp,dw;lf;dw; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	3
+吉印大道	ji;go;ku,uk;gd;uk; yin;ub;ey,pe;bz;pe; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+河海大学·佛城西路	he;kj;dk;kz;dk; hai;kh;dm;kk;dm; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; fu;xp;rf;jt;rf; cheng;gh;ti;ga;ti; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+翠屏山	cui;ds;yz;zn;xu; ping;qp,qz;ub;cl;uk; shan;pp;aa;vs;lk;	21
+南京南站	nan;ss;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	50
+中国药科大学	zhong;op;aa,ka;dg;ll; guo;na,nh;ky;ri;ky; yao;zh;cy;li;cu; ke;uh,us;hd;xj;hu; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	77
+南京交院	nan;ss;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; jiao;iy;li,wf,df;ab;wx; yuan;bk;ew;tp;ee;	1
+南医大·江苏经贸学院	nan;ss;ua,uy;ng;ug,ag; yi;dr;ku;no;ku; da;xx;ad;md;un; jiang;kp;dg;ku;dg; su;zf;cb;lh;cb; jing;ep;sg;iu;sg; mao;um;bd,lb;bo;pr; xue;ha;dz,zb;kh;xz; yuan;bk;ew;tp;ee;	0
+龙眠大道	long;sh;ad;tl;ud; mian;sr;om;qd;om; da;xx;ad;md;un; dao;fq;zu;hu;zz;	2
+天印大道	tian;ue;ad;fm;ad; yin;ub;ey,pe;bz;pe; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+竹山路	zhu;nn;gg;ru;gg,pl; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	1
+小龙湾	xiao;pf;ad;yx;ld; long;sh;ad;tl;ud; wan;kr;dw;kb;dg;	0
+百家湖	bai;ds;ab;fu;ab; jia;ih;bu;wj;bu; hu;kl;dh;kv;do;	8
+胜太路	sheng;la;ou;vl;ou; tai;xh;dd;mi;dd; lu;go;zg;ps;zk;	0
+河定桥	he;kj;dk;kz;dk; ding;ie;bp;wt;br; qiao;wp;mq;ep;ml;	0
+双龙大道	shuang;ll;yy;rr;yy; long;sh;ad;tl;ud; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+花神庙	hua;za;ch;lv;cb; shen;hp;uu;fg;pu; miao;rp;gy;xd;gy;	4
+软件大道	ruan;te;iq;ye;ir; jian;xb;rn;jq;rn; da;xx;ad;md;un; dao;fq;zu;hu;zz;	3
+天隆寺	tian;ue;ad;fm;ad; long;ba;eu;tl;eu; si;gk;ct,tc;gk;tc;	0
+安德门	an;iy;bn;wb;bn; de;hn;xx;wh;ix; men;oo;dg;am;dv;	16
+中华门	zhong;op;aa,ka;dg;ll; hua;xs;uh;jn;ru; men;oo;dg;am;dv;	32
+三山街	san;uu;aa;ts;ae; shan;pp;aa;vs;lk; jie;hj;xg,xi;pg;ii;	6
+张府园	zhang;rh;gi;bp;gi; fu;rw,rk;gf;xk;gc; yuan;nk;ky;rp;ke;	5
+珠江路	zhu;ae;wv;na;wv; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	21
+玄武门	xuan;ip;wy;zi;wy; wu;dr,ha;vy,yv;fs;av; men;oo;dg;am;dv;	217
+新模范马路	xin;bp;jq;it;lj; mo;wx;mm;em;md; fan;zt;ce,cf;lz;cv; ma;zz;aa,vh;nm;va; lu;go;zg;ps;zk;	1
+南京站	nan;ss;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; zhan;bo;lv;id;lk;	59
+红山动物园	hong;ep;sg;iu;sg; shan;pp;aa;vs;lk; dong;uu;ly,yl;bs;el; wu;bi;nw;qe;nw; yuan;nk;ky;rp;ke;	4
+迈皋桥	mai;dq;zw;fu;zw; gao;ss;bu;un;bu; qiao;wp;mq;ep;ml;	12
+油坊桥	you;kp;dy;kd;dy; fang;gf;tf;gl;tf; qiao;wp;mq;ep;ml;	0
+雨润大街	yu;yy;ad;tv;ad; run;ka;dr;kn;dw; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+元通	yuan;uk;aw,ee;mp;ee; tong;pq;zy;ku;zy;	26
+奥体东	ao;ux;dm,pd;tm;pd; ti;xd;rb;jf;rb; dong;df,af;ad,qx;ry;ad;	3
+兴隆大街	xing;hf;ba,db;kh;xb; long;ba;eu;tl;eu; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+集庆门大街	ji;xw;mv,vm;ue;rm; qing;rx;gd;xm;gd; men;oo;dg;am;dv; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	1
+莫愁湖	mo;zx;cd,ct;lm;cd; chou;un;xq;xh;hx; hu;kl;dh;kv;do;	20
+汉中门	han;kl;dy;kr;dy; zhong;op;aa,ka;dg;ll; men;oo;dg;am;dv;	8
+上海路	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; lu;go;zg;ps;zk;	22
+大行宫	da;xx;ad;md;un; xing;hj;xd,xi;px;ii; gong;io;bl;wd;bk;	13
+西安门	xi;pp;aa;vx;aa; an;iy;bn;wb;bn; men;oo;dg;am;dv;	11
+明故宫	ming;vl;oo;ov;oo; gu;sj;wg;ch;uw; gong;io;bl;wd;bk;	21
+苜蓿园	mu;zs;co;lq;co; xu;zs;cs;lu;cb; yuan;nk;ky;rp;ke;	6
+下马坊	xia;dh;ab,ad;fy;ab; ma;zz;aa,vh;nm;va; fang;gf;tf;gl;tf;	14
+孝陵卫	xiao;ga;zl,lz;qh;lz; ling;bj;el,ew;th;ew; wei;bd;ea,ga;zf;ea,va;	15
+钟灵街	zhong;dp;jv;zg;jv; ling;st;hx,xh;bc;eh; jie;hj;xg,xi;pg;ii;	6
+马群	ma;zz;aa,vh;nm;va; qun;rp;yj;bg;yy;	43
+金马路	jin;ed,ef;ra,pa;zj;ra; ma;zz;aa,vh;nm;va; lu;go;zg;ps;zk;	0
+仙鹤门	xian;xp;ru;jv;re; he;ic;nv;wx;dn; men;oo;dg;am;dv;	4
+学则路	xue;ha;dz,zb;kh;xz; ze;mi;bd,db;op;kd; lu;go;zg;ps;zk;	12
+仙林中心	xian;xp;ru;jv;re; lin;ww;mm;ee;mm; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	4
+羊山公园	yang;fp;da;gy;bl; shan;pp;aa;vs;lk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	5
+南大仙林校区	nan;ss;ua,uy;ng;ug,ag; da;xx;ad;md;un; xian;xp;ru;jv;re; lin;ww;mm;ee;mm; xiao;wy;mj;eb;mx; qu;dr;ki;nb;kx;	3
+经天路	jing;ep;sg;iu;sg; tian;ue;ad;fm;ad; lu;go;zg;ps;zk;	8
+高家冲	gao;io;wk;gg;wk; jia;ih;bu;wj;bu; chong;fp;dv;wg;dv;	0
+林山	lin;ww;mm;ee;mm; shan;pp;aa;vs;lk;	43
+桥林新城	qiao;wp;mq;ep;ml; lin;ww;mm;ee;mm; xin;bp;jq;it;lj; cheng;gh;ti;ga;ti;	0
+石碛河	shi;tt;kp,aa,ak,pk;ms;ak; qi;tm;uz;mo;ur; he;kj;dk;kz;dk;	0
+双垅	shuang;ll;yy;rr;yy; long;gh;tl;gt;tl;	0
+兰花塘	lan;fu;bs,qe;ht;bs; hua;za;ch;lv;cb; tang;go;tt;gd;tk;	0
+马骡圩	ma;zz;aa,vh;nm;va; luo;zf;ml;ni;mx; wei;gs;ty;gn;ty;	0
+刘村	liu;ji;dw,wd;vp;wd; cun;wk;mc;ek;mc;	8
+天保	tian;ue;ad;fm;ad; bao;xw;rd;je;rm;	58
+高庙路	gao;io;wk;gg;wk; miao;rp;gy;xd;gy; lu;go;zg;ps;zk;	1
+吴侯街	wu;ox;kt;dm;kt; hou;xx;ru;jo;ru; jie;hj;xg,xi;pg;ii;	2
+平良大街	ping;ds,sf;aa,gb;eh;au; liang;hh;dg;ii;dg; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+永初路	yong;hh;dd;ik;dn; chu;hu,hi;yd;tp;pd; lu;go;zg;ps;zk;	0
+贾西	jia;pm;bx,xb;vo;xr; xi;pp;aa;vx;aa;	19
+春江路	chun;uv;of,fo;ao;fo; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+铁心桥	tie;de;ju;zh;ju; xin;nn;dd;hx;dd; qiao;wp;mq;ep;ml;	1
+景明佳园	jing;vf;oj;oy;ox; ming;vl;oo;ov;oo; jia;xg;rg;jg;rt; yuan;nk;ky;rp;ke;	0
+秣周东路	mo;ue;hm;xe;hm; zhou;oo,uo;kj,kk;md;kk; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	1
+东大九龙湖校区	dong;df,af;ad,qx;ry;ad; da;xx;ad;md;un; jiu;ur;py;kj;pv; long;sh;ad;tl;ud; hu;kl;dh;kv;do; xiao;wy;mj;eb;mx; qu;dr;ki;nb;kx;	5
+诚信大道	cheng;ch;yi;sa;yi; xin;xo,xc;ry;js;rk; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+九龙湖	jiu;ur;py;kj;pv; long;sh;ad;tl;ud; hu;kl;dh;kv;do;	84
+天元西路	tian;ue;ad;fm;ad; yuan;uk;aw,ee;mp;ee; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+胜太西路	sheng;la;ou;vl;ou; tai;xh;dd;mi;dd; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+宏运大道	hong;ip;bh,bs;wk;bs; yun;uq;zy;bu;zs; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+明发广场	ming;vl;oo;ov;oo; fa;rh;ay,fd,vy,yd;si;vd; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	2
+大明路	da;xx;ad;md;un; ming;vl;oo;ov;oo; lu;go;zg;ps;zk;	0
+卡子门	qia;ph;bx,ub;yy;ub; zi;aa;aa,vh;hi;va; men;oo;dg;am;dv;	3
+雨花门	yu;yy;ad;tv;ad; hua;za;ch;lv;cb; men;oo;dg;am;dv;	1
+武定门	wu;dr,ha;vy,yv;fs;av; ding;ie;bp;wt;br; men;oo;dg;am;dv;	6
+夫子庙	fu;ee;ad,er;hf;an; zi;aa;aa,vh;hi;va; miao;rp;gy;xd;gy;	116
+常府街	chang;hy;jk,xd,dd;sr;xj; fu;rw,rk;gf;xk;gc; jie;hj;xg,xi;pg;ii;	0
+浮桥	fu;ka;df;kh;dz; qiao;wp;mq;ep;ml;	98
+鸡鸣寺	ji;lc;ny,yn;rx;yn; ming;oc;kn;dx;kn; si;gk;ct,tc;gk;tc;	72
+南京林业大学·新庄	nan;ss;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; lin;ww;mm;ee;mm; ye;pd;aa;cy;la; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; xin;bp;jq;it;lj; zhuang;rg;gt;xg;gt;	0
+小市	xiao;pf;ad;yx;ld; shi;iy;wj;zr;wj;	12
+五塘广场	wu;gg;aa;wu;aa; tang;go;tt;gd;tk; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+上元门	shang;pd,pu;aa,ba;yf;la; yuan;uk;aw,ee;mp;ee; men;oo;dg;am;dv;	3
+柳洲东路	liu;wb;mm;eb;me; zhou;kp;dv;ko;dl,dv; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+天润城	tian;ue;ad;fm;ad; run;ka;dr;kn;dw; cheng;gh;ti;ga;ti;	2
+泰冯路	tai;uo;fu,uf;ak;fu; feng;fz;dm;wn;dm; lu;go;zg;ps;zk;	0
+东大成贤学院	dong;df,af;ad,qx;ry;ad; da;xx;ad;md;un; cheng;rh;gg,wg;na;wv; xian;pm;by;po;lr; xue;ha;dz,zb;kh;xz; yuan;bk;ew;tp;ee;	3
+星火路	xing;va;ou;ol;ou; huo;tt;dd;ch;dr; lu;go;zg;ps;zk;	1
+林场	lin;ww;mm;ee;mm; chang;gu;ty;ge;tp;	208
+龙江	long;sh;ad;tl;ud; jiang;kp;dg;ku;dg;	92
+草场门·南艺·二师	cao;zs;cz;ln;cu; chang;gu;ty;ge;tp; men;oo;dg;am;dv; nan;ss;ua,uy;ng;ug,ag; yi;zr;cy;la;cv; er;uu;aa;me;aa; shi;py;ab,aj,db,dj;pr;lj;	0
+云南路	yun;up;es,se;by;es; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	11
+九华山	jiu;ur;py;kj;pv; hua;xs;uh;jn;ru; shan;pp;aa;vs;lk;	65
+岗子村	gang;py;ug;vb;ex; zi;aa;aa,vh;hi;va; cun;wk;mc;ek;mc;	0
+蒋王庙	jiang;zk;cj;lk;cc; wang;aa;aa;nw;at; miao;rp;gy;xd;gy;	1
+聚宝山	ju;dh;ed,ey,qd,yq;qk;en; bao;ia,ih;by;wi;by; shan;pp;aa;vs;lk;	1
+徐庄·苏宁总部	xu;hf;xy;wx;ih; zhuang;rg;gt;xg;gt; su;zf;cb;lh;cb; ning;ij;bd;wa;bd; zong;fn;bx,xk;hh;bx; bu;bb;ek,ep;it;le;	0
+汇通路	hui;kr;dk;kn;dk; tong;pq;zy;ku;zy; lu;go;zg;ps;zk;	1
+灵山	ling;st;hx,xh;bc;eh; shan;pp;aa;vs;lk;	301
+东流	dong;df,af;ad,qx;ry;ad; liu;kr;di;ko;dv;	84
+孟北	meng;ad,aa;mz,zm;ha;zm; bei;la;ap,bj;av;lb;	0
+西岗桦墅	xi;pp;aa;vx;aa; gang;py;ug;vb;ex; hua;ws;mh;en;mu; shu;vg;ty;dg;lt;	0
+仙林湖	xian;xp;ru;jv;re; lin;ww;mm;ee;mm; hu;kl;dh;kv;do;	12
+柘塘	zhe;wt;mu;em;mu; tang;go;tt;gd;tk;	0
+空港新城溧水	kong;ip;xg,bg;eu;bg; gang;kt;dx;kv;ds; xin;bp;jq;it;lj; cheng;gh;ti;ga;ti; li;kw;dl;ke;dm; shui;oo;ad,uv;ks;ln;	0
+群力	qun;rp;yj;bg;yy; li;uu;gp;sl;vp;	17
+卧龙湖	wo;dh;bi,ib;qy;ib; long;sh;ad;tl;ud; hu;kl;dh;kv;do;	0
+溧水	li;kw;dl;ke;dm; shui;oo;ad,uv;ks;ln;	29
+中山湖	zhong;op;aa,ka;dg;ll; shan;pp;aa;vs;lk; hu;kl;dh;kv;do;	0
+幸庄	xing;gs;tu,ty;gg;tg; zhuang;rg;gt;xg;gt;	0
+无想山	wu;uk;ag,ay,ee;du;ay; xiang;wn;xx;eh;mx; shan;pp;aa;vs;lk;	3
+泰山新村	tai;uo;fu,uf;ak;fu; shan;pp;aa;vs;lk; xin;bp;jq;it;lj; cun;wk;mc;ek;mc;	1
+高新开发区	gao;io;wk;gg;wk; xin;bp;jq;it;lj; kai;dz,dp,up;ac;fl;ac; fa;rh;ay,fd,vy,yd;si;vd; qu;dr;ki;nb;kx;	4
+信息工程大学	xin;xo,xc;ry;js;rk; xi;sn;xz,zx;oh;zx; gong;pp;aa;ug;aa; cheng;ua;hi;xn;hw; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	92
+卸甲甸	xie;eb;ea,ev,ex;az;pe,we; jia;vp;aa,oa;sj;ll; dian;uw;gt,tg;nq;bt;	0
+大厂	da;xx;ad;md;un; chang;rr;ap;xc;ap;	12924
+葛塘	ge;zr;ch;lf;cv; tang;go;tt;gd;tk;	1
+长芦	zhang;uh;pd;pc;pn; lu;zq;ch;lm;ch;	15
+化工园	hua;xa;rb;jv;rb; gong;pp;aa;ug;aa; yuan;nk;ky;rp;ke;	2
+六合开发区	liu;if;wb,dd,db;al;wb; he;eo;rk;jd;rk; kai;dz,dp,up;ac;fl;ac; fa;rh;ay,fd,vy,yd;si;vd; qu;dr;ki;nb;kx;	0
+龙池	long;sh;ad;tl;ud; chi;kr;dy;ke;dy;	47
+雄州	xiong;sa;vh,vs;nu;uf; zhou;hp;id,da;oo;dl;	21
+凤凰山公园	feng;il;jy;or;jy; huang;ia;jh;on;jw; shan;pp;aa;vs;lk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+方州广场	fang;ff;dg,wd,dp,dw;lf;dw; zhou;hp;id,da;oo;dl; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+沈桥	shen;kk;dg,dy;kp;dv; qiao;wp;mq;ep;ml;	0
+八百桥	ba;ff;pd;hb;pn; bai;ds;ab;fu;ab; qiao;wp;mq;ep;ml;	0
+金牛湖	jin;ed,ef;ra,pa;zj;ra; niu;bb;pa;qn;pl; hu;kl;dh;kv;do;	4
+铜山	tong;do;jt;zd;jk; shan;pp;aa;vs;lk;	19
+石湫	shi;tt;kp,aa,ak,pk;ms;ak; jiao;kt;dq;kc;dh;	0
+明觉	ming;vl;oo;ov;oo; jue;hk;dj,jb;ke;xe;	26
+团结圩	tuan;nu;kc;rt;kc; jie;eo;sj;id;sk; wei;gs;ty;gn;ty;	0
+高淳	gao;io;wk;gg;wk; chun;ka;dx;kh;dz;	29
+小行	xiao;pf;ad;yx;ld; xing;hj;xd,xi;px;ii;	34
+中胜	zhong;op;aa,ka;dg;ll; sheng;la;ou;vl;ou;	2
+梦都大街	meng;wf;mx,xl;el;mx; dou;gb;ev;qt;le; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	2
+绿博园	lv;eo;sl;ik;su; bo;sk;uc,uf;nk;uc; yuan;nk;ky;rp;ke;	3
+江心洲	jiang;kp;dg;ku;dg; xin;nn;dd;hx;dd; zhou;kp;dv;ko;dl,dv;	33
+临江	lin;pd;ao,do;po;la; jiang;kp;dg;ku;dg;	158
+浦口万汇城	pu;kh;df;kn;df; kou;oo;aa;dk;la; wan;du;ag,ap;fp;ap; hui;kr;dk;kn;dk; cheng;gh;ti;ga;ti;	0
+南京工业大学	nan;ss;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; gong;pp;aa;ug;aa; ye;pd;aa;cy;la; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	111
+龙华路	long;sh;ad;tl;ud; hua;xs;uh;jn;ru; lu;go;zg;ps;zk;	1
+文德路	wen;jj;wi,dd;vw;wx; de;hn;xx;wh;ix; lu;go;zg;ps;zk;	3
+雨山路	yu;yy;ad;tv;ad; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	16
+欣澳	xin;ue;qj,jq;te;jr; ao;kx;da;km;dd;	1
+堅尼地城	jian;;ty;qg;; ni;qa;ub;cv;ub; di;gr,ga;ty;ge;ty; cheng;gh;ti;ga;ti;	0
+香港大學	xiang;uv;ho;xo;ho; gang;kt;dx;kv;ds; da;xx;ad;md;un; xue;;jz,zb;ph;;	10
+西營盤	xi;pp;aa;vx;aa; ying;;hl,lb;cd;; pan;;mb;ia;;	0
+上環	shang;pd,pu;aa,ba;yf;la; huan;;wh,wy;nt;;	9
+中環	zhong;op;aa,ka;dg;ll; huan;;wh,wy;nt;;	21
+金鐘	jin;ed,ef;ra,pa;zj;ra; zhong;;jt;zd;;	3
+灣仔	wan;;dg,dw;kb;; zai;xa;rz;jh;rz;	15
+銅鑼灣	tong;;jt;zd;; luo;;jl,jw;zu;; wan;;dg,dw;kb;;	6
+天后	tian;ue;ad;fm;ad; hou;uo;pk;xd;pk;	3353
+炮台山	pao;tt;hb;cv;hs; tai;po;sk;kd;sk; shan;pp;aa;vs;lk;	6
+北角	bei;la;ap,bj;av;lb; jiao;gp;dy;xt;dy;	32
+鰂魚涌	zei;;yz;wp;; yu;;dh;wv;; yong;ki,kp;dy;kt;dy;	0
+太古	tai;xh;dd;mi;dd; gu;so;uk;cg;uk;	325
+西灣河	xi;pp;aa;vx;aa; wan;;dg,dw;kb;; he;kj;dk;kz;dk;	0
+筲箕灣	shao;nl;vx;rv;vo; ji;nf;vq;rh;vb; wan;;dg,dw;kb;;	1
+杏花邨	xing;wo;km,mk;ed;mk; hua;za;ch;lv;cb; cun;db;et;ft;te;	0
+柴灣	chai;rw;mc;se;vm; wan;;dg,dw;kb;;	0
+海洋公園	hai;kh;dm;kk;dm; yang;kp;dy;kg;dy; gong;fp;sb,bs;hk;bs; yuan;;ky;rt;;	2
+黃竹坑	huang;;cb;nh;; zhu;nn;gg;ru;gg,pl; keng;gi;tk;go;tj;	0
+利東	li;ui;hd,dh;xp;hd; dong;;ad,mo;eo;;	0
+海怡半島	hai;kh;dm;kk;dm; yi;no;xt;hd;xk; ban;fp,fs;bf;hu;dl; dao;up;nu,un;xv;;	0
+紅磡	hong;;sg;iu;; kan;tu;uk;ms;ul;	5
+尖東	jian;px;xd;ym;xd; dong;;ad,mo;eo;;	0
+柯士甸	ke;wj;mk;ez;mk; shi;gg;aa;gs;ua; dian;uw;gt,tg;nq;bt;	4
+南昌	nan;ss;ua,uy;ng;ug,ag; chang;vv;oo;oo;oo;	855
+美孚	mei;fx;dy,yd;gm;yd; fu;ha;vz,zv;yh;pz;	117
+荃灣西	quan;za;cq;ln;cw; wan;;dg,dw;kb;; xi;pp;aa;vx;aa;	0
+錦上路	jin;;jb,jj;zr;; shang;pd,pu;aa,ba;yf;la; lu;go;zg;ps;zk;	0
+元朗	yuan;uk;aw,ee;mp;ee; lang;hl;ol;iv;do;	89
+朗屏	lang;hl;ol;iv;do; ping;qp,qz;ub;cl;uk;	0
+天水圍	tian;ue;ad;fm;ad; shui;oo;ad,uv;ks;ln; wei;;kw;rg;;	0
+兆康	zhao;uh,kh,kf,uf;ed,dd;pw;ed; kang;ro;gl;xk;gn;	3
+屯門	tun;dr;ag;fs;av; men;;aa,vh,xa;am;;	0
+荃灣	quan;za;cq;ln;cw; wan;;dg,dw;kb;;	1
+大窩口	da;xx;ad;md;un; wo;;xk,xg,bk,bg;ed;; kou;oo;aa;dk;la;	0
+葵興	kui;zx;cg,ct;lm;ct; xing;;ba,jb,tb;ph;;	0
+葵芳	kui;zx;cg,ct;lm;ct; fang;zf;cf;ll;cf;	0
+荔景	li;zu;cl;ls;cl; jing;vf;oj;oy;ox;	5
+荔枝角	li;zu;cl;ls;cl; zhi;wl;mv;ec;my; jiao;gp;dy;xt;dy;	2
+長沙灣	zhang;;ad;pc;; sha;ku;du;kt;du; wan;;dg,dw;kb;;	0
+深水埗	shen;kw;dm;ke;dm; shui;oo;ad,uv;ks;ln; bu;gu;tb;gs;tp;	90
+太子	tai;xh;dd;mi;dd; zi;aa;aa,vh;hi;va;	6124
+旺角	wang;va;ow;on;ow; jiao;gp;dy;xt;dy;	284
+油麻地	you;kp;dy;kd;dy; ma;dd,rw;gl;zm;gm; di;gr,ga;ty;ge;ty;	44
+佐敦	zuo;xp;rz;ju;rg; dun;ij;wx;gh;ww;	53
+尖沙咀	jian;px;xd;ym;xd; sha;ku;du;kt;du; ju;ou;kq;df;kq;	186
+康城	kang;ro;gl;xk;gn; cheng;gh;ti;ga;ti;	64
+將軍澳	jiang;;pc;ak;; jun;;bi;wy;; ao;kx;da;km;dd;	1
+調景嶺	diao;;yv;sd;; jing;vf;oj;oy;ox; ling;;ul;vw;;	0
+油塘	you;kp;dy;kd;dy; tang;go;tt;gd;tk;	2
+寶琳	bao;;bb;wo;; lin;aw;wl;ne;wm;	1
+東涌	dong;;ad,mo;eo;; yong;ki,kp;dy;kt;dy;	0
+青衣	qing;al;of,fo;av;fo; yi;kk;dd;ti;wy;	297
+奧運	ao;;db,pd;tm;; yun;;zj;wu;;	34
+九龍	jiu;ur;py;kj;pv; long;bu;dg,lg;tl;;	16
+香港	xiang;uv;ho;xo;ho; gang;kt;dx;kv;ds;	26427
+旺角東	wang;va;ow;on;ow; jiao;gp;dy;xt;dy; dong;;ad,mo;eo;;	0
+九龍塘	jiu;ur;py;kj;pv; long;bu;dg,lg;tl;; tang;go;tt;gd;tk;	3
+大圍	da;xx;ad;md;un; wei;;kw;rg;;	0
+沙田	sha;ku;du;kt;du; tian;ww;aa;qt;ku;	112
+火炭	huo;tt;dd;ch;dr; tan;pt;uh;vc;eh;	22
+大學	da;xx;ad;md;un; xue;;jz,zb;ph;;	530
+大埔墟	da;xx;ad;md;un; bu;gh;tf;gn;tf; xu;gd;tx;gc;ty;	6
+粉嶺	fen;li,lu;mf;pp;md; ling;;ul;vw;;	0
+上水	shang;pd,pu;aa,ba;yf;la; shui;oo;ad,uv;ks;ln;	151
+落馬洲	luo;zo;cl;ls;ck; ma;;ah;nm;; zhou;kp;dv;ko;dl,dv;	0
+羅湖	luo;;sv,sw;yu;; hu;kl;dh;kv;do;	0
+機場	ji;;mj;ei;; chang;;ty;ge;;	30
+博覽館	bo;sk;uc,uf;nk;uc; lan;;jl,js;qe;; guan;;ug;qk;;	0
+黃埔	huang;;cb;nh;; pu;gh;tf;gn;tf;	5
+何文田	he;xj;rk;jz;rk; wen;jj;wi,dd;vw;wx; tian;ww;aa;qt;ku;	1
+石硤尾	shi;tt;kp,aa,ak,pk;ms;ak; xia;;uj;mj;; wei;qr,qa;um;cv;um;	3
+樂富	le;;bm,my;ue;; fu;iw;bf,bt;wq;bt;	0
+黃大仙	huang;;cb;nh;; da;xx;ad;md;un; xian;xp;ru;jv;re;	1
+鑽石山	zuan;;jz;zo;; shi;tt;kp,aa,ak,pk;ms;ak; shan;pp;aa;vs;lk;	1
+彩虹	cai;hu;pc;ye;pp; hong;fp;ig;cu;ig;	2276
+九龍灣	jiu;ur;py;kj;pv; long;bu;dg,lg;tl;; wan;;dg,dw;kb;;	0
+牛頭角	niu;bb;pa;qn;pl; tou;;dy,yd;zw;; jiao;gp;dy;xt;dy;	0
+觀塘	guan;;jv;le;; tang;go;tt;gd;tk;	8
+藍田	lan;;cj;la;; tian;ww;aa;qt;ku;	3
+車公廟	che;ds;aa;yc;; gong;fp;sb,bs;hk;bs; miao;;gi;xv;;	0
+沙田圍	sha;ku;du;kt;du; tian;ww;aa;qt;ku; wei;;kw;rg;;	0
+第一城	di;nu;vp;rt;vp; yi;dd;aa;fi;aa; cheng;gh;ti;ga;ti;	74
+石門	shi;tt;kp,aa,ak,pk;ms;ak; men;;aa,vh,xa;am;;	3
+大水坑	da;xx;ad;md;un; shui;oo;ad,uv;ks;ln; keng;gi;tk;go;tj;	14
+恆安	heng;;xa,xg;hf;; an;iy;bn;wb;bn;	1
+馬鞍山	ma;;ah;nm;; an;vy;ga;tb;gn; shan;pp;aa;vs;lk;	1
+烏溪沙	wu;;ph;xu;; xi;kx;dx;km;dd; sha;ku;du;kt;du;	0
+小什字	xiao;pf;ad;yx;ld; shen;xs;ru;jn;ru; zi;ia;bz;wh;bz;	5
+较场口	jiao;ty;ij;yb;ix; chang;gu;ty;ge;tp; kou;oo;aa;dk;la;	13
+七星岗	qi;aa;ag;rq;av; xing;va;ou;ol;ou; gang;py;ug;vb;ex;	9
+两路口	liang;de;ad;ml;ad; lu;go;zg;ps;zk; kou;oo;aa;dk;la;	13
+鹅岭	e;uc;nw;tx;wn; ling;pp;ul;vk;es;	46
+大坪	da;xx;ad;md;un; ping;gf,gs;tp;gh;tp;	11
+石油路	shi;tt;kp,aa,ak,pk;ms;ak; you;kp;dy;kd;dy; lu;go;zg;ps;zk;	2
+歇台子	xie;ve;qh;oe;or; tai;po;sk;kd;sk; zi;aa;aa,vh;hi;va;	0
+石桥铺	shi;tt;kp,aa,ak,pk;ms;ak; qiao;wp;mq;ep;ml; pu;dh;jf;zn;jf;	2
+高庙村	gao;io;wk;gg;wk; miao;rp;gy;xd;gy; cun;wk;mc;ek;mc;	1
+马家岩	ma;zz;aa,vh;nm;va; jia;ih;bu;wj;bu; yan;pt;uu;vm;eu;	1
+小龙坎	xiao;pf;ad;yx;ld; long;sh;ad;tl;ud; kan;ge;tq;ge;tr;	76
+沙坪坝	sha;ku;du;kt;du; ping;gf,gs;tp;gh;tp; ba;gm;tb;go;tr;	69
+杨公桥	yang;wu;my;ee;mp; gong;fp;sb,bs;hk;bs; qiao;wp;mq;ep;ml;	7
+烈士墓	lie;fn;hl;gc;dh; shi;gg;aa;gs;ua; mu;zg;tm,ct;lg;ct;	30
+石井坡	shi;tt;kp,aa,ak,pk;ms;ak; jing;up;aa,ep;qj;al; po;gl;tp;gr;ty;	2
+双碑	shuang;ll;yy;rr;yy; bei;ts;ub;mn;uu;	2
+赖家桥	lai;dm;uf;xo;ur; jia;ih;bu;wj;bu; qiao;wp;mq;ep;ml;	1
+微电园	wei;hj;xw;wh;iw; dian;ee,ve;ag,og;oa;lv; yuan;nk;ky;rp;ke;	0
+陈家桥	chen;bf;ed;ty;ed; jia;ih;bu;wj;bu; qiao;wp;mq;ep;ml;	0
+尖顶坡	jian;px;xd;ym;xd; ding;jm;dy,yd;aw;dr; po;gl;tp;gr;ty;	0
+临江门	lin;pd;ao,do;po;la; jiang;kp;dg;ku;dg; men;oo;dg;am;dv;	6
+黄花园	huang;zf;ad,cb;nh;cb; hua;za;ch;lv;cb; yuan;nk;ky;rp;ke;	4
+大溪沟	da;xx;ad;md;un; xi;kx;dx;km;dd; gou;kp;dg;kk;ds;	0
+曾家岩	ceng;fv;ob,bo;ho;bo; jia;ih;bu;wj;bu; yan;pt;uu;vm;eu;	5
+牛角沱	niu;bb;pa;qn;pl; jiao;gp;dy;xt;dy; tuo;ka;dt;kv;db;	5
+李子坝	li;wa;mz;eh;mz; zi;aa;aa,vh;hi;va; ba;gm;tb;go;tr;	28
+佛图关	fu;xp;rf;jt;rf; tu;nh;kd;rw;kd; guan;fx;bt,qd;hm;bt;	7
+袁家岗	yuan;gh;ty;gt;ty; jia;ih;bu;wj;bu; gang;py;ug;vb;ex;	1
+谢家湾	xie;ck;yu;sk;yc; jia;ih;bu;wj;bu; wan;kr;dw;kb;dg;	5
+杨家坪	yang;wu;my;ee;mp; jia;ih;bu;wj;bu; ping;gf,gs;tp;gh;tp;	11
+大堰村	da;xx;ad;md;un; yan;gr;tn,ty;gb;tn; cun;wk;mc;ek;mc;	1
+马王场	ma;zz;aa,vh;nm;va; wang;aa;aa;nw;at; chang;gu;ty;ge;tp;	1
+平安	ping;ds,sf;aa,gb;eh;au; an;iy;bn;wb;bn;	4780
+大渡口	da;xx;ad;md;un; du;kl;dd;kr;dy; kou;oo;aa;dk;la;	15
+新山村	xin;bp;jq;it;lj; shan;pp;aa;vs;lk; cun;wk;mc;ek;mc;	0
+天堂堡	tian;ue;ad;fm;ad; tang;hg;tk,dt,xt;sg;xt; bao;xg;tb;jg;rt;	0
+建桥	jian;rq;zy;bu;zy; qiao;wp;mq;ep;ml;	67
+金家湾	jin;ed,ef;ra,pa;zj;ra; jia;ih;bu;wj;bu; wan;kr;dw;kb;dg;	4
+刘家坝	liu;ji;dw,wd;vp;wd; jia;ih;bu;wj;bu; ba;gm;tb;go;tr;	0
+白居寺	bai;ss;pa,po;ub;po; ju;qo;ug;cc;uk; si;gk;ct,tc;gk;tc;	5
+大江	da;xx;ad;md;un; jiang;kp;dg;ku;dg;	323
+鱼洞	yu;qq;da;wv;da; dong;ko;dt;kd;dk;	6
+金竹	jin;ed,ef;ra,pa;zj;ra; zhu;nn;gg;ru;gg,pl;	5
+鱼胡路	yu;qq;da;wv;da; hu;sl;og;cv;uo; lu;go;zg;ps;zk;	0
+学堂湾	xue;ha;dz,zb;kh;xz; tang;hg;tk,dt,xt;sg;xt; wan;kr;dw;kb;dg;	0
+大山村	da;xx;ad;md;un; shan;pp;aa;vs;lk; cun;wk;mc;ek;mc;	2
+花溪	hua;za;ch;lv;cb; xi;kx;dx;km;dd;	31
+岔路口	cha;fp;uf;hv;be; lu;go;zg;ps;zk; kou;oo;aa;dk;la;	246
+九公里	jiu;ur;py;kj;pv; gong;fp;sb,bs;hk;bs; li;vg;aa,tt;dl;la;	5
+麒龙	qi;rf;lq;xh;gb; long;sh;ad;tl;ud;	0
+八公里	ba;ff;pd;hb;pn; gong;fp;sb,bs;hk;bs; li;vg;aa,tt;dl;la;	37
+二塘	er;uu;aa;me;aa; tang;go;tt;gd;tk;	2
+六公里	liu;if;wb,dd,db;al;wb; gong;fp;sb,bs;hk;bs; li;vg;aa,tt;dl;la;	20
+五公里	wu;gg;aa;wu;aa; gong;fp;sb,bs;hk;bs; li;vg;aa,tt;dl;la;	490
+四公里	si;nk;aa,ke;ys;ke; gong;fp;sb,bs;hk;bs; li;vg;aa,tt;dl;la;	44
+南坪	nan;ss;ua,uy;ng;ug,ag; ping;gf,gs;tp;gh;tp;	49
+工贸	gong;pp;aa;ug;aa; mao;um;bd,lb;bo;pr;	69
+铜元局	tong;do;jt;zd;jk; yuan;uk;aw,ee;mp;ee; ju;qo;uk;cd;uk;	2
+华新街	hua;xs;uh;jn;ru; xin;bp;jq;it;lj; jie;hj;xg,xi;pg;ii;	0
+观音桥	guan;lk;jy,yj;re;ye; yin;cc,bv;lo;xy;lo; qiao;wp;mq;ep;ml;	52
+红旗河沟	hong;ep;sg;iu;sg; qi;ff;fq;lh;fb; he;kj;dk;kz;dk; gou;kp;dg;kk;ds;	5
+嘉州路	jia;go;uj;hd;uk; zhou;hp;id,da;oo;dl; lu;go;zg;ps;zk;	0
+郑家院子	zheng;fb;eg;ht;be; jia;ih;bu;wj;bu; yuan;bk;ew;tp;ee; zi;aa;aa,vh;hi;va;	0
+唐家院子	tang;ro;gk;xd;gk; jia;ih;bu;wj;bu; yuan;bk;ew;tp;ee; zi;aa;aa,vh;hi;va;	1
+狮子坪	shi;by;qu;mr;qj; zi;aa;aa,vh;hi;va; ping;gf,gs;tp;gh;tp;	1
+重庆北站南广场	chong;sg;pa,ql;ld;pa; qing;rx;gd;xm;gd; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk; nan;ss;ua,uy;ng;ug,ag; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+龙头寺	long;sh;ad;tl;ud; tou;hx;dd;wm;dd; si;gk;ct,tc;gk;tc;	2
+童家院子	tong;bg;ll;id;ll; jia;ih;bu;wj;bu; yuan;bk;ew;tp;ee; zi;aa;aa,vh;hi;va;	0
+金渝	jin;ed,ef;ra,pa;zj;ra; yu;ki;dy;kp;dd;	2
+金童路	jin;ed,ef;ra,pa;zj;ra; tong;bg;ll;id;ll; lu;go;zg;ps;zk;	1
+鸳鸯	yuan;fc;ne,ny;lx;xn; yang;pc;ny;mx;yn;	539
+翠云	cui;ds;yz;zn;xu; yun;up;es,se;by;es;	20
+长福路	zhang;uh;pd;pc;pn; fu;hw;uf,ut;fq;pt; lu;go;zg;ps;zk;	0
+回兴	hui;no;kk;rd;kk; xing;hf;ba,db;kh;xb;	2
+碧津	bi;at;ub,up;nm;wu; jin;kp;dy;kb;dy;	0
+江北机场T2航站楼	jiang;kp;dg;ku;dg; bei;la;ap,bj;av;lb; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; T2;;;;; hang;;;;; zhan;ti;vk;io;vj; lou;bo;lv;id;lk;	0
+双凤桥	shuang;ll;yy;rr;yy; feng;il;jy;or;jy; qiao;wp;mq;ep;ml;	0
+空港广场	kong;ip;xg,bg;eu;bg; gang;kt;dx;kv;ds; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+高堡湖	gao;io;wk;gg;wk; bao;xg;tb;jg;rt; hu;kl;dh;kv;do;	0
+观月路	guan;lk;jy,yj;re;ye; yue;ll;oy,pa,yt;vy;ka; lu;go;zg;ps;zk;	0
+莲花	lian;zq;cl;lu;cz; hua;za;ch;lv;cb;	1165
+举人坝	ju;hp;df,xf;ku;xl; ren;ee;pd;jr;pn; ba;gm;tb;go;tr;	0
+唐家沱	tang;ro;gk;xd;gk; jia;ih;bu;wj;bu; tuo;ka;dt;kv;db;	0
+太平冲	tai;xh;dd;mi;dd; ping;ds,sf;aa,gb;eh;au; chong;fp;dv;wg;dv;	0
+黑石子	hei;nn;ad,ha;ph;lh; shi;tt;kp,aa,ak,pk;ms;ak; zi;aa;aa,vh;hi;va;	6
+寸滩	cun;kk;ad;kc;ad; tan;ka;dn;ku;df;	4
+保税港	bao;xw;rd;je;rm; shui;uk;hd;xp;he; gang;kt;dx;kv;ds;	2
+头塘	tou;hx;dd;wm;dd; tang;go;tt;gd;tk;	0
+重庆北站北广场	chong;sg;pa,ql;ld;pa; qing;rx;gd;xm;gd; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk; bei;la;ap,bj;av;lb; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+民安大道	min;rr;ag,kq,vg;dm;vv; an;iy;bn;wb;bn; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+大石坝	da;xx;ad;md;un; shi;tt;kp,aa,ak,pk;ms;ak; ba;gm;tb;go;tr;	3
+大龙山	da;xx;ad;md;un; long;sh;ad;tl;ud; shan;pp;aa;vs;lk;	1
+冉家坝	ran;og;aa,kt;mg;la; jia;ih;bu;wj;bu; ba;gm;tb;go;tr;	4
+幸福广场	xing;gs;tu,ty;gg;tg; fu;hw;uf,ut;fq;pt; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+和睦路	he;uo;hk;xd;hk; mu;sg;ot;qg;ot; lu;go;zg;ps;zk;	0
+重光	chong;sg;pa,ql;ld;pa; guang;hk;ea,xw;mg;xw;	113
+湖霞街	hu;kl;dh;kv;do; xia;yl;yj,yy;tr;yy; jie;hj;xg,xi;pg;ii;	0
+丹鹤	dan;ua,ud,uz,od,oz;pd;mz;pa; he;ic;nv;wx;dn;	1
+园博中心	yuan;nk;ky;rp;ke; bo;sk;uc,uf;nk;uc; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	0
+茶园	cha;zf;cm;le;cm; yuan;nk;ky;rp;ke;	317
+邱家湾	qiu;ub;eq;tt;qe; jia;ih;bu;wj;bu; wan;kr;dw;kb;dg;	0
+长生桥	chang;uh;pd;pc;pn; sheng;aa;na;ls;pf; qiao;wp;mq;ep;ml;	1
+刘家坪	liu;ji;dw,wd;vp;wd; jia;ih;bu;wj;bu; ping;gf,gs;tp;gh;tp;	1
+上新街	shang;pd,pu;aa,ba;yf;la; xin;bp;jq;it;lj; jie;hj;xg,xi;pg;ii;	20
+江北城	jiang;kp;dg;ku;dg; bei;la;ap,bj;av;lb; cheng;gh;ti;ga;ti;	1
+五里店	wu;gg;aa;wu;aa; li;vg;aa,tt;dl;la; dian;ro;gv;xd;gk;	4
+红土地	hong;ep;sg;iu;sg; tu;gg;aa;gt;ua; di;gr,ga;ty;ge;ty;	42
+黄泥塝	huang;zf;ad,cb;nh;cb; ni;ka;dn;kv;db; bang;gf;tp;gl;tf;	0
+花卉园	hua;za;ch;lv;cb; hui;sp,sz;cu,uc;nl;uc; yuan;nk;ky;rp;ke;	3
+光电园	guang;hk;ea,xw;mg;xw; dian;ee,ve;ag,og;oa;lv; yuan;nk;ky;rp;ke;	3
+大竹林	da;xx;ad;md;un; zhu;nn;gg;ru;gg,pl; lin;ww;mm;ee;mm;	2
+康庄	kang;ro;gl;xk;gn; zhuang;rg;gt;xg;gt;	92
+九曲河	jiu;ur;py;kj;pv; qu;pd,vp;aa,oa;yq;la; he;kj;dk;kz;dk;	0
+礼嘉	li;hr;ug;fa;pv; jia;go;uj;hd;uk;	2
+金山寺	jin;ed,ef;ra,pa;zj;ra; shan;pp;aa;vs;lk; si;gk;ct,tc;gk;tc;	74
+曹家湾	cao;dv;oc,co;fo;ao; jia;ih;bu;wj;bu; wan;kr;dw;kb;dg;	1
+蔡家	cai;zf;cj;lf;cx; jia;ih;bu;wj;bu;	47
+向家岗	xiang;uo;pk;td;pk; jia;ih;bu;wj;bu; gang;py;ug;vb;ex;	0
+龙凤溪	long;sh;ad;tl;ud; feng;il;jy;or;jy; xi;kx;dx;km;dd;	0
+状元碑	zhuang;lb;jq,pq,qp;am;dq; yuan;uk;aw,ee;mp;ee; bei;ts;ub;mn;uu;	2
+天生	tian;ue;ad;fm;ad; sheng;aa;na;ls;pf;	9414
+北碚	bei;la;ap,bj;av;lb; bei;to;uk,up;md;uk;	79
+悦来	yue;nk;xd;hp;xe; lai;uf,ef,dl;am,wb;ah;an;	13
+国博中心	guo;na,nh;ky;ri;ky; bo;sk;uc,uf;nk;uc; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	1
+高义口	gao;io;wk;gg;wk; yi;hy,yh;di,id;ib;dx; kou;oo;aa;dk;la;	0
+黄茅坪	huang;zf;ad,cb;nh;cb; mao;zu;cm;lt;cp; ping;gf,gs;tp;gh;tp;	0
+欢乐谷	huan;le;yq;re;yr; le;uf;pd,px;by;pd; gu;fo;bk,kr;hg;bk;	178
+鲤鱼池	li;qg;yl;wd;al; yu;qq;da;wv;da; chi;kr;dy;ke;dy;	0
+龙头寺公园	long;sh;ad;tl;ud; tou;hx;dd;wm;dd; si;gk;ct,tc;gk;tc; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	1
+民心佳园	min;rr;ag,kq,vg;dm;vv; xin;nn;dd;hx;dd; jia;xg;rg;jg;rt; yuan;nk;ky;rp;ke;	0
+三亚湾	san;uu;aa;ts;ae; ya;dd;ay;fc;ay; wan;kr;dw;kb;dg;	9
+上湾路	shang;pd,pu;aa,ba;yf;la; wan;kr;dw;kb;dg; lu;go;zg;ps;zk;	0
+环山公园	huan;ah;wb;nc;wb; shan;pp;aa;vs;lk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+长河	chang;uh;pd;pc;pn; he;kj;dk;kz;dk;	197
+江北机场T3航站楼	jiang;kp;dg;ku;dg; bei;la;ap,bj;av;lb; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; T3;;;;; hang;;;;; zhan;ti;vk;io;vj; lou;bo;lv;id;lk;	0
+渝北广场	yu;ki;dy;kp;dd; bei;la;ap,bj;av;lb; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+鹿山	lu;ra;gb,lb;xl;gb; shan;pp;aa;vs;lk;	12
+中央公园东	zhong;op;aa,ka;dg;ll; yang;px;ad,kd;mm;lg; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke; dong;df,af;ad,qx;ry;ad;	0
+中央公园	zhong;op;aa,ka;dg;ll; yang;px;ad,kd;mm;lg; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	170
+中央公园西	zhong;op;aa,ka;dg;ll; yang;px;ad,kd;mm;lg; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke; xi;pp;aa;vx;aa;	2
+王家庄	wang;aa;aa;nw;at; jia;ih;bu;wj;bu; zhuang;rg;gt;xg;gt;	13
+重庆图书馆	chong;sg;pa,ql;ld;pa; qing;rx;gd;xm;gd; tu;nh;kd;rw;kd; shu;rh;ad,vd;ai;vd; guan;gd;ug;qk;uk;	4
+沙正街	sha;ku;du;kt;du; zheng;dr;av;fs;av; jie;hj;xg,xi;pg;ii;	1
+玉带山	yu;ah,aa;ad,wd;ni;wd; dai;zy;jb;lr;fj; shan;pp;aa;vs;lk;	0
+体育公园	ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	30
+动步公园	dong;uu;ly,yl;bs;el; bu;ru;vx;ss;vp; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+洪湖东路	hong;kf;dg;kh;db; hu;kl;dh;kv;do; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+渝鲁	yu;ki;dy;kp;dd; lu;qv;yo;wo;ao;	0
+涂山	tu;kf;dy;kx;dh; shan;pp;aa;vs;lk;	64
+海棠溪	hai;kh;dm;kk;dm; tang;hw;dd,mk,xd,xm;se;xm; xi;kx;dx;km;dd;	3
+南湖	nan;ss;ua,uy;ng;ug,ag; hu;kl;dh;kv;do;	323
+海峡路	hai;kh;dm;kk;dm; xia;px;uj;vh;ej; lu;go;zg;ps;zk;	0
+湘湖	xiang;ks;dx;kq;do; hu;kl;dh;kv;do;	6
+滨康路	bin;kf;db;kh;db; kang;ro;gl;xk;gn; lu;go;zg;ps;zk;	0
+西兴	xi;pp;aa;vx;aa; xing;hf;ba,db;kh;xb;	26
+滨和路	bin;kf;db;kh;db; he;uo;hk;xd;hk; lu;go;zg;ps;zk;	0
+江陵路	jiang;kp;dg;ku;dg; ling;bj;el,ew;th;ew; lu;go;zg;ps;zk;	4
+近江	jin;uq;zj;tu;zj; jiang;kp;dg;ku;dg;	93
+婺江路	wu;py;nm,wf;ib;sn; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	1
+城站	cheng;gh;ti;ga;ti; zhan;bo;lv;id;lk;	75
+定安路	ding;ie;bp;wt;br; an;iy;bn;wb;bn; lu;go;zg;ps;zk;	4
+龙翔桥	long;sh;ad;tl;ud; xiang;fd;yy;gz;yx; qiao;wp;mq;ep;ml;	8
+凤起路	feng;il;jy;or;jy; qi;qt;zj;pv;tj; lu;go;zg;ps;zk;	11
+武林广场	wu;dr,ha;vy,yv;fs;av; lin;ww;mm;ee;mm; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	14
+西湖文化广场	xi;pp;aa;vx;aa; hu;kl;dh;kv;do; wen;jj;wi,dd;vw;wx; hua;xa;rb;jv;rb; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	4
+打铁关	da;jj;fd;ua;fd; tie;de;ju;zh;ju; guan;fx;bt,qd;hm;bt;	5
+闸弄口	zha;op;mj;as;mj; long;ap,az;cw,wc;nl;wc; kou;oo;aa;dk;la;	6
+火车东站	huo;tt;dd;ch;dr; che;tt;aa;yc;al; dong;df,af;ad,qx;ry;ad; zhan;bo;lv;id;lk;	11
+彭埠	peng;gu;pd,up;he;up; bu;gs;tf,tu;gn;tu;	3
+七堡	qi;aa;ag;rq;av; bao;xg;tb;jg;rt;	3
+九和路	jiu;ur;py;kj;pv; he;uo;hk;xd;hk; lu;go;zg;ps;zk;	0
+九堡	jiu;ur;py;kj;pv; bao;xg;tb;jg;rt;	8
+客运中心	ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	15
+下沙西	xia;dh;ab,ad;fy;ab; sha;ku;du;kt;du; xi;pp;aa;vx;aa;	0
+金沙湖	jin;ed,ef;ra,pa;zj;ra; sha;ku;du;kt;du; hu;kl;dh;kv;do;	9
+高沙路	gao;io;wk;gg;wk; sha;ku;du;kt;du; lu;go;zg;ps;zk;	0
+文泽路	wen;jj;wi,dd;vw;wx; ze;kp;df;ku;dl; lu;go;zg;ps;zk;	1
+文海南路	wen;jj;wi,dd;vw;wx; hai;kh;dm;kk;dm; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	6
+云水	yun;up;es,se;by;es; shui;oo;ad,uv;ks;ln;	67
+下沙江滨	xia;dh;ab,ad;fy;ab; sha;ku;du;kt;du; jiang;kp;dg;ku;dg; bin;kf;db;kh;db;	7
+乔司南	qiao;up;pp,pu,yp;tp;yl; si;ro;gk,ka;ad;vk; nan;ss;ua,uy;ng;ug,ag;	1
+乔司	qiao;up;pp,pu,yp;tp;yl; si;ro;gk,ka;ad;vk;	4
+翁梅	weng;fd;yg;hz;bx; mei;wh;mm;ek;mm;	0
+余杭高铁站	yu;ef;rb,rd,rh;jx;rh; hang;wi;mk;eo;mj; gao;io;wk;gg;wk; tie;de;ju;zh;ju; zhan;bo;lv;id;lk;	1
+南苑	nan;ss;ua,uy;ng;ug,ag; yuan;zt;ce,cy;lz;cv;	88
+临平	lin;pd;ao,do;po;la; ping;ds,sf;aa,gb;eh;au;	30
+朝阳	zhao;sl;ou,uo;nv;uo; yang;bv;eo;to;eo;	1204
+曹家桥	cao;dv;oc,co;fo;ao; jia;ih;bu;wj;bu; qiao;wp;mq;ep;ml;	0
+潘水	pan;kw;df;kq;dt; shui;oo;ad,uv;ks;ln;	0
+人民路	ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; lu;go;zg;ps;zk;	70
+杭发厂	hang;wi;mk;eo;mj; fa;rh;ay,fd,vy,yd;si;vd; chang;rr;ap;xc;ap;	0
+建设一路	jian;rq;zy;bu;zy; she;cl;yu;sr;yy; yi;dd;aa;fi;aa; lu;go;zg;ps;zk;	0
+建设三路	jian;rq;zy;bu;zy; she;cl;yu;sr;yy; san;uu;aa;ts;ae; lu;go;zg;ps;zk;	0
+振宁路	zhen;jh;fi;uf;fn; ning;ij;bd;wa;bd; lu;go;zg;ps;zk;	0
+飞虹路	fei;rh;yd;cf;vd; hong;fp;ig;cu;ig; lu;go;zg;ps;zk;	10
+盈丰路	ying;rd,ra;my;va;nm; feng;aa;aa;af;al; lu;go;zg;ps;zk;	0
+钱江世纪城	qian;da;jj;zp;jj; jiang;kp;dg;ku;dg; shi;vr;ca,cv,aa;la;av; ji;et;sj;iv;sj; cheng;gh;ti;ga;ti;	8
+钱江路	qian;da;jj;zp;jj; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+庆春广场	qing;rx;gd;xm;gd; chun;uv;of,fo;ao;fo; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	1
+庆菱路	qing;rx;gd;xm;gd; ling;zj;cl,cw;lh;cw; lu;go;zg;ps;zk;	0
+建国北路	jian;rq;zy;bu;zy; guo;na,nh;ky;ri;ky; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	2
+中河北路	zhong;op;aa,ka;dg;ll; he;kj;dk;kz;dk; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	0
+武林门	wu;dr,ha;vy,yv;fs;av; lin;ww;mm;ee;mm; men;oo;dg;am;dv;	15
+沈塘桥	shen;kk;dg,dy;kp;dv; tang;go;tt;gd;tk; qiao;wp;mq;ep;ml;	5
+学院路	xue;ha;dz,zb;kh;xz; yuan;bk;ew;tp;ee; lu;go;zg;ps;zk;	150
+古翠路	gu;so;uk;cg;uk; cui;ds;yz;zn;xu; lu;go;zg;ps;zk;	1
+丰潭路	feng;aa;aa;af;al; tan;ks;dt;kn;du; lu;go;zg;ps;zk;	0
+文新	wen;jj;wi,dd;vw;wx; xin;bp;jq;it;lj;	24
+三坝	san;uu;aa;ts;ae; ba;gm;tb;go;tr;	6
+虾龙圩	xia;fh;ix;cy;ix; long;sh;ad;tl;ud; wei;gs;ty;gn;ty;	0
+三墩	san;uu;aa;ts;ae; dun;gj;td;gh;tw;	12
+墩祥街	dun;gj;td;gh;tw; xiang;hp;uy;fg;py; jie;hj;xg,xi;pg;ii;	0
+金家渡	jin;ed,ef;ra,pa;zj;ra; jia;ih;bu;wj;bu; du;kl;dd;kr;dy;	0
+白洋	bai;ss;pa,po;ub;po; yang;kp;dy;kg;dy;	9
+杜甫村	du;wg;mt;eg;mt; fu;dh;ad;nf;ad; cun;wk;mc;ek;mc;	0
+良渚	liang;hh;dg;ii;dg; zhu;kv;dv;ko;do;	569
+浦沿	pu;kh;df;kn;df; yan;ko;dk;kd;dk;	8
+杨家墩	yang;wu;my;ee;mp; jia;ih;bu;wj;bu; dun;gj;td;gh;tw;	1
+中医药大学	zhong;op;aa,ka;dg;ll; yi;dr;ku;no;ku; yao;zh;cy;li;cu; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	514
+联庄	lian;dx;eg;qm;et; zhuang;rg;gt;xg;gt;	3
+水澄桥	shui;oo;ad,uv;ks;ln; cheng;kd;dd;kz;da; qiao;wp;mq;ep;ml;	0
+南星桥	nan;ss;ua,uy;ng;ug,ag; xing;va;ou;ol;ou; qiao;wp;mq;ep;ml;	2
+甬江路	yong;pp;sy;kt;sy; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+城星路	cheng;gh;ti;ga;ti; xing;va;ou;ol;ou; lu;go;zg;ps;zk;	0
+江锦路	jiang;kp;dg;ku;dg; jin;dy;jb,jj;zr;jj; lu;go;zg;ps;zk;	0
+景芳	jing;vf;oj;oy;ox; fang;zf;cf;ll;cf;	5
+新风	xin;bp;jq;it;lj; feng;iy;ji;ob;jx;	688
+黎明广场	li;uo;hu,ur;xk;hu; ming;vl;oo;ov;oo; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+滂江街	pang;kf;dp;kl;df; jiang;kp;dg;ku;dg; jie;hj;xg,xi;pg;ii;	0
+东中街	dong;df,af;ad,qx;ry;ad; zhong;op;aa,ka;dg;ll; jie;hj;xg,xi;pg;ii;	2
+中街	zhong;op;aa,ka;dg;ll; jie;hj;xg,xi;pg;ii;	44
+怀远门	huai;nh;xb;hc;xb; yuan;uq;zy;mu;ze; men;oo;dg;am;dv;	3
+青年大街	qing;al;of,fo;av;fo; nian;es;ra,pa;ev;pl; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	1
+南市场	nan;ss;ua,uy;ng;ug,ag; shi;iy;wj;zr;wj; chang;gu;ty;ge;tp;	1
+太原街	tai;xh;dd;mi;dd; yuan;rf;ix;xy;ix; jie;hj;xg,xi;pg;ii;	11
+沈阳站	shen;kk;dg,dy;kp;dv; yang;bv;eo;to;eo; zhan;bo;lv;id;lk;	11
+云峰北街	yun;up;es,se;by;es; feng;pa;uf;va;ef; bei;la;ap,bj;av;lb; jie;hj;xg,xi;pg;ii;	0
+铁西广场	tie;de;ju;zh;ju; xi;pp;aa;vx;aa; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+保工街	bao;xw;rd;je;rm; gong;pp;aa;ug;aa; jie;hj;xg,xi;pg;ii;	0
+启工街	qi;qo;hk,kh;md;hk; gong;pp;aa;ug;aa; jie;hj;xg,xi;pg;ii;	0
+重工街	zhong;sg;pa,ql;ld;pa; gong;pp;aa;ug;aa; jie;hj;xg,xi;pg;ii;	0
+迎宾路	ying;uq;ze;bu;ze; bin;if;bb;wh;bb; lu;go;zg;ps;zk;	1
+于洪广场	yu;ss;aa;fn;al; hong;kf;dg;kh;db; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+开发大道	kai;dz,dp,up;ac;fl;ac; fa;rh;ay,fd,vy,yd;si;vd; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+张士	zhang;rh;gi;bp;gi; shi;gg;aa;gs;ua;	77
+四号街	si;nk;aa,ke;ys;ke; hao;or;kk;da;kv; jie;hj;xg,xi;pg;ii;	3
+七号街	qi;aa;ag;rq;av; hao;or;kk;da;kv; jie;hj;xg,xi;pg;ii;	0
+中央大街	zhong;op;aa,ka;dg;ll; yang;px;ad,kd;mm;lg; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	61
+十三号街	shi;ss;aa;ns;al; san;uu;aa;ts;ae; hao;or;kk;da;kv; jie;hj;xg,xi;pg;ii;	0
+蒲田路	pu;zh;cp;ln;cf; tian;ww;aa;qt;ku; lu;go;zg;ps;zk;	0
+蒲河路	pu;zh;cp;ln;cf; he;kj;dk;kz;dk; lu;go;zg;ps;zk;	0
+人杰湖公园	ren;ee;pd;jr;pn; jie;wn;hm,mh;ec;mh; hu;kl;dh;kv;do; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+辽宁大学	liao;rq;zl;ru;zl; ning;ij;bd;wa;bd; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	159
+航空航天大学	hang;ti;vk;io;vj; kong;ip;xg,bg;eu;bg; hang;ti;vk;io;vj; tian;ue;ad;fm;ad; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	26
+师范大学	shi;py;ab,aj,db,dj;pr;lj; fan;zt;ce,cf;lz;cv; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	513
+医学院	yi;dr;ku;no;ku; xue;ha;dz,zb;kh;xz; yuan;bk;ew;tp;ee;	3793
+三台子	san;uu;aa;ts;ae; tai;po;sk;kd;sk; zi;aa;aa,vh;hi;va;	0
+陵西	ling;bj;el,ew;th;ew; xi;pp;aa;vx;aa;	1
+新乐遗址	xin;bp;jq;it;lj; le;uf;pd,px;by;pd; yi;fq;zg;cu;zr; zhi;gr;tv;gs;tv;	0
+北陵公园	bei;la;ap,bj;av;lb; ling;bj;el,ew;th;ew; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	2
+岐山路	qi;pl;uv;vc;ey; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	0
+沈阳北站	shen;kk;dg,dy;kp;dv; yang;bv;eo;to;eo; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk;	5
+金融中心	jin;ed,ef;ra,pa;zj;ra; rong;df;ig;nc;ai; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	554
+市府广场	shi;iy;wj;zr;wj; fu;rw,rk;gf;xk;gc; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	2
+青年公园	qing;al;of,fo;av;fo; nian;es;ra,pa;ev;pl; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	3
+工业展览馆	gong;pp;aa;ug;aa; ye;pd;aa;cy;la; zhan;qh;uy;ct;un; lan;pk;jv;pe;le; guan;gd;ug;qk;uk;	1
+市图书馆	shi;iy;wj;zr;wj; tu;nh;kd;rw;kd; shu;rh;ad,vd;ai;vd; guan;gd;ug;qk;uk;	43
+五里河	wu;gg;aa;wu;aa; li;vg;aa,tt;dl;la; he;kj;dk;kz;dk;	20
+营盘街	ying;zo;cl;ld;ck; pan;td,ta;mv,vm;ia;vm; jie;hj;xg,xi;pg;ii;	0
+世纪大厦	shi;vr;ca,cv,aa;la;av; ji;et;sj;iv;sj; da;xx;ad;md;un; sha;rj;ix;xh;iw;	0
+白塔河路	bai;ss;pa,po;ub;po; ta;go;td,th;gd;tk; he;kj;dk;kz;dk; lu;go;zg;ps;zk;	0
+全运路	quan;ea;rw;jn;rw; yun;uq;zy;bu;zs; lu;go;zg;ps;zk;	0
+姚家	yao;yh,yf;nv;bw;nd; jia;ih;bu;wj;bu;	25
+大连北站	da;xx;ad;md;un; lian;tq;zi;yu;zi; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk;	3
+华北路	hua;xs;uh;jn;ru; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	0
+华南北	hua;xs;uh;jn;ru; nan;ss;ua,uy;ng;ug,ag; bei;la;ap,bj;av;lb;	0
+华南广场	hua;xs;uh;jn;ru; nan;ss;ua,uy;ng;ug,ag; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+千山路	qian;ss;pa;lq;pu; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	2
+松江路	song;wp;mg;ek;ms; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+东纬路	dong;df,af;ad,qx;ry;ad; wei;ep;sw;ig;sw; lu;go;zg;ps;zk;	0
+春柳	chun;uv;of,fo;ao;fo; liu;wb;mm;eb;me;	13
+香工街	xiang;uv;ho;xo;ho; gong;pp;aa;ug;aa; jie;hj;xg,xi;pg;ii;	0
+中长街	zhong;op;aa,ka;dg;ll; chang;uh;pd;pc;pn; jie;hj;xg,xi;pg;ii;	0
+兴工街	xing;hf;ba,db;kh;xb; gong;pp;aa;ug;aa; jie;hj;xg,xi;pg;ii;	3
+西安路	xi;pp;aa;vx;aa; an;iy;bn;wb;bn; lu;go;zg;ps;zk;	27
+富国街	fu;iw;bf,bt;wq;bt; guo;na,nh;ky;ri;ky; jie;hj;xg,xi;pg;ii;	0
+星海广场	xing;va;ou;ol;ou; hai;kh;dm;kk;dm; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	26
+大医二院	da;xx;ad;md;un; yi;dr;ku;no;ku; er;uu;aa;me;aa; yuan;bk;ew;tp;ee;	2
+黑石礁	hei;nn;ad,ha;ph;lh; shi;tt;kp,aa,ak,pk;ms;ak; jiao;tn;uj;mc;uh;	25
+学苑广场	xue;ha;dz,zb;kh;xz; yuan;zt;ce,cy;lz;cv; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+海事大学	hai;kh;dm;kk;dm; shi;dp;aa;fb;al; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	211
+七贤岭	qi;aa;ag;rq;av; xian;pm;by;po;lr; ling;pp;ul;vk;es;	0
+河口	he;kj;dk;kz;dk; kou;oo;aa;dk;la;	299
+辛寨子	xin;bs;lu;nx;lu; zhai;if;mb,bm;we;bm; zi;aa;aa,vh;hi;va;	1
+虹港路	hong;fp;ig;cu;ig; gang;kt;dx;kv;ds; lu;go;zg;ps;zk;	0
+虹锦路	hong;fp;ig;cu;ig; jin;dy;jb,jj;zr;jj; lu;go;zg;ps;zk;	0
+红旗西路	hong;ep;sg;iu;sg; qi;ff;fq;lh;fb; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+湾家	wan;kr;dw;kb;dg; jia;ih;bu;wj;bu;	6
+马栏广场	ma;zz;aa,vh;nm;va; lan;wu;ml;et;ms; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+辽师大	liao;rq;zl;ru;zl; shi;py;ab,aj,db,dj;pr;lj; da;xx;ad;md;un;	18
+联合路	lian;dx;eg;qm;et; he;eo;rk;jd;rk; lu;go;zg;ps;zk;	0
+一二九街	yi;dd;aa;fi;aa; er;uu;aa;me;aa; jiu;ur;py;kj;pv; jie;hj;xg,xi;pg;ii;	0
+青泥洼桥	qing;al;of,fo;av;fo; ni;ka;dn;kv;db; wa;kg;dg;kg;dt; qiao;wp;mq;ep;ml;	6
+友好广场	you;sl;yu,uy;nr;uy; hao;ya;nz;bh;nz; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	1
+中山广场	zhong;op;aa,ka;dg;ll; shan;pp;aa;vs;lk; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	10
+港湾广场	gang;kt;dx;kv;ds; wan;kr;dw;kb;dg; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+会议中心	hui;ep;ry;jb;rs; yi;ch,cy;yy;sb;yy; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	51
+东港	dong;df,af;ad,qx;ry;ad; gang;kt;dx;kv;ds;	48
+东海	dong;df,af;ad,qx;ry;ad; hai;kh;dm;kk;dm;	1212
+海之韵	hai;kh;dm;kk;dm; zhi;hh;dd;ri;dn; yun;bf,cf;yy;xw;ld;	4
+大连火车站	da;xx;ad;md;un; lian;tq;zi;yu;zi; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	3
+香炉礁	xiang;uv;ho;xo;ho; lu;tq;hh;cm;hh; jiao;tn;uj;mc;uh;	3
+金家街	jin;ed,ef;ra,pa;zj;ra; jia;ih;bu;wj;bu; jie;hj;xg,xi;pg;ii;	1
+泉水	quan;so;bu,ub;uk;bu; shui;oo;ad,uv;ks;ln;	1055
+后盐	hou;uo;pk;xd;pk; yan;gd,ga;mb;ga;tm;	0
+大连湾	da;xx;ad;md;un; lian;tq;zi;yu;zi; wan;kr;dw;kb;dg;	18
+开发区	kai;dz,dp,up;ac;fl;ac; fa;rh;ay,fd,vy,yd;si;vd; qu;dr;ki;nb;kx;	434
+保税区	bao;xw;rd;je;rm; shui;uk;hd;xp;he; qu;dr;ki;nb;kx;	168
+双D港	shuang;ll;yy;rr;yy; D;;;;; gang;kt;dx;kv;ds;	6
+小窑湾	xiao;pf;ad;yx;ld; yao;ip;xf,bf;ea;bf; wan;kr;dw;kb;dg;	0
+金石滩	jin;ed,ef;ra,pa;zj;ra; shi;tt;kp,aa,ak,pk;ms;ak; tan;ka;dn;ku;df;	14
+蔡大岭	cai;zf;cj;lf;cx; da;xx;ad;md;un; ling;pp;ul;vk;es;	0
+黄泥川	huang;zf;ad,cb;nh;cb; ni;ka;dn;kv;db; chuan;up;pa;oc;pl;	3
+龙王塘	long;sh;ad;tl;ud; wang;aa;aa;nw;at; tang;go;tt;gd;tk;	1
+塔河湾	ta;go;td,th;gd;tk; he;kj;dk;kz;dk; wan;kr;dw;kb;dg;	0
+旅顺	lv;fh;fp;lt;fn; shun;um;yi;ow;ir;	202
+铁山	tie;de;ju;zh;ju; shan;pp;aa;vs;lk;	55
+旅顺新港	lv;fh;fp;lt;fn; shun;um;yi;ow;ir; xin;bp;jq;it;lj; gang;kt;dx;kv;ds;	2
+九里	jiu;ur;py;kj;pv; li;vg;aa,tt;dl;la;	23
+十九局	shi;ss;aa;ns;al; jiu;ur;py;kj;pv; ju;qo;uk;cd;uk;	1
+东山路	dong;df,af;ad,qx;ry;ad; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	0
+鸿玮澜山	hong;kc;dn,nj;kx;dn; wei;ap;ww;ng;ww; lan;kf;dl;kh;dj; shan;pp;aa;vs;lk;	0
+通世泰	tong;pq;zy;ku;zy; shi;vr;ca,cv,aa;la;av; tai;uo;fu,uf;ak;fu;	0
+五根松	wu;gg;aa;wu;aa; gen;wh;mg;ei;mg; song;wp;mg;ek;ms;	0
+广都	guang;rr;dp;xg;di,wp; dou;gb;ev;qt;le;	11
+四河	si;nk;aa,ke;ys;ke; he;kj;dk;kz;dk;	4
+华府大道	hua;xs;uh;jn;ru; fu;rw,rk;gf;xk;gc; da;xx;ad;md;un; dao;fq;zu;hu;zz;	5
+天府五街	tian;ue;ad;fm;ad; fu;rw,rk;gf;xk;gc; wu;gg;aa;wu;aa; jie;hj;xg,xi;pg;ii;	0
+天府三街	tian;ue;ad;fm;ad; fu;rw,rk;gf;xk;gc; san;uu;aa;ts;ae; jie;hj;xg,xi;pg;ii;	18
+世纪城	shi;vr;ca,cv,aa;la;av; ji;et;sj;iv;sj; cheng;gh;ti;ga;ti;	34
+锦城广场	jin;dy;jb,jj;zr;jj; cheng;gh;ti;ga;ti; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	3
+孵化园	fu;ua;lf;bh;lz; hua;xa;rb;jv;rb; yuan;nk;ky;rp;ke;	34
+金融城	jin;ed,ef;ra,pa;zj;ra; rong;df;ig;nc;ai; cheng;gh;ti;ga;ti;	123
+高新	gao;io;wk;gg;wk; xin;bp;jq;it;lj;	461
+火车南站	huo;tt;dd;ch;dr; che;tt;aa;yc;al; nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	18
+桐梓林	tong;wo;mt;ed;mk; zi;ws;mx;en;mu; lin;ww;mm;ee;mm;	28
+倪家桥	ni;xk;re;jp;re; jia;ih;bu;wj;bu; qiao;wp;mq;ep;ml;	4
+省体育馆	sheng;ps;ou;yq;uo; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; guan;gd;ug;qk;uk;	2
+华西坝	hua;xs;uh;jn;ru; xi;pp;aa;vx;aa; ba;gm;tb;go;tr;	14
+锦江宾馆	jin;dy;jb,jj;zr;jj; jiang;kp;dg;ku;dg; bin;if;bb;wh;bb; guan;gd;ug;qk;uk;	7
+天府广场	tian;ue;ad;fm;ad; fu;rw,rk;gf;xk;gc; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	54
+骡马市	luo;zf;ml;ni;mx; ma;zz;aa,vh;nm;va; shi;iy;wj;zr;wj;	19
+文殊院	wen;jj;wi,dd;vw;wx; shu;fe;dv;ga;dv; yuan;bk;ew;tp;ee;	112
+人民北路	ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	6
+火车北站	huo;tt;dd;ch;dr; che;tt;aa;yc;al; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk;	14
+升仙湖	sheng;uz,up;pc;tl;pc; xian;xp;ru;jv;re; hu;kl;dh;kv;do;	0
+韦家碾	wei;up;aa;gw;al; jia;ih;bu;wj;bu; nian;th;uv;mt;un;	2
+科学城	ke;uh,us;hd;xj;hu; xue;ha;dz,zb;kh;xz; cheng;gh;ti;ga;ti;	81
+兴隆湖	xing;hf;ba,db;kh;xb; long;ba;eu;tl;eu; hu;kl;dh;kv;do;	18
+广州路	guang;rr;dp;xg;di,wp; zhou;hp;id,da;oo;dl; lu;go;zg;ps;zk;	30
+西博城	xi;pp;aa;vx;aa; bo;sk;uc,uf;nk;uc; cheng;gh;ti;ga;ti;	4
+天府公园	tian;ue;ad;fm;ad; fu;rw,rk;gf;xk;gc; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	3
+武汉路	wu;dr,ha;vy,yv;fs;av; han;kl;dy;kr;dy; lu;go;zg;ps;zk;	3
+麓湖	lu;wa;ll;ex;mb; hu;kl;dh;kv;do;	28
+红石公园	hong;ep;sg;iu;sg; shi;tt;kp,aa,ak,pk;ms;ak; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	4
+广福	guang;rr;dp;xg;di,wp; fu;hw;uf,ut;fq;pt;	4
+海昌路	hai;kh;dm;kk;dm; chang;vv;oo;oo;oo; lu;go;zg;ps;zk;	1
+华阳	hua;xs;uh;jn;ru; yang;bv;eo;to;eo;	287
+犀浦	xi;qb;nu,un;cq;un; pu;kh;df;kn;df;	22
+天河路	tian;ue;ad;fm;ad; he;kj;dk;kz;dk; lu;go;zg;ps;zk;	9
+百草路	bai;ds;ab;fu;ab; cao;zs;cz;ln;cu; lu;go;zg;ps;zk;	0
+金周路	jin;ed,ef;ra,pa;zj;ra; zhou;oo,uo;kj,kk;md;kk; lu;go;zg;ps;zk;	0
+金科北路	jin;ed,ef;ra,pa;zj;ra; ke;uh,us;hd;xj;hu; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	0
+迎宾大道	ying;uq;ze;bu;ze; bin;if;bb;wh;bb; da;xx;ad;md;un; dao;fq;zu;hu;zz;	7
+茶店子客运站	cha;zf;cm;le;cm; dian;ro;gv;xd;gk; zi;aa;aa,vh;hi;va; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhan;bo;lv;id;lk;	1
+羊犀立交	yang;fp;da;gy;bl; xi;qb;nu,un;cq;un; li;bb;da;il;wa; jiao;iy;li,wf,df;ab;wx;	0
+一品天下	yi;dd;aa;fi;aa; pin;oo;kk;dd;kk; tian;ue;ad;fm;ad; xia;dh;ab,ad;fy;ab;	2
+蜀汉路东	shu;af;si;yc;si; han;kl;dy;kr;dy; lu;go;zg;ps;zk; dong;df,af;ad,qx;ry;ad;	1
+白果林	bai;ss;pa,po;ub;po; guo;vw;ad,tm;qe;ln; lin;ww;mm;ee;mm;	1
+中医大省医院	zhong;op;aa,ka;dg;ll; yi;dr;ku;no;ku; da;xx;ad;md;un; sheng;ps;ou;yq;uo; yi;dr;ku;no;ku; yuan;bk;ew;tp;ee;	2
+通惠门	tong;pq;zy;ku;zy; hui;dn;xh,hx;nh;ax; men;oo;dg;am;dv;	1
+人民公园	ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	139
+春熙路	chun;uv;of,fo;ao;fo; xi;dn;hs;qc;kh; lu;go;zg;ps;zk;	290
+东门大桥	dong;df,af;ad,qx;ry;ad; men;oo;dg;am;dv; da;xx;ad;md;un; qiao;wp;mq;ep;ml;	3
+牛王庙	niu;bb;pa;qn;pl; wang;aa;aa;nw;at; miao;rp;gy;xd;gy;	24
+牛市口	niu;bb;pa;qn;pl; shi;iy;wj;zr;wj; kou;oo;aa;dk;la;	2
+东大路	dong;df,af;ad,qx;ry;ad; da;xx;ad;md;un; lu;go;zg;ps;zk;	6
+塔子山公园	ta;go;td,th;gd;tk; zi;aa;aa,vh;hi;va; shan;pp;aa;vs;lk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+成都东客站	cheng;rh;gg,wg;na;wv; du;gb;ev;qt;le; dong;df,af;ad,qx;ry;ad; ke;io;bg;ws;bk; zhan;bo;lv;id;lk;	0
+成渝立交	cheng;rh;gg,wg;na;wv; yu;ki;dy;kp;dd; li;bb;da;il;wa; jiao;iy;li,wf,df;ab;wx;	1
+惠王陵	hui;dn;xh,hx;nh;ax; wang;aa;aa;nw;at; ling;bj;el,ew;th;ew;	3
+洪河	hong;kf;dg;kh;db; he;kj;dk;kz;dk;	93
+成都行政学院	cheng;rh;gg,wg;na;wv; du;gb;ev;qt;le; xing;hj;xd,xi;px;ii; zheng;dj;wv;fh;vw; xue;ha;dz,zb;kh;xz; yuan;bk;ew;tp;ee;	0
+大面铺	da;xx;ad;md;un; mian;dd,du;aa;bm;aa; pu;dh;jf;zn;jf;	0
+连山坡	lian;tq;zi;yu;zi; shan;pp;aa;vs;lk; po;gl;tp;gr;ty;	0
+界牌	jie;wp;tj;qp;tl; pai;us;pb;an;pu;	12
+书房	shu;rh;ad,vd;ai;vd; fang;qf;hf;ml;hf;	2139
+龙平路	long;sh;ad;tl;ud; ping;ds,sf;aa,gb;eh;au; lu;go;zg;ps;zk;	0
+龙泉驿	long;sh;ad;tl;ud; quan;so;bu,ub;uk;bu; yi;zp;mf;nu;ml;	21
+成都医学院	cheng;rh;gg,wg;na;wv; du;gb;ev;qt;le; yi;dr;ku;no;ku; xue;ha;dz,zb;kh;xz; yuan;bk;ew;tp;ee;	17
+石油大学	shi;tt;kp,aa,ak,pk;ms;ak; you;kp;dy;kd;dy; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	173
+钟楼	zhong;dp;jv;zg;jv; lou;wy;ml;eb;mn;	464
+马超西路	ma;zz;aa,vh;nm;va; chao;qo;zv;pd;tk; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	1
+团结新区	tuan;nu;kc;rt;kc; jie;eo;sj;id;sk; xin;bp;jq;it;lj; qu;dr;ki;nb;kx;	0
+锦水河	jin;dy;jb,jj;zr;jj; shui;oo;ad,uv;ks;ln; he;kj;dk;kz;dk;	0
+三河场	san;uu;aa;ts;ae; he;kj;dk;kz;dk; chang;gu;ty;ge;tp;	0
+金华寺东路	jin;ed,ef;ra,pa;zj;ra; hua;xs;uh;jn;ru; si;gk;ct,tc;gk;tc; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+军区总医院	jun;it;bi;wy;bi; qu;dr;ki;nb;kx; zong;fn;bx,xk;hh;bx; yi;dr;ku;no;ku; yuan;bk;ew;tp;ee;	16
+熊猫大道	xiong;pn;hn;kc;sh; mao;bw;qm;mq;qt; da;xx;ad;md;un; dao;fq;zu;hu;zz;	10
+昭觉寺南路	zhao;vo;ov;od;ok; jue;hk;dj,jb;ke;xe; si;gk;ct,tc;gk;tc; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+驷马桥	si;zk;ms;ny;me; ma;zz;aa,vh;nm;va; qiao;wp;mq;ep;ml;	5
+李家沱	li;wa;mz;eh;mz; jia;ih;bu;wj;bu; tuo;ka;dt;kv;db;	3
+前锋路	qian;fi;bd,qd;hp;bd; feng;da;jf;za;jf; lu;go;zg;ps;zk;	1
+红星桥	hong;ep;sg;iu;sg; xing;va;ou;ol;ou; qiao;wp;mq;ep;ml;	1
+市二医院	shi;iy;wj;zr;wj; er;uu;aa;me;aa; yi;dr;ku;no;ku; yuan;bk;ew;tp;ee;	6
+新南门	xin;bp;jq;it;lj; nan;ss;ua,uy;ng;ug,ag; men;oo;dg;am;dv;	10
+磨子桥	mo;dt,rt;mu,um;zm;gu; zi;aa;aa,vh;hi;va; qiao;wp;mq;ep;ml;	14
+衣冠庙	yi;kk;dd;ti;wy; guan;ik;bc;wk;bc; miao;rp;gy;xd;gy;	5
+高升桥	gao;io;wk;gg;wk; sheng;uz,up;pc;tl;pc; qiao;wp;mq;ep;ml;	9
+红牌楼	hong;ep;sg;iu;sg; pai;us;pb;an;pu; lou;wy;ml;eb;mn;	19
+太平园	tai;xh;dd;mi;dd; ping;ds,sf;aa,gb;eh;au; yuan;nk;ky;rp;ke;	2
+川藏立交	chuan;up;pa;oc;pl; cang;zh;cg,ci;lq;ci; li;bb;da;il;wa; jiao;iy;li,wf,df;ab;wx;	0
+武侯立交	wu;dr,ha;vy,yv;fs;av; hou;xx;ru;jo;ru; li;bb;da;il;wa; jiao;iy;li,wf,df;ab;wx;	2
+武青南路	wu;dr,ha;vy,yv;fs;av; qing;al;of,fo;av;fo; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	3
+龙桥路	long;sh;ad;tl;ud; qiao;wp;mq;ep;ml; lu;go;zg;ps;zk;	0
+航都大街	hang;ti;vk;io;vj; dou;gb;ev;qt;le; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+迎春桥	ying;uq;ze;bu;ze; chun;uv;of,fo;ao;fo; qiao;wp;mq;ep;ml;	0
+东升	dong;df,af;ad,qx;ry;ad; sheng;uz,up;pc;tl;pc;	113
+双流广场	shuang;ll;yy;rr;yy; liu;kr;di;ko;dv; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+三里坝	san;uu;aa;ts;ae; li;vg;aa,tt;dl;la; ba;gm;tb;go;tr;	0
+双流西站	shuang;ll;yy;rr;yy; liu;kr;di;ko;dv; xi;pp;aa;vx;aa; zhan;bo;lv;id;lk;	0
+西河	xi;pp;aa;vx;aa; he;kj;dk;kz;dk;	201
+明蜀王陵	ming;vl;oo;ov;oo; shu;af;si;yc;si; wang;aa;aa;nw;at; ling;bj;el,ew;th;ew;	0
+成都大学	cheng;rh;gg,wg;na;wv; du;gb;ev;qt;le; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	59
+十陵	shi;ss;aa;ns;al; ling;bj;el,ew;th;ew;	3
+来龙	lai;uf,ef,dl;am,wb;ah;an; long;sh;ad;tl;ud;	10
+槐树店	huai;ws;mg;ea;mg; shu;wk;md;ek;mc; dian;ro;gv;xd;gk;	4
+万年场	wan;du;ag,ap;fp;ap; nian;es;ra,pa;ev;pl; chang;gu;ty;ge;tp;	0
+双桥路	shuang;ll;yy;rr;yy; qiao;wp;mq;ep;ml; lu;go;zg;ps;zk;	5
+玉双路	yu;ah,aa;ad,wd;ni;wd; shuang;ll;yy;rr;yy; lu;go;zg;ps;zk;	4
+太升南路	tai;xh;dd;mi;dd; sheng;uz,up;pc;tl;pc; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	11
+宽窄巷子	kuan;ik;bj,jb;we;be; zhai;iu;xv,bv;ew;bv; xiang;zt;sg,gs;lv;cs; zi;aa;aa,vh;hi;va;	205
+草堂北路	cao;zs;cz;ln;cu; tang;hg;tk,dt,xt;sg;xt; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	5
+西南财大	xi;pp;aa;vx;aa; nan;ss;ua,uy;ng;ug,ag; cai;mu;bc;ot;kc; da;xx;ad;md;un;	173
+文化宫	wen;jj;wi,dd;vw;wx; hua;xa;rb;jv;rb; gong;io;bl;wd;bk;	22
+清江西路	qing;kl;dq;kv;do; jiang;kp;dg;ku;dg; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+成都西站	cheng;rh;gg,wg;na;wv; du;gb;ev;qt;le; xi;pp;aa;vx;aa; zhan;bo;lv;id;lk;	4
+中坝	zhong;op;aa,ka;dg;ll; ba;gm;tb;go;tr;	6
+蔡桥	cai;zf;cj;lf;cx; qiao;wp;mq;ep;ml;	0
+非遗博览园	fei;pu,up;aa;rf;la; yi;fq;zg;cu;zr; bo;sk;uc,uf;nk;uc; lan;pk;jv;pe;le; yuan;nk;ky;rp;ke;	1
+马厂坝	ma;zz;aa,vh;nm;va; chang;rr;ap;xc;ap; ba;gm;tb;go;tr;	0
+凤凰大街	feng;il;jy;or;jy; huang;ia;jh;on;jw; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+涌泉	yong;ki,kp;dy;kt;dy; quan;so;bu,ub;uk;bu;	86
+光华公园	guang;hk;ea,xw;mg;xw; hua;xs;uh;jn;ru; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+南熏大道	nan;ss;ua,uy;ng;ug,ag; xun;sn;ha,ph;lp;ph; da;xx;ad;md;un; dao;fq;zu;hu;zz;	1
+凤溪河	feng;il;jy;or;jy; xi;kx;dx;km;dd; he;kj;dk;kz;dk;	0
+杨柳河	yang;wu;my;ee;mp; liu;wb;mm;eb;me; he;kj;dk;kz;dk;	1
+万盛	wan;du;ag,ap;fp;ap; sheng;rd,ra;mi;na;im;	33
+北站西二路	bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk; xi;pp;aa;vx;aa; er;uu;aa;me;aa; lu;go;zg;ps;zk;	0
+九里堤	jiu;ur;py;kj;pv; li;vg;aa,tt;dl;la; di;ge;tu;gt;tr;	17
+西南交大	xi;pp;aa;vx;aa; nan;ss;ua,uy;ng;ug,ag; jiao;iy;li,wf,df;ab;wx; da;xx;ad;md;un;	182
+花照壁	hua;za;ch;lv;cb; zhao;vn;hv;oc;oh; bi;qg;tb,tx;cg;ut;	1
+茶店子	cha;zf;cm;le;cm; dian;ro;gv;xd;gk; zi;aa;aa,vh;hi;va;	8
+金沙博物馆	jin;ed,ef;ra,pa;zj;ra; sha;ku;du;kt;du; bo;sk;uc,uf;nk;uc; wu;bi;nw;qe;nw; guan;gd;ug;qk;uk;	19
+东坡路	dong;df,af;ad,qx;ry;ad; po;gl;tp;gr;ty; lu;go;zg;ps;zk;	8
+龙爪堰	long;sh;ad;tl;ud; zhao;uh;pd;ya;pn; yan;gr;tn,ty;gb;tn;	0
+武侯大道	wu;dr,ha;vy,yv;fs;av; hou;xx;ru;jo;ru; da;xx;ad;md;un; dao;fq;zu;hu;zz;	2
+高朋大道	gao;io;wk;gg;wk; peng;ll;oo;vv;oo; da;xx;ad;md;un; dao;fq;zu;hu;zz;	2
+神仙树	shen;hp;uu;fg;pu; xian;xp;ru;jv;re; shu;wk;md;ek;mc;	6
+三瓦窑	san;uu;aa;ts;ae; wa;dh;ad;rw;ad; yao;ip;xf,bf;ea;bf;	0
+琉璃场	liu;ar;wi;no;wv; li;ah,ap;wl;nv;wd; chang;gu;ty;ge;tp;	0
+四川师大	si;nk;aa,ke;ys;ke; chuan;up;pa;oc;pl; shi;py;ab,aj,db,dj;pr;lj; da;xx;ad;md;un;	3
+狮子山	shi;by;qu;mr;qj; zi;aa;aa,vh;hi;va; shan;pp;aa;vs;lk;	43
+大观	da;xx;ad;md;un; guan;lk;jy,yj;re;ye;	115
+迎晖路	ying;uq;ze;bu;ze; hui;vt;oj;oy;oi; lu;go;zg;ps;zk;	0
+双店路	shuang;ll;yy;rr;yy; dian;ro;gv;xd;gk; lu;go;zg;ps;zk;	0
+崔家店	cui;pa;uv;vu;ef; jia;ih;bu;wj;bu; dian;ro;gv;xd;gk;	3
+理工大学	li;ag;wl;nd;wl; gong;pp;aa;ug;aa; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	702
+二仙桥	er;uu;aa;me;aa; xian;xp;ru;jv;re; qiao;wp;mq;ep;ml;	13
+八里庄	ba;ff;pd;hb;pn; li;vg;aa,tt;dl;la; zhuang;rg;gt;xg;gt;	6
+府青路	fu;rw,rk;gf;xk;gc; qing;al;of,fo;av;fo; lu;go;zg;ps;zk;	1
+簇锦	cu;nx;vz;ro;vu; jin;dy;jb,jj;zr;jj;	3
+华兴	hua;xs;uh;jn;ru; xing;hf;ba,db;kh;xb;	227
+金花	jin;ed,ef;ra,pa;zj;ra; hua;za;ch;lv;cb;	272
+双流机场1航站楼	shuang;ll;yy;rr;yy; liu;kr;di;ko;dv; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; 1;;;;; hang;ti;vk;io;vj; zhan;bo;lv;id;lk; lou;wy;ml;eb;mn;	0
+双流机场2航站楼	shuang;ll;yy;rr;yy; liu;kr;di;ko;dv; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; 2;;;;; hang;ti;vk;io;vj; zhan;bo;lv;id;lk; lou;wy;ml;eb;mn;	0
+北环城路	bei;la;ap,bj;av;lb; huan;ah;wb;nc;wb; cheng;gh;ti;ga;ti; lu;go;zg;ps;zk;	0
+庆丰路	qing;rx;gd;xm;gd; feng;aa;aa;af;al; lu;go;zg;ps;zk;	0
+一匡街	yi;dd;aa;fi;aa; kuang;dr;kw;nn;kw; jie;hj;xg,xi;pg;ii;	0
+长春站北	chang;uh;pd;pc;pn; chun;uv;of,fo;ao;fo; zhan;bo;lv;id;lk; bei;la;ap,bj;av;lb;	0
+长春站	chang;uh;pd;pc;pn; chun;uv;of,fo;ao;fo; zhan;bo;lv;id;lk;	7
+胜利公园	sheng;la;ou;vl;ou; li;ui;hd,dh;xp;hd; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	3
+解放大路	jie;gb;jn;xq;dn; fang;fj;wf,fw;lh;fw; da;xx;ad;md;un; lu;go;zg;ps;zk;	0
+东北师大(1号线)	dong;df,af;ad,qx;ry;ad; bei;la;ap,bj;av;lb; shi;py;ab,aj,db,dj;pr;lj; da;xx;ad;md;un; (1;;;;; hao;;;;; xian;or;kk;da;kv; );ea;sj;ip;sj;	0
+工农广场	gong;pp;aa;ug;aa; nong;ih;by,ny;wt;dn; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+繁荣路	fan;ef;sm;ei;px; rong;zw;cm,mb;le;cm; lu;go;zg;ps;zk;	1
+卫星广场	wei;bd;ea,ga;zf;ea,va; xing;va;ou;ol;ou; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	1
+市政府	shi;iy;wj;zr;wj; zheng;dj;wv;fh;vw; fu;rw,rk;gf;xk;gc;	608
+华庆路	hua;xs;uh;jn;ru; qing;rx;gd;xm;gd; lu;go;zg;ps;zk;	0
+红嘴子	hong;ep;sg;iu;sg; zui;op;kj,kz;dt;ky; zi;aa;aa,vh;hi;va;	0
+双丰	shuang;ll;yy;rr;yy; feng;aa;aa;af;al;	1
+长春西站	chang;uh;pd;pc;pn; chun;uv;of,fo;ao;fo; xi;pp;aa;vx;aa; zhan;bo;lv;id;lk;	0
+兴隆堡	xing;hf;ba,db;kh;xb; long;ba;eu;tl;eu; bao;xg;tb;jg;rt;	0
+西环城路	xi;pp;aa;vx;aa; huan;ah;wb;nc;wb; cheng;gh;ti;ga;ti; lu;go;zg;ps;zk;	0
+和平大街	he;uo;hk;xd;hk; ping;ds,sf;aa,gb;eh;au; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	3
+万福街	wan;du;ag,ap;fp;ap; fu;hw;uf,ut;fq;pt; jie;hj;xg,xi;pg;ii;	0
+景阳广场	jing;vf;oj;oy;ox; yang;bv;eo;to;eo; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+解放桥	jie;gb;jn;xq;dn; fang;fj;wf,fw;lh;fw; qiao;wp;mq;ep;ml;	12
+建设广场	jian;rq;zy;bu;zy; she;cl;yu;sr;yy; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	3
+文化广场	wen;jj;wi,dd;vw;wx; hua;xa;rb;jv;rb; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	33
+平阳街	ping;ds,sf;aa,gb;eh;au; yang;bv;eo;to;eo; jie;hj;xg,xi;pg;ii;	0
+南关	nan;ss;ua,uy;ng;ug,ag; guan;fx;bt,qd;hm;bt;	25
+吉林大路	ji;go;ku,uk;gd;uk; lin;ww;mm;ee;mm; da;xx;ad;md;un; lu;go;zg;ps;zk;	0
+东盛大街	dong;df,af;ad,qx;ry;ad; sheng;rd,ra;mi;na;im; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+东环城路	dong;df,af;ad,qx;ry;ad; huan;ah;wb;nc;wb; cheng;gh;ti;ga;ti; lu;go;zg;ps;zk;	1
+长青	chang;uh;pd;pc;pn; qing;al;of,fo;av;fo;	192
+东方广场	dong;df,af;ad,qx;ry;ad; fang;ff;dg,wd,dp,dw;lf;dw; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	24
+辽宁路	liao;rq;zl;ru;zl; ning;ij;bd;wa;bd; lu;go;zg;ps;zk;	2
+芙蓉桥	fu;ze;cf;lh;cf; rong;zo;cr;lh;ck; qiao;wp;mq;ep;ml;	0
+西安桥	xi;pp;aa;vx;aa; an;iy;bn;wb;bn; qiao;wp;mq;ep;ml;	0
+南昌路	nan;ss;ua,uy;ng;ug,ag; chang;vv;oo;oo;oo; lu;go;zg;ps;zk;	12
+朝阳桥	zhao;sl;ou,uo;nv;uo; yang;bv;eo;to;eo; qiao;wp;mq;ep;ml;	0
+湖西桥	hu;kl;dh;kv;do; xi;pp;aa;vx;aa; qiao;wp;mq;ep;ml;	0
+宽平桥	kuan;ik;bj,jb;we;be; ping;ds,sf;aa,gb;eh;au; qiao;wp;mq;ep;ml;	0
+抚松路	fu;jk;fw;ud;fw; song;wp;mg;ek;ms; lu;go;zg;ps;zk;	0
+南湖大路	nan;ss;ua,uy;ng;ug,ag; hu;kl;dh;kv;do; da;xx;ad;md;un; lu;go;zg;ps;zk;	0
+湖光路	hu;kl;dh;kv;do; guang;hk;ea,xw;mg;xw; lu;go;zg;ps;zk;	1
+硅谷大街	gui;tg;ug;mg;ut; gu;fo;bk,kr;hg;bk; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+前进	qian;fi;bd,qd;hp;bd; jin;uq;zj;qu;zj;	5752
+前进大街	qian;fi;bd,qd;hp;bd; jin;uq;zj;qu;zj; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+卫明街	wei;bd;ea,ga;zf;ea,va; ming;vl;oo;ov;oo; jie;hj;xg,xi;pg;ii;	0
+卫光街	wei;bd;ea,ga;zf;ea,va; guang;hk;ea,xw;mg;xw; jie;hj;xg,xi;pg;ii;	0
+亚泰大街	ya;dd;ay;fc;ay; tai;uo;fu,uf;ak;fu; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+伊通河	yi;xu;ry;jt;ry; tong;pq;zy;ku;zy; he;kj;dk;kz;dk;	2
+临河街	lin;pd;ao,do;po;la; he;kj;dk;kz;dk; jie;hj;xg,xi;pg;ii;	1
+仙台大街	xian;xp;ru;jv;re; tai;po;sk;kd;sk; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+世纪广场	shi;vr;ca,cv,aa;la;av; ji;et;sj;iv;sj; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	7
+东北师大(3号线)	dong;df,af;ad,qx;ry;ad; bei;la;ap,bj;av;lb; shi;py;ab,aj,db,dj;pr;lj; da;xx;ad;md;un; (3;;;;; hao;;;;; xian;or;kk;da;kv; );ea;sj;ip;sj;	0
+华桥外院	hua;xs;uh;jn;ru; qiao;wp;mq;ep;ml; wai;fh;xb;ly;xb; yuan;bk;ew;tp;ee;	0
+农博园	nong;ih;by,ny;wt;dn; bo;sk;uc,uf;nk;uc; yuan;nk;ky;rp;ke;	1
+净月公园	jing;fp;dv;wb;dl; yue;ll;oy,pa,yt;vy;ka; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+紫杉路	zi;rf;sc;si;vx; shan;wu;mp;ee;mp; lu;go;zg;ps;zk;	0
+福祉路	fu;hw;uf,ut;fq;pt; zhi;hr;uv;fs;pv; lu;go;zg;ps;zk;	0
+滑雪场	hua;kc;dg;kf;dg; xue;ys;yx;tb;ye; chang;gu;ty;ge;tp;	557
+长影世纪城	zhang;uh;pd;pc;pn; ying;vu;pj;oe;op; shi;vr;ca,cv,aa;la;av; ji;et;sj;iv;sj; cheng;gh;ti;ga;ti;	1
+车场	che;tt;aa;yc;al; chang;gu;ty;ge;tp;	53
+南四环	nan;ss;ua,uy;ng;ug,ag; si;nk;aa,ke;ys;ke; huan;ah;wb;nc;wb;	28
+南三环	nan;ss;ua,uy;ng;ug,ag; san;uu;aa;ts;ae; huan;ah;wb;nc;wb;	24
+世荣路	shi;vr;ca,cv,aa;la;av; rong;zw;cm,mb;le;cm; lu;go;zg;ps;zk;	0
+卫星路	wei;bd;ea,ga;zf;ea,va; xing;va;ou;ol;ou; lu;go;zg;ps;zk;	0
+北海路	bei;la;ap,bj;av;lb; hai;kh;dm;kk;dm; lu;go;zg;ps;zk;	2
+东南湖大路	dong;df,af;ad,qx;ry;ad; nan;ss;ua,uy;ng;ug,ag; hu;kl;dh;kv;do; da;xx;ad;md;un; lu;go;zg;ps;zk;	0
+浦东路	pu;kh;df;kn;df; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	1
+自由大路	zi;ss;pa,po;oi;po; you;vp;aa,ao;dy;la; da;xx;ad;md;un; lu;go;zg;ps;zk;	1
+公平路	gong;fp;sb,bs;hk;bs; ping;ds,sf;aa,gb;eh;au; lu;go;zg;ps;zk;	4
+伪皇宫	wei;xu,xh;rw;ji;rw; huang;sa;bw;un;bw; gong;io;bl;wd;bk;	2
+北亚泰大街	bei;la;ap,bj;av;lb; ya;dd;ay;fc;ay; tai;uo;fu,uf;ak;fu; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+一二三中学	yi;dd;aa;fi;aa; er;uu;aa;me;aa; san;uu;aa;ts;ae; zhong;op;aa,ka;dg;ll; xue;ha;dz,zb;kh;xz;	0
+小南	xiao;pf;ad;yx;ld; nan;ss;ua,uy;ng;ug,ag;	300
+小城子街	xiao;pf;ad;yx;ld; cheng;gh;ti;ga;ti; zi;aa;aa,vh;hi;va; jie;hj;xg,xi;pg;ii;	0
+北湖大桥	bei;la;ap,bj;av;lb; hu;kl;dh;kv;do; da;xx;ad;md;un; qiao;wp;mq;ep;ml;	0
+北湖公园	bei;la;ap,bj;av;lb; hu;kl;dh;kv;do; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	1
+和安街	he;uo;hk;xd;hk; an;iy;bn;wb;bn; jie;hj;xg,xi;pg;ii;	0
+光机路	guang;hk;ea,xw;mg;xw; ji;wi;mj;eo;mj; lu;go;zg;ps;zk;	0
+大学城路	da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; cheng;gh;ti;ga;ti; lu;go;zg;ps;zk;	0
+地理所	di;gr,ga;ty;ge;ty; li;ag;wl;nd;wl; suo;up;hj,jh;mt;pj;	0
+广通路	guang;rr;dp;xg;di,wp; tong;pq;zy;ku;zy; lu;go;zg;ps;zk;	0
+木渎	mu;ww;ad;em;an,un; du;kx;dm;km;dd;	11
+金枫路	jin;ed,ef;ra,pa;zj;ra; feng;wy;mf;eb;mx; lu;go;zg;ps;zk;	0
+汾湖路	fen;ki,ku;df;kp;dd; hu;kl;dh;kv;do; lu;go;zg;ps;zk;	0
+玉山路	yu;ah,aa;ad,wd;ni;wd; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	0
+苏州乐园	su;zf;cb;lh;cb; zhou;hp;id,da;oo;dl; le;uf;pd,px;by;pd; yuan;nk;ky;rp;ke;	5
+塔园路	ta;go;td,th;gd;tk; yuan;nk;ky;rp;ke; lu;go;zg;ps;zk;	0
+滨河路	bin;kf;db;kh;db; he;kj;dk;kz;dk; lu;go;zg;ps;zk;	17
+西环路	xi;pp;aa;vx;aa; huan;ah;wb;nc;wb; lu;go;zg;ps;zk;	5
+桐泾北路	tong;wo;mt;ed;mk; jing;kp;dg;ku;dg; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	0
+广济南路	guang;rr;dp;xg;di,wp; ji;kp;dq;kq;dl; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	1
+养育巷	yang;fp;ya,yd;gp;yl; yu;il;os,wo;bv;wo; xiang;zt;sg,gs;lv;cs;	1
+乐桥	le;uf;pd,px;by;pd; qiao;wp;mq;ep;ml;	7
+临顿路	lin;pd;ao,do;po;la; dun;dm;yt;fw;tr; lu;go;zg;ps;zk;	4
+相门	xiang;ws;mo;eq;mo; men;oo;dg;am;dv;	4
+东环路	dong;df,af;ad,qx;ry;ad; huan;ah;wb;nc;wb; lu;go;zg;ps;zk;	7
+东方之门	dong;df,af;ad,qx;ry;ad; fang;ff;dg,wd,dp,dw;lf;dw; zhi;hh;dd;ri;dn; men;oo;dg;am;dv;	9
+文化博览中心	wen;jj;wi,dd;vw;wx; hua;xa;rb;jv;rb; bo;sk;uc,uf;nk;uc; lan;pk;jv;pe;le; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	0
+时代广场	shi;vk;oc;ok;oc; dai;xa;ry;jp;ry; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	175
+星湖街	xing;va;ou;ol;ou; hu;kl;dh;kv;do; jie;hj;xg,xi;pg;ii;	1
+南施街	nan;ss;ua,uy;ng;ug,ag; shi;fr;fy;le;fy; jie;hj;xg,xi;pg;ii;	0
+星塘街	xing;va;ou;ol;ou; tang;go;tt;gd;tk; jie;hj;xg,xi;pg;ii;	0
+钟南街	zhong;dp;jv;zg;jv; nan;ss;ua,uy;ng;ug,ag; jie;hj;xg,xi;pg;ii;	0
+骑河	qi;zj;mq;nz;mk; he;kj;dk;kz;dk;	8
+富翔路	fu;iw;bf,bt;wq;bt; xiang;fd;yy;gz;yx; lu;go;zg;ps;zk;	0
+高铁苏州北站	gao;io;wk;gg;wk; tie;de;ju;zh;ju; su;zf;cb;lh;cb; zhou;hp;id,da;oo;dl; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk;	0
+大湾	da;xx;ad;md;un; wan;kr;dw;kb;dg;	30
+富元路	fu;iw;bf,bt;wq;bt; yuan;uk;aw,ee;mp;ee; lu;go;zg;ps;zk;	1
+蠡口	li;rf;it,iu;bc;vi; kou;oo;aa;dk;la;	3
+徐图港	xu;hf;xy;wx;ih; tu;nh;kd;rw;kd; gang;kt;dx;kv;ds;	0
+阳澄湖中路	yang;bv;eo;to;eo; cheng;kd;dd;kz;da; hu;kl;dh;kv;do; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+陆慕	lu;bp;ej;tm;ej; mu;zh,zf;cx,xm;lh;cx;	8
+平泷路东	ping;ds,sf;aa,gb;eh;au; long;kh;dl;kt;dl; lu;go;zg;ps;zk; dong;df,af;ad,qx;ry;ad;	0
+平河路	ping;ds,sf;aa,gb;eh;au; he;kj;dk;kz;dk; lu;go;zg;ps;zk;	0
+苏州火车站	su;zf;cb;lh;cb; zhou;hp;id,da;oo;dl; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	3
+山塘街	shan;pp;aa;vs;lk; tang;go;tt;gd;tk; jie;hj;xg,xi;pg;ii;	13
+石路	shi;tt;kp,aa,ak,pk;ms;ak; lu;go;zg;ps;zk;	30
+三香广场	san;uu;aa;ts;ae; xiang;uv;ho;xo;ho; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+劳动路	lao;zu;cl,lb;ls;cl; dong;uu;ly,yl;bs;el; lu;go;zg;ps;zk;	2
+胥江路	xu;rl;op,po;tv;vo; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+桐泾公园	tong;wo;mt;ed;mk; jing;kp;dg;ku;dg; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+友联	you;sl;yu,uy;nr;uy; lian;dx;eg;qm;et;	12
+盘蠡路	pan;td,ta;mv,vm;ia;vm; li;rf;it,iu;bc;vi; lu;go;zg;ps;zk;	0
+新家桥	xin;bp;jq;it;lj; jia;ih;bu;wj;bu; qiao;wp;mq;ep;ml;	0
+石湖东路	shi;tt;kp,aa,ak,pk;ms;ak; hu;kl;dh;kv;do; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+宝带桥南	bao;ia,ih;by;wi;by; dai;zy;jb;lr;fj; qiao;wp;mq;ep;ml; nan;ss;ua,uy;ng;ug,ag;	0
+尹中路	yin;ru;ap,vp;bt;vp; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+郭巷	guo;ib;ex;gt;we; xiang;zt;sg,gs;lv;cs;	0
+郭苑路	guo;ib;ex;gt;we; yuan;zt;ce,cy;lz;cv; lu;go;zg;ps;zk;	0
+尹山湖	yin;ru;ap,vp;bt;vp; shan;pp;aa;vs;lk; hu;kl;dh;kv;do;	5
+独墅湖南	du;bf;qi;mc;qi; shu;vg;ty;dg;lt; hu;kl;dh;kv;do; nan;ss;ua,uy;ng;ug,ag;	0
+独墅湖邻里中心	du;bf;qi;mc;qi; shu;vg;ty;dg;lt; hu;kl;dh;kv;do; lin;eb;el;jt;re; li;vg;aa,tt;dl;la; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	0
+月亮湾	yue;ll;oy,pa,yt;vy;ka; liang;ii;wj,jb;go;wj; wan;kr;dw;kb;dg;	51
+松涛街	song;wp;mg;ek;ms; tao;kk;du;kk;dc; jie;hj;xg,xi;pg;ii;	0
+金谷路	jin;ed,ef;ra,pa;zj;ra; gu;fo;bk,kr;hg;bk; lu;go;zg;ps;zk;	0
+金尚路	jin;ed,ef;ra,pa;zj;ra; shang;ho;xk;ss;xk; lu;go;zg;ps;zk;	1
+桑田岛	sang;lw;mr,mu,ym;re;ym; tian;ww;aa;qt;ku; dao;up;nu,un;xv;pe;	0
+龙道浜	long;sh;ad;tl;ud; dao;fq;zu;hu;zz; bang;kf;db;kh;db;	0
+张庄	zhang;rh;gi;bp;gi; zhuang;rg;gt;xg;gt;	7
+姚祥	yao;yh,yf;nv;bw;nd; xiang;hp;uy;fg;py;	0
+活力岛	huo;ko;du;ka;dk; li;uu;gp;sl;vp; dao;up;nu,un;xv;pe;	1
+孙武纪念园	sun;af;zx;hy;zx; wu;dr,ha;vy,yv;fs;av; ji;et;sj;iv;sj; nian;en;xj;jh;rx; yuan;nk;ky;rp;ke;	0
+平泷路西	ping;ds,sf;aa,gb;eh;au; long;kh;dl;kt;dl; lu;go;zg;ps;zk; xi;pp;aa;vx;aa;	0
+苏锦	su;zf;cb;lh;cb; jin;dy;jb,jj;zr;jj;	4
+北寺塔	bei;la;ap,bj;av;lb; si;gk;ct,tc;gk;tc; ta;go;td,th;gd;tk;	5
+察院场	cha;if;bj;wf;bx; yuan;bk;ew;tp;ee; chang;gu;ty;ge;tp;	0
+三元坊	san;uu;aa;ts;ae; yuan;uk;aw,ee;mp;ee; fang;gf;tf;gl;tf;	1
+南门	nan;ss;ua,uy;ng;ug,ag; men;oo;dg;am;dv;	506
+人民桥南	ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; qiao;wp;mq;ep;ml; nan;ss;ua,uy;ng;ug,ag;	0
+团结桥	tuan;nu;kc;rt;kc; jie;eo;sj;id;sk; qiao;wp;mq;ep;ml;	0
+宝带路	bao;ia,ih;by;wi;by; dai;zy;jb;lr;fj; lu;go;zg;ps;zk;	0
+红庄	hong;ep;sg;iu;sg; zhuang;rg;gt;xg;gt;	0
+清树湾	qing;kl;dq;kv;do; shu;wk;md;ek;mc; wan;kr;dw;kb;dg;	0
+花港	hua;za;ch;lv;cb; gang;kt;dx;kv;ds;	0
+江陵西路	jiang;kp;dg;ku;dg; ling;bj;el,ew;th;ew; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+江兴西路	jiang;kp;dg;ku;dg; xing;hf;ba,db;kh;xb; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+流虹路	liu;kr;di;ko;dv; hong;fp;ig;cu;ig; lu;go;zg;ps;zk;	0
+笠泽路	li;nb;vl;ri;vl; ze;kp;df;ku;dl; lu;go;zg;ps;zk;	0
+顾家荡	gu;rm;ye;xw;ir; jia;ih;bu;wj;bu; dang;zu;ct;le;cp;	0
+苏州湾东	su;zf;cb;lh;cb; zhou;hp;id,da;oo;dl; wan;kr;dw;kb;dg; dong;df,af;ad,qx;ry;ad;	0
+松陵大道	song;wp;mg;ek;ms; ling;bj;el,ew;th;ew; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+吴江人民广场	wu;ox;kt;dm;kt; jiang;kp;dg;ku;dg; ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+吴江汽车站	wu;ox;kt;dm;kt; jiang;kp;dg;ku;dg; qi;ks;dq;kv;dq; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+庞金路	pang;rh;gl;xt;gl; jin;ed,ef;ra,pa;zj;ra; lu;go;zg;ps;zk;	0
+同里	tong;oo;kk;md;kk; li;vg;aa,tt;dl;la;	41
+蠡墅	li;rf;it,iu;bc;vi; shu;vg;ty;dg;lt;	5
+石湖莫舍	shi;tt;kp,aa,ak,pk;ms;ak; hu;kl;dh;kv;do; mo;zx;cd,ct;lm;cd; she;eo;ru;ja;rk;	0
+越溪	yue;qh;zy;pn;tv; xi;kx;dx;km;dd;	2
+文溪路	wen;jj;wi,dd;vw;wx; xi;kx;dx;km;dd; lu;go;zg;ps;zk;	0
+天鹅荡路	tian;ue;ad;fm;ad; e;uc;nw;tx;wn; dang;zu;ct;le;cp; lu;go;zg;ps;zk;	0
+苏州湾北	su;zf;cb;lh;cb; zhou;hp;id,da;oo;dl; wan;kr;dw;kb;dg; bei;la;ap,bj;av;lb;	0
+木里	mu;ww;ad;em;an,un; li;vg;aa,tt;dl;la;	38
+环城南路	huan;ah;wb;nc;wb; cheng;gh;ti;ga;ti; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	12
+昆明火车站	kun;va;ob;ov;ob; ming;vl;oo;ov;oo; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	12
+福德	fu;hw;uf,ut;fq;pt; de;hn;xx;wh;ix;	248
+日新路	ri;vv;aa,or,ri;or;ka; xin;bp;jq;it;lj; lu;go;zg;ps;zk;	0
+巫家坝	wu;dd,pe;gc,gr;uj;gr; jia;ih;bu;wj;bu; ba;gm;tb;go;tr;	4
+昌宏西路	chang;vv;oo;oo;oo; hong;ip;bh,bs;wk;bs; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+晓东村	xiao;vk;oy;op;ow; dong;df,af;ad,qx;ry;ad; cun;wk;mc;ek;mc;	0
+珥季路	er;au;we;nq;we; ji;ua;hz;xh;hz; lu;go;zg;ps;zk;	0
+星耀路	xing;va;ou;ol;ou; yao;ha;gd,gv;mu;xf; lu;go;zg;ps;zk;	0
+新亚洲体育城	xin;bp;jq;it;lj; ya;dd;ay;fc;ay; zhou;kp;dv;ko;dl,dv; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; cheng;gh;ti;ga;ti;	0
+南部汽车站	nan;ss;ua,uy;ng;ug,ag; bu;bb;ek,ep;it;le; qi;ks;dq;kv;dq; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+斗南	dou;hs,sh;du;jd;du; nan;ss;ua,uy;ng;ug,ag;	41
+春融街	chun;uv;of,fo;ao;fo; rong;df;ig;nc;ai; jie;hj;xg,xi;pg;ii;	1
+驼峰街	tuo;za;mt;nv;mb; feng;pa;uf;va;ef; jie;hj;xg,xi;pg;ii;	0
+联大街	lian;dx;eg;qm;et; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+谊康南路	yi;cu;yy;sf;yq; kang;ro;gl;xk;gn; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+市级行政中心清风	shi;iy;wj;zr;wj; ji;eh;sj;ic;sj; xing;hj;xd,xi;px;ii; zheng;dj;wv;fh;vw; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd; qing;kl;dq;kv;do; feng;iy;ji;ob;jx;	0
+宜和路	yi;iu;bq;wf;bq; he;uo;hk;xd;hk; lu;go;zg;ps;zk;	0
+白龙潭	bai;ss;pa,po;ub;po; long;sh;ad;tl;ud; tan;ks;dt;kn;du;	6
+昆明南火车站	kun;va;ob;ov;ob; ming;vl;oo;ov;oo; nan;ss;ua,uy;ng;ug,ag; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+塘子巷	tang;go;tt;gd;tk; zi;aa;aa,vh;hi;va; xiang;zt;sg,gs;lv;cs;	0
+东风广场	dong;df,af;ad,qx;ry;ad; feng;iy;ji;ob;jx; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	7
+交三桥	jiao;iy;li,wf,df;ab;wx; san;uu;aa;ts;ae; qiao;wp;mq;ep;ml;	0
+穿心鼓楼	chuan;iu;xy,by;el;by; xin;nn;dd;hx;dd; gu;gl;vd,uv;hc;uy; lou;wy;ml;eb;mn;	0
+白云路	bai;ss;pa,po;ub;po; yun;up;es,se;by;es; lu;go;zg;ps;zk;	2
+金星	jin;ed,ef;ra,pa;zj;ra; xing;va;ou;ol;ou;	2793
+北辰	bei;la;ap,bj;av;lb; chen;rh;iy;fc;in;	261
+霖雨桥	lin;yw;yl;te;ym; yu;yy;ad;tv;ad; qiao;wp;mq;ep;ml;	0
+羊肠村	yang;fp;da;gy;bl; chang;lu;oy;ve;op; cun;wk;mc;ek;mc;	0
+司家营	si;ro;gk,ka;ad;vk; jia;ih;bu;wj;bu; ying;zo;cl;ld;ck;	0
+龙头街	long;sh;ad;tl;ud; tou;hx;dd;wm;dd; jie;hj;xg,xi;pg;ii;	0
+北部汽车站	bei;la;ap,bj;av;lb; bu;bb;ek,ep;it;le; qi;ks;dq;kv;dq; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	2
+西山公园	xi;pp;aa;vx;aa; shan;pp;aa;vs;lk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	3
+车家壁	che;tt;aa;yc;al; jia;ih;bu;wj;bu; bi;qg;tb,tx;cg;ut;	1
+普坪村	pu;fv;ob,bo;ho;bo; ping;gf,gs;tp;gh;tp; cun;wk;mc;ek;mc;	1
+石咀	shi;tt;kp,aa,ak,pk;ms;ak; ju;ou;kq;df;kq;	2
+大渔路	da;xx;ad;md;un; yu;kq;dy;kw;da; lu;go;zg;ps;zk;	0
+西部汽车站	xi;pp;aa;vx;aa; bu;bb;ek,ep;it;le; qi;ks;dq;kv;dq; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+眠山	mian;sr;om;qd;om; shan;pp;aa;vs;lk;	4
+昌源中路	chang;vv;oo;oo;oo; yuan;kf;dy;ky;dx; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+梁家河	liang;kw;mb;ke;dm; jia;ih;bu;wj;bu; he;kj;dk;kz;dk;	4
+市体育馆	shi;iy;wj;zr;wj; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; guan;gd;ug;qk;uk;	8
+潘家湾	pan;kw;df;kq;dt; jia;ih;bu;wj;bu; wan;kr;dw;kb;dg;	4
+五一路	wu;gg;aa;wu;aa; yi;dd;aa;fi;aa; lu;go;zg;ps;zk;	6
+拓东体育馆	tuo;jt;fu;um;fu; dong;df,af;ad,qx;ry;ad; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; guan;gd;ug;qk;uk;	0
+大树营	da;xx;ad;md;un; shu;wk;md;ek;mc; ying;zo;cl;ld;ck;	0
+金马寺	jin;ed,ef;ra,pa;zj;ra; ma;zz;aa,vh;nm;va; si;gk;ct,tc;gk;tc;	0
+太平村	tai;xh;dd;mi;dd; ping;ds,sf;aa,gb;eh;au; cun;wk;mc;ek;mc;	60
+虹桥	hong;fp;ig;cu;ig; qiao;wp;mq;ep;ml;	223
+东部汽车站	dong;df,af;ad,qx;ry;ad; bu;bb;ek,ep;it;le; qi;ks;dq;kv;dq; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	5
+机场中心	ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	0
+机场前	ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; qian;fi;bd,qd;hp;bd;	0
+大板桥	da;xx;ad;md;un; ban;wl;mf;er;my; qiao;wp;mq;ep;ml;	2
+后卫寨	hou;uo;pk;xd;pk; wei;bd;ea,ga;zf;ea,va; zhai;if;mb,bm;we;bm;	1
+三桥	san;uu;aa;ts;ae; qiao;wp;mq;ep;ml;	54
+皂河	zao;sa;bq;ur;bq; he;kj;dk;kz;dk;	2
+汉城路	han;kl;dy;kr;dy; cheng;gh;ti;ga;ti; lu;go;zg;ps;zk;	1
+开远门	kai;dz,dp,up;ac;fl;ac; yuan;uq;zy;mu;ze; men;oo;dg;am;dv;	6
+玉祥门	yu;ah,aa;ad,wd;ni;wd; xiang;hp;uy;fg;py; men;oo;dg;am;dv;	6
+洒金桥	sa;kp;dx;kv;dx; jin;ed,ef;ra,pa;zj;ra; qiao;wp;mq;ep;ml;	74
+北大街	bei;la;ap,bj;av;lb; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	64
+五路口	wu;gg;aa;wu;aa; lu;go;zg;ps;zk; kou;oo;aa;dk;la;	6
+康复路	kang;ro;gl;xk;gn; fu;ej;pw,rw,wo;eh;pw; lu;go;zg;ps;zk;	4
+通化门	tong;pq;zy;ku;zy; hua;xa;rb;jv;rb; men;oo;dg;am;dv;	7
+长乐坡	chang;uh;pd;pc;pn; le;uf;pd,px;by;pd; po;gl;tp;gr;ty;	2
+浐河	chan;ku;di;kx;di; he;kj;dk;kz;dk;	6
+半坡	ban;fp,fs;bf;hu;dl; po;gl;tp;gr;ty;	277
+纺织城	fang;ef;sf;il;sf; zhi;ef;sv;ih;sb; cheng;gh;ti;ga;ti;	12
+韦曲南	wei;up;aa;gw;al; qu;pd,vp;aa,oa;yq;la; nan;ss;ua,uy;ng;ug,ag;	7
+航天城	hang;ti;vk;io;vj; tian;ue;ad;fm;ad; cheng;gh;ti;ga;ti;	57
+凤栖原	feng;il;jy;or;jy; qi;wp;mx;ev;mx; yuan;rf;ix;xy;ix;	2
+三爻	san;uu;aa;ts;ae; yao;yy;ii;bb;xx;	25
+纬一街	wei;ep;sw;ig;sw; yi;dd;aa;fi;aa; jie;hj;xg,xi;pg;ii;	2
+小寨	xiao;pf;ad;yx;ld; zhai;if;mb,bm;we;bm;	80
+体育场	ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; chang;gu;ty;ge;tp;	1130
+南稍门	nan;ss;ua,uy;ng;ug,ag; shao;ul;hx;xv;ho; men;oo;dg;am;dv;	10
+永宁门	yong;hh;dd;ik;dn; ning;ij;bd;wa;bd; men;oo;dg;am;dv;	33
+安远门	an;iy;bn;wb;bn; yuan;uq;zy;mu;ze; men;oo;dg;am;dv;	14
+龙首原	long;sh;ad;tl;ud; shou;fs;qz;ho;bz; yuan;rf;ix;xy;ix;	10
+大明宫西	da;xx;ad;md;un; ming;vl;oo;ov;oo; gong;io;bl;wd;bk; xi;pp;aa;vx;aa;	1
+凤城五路	feng;il;jy;or;jy; cheng;gh;ti;ga;ti; wu;gg;aa;wu;aa; lu;go;zg;ps;zk;	7
+行政中心	xing;hj;xd,xi;px;ii; zheng;dj;wv;fh;vw; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	97
+运动公园	yun;uq;zy;bu;zs; dong;uu;ly,yl;bs;el; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	7
+北客站	bei;la;ap,bj;av;lb; ke;io;bg;ws;bk; zhan;bo;lv;id;lk;	15
+鱼化寨	yu;qq;da;wv;da; hua;xa;rb;jv;rb; zhai;if;mb,bm;we;bm;	1
+丈八北路	zhang;dh,sh,dy;ad;fb;an; ba;ff;pd;hb;pn; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	1
+延平门	yan;uq;zv;tu;zv; ping;ds,sf;aa,gb;eh;au; men;oo;dg;am;dv;	0
+科技路	ke;uh,us;hd;xj;hu; ji;jl;fv;uc;fy; lu;go;zg;ps;zk;	3
+太白南路	tai;xh;dd;mi;dd; bai;ss;pa,po;ub;po; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	2
+吉祥村	ji;go;ku,uk;gd;uk; xiang;hp;uy;fg;py; cun;wk;mc;ek;mc;	1
+大雁塔	da;xx;ad;md;un; yan;ra;iv;xu;if; ta;go;td,th;gd;tk;	294
+北池头	bei;la;ap,bj;av;lb; chi;kr;dy;ke;dy; tou;hx;dd;wm;dd;	0
+青龙寺	qing;al;of,fo;av;fo; long;sh;ad;tl;ud; si;gk;ct,tc;gk;tc;	30
+延兴门	yan;uq;zv;tu;zv; xing;hf;ba,db;kh;xb; men;oo;dg;am;dv;	0
+咸宁路	xian;rh;gk,kg,wk;nd;ad,wk,xk; ning;ij;bd;wa;bd; lu;go;zg;ps;zk;	0
+长乐公园	chang;uh;pd;pc;pn; le;uf;pd,px;by;pd; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+胡家庙	hu;sl;og;cv;uo; jia;ih;bu;wj;bu; miao;rp;gy;xd;gy;	1
+石家街	shi;tt;kp,aa,ak,pk;ms;ak; jia;ih;bu;wj;bu; jie;hj;xg,xi;pg;ii;	0
+辛家庙	xin;bs;lu;nx;lu; jia;ih;bu;wj;bu; miao;rp;gy;xd;gy;	1
+广泰门	guang;rr;dp;xg;di,wp; tai;uo;fu,uf;ak;fu; men;oo;dg;am;dv;	1
+桃花潭	tao;wh,wf;mv;ew;md; hua;za;ch;lv;cb; tan;ks;dt;kn;du;	12
+浐灞中心	chan;ku;di;kx;di; ba;kl;db;kv;do; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	2
+香湖湾	xiang;uv;ho;xo;ho; hu;kl;dh;kv;do; wan;kr;dw;kb;dg;	0
+务庄	wu;ju;wl;hs;wl; zhuang;rg;gt;xg;gt;	0
+国际港务区	guo;na,nh;ky;ri;ky; ji;bf;eu;tf;ex; gang;kt;dx;kv;ds; wu;ju;wl;hs;wl; qu;dr;ki;nb;kx;	5
+双寨	shuang;ll;yy;rr;yy; zhai;if;mb,bm;we;bm;	0
+新筑	xin;bp;jq;it;lj; zhu;nh;vg;ri;vf;	12
+北客站(北广场)	bei;la;ap,bj;av;lb; ke;io;bg;ws;bk; zhan;bo;lv;id;lk; (;;;;; bei;la;ap,bj;av;lb; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp; );;;;;	0
+元朔路	yuan;uk;aw,ee;mp;ee; shuo;fl;on;hv;bo; lu;go;zg;ps;zk;	0
+凤城十二路	feng;il;jy;or;jy; cheng;gh;ti;ga;ti; shi;ss;aa;ns;al; er;uu;aa;me;aa; lu;go;zg;ps;zk;	0
+凤城九路	feng;il;jy;or;jy; cheng;gh;ti;ga;ti; jiu;ur;py;kj;pv; lu;go;zg;ps;zk;	0
+文景路	wen;jj;wi,dd;vw;wx; jing;vf;oj;oy;ox; lu;go;zg;ps;zk;	1
+市中医医院	shi;iy;wj;zr;wj; zhong;op;aa,ka;dg;ll; yi;dr;ku;no;ku; yi;dr;ku;no;ku; yuan;bk;ew;tp;ee;	0
+常青路	chang;hy;jk,xd,dd;sr;xj; qing;al;of,fo;av;fo; lu;go;zg;ps;zk;	0
+百花村	bai;ds;ab;fu;ab; hua;za;ch;lv;cb; cun;wk;mc;ek;mc;	4
+余家寨	yu;ef;rb,rd,rh;jx;rh; jia;ih;bu;wj;bu; zhai;if;mb,bm;we;bm;	0
+大明宫北	da;xx;ad;md;un; ming;vl;oo;ov;oo; gong;io;bl;wd;bk; bei;la;ap,bj;av;lb;	0
+大明宫	da;xx;ad;md;un; ming;vl;oo;ov;oo; gong;io;bl;wd;bk;	308
+含元殿	han;eo;kj,rk;jd;rk; yuan;uk;aw,ee;mp;ee; dian;ql;ug;cr;uy;	34
+大差市	da;xx;ad;md;un; cha;fp;yg;gu;yg; shi;iy;wj;zr;wj;	1
+建筑科技大学·李家村	jian;rq;zy;bu;zy; zhu;nh;vg;ri;vf; ke;uh,us;hd;xj;hu; ji;jl;fv;uc;fy; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz; li;wa;mz;eh;mz; jia;ih;bu;wj;bu; cun;wk;mc;ek;mc;	0
+西安科技大学	xi;pp;aa;vx;aa; an;iy;bn;wb;bn; ke;uh,us;hd;xj;hu; ji;jl;fv;uc;fy; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	26
+大唐芙蓉园	da;xx;ad;md;un; tang;ro;gk;xd;gk; fu;ze;cf;lh;cf; rong;zo;cr;lh;ck; yuan;nk;ky;rp;ke;	58
+曲江池西	qu;pd,vp;aa,oa;yq;la; jiang;kp;dg;ku;dg; chi;kr;dy;ke;dy; xi;pp;aa;vx;aa;	0
+金滹沱	jin;ed,ef;ra,pa;zj;ra; hu;kp;dh;kn;dh; tuo;ka;dt;kv;db;	0
+航天大道	hang;ti;vk;io;vj; tian;ue;ad;fm;ad; da;xx;ad;md;un; dao;fq;zu;hu;zz;	1
+飞天路	fei;rh;yd;cf;vd; tian;ue;ad;fm;ad; lu;go;zg;ps;zk;	2
+东长安街	dong;df,af;ad,qx;ry;ad; chang;uh;pd;pc;pn; an;iy;bn;wb;bn; jie;hj;xg,xi;pg;ii;	9
+神舟大道	shen;hp;uu;fg;pu; zhou;tt;pd;io;pd; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+航天东路	hang;ti;vk;io;vj; tian;ue;ad;fm;ad; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+航天新城	hang;ti;vk;io;vj; tian;ue;ad;fm;ad; xin;bp;jq;it;lj; cheng;gh;ti;ga;ti;	0
+河南工业大学	he;kj;dk;kz;dk; nan;ss;ua,uy;ng;ug,ag; gong;pp;aa;ug;aa; ye;pd;aa;cy;la; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	24
+郑大科技园	zheng;fb;eg;ht;be; da;xx;ad;md;un; ke;uh,us;hd;xj;hu; ji;jl;fv;uc;fy; yuan;nk;ky;rp;ke;	0
+郑州大学	zheng;fb;eg;ht;be; zhou;hp;id,da;oo;dl; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	651
+梧桐街	wu;wo;mw;ed;mk; tong;wo;mt;ed;mk; jie;hj;xg,xi;pg;ii;	1
+兰寨	lan;fu;bs,qe;ht;bs; zhai;if;mb,bm;we;bm;	0
+铁炉	tie;de;ju;zh;ju; lu;tq;hh;cm;hh;	18
+西流湖	xi;pp;aa;vx;aa; liu;kr;di;ko;dv; hu;kl;dh;kv;do;	2
+西三环	xi;pp;aa;vx;aa; san;uu;aa;ts;ae; huan;ah;wb;nc;wb;	33
+秦岭路	qin;uf,uw;hf,fh;ax;fh; ling;pp;ul;vk;es; lu;go;zg;ps;zk;	1
+五一公园	wu;gg;aa;wu;aa; yi;dd;aa;fi;aa; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+碧沙岗	bi;at;ub,up;nm;wu; sha;ku;du;kt;du; gang;py;ug;vb;ex;	0
+绿城广场	lv;eo;sl;ik;su; cheng;gh;ti;ga;ti; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+郑州火车站	zheng;fb;eg;ht;be; zhou;hp;id,da;oo;dl; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	4
+二七广场	er;uu;aa;me;aa; qi;aa;ag;rq;av; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	3
+紫荆山	zi;rf;sc;si;vx; jing;zi;dk;lp;cd; shan;pp;aa;vs;lk;	3
+燕庄	yan;vn;ch,hb;lc;ah,nh; zhuang;rg;gt;xg;gt;	1
+民航路	min;rr;ag,kq,vg;dm;vv; hang;ti;vk;io;vj; lu;go;zg;ps;zk;	1
+黄河南路	huang;zf;ad,cb;nh;cb; he;kj;dk;kz;dk; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+农业南路	nong;ih;by,ny;wt;dn; ye;pd;aa;cy;la; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+东风南路	dong;df,af;ad,qx;ry;ad; feng;iy;ji;ob;jx; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+郑州东站	zheng;fb;eg;ht;be; zhou;hp;id,da;oo;dl; dong;df,af;ad,qx;ry;ad; zhan;bo;lv;id;lk;	6
+博学路	bo;sk;uc,uf;nk;uc; xue;ha;dz,zb;kh;xz; lu;go;zg;ps;zk;	1
+市体育中心	shi;iy;wj;zr;wj; ti;xd;rb;jf;rb; yu;il;os,wo;bv;wo; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	0
+龙子湖	long;sh;ad;tl;ud; zi;aa;aa,vh;hi;va; hu;kl;dh;kv;do;	22
+文苑北路	wen;jj;wi,dd;vw;wx; yuan;zt;ce,cy;lz;cv; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	26
+刘庄	liu;ji;dw,wd;vp;wd; zhuang;rg;gt;xg;gt;	72
+柳林	liu;wb;mm;eb;me; lin;ww;mm;ee;mm;	71
+沙门	sha;ku;du;kt;du; men;oo;dg;am;dv;	152
+北三环	bei;la;ap,bj;av;lb; san;uu;aa;ts;ae; huan;ah;wb;nc;wb;	51
+东风路	dong;df,af;ad,qx;ry;ad; feng;iy;ji;ob;jx; lu;go;zg;ps;zk;	2
+关虎屯	guan;fx;bt,qd;hm;bt; hu;pi;hj;zh;hj; tun;dr;ag;fs;av;	0
+黄河路	huang;zf;ad,cb;nh;cb; he;kj;dk;kz;dk; lu;go;zg;ps;zk;	34
+东大街	dong;df,af;ad,qx;ry;ad; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	63
+陇海东路	long;bh;el;tt;el; hai;kh;dm;kk;dm; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+二里岗	er;uu;aa;me;aa; li;vg;aa,tt;dl;la; gang;py;ug;vb;ex;	37
+南五里堡	nan;ss;ua,uy;ng;ug,ag; wu;gg;aa;wu;aa; li;vg;aa,tt;dl;la; bao;xg;tb;jg;rt;	0
+花寨	hua;za;ch;lv;cb; zhai;if;mb,bm;we;bm;	1
+站马屯	zhan;bo;lv;id;lk; ma;zz;aa,vh;nm;va; tun;dr;ag;fs;av;	0
+十八里河	shi;ss;aa;ns;al; ba;ff;pd;hb;pn; li;vg;aa,tt;dl;la; he;kj;dk;kz;dk;	0
+沙窝李	sha;ku;du;kt;du; wo;ie;xn,xg,bn,bg;ej;bn; li;wa;mz;eh;mz;	0
+双湖大道	shuang;ll;yy;rr;yy; hu;kl;dh;kv;do; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+华南城西	hua;xs;uh;jn;ru; nan;ss;ua,uy;ng;ug,ag; cheng;gh;ti;ga;ti; xi;pp;aa;vx;aa;	0
+华南城	hua;xs;uh;jn;ru; nan;ss;ua,uy;ng;ug,ag; cheng;gh;ti;ga;ti;	30
+孟庄	meng;ad,aa;mz,zm;ha;zm; zhuang;rg;gt;xg;gt;	8
+康平湖	kang;ro;gl;xk;gn; ping;ds,sf;aa,gb;eh;au; hu;kl;dh;kv;do;	0
+兰河公园	lan;fu;bs,qe;ht;bs; he;kj;dk;kz;dk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+恩平湖	en;nn;xy;rh;kx; ping;ds,sf;aa,gb;eh;au; hu;kl;dh;kv;do;	0
+综合保税区	zong;ef;sz;if;sx; he;eo;rk;jd;rk; bao;xw;rd;je;rm; shui;uk;hd;xp;he; qu;dr;ki;nb;kx;	12
+新郑机场	xin;bp;jq;it;lj; zheng;fb;eg;ht;be; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp;	4
+开福区政府	kai;dz,dp,up;ac;fl;ac; fu;hw;uf,ut;fq;pt; qu;dr;ki;nb;kx; zheng;dj;wv;fh;vw; fu;rw,rk;gf;xk;gc;	0
+马厂	ma;zz;aa,vh;nm;va; chang;rr;ap;xc;ap;	11
+北辰三角洲	bei;la;ap,bj;av;lb; chen;rh;iy;fc;in; san;uu;aa;ts;ae; jiao;gp;dy;xt;dy; zhou;kp;dv;ko;dl,dv;	2
+开福寺	kai;dz,dp,up;ac;fl;ac; fu;hw;uf,ut;fq;pt; si;gk;ct,tc;gk;tc;	6
+文昌阁	wen;jj;wi,dd;vw;wx; chang;vv;oo;oo;oo; ge;oo;mg;as;mk;	12
+培元桥	pei;go;tk,tp;gd;tk; yuan;uk;aw,ee;mp;ee; qiao;wp;mq;ep;ml;	0
+五一广场	wu;gg;aa;wu;aa; yi;dd;aa;fi;aa; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	62
+黄兴广场	huang;zf;ad,cb;nh;cb; xing;hf;ba,db;kh;xb; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	5
+南门口	nan;ss;ua,uy;ng;ug,ag; men;oo;dg;am;dv; kou;oo;aa;dk;la;	25
+侯家塘	hou;xx;ru;jo;ru; jia;ih;bu;wj;bu; tang;go;tt;gd;tk;	1
+南湖路	nan;ss;ua,uy;ng;ug,ag; hu;kl;dh;kv;do; lu;go;zg;ps;zk;	4
+黄土岭	huang;zf;ad,cb;nh;cb; tu;gg;aa;gt;ua; ling;pp;ul;vk;es;	6
+涂家冲	tu;kf;dy;kx;dh; jia;ih;bu;wj;bu; chong;fp;dv;wg;dv;	0
+铁道学院	tie;de;ju;zh;ju; dao;fq;zu;hu;zz; xue;ha;dz,zb;kh;xz; yuan;bk;ew;tp;ee;	49
+省政府·清风	sheng;ps;ou;yq;uo; zheng;dj;wv;fh;vw; fu;rw,rk;gf;xk;gc; qing;kl;dq;kv;do; feng;iy;ji;ob;jx;	0
+桂花坪	gui;wg;mg;eg;mt; hua;za;ch;lv;cb; ping;gf,gs;tp;gh;tp;	0
+大托	da;xx;ad;md;un; tuo;ja,jr;fq,ft;ur;fq;	0
+中信广场	zhong;op;aa,ka;dg;ll; xin;xo,xc;ry;js;rk; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	4
+尚双塘	shang;ho;xk;ss;xk; shuang;ll;yy;rr;yy; tang;go;tt;gd;tk;	0
+梅溪湖西	mei;wh;mm;ek;mm; xi;kx;dx;km;dd; hu;kl;dh;kv;do; xi;pp;aa;vx;aa;	0
+麓云路	lu;wa;ll;ex;mb; yun;up;es,se;by;es; lu;go;zg;ps;zk;	0
+文化艺术中心	wen;jj;wi,dd;vw;wx; hua;xa;rb;jv;rb; yi;zr;cy;la;cv; shu;wh;md;ei;md; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	33
+梅溪湖东	mei;wh;mm;ek;mm; xi;kx;dx;km;dd; hu;kl;dh;kv;do; dong;df,af;ad,qx;ry;ad;	0
+望城坡	wang;ia;wo;fn;ww; cheng;gh;ti;ga;ti; po;gl;tp;gr;ty;	0
+金星路	jin;ed,ef;ra,pa;zj;ra; xing;va;ou;ol;ou; lu;go;zg;ps;zk;	3
+西湖公园	xi;pp;aa;vx;aa; hu;kl;dh;kv;do; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	16
+溁湾镇	ying;kw;dr;ke;dm; wan;kr;dw;kb;dg; zhen;df;jv;zh;jb;	3
+橘子洲	ju;wo;mk,my;ed;mk; zi;aa;aa,vh;hi;va; zhou;kp;dv;ko;dl,dv;	64
+湘江中路	xiang;ks;dx;kq;do; jiang;kp;dg;ku;dg; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
+芙蓉广场	fu;ze;cf;lh;cf; rong;zo;cr;lh;ck; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	2
+迎宾路口	ying;uq;ze;bu;ze; bin;if;bb;wh;bb; lu;go;zg;ps;zk; kou;oo;aa;dk;la;	0
+袁家岭	yuan;gh;ty;gt;ty; jia;ih;bu;wj;bu; ling;pp;ul;vk;es;	1
+长沙火车站	chang;uh;pd;pc;pn; sha;ku;du;kt;du; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	2
+锦泰广场	jin;dy;jb,jj;zr;jj; tai;uo;fu,uf;ak;fu; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	1
+万家丽广场	wan;du;ag,ap;fp;ap; jia;ih;bu;wj;bu; li;dh;ad;fv;ad; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	2
+人民东路	ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	1
+长沙大道	chang;uh;pd;pc;pn; sha;ku;du;kt;du; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+沙湾公园	sha;ku;du;kt;du; wan;kr;dw;kb;dg; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	1
+杜花路	du;wg;mt;eg;mt; hua;za;ch;lv;cb; lu;go;zg;ps;zk;	0
+长沙火车南站	chang;uh;pd;pc;pn; sha;ku;du;kt;du; huo;tt;dd;ch;dr; che;tt;aa;yc;al; nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	0
+光达	guang;hk;ea,xw;mg;xw; da;xq;zd;mu;zd;	32
+磁浮机场站	ci;tp;uz;mi;uy; fu;ka;df;kh;dz; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp; zhan;bo;lv;id;lk;	0
+磁浮榔梨	ci;tp;uz;mi;uy; fu;ka;df;kh;dz; lang;wb;ml;et;me; li;uw;ml;xe;hm;	0
+磁浮高铁站	ci;tp;uz;mi;uy; fu;ka;df;kh;dz; gao;io;wk;gg;wk; tie;de;ju;zh;ju; zhan;bo;lv;id;lk;	0
+霞浦	xia;yl;yj,yy;tr;yy; pu;kh;df;kn;df;	40
+长江路	chang;uh;pd;pc;pn; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	25
+中河路	zhong;op;aa,ka;dg;ll; he;kj;dk;kz;dk; lu;go;zg;ps;zk;	0
+松花江路	song;wp;mg;ek;ms; hua;za;ch;lv;cb; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	4
+大碶	da;xx;ad;md;un; qi;tx;uq;mm;ud;	0
+邬隘	wu;ub;ew;xt;we; ai;bd,ba;ey;ta;em;	0
+宝幢	bao;ia,ih;by;wi;by; chuang;yg;jt;rd;jl;	19
+五乡	wu;gg;aa;wu;aa; xiang;ru;ap,vp;ix;vp;	15
+邱隘东	qiu;ub;eq;tt;qe; ai;bd,ba;ey;ta;em; dong;df,af;ad,qx;ry;ad;	0
+东环南路	dong;df,af;ad,qx;ry;ad; huan;ah;wb;nc;wb; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+盛莫路	sheng;rd,ra;mi;na;im; mo;zx;cd,ct;lm;cd; lu;go;zg;ps;zk;	0
+福庆北路	fu;hw;uf,ut;fq;pt; qing;rx;gd;xm;gd; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	0
+海晏北路	hai;kh;dm;kk;dm; yan;vy;oa;ob;on; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	0
+福明路	fu;hw;uf,ut;fq;pt; ming;vl;oo;ov;oo; lu;go;zg;ps;zk;	0
+樱花公园	ying;wy;my;eb;mn; hua;za;ch;lv;cb; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	1
+舟孟北路	zhou;tt;pd;io;pd; meng;ad,aa;mz,zm;ha;zm; bei;la;ap,bj;av;lb; lu;go;zg;ps;zk;	0
+江厦桥东	jiang;kp;dg;ku;dg; sha;rj;ix;xh;iw; qiao;wp;mq;ep;ml; dong;df,af;ad,qx;ry;ad;	0
+东门口	dong;df,af;ad,qx;ry;ad; men;oo;dg;am;dv; kou;oo;aa;dk;la;	12
+大卿桥	da;xx;ad;md;un; qing;ub;mg,mj;bi;pe; qiao;wp;mq;ep;ml;	0
+泽民	ze;kp;df;ku;dl; min;rr;ag,kq,vg;dm;vv;	8
+望春桥	wang;ia;wo;fn;ww; chun;uv;of,fo;ao;fo; qiao;wp;mq;ep;ml;	0
+徐家漕长乐	xu;hf;xy;wx;ih; jia;ih;bu;wj;bu; cao;kv;dc;ko;do; chang;uh;pd;pc;pn; le;uf;pd,px;by;pd;	0
+芦港	lu;zq;ch;lm;ch; gang;kt;dx;kv;ds;	0
+梁祝	liang;kw;mb;ke;dm; zhu;hk;ux;fp;pe;	136
+高桥	gao;io;wk;gg;wk; qiao;wp;mq;ep;ml;	631
+高桥西	gao;io;wk;gg;wk; qiao;wp;mq;ep;ml; xi;pp;aa;vx;aa;	0
+栎社国际机场	li;wf;ml,my;ey;ml; she;hg;ut,tu;fg;pt; guo;na,nh;ky;ri;ky; ji;bf;eu;tf;ex; ji;wi;mj;eo;mj; chang;gu;ty;ge;tp;	0
+栎社	li;wf;ml,my;ey;ml; she;hg;ut,tu;fg;pt;	5
+鄞州大道	yin;vb;ej;lt;ne; zhou;hp;id,da;oo;dl; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+石碶	shi;tt;kp,aa,ak,pk;ms;ak; qi;tx;uq;mm;ud;	0
+轻纺城	qing;tp;ig;yu;ig; fang;ef;sf;il;sf; cheng;gh;ti;ga;ti;	3
+藕池	ou;zh;co;lv;cy; chi;kr;dy;ke;dy;	2
+丽园南路	li;dh;ad;fv;ad; yuan;nk;ky;rp;ke; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	0
+云霞路	yun;up;es,se;by;es; xia;yl;yj,yy;tr;yy; lu;go;zg;ps;zk;	0
+宁波火车站	ning;ij;bd;wa;bd; bo;kl;dp;kr;dy; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+城隍庙	cheng;gh;ti;ga;ti; huang;ba;eh;tn;ew; miao;rp;gy;xd;gy;	173
+外滩大桥	wai;fh;xb;ly;xb; tan;ka;dn;ku;df; da;xx;ad;md;un; qiao;wp;mq;ep;ml;	0
+正大路	zheng;dr;av;fs;av; da;xx;ad;md;un; lu;go;zg;ps;zk;	0
+倪家堰	ni;xk;re;jp;re; jia;ih;bu;wj;bu; yan;gr;tn,ty;gb;tn;	0
+压赛堰	ya;rh;id,it;xi;id; sai;im;bb;wo;br; yan;gr;tn,ty;gb;tn;	0
+大通桥	da;xx;ad;md;un; tong;pq;zy;ku;zy; qiao;wp;mq;ep;ml;	2
+孔浦	kong;ar;zg;ha;zv; pu;kh;df;kn;df;	0
+路林	lu;go;zg;ps;zk; lin;ww;mm;ee;mm;	1
+三官堂	san;uu;aa;ts;ae; guan;id;bg,bk;wk;bk; tang;hg;tk,dt,xt;sg;xt;	3
+宁波大学	ning;ij;bd;wa;bd; bo;kl;dp;kr;dy; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	156
+清水浦	qing;kl;dq;kv;do; shui;oo;ad,uv;ks;ln; pu;kh;df;kn;df;	0
+堰桥	yan;gr;tn,ty;gb;tn; qiao;wp;mq;ep;ml;	0
+锡北运河	xi;di;jy;ze;jw; bei;la;ap,bj;av;lb; yun;uq;zy;bu;zs; he;kj;dk;kz;dk;	0
+西漳	xi;pp;aa;vx;aa; zhang;ks;dv;kn;du;	0
+天一	tian;ue;ad;fm;ad; yi;dd;aa;fi;aa;	441
+刘潭	liu;ji;dw,wd;vp;wd; tan;ks;dt;kn;du;	8
+庄前	zhuang;rg;gt;xg;gt; qian;fi;bd,qd;hp;bd;	6
+民丰	min;rr;ag,kq,vg;dm;vv; feng;aa;aa;af;al;	9
+无锡火车站	wu;uk;ag,ay,ee;du;ay; xi;di;jy;ze;jw; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	1
+胜利门	sheng;la;ou;vl;ou; li;ui;hd,dh;xp;hd; men;oo;dg;am;dv;	1
+三阳广场	san;uu;aa;ts;ae; yang;bv;eo;to;eo; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	1
+南禅寺	nan;ss;ua,uy;ng;ug,ag; chan;hs;ud;fn;pl; si;gk;ct,tc;gk;tc;	46
+谈渡桥	tan;ct;yy;sc;yh; du;kl;dd;kr;dy; qiao;wp;mq;ep;ml;	0
+太湖广场	tai;xh;dd;mi;dd; hu;kl;dh;kv;do; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+清名桥	qing;kl;dq;kv;do; ming;fo;xk;ld;xk; qiao;wp;mq;ep;ml;	3
+华清大桥	hua;xs;uh;jn;ru; qing;kl;dq;kv;do; da;xx;ad;md;un; qiao;wp;mq;ep;ml;	0
+扬名	yang;ju;fy;ue;fp; ming;fo;xk;ld;xk;	235
+南湖家园	nan;ss;ua,uy;ng;ug,ag; hu;kl;dh;kv;do; jia;ih;bu;wj;bu; yuan;nk;ky;rp;ke;	0
+塘铁桥	tang;go;tt;gd;tk; tie;de;ju;zh;ju; qiao;wp;mq;ep;ml;	0
+金匮公园	jin;ed,ef;ra,pa;zj;ra; kui;dr;kg;no;kr; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	1
+江南大学	jiang;kp;dg;ku;dg; nan;ss;ua,uy;ng;ug,ag; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	399
+长广溪	zhang;uh;pd;pc;pn; guang;rr;dp;xg;di,wp; xi;kx;dx;km;dd;	0
+无锡东站	wu;uk;ag,ay,ee;du;ay; xi;di;jy;ze;jw; dong;df,af;ad,qx;ry;ad; zhan;bo;lv;id;lk;	1
+迎宾广场	ying;uq;ze;bu;ze; bin;if;bb;wh;bb; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+映月湖公园	ying;vx;oy;om;oy; yue;ll;oy,pa,yt;vy;ka; hu;kl;dh;kv;do; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+查桥	cha;wd;md;ef;ma; qiao;wp;mq;ep;ml;	0
+九里河公园	jiu;ur;py;kj;pv; li;vg;aa,tt;dl;la; he;kj;dk;kz;dk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+云林	yun;up;es,se;by;es; lin;ww;mm;ee;mm;	28
+庄桥	zhuang;rg;gt;xg;gt; qiao;wp;mq;ep;ml;	8
+柏庄	bai;ws;mb;eu;mb; zhuang;rg;gt;xg;gt;	2
+广益	guang;rr;dp;xg;di,wp; yi;fd,fa;mb;ka;bm;	63
+靖海	jing;bl;lq;iv;lo; hai;kh;dm;kk;dm;	9
+上马墩	shang;pd,pu;aa,ba;yf;la; ma;zz;aa,vh;nm;va; dun;gj;td;gh;tw;	0
+东林广场	dong;df,af;ad,qx;ry;ad; lin;ww;mm;ee;mm; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+五爱广场	wu;gg;aa;wu;aa; ai;hl;vy;yr;py; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+梁溪大桥	liang;kw;mb;ke;dm; xi;kx;dx;km;dd; da;xx;ad;md;un; qiao;wp;mq;ep;ml;	0
+大王基	dai;xx;ad;md;un; wang;aa;aa;nw;at; ji;vg;tq,qt;zg;qt;	0
+河埒口	he;kj;dk;kz;dk; lie;gk;tc,tl;gk;tc; kou;oo;aa;dk;la;	0
+小桃源	xiao;pf;ad;yx;ld; tao;wh,wf;mv;ew;md; yuan;kf;dy;ky;dx;	3
+荣巷	rong;zw;cm,mb;le;cm; xiang;zt;sg,gs;lv;cs;	0
+梅园开原寺	mei;wh;mm;ek;mm; yuan;nk;ky;rp;ke; kai;dz,dp,up;ac;fl;ac; yuan;rf;ix;xy;ix; si;gk;ct,tc;gk;tc;	0
+李村公园	li;wa;mz;eh;mz; cun;wk;mc;ek;mc; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	2
+李村	li;wa;mz;eh;mz; cun;wk;mc;ek;mc;	34
+枣山路	zao;dh;cd;ew;ad; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	0
+华楼山路	hua;xs;uh;jn;ru; lou;wy;ml;eb;mn; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	0
+东韩	dong;df,af;ad,qx;ry;ad; han;sp;uw,wu;ng;uw;	0
+辽阳东路	liao;rq;zl;ru;zl; yang;bv;eo;to;eo; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	1
+同安路	tong;oo;kk;md;kk; an;iy;bn;wb;bn; lu;go;zg;ps;zk;	1
+苗岭路	miao;zw;ct;lq;ct; ling;pp;ul;vk;es; lu;go;zg;ps;zk;	0
+石老人浴场	shi;tt;kp,aa,ak,pk;ms;ak; lao;ga;bl,lb;ql;lb; ren;ee;pd;jr;pn; yu;ko;dg;kh;dk; chang;gu;ty;ge;tp;	1
+海安路	hai;kh;dm;kk;dm; an;iy;bn;wb;bn; lu;go;zg;ps;zk;	2
+海川路	hai;kh;dm;kk;dm; chuan;up;pa;oc;pl; lu;go;zg;ps;zk;	1
+海游路	hai;kh;dm;kk;dm; you;ka;dz;kh;dz; lu;go;zg;ps;zk;	0
+麦岛	mai;aj;fw;ah;fw; dao;up;nu,un;xv;pe;	4
+高雄路	gao;io;wk;gg;wk; xiong;sa;vh,vs;nu;uf; lu;go;zg;ps;zk;	6
+燕儿岛路	yan;vn;ch,hb;lc;ah,nh; er;kk;pg;pe;pv; dao;up;nu,un;xv;pe; lu;go;zg;ps;zk;	0
+浮山所	fu;ka;df;kh;dz; shan;pp;aa;vs;lk; suo;up;hj,jh;mt;pj;	2
+五四广场	wu;gg;aa;wu;aa; si;nk;aa,ke;ys;ke; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	81
+芝泉路	zhi;zh;cv;lr;cv; quan;so;bu,ub;uk;bu; lu;go;zg;ps;zk;	0
+青岛北站	qing;al;of,fo;av;fo; dao;up;nu,un;xv;pe; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk;	6
+永平路	yong;hh;dd;ik;dn; ping;ds,sf;aa,gb;eh;au; lu;go;zg;ps;zk;	6
+振华路	zhen;jh;fi;uf;fn; hua;xs;uh;jn;ru; lu;go;zg;ps;zk;	2
+君峰路	jun;ro;ky;bd;yk; feng;pa;uf;va;ef; lu;go;zg;ps;zk;	0
+万年泉路	wan;du;ag,ap;fp;ap; nian;es;ra,pa;ev;pl; quan;so;bu,ub;uk;bu; lu;go;zg;ps;zk;	0
+海尔路	hai;kh;dm;kk;dm; er;gf;dx,xd;xy;dx; lu;go;zg;ps;zk;	1
+地铁大厦	di;gr,ga;ty;ge;ty; tie;de;ju;zh;ju; da;xx;ad;md;un; sha;rj;ix;xh;iw;	1
+长沙路	chang;uh;pd;pc;pn; sha;ku;du;kt;du; lu;go;zg;ps;zk;	0
+双山	shuang;ll;yy;rr;yy; shan;pp;aa;vs;lk;	17
+清江路	qing;kl;dq;kv;do; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+错埠岭	cuo;dv;jx;zo;jo; bu;gs;tf,tu;gn;tu; ling;pp;ul;vk;es;	0
+敦化路	dun;ij;wx;gh;ww; hua;xa;rb;jv;rb; lu;go;zg;ps;zk;	3
+宁夏路	ning;ij;bd;wa;bd; xia;dj;wz,aw;fh;aw; lu;go;zg;ps;zk;	4
+江西路	jiang;kp;dg;ku;dg; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	2
+延安三路	yan;uq;zv;tu;zv; an;iy;bn;wb;bn; san;uu;aa;ts;ae; lu;go;zg;ps;zk;	2
+太平角公园	tai;xh;dd;mi;dd; ping;ds,sf;aa,gb;eh;au; jiao;gp;dy;xt;dy; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	2
+汇泉广场	hui;kr;dk;kn;dk; quan;so;bu,ub;uk;bu; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	3
+人民会堂	ren;ee;pd;jr;pn; min;rr;ag,kq,vg;dm;vv; hui;ep;ry;jb;rs; tang;hg;tk,dt,xt;sg;xt;	1
+青岛站	qing;al;of,fo;av;fo; dao;up;nu,un;xv;pe; zhan;bo;lv;id;lk;	31
+青岛二中	qing;al;of,fo;av;fo; dao;up;nu,un;xv;pe; er;uu;aa;me;aa; zhong;op;aa,ka;dg;ll;	5
+青岛科大	qing;al;of,fo;av;fo; dao;up;nu,un;xv;pe; ke;uh,us;hd;xj;hu; da;xx;ad;md;un;	2
+张村	zhang;rh;gi;bp;gi; cun;wk;mc;ek;mc;	23
+枯桃	ku;wo;mg;ec;mk; tao;wh,wf;mv;ew;md;	0
+海洋大学	hai;kh;dm;kk;dm; yang;kp;dy;kg;dy; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	138
+世博园	shi;vr;ca,cv,aa;la;av; bo;sk;uc,uf;nk;uc; yuan;nk;ky;rp;ke;	36
+北宅	bei;la;ap,bj;av;lb; zhai;ia,ir;bq,bt;wr;bq;	7
+北九水	bei;la;ap,bj;av;lb; jiu;ur;py;kj;pv; shui;oo;ad,uv;ks;ln;	12
+庙石	miao;rp;gy;xd;gy; shi;tt;kp,aa,ak,pk;ms;ak;	0
+浦里	pu;kh;df;kn;df; li;vg;aa,tt;dl;la;	4
+鳌山卫	ao;aq;ya,yw;aw;fa; shan;pp;aa;vs;lk; wei;bd;ea,ga;zf;ea,va;	0
+山东大学	shan;pp;aa;vs;lk; dong;df,af;ad,qx;ry;ad; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	902
+蓝色硅谷	lan;zd,za;cj;la;cm; se;gt;db;xm;db; gui;tg;ug;mg;ut; gu;fo;bk,kr;hg;bk;	0
+水泊	shui;oo;ad,uv;ks;ln; po;ks;db;ku;db;	24
+博览中心	bo;sk;uc,uf;nk;uc; lan;pk;jv;pe;le; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	27
+温泉东	wen;kd,ka;dm,dw;ka;dm; quan;so;bu,ub;uk;bu; dong;df,af;ad,qx;ry;ad;	0
+皋虞	gao;ss;bu;un;bu; yu;px;hw;zm;ht;	0
+臧村	zang;rh;gi,ig;nq;ad,wi; cun;wk;mc;ek;mc;	0
+钱谷山	qian;da;jj;zp;jj; gu;fo;bk,kr;hg;bk; shan;pp;aa;vs;lk;	0
+井冈山路	jing;up;aa,ep;qj;al; gang;oy;ki;mb;kx; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	1
+积米崖	ji;uf;hv;xh;hb; mi;ll;dd;pm;dm; ya;pg;uy;vg;et;	0
+灵山卫	ling;st;hx,xh;bc;eh; shan;pp;aa;vs;lk; wei;bd;ea,ga;zf;ea,va;	1
+朝阳山	zhao;sl;ou,uo;nv;uo; yang;bv;eo;to;eo; shan;pp;aa;vs;lk;	0
+辛屯(灵山湾)	xin;bs;lu;nx;lu; tun;dr;ag;fs;av; (;;;;; ling;st;hx,xh;bc;eh; shan;pp;aa;vs;lk; wan;kr;dw;kb;dg; );;;;;	0
+两河	liang;de;ad;ml;ad; he;kj;dk;kz;dk;	247
+隐珠	yin;bn;ej;th;ex; zhu;ae;wv;na;wv;	0
+凤凰山路	feng;il;jy;or;jy; huang;ia;jh;on;jw; shan;pp;aa;vs;lk; lu;go;zg;ps;zk;	1
+双珠路	shuang;ll;yy;rr;yy; zhu;ae;wv;na;wv; lu;go;zg;ps;zk;	0
+盛海路(世博城)	sheng;rd,ra;mi;na;im; hai;kh;dm;kk;dm; lu;go;zg;ps;zk; (;;;;; shi;vr;ca,cv,aa;la;av; bo;sk;uc,uf;nk;uc; cheng;gh;ti;ga;ti; );;;;;	0
+大珠山	da;xx;ad;md;un; zhu;ae;wv;na;wv; shan;pp;aa;vs;lk;	5
+张家楼	zhang;rh;gi;bp;gi; jia;ih;bu;wj;bu; lou;wy;ml;eb;mn;	0
+古镇口	gu;so;uk;cg;uk; zhen;df;jv;zh;jb; kou;oo;aa;dk;la;	3
+龙湾	long;sh;ad;tl;ud; wan;kr;dw;kb;dg;	35
+琅琊	lang;ah;wl;ni;wl; ya;ab;wx;nt;we;	377
+贡口湾	gong;pm;bg,gb;uo;gr; kou;oo;aa;dk;la; wan;kr;dw;kb;dg;	0
+董家口港	dong;zg;cv;ld;cv; jia;ih;bu;wj;bu; kou;oo;aa;dk;la; gang;kt;dx;kv;ds;	1
+泊里	po;ks;db;ku;db; li;vg;aa,tt;dl;la;	4
+董家口火车站	dong;zg;cv;ld;cv; jia;ih;bu;wj;bu; kou;oo;aa;dk;la; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+双港	shuang;ll;yy;rr;yy; gang;kt;dx;kv;ds;	3
+孔目湖	kong;ar;zg;ha;zv; mu;ss;aa,om,mu;qm;ka; hu;kl;dh;kv;do;	1
+庐山南大道	lu;rq;gh;xm;gh; shan;pp;aa;vs;lk; nan;ss;ua,uy;ng;ug,ag; da;xx;ad;md;un; dao;fq;zu;hu;zz;	2
+绿茵路	lv;eo;sl;ik;su; yin;zx;cy;lm;cd; lu;go;zg;ps;zk;	1
+卫东	wei;bd;ea,ga;zf;ea,va; dong;df,af;ad,qx;ry;ad;	231
+秋水广场	qiu;ut;hh;xc;hh; shui;oo;ad,uv;ks;ln; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	3
+滕王阁	teng;lo;ou;vk;ou; wang;aa;aa;nw;at; ge;oo;mg;as;mk;	76
+万寿宫	wan;du;ag,ap;fp;ap; shou;uk;cf,fc;ak;fc; gong;io;bl;wd;bk;	20
+八一馆	ba;ff;pd;hb;pn; yi;dd;aa;fi;aa; guan;gd;ug;qk;uk;	0
+八一广场	ba;ff;pd;hb;pn; yi;dd;aa;fi;aa; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	1
+丁公路北	ding;jj;aa;ad;al; gong;fp;sb,bs;hk;bs; lu;go;zg;ps;zk; bei;la;ap,bj;av;lb;	0
+师大南路	shi;py;ab,aj,db,dj;pr;lj; da;xx;ad;md;un; nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	1
+彭家桥	peng;gu;pd,up;he;up; jia;ih;bu;wj;bu; qiao;wp;mq;ep;ml;	1
+谢家村	xie;ck;yu;sk;yc; jia;ih;bu;wj;bu; cun;wk;mc;ek;mc;	1
+青山湖大道	qing;al;of,fo;av;fo; shan;pp;aa;vs;lk; hu;kl;dh;kv;do; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+高新大道	gao;io;wk;gg;wk; xin;bp;jq;it;lj; da;xx;ad;md;un; dao;fq;zu;hu;zz;	1
+艾溪湖西	ai;zy;ci;lb;cx; xi;kx;dx;km;dd; hu;kl;dh;kv;do; xi;pp;aa;vx;aa;	0
+艾溪湖东	ai;zy;ci;lb;cx; xi;kx;dx;km;dd; hu;kl;dh;kv;do; dong;df,af;ad,qx;ry;ad;	0
+太子殿	tai;xh;dd;mi;dd; zi;aa;aa,vh;hi;va; dian;ql;ug;cr;uy;	2
+瑶湖西	yao;ap;wf;na;wf; hu;kl;dh;kv;do; xi;pp;aa;vx;aa;	0
+南路	nan;ss;ua,uy;ng;ug,ag; lu;go;zg;ps;zk;	328
+大岗	da;xx;ad;md;un; gang;py;ug;vb;ex;	5
+生米	sheng;aa;na;ls;pf; mi;ll;dd;pm;dm;	237
+九龙湖南	jiu;ur;py;kj;pv; long;sh;ad;tl;ud; hu;kl;dh;kv;do; nan;ss;ua,uy;ng;ug,ag;	0
+鹰潭街	ying;rc;gn,nv;xx;gn; tan;ks;dt;kn;du; jie;hj;xg,xi;pg;ii;	0
+国博	guo;na,nh;ky;ri;ky; bo;sk;uc,uf;nk;uc;	168
+西站南广场	xi;pp;aa;vx;aa; zhan;bo;lv;id;lk; nan;ss;ua,uy;ng;ug,ag; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	1
+南昌西站	nan;ss;ua,uy;ng;ug,ag; chang;vv;oo;oo;oo; xi;pp;aa;vx;aa; zhan;bo;lv;id;lk;	0
+龙岗	long;sh;ad;tl;ud; gang;py;ug;vb;ex;	231
+国体中心	guo;na,nh;ky;ri;ky; ti;xd;rb;jf;rb; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	0
+卧龙山	wo;dh;bi,ib;qy;ib; long;sh;ad;tl;ud; shan;pp;aa;vs;lk;	2
+岭北	ling;pp;ul;vk;es; bei;la;ap,bj;av;lb;	54
+前湖大道	qian;fi;bd,qd;hp;bd; hu;kl;dh;kv;do; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+学府大道东	xue;ha;dz,zb;kh;xz; fu;rw,rk;gf;xk;gc; da;xx;ad;md;un; dao;fq;zu;hu;zz; dong;df,af;ad,qx;ry;ad;	0
+翠苑路	cui;ds;yz;zn;xu; yuan;zt;ce,cy;lz;cv; lu;go;zg;ps;zk;	0
+象峰	xiang;gh;du,pd,ua;wx;dn; feng;pa;uf;va;ef;	0
+秀山	xiu;uu;hn;xv;hn; shan;pp;aa;vs;lk;	31
+罗汉山	luo;af;sx;yl;sx; han;kl;dy;kr;dy; shan;pp;aa;vs;lk;	1
+福州火车站	fu;hw;uf,ut;fq;pt; zhou;hp;id,da;oo;dl; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+斗门	dou;hs,sh;du;jd;du; men;oo;dg;am;dv;	22
+树兜	shu;wk;md;ek;mc; dou;uk;ek,be;up;pe;	2
+屏山	ping;qp,qz;ub;cl;uk; shan;pp;aa;vs;lk;	28
+东街口	dong;df,af;ad,qx;ry;ad; jie;hj;xg,xi;pg;ii; kou;oo;aa;dk;la;	16
+南门兜	nan;ss;ua,uy;ng;ug,ag; men;oo;dg;am;dv; dou;uk;ek,be;up;pe;	0
+茶亭	cha;zf;cm;le;cm; ting;ij;wd,db,dd;ga;wd;	8
+达道	da;xq;zd;mu;zd; dao;fq;zu;hu;zz;	22
+上藤	shang;pd,pu;aa,ba;yf;la; teng;zo;ct;lk;cu;	24
+三叉街	san;uu;aa;ts;ae; cha;lh;dy,yd;ri;yd; jie;hj;xg,xi;pg;ii;	0
+白湖亭	bai;ss;pa,po;ub;po; hu;kl;dh;kv;do; ting;ij;wd,db,dd;ga;wd;	0
+葫芦阵	hu;zl;ch;lv;co; lu;zq;ch;lm;ch; zhen;bt;ei;ty;ei;	0
+黄山	huang;zf;ad,cb;nh;cb; shan;pp;aa;vs;lk;	1505
+排下	pai;ju,jp;ff;ur;ff; xia;dh;ab,ad;fy;ab;	31
+城门	cheng;gh;ti;ga;ti; men;oo;dg;am;dv;	930
+三角埕	san;uu;aa;ts;ae; jiao;gp;dy;xt;dy; cheng;ga;ti;gn;tw;	0
+胪雷	lu;lq;ol;vc;ou; lei;yw;yt;tq;yt;	0
+福州火车南站	fu;hw;uf,ut;fq;pt; zhou;hp;id,da;oo;dl; huo;tt;dd;ch;dr; che;tt;aa;yc;al; nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	1
+东莞火车站	dong;df,af;ad,qx;ry;ad; guan;zk;cw;lp;ce; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	2
+茶山	cha;zf;cm;le;cm; shan;pp;aa;vs;lk;	90
+榴花公园	liu;ww;ml;eq;mt; hua;za;ch;lv;cb; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+下桥	xia;dh;ab,ad;fy;ab; qiao;wp;mq;ep;ml;	37
+天宝	tian;ue;ad;fm;ad; bao;ia,ih;by;wi;by;	588
+东城	dong;df,af;ad,qx;ry;ad; cheng;gh;ti;ga;ti;	275
+旗峰公园	qi;ff;fq;lh;fb; feng;pa;uf;va;ef; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	3
+鸿福路	hong;kc;dn,nj;kx;dn; fu;hw;uf,ut;fq;pt; lu;go;zg;ps;zk;	1
+西平	xi;pp;aa;vx;aa; ping;ds,sf;aa,gb;eh;au;	68
+蛤地	ha;fo;ih;cd;ik; di;gr,ga;ty;ge;ty;	0
+陈屋	chen;bf;ed;ty;ed; wu;qg;uv;cy;ut;	0
+寮厦	liao;if;bl,bx;wy;bx; sha;rj;ix;xh;iw;	0
+珊美	shan;aj,ad;wc;ni;wc; mei;fx;dy,yd;gm;yd;	0
+展览中心	zhan;qh;uy;ct;un; lan;pk;jv;pe;le; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	11
+虎门火车站	hu;pi;hj;zh;hj; men;oo;dg;am;dv; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	1
+佛子岭	fu;xp;rf;jt;rf; zi;aa;aa,vh;hi;va; ling;pp;ul;vk;es;	1
+百花岭	bai;ds;ab;fu;ab; hua;za;ch;lv;cb; ling;pp;ul;vk;es;	6
+埌东客运站	lang;gh;tl;gi;tl; dong;df,af;ad,qx;ry;ad; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhan;bo;lv;id;lk;	0
+凤岭	feng;il;jy;or;jy; ling;pp;ul;vk;es;	0
+东盟商务区	dong;df,af;ad,qx;ry;ad; meng;vd,va;mm;oa;om; shang;io;wk,lk,dk;id;wk; wu;ju;wl;hs;wl; qu;dr;ki;nb;kx;	1
+万象城	wan;du;ag,ap;fp;ap; xiang;gh;du,pd,ua;wx;dn; cheng;gh;ti;ga;ti;	156
+金湖广场	jin;ed,ef;ra,pa;zj;ra; hu;kl;dh;kv;do; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+麻村	ma;dd,rw;gl;zm;gm; cun;wk;mc;ek;mc;	0
+民族广场	min;rr;ag,kq,vg;dm;vv; zu;fx;fu;lo;fu; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+新民路	xin;bp;jq;it;lj; min;rr;ag,kq,vg;dm;vv; lu;go;zg;ps;zk;	5
+朝阳广场	zhao;sl;ou,uo;nv;uo; yang;bv;eo;to;eo; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	2
+火车站	huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	2247
+白苍岭	bai;ss;pa,po;ub;po; cang;zt;cc;lz;cv; ling;pp;ul;vk;es;	0
+广西大学	guang;rr;dp;xg;di,wp; xi;pp;aa;vx;aa; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	153
+清川	qing;kl;dq;kv;do; chuan;up;pa;oc;pl;	7
+民族大学	min;rr;ag,kq,vg;dm;vv; zu;fx;fu;lo;fu; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	67
+西乡塘客运站	xi;pp;aa;vx;aa; xiang;ru;ap,vp;ix;vp; tang;go;tt;gd;tk; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhan;bo;lv;id;lk;	0
+鹏飞路	peng;lc;np;vx;on; fei;rh;yd;cf;vd; lu;go;zg;ps;zk;	0
+南职院	nan;ss;ua,uy;ng;ug,ag; zhi;df;ev;qh;eb; yuan;bk;ew;tp;ee;	0
+石埠	shi;tt;kp,aa,ak,pk;ms;ak; bu;gs;tf,tu;gn;tu;	5
+西津	xi;pp;aa;vx;aa; jin;kp;dy;kb;dy;	3
+安吉客运站	an;iy;bn;wb;bn; ji;go;ku,uk;gd;uk; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhan;bo;lv;id;lk;	0
+苏卢	su;zf;cb;lh;cb; lu;pq;bu;yc;lu;	1
+三十三中	san;uu;aa;ts;ae; shi;ss;aa;ns;al; san;uu;aa;ts;ae; zhong;op;aa,ka;dg;ll;	1
+秀厢	xiu;uu;hn;xv;hn; xiang;rs;ix;xq;io;	0
+明秀路	ming;vl;oo;ov;oo; xiu;uu;hn;xv;hn; lu;go;zg;ps;zk;	0
+南宁剧场	nan;ss;ua,uy;ng;ug,ag; ning;ij;bd;wa;bd; ju;qi;dj;cp;ud; chang;gu;ty;ge;tp;	0
+福建园	fu;hw;uf,ut;fq;pt; jian;rq;zy;bu;zy; yuan;nk;ky;rp;ke;	0
+亭洪路	ting;ij;wd,db,dd;ga;wd; hong;kf;dg;kh;db; lu;go;zg;ps;zk;	0
+石柱岭	shi;tt;kp,aa,ak,pk;ms;ak; zhu;wa,wg;mv;en;mv; ling;pp;ul;vk;es;	0
+江南客运站	jiang;kp;dg;ku;dg; nan;ss;ua,uy;ng;ug,ag; ke;io;bg;ws;bk; yun;uq;zy;bu;zs; zhan;bo;lv;id;lk;	0
+大沙田	da;xx;ad;md;un; sha;ku;du;kt;du; tian;ww;aa;qt;ku;	1
+建设路	jian;rq;zy;bu;zy; she;cl;yu;sr;yy; lu;go;zg;ps;zk;	56
+石子塘	shi;tt;kp,aa,ak,pk;ms;ak; zi;aa;aa,vh;hi;va; tang;go;tt;gd;tk;	0
+金象	jin;ed,ef;ra,pa;zj;ra; xiang;gh;du,pd,ua;wx;dn;	41
+玉洞	yu;ah,aa;ad,wd;ni;wd; dong;ko;dt;kd;dk;	18
+九联圩	jiu;ur;py;kj;pv; lian;dx;eg;qm;et; wei;gs;ty;gn;ty;	0
+丙子铺	bing;de;an;fj;an; zi;aa;aa,vh;hi;va; pu;dh;jf;zn;jf;	0
+万年埠	wan;du;ag,ap;fp;ap; nian;es;ra,pa;ev;pl; bu;gs;tf,tu;gn;tu;	0
+万达城	wan;du;ag,ap;fp;ap; da;xq;zd;mu;zd; cheng;gh;ti;ga;ti;	31
+云谷路	yun;up;es,se;by;es; gu;fo;bk,kr;hg;bk; lu;go;zg;ps;zk;	0
+金斗公园	jin;ed,ef;ra,pa;zj;ra; dou;hs,sh;du;jd;du; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+塘西河公园	tang;go;tt;gd;tk; xi;pp;aa;vx;aa; he;kj;dk;kz;dk; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+紫庐	zi;rf;sc;si;vx; lu;rq;gh;xm;gh;	0
+滨湖会展中心	bin;kf;db;kh;db; hu;kl;dh;kv;do; hui;ep;ry;jb;rs; zhan;qh;uy;ct;un; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	0
+高王	gao;io;wk;gg;wk; wang;aa;aa;nw;at;	1
+骆岗	luo;zo;mg;ns;mk; gang;py;ug;vb;ex;	0
+南站南广场	nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk; nan;ss;ua,uy;ng;ug,ag; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+合肥南站	he;eo;rk;jd;rk; fei;lt;ob;vm;ob; nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	8
+望湖城	wang;ia;wo;fn;ww; hu;kl;dh;kv;do; cheng;gh;ti;ga;ti;	0
+葛大店	ge;zr;ch;lf;cv; da;xx;ad;md;un; dian;ro;gv;xd;gk;	0
+秋浦河路	qiu;ut;hh;xc;hh; pu;kh;df;kn;df; he;kj;dk;kz;dk; lu;go;zg;ps;zk;	0
+朱岗	zhu;ee;pw;ta;nn,pw; gang;py;ug;vb;ex;	0
+合工大南区	he;eo;rk;jd;rk; gong;pp;aa;ug;aa; da;xx;ad;md;un; nan;ss;ua,uy;ng;ug,ag; qu;dr;ki;nb;kx;	0
+包公园	bao;ut;gs;nv;bs; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	2
+大东门	da;xx;ad;md;un; dong;df,af;ad,qx;ry;ad; men;oo;dg;am;dv;	14
+明光路	ming;vl;oo;ov;oo; guang;hk;ea,xw;mg;xw; lu;go;zg;ps;zk;	1
+长淮	zhang;uh;pd;pc;pn; huai;ka;dv;ku;df;	6
+合肥火车站	he;eo;rk;jd;rk; fei;lt;ob;vm;ob; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+桂庄	gui;wg;mg;eg;mt; zhuang;rg;gt;xg;gt;	0
+汽车西站	qi;ks;dq;kv;dq; che;tt;aa;yc;al; xi;pp;aa;vx;aa; zhan;bo;lv;id;lk;	8
+振兴路	zhen;jh;fi;uf;fn; xing;hf;ba,db;kh;xb; lu;go;zg;ps;zk;	3
+蜀山西	shu;af;si;yc;si; shan;pp;aa;vs;lk; xi;pp;aa;vx;aa;	1
+大蜀山	da;xx;ad;md;un; shu;af;si;yc;si; shan;pp;aa;vs;lk;	9
+天柱路	tian;ue;ad;fm;ad; zhu;wa,wg;mv;en;mv; lu;go;zg;ps;zk;	0
+科学大道	ke;uh,us;hd;xj;hu; xue;ha;dz,zb;kh;xz; da;xx;ad;md;un; dao;fq;zu;hu;zz;	6
+十里庙	shi;ss;aa;ns;al; li;vg;aa,tt;dl;la; miao;rp;gy;xd;gy;	0
+西七里塘	xi;pp;aa;vx;aa; qi;aa;ag;rq;av; li;vg;aa,tt;dl;la; tang;go;tt;gd;tk;	0
+三里庵	san;uu;aa;ts;ae; li;vg;aa,tt;dl;la; an;re,rr;gd,gy;xa;gd;	0
+安农大	an;iy;bn;wb;bn; nong;ih;by,ny;wt;dn; da;xx;ad;md;un;	10
+三孝口	san;uu;aa;ts;ae; xiao;ga;zl,lz;qh;lz; kou;oo;aa;dk;la;	25
+四牌楼	si;nk;aa,ke;ys;ke; pai;us;pb;an;pu; lou;wy;ml;eb;mn;	105
+三里街	san;uu;aa;ts;ae; li;vg;aa,tt;dl;la; jie;hj;xg,xi;pg;ii;	0
+东五里井	dong;df,af;ad,qx;ry;ad; wu;gg;aa;wu;aa; li;vg;aa,tt;dl;la; jing;up;aa,ep;qj;al;	0
+东七里	dong;df,af;ad,qx;ry;ad; qi;aa;ag;rq;av; li;vg;aa,tt;dl;la;	0
+漕冲	cao;kv;dc;ko;do; chong;fp;dv;wg;dv;	0
+东二十埠	dong;df,af;ad,qx;ry;ad; er;uu;aa;me;aa; shi;ss;aa;ns;al; bu;gs;tf,tu;gn;tu;	0
+王岗	wang;aa;aa;nw;at; gang;py;ug;vb;ex;	9
+三十埠	san;uu;aa;ts;ae; shi;ss;aa;ns;al; bu;gs;tf,tu;gn;tu;	0
+小孟工业园	xiao;pf;ad;yx;ld; meng;ad,aa;mz,zm;ha;zm; gong;pp;aa;ug;aa; ye;pd;aa;cy;la; yuan;nk;ky;rp;ke;	0
+清水江路	qing;kl;dq;kv;do; shui;oo;ad,uv;ks;ln; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+沙冲路	sha;ku;du;kt;du; chong;fp;dv;wg;dv; lu;go;zg;ps;zk;	0
+贵阳火车站	gui;fm;ba,vb;co;vr; yang;bv;eo;to;eo; huo;tt;dd;ch;dr; che;tt;aa;yc;al; zhan;bo;lv;id;lk;	0
+河滨公园	he;kj;dk;kz;dk; bin;kf;db;kh;db; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	17
+中山西路	zhong;op;aa,ka;dg;ll; shan;pp;aa;vs;lk; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	9
+喷水池	pen;om;kb;do;kr; shui;oo;ad,uv;ks;ln; chi;kr;dy;ke;dy;	34
+八鸽岩	ba;ff;pd;hb;pn; ge;ec;nh;jx;rn; yan;pt;uu;vm;eu;	1
+南垭路	nan;ss;ua,uy;ng;ug,ag; ya;gd;ty;gc;ty; lu;go;zg;ps;zk;	0
+雅关	ya;da;vy,yv;lu;yf; guan;fx;bt,qd;hm;bt;	0
+贵阳北站	gui;fm;ba,vb;co;vr; yang;bv;eo;to;eo; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk;	7
+白鹭湖	bai;ss;pa,po;ub;po; lu;gc;nl;px;zn; hu;kl;dh;kv;do;	0
+新寨	xin;bp;jq;it;lj; zhai;if;mb,bm;we;bm;	12
+阳关	yang;bv;eo;to;eo; guan;fx;bt,qd;hm;bt;	187
+国际生态会议中心	guo;na,nh;ky;ri;ky; ji;bf;eu;tf;ex; sheng;aa;na;ls;pf; tai;xn;xt;mh;tx; hui;ep;ry;jb;rs; yi;ch,cy;yy;sb;yy; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	1
+观山湖公园	guan;lk;jy,yj;re;ye; shan;pp;aa;vs;lk; hu;kl;dh;kv;do; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+林城西路	lin;ww;mm;ee;mm; cheng;gh;ti;ga;ti; xi;pp;aa;vx;aa; lu;go;zg;ps;zk;	0
+阅山湖公园	yue;ok;md;ap;me; shan;pp;aa;vs;lk; hu;kl;dh;kv;do; gong;fp;sb,bs;hk;bs; yuan;nk;ky;rp;ke;	0
+老湾塘	lao;ga;bl,lb;ql;lb; wan;kr;dw;kb;dg; tang;go;tt;gd;tk;	0
+下麦西	xia;dh;ab,ad;fy;ab; mai;aj;fw;ah;fw; xi;pp;aa;vx;aa;	0
+镇海路	zhen;df;jv;zh;jb; hai;kh;dm;kk;dm; lu;go;zg;ps;zk;	4
+将军祠	jiang;lk;dc,jc,pc;ak;dc; jun;it;bi;wy;bi; ci;ho;us;fd;pk;	3
+文灶	wen;jj;wi,dd;vw;wx; zao;tg;ht;cg;ht;	3
+湖滨东路	hu;kl;dh;kv;do; bin;kf;db;kh;db; dong;df,af;ad,qx;ry;ad; lu;go;zg;ps;zk;	0
+莲坂	lian;zq;cl;lu;cz; ban;gl;tf;gr;ty;	0
+莲花路口	lian;zq;cl;lu;cz; hua;za;ch;lv;cb; lu;go;zg;ps;zk; kou;oo;aa;dk;la;	0
+吕厝	lv;oo;kk;dd;kk; cuo;rv;ix;xo;io;	4
+乌石浦	wu;ud;pa;xu;pa; shi;tt;kp,aa,ak,pk;ms;ak; pu;kh;df;kn;df;	0
+塘边	tang;go;tt;gd;tk; bian;uq;zl;su;zl;	8
+火炬园	huo;tt;dd;ch;dr; ju;tr;hj;cn;hj; yuan;nk;ky;rp;ke;	0
+殿前	dian;ql;ug;cr;uy; qian;fi;bd,qd;hp;bd;	135
+高崎	gao;io;wk;gg;wk; qi;pj;uq;vz;ek;	27
+集美学村	ji;xw;mv,vm;ue;rm; mei;fx;dy,yd;gm;yd; xue;ha;dz,zb;kh;xz; cun;wk;mc;ek;mc;	77
+园博苑	yuan;nk;ky;rp;ke; bo;sk;uc,uf;nk;uc; yuan;zt;ce,cy;lz;cv;	8
+杏林村	xing;wo;km,mk;ed;mk; lin;ww;mm;ee;mm; cun;wk;mc;ek;mc;	0
+杏锦路	xing;wo;km,mk;ed;mk; jin;dy;jb,jj;zr;jj; lu;go;zg;ps;zk;	1
+官任	guan;id;bg,bk;wk;bk; ren;xd,xg;rr;jg;rr;	7
+诚毅广场	cheng;ch;yi;sa;yi; yi;bl,il;lu,uu,uy;ir;ly; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+集美软件园	ji;xw;mv,vm;ue;rm; mei;fx;dy,yd;gm;yd; ruan;te;iq;ye;ir; jian;xb;rn;jq;rn; yuan;nk;ky;rp;ke;	0
+集美大道	ji;xw;mv,vm;ue;rm; mei;fx;dy,yd;gm;yd; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+天水路	tian;ue;ad;fm;ad; shui;oo;ad,uv;ks;ln; lu;go;zg;ps;zk;	2
+厦门北站	xia;rj;ix;xh;iw; men;oo;dg;am;dv; bei;la;ap,bj;av;lb; zhan;bo;lv;id;lk;	5
+岩内	yan;pt;uu;vm;eu; nei;oe;ad,kr;mj;ld;	2
+新疆大街	xin;bp;jq;it;lj; jiang;rd;gj;bf;ga; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+渤海路	bo;ku;db;ks;dl; hai;kh;dm;kk;dm; lu;go;zg;ps;zk;	0
+镜泊路	jing;dk;jj;zp;je; po;ks;db;ku;db; lu;go;zg;ps;zk;	0
+同江路	tong;oo;kk;md;kk; jiang;kp;dg;ku;dg; lu;go;zg;ps;zk;	0
+哈尔滨南站	ha;oo;kh;dd;kk; er;gf;dx,xd;xy;dx; bin;kf;db;kh;db; nan;ss;ua,uy;ng;ug,ag; zhan;bo;lv;id;lk;	0
+哈达	ha;oo;kh;dd;kk; da;xq;zd;mu;zd;	79
+医大二院	yi;dr;ku;no;ku; da;xx;ad;md;un; er;uu;aa;me;aa; yuan;bk;ew;tp;ee;	13
+黑龙江大学	hei;nn;ad,ha;ph;lh; long;sh;ad;tl;ud; jiang;kp;dg;ku;dg; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	83
+学府路	xue;ha;dz,zb;kh;xz; fu;rw,rk;gf;xk;gc; lu;go;zg;ps;zk;	9
+和兴路	he;uo;hk;xd;hk; xing;hf;ba,db;kh;xb; lu;go;zg;ps;zk;	1
+西大桥	xi;pp;aa;vx;aa; da;xx;ad;md;un; qiao;wp;mq;ep;ml;	3
+哈工大	ha;oo;kh;dd;kk; gong;pp;aa;ug;aa; da;xx;ad;md;un;	2025
+铁路局	tie;de;ju;zh;ju; lu;go;zg;ps;zk; ju;qo;uk;cd;uk;	125
+博物馆	bo;sk;uc,uf;nk;uc; wu;bi;nw;qe;nw; guan;gd;ug;qk;uk;	7607
+医大一院	yi;dr;ku;no;ku; da;xx;ad;md;un; yi;dd;aa;fi;aa; yuan;bk;ew;tp;ee;	11
+烟厂	yan;tx;hy;cm;hd; chang;rr;ap;xc;ap;	52
+工程大学	gong;pp;aa;ug;aa; cheng;ua;hi;xn;hw; da;xx;ad;md;un; xue;ha;dz,zb;kh;xz;	266
+太平桥	tai;xh;dd;mi;dd; ping;ds,sf;aa,gb;eh;au; qiao;wp;mq;ep;ml;	24
+交通学院	jiao;iy;li,wf,df;ab;wx; tong;pq;zy;ku;zy; xue;ha;dz,zb;kh;xz; yuan;bk;ew;tp;ee;	31
+桦树街	hua;ws;mh;en;mu; shu;wk;md;ek;mc; jie;hj;xg,xi;pg;ii;	0
+哈尔滨东站	ha;oo;kh;dd;kk; er;gf;dx,xd;xy;dx; bin;kf;db;kh;db; dong;df,af;ad,qx;ry;ad; zhan;bo;lv;id;lk;	2
+哈西大街	ha;oo;kh;dd;kk; xi;pp;aa;vx;aa; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	0
+凯盛源广场	kai;pi;jj,jq;vo;ej; sheng;rd,ra;mi;na;im; yuan;kf;dy;ky;dx; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+哈尔滨西站	ha;oo;kh;dd;kk; er;gf;dx,xd;xy;dx; bin;kf;db;kh;db; xi;pp;aa;vx;aa; zhan;bo;lv;id;lk;	0
+西王	xi;pp;aa;vx;aa; wang;aa;aa;nw;at;	75
+时光街	shi;vk;oc;ok;oc; guang;hk;ea,xw;mg;xw; jie;hj;xg,xi;pg;ii;	0
+长城桥	chang;uh;pd;pc;pn; cheng;gh;ti;ga;ti; qiao;wp;mq;ep;ml;	0
+和平医院	he;uo;hk;xd;hk; ping;ds,sf;aa,gb;eh;au; yi;dr;ku;no;ku; yuan;bk;ew;tp;ee;	0
+新百广场	xin;bp;jq;it;lj; bai;ds;ab;fu;ab; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+解放广场	jie;gb;jn;xq;dn; fang;fj;wf,fw;lh;fw; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	10
+平安大街	ping;ds,sf;aa,gb;eh;au; an;iy;bn;wb;bn; da;xx;ad;md;un; jie;hj;xg,xi;pg;ii;	6
+北国商城	bei;la;ap,bj;av;lb; guo;na,nh;ky;ri;ky; shang;io;wk,lk,dk;id;wk; cheng;gh;ti;ga;ti;	1
+博物院	bo;sk;uc,uf;nk;uc; wu;bi;nw;qe;nw; yuan;bk;ew;tp;ee;	243
+北宋	bei;la;ap,bj;av;lb; song;iw;bm;we;bm;	2891
+谈固	tan;ct;yy;sc;yh; gu;no;kg;rc;kk;	0
+朝晖桥	zhao;sl;ou,uo;nv;uo; hui;vt;oj;oy;oi; qiao;wp;mq;ep;ml;	0
+白佛	bai;ss;pa,po;ub;po; fu;xp;rf;jt;rf;	0
+留村	liu;uw;td,tl,lt;bq;pt; cun;wk;mc;ek;mc;	4
+火炬广场	huo;tt;dd;ch;dr; ju;tr;hj;cn;hj; guang;rr;dp;xg;di,wp; chang;gu;ty;ge;tp;	0
+石家庄东站	shi;tt;kp,aa,ak,pk;ms;ak; jia;ih;bu;wj;bu; zhuang;rg;gt;xg;gt; dong;df,af;ad,qx;ry;ad; zhan;bo;lv;id;lk;	0
+南村	nan;ss;ua,uy;ng;ug,ag; cun;wk;mc;ek;mc;	38
+洨河大道	xiao;ky;dj;kb;dx; he;kj;dk;kz;dk; da;xx;ad;md;un; dao;fq;zu;hu;zz;	0
+市二中	shi;iy;wj;zr;wj; er;uu;aa;me;aa; zhong;op;aa,ka;dg;ll;	5
+东里	dong;df,af;ad,qx;ry;ad; li;vg;aa,tt;dl;la;	24
+槐安桥	huai;ws;mg;ea;mg; an;iy;bn;wb;bn; qiao;wp;mq;ep;ml;	0
+西三教	xi;pp;aa;vx;aa; san;uu;aa;ts;ae; jiao;gj;wx;qh;lw;	0
+石家庄站	shi;tt;kp,aa,ak,pk;ms;ak; jia;ih;bu;wj;bu; zhuang;rg;gt;xg;gt; zhan;bo;lv;id;lk;	5
+三交镇	san;uu;aa;ts;ae; jiao;iy;li,wf,df;ab;wx; zhen;df;jv;zh;jb;	1
+上塘路	shang;pd,pu;aa,ba;yf;la; tang;go;tt;gd;tk; lu;go;zg;ps;zk;	1
+上塘镇	shang;pd,pu;aa,ba;yf;la; tang;go;tt;gd;tk; zhen;df;jv;zh;jb;	1
+上海光大会展中心	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; guang;hk;ea,xw;mg;xw; da;xx;ad;md;un; hui;ep;ry;jb;rs; zhan;qh;uy;ct;un; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	1
+上海市工商局	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; shi;iy;wj;zr;wj; gong;pp;aa;ug;aa; shang;io;wk,lk,dk;id;wk; ju;qo;uk;cd;uk;	2
+上海市政协	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; shi;iy;wj;zr;wj; zheng;dj;wv;fh;vw; xie;sf;ub;nh;ub;	2
+上海市政府	shang;pd,pu;aa,ba;yf;la; hai;kh;dm;kk;dm; shi;iy;wj;zr;wj; zheng;dj;wv;fh;vw; fu;rw,rk;gf;xk;gc;	145
+临江镇	lin;pd;ao,do;po;la; jiang;kp;dg;ku;dg; zhen;df;jv;zh;jb;	1
+临津江	lin;pd;ao,do;po;la; jin;kp;dy;kb;dy; jiang;kp;dg;ku;dg;	3
+仁和镇	ren;xu;re;jm;re; he;uo;hk;xd;hk; zhen;df;jv;zh;jb;	1
+保圣寺	bao;xw;rd;je;rm; sheng;lg;ty,yt;rg;yt; si;gk;ct,tc;gk;tc;	2
+南内环	nan;ss;ua,uy;ng;ug,ag; nei;oe;ad,kr;mj;ld; huan;ah;wb;nc;wb;	1
+南延段	nan;ss;ua,uy;ng;ug,ag; yan;uq;zv;tu;zv; duan;ul;ud,du,pu;ur;py;	1
+南明河	nan;ss;ua,uy;ng;ug,ag; ming;vl;oo;ov;oo; he;kj;dk;kz;dk;	1
+南漪湖	nan;ss;ua,uy;ng;ug,ag; yi;kj;dq,dy;kz;dk; hu;kl;dh;kv;do;	1
+九女峰	jiu;ur;py;kj;pv; nv;yy;aa,vh;bn;va; feng;pa;uf;va;ef;	1
+九连城	jiu;ur;py;kj;pv; lian;tq;zi;yu;zi; cheng;gh;ti;ga;ti;	1
+五女山	wu;gg;aa;wu;aa; nv;yy;aa,vh;bn;va; shan;pp;aa;vs;lk;	4
+五里镇	wu;gg;aa;wu;aa; li;vg;aa,tt;dl;la; zhen;df;jv;zh;jb;	1
+天鹅洲	tian;ue;ad;fm;ad; e;uc;nw;tx;wn; zhou;kp;dv;ko;dl,dv;	2
+太和宫	tai;xh;dd;mi;dd; he;uo;hk;xd;hk; gong;io;bl;wd;bk;	1
+太和门	tai;xh;dd;mi;dd; he;uo;hk;xd;hk; men;oo;dg;am;dv;	15
+太榆路	tai;xh;dd;mi;dd; yu;wi;my;ep;md; lu;go;zg;ps;zk;	1
+沟壑区	gou;kp;dg;kk;ds; he;pg;ty;gg;lt; qu;dr;ki;nb;kx;	1
+沧白路	cang;kt;dc;kz;dv; bai;ss;pa,po;ub;po; lu;go;zg;ps;zk;	1
+河水库	he;kj;dk;kz;dk; shui;oo;ad,uv;ks;ln; ku;rt;gi;xy;gi;	1
+河洛镇	he;kj;dk;kz;dk; luo;ko;dg;ks;dk; zhen;df;jv;zh;jb;	1
+永丰镇	yong;hh;dd;ik;dn; feng;aa;aa;af;al; zhen;df;jv;zh;jb;	3
+永和镇	yong;hh;dd;ik;dn; he;uo;hk;xd;hk; zhen;df;jv;zh;jb;	1
+沪汉蓉	hu;kq;dh;km;dh; han;kl;dy;kr;dy; rong;zo;cr;lh;ck;	4
+沪瑞线	hu;kq;dh;km;dh; rui;ae;we;nl;we; xian;ea;sj;ip;sj;	1
+汜水镇	si;kt;ds;kv;ds; shui;oo;ad,uv;ks;ln; zhen;df;jv;zh;jb;	1
+流花路	liu;kr;di;ko;dv; hua;za;ch;lv;cb; lu;go;zg;ps;zk;	1
+澄江镇	cheng;kd;dd;kz;da; jiang;kp;dg;ku;dg; zhen;df;jv;zh;jb;	1
+留和路	liu;uw;td,tl,lt;bq;pt; he;uo;hk;xd;hk; lu;go;zg;ps;zk;	3
+西路南	xi;pp;aa;vx;aa; lu;go;zg;ps;zk; nan;ss;ua,uy;ng;ug,ag;	2
+铜冶镇	tong;do;jt;zd;jk; ye;fo;dt;wd;dk; zhen;df;jv;zh;jb;	8
+金雀山	jin;ed,ef;ra,pa;zj;ra; que;pf,ia;vx,xv;yu;uf; shan;pp;aa;vs;lk;	1
+青阳镇	qing;al;of,fo;av;fo; yang;bv;eo;to;eo; zhen;df;jv;zh;jb;	1
+均安镇	jun;gf;ty;gw;td; an;iy;bn;wb;bn; zhen;df;jv;zh;jb;	2
+坝美村	ba;gm;tb;go;tr; mei;fx;dy,yd;gm;yd; cun;wk;mc;ek;mc;	2
+塘桥镇	tang;go;tt;gd;tk; qiao;wp;mq;ep;ml; zhen;df;jv;zh;jb;	1
+大良镇	da;xx;ad;md;un; liang;hh;dg;ii;dg; zhen;df;jv;zh;jb;	1
+崇武镇	chong;pf;uz;vf;ex; wu;dr,ha;vy,yv;fs;av; zhen;df;jv;zh;jb;	1
+洛带镇	luo;ko;dg;ks;dk; dai;zy;jb;lr;fj; zhen;df;jv;zh;jb;	4
+码头镇	ma;tz;um;mn;um; tou;hx;dd;wm;dd; zhen;df;jv;zh;jb;	1
+虹桥镇	hong;fp;ig;cu;ig; qiao;wp;mq;ep;ml; zhen;df;jv;zh;jb;	4
+虾子镇	xia;fh;ix;cy;ix; zi;aa;aa,vh;hi;va; zhen;df;jv;zh;jb;	6
+大寨村	da;xx;ad;md;un; zhai;if;mb,bm;we;bm; cun;wk;mc;ek;mc;	2
+造甲村	zao;bq;zg;qu;zk; jia;vp;aa,oa;sj;ll; cun;wk;mc;ek;mc;	1
+青奥村	qing;al;of,fo;av;fo; ao;ux;dm,pd;tm;pd; cun;wk;mc;ek;mc;	1
+阿雷格里港	a;bj;ek;tz;ek; lei;yw;yt;tq;yt; ge;wo;mg;es;mk; li;vg;aa,tt;dl;la; gang;kt;dx;kv;ds;	1
+京溪街	jing;if;wx;gy;wx; xi;kx;dx;km;dd; jie;hj;xg,xi;pg;ii;	1
+庙前街	miao;rp;gy;xd;gy; qian;fi;bd,qd;hp;bd; jie;hj;xg,xi;pg;ii;	1
+化龙桥	hua;xa;rb;jv;rb; long;sh;ad;tl;ud; qiao;wp;mq;ep;ml;	1
+天津桥	tian;ue;ad;fm;ad; jin;kp;dy;kb;dy; qiao;wp;mq;ep;ml;	2
+奥比岛	ao;ux;dm,pd;tm;pd; bi;aa;bb;vv;bb; dao;up;nu,un;xv;pe;	86
+考爱岛	kao;gr;lk;qa;lv; ai;hl;vy;yr;py; dao;up;nu,un;xv;pe;	1
+三龙湾南海片区	san;uu;aa;ts;ae; long;sh;ad;tl;ud; wan;kr;dw;kb;dg; nan;ss;ua,uy;ng;ug,ag; hai;kh;dm;kk;dm; pian;ii,ur;pa,pv;ap;pv; qu;dr;ki;nb;kx;	0
+毕都	bi;as;bu,ub;vn;bu; du;gb;ev;qt;le;	0
+九都	jiu;ur;py;kj;pv; du;gb;ev;qt;le;	0
+
