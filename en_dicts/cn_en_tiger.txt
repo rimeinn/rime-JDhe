@@ -1,0 +1,100 @@
+# Rime table
+# coding: utf-8
+#@/db_name  custom_phrase.txt
+#@/db_type	tabledb
+#
+# ------- 中英混输词库 for 虎码 -------
+#
+# 以 Tab 分割：汉字<Tab>编码<Tab>权重
+#
+# ⚠️ 编码要用数字
+#
+# version: "2024-09-24"
+#
+# 此行之后不能写注释
+## 🔠 中英混输词
+B站	biyd
+X光	xmg
+B超	bppd
+T恤	thta
+AD钙奶	adzb
+U盘	uiam
+C盘	ciam
+D盘	diam
+E盘	eiam
+F盘	fiam
+圈X	rhhx
+
+## 🔠 英文
+Alt	alt
+Android	android
+App	app
+Apple	apple
+Banner	banner
+Beta	beta	3
+Billfish	billfish
+Bing	bing
+Blender	blender
+BOSS	boss
+Bye	bye
+Chrome	chrome
+Ctrl	ctrl
+Delete	delete
+Discord	discord
+Eagle	eagle
+Edge	edge
+Email	email
+emmm	emmm
+Facebook	facebook
+false	false
+Firefox	firefox
+Flag	flag
+Good bye	goodbye
+Google	google
+Home	home
+HomePod	homepod
+iCloud	icloud
+Image	image
+Intel	intel
+iOS	ios
+iPad	ipad
+iPhone	iphone
+Lite	lite
+Logo	logo
+Mac	mac	1
+macOS	macos
+Microsoft	microsoft
+Music	music
+Night	night
+Notion	notion
+NVIDIA	nvidia
+Obsidian	obsidian
+Offer	offer
+PC	pc
+Pro	pro
+QQ	qq
+Quantumult	quan	1
+Quantumult X	quan
+Rime	rime
+Safari	safari
+Share	share
+Shift	shift
+Siri	siri
+Sony	sony
+Steam	steam
+Sublime	sublime
+Switch	switch
+Sync	sync
+Team	team
+true	true
+Up	up
+VIP	vip
+Watch	watch
+Web	web
+Wi-Fi	wifi
+Win	win
+Windows	windows
+Yeah	yeah
+ZERO	zero
+zHon	zhon
+Hamster	hamster

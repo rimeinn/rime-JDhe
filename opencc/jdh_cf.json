@@ -1,0 +1,16 @@
+{
+  "name": "jdh_cf",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "jdh_cf.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "jdh_cf.txt"
+    }
+  }]
+}
