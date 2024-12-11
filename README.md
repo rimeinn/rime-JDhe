@@ -21,4 +21,4 @@ ctrl+~切换方案
 
 感谢说明等待更新……
 
-![简单鹤字根图V8.1](E:\01_zHon\300_模板&素材\rime\rime-JDhe\image\简单鹤字根图V8.1.png)
+![简单鹤字根图V8.1](public/image/简单鹤字根图V8.1.png)
