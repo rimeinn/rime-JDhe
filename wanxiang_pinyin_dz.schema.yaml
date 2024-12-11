@@ -1,0 +1,169 @@
+# Rime schema
+# encoding: utf-8
+# 本方案匹配词库解码顺序为：全拼拼音;简单鹤;自然码;虎码首末;官版鹤形
+#############DIY你想要的方案组合吧###########################
+set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
+  __include: algebra_flypy  #可选解码规则有   algebra_pinyin(全拼), algebra_zrm(自然码), algebra_flypy(小鹤双拼)  选择一个填入
+set_algebra_fuzhu:        #配置此项就是选择什么辅助码
+  __include: config_pinyin:/fuzhu_zrm # 可选辅助码有：fuzhu_kong(空 无辅助码)，fuzhu_jdh(简单鹤), fuzhu_zrm(自然码), fuzhu_tiger(虎码), fuzhu_flypy(官鹤音形) 选择一个填入
+########################以下是方案配置######################################################
+
+
+schema:
+  schema_id: wanxiang_pinyin_dz
+  name: 万象拼音·单字
+  version: "2024-11-07"
+  author:
+    - amorphobia <xu350n9@gmail.com>
+    - gaboolic,amzxyz
+    - 方案修改：zHon 
+  description: |
+     万象拼音 支持常见双拼方案和全拼输入
+
+switches:
+  - name: ascii_mode
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - recognizer
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+  filters:
+    - uniquifier
+
+# 拼写设定
+speller:
+  # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
+  alphabet: zyxwvutsrqponmlkjihgfedcba`;/
+  # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
+  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`
+  delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
+  algebra:
+    __patch:
+      - set_shuru_schema     #输入解码规则
+      - set_algebra_fuzhu    #辅助码部分
+      - lookup   # 匹配反查
+
+
+translator:
+  dictionary: wanxiang_pinyin_dz
+  enable_charset_filter: false
+  enable_sentence: false
+  enable_completion: true
+  enable_user_dict: false
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+
+
+# 小鹤双拼解码词库规则映射
+algebra_flypy: 
+  __append:
+    #- erase/^xx$/
+    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - derive/^([jqxy])u(;.*)$/$1v$2/
+    - derive/^([aoe])([ioun])(;.*)$/$1$1$2$3/
+    - xform/^([aoe])(ng)?(;.*)$/$1$1$2$3/
+    - xform/^(\w+?)iu(;.*)/$1Ⓠ$2/
+    - xform/^(\w+?)ei(;.*)/$1Ⓦ$2/
+    - xform/^(\w+?)uan(;.*)/$1Ⓡ$2/
+    - xform/^(\w+?)[uv]e(;.*)/$1Ⓣ$2/
+    - xform/^(\w+?)un(;.*)/$1Ⓨ$2/
+    - xform/^(\w+?)uo(;.*)/$1Ⓞ$2/
+    - xform/^(\w+?)ie(;.*)/$1Ⓟ$2/
+    - xform/^(\w+?)i?ong(;.*)/$1Ⓢ$2/
+    - xform/^(\w+?)ing(;.*)/$1Ⓚ$2/
+    - xform/^(\w+?)uai(;.*)/$1Ⓚ$2/
+    - xform/^(\w+?)ai(;.*)/$1Ⓓ$2/
+    - xform/^(\w+?)eng(;.*)/$1Ⓖ$2/
+    - xform/^(\w+?)en(;.*)/$1Ⓕ$2/
+    - xform/^(\w+?)[iu]ang(;.*)/$1Ⓛ$2/
+    - xform/^(\w+?)ang(;.*)/$1Ⓗ$2/
+    - xform/^(\w+?)ian(;.*)/$1Ⓜ$2/
+    - xform/^(\w+?)an(;.*)/$1Ⓙ$2/
+    - xform/^(\w+?)ou(;.*)/$1Ⓩ$2/
+    - xform/^(\w+?)iao(;.*)/$1Ⓝ$2/
+    - xform/^(\w+?)[iu]a(;.*)/$1Ⓧ$2/
+    - xform/^(\w+?)ao(;.*)/$1Ⓒ$2/
+    - xform/^(\w+?)ui(;.*)/$1Ⓥ$2/
+    - xform/^(\w+?)in(;.*)/$1Ⓑ$2/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
+    - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/
+
+
+# 全拼解码词库规则映射
+algebra_pinyin:     
+  __append: 
+#    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - erase/^xx;.*$/
+
+# 辅助码为空
+fuzhu_kong: 
+  __append: 
+    - "xform/;.*$//"
+
+# 简单鹤辅助码
+fuzhu_jdh:    ##############################位于词库第一个分号后
+  __append:
+    - xform|^(.{2});(.*?);.*$|$1;$2|         #匹配当前方案，转换为 双拼；辅助码（当前方案）的形式
+    - xform|^(\w+?);(.*?);.*$|$1;$2|
+    - derive/^(.{2}|\w+?);.*$/$1/ # 纯双拼的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+
+    - abbrev/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - abbrev/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+    - derive/^(.{2}|\w+?);.*,(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+# 通配反查
+lookup: 
+  __append: 
+ ## 可以用[`]通配反查的设定
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1`/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1`$2/ # 双拼+符号[`]+一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*$/`$1/ # `引导符+纯双拼的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/`$1$2/ # `引导符+双拼+一位辅助码的情况
+    - abbrev/^(.{2}|\w+?);(\w)(\w).*$/`$1$2$3/ `引导符+二位辅助码的情况
+
+
+# 老旧的方式，词库编码得硬双拼
+old_speller:
+  __append:
+    - derive/^(\w)(\w);(\w)(\w)$/\1\2\3\4/
+    - derive/^(\w)(\w);(\w)(\w)$/\1\2`/
+    - derive/^(\w)(\w);(\w)(\w)$/\1\2``/
+    - derive/^(\w)(\w);(\w)(\w)$/\1\2\3`/
+    - derive/^(\w)(\w);(\w)(\w)$/\1\2`\4/
+    - derive/^(\w)(\w);(\w)(\w)$/``\3\4/
+    - derive/^(\w)(\w);(\w)(\w)$/`\2\3\4/    
+    - derive/^(\w)(\w);(\w)(\w)$/``\3/
+    - derive/^(\w)(\w);(\w)(\w)$/```\4/

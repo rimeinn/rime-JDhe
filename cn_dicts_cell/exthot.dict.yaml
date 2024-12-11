@@ -21,8 +21,8 @@ use_preset_vocabulary: true
 艾莲	ai;zy;ci;lb;cx; lian;zq;cl;lu;cz;	8
 爱意随风起	ai;hl;vy;yr;py; yi;bn,cn;xy,lx;xh;lx; sui;bq;ey,ez;tu;ez; feng;iy;ji;ob;jx; qi;qt;zj;pv;tj;	8
 按背	an;jy;fa;ub;fn; bei;ll;ob;av;lo;	0
-暗河传	an;vc,vv;oy;ox;oo; he;kj;dk;kz;dk; chuan;xh;rv;ji;rv;	1
-暗区突围	an;vc,vv;oy;ox;oo; qu;dr;ki;nb;kx; tu;ib;xq,bq;em;bq; wei;np;kw;rg;kw;	1
+暗河传	an;vv;oy;ox;oo; he;kj;dk;kz;dk; chuan;xh;rv;ji;rv;	1
+暗区突围	an;vv;oy;ox;oo; qu;dr;ki;nb;kx; tu;ib;xq,bq;em;bq; wei;np;kw;rg;kw;	1
 安三胖	an;iy;bn;wb;bn; san;uu;aa;ts;ae; pang;lp,ls;ob;vu;ob;	1
 傲娇美	ao;xj;ra,rw;jh;rw; jiao;yp;nq;bp;nl; mei;fx;dy,yd;gm;yd;	0
 奥司他韦	ao;ux;dm,pd;tm;pd; si;ro;gk,ka;ad;vk; ta;xr;ry;je;ry; wei;up;aa;gw;al;	140
@@ -36,14 +36,14 @@ use_preset_vocabulary: true
 霸王茶姬	ba;yl;yo;tv;yo; wang;aa;aa;nw;at; cha;zf;cm;le;cm; ji;yr;ni;bq;ni,nl;	0
 霸王茶姬口令	ba;yl;yo;tv;yo; wang;aa;aa;nw;at; cha;zf;cm;le;cm; ji;yr;ni;bq;ni,nl; kou;oo;aa;dk;la; ling;ep;rs;jk;rs;	0
 白利群	bai;ss;pa,po;ub;po; li;ui;hd,dh;xp;hd; qun;rp;yj;bg;yy;	0
-百炼英雄	bai;ds;ab;fu;ab; lian;tf;hd,hj;cy;hd; ying;zx;cy;lm;cy; xiong;sa;vh,vs;nu;uf;	0
+百炼英雄	bai;ds;ab;fu;ab; lian;tf;hd,hj;cy;hd; ying;zx,ze;cy;lm;cy; xiong;sa;vh,vs;nu;uf;	0
 百乔	bai;ds;ab;fu;ab; qiao;up;pp,pu,yp;tp;yl;	0
 白人饭	bai;ss;pa,po;ub;po; ren;ee;pd;jr;pn; fan;gl;uf;qr;uy;	0
 白森	bai;ss;pa,po;ub;po; sen;ww;ml;ee;mm;	1
 白雾红尘	bai;ss;pa,po;ub;po; wu;yu;yw;ts;yl; hong;ep;sg;iu;sg; chen;pg;tx,xt;yg;xt;	0
 柏源	bai;ws;mb;eu;mb; yuan;kf;dy;ky;dx;	0
 白云站	bai;ss;pa,po;ub;po; yun;up;es,se;by;es; zhan;bo;lv;id;lk;	0
-半生雪	ban;fp,fs;bf;hu;dl; sheng;aa;na;ls;pf; xue;ys;yx;tb;ye;	1
+半生雪	ban;fp,fs;bf;hu;dl; sheng;eg;na;ls;pf; xue;ys;yx;tb;ye;	1
 半贴	ban;fp,fs;bf;hu;dl; tie;mo;bv;od;kk;	5
 搬位	ban;jl;fb;ur;fy; wei;xb;rl;ji;rl;	0
 班味	ban;au,aa;dw,ww;nn;ww; wei;oe;kw;da;kw;	1
@@ -99,7 +99,7 @@ use_preset_vocabulary: true
 笔面	bi;nr,na;vm;rv;vm; mian;dd,du;aa;bm;aa;	32
 必鲨一击	bi;nu;dd,xp;ht;dd; sha;kq;yu;kw;da; yi;dd;aa;fi;aa; ji;up;aa,eu,fk;um;ak;	0
 碧血营	bi;at;ub,up;nm;wu; xue;ud,ua;pa,pm;ta;pm; ying;zo;cl;ld;ck;	0
-变换卡	bian;il;wy,yy;zr;wy; huan;jx;fh;um;fd; ka;ph;bx,ub;yy;ub;	0
+变换卡	bian;il;wy,yy;zr;wy; huan;jx,je;fh;um;fd; ka;ph;bx,ub;yy;ub;	0
 边佑锡	bian;uq;zl;su;zl; you;xo;ry;jd;rk; xi;di;jy;ze;jw;	0
 边狱巴士	bian;uq;zl;su;zl; yu;bb;qq;mm;qq; ba;tt;ag,kg,vg;mb;sl,vv; shi;gg;aa;gs;ua;	0
 标准糖	biao;wf;mu;ef;mx; zhun;fa;dv;wu;df; tang;lo;mt;pd;mk;	0
@@ -135,7 +135,7 @@ use_preset_vocabulary: true
 不学的	bu;dh;ad,ax;cb;ad; xue;ha;dz,zb;kh;xz; de;sh;bu;ui;bu;	0
 不要内耗	bu;dh;ad,ax;cb;ad; yao;py;xn;vb;xn; nei;oe;ad,kr;mj;ld; hao;ar,aa;lm;av;lm;	7
 不允洗	bu;dh;ad,ax;cb;ad; yun;pk;se;kp;se; xi;kk;dx;kp;de;	0
-不置换	bu;dh;ad,ax;cb;ad; zhi;ad,au;sv;yf;sq; huan;jx;fh;um;fd;	0
+不置换	bu;dh;ad,ax;cb;ad; zhi;ad,au;sv;yf;sq; huan;jx,je;fh;um;fd;	0
 菜就多练	cai;zw;cc;le;cm; jiu;ih;yj;go;wy; duo;ff;xx;ll;xx; lian;ef;sd,sj;iy;sd;	10
 裁判报告	cai;sk,ha;gy,yg;nt;uy; pan;fi;db;hp;bd; bao;jl;fy;ur;fy; gao;bo;kn,nk;qd;nk;	26
 财务造假	cai;mu;bc;ot;kc; wu;ju;wl;hs;wl; zao;bq;zg;qu;zk; jia;xl;rj,ry;jr;ry;	399
@@ -192,7 +192,7 @@ use_preset_vocabulary: true
 成毅工作室	cheng;rh;gg,wg;na;wv; yi;bl,il;lu,uu,uy;ir;ly; gong;pp;aa;ug;aa; zuo;xu;rv;jw;rv; shi;ig;bv;wy;bt;	0
 吃谷	chi;or;kq;da;kq; gu;fo;bk,kr;hg;bk;	7
 吃哪家	chi;or;kq;da;kq; na;ob;kn;dt;ke; jia;ih;bu;wj;bu;	7
-赤水丰隆	chi;gf,gi;tb,ty;gc;td; shui;oo;ad,uv;ks;ln; feng;aa;aa;af;al; long;ba;eu;tl;eu;	0
+赤水丰隆	chi;gf,gi;tb,ty;gc;td; shui;oo;ad,uv;ks;ln; feng;aa;aa;af;al; long;ba,bg;eu;tl;eu;	0
 仇白	chou;xr;rj;jk;rj; bai;ss;pa,po;ub;po;	0
 楚阿梅尼	chu;we;mp,pl;et;mr; a;bj;ek;tz;ek; mei;wh;mm;ek;mm; ni;qa;ub;cv;ub;	13
 出成绩啦	chu;pp;ck,aa;sm;vk; cheng;rh;gg,wg;na;wv; ji;em;sz;io;sr; la;ob;kl;di;kl;	9
@@ -274,7 +274,7 @@ use_preset_vocabulary: true
 邓为	deng;lb;ey,ye;rt;ye; wei;hh,uu;dd;ii;dd;	0
 邓为提灯剧照	deng;lb;ey,ye;rt;ye; wei;hh,uu;dd;ii;dd; ti;je;fu;ut;fr; deng;tj;hd;ca;hd; ju;qi;dj;cp;ud; zhao;vn;hv;oc;oh;	0
 迪丽热巴活动	di;vq;zy;du;zy; li;dh;ad;fv;ad; re;jn;hv;uc;fh; ba;tt;ag,kg,vg;mb;sl,vv; huo;ko;du;ka;dk; dong;uu;ly,yl;bs;el;	0
-地铁逃生	di;gr,ga;ty;ge;ty; tie;de;ju;zh;ju; tao;kq,uq;zv;pu;zd; sheng;aa;na;ls;pf;	0
+地铁逃生	di;gr,ga;ty;ge;ty; tie;de;ju;zh;ju; tao;kq,uq;zv;pu;zd; sheng;eg;na;ls;pf;	0
 低消	di;xh;rd;ji;rd; xiao;kl;dx;kv;do;	31
 第一后裔	di;nu;vp;rt;vp; yi;dd;aa;fi;aa; hou;uo;pk;xd;pk; yi;ko;yk;td;wk;	0
 地栽	di;gr,ga;ty;ge;ty; zai;sw,ha;gm,mg;ne;um;	84
@@ -302,7 +302,7 @@ use_preset_vocabulary: true
 喋血复仇	die;ow;km,ky;de;km; xue;ud,ua;pa,pm;ta;pm; fu;ej;pw,rw,wo;eh;pw; chou;xr;rj;jk;rj;	17
 定轨	ding;ie;bp;wt;br; gui;tr;ij;yk;ij;	21
 顶级理解	ding;jm;dy,yd;aw;dr; ji;eh;sj;ic;sj; li;ag;wl;nd;wl; jie;gb;jn;xq;dn;	0
-定缺	ding;ie;bp;wt;br; que;ex;fd,fg;aj;fg;	0
+定缺	ding;ie;bp;wt;br; que;ex,ee;fd,fg;aj;fg;	0
 定向士官	ding;ie;bp;wt;br; xiang;uo;pk;td;pk; shi;gg;aa;gs;ua; guan;id;bg,bk;wk;bk;	0
 东安湖	dong;df,af;ad,qx;ry;ad; an;iy;bn;wb;bn; hu;kl;dh;kv;do;	17
 董奉	dong;zg;cv;ld;cv; feng;up;ff;au;fl;	0
@@ -439,7 +439,7 @@ use_preset_vocabulary: true
 给个皮肤	gei;eo;sh;id;sk; ge;ep;ra,pa;jg;rl; pi;rl;ad,ay,vd,vy,ya;rp;vy; fu;le;of;vh;of;	1
 给您添麻烦了	gei;eo;sh;id;sk; nin;xn;xn;jh;rx; tian;kf,kh;dt,dx;kh;dx; ma;dd,rw;gl;zm;gm; fan;tm;hy;cw;hr; le;rp;aa,vu;rl;vl;	21
 根本花不完	gen;wh;mg;ei;mg; ben;wd;aa,ma;ef;aa; hua;za;ch;lv;cb; bu;dh;ad,ax;cb;ad; wan;ik;by;wp;be;	5
-根本睡不醒	gen;wh;mg;ei;mg; ben;wd;aa,ma;ef;aa; shui;sg;oi;qg;oi; bu;dh;ad,ax;cb;ad; xing;pa;yx;yl;yu;	0
+根本睡不醒	gen;wh;mg;ei;mg; ben;wd;aa,ma;ef;aa; shui;sg;oi;qg;oi; bu;dh;ad,ax;cb;ad; xing;pa,pg;yx;yl;yu;	0
 跟播	gen;gh;zg;pi;zg; bo;jw;ff;uq;ft;	3
 跟练	gen;gh;zg;pi;zg; lian;ef;sd,sj;iy;sd;	228
 根蔓	gen;wh;mg;ei;mg; man;zl;cm;lr;cy;	0
@@ -527,7 +527,7 @@ use_preset_vocabulary: true
 好下头	hao;ya;nz;bh;nz; xia;dh;ab,ad;fy;ab; tou;hx;dd;wm;dd;	1
 好想来	hao;ya;nz;bh;nz; xiang;wn;xx;eh;mx; lai;uf,ef,dl;am,wb;ah;an;	0
 好小众	hao;ya;nz;bh;nz; xiao;pf;ad;yx;ld; zhong;ee;rc;jj;rr;	0
-好腥	hao;ya;nz;bh;nz; xing;la;ox;vl;ou;	6
+好腥	hao;ya;nz;bh;nz; xing;la,lg;ox;vl;ou;	6
 好有实力	hao;ya;nz;bh;nz; you;sl;ou,uo;nv;uo; shi;ix;bt;wm;bd; li;uu;gp;sl;vp;	0
 皓月从来多古意	hao;so;bg;ud;bk; yue;ll;oy,pa,yt;vy;ka; cong;ee;rr;jj;rr; lai;uf,ef,dl;am,wb;ah;an; duo;ff;xx;ll;xx; gu;so;uk;cg;uk; yi;bn,cn;xy,lx;xh;lx;	0
 好炸裂	hao;ya;nz;bh;nz; zha;tu;hv;cw;hv; lie;fk;yl;gt;dy;	0
@@ -557,7 +557,7 @@ use_preset_vocabulary: true
 鸿福	hong;kc;dn,nj;kx;dn; fu;hw;uf,ut;fq;pt;	13
 红梅杏	hong;ep;sg;iu;sg; mei;wh;mm;ek;mm; xing;wo;km,mk;ed;mk;	0
 弘石	hong;rp;gs;bk;gs; shi;tt;kp,aa,ak,pk;ms;ak;	1
-红毯先生	hong;ep;sg;iu;sg; tan;ut;my;vc;mh; xian;bk;ne,en;qp;ne; sheng;aa;na;ls;pf;	0
+红毯先生	hong;ep;sg;iu;sg; tan;ut;my;vc;mh; xian;bk;ne,en;qp;ne; sheng;eg;na;ls;pf;	0
 红温	hong;ep;sg;iu;sg; wen;kd,ka;dm,dw;ka;dm;	2
 红温了	hong;ep;sg;iu;sg; wen;kd,ka;dm,dw;ka;dm; le;rp;aa,vu;rl;vl;	1
 红夜	hong;ep;sg;iu;sg; ye;ih;wd,ww;zv;wn;	3
@@ -575,11 +575,11 @@ use_preset_vocabulary: true
 花小龙	hua;za;ch;lv;cb; xiao;pf;ad;yx;ld; long;sh;ad;tl;ud;	0
 画之灵	hua;dp;ak;fm;ak; zhi;hh;dd;ri;dn; ling;st;hx,xh;bc;eh;	0
 坏杀手	huai;gh;tb;gc;tb; sha;yf;mi,im;be;xm; shou;up;pa,ub;us;pl;	0
-换乘了	huan;jx;fh;um;fd; cheng;sf;pb,hb;xv;qn; le;rp;aa,vu;rl;vl;	0
+换乘了	huan;jx,je;fh;um;fd; cheng;sf;pb,hb;xv;qn; le;rp;aa,vu;rl;vl;	0
 幻兽帕鲁	huan;rr;yg;ia;yv; shou;fo;ka,bk;hd;bk; pa;ys;jb;ru;jb; lu;qv;yo;wo;ao;	0
-换帅	huan;jx;fh;um;fd; shuai;py;aj,dj,jd;pr;lj;	301
+换帅	huan;jx,je;fh;um;fd; shuai;py;aj,dj,jd;pr;lj;	301
 幻塔	huan;rr;yg;ia;yv; ta;go;td,th;gd;tk;	206
-幻星	huan;rr;yg;ia;yv; xing;va;ou;ol;ou;	3
+幻星	huan;rr;yg;ia;yv; xing;vg,va;ou;ol;ou;	3
 环氧彩砂	huan;ah;wb;nc;wb; yang;sp;qy;vg;qy; cai;hu;pc;ye;pp; sha;ti,tu;uu;mt;uu;	6
 缓一天	huan;el;sy;ir;sy; yi;dd;aa;fi;aa; tian;ue;ad;fm;ad;	3
 欢迎来到我身边	huan;le;yq;re;yr; ying;uq;ze;bu;ze; lai;uf,ef,dl;am,wb;ah;an; dao;di;dv;yp;ad; wo;uh,ah,ud,ha;pd,pp;tp;pd; shen;uu;pp;zs;pp; bian;uq;zl;su;zl;	0
@@ -631,7 +631,7 @@ use_preset_vocabulary: true
 极限闪避	ji;wh;mj;ec;mj; xian;bh;eg;ti;eg; shan;oe;mr,rm;aj;mr; bi;qq;zb,zx;cu;zu;	5
 姬小满	ji;yr;ni;bq;ni,nl; xiao;pf;ad;yx;ld; man;ke;dl;km;dl;	0
 机械动力	ji;wi;mj;eo;mj; xie;wa,wz,wp;mj;el;mc; dong;uu;ly,yl;bs;el; li;uu;gp;sl;vp;	16
-纪星	ji;et;sj;iv;sj; xing;va;ou;ol;ou;	1
+纪星	ji;et;sj;iv;sj; xing;vg,va;ou;ol;ou;	1
 忌炎	ji;tn;xj,jx;vh;jx; yan;tt;hh;cc;hh;	0
 吉伊	ji;go;ku,uk;gd;uk; yi;xu;ry;jt;ry;	1
 吉伊卡哇	ji;go;ku,uk;gd;uk; yi;xu;ry;jt;ry; ka;ph;bx,ub;yy;ub; wa;og;kg;dg;kt;	0
@@ -698,7 +698,7 @@ use_preset_vocabulary: true
 精板	jing;ll;mq;pv;mo; ban;wl;mf;er;my;	18
 惊封	jing;nf;xj;hy;xx; feng;gk;cg;gk;tc;	0
 净汉	jing;fp;dv;wb;dl; han;kl;dy;kr;dy;	0
-京沪对决	jing;if;wx;gy;wx; hu;kq;dh;km;dh; dui;lk;cy,yc;rk;yc; jue;fx;dd,dg;wj;dg;	0
+京沪对决	jing;if;wx;gy;wx; hu;kq;dh;km;dh; dui;lk;cy,yc;rk;yc; jue;fx,fe;dd,dg;wj;dg;	0
 镜流	jing;dk;jj;zp;je; liu;kr;di;ko;dv;	2
 惊心妒怨	jing;nf;xj;hy;xx; xin;nn;dd;hx;dd; du;yq;nh;bm;nh; yuan;fn;xe,xy;lh;xx;	0
 婧祎	jing;yl;nq;bv;no; yi;hp;uw;fg;pw;	0
@@ -709,7 +709,7 @@ use_preset_vocabulary: true
 就放假啦	jiu;ih;yj;go;wy; fang;fj;wf,fw;lh;fw; jia;xl;rj,ry;jr;ry; la;ob;kl;di;kl;	1
 玖福记	jiu;ah;wj;ni;wj; fu;hw;uf,ut;fq;pt; ji;ct;yj;sv;yj;	0
 九黎城	jiu;ur;py;kj;pv; li;uo;hu,ur;xk;hu; cheng;gh;ti;ga;ti;	2
-就凉快了	jiu;ih;yj;go;wy; liang;ff;dj;wy;dx; kuai;nx;xd,xg;hj;xg; le;rp;aa,vu;rl;vl;	7
+就凉快了	jiu;ih;yj;go;wy; liang;ff;dj;wy;dx; kuai;nx,ne;xd,xg;hj;xg; le;rp;aa,vu;rl;vl;	7
 九龙城寨之围城	jiu;ur;py;kj;pv; long;sh;ad;tl;ud; cheng;gh;ti;ga;ti; zhai;if;mb,bm;we;bm; zhi;hh;dd;ri;dn; wei;np;kw;rg;kw; cheng;gh;ti;ga;ti;	0
 就跑路了	jiu;ih;yj;go;wy; pao;gt;zb;pv;zs; lu;go;zg;ps;zk; le;rp;aa,vu;rl;vl;	0
 旧赛季	jiu;pv;ao;go;lo; sai;im;bb;wo;br; ji;ua;hz;xh;hz;	0
@@ -775,8 +775,8 @@ use_preset_vocabulary: true
 库迪	ku;rt;gi;xy;gi; di;vq;zy;du;zy;	15
 库迪咖啡	ku;rt;gi;xy;gi; di;vq;zy;du;zy; ka;oo;kj;dd;kk; fei;ou,op;kf;dr;kf;	0
 酷二狗	ku;po;yg;yd;yk; er;uu;aa;me;aa; gou;bi;qj;mg;qk;	0
-快乐老友记	kuai;nx;xd,xg;hj;xg; le;uf;pd,px;by;pd; lao;ga;bl,lb;ql;lb; you;sl;yu,uy;nr;uy; ji;ct;yj;sv;yj;	0
-快团团	kuai;nx;xd,xg;hj;xg; tuan;nu;kc;rt;kc; tuan;nu;kc;rt;kc;	57
+快乐老友记	kuai;nx,ne;xd,xg;hj;xg; le;uf;pd,px;by;pd; lao;ga;bl,lb;ql;lb; you;sl;yu,uy;nr;uy; ji;ct;yj;sv;yj;	0
+快团团	kuai;nx,ne;xd,xg;hj;xg; tuan;nu;kc;rt;kc; tuan;nu;kc;rt;kc;	57
 狂暴女神	kuang;ba;qw;mn;qw; bao;vo;ou;ok;ou; nv;yy;aa,vh;bn;va; shen;hp;uu;fg;pu;	0
 狂飙兄弟	kuang;ba;qw;mn;qw; biao;by;fb,fq;mb;qx; xiong;ok;ke;dp;ke; di;fu;bp;ht;bp;	0
 狂欢之椅	kuang;ba;qw;mn;qw; huan;le;yq;re;yr; zhi;hh;dd;ri;dn; yi;wj;mq;ez;mk;	12
@@ -808,7 +808,7 @@ use_preset_vocabulary: true
 蓝锁	lan;zd,za;cj;la;cm; suo;dm;jb;zo;jr;	0
 岚图	lan;py;uf;vb;ex; tu;nh;kd;rw;kd;	56
 兰湘子	lan;fu;bs,qe;ht;bs; xiang;ks;dx;kq;do; zi;aa;aa,vh;hi;va;	1
-蓝星花	lan;zd,za;cj;la;cm; xing;va;ou;ol;ou; hua;za;ch;lv;cb;	0
+蓝星花	lan;zd,za;cj;la;cm; xing;vg,va;ou;ol;ou; hua;za;ch;lv;cb;	0
 蓝盈莹演技	lan;zd,za;cj;la;cm; ying;rd,ra;my;va;nm; ying;za,zh;cy,yb;li;cy; yan;kf;dy;kh;db; ji;jl;fv;uc;fy;	0
 老白不喝酒	lao;ga;bl,lb;ql;lb; bai;ss;pa,po;ub;po; bu;dh;ad,ax;cb;ad; he;or;kh;df;kv; jiu;kd;dy;ky;dy;	0
 牢弟	lao;ib;bn;wq;bn; di;fu;bp;ht;bp;	0
@@ -845,7 +845,7 @@ use_preset_vocabulary: true
 离谱不	li;ih,ip;ws,wl;zv;wd; pu;cv;yp;so;yo; bu;dh;ad,ax;cb;ad;	0
 黎深	li;uo;hu,ur;xk;hu; shen;kw;dm;ke;dm;	0
 历史最大规模	li;ru;il;xs;il; shi;oy;ad,ki;db;ln; zui;vl;oq;or;oy; da;xx;ad;md;un; gui;ek;fj,jf;he;fe; mo;wx;mm;em;md;	2
-黎医生	li;uo;hu,ur;xk;hu; yi;dr;ku;no;ku; sheng;aa;na;ls;pf;	0
+黎医生	li;uo;hu,ur;xk;hu; yi;dr;ku;no;ku; sheng;eg;na;ls;pf;	0
 俩个月	lia;xe;rl;jm;rl; ge;ep;ra,pa;jg;rl; yue;ll;oy,pa,yt;vy;ka;	31
 俩件	lia;xe;rl;jm;rl; jian;xb;rn;jq;rn;	4
 联动套餐	lian;dx;eg;qm;et; dong;uu;ly,yl;bs;el; tao;xh;di;mp;ds; can;ph;uy;gq;ll;	2
@@ -890,7 +890,7 @@ use_preset_vocabulary: true
 流麻	liu;kr;di;ko;dv; ma;dd,rw;gl;zm;gm;	0
 六命	liu;if;wb,dd,db;al;wb; ming;eb;re;jz;re;	24
 柳条人	liu;wb;mm;eb;me; tiao;jf;wm;he;wm; ren;ee;pd;jr;pn;	2
-柳星闻	liu;wb;mm;eb;me; xing;va;ou;ol;ou; wen;ou;em,me;aq;me;	0
+柳星闻	liu;wb;mm;eb;me; xing;vg,va;ou;ol;ou; wen;ou;em,me;aq;me;	0
 留子	liu;uw;td,tl,lt;bq;pt; zi;aa;aa,vh;hi;va;	17
 泷泷	long;kh;dl;kt;dl; long;kh;dl;kt;dl;	0
 龙茅	long;sh;ad;tl;ud; mao;zu;cm;lt;cp;	0
@@ -903,10 +903,10 @@ use_preset_vocabulary: true
 卢昱晓	lu;pq;bu;yc;lu; yu;vb;ol;oi;ol; xiao;vk;oy;op;ow;	0
 鹭卓	lu;gc;nl;px;zn; zhuo;ps;bu,uo;yn;lu;	0
 乱回	luan;sr;ug;aa;qv; hui;no;kk;rd;kk;	2
-萝卜快跑	luo;zf;cl;ll;cx; bo;ph;ad;yb;ld; kuai;nx;xd,xg;hj;xg; pao;gt;zb;pv;zs;	14
+萝卜快跑	luo;zf;cl;ll;cx; bo;ph;ad;yb;ld; kuai;nx,ne;xd,xg;hj;xg; pao;gt;zb;pv;zs;	14
 罗彩	luo;af;sx;yl;sx; cai;hu;pc;ye;pp;	0
 罗彩签	luo;af;sx;yl;sx; cai;hu;pc;ye;pp; qian;nd;va,vq;rf;va;	0
-落地醒	luo;zo;cl;ls;ck; di;gr,ga;ty;ge;ty; xing;pa;yx;yl;yu;	4
+落地醒	luo;zo;cl;ls;ck; di;gr,ga;ty;ge;ty; xing;pa,pg;yx;yl;yu;	4
 落匪	luo;zo;cl;ls;ck; fei;dr;kf;nr;kf;	0
 洛琪希	luo;ko;dg;ks;dk; qi;af;wq;nh;wb; xi;yy;ju,ib,ij;br;xj;	1
 螺丝咕姆	luo;ff;il;ci;ix; si;ee;aa;ii;va; gu;oo;kg;dc;kk; mu;yh;nm;bk;nm;	0
@@ -968,7 +968,7 @@ use_preset_vocabulary: true
 萌探	meng;zl;cm;lv;co; tan;jw;fm,fu;ue;fm;	4
 孟宴臣	meng;ad,aa;mz,zm;ha;zm; yan;iy;bn;wb;bn; chen;dr;aa,ka;qc;kl;	0
 梦中情车	meng;wf;mx,xl;el;mx; zhong;op;aa,ka;dg;ll; qing;nl;xq;hv;xo; che;tt;aa;yc;al;	3
-觅长生	mi;hk;jv,vj;ye;pe; chang;uh;pd;pc;pn; sheng;aa;na;ls;pf;	3
+觅长生	mi;hk;jv,vj;ye;pe; chang;uh;pd;pc;pn; sheng;eg;na;ls;pf;	3
 米池	mi;ll;dd;pm;dm; chi;kr;dy;ke;dy;	1
 米村拌饭	mi;ll;dd;pm;dm; cun;wk;mc;ek;mc; ban;jp,js;fb;uu;fb; fan;gl;uf;qr;uy;	0
 迷宫饭	mi;lq;zm;pu;zm; gong;io;bl;wd;bk; fan;gl;uf;qr;uy;	13
@@ -996,7 +996,7 @@ use_preset_vocabulary: true
 鸣女	ming;oc;kn;dx;kn; nv;yy;aa,vh;bn;va;	2
 明神亚贵	ming;vl;oo;ov;oo; shen;hp;uu;fg;pu; ya;dd;ay;fc;ay; gui;fm;ba,vb;co;vr;	0
 鸣式	ming;oc;kn;dx;kn; shi;ha,ap;gy,yg;pu;yg;	5
-名字快闪挑战	ming;fo;xk;ld;xk; zi;ia;bz;wh;bz; kuai;nx;xd,xg;hj;xg; shan;oe;mr,rm;aj;mr; tiao;jh,jf;fv;uw;fd; zhan;pa;gv;yp;lg;	0
+名字快闪挑战	ming;fo;xk;ld;xk; zi;ia;bz;wh;bz; kuai;nx,ne;xd,xg;hj;xg; shan;oe;mr,rm;aj;mr; tiao;jh,jf;fv;uw;fd; zhan;pa;gv;yp;lg;	0
 命座	ming;eb;re;jz;re; zuo;rg;gz;xg;gt;	62
 膜拜膜拜你	mo;lx;om;vm;od; bai;ua;pa,ua,uf;ua;uf; mo;lx;om;vm;od; bai;ua;pa,ua,uf;ua;uf; ni;xf;re;jy;rx;	0
 魔方新世界	mo;ds,rs;gm,mg;za;gg; fang;ff;dg,wd,dp,dw;lf;dw; xin;bp;jq;it;lj; shi;vr;ca,cv,aa;la;av; jie;wp;tj;qp;tl;	0
@@ -1026,8 +1026,8 @@ use_preset_vocabulary: true
 娜维娅	na;yb;nn;bt;ne; wei;ea;sv;iu;sf; ya;yd;ny;bc;ny;	0
 纳西妲	na;ee;sn;ij;sn; xi;pp;aa;vx;aa; da;yd;nd;bf;na;	21
 拿一趟	na;ep;uh;ju;ru; yi;dd;aa;fi;aa; tang;qo;zu;ps;tk;	1
-那英第一	na;rb;el;at;ve; ying;zx;cy;lm;cy; di;nu;vp;rt;vp; yi;dd;aa;fi;aa;	0
-那英天后回归	na;rb;el;at;ve; ying;zx;cy;lm;cy; tian;ue;ad;fm;ad; hou;uo;pk;xd;pk; hui;no;kk;rd;kk; gui;ps;ax,dx;pb;le;	0
+那英第一	na;rb;el;at;ve; ying;zx,ze;cy;lm;cy; di;nu;vp;rt;vp; yi;dd;aa;fi;aa;	0
+那英天后回归	na;rb;el;at;ve; ying;zx,ze;cy;lm;cy; tian;ue;ad;fm;ad; hou;uo;pk;xd;pk; hui;no;kk;rd;kk; gui;ps;ax,dx;pb;le;	0
 那远山	na;rb;el;at;ve; yuan;uq;zy;mu;ze; shan;pp;aa;vs;lk;	0
 奈宝	nai;xf;du;mf;dx; bao;ia,ih;by;wi;by;	0
 耐摔王	nai;ek;ce;lk;ec; shuai;js;fl,fu;un;fu; wang;aa;aa;nw;at;	0
@@ -1044,25 +1044,25 @@ use_preset_vocabulary: true
 内耗自己	nei;oe;ad,kr;mj;ld; hao;ar,aa;lm;av;lm; zi;ss;pa,po;oi;po; ji;tt;ag,vg;vj;vv;	0
 能报的	neng;pa;sb;kv;sb; bao;jl;fy;ur;fy; de;sh;bu;ui;bu;	0
 能接受不	neng;pa;sb;kv;sb; jie;jy;fq;ub;fn; shou;hl;vy,yb;yr;py; bu;dh;ad,ax;cb;ad;	0
-你比星光美丽	ni;xf;re;jy;rx; bi;aa;bb;vv;bb; xing;va;ou;ol;ou; guang;hk;ea,xw;mg;xw; mei;fx;dy,yd;gm;yd; li;dh;ad;fv;ad;	0
+你比星光美丽	ni;xf;re;jy;rx; bi;aa;bb;vv;bb; xing;vg,va;ou;ol;ou; guang;hk;ea,xw;mg;xw; mei;fx;dy,yd;gm;yd; li;dh;ad;fv;ad;	0
 你的宝	ni;xf;re;jy;rx; de;sh;bu;ui;bu; bao;ia,ih;by;wi;by;	0
 妮芙	ni;ya;nn;bv;nb; fu;ze;cf;lh;cf;	3
 你个人机	ni;xf;re;jy;rx; ge;ep;ra,pa;jg;rl; ren;ee;pd;jr;pn; ji;wi;mj;eo;mj;	0
 你还挑上了	ni;xf;re;jy;rx; hai;dq;zb;cu;zb; tiao;jh,jf;fv;uw;fd; shang;pd,pu;aa,ba;yf;la; le;rp;aa,vu;rl;vl;	0
 你好香	ni;xf;re;jy;rx; hao;ya;nz;bh;nz; xiang;uv;ho;xo;ho;	3
-你好星期六	ni;xf;re;jy;rx; hao;ya;nz;bh;nz; xing;va;ou;ol;ou; qi;vl;oq,qo;zv;qo; liu;if;wb,dd,db;al;wb;	6
+你好星期六	ni;xf;re;jy;rx; hao;ya;nz;bh;nz; xing;vg,va;ou;ol;ou; qi;vl;oq,qo;zv;qo; liu;if;wb,dd,db;al;wb;	6
 妮姬	ni;ya;nn;bv;nb; ji;yr;ni;bq;ni,nl;	5
 尼科	ni;qa;ub;cv;ub; ke;uh,us;hd;xj;hu;	88
 尼菈	ni;qa;ub;cv;ub; la;zb;cl;li;cl;	0
 你摸鱼	ni;xf;re;jy;rx; mo;jx;fm;um;fd; yu;qq;da;wv;da;	0
 你切记	ni;xf;re;jy;rx; qie;ai,au;dq,qd;rp;qd; ji;ct;yj;sv;yj;	0
 你善	ni;xf;re;jy;rx; shan;fo;yk,ka,kq;gd;yk;	0
-你是我的英雄	ni;xf;re;jy;rx; shi;ve;op,ov;ot;or; wo;uh,ah,ud,ha;pd,pp;tp;pd; de;sh;bu;ui;bu; ying;zx;cy;lm;cy; xiong;sa;vh,vs;nu;uf;	3
+你是我的英雄	ni;xf;re;jy;rx; shi;ve;op,ov;ot;or; wo;uh,ah,ud,ha;pd,pp;tp;pd; de;sh;bu;ui;bu; ying;zx,ze;cy;lm;cy; xiong;sa;vh,vs;nu;uf;	3
 你听哥说	ni;xf;re;jy;rx; ting;op;kj;dt;kj; ge;jj;kd,kk,dk;zz;dk; shuo;ck;yd;sp;ye;	0
 你我皆是黑马	ni;xf;re;jy;rx; wo;uh,ah,ud,ha;pd,pp;tp;pd; jie;as;bb;vu;bb; shi;ve;op,ov;ot;or; hei;nn;ad,ha;ph;lh; ma;zz;aa,vh;nm;va;	27
 你无敌了	ni;xf;re;jy;rx; wu;uk;ag,ay,ee;du;ay; di;sj;wu,uw;ah;qw; le;rp;aa,vu;rl;vl;	1
 你小汁	ni;xf;re;jy;rx; xiao;pf;ad;yx;ld; zhi;ks;du;kn;du;	0
-逆行人生	ni;fq;zn;hu;zp; xing;hj;xd,xi;px;ii; ren;ee;pd;jr;pn; sheng;aa;na;ls;pf;	5
+逆行人生	ni;fq;zn;hu;zp; xing;hj;xd,xi;px;ii; ren;ee;pd;jr;pn; sheng;eg;na;ls;pf;	5
 年包	nian;es;ra,pa;ev;pl; bao;ut;gs;nv;bs;	0
 年番	nian;es;ra,pa;ev;pl; fan;hw,uw;tb,pt,tm;tq;pt;	3
 念西	nian;en;xj;jh;rx; xi;pp;aa;vx;aa;	0
@@ -1136,7 +1136,7 @@ use_preset_vocabulary: true
 弃赛	qi;iz,ip;cw,wc;bl;wc; sai;im;bb;wo;br;	43
 漆扇	qi;ko;dq,du;kk;du; shan;qd;hy,yh;mz;hx;	0
 七升八	qi;aa;ag;rq;av; sheng;uz,up;pc;tl;pc; ba;ff;pd;hb;pn;	0
-七圣召唤	qi;aa;ag;rq;av; sheng;lg;ty,yt;rg;yt; zhao;io,ro;dk,kd;pd;dk; huan;ox;kh;dm;kd;	8
+七圣召唤	qi;aa;ag;rq;av; sheng;lg;ty,yt;rg;yt; zhao;io,ro;dk,kd;pd;dk; huan;ox,oe;kh;dm;kd;	8
 棋手战鹰	qi;wf;mq;eh;mb; shou;up;pa,ub;us;pl; zhan;pa;gv;yp;lg; ying;rc;gn,nv;xx;gn;	0
 祁厅长	qi;hb;eu,ue;ft;pe; ting;rj;id;xa;id; zhang;uh;pd;pc;pn;	20
 奇物	qi;xj;dk;mz;dk; wu;bi;nw;qe;nw;	34
@@ -1230,7 +1230,7 @@ use_preset_vocabulary: true
 赛索斯	sai;im;bb;wo;br; suo;sf;sb,us;ni;ux; si;vp;jq,qj;zt;qj;	0
 散宝	san;zj;wo;lh;cw; bao;ia,ih;by;wi;by;	0
 三幻	san;uu;aa;ts;ae; huan;rr;yg;ia;yv;	0
-三块冰	san;uu;aa;ts;ae; kuai;gx;td,tg;gj;tg; bing;fo;du;wk;du;	4
+三块冰	san;uu;aa;ts;ae; kuai;ge,gx;td,tg;gj;tg; bing;fo;du;wk;du;	4
 三梦奇缘	san;uu;aa;ts;ae; meng;wf;mx,xl;el;mx; qi;xj;dk;mz;dk; yuan;eh;st,su;ij;su;	0
 三命	san;uu;aa;ts;ae; ming;eb;re;jz;re;	32
 三谋	san;uu;aa;ts;ae; mou;cw;ym;se;ym;	1
@@ -1291,15 +1291,15 @@ use_preset_vocabulary: true
 深中通道	shen;kw;dm;ke;dm; zhong;op;aa,ka;dg;ll; tong;pq;zy;ku;zy; dao;fq;zu;hu;zz;	90
 升级枪	sheng;uz,up;pc;tl;pc; ji;eh;sj;ic;sj; qiang;wt;mc;ez;mv;	0
 绳匠	sheng;er,ee;sd,sm;id;sd; jiang;dr;jk,kj;nt;kj;	2
-生咖	sheng;aa;na;ls;pf; ka;oo;kj;dd;kk;	0
+生咖	sheng;eg;na;ls;pf; ka;oo;kj;dd;kk;	0
 省力版爬泰山	sheng;ps;ou;yq;uo; li;uu;gp;sl;vp; ban;ul;pf;ar;py; pa;ut;vb;ym;vb; tai;uo;fu,uf;ak;fu; shan;pp;aa;vs;lk;	0
-生日场	sheng;aa;na;ls;pf; ri;vv;aa,or,ri;or;ka; chang;gu;ty;ge;tp;	10
-生态缸	sheng;aa;na;ls;pf; tai;xn;xt;mh;tx; gang;ep;fg;au;fg;	16
+生日场	sheng;eg;na;ls;pf; ri;vv;aa,or,ri;or;ka; chang;gu;ty;ge;tp;	10
+生态缸	sheng;eg;na;ls;pf; tai;xn;xt;mh;tx; gang;ep;fg;au;fg;	16
 升糖	sheng;uz,up;pc;tl;pc; tang;lo;mt;pd;mk;	307
 省心租	sheng;ps;ou;yq;uo; xin;nn;dd;hx;dd; zu;uu;hq;xf;hq;	0
-生腌	sheng;aa;na;ls;pf; yan;le,lr;od,oy;va;od;	89
-生椰	sheng;aa;na;ls;pf; ye;wb;my;et;me;	8
-生椰拿铁	sheng;aa;na;ls;pf; ye;wb;my;et;me; na;ep;uh;ju;ru; tie;de;ju;zh;ju;	34
+生腌	sheng;eg;na;ls;pf; yan;le,lr;od,oy;va;od;	89
+生椰	sheng;eg;na;ls;pf; ye;wb;my;et;me;	8
+生椰拿铁	sheng;eg;na;ls;pf; ye;wb;my;et;me; na;ep;uh;ju;ru; tie;de;ju;zh;ju;	34
 十八籽	shi;ss;aa;ns;al; ba;ff;pd;hb;pn; zi;la;mz;ph;mz;	0
 石膏娃娃	shi;tt;kp,aa,ak,pk;ms;ak; gao;il;og,ok,wo;gv;wo; wa;yg;ng;bg;nt; wa;yg;ng;bg;nt;	0
 十个勤天	shi;ss;aa;ns;al; ge;ep;ra,pa;jg;rl; qin;vu;lj;ls;nl; tian;ue;ad;fm;ad;	0
@@ -1328,7 +1328,7 @@ use_preset_vocabulary: true
 狮子王国	shi;by;qu;mr;qj; zi;aa;aa,vh;hi;va; wang;aa;aa;nw;at; guo;na,nh;ky;ri;ky;	0
 受不了一点	shou;hl;vy,yb;yr;py; bu;dh;ad,ax;cb;ad; liao;rp;aa,vu;rl;vl; yi;dd;aa;fi;aa; dian;pn;hv;yc;lh;	0
 收藏卡	shou;rj;wj,jw;ih;vw; cang;zh;cg,ci;lq;ci; ka;ph;bx,ub;yy;ub;	18
-收官快乐	shou;rj;wj,jw;ih;vw; guan;id;bg,bk;wk;bk; kuai;nx;xd,xg;hj;xg; le;uf;pd,px;by;pd;	0
+收官快乐	shou;rj;wj,jw;ih;vw; guan;id;bg,bk;wk;bk; kuai;nx,ne;xd,xg;hj;xg; le;uf;pd,px;by;pd;	0
 手机爹	shou;up;pa,ub;us;pl; ji;wi;mj;eo;mj; die;ff;fd;hl;bx;	0
 首考	shou;fs;qz;ho;bz; kao;gr;lk;qa;lv;	215
 首口	shou;fs;qz;ho;bz; kou;oo;aa;dk;la;	0
@@ -1414,7 +1414,7 @@ use_preset_vocabulary: true
 太有实力了	tai;xh;dd;mi;dd; you;sl;ou,uo;nv;uo; shi;ix;bt;wm;bd; li;uu;gp;sl;vp; le;rp;aa,vu;rl;vl;	1
 太炸裂	tai;xh;dd;mi;dd; zha;tu;hv;cw;hv; lie;fk;yl;gt;dy;	5
 澹台烬	tan;kc,ko;dv,dy;ks;dk; tai;po;sk;kd;sk; jin;th;hj;cw;hd;	0
-探寻外太空生命	tan;jw;fm,fu;ue;fm; xun;sk;cx,xc;bk;ec; wai;fh;xb;ly;xb; tai;xh;dd;mi;dd; kong;ip;xg,bg;eu;bg; sheng;aa;na;ls;pf; ming;eb;re;jz;re;	0
+探寻外太空生命	tan;jw;fm,fu;ue;fm; xun;sk;cx,xc;bk;ec; wai;fh;xb;ly;xb; tai;xh;dd;mi;dd; kong;ip;xg,bg;eu;bg; sheng;eg;na;ls;pf; ming;eb;re;jz;re;	0
 谭竹	tan;cs;yt;sn;yu; zhu;nn;gg;ru;gg,pl;	0
 躺不平	tang;uo;uu;zs;uk; bu;dh;ad,ax;cb;ad; ping;ds,sf;aa,gb;eh;au;	24
 烫门	tang;kt;ht;kc;dh; men;oo;dg;am;dv;	3
@@ -1555,7 +1555,7 @@ use_preset_vocabulary: true
 我趣	wo;uh,ah,ud,ha;pd,pp;tp;pd; qu;ql;zq;pr;ty;	1
 我善	wo;uh,ah,ud,ha;pd,pp;tp;pd; shan;fo;yk,ka,kq;gd;yk;	0
 我上早八	wo;uh,ah,ud,ha;pd,pp;tp;pd; shang;pd,pu;aa,ba;yf;la; zao;vs;ou;on;ou; ba;ff;pd;hb;pn;	0
-我生下来就是	wo;uh,ah,ud,ha;pd,pp;tp;pd; sheng;aa;na;ls;pf; xia;dh;ab,ad;fy;ab; lai;uf,ef,dl;am,wb;ah;an; jiu;ih;yj;go;wy; shi;ve;op,ov;ot;or;	3
+我生下来就是	wo;uh,ah,ud,ha;pd,pp;tp;pd; sheng;eg;na;ls;pf; xia;dh;ab,ad;fy;ab; lai;uf,ef,dl;am,wb;ah;an; jiu;ih;yj;go;wy; shi;ve;op,ov;ot;or;	3
 我同门	wo;uh,ah,ud,ha;pd,pp;tp;pd; tong;oo;kk;md;kk; men;oo;dg;am;dv;	0
 我推的孩子	wo;uh,ah,ud,ha;pd,pp;tp;pd; tui;ja;fv;uu;ff; de;sh;bu;ui;bu; hai;ae;zh;hk;zr; zi;aa;aa,vh;hi;va;	0
 我也社恐	wo;uh,ah,ud,ha;pd,pp;tp;pd; ye;rr;gg;ey;vv; she;hg;ut,tu;fg;pt; kong;pn;xg;uh;gx;	0
@@ -1598,7 +1598,7 @@ use_preset_vocabulary: true
 无语住了	wu;uk;ag,ay,ee;du;ay; yu;co;yw;sd;yk; zhu;xa,xg;rv;jn;rv; le;rp;aa,vu;rl;vl;	12
 无语子	wu;uk;ag,ay,ee;du;ay; yu;co;yw;sd;yk; zi;aa;aa,vh;hi;va;	89
 无职	wu;uk;ag,ay,ee;du;ay; zhi;df;ev;qh;eb;	74
-物种多样性	wu;bi;nw;qe;nw; zhong;up;hv;xg;hv; duo;ff;xx;ll;xx; yang;wp;my;eg;my; xing;na;xu;hl;xu;	81
+物种多样性	wu;bi;nw;qe;nw; zhong;up;hv;xg;hv; duo;ff;xx;ll;xx; yang;wp;my;eg;my; xing;ng,na;xu;hl;xu;	81
 袭榜	xi;sk;ly,yl;tt;ly; bang;wf;mp;el;mf;	0
 希格雯	xi;yy;ju,ib,ij;br;xj; ge;wo;mg;es;mk; wen;yj;yw;tv;yw;	0
 西谷夕	xi;pp;aa;vx;aa; gu;fo;bk,kr;hg;bk; xi;ff;pd;lx;pd;	3
@@ -1707,23 +1707,23 @@ use_preset_vocabulary: true
 新手保护期	xin;bp;jq;it;lj; shou;up;pa,ub;us;pl; bao;xw;rd;je;rm; hu;jq;fh;um;fh; qi;vl;oq,qo;zv;qo;	8
 新胎	xin;bp;jq;it;lj; tai;lo;ot;vd;ok;	71
 新亚强	xin;bp;jq;it;lj; ya;dd;ay;fc;ay; qiang;rf;gs;bc;gi;	0
-新质生产力	xin;bp;jq;it;lj; zhi;um;bu,pb;xo;pr; sheng;aa;na;ls;pf; chan;bu,br,ir;dp,li,wp;ix;lp; li;uu;gp;sl;vp;	0
+新质生产力	xin;bp;jq;it;lj; zhi;um;bu,pb;xo;pr; sheng;eg;na;ls;pf; chan;bu,br,ir;dp,li,wp;ix;lp; li;uu;gp;sl;vp;	0
 新主线	xin;bp;jq;it;lj; zhu;ig;dw;in;dw; xian;ea;sj;ip;sj;	0
 薪资结构	xin;zp;cx;lt;cj; zi;fm;bc;wo;dr; jie;eo;sj;id;sk; gou;wp;mg;ek;ms;	0
 行的嘞	xing;hj;xd,xi;px;ii; de;sh;bu;ui;bu; le;ou;kl;ds;kl;	0
 幸福上了	xing;gs;tu,ty;gg;tg; fu;hw;uf,ut;fq;pt; shang;pd,pu;aa,ba;yf;la; le;rp;aa,vu;rl;vl;	0
 型格	xing;ug;tx;fg;kt; ge;wo;mg;es;mk;	27
-星光卡	xing;va;ou;ol;ou; guang;hk;ea,xw;mg;xw; ka;ph;bx,ub;yy;ub;	0
-星核	xing;va;ou;ol;ou; he;we;mh;ek;mr;	82
-星核猎手	xing;va;ou;ol;ou; he;we;mh;ek;mr; lie;bv;qx;mo;qo; shou;up;pa,ub;us;pl;	1
-星绘	xing;va;ou;ol;ou; hui;ep;sh;ib;ss;	0
-星见雅	xing;va;ou;ol;ou; jian;pk;ag,ek,ke;ej;ke; ya;da;vy,yv;lu;yf;	0
-星琼	xing;va;ou;ol;ou; qiong;af;wj;ny;wx;	0
-星闪	xing;va;ou;ol;ou; shan;oe;mr,rm;aj;mr;	2
-星声	xing;va;ou;ol;ou; sheng;gp;um;gc;up;	3
-星锑	xing;va;ou;ol;ou; ti;du;jd;zt;jp;	0
-星野爱	xing;va;ou;ol;ou; ye;vp;ly,yl;di;ll; ai;hl;vy;yr;py;	0
-星之破晓	xing;va;ou;ol;ou; zhi;hh;dd;ri;dn; po;tl;up;mr;uy; xiao;vk;oy;op;ow;	0
+星光卡	xing;vg,va;ou;ol;ou; guang;hk;ea,xw;mg;xw; ka;ph;bx,ub;yy;ub;	0
+星核	xing;vg,va;ou;ol;ou; he;we;mh;ek;mr;	82
+星核猎手	xing;vg,va;ou;ol;ou; he;we;mh;ek;mr; lie;bv;qx;mo;qo; shou;up;pa,ub;us;pl;	1
+星绘	xing;vg,va;ou;ol;ou; hui;ep;sh;ib;ss;	0
+星见雅	xing;vg,va;ou;ol;ou; jian;pk;ag,ek,ke;ej;ke; ya;da;vy,yv;lu;yf;	0
+星琼	xing;vg,va;ou;ol;ou; qiong;af;wj;ny;wx;	0
+星闪	xing;vg,va;ou;ol;ou; shan;oe;mr,rm;aj;mr;	2
+星声	xing;vg,va;ou;ol;ou; sheng;gp;um;gc;up;	3
+星锑	xing;vg,va;ou;ol;ou; ti;du;jd;zt;jp;	0
+星野爱	xing;vg,va;ou;ol;ou; ye;vp;ly,yl;di;ll; ai;hl;vy;yr;py;	0
+星之破晓	xing;vg,va;ou;ol;ou; zhi;hh;dd;ri;dn; po;tl;up;mr;uy; xiao;vk;oy;op;ow;	0
 杏子灰	xing;wo;km,mk;ed;mk; zi;aa;aa,vh;hi;va; hui;st;hu,uh;nc;uh;	1
 休二	xiu;xw;rm;je;rm; er;uu;aa;me;aa;	44
 修勾	xiu;xu;rp;je;rp; gou;up;gs;nk;bs;	12
@@ -1760,10 +1760,10 @@ use_preset_vocabulary: true
 衍天	yan;hj;xi,xd;pk;ii; tian;ue;ad;fm;ad;	1
 颜心记	yan;bm,im;yy;iw;ir; xin;nn;dd;hx;dd; ji;ct;yj;sv;yj;	0
 彦子	yan;bu,iu;dp,ip,wp;ie;ip; zi;aa;aa,vh;hi;va;	1
-央国企	yang;px;ad,kd;mm;lg; guo;na,nh;ky;ri;ky; qi;er;rv;js;rv;	19
+央国企	yang;px,pe;ad,kd;mm;lg; guo;na,nh;ky;ri;ky; qi;er;rv;js;rv;	19
 杨涵博	yang;wu;my;ee;mp; han;kp;dh;km;dk; bo;sk;uc,uf;nk;uc;	0
-央媒	yang;px;ad,kd;mm;lg; mei;yw;nm;be;nm;	80
-秧秧	yang;ux;hy;xm;hy; yang;ux;hy;xm;hy;	1
+央媒	yang;px,pe;ad,kd;mm;lg; mei;yw;nm;be;nm;	80
+秧秧	yang;ux,ue;hy;xm;hy; yang;ux,ue;hy;xm;hy;	1
 要帮忙吗	yao;py;xn;vb;xn; bang;uy;jb;ar;fj; mang;nr;xw;hf;xw; ma;oz;km;dn;km;	3
 妖护使	yao;yx;ny;bm;ny; hu;jq;fh;um;fh; shi;xy;rl;jb;rl;	0
 夭璟	yao;ux;pd;tm;pd; jing;af;wj;ny;wx;	0
@@ -1810,7 +1810,7 @@ use_preset_vocabulary: true
 一键连招	yi;dd;aa;fi;aa; jian;dq;jj;zu;jz; lian;tq;zi;yu;zi; zhao;jo;fv;ud;fk;	5
 一键卖鱼	yi;dd;aa;fi;aa; jian;dq;jj;zu;jz; mai;sx;um;nm;ud; yu;qq;da;wv;da;	0
 已接到	yi;tt;vg,ag;vi;vv; jie;jy;fq;ub;fn; dao;di;dv;yp;ad;	15
-壹决	yi;gd;ud;gz;ua; jue;fx;dd,dg;wj;dg;	2
+壹决	yi;gd;ud;gz;ua; jue;fx,fe;dd,dg;wj;dg;	2
 已老实	yi;tt;vg,ag;vi;vv; lao;ga;bl,lb;ql;lb; shi;ix;bt;wm;bd;	0
 已老实求放过	yi;tt;vg,ag;vi;vv; lao;ga;bl,lb;ql;lb; shi;ix;bt;wm;bd; qiu;dh;ad;fi;ad; fang;fj;wf,fw;lh;fw; guo;kq;zc;ku;zc;	0
 一力辽	yi;dd;aa;fi;aa; li;uu;gp;sl;vp; liao;rq;zl;ru;zl;	6
@@ -1861,7 +1861,7 @@ use_preset_vocabulary: true
 勇敢一次	yong;pu;ly;ks;sl; gan;rj;we,aw,vw;ah;vw; yi;dd;aa;fi;aa; ci;fe;dq;we;dr;	14
 永控	yong;hh;dd;ik;dn; kong;jp;fk;uu;fg;	1
 泳者之心	yong;kh;dy;kk;dy; zhe;gv;lo,ol;qo;lo; zhi;hh;dd;ri;dn; xin;nn;dd;hx;dd;	0
-幽暗岛	you;pp;uy;vi;ey; an;vc,vv;oy;ox;oo; dao;up;nu,un;xv;pe;	0
+幽暗岛	you;pp;uy;vi;ey; an;vv;oy;ox;oo; dao;up;nu,un;xv;pe;	0
 尤贝尔	you;sh;ad,yd;oy;ud,yd; bei;mm;ad,kr;ob;kr; er;gf;dx,xd;xy;dx;	4
 优萃	you;xh;ry;jo;ry; cui;zs;cz;ln;cu;	2
 有大病	you;sl;ou,uo;nv;uo; da;xx;ad;md;un; bing;me;bb;aj;bb;	0
@@ -1872,7 +1872,7 @@ use_preset_vocabulary: true
 优师	you;xh;ry;jo;ry; shi;py;ab,aj,db,dj;pr;lj;	48
 幼态脸	you;ru;ly,yl;is;yl; tai;xn;xt;mh;tx; lian;ld;oa,oq;vf;oa;	4
 游戏搭子	you;ka;dz;kh;dz; xi;la;yg;rp;yg; da;jo;fd,fh;ud;fk; zi;aa;aa,vh;hi;va;	1
-游戏明星计划	you;ka;dz;kh;dz; xi;la;yg;rp;yg; ming;vl;oo;ov;oo; xing;va;ou;ol;ou; ji;cs;yu;sn;yu; hua;ai;dg,gd;pp;gd;	0
+游戏明星计划	you;ka;dz;kh;dz; xi;la;yg;rp;yg; ming;vl;oo;ov;oo; xing;vg,va;ou;ol;ou; ji;cs;yu;sn;yu; hua;ai;dg,gd;pp;gd;	0
 有效粉	you;sl;ou,uo;nv;uo; xiao;ij;wj;ah;ww; fen;li,lu;mf;pp;md;	0
 又幸福了	you;ll;vd,ad;ry;vn; xing;gs;tu,ty;gg;tg; fu;hw;uf,ut;fq;pt; le;rp;aa,vu;rl;vl;	0
 又淹了	you;ll;vd,ad;ry;vn; yan;ke,kr;dd,dy;ka;dd; le;rp;aa,vu;rl;vl;	0
@@ -1908,7 +1908,7 @@ use_preset_vocabulary: true
 元流之子	yuan;uk;aw,ee;mp;ee; liu;kr;di;ko;dv; zhi;hh;dd;ri;dn; zi;aa;aa,vh;hi;va;	0
 源麦甜	yuan;kf;dy;ky;dx; mai;aj;fw;ah;fw; tian;sv;ug;az;qg;	0
 元梦	yuan;uk;aw,ee;mp;ee; meng;wf;mx,xl;el;mx;	0
-元梦之星	yuan;uk;aw,ee;mp;ee; meng;wf;mx,xl;el;mx; zhi;hh;dd;ri;dn; xing;va;ou;ol;ou;	0
+元梦之星	yuan;uk;aw,ee;mp;ee; meng;wf;mx,xl;el;mx; zhi;hh;dd;ri;dn; xing;vg,va;ou;ol;ou;	0
 原木风	yuan;rf;ix;xy;ix; mu;ww;ad;em;an,un; feng;iy;ji;ob;jx;	39
 院人	yuan;bk;ew;tp;ee; ren;ee;pd;jr;pn;	0
 猿神	yuan;bh;qy;mt;qy; shen;hp;uu;fg;pu;	3
@@ -1917,7 +1917,7 @@ use_preset_vocabulary: true
 原神火神首曝	yuan;rf;ix;xy;ix; shen;hp;uu;fg;pu; huo;tt;dd;ch;dr; shen;hp;uu;fg;pu; shou;fs;qz;ho;bz; bao;vo;ob;ok;ou;	0
 原神肯德基	yuan;rf;ix;xy;ix; shen;hp;uu;fg;pu; ken;rl;ov,vo;sv;vo; de;hn;xx;wh;ix; ji;vg;tq,qt;zg;qt;	1
 原神纳塔全员	yuan;rf;ix;xy;ix; shen;hp;uu;fg;pu; na;ee;sn;ij;sn; ta;go;td,th;gd;tk; quan;ea;rw;jn;rw; yuan;om;kb;do;kr;	0
-原生家庭图鉴	yuan;rf;ix;xy;ix; sheng;aa;na;ls;pf; jia;ih;bu;wj;bu; ting;rq;gt;xu;gz; tu;nh;kd;rw;kd; jian;pd,pf;jv;pz;lj;	0
+原生家庭图鉴	yuan;rf;ix;xy;ix; sheng;eg;na;ls;pf; jia;ih;bu;wj;bu; ting;rq;gt;xu;gz; tu;nh;kd;rw;kd; jian;pd,pf;jv;pz;lj;	0
 渊武	yuan;kp;da,dm;kp;dl; wu;dr,ha;vy,yv;fs;av;	0
 原箱	yuan;rf;ix;xy;ix; xiang;ns;vx;rq;vo;	12
 鸳鸯戏	yuan;fc;ne,ny;lx;xn; yang;pc;ny;mx;yn; xi;la;yg;rp;yg;	0
@@ -1939,7 +1939,7 @@ use_preset_vocabulary: true
 云玩	yun;up;es,se;by;es; wan;ak;wy;np;we;	46
 云缨	yun;up;es,se;by;es; ying;ey;sy;ib;sn;	1
 杂交版	za;uf;jm,mj;ke;jm; jiao;iy;li,wf,df;ab;wx; ban;ul;pf;ar;py;	0
-咋解决的	za;ou;kv;dw;kv; jie;gb;jn;xq;dn; jue;fx;dd,dg;wj;dg; de;sh;bu;ui;bu;	3
+咋解决的	za;ou;kv;dw;kv; jie;gb;jn;xq;dn; jue;fx,fe;dd,dg;wj;dg; de;sh;bu;ui;bu;	3
 在高铁上	zai;sg;ta,ut;ng;ut; gao;io;wk;gg;wk; tie;de;ju;zh;ju; shang;pd,pu;aa,ba;yf;la;	0
 再会长江	zai;dg;aa,at;fg;ar; hui;ep;ry;jb;rs; chang;uh;pd;pc;pn; jiang;kp;dg;ku;dg;	0
 在院	zai;sg;ta,ut;ng;ut; yuan;bk;ew;tp;ee;	5
@@ -1969,7 +1969,7 @@ use_preset_vocabulary: true
 掌瓦	zhang;hp;uk,xu,du;su;xu; wa;dh;ad;rw;ad;	0
 张万森	zhang;rh;gi;bp;gi; wan;du;ag,ap;fp;ap; sen;ww;ml;ee;mm;	0
 张晚意	zhang;rh;gi;bp;gi; wan;vk;om;op;ov; yi;bn,cn;xy,lx;xh;lx;	23
-张星特	zhang;rh;gi;bp;gi; xing;va;ou;ol;ou; te;bk;ns;qk;nc;	1
+张星特	zhang;rh;gi;bp;gi; xing;vg,va;ou;ol;ou; te;bk;ns;qk;nc;	1
 张奕然	zhang;rh;gi;bp;gi; yi;ix;dy,wd,yd;zm;wd; ran;fn;hq;vc;ph;	0
 找宝箱	zhao;ja;fg;up;fg; bao;ia,ih;by;wi;by; xiang;ns;vx;rq;vo;	14
 找搭子	zhao;ja;fg;up;fg; da;jo;fd,fh;ud;fk; zi;aa;aa,vh;hi;va;	2
@@ -2018,7 +2018,7 @@ use_preset_vocabulary: true
 直面屏	zhi;sd,su;aa,uq;nf;uq; mian;dd,du;aa;bm;aa; ping;qp,qz;ub;cl;uk;	17
 知妙	zhi;eo;uk,ku;od;uk; miao;yu;nu;bt;nu;	0
 芝小官	zhi;zh;cv;lr;cv; xiao;pf;ad;yx;ld; guan;id;bg,bk;wk;bk;	0
-指性	zhi;jv;fv;uo;fo; xing;na;xu;hl;xu;	3
+指性	zhi;jv;fv;uo;fo; xing;ng,na;xu;hl;xu;	3
 职业间歇假	zhi;df;ev;qh;eb; ye;pd;aa;cy;la; jian;ov;mo,om;ao;mo; xie;ve;qh;oe;or; jia;xl;rj,ry;jr;ry;	0
 挚缘	zhi;jp;uv;uu;fu; yuan;eh;st,su;ij;su;	0
 制造焦虑	zhi;bi;dg,dv;qp;pd; zao;bq;zg;qu;zk; jiao;xn;hv,vh;uc;rh; lv;pn;hx,xh;zh;hx;	136
@@ -2034,7 +2034,7 @@ use_preset_vocabulary: true
 周深起名天才	zhou;oo,uo;kj,kk;md;kk; shen;kw;dm;ke;dm; qi;qt;zj;pv;tj; ming;fo;xk;ld;xk; tian;ue;ad;fm;ad; cai;su,du;ap;nt;ap;	0
 周深新歌缝合	zhou;oo,uo;kj,kk;md;kk; shen;kw;dm;ke;dm; xin;bp;jq;it;lj; ge;je;qg;ze;dr; feng;eq;sf;iu;sz; he;eo;rk;jd;rk;	0
 周深演唱会	zhou;oo,uo;kj,kk;md;kk; shen;kw;dm;ke;dm; yan;kf;dy;kh;db; chang;ov;ki;do;ko; hui;ep;ry;jb;rs;	4
-周生如故	zhou;oo,uo;kj,kk;md;kk; sheng;aa;na;ls;pf; ru;yo;nk;bd;nk; gu;sj;wg;ch;uw;	20
+周生如故	zhou;oo,uo;kj,kk;md;kk; sheng;eg;na;ls;pf; ru;yo;nk;bd;nk; gu;sj;wg;ch;uw;	20
 周校	zhou;oo,uo;kj,kk;md;kk; xiao;wy;mj;eb;mx;	4
 主包	zhu;ig;dw;in;dw; bao;ut;gs;nv;bs;	35
 助播	zhu;pu;lq,ql;fs;ql; bo;jw;ff;uq;ft;	9
@@ -2048,7 +2048,7 @@ use_preset_vocabulary: true
 朱鸢	zhu;ee;pw;ta;nn,pw; yuan;ac;ny,yn;px;yn;	1
 抓大鹅	zhua;jh;fv;uy;fv; da;xx;ad;md;un; e;uc;nw;tx;wn;	0
 抓灵兽	zhua;jh;fv;uy;fv; ling;st;hx,xh;bc;eh; shou;fo;ka,bk;hd;bk;	0
-抓娃娃点映	zhua;jh;fv;uy;fv; wa;yg;ng;bg;nt; wa;yg;ng;bg;nt; dian;pn;hv;yc;lh; ying;vx;oy;om;oy;	0
+抓娃娃点映	zhua;jh;fv;uy;fv; wa;yg;ng;bg;nt; wa;yg;ng;bg;nt; dian;pn;hv;yc;lh; ying;ve,vx;oy;om;oy;	0
 专精装	zhuan;uh;ad,fs;mi;ad; jing;ll;mq;pv;mo; zhuang;lk;yv;at;dy;	1
 专卡	zhuan;uh;ad,fs;mi;ad; ka;ph;bx,ub;yy;ub;	5
 专培	zhuan;uh;ad,fs;mi;ad; pei;go;tk,tp;gd;tk;	45

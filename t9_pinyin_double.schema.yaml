@@ -1,0 +1,172 @@
+# Rime schema
+# encoding: utf-8
+# 适配双键 双拼
+
+__include: double_pinyin_flypy.schema.yaml:/
+
+
+schema:
+  schema_id: t9_pinyin_double
+  name: 简单鹤·9键
+  version: 1
+  author:
+    - zHon
+  description: |
+    九宫格 双拼
+  dependencies:
+    - wanxiang_pinyin_dz   # 万象拼音单字反查
+    - melt_eng # 英文
+    - tiger  # 虎码
+    - JDhe  # 简单鹤 
+
+
+__patch:
+##################################################
+
+
+## 主翻译器
+  translator/prism: t9_pinyin_double 
+
+
+## 拼写设定
+  speller/alphabet/: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`;/~987654&%1*'" 
+  speller/algebra/: 
+    ## 解码规则
+    - derive/^([jqxy])u(;.*)$/$1v$2/
+    - derive/^([aoe])([ioun])(;.*)$/$1$1$2$3/
+    - xform/^([aoe])(ng)?(;.*)$/$1$1$2$3/
+    - xform/^(\w+?)iu(;.*)/$1Ⓠ$2/
+    - xform/^(\w+?)ei(;.*)/$1Ⓦ$2/
+    - xform/^(\w+?)uan(;.*)/$1Ⓡ$2/
+    - xform/^(\w+?)[uv]e(;.*)/$1Ⓣ$2/
+    - xform/^(\w+?)un(;.*)/$1Ⓨ$2/
+    - xform/^(\w+?)uo(;.*)/$1Ⓞ$2/
+    - xform/^(\w+?)ie(;.*)/$1Ⓟ$2/
+    - xform/^(\w+?)i?ong(;.*)/$1Ⓢ$2/
+    - xform/^(\w+?)ing(;.*)/$1Ⓚ$2/
+    - xform/^(\w+?)uai(;.*)/$1Ⓚ$2/
+    - xform/^(\w+?)ai(;.*)/$1Ⓓ$2/
+    - xform/^(\w+?)eng(;.*)/$1Ⓖ$2/
+    - xform/^(\w+?)en(;.*)/$1Ⓕ$2/
+    - xform/^(\w+?)[iu]ang(;.*)/$1Ⓛ$2/
+    - xform/^(\w+?)ang(;.*)/$1Ⓗ$2/
+    - xform/^(\w+?)ian(;.*)/$1Ⓜ$2/
+    - xform/^(\w+?)an(;.*)/$1Ⓙ$2/
+    - xform/^(\w+?)ou(;.*)/$1Ⓩ$2/
+    - xform/^(\w+?)iao(;.*)/$1Ⓝ$2/
+    - xform/^(\w+?)[iu]a(;.*)/$1Ⓧ$2/
+    - xform/^(\w+?)ao(;.*)/$1Ⓒ$2/
+    - xform/^(\w+?)ui(;.*)/$1Ⓥ$2/
+    - xform/^(\w+?)in(;.*)/$1Ⓑ$2/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
+    - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/    
+    ## 辅助码
+    - xform|^(.{2});(.*?);.*$|$1;$2|         #匹配当前方案，转换为 双拼；辅助码（当前方案）的形式
+    - xform|^(\w+?);(.*?);.*$|$1;$2|
+    - derive/^(.{2}|\w+?);.*$/$1/ # 纯双拼的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+
+    - abbrev/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - abbrev/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+    - derive/^(.{2}|\w+?);.*,(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+    # 所有四码：
+    ## 前半部分: 使用xform/，转换，确保第三个码不参与编码，仅有【选择】的作用。
+    - xform/([qadgjmptx][qadgjmptx])(\w\w)/$1Q$2/
+    - xform/([qadgjmptx][wbehknruy])(\w\w)/$1A$2/
+    - xform/([qadgjmptx][cfilosvz])(\w\w)/$1D$2/
+    - xform/([wbehknruy][qadgjmptx])(\w\w)/$1G$2/
+    - xform/([wbehknruy][wbehknruy])(\w\w)/$1J$2/
+    - xform/([wbehknruy][cfilosvz])(\w\w)/$1M$2/
+    - xform/([cfilosvz][qadgjmptx])(\w\w)/$1P$2/
+    - xform/([cfilosvz][wbehknruy])(\w\w)/$1T$2/
+    - xform/([cfilosvz][cfilosvz])(\w\w)/$1X$2/
+    ## 后半部分：使用derive/，派生，确保打到第五码时，候选框有字，有意义。
+    - derive/(\w\w\w)([qadgjmptx][qadgjmptx])/$1$2Q/
+    - derive/(\w\w\w)([qadgjmptx][wbehknruy])/$1$2A/
+    - derive/(\w\w\w)([qadgjmptx][cfilosvz])/$1$2D/
+    - derive/(\w\w\w)([wbehknruy][qadgjmptx])/$1$2G/
+    - derive/(\w\w\w)([wbehknruy][wbehknruy])/$1$2J/
+    - derive/(\w\w\w)([wbehknruy][cfilosvz])/$1$2M/
+    - derive/(\w\w\w)([cfilosvz][qadgjmptx])/$1$2P/
+    - derive/(\w\w\w)([cfilosvz][wbehknruy])/$1$2T/
+    - derive/(\w\w\w)([cfilosvz][cfilosvz])/$1$2X/
+    # 所有三码：
+    # ## 第3码：使用derive/，派生（此处有缺陷：派生后的码最后一位会混入四码的同位置编码，导致重码。）
+    # - derive/(\l\l[qadgjmptx])/$1$2Q/
+    # - derive/(\l\l[wbehknruy])/$1$2A/
+    # - derive/(\l\l[cfilosvz])/$1$2D/
+
+    ## 第3码：使用derive/，派生（用/*`代替，避免重码。
+    ### 注意同步调整speller/alphabet，使其包含/*`符号）; 
+    ### 注意同步speller/auto_select_pattern，增加[/*`]结尾编码的候选唯一自动上屏。
+    - derive/(\l\l)([qadgjmptx])/$1$2\x2F/  # \x2F为"/"的ASCII编码
+    - derive/(\l\l)([wbehknruy])/$1$2*/
+    - derive/(\l\l)([cfilosvz])/$1$2`/
+    ## 前2码：使用xform/，转换
+    - xform/([qadgjmptx][qadgjmptx])(\l)/$1Q$2/
+    - xform/([qadgjmptx][wbehknruy])(\l)/$1A$2/
+    - xform/([qadgjmptx][cfilosvz])(\l)/$1D$2/
+    - xform/([wbehknruy][qadgjmptx])(\l)/$1G$2/
+    - xform/([wbehknruy][wbehknruy])(\l)/$1J$2/
+    - xform/([wbehknruy][cfilosvz])(\l)/$1M$2/
+    - xform/([cfilosvz][qadgjmptx])(\l)/$1P$2/
+    - xform/([cfilosvz][wbehknruy])(\l)/$1T$2/
+    - xform/([cfilosvz][cfilosvz])(\l)/$1X$2/
+    # 所有二码：
+    ## 使用“derive/”，这样打到第二个码时，候选框有字，有意义。
+    - derive/^([qadgjmptx][qadgjmptx])$/$1Q/
+    - derive/^([qadgjmptx][wbehknruy])$/$1A/
+    - derive/^([qadgjmptx][cfilosvz])$/$1D/
+    - derive/^([wbehknruy][qadgjmptx])$/$1G/
+    - derive/^([wbehknruy][wbehknruy])$/$1J/
+    - derive/^([wbehknruy][cfilosvz])$/$1M/
+    - derive/^([cfilosvz][qadgjmptx])$/$1P/
+    - derive/^([cfilosvz][wbehknruy])$/$1T/
+    - derive/^([cfilosvz][cfilosvz])$/$1X/
+
+    # 所有一码：
+    # ## 使用“derive/”，这样打到第一个码时，候选框有字，有意义。
+    - derive/^([qadgjmptx])$/$1\x2F/
+    - derive/^([wbehknruy])$/$1*/
+    - derive/^([cfilosvz])$/$1`/
+    ### 以上灵活使用“derive/”和“xform/”，可以确保候选框随时都有信息，不会存在无意义的空框。
+      #同时让第三和第六码仅有选择的作用而不会扰乱原来的编码（如果使用derive的话，会导致第三和第六码增加重码）
+
+    # ## 删除二码操作后产生的冗余重复码：（上一步使用了^和$，所以不需要了）
+    # - xform/(\u){2}/$1/
+
+    # 将大写字母转换成小写字母
+    - xlit/QWERTYQIOPATDFGHJKLZXCVBNM/qwertyqiopatdfghjklzxcvbnm/
+    ################### /无重码的九键方案 ####################
+
+  ################### 适配九键布局 ###################
+    # （表达式参考自【仓*九宫格】方案的T9拼音穷举）
+    # 相比使用“xlit/”, “derive/”可以兼容原字母键盘，使得字母键盘和九键键盘可以同时使用。
+    - derive/[abc]/%/  # 这里用%代替2，保留数字2的选择功能，方便后续设置分号二选。
+    - derive/[def]/&/  # 这里用&代替3，保留数字3的选择功能，方便后续设置单引号三选。
+    - derive/[ghi]/4/
+    - derive/[jkl]/5/
+    - derive/[mno]/6/
+    - derive/[prs]/7/
+    - derive/[tuv]/8/
+    - derive/[xyz]/9/
+    - derive/[qw]/1/  # 和传统九宫格不同，这里将1键映射到 q 和 w。
+    ################# /适配九键布局 ###################
+
+
+# ……………………………
+

@@ -1,0 +1,25 @@
+patch:
+# [app_options]
+# Weasel 特殊行为的命令行选项
+# WeaselServer.exe /ascii - CLI 中切换 ASCII 模式
+# WeaselServer.exe /nascii - CLI 中切换非 ASCII 模式
+# WeaselSetup.exe /toggleime - 设置系统快捷键用于开启/关闭键盘（0.16.1 以上版本）
+# WeaselSetup.exe /toggleascii - 设置系统快捷键用于切换 ASCII 模式（0.16.1 以上版本）
+# 针对特定应用的设置
+  app_options:
+    firefox.exe:
+      inline_preedit: true   # 行内显示预编辑区：规避 <https://github.com/rime/weasel/issues/946>
+    totalcmd64.exe:             # 文件资源管理工具
+      ascii_mode: true        # true 默认英文,false 默认中文
+    photoshop.exe:              # ps
+      ascii_mode: true
+      inline_preedit:  false   # 行内是否显示预编辑区
+    Illustrator.exe:              # illustrator
+      ascii_mode: true    
+    blender.exe:                  # Blender
+      ascii_mode: true              
+    windowsterminal.exe:        # Windows 终端
+      ascii_mode: true
+    conhost.exe:        # Windows 命令处理处理程序
+      ascii_mode: true
+

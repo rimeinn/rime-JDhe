@@ -1,0 +1,20 @@
+# Rime dictionary
+# encoding: utf-8
+# 自媒体
+#
+---
+name: media
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+完读	wan;ik;by;wp;be; du;ce,cx;ym;sm;yd;	6
+完读率	wan;ik;by;wp;be; du;ce,cx;ym;sm;yd; lv;is;wu;zn;wu;	10
+完播	wan;ik;by;wp;be; bo;jw;ff;uq;ft;	31
+完播率	wan;ik;by;wp;be; bo;jw;ff;uq;ft; lv;is;wu;zn;wu;	100
+大神码字	da;xx;ad;md;un; shen;hp;uu;fg;pu; ma;tz;um;mn;um; zi;ia;bz;wh;bz;	3
+橙瓜	cheng;wd;md;ez;ma; gua;uh;pd;yg;pn;	33
+飞卢	fei;rh;yd;cf;vd; lu;pq;bu;yc;lu;	240
+七猫	qi;aa;ag;rq;av; mao;bw;qm;mq;qt;	30
+橙光	cheng;wd;md;ez;ma; guang;hk;ea,xw;mg;xw;	456
+

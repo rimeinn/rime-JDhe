@@ -1,0 +1,16 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: tiger_spelling_pseudo
+  name: 虎碼·僞方案·勿用勿改
+  version: "20230130"
+  author:
+    - 發明人 ID;PeaceB
+  description: |
+    僞方案，不能打字。
+    不要選我，不要修改本方案及配套词典。
+    僅用於輔助三重註解方案實現註解功能。
+translator:
+  dictionary: tiger_spelling_pseudo
+  enable_user_dict: false

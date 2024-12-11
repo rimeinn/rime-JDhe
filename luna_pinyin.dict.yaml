@@ -1,0 +1,15 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: luna_pinyin
+version: "2020.08.03"
+sort: by_weight
+import_tables:
+  - cn_dicts/pinyin/8105                              # 字表
+  - cn_dicts/pinyin/41448                            # 大字表（按需启用）
+  - cn_dicts/pinyin/base                              # 基础词库
+  - cn_dicts/pinyin/ext                                # 扩展词库
+  - cn_dicts/pinyin/tencent_core                # 腾讯词库中抽取的一些词
+  - cn_dicts/pinyin/others                          # 一些杂项
+...

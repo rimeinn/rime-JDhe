@@ -1,0 +1,118 @@
+# Rime dictionary
+# encoding: utf-8
+# 输入法相关
+#
+---
+name: inputmethod
+version: "2024-07-13"
+sort: by_weight
+...
+打词	da;jj;fd;ua;fd; ci;co;ys;sd;yk;	0
+朙月拼音	ming;;oj;rv;; yue;ll;oy,pa,yt;vy;ka; pin;jp,jz;fb;ul;fk; yin;cc,bv;lo;xy;lo;	2
+墨奇音形	mo;ng;th,ht;pg;ht; qi;xj;dk;mz;dk; yin;cc,bv;lo;xy;lo; xing;uu;pk;fe;kp;	0
+伽布里克	ga;xo;rj;jd;rk; bu;sy;ju,uj;nr;uj; li;vg;aa,tt;dl;la; ke;sk;eg,ux;cp;ue;	0
+墨奇音形的作者是伽布里克	mo;ng;th,ht;pg;ht; qi;xj;dk;mz;dk; yin;cc,bv;lo;xy;lo; xing;uu;pk;fe;kp; de;sh;bu;ui;bu; zuo;xu;rv;jw;rv; zhe;gv;lo,ol;qo;lo; shi;ve;op,ov;ot;or; ga;xo;rj;jd;rk; bu;sy;ju,uj;nr;uj; li;vg;aa,tt;dl;la; ke;sk;eg,ux;cp;ue;	0
+爱次漏的小栏还	ai;hl;vy;yr;py; ci;fe;dq;we;dr; lou;ky;dl,dy;kt;dy; de;sh;bu;ui;bu; xiao;pf;ad;yx;ld; lan;wu;ml;et;ms; hai;dq;zb;cu;zb;	0
+白霜词库	bai;ss;pa,po;ub;po; shuang;ys;yx;tq;yo; ci;co;ys;sd;yk; ku;rt;gi;xy;gi;	0
+白霜拼音	bai;ss;pa,po;ub;po; shuang;ys;yx;tq;yo; pin;jp,jz;fb;ul;fk; yin;cc,bv;lo;xy;lo;	0
+白霜拼音的作者是伽布里克	bai;ss;pa,po;ub;po; shuang;ys;yx;tq;yo; pin;jp,jz;fb;ul;fk; yin;cc,bv;lo;xy;lo; de;sh;bu;ui;bu; zuo;xu;rv;jw;rv; zhe;gv;lo,ol;qo;lo; shi;ve;op,ov;ot;or; ga;xo;rj;jd;rk; bu;sy;ju,uj;nr;uj; li;vg;aa,tt;dl;la; ke;sk;eg,ux;cp;ue;	0
+雾凇词库	wu;yu;yw;ts;yl; song;fp;ds;wk;ds; ci;co;ys;sd;yk; ku;rt;gi;xy;gi;	0
+雾凇拼音	wu;yu;yw;ts;yl; song;fp;ds;wk;ds; pin;jp,jz;fb;ul;fk; yin;cc,bv;lo;xy;lo;	0
+大竹	da;xx;ad;md;un; zhu;nn;gg;ru;gg,pl;	39
+聆竹听风	ling;dp;el;qk;es; zhu;nn;gg;ru;gg,pl; ting;op;kj;dt;kj; feng;iy;ji;ob;jx;	0
+魔然	mo;ds,rs;gm,mg;za;gg; ran;fn;hq;vc;ph;	0
+雾凇鹤	wu;yu;yw;ts;yl; song;fp;ds;wk;ds; he;ic;nv;wx;dn;	0
+小鹤音形	xiao;pf;ad;yx;ld; he;ic;nv;wx;dn; yin;cc,bv;lo;xy;lo; xing;uu;pk;fe;kp;	0
+小鹤音形作者是何海峰	xiao;pf;ad;yx;ld; he;ic;nv;wx;dn; yin;cc,bv;lo;xy;lo; xing;uu;pk;fe;kp; zuo;xu;rv;jw;rv; zhe;gv;lo,ol;qo;lo; shi;ve;op,ov;ot;or; he;xj;rk;jz;rk; hai;kh;dm;kk;dm; feng;pa;uf;va;ef;	0
+哲豆音形	zhe;jo;kv;ud;fk; dou;dd;aa,aq;zd;aa; yin;cc,bv;lo;xy;lo; xing;uu;pk;fe;kp;	0
+鹤形	he;ic;nv;wx;dn; xing;uu;pk;fe;kp;	10
+雾凇自然	wu;yu;yw;ts;yl; song;fp;ds;wk;ds; zi;ss;pa,po;oi;po; ran;fn;hq;vc;ph;	0
+墨奇	mo;ng;th,ht;pg;ht; qi;xj;dk;mz;dk;	0
+墨奇码	mo;ng;th,ht;pg;ht; qi;xj;dk;mz;dk; ma;tz;um;mn;um;	0
+汉心码	han;kl;dy;kr;dy; xin;nn;dd;hx;dd; ma;tz;um;mn;um;	0
+汉心码作者晡时之光	han;kl;dy;kr;dy; xin;nn;dd;hx;dd; ma;tz;um;mn;um; zuo;xu;rv;jw;rv; zhe;gv;lo,ol;qo;lo; bu;vh;of;on;of; shi;vk;oc;ok;oc; zhi;hh;dd;ri;dn; guang;hk;ea,xw;mg;xw;	0
+天码	tian;ue;ad;fm;ad; ma;tz;um;mn;um;	1
+天码输入法的作者是宋天	tian;ue;ad;fm;ad; ma;tz;um;mn;um; shu;ti;iy;yp;id; ru;ee;pd;ju;pn; fa;kp;dq;kk;ds; de;sh;bu;ui;bu; zuo;xu;rv;jw;rv; zhe;gv;lo,ol;qo;lo; shi;ve;op,ov;ot;or; song;iw;bm;we;bm; tian;ue;ad;fm;ad;	0
+易学码	yi;vi;ow;oe;ow; xue;ha;dz,zb;kh;xz; ma;tz;um;mn;um;	0
+墨奇辅助码	mo;ng;th,ht;pg;ht; qi;xj;dk;mz;dk; fu;th;if;yn;if; zhu;pu;lq,ql;fs;ql; ma;tz;um;mn;um;	0
+矧码	shen;ep;uy;og;ul; ma;tz;um;mn;um;	0
+空明码	kong;ip;xg,bg;eu;bg; ming;vl;oo;ov;oo; ma;tz;um;mn;um;	0
+并击	bing;fp,fz;bk,qc;hl;bk; ji;up;aa,eu,fk;um;ak;	10
+星空键道	xing;vg,va;ou;ol;ou; kong;ip;xg,bg;eu;bg; jian;dq;jj;zu;jz; dao;fq;zu;hu;zz;	0
+星猫键道	xing;vg,va;ou;ol;ou; mao;bw;qm;mq;qt; jian;dq;jj;zu;jz; dao;fq;zu;hu;zz;	0
+天行键	tian;ue;ad;fm;ad; xing;hj;xd,xi;px;ii; jian;dq;jj;zu;jz;	0
+灵形速影	ling;st;hx,xh;bc;eh; xing;uu;pk;fe;kp; su;dq;zu;xu;zu; ying;vu;pj;oe;op;	0
+飞码	fei;rh;yd;cf;vd; ma;tz;um;mn;um;	1
+字源	zi;ia;bz;wh;bz; yuan;kf;dy;ky;dx;	87
+虎鹤	hu;pi;hj;zh;hj; he;ic;nv;wx;dn;	18
+鹤虎	he;ic;nv;wx;dn; hu;pi;hj;zh;hj;	0
+龙码	long;sh;ad;tl;ud; ma;tz;um;mn;um;	0
+猫码	mao;bw;qm;mq;qt; ma;tz;um;mn;um;	0
+声笔	sheng;gp;um;gc;up; bi;nr,na;vm;rv;vm;	0
+声笔输入法	sheng;gp;um;gc;up; bi;nr,na;vm;rv;vm; shu;ti;iy;yp;id; ru;ee;pd;ju;pn; fa;kp;dq;kk;ds;	0
+声笔输入法作者戴石麟	sheng;gp;um;gc;up; bi;nr,na;vm;rv;vm; shu;ti;iy;yp;id; ru;ee;pd;ju;pn; fa;kp;dq;kk;ds; zuo;xu;rv;jw;rv; zhe;gv;lo,ol;qo;lo; dai;sf,ha;gg,gy;nh;ub; shi;tt;kp,aa,ak,pk;ms;ak; lin;rp;ll;xv;gl;	0
+戴石麟	dai;sf,ha;gg,gy;nh;ub; shi;tt;kp,aa,ak,pk;ms;ak; lin;rp;ll;xv;gl;	0
+声笔飞码	sheng;gp;um;gc;up; bi;nr,na;vm;rv;vm; fei;rh;yd;cf;vd; ma;tz;um;mn;um;	0
+跟打器	gen;gh;zg;pi;zg; da;jj;fd;ua;fd; qi;oo;kk,qk;dd;kk;	0
+极速跟打器	ji;wh;mj;ec;mj; su;dq;zu;xu;zu; gen;gh;zg;pi;zg; da;jj;fd;ua;fd; qi;oo;kk,qk;dd;kk;	0
+木易跟打器	mu;ww;ad;em;an,un; yi;vi;ow;oe;ow; gen;gh;zg;pi;zg; da;jj;fd;ua;fd; qi;oo;kk,qk;dd;kk;	0
+出简让全	chu;pp;ck,aa;sm;vk; jian;nv;vj;ro;vo; rang;cu,cd;yu;sf;yu; quan;ea;rw;jn;rw;	0
+出简无全	chu;pp;ck,aa;sm;vk; jian;nv;vj;ro;vo; wu;uk;ag,ay,ee;du;ay; quan;ea;rw;jn;rw;	0
+无简无全	wu;uk;ag,ay,ee;du;ay; jian;nv;vj;ro;vo; wu;uk;ag,ay,ee;du;ay; quan;ea;rw;jn;rw;	0
+以词定字	yi;re;rd,ry;vj;vr; ci;co;ys;sd;yk; ding;ie;bp;wt;br; zi;ia;bz;wh;bz;	0
+容错码	rong;io;bg;wh;bk; cuo;dv;jx;zo;jo; ma;tz;um;mn;um;	0
+无理码	wu;uk;ag,ay,ee;du;ay; li;ag;wl;nd;wl; ma;tz;um;mn;um;	1
+有理码	you;sl;ou,uo;nv;uo; li;ag;wl;nd;wl; ma;tz;um;mn;um;	0
+随心码	sui;bq;ey,ez;tu;ez; xin;nn;dd;hx;dd; ma;tz;um;mn;um;	0
+标顶	biao;wf;mu;ef;mx; ding;jm;dy,yd;aw;dr;	0
+顶功	ding;jm;dy,yd;aw;dr; gong;pu;gl,lg;us;gl;	0
+前两码	qian;fi;bd,qd;hp;bd; liang;de;ad;ml;ad; ma;tz;um;mn;um;	2
+后两码	hou;uo;pk;xd;pk; liang;de;ad;ml;ad; ma;tz;um;mn;um;	0
+首形	shou;fs;qz;ho;bz; xing;uu;pk;fe;kp;	0
+末形	mo;ee;ad,am;fe;an; xing;uu;pk;fe;kp;	0
+顶屏	ding;jm;dy,yd;aw;dr; ping;qp,qz;ub;cl;uk;	0
+飞键	fei;rh;yd;cf;vd; jian;dq;jj;zu;jz;	0
+主翻译器	zhu;ig;dw;in;dw; fan;hd;yf;tz;px; yi;cp;yf;su;yl; qi;oo;kk,qk;dd;kk;	0
+五笔输入法作者是王永民	wu;gg;aa;wu;aa; bi;nr,na;vm;rv;vm; shu;ti;iy;yp;id; ru;ee;pd;ju;pn; fa;kp;dq;kk;ds; zuo;xu;rv;jw;rv; zhe;gv;lo,ol;qo;lo; shi;ve;op,ov;ot;or; wang;aa;aa;nw;at; yong;hh;dd;ik;dn; min;rr;ag,kq,vg;dm;vv;	0
+王旁青头戋五一	wang;aa;aa;nw;at; pang;if;wf,lf;il;wf; qing;al;of,fo;av;fo; tou;hx;dd;wm;dd; jian;aa;ad,ga;fp;ad; wu;gg;aa;wu;aa; yi;dd;aa;fi;aa;	0
+土士二干十寸雨	tu;gg;aa;gt;ua; shi;gg;aa;gs;ua; er;uu;aa;me;aa; gan;ss;aa;eg;au; shi;ss;aa;ns;al; cun;kk;ad;kc;ad; yu;yy;ad;tv;ad;	1
+一二还有革字底	yi;dd;aa;fi;aa; er;uu;aa;me;aa; hai;dq;zb;cu;zb; you;sl;ou,uo;nv;uo; ge;vs;aa,ca;tg;nl; zi;ia;bz;wh;bz; di;rh;gd;xi;gd;	0
+大犬三羊古石厂	da;xx;ad;md;un; quan;bb;dd,ad;mq;dd; san;uu;aa;ts;ae; yang;fp;da;gy;bl; gu;so;uk;cg;uk; shi;tt;kp,aa,ak,pk;ms;ak; chang;rr;ap;xc;ap;	2
+木丁西	mu;ww;ad;em;an,un; ding;jj;aa;ad;al; xi;pp;aa;vx;aa;	1
+工戈草头右框七	gong;pp;aa;ug;aa; ge;aa,ha;ad;pg;ad; cao;zs;cz;ln;cu; tou;hx;dd;wm;dd; you;so;ku,uk;nd;uk; kuang;wr;mk;en;mw; qi;aa;ag;rq;av;	1
+王旁青头戋五一土士二干十寸雨	wang;aa;aa;nw;at; pang;if;wf,lf;il;wf; qing;al;of,fo;av;fo; tou;hx;dd;wm;dd; jian;aa;ad,ga;fp;ad; wu;gg;aa;wu;aa; yi;dd;aa;fi;aa; tu;gg;aa;gt;ua; shi;gg;aa;gs;ua; er;uu;aa;me;aa; gan;ss;aa;eg;au; shi;ss;aa;ns;al; cun;kk;ad;kc;ad; yu;yy;ad;tv;ad;	0
+王旁青头戋五一土士二干十寸雨一二还有革字底大犬三羊古石厂木丁西工戈草头右框七	wang;aa;aa;nw;at; pang;if;wf,lf;il;wf; qing;al;of,fo;av;fo; tou;hx;dd;wm;dd; jian;aa;ad,ga;fp;ad; wu;gg;aa;wu;aa; yi;dd;aa;fi;aa; tu;gg;aa;gt;ua; shi;gg;aa;gs;ua; er;uu;aa;me;aa; gan;ss;aa;eg;au; shi;ss;aa;ns;al; cun;kk;ad;kc;ad; yu;yy;ad;tv;ad; yi;dd;aa;fi;aa; er;uu;aa;me;aa; hai;dq;zb;cu;zb; you;sl;ou,uo;nv;uo; ge;vs;aa,ca;tg;nl; zi;ia;bz;wh;bz; di;rh;gd;xi;gd; da;xx;ad;md;un; quan;bb;dd,ad;mq;dd; san;uu;aa;ts;ae; yang;fp;da;gy;bl; gu;so;uk;cg;uk; shi;tt;kp,aa,ak,pk;ms;ak; chang;rr;ap;xc;ap; mu;ww;ad;em;an,un; ding;jj;aa;ad;al; xi;pp;aa;vx;aa; gong;pp;aa;ug;aa; ge;aa,ha;ad;pg;ad; cao;zs;cz;ln;cu; tou;hx;dd;wm;dd; you;so;ku,uk;nd;uk; kuang;wr;mk;en;mw; qi;aa;ag;rq;av;	0
+宇浩输入法	yu;is;by;wn;by; hao;ko;dg;kd;dk; shu;ti;iy;yp;id; ru;ee;pd;ju;pn; fa;kp;dq;kk;ds;	1
+宇浩输入法作者是朱宇浩	yu;is;by;wn;by; hao;ko;dg;kd;dk; shu;ti;iy;yp;id; ru;ee;pd;ju;pn; fa;kp;dq;kk;ds; zuo;xu;rv;jw;rv; zhe;gv;lo,ol;qo;lo; shi;ve;op,ov;ot;or; zhu;ee;pw;ta;nn,pw; yu;is;by;wn;by; hao;ko;dg;kd;dk;	0
+光華	guang;hk;ea,xw;mg;xw; hua;;ca;lu;;	1
+星陳	xing;vg,va;ou;ol;ou; chen;;ed;to;;	0
+卿云	qing;ub;mg,mj;bi;pe; yun;up;es,se;by;es;	16
+识别码	shi;cf;yv;sh;yb; bie;oi;dl;dp;kd; ma;tz;um;mn;um;	145
+音托	yin;cc,bv;lo;xy;lo; tuo;ja,jr;fq,ft;ur;fq;	0
+回头码	hui;no;kk;rd;kk; tou;hx;dd;wm;dd; ma;tz;um;mn;um;	0
+音形码	yin;cc,bv;lo;xy;lo; xing;uu;pk;fe;kp; ma;tz;um;mn;um;	2
+冰雪拼音	bing;fo;du;wk;du; xue;ys;yx;tb;ye; pin;jp,jz;fb;ul;fk; yin;cc,bv;lo;xy;lo;	0
+冰雪拼音作者蓝落萧	bing;fo;du;wk;du; xue;ys;yx;tb;ye; pin;jp,jz;fb;ul;fk; yin;cc,bv;lo;xy;lo; zuo;xu;rv;jw;rv; zhe;gv;lo,ol;qo;lo; lan;zd,za;cj;la;cm; luo;zo;cl;ls;ck; xiao;zf;cs;lh;cs;	0
+亾师	wang;er;ra,rv;fw;; shi;py;ab,aj,db,dj;pr;lj;	0
+蔃师	qiang;zf;cq;lc;ci; shi;py;ab,aj,db,dj;pr;lj;	0
+蒻师	ruo;zf;cr;lw;cd; shi;py;ab,aj,db,dj;pr;lj;	0
+爱师	ai;hl;vy;yr;py; shi;py;ab,aj,db,dj;pr;lj;	0
+晡时之光	bu;vh;of;on;of; shi;vk;oc;ok;oc; zhi;hh;dd;ri;dn; guang;hk;ea,xw;mg;xw;	0
+鲸师	jing;qf;yj;wy;ax; shi;py;ab,aj,db,dj;pr;lj;	0
+清凉鹤	qing;kl;dq;kv;do; liang;ff;dj;wy;dx; he;ic;nv;wx;dn;	0
+九重魔鹤	jiu;ur;py;kj;pv; zhong;sg;pa,ql;ld;pa; mo;ds,rs;gm,mg;za;gg; he;ic;nv;wx;dn;	0
+鲸凉鹤	jing;qf;yj;wy;ax; liang;ff;dj;wy;dx; he;ic;nv;wx;dn;	0
+看打	kan;us;ou,uo;uq;uo; da;jj;fd;ua;fd;	0
+跟打	gen;gh;zg;pi;zg; da;jj;fd;ua;fd;	45
+想打	xiang;wn;xx;eh;mx; da;jj;fd;ua;fd;	703
+自在飞扬	zi;ss;pa,po;oi;po; zai;sg;ta,ut;ng;ut; fei;rh;yd;cf;vd; yang;ju;fy;ue;fp;	0
+苗师	miao;zw;ct;lq;ct; shi;py;ab,aj,db,dj;pr;lj;	1
+墨奇码拆	mo;ng;th,ht;pg;ht; qi;xj;dk;mz;dk; ma;tz;um;mn;um; chai;jh;fi;ui;fi;	0
+墨奇码拆字规则	mo;ng;th,ht;pg;ht; qi;xj;dk;mz;dk; ma;tz;um;mn;um; chai;jh;fi;ui;fi; zi;ia;bz;wh;bz; gui;ek;fj,jf;he;fe; ze;mi;bd,db;op;kd;	0
+仓输入法	cang;et;re;jz;rv; shu;ti;iy;yp;id; ru;ee;pd;ju;pn; fa;kp;dq;kk;ds;	0
+混输模式	hun;ka;dk;kv;db; shu;ti;iy;yp;id; mo;wx;mm;em;md; shi;ha,ap;gy,yg;pu;yg;	0
+小字集	xiao;pf;ad;yx;ld; zi;ia;bz;wh;bz; ji;xw;mv,vm;ue;rm;	0
+大字集	da;xx;ad;md;un; zi;ia;bz;wh;bz; ji;xw;mv,vm;ue;rm;	0
+整句模式	zheng;dr;vi,vw;xs;uv; ju;ii;gk,kg,pk;gj;bk; mo;wx;mm;em;md; shi;ha,ap;gy,yg;pu;yg;	0
+字词模式	zi;ia;bz;wh;bz; ci;co;ys;sd;yk; mo;wx;mm;em;md; shi;ha,ap;gy,yg;pu;yg;	0
+

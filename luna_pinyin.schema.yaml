@@ -1,0 +1,102 @@
+# Rime schema
+# encoding: utf-8
+# 本方案匹配词库解码顺序为：全拼拼音;简单鹤;自然码;虎码首末;官版鹤形
+#############DIY你想要的方案组合吧###########################
+set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
+  __include: config_pinyin:/algebra_pinyin  #可选解码规则有   algebra_pinyin(全拼), algebra_zrm(自然码), algebra_flypy(小鹤双拼)  选择一个填入
+set_algebra_fuzhu:        #配置此项就是选择什么辅助码
+  __include: config_pinyin:/fuzhu_kong # 可选辅助码有：fuzhu_kong(空 无辅助码)，fuzhu_jdh(简单鹤), fuzhu_zrm(自然码), fuzhu_tiger(虎码), fuzhu_flypy(官鹤音形) 选择一个填入
+########################以下是方案配置######################################################
+schema:
+  schema_id: luna_pinyin
+  name: 朙月拼音
+  version: '2024.11.07'
+  author:
+    - 佛振 <chen.sst@gmail.com>
+    - Dvel    
+    - 方案修改：zHon       
+  description: |
+    Rime 預設的拼音輸入方案。
+    雾凇拼音 <https://github.com/iDvel/rime-ice>
+    白霜拼音 <https://github.com/gaboolic/rime-frost>
+  dependencies:
+    - wanxiang_pinyin_dz   # 万象拼音单字反查
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中, En ]
+  - name: full_shape
+    states: [ 半, 全 ]  # 符号
+  - name: ascii_punct
+    states: [ 。，, ．， ] # 中文标点，英文标点 
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - script_translator
+  filters:
+    - uniquifier
+
+# 拼写设定
+speller:
+  # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
+  alphabet: zyxwvutsrqponmlkjihgfedcba;/
+  # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
+#  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  delimiter: " '"  # 第一位<空格>
+  algebra:
+    __patch:
+      - set_shuru_schema     #输入解码规则
+      - set_algebra_fuzhu    #辅助码部分
+#      - config_pinyin:/abbreviation         #简拼
+      - config_pinyin:/spelling_correction # 容错拼写
+      - config_pinyin:/key_correction # 自动纠正一些常见的按键错误
+
+# 主翻译器，拼音
+translator:
+  dictionary: luna_pinyin            # 挂载词库
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+# 万象拼音单字反查
+reverse_lookup:
+  dictionary: wanxiang_pinyin_dz
+  prefix: "`"
+  tips: "〔单字〕"
+  comment_format:
+    - "xform/^/ /"
+    - xform/([nl])v/$1ü/
+
+# 标点符号
+punctuator:
+  import_preset: default  # 从 default.yaml 继承通用的 
+
+# 快捷键设置
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[A-Za-z]+)$"  # 响应 symbols
+    reverse_lookup: "`[a-z]*'?$" # 响应反查 
+    uppercase: "" #中文状态大写锁定直接上屏

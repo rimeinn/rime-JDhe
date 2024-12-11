@@ -1,0 +1,258 @@
+patch:
+  __include: config_base:/patch
+
+  schema/name: 简单鹤·字词
+  schema/icon: ico/鹤.ico           # string 方案图标，格式： .ico
+  schema/dependencies/+: 
+    - wanxiang_pinyin_dz   # 万象拼音单字反查
+    - melt_eng # 英文
+    - double_pinyin_flypy  # 小鹤双拼  
+    - tiger  # 虎码
+
+
+  # 四码单字过滤开关 默认词组
+#  switches/@08/reset: 0
+
+# [style]
+# 字体；候选项、候选窗口的行为、布局及样式
+  style/color_scheme: win11light      # 浅色模式下，配色方案
+  style/color_scheme_dark: win11dark                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
+  style/horizontal: true # 候选词 true 为横排，竖排为 false
+  style/inline_preedit: true   # 行内显示预编辑区：true；false
+  style/candidate_list_layout: stacked        # macOS 候选项排列方向 stacked(竖排) | linear  
+  style/layout/margin_x: 7
+  style/layout/margin_y: 7  
+  style/layout/hilite_padding: 3  
+  style/hilited_corner_radius: 6                   # macOS选中框 圆角半径  
+  style/layout/max_width: 250                           # 候选框最大宽度，文本竖排模式下如高度超此尺寸则换列显示候选，设置为 0 则不启用此功能 
+  style/preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
+
+##################################################
+
+  # 英文临时输入标识
+  'engine/segmentors/@after 02': affix_segmentor@Eng 
+  # 英文临时输入（E）
+  'engine/translators/@after 03': table_translator@Eng
+# 英文翻译器
+  Eng:
+    tag: Eng
+    dictionary: melt_eng
+    enable_completion: true
+    enable_sentence: false
+    enable_user_dict: false
+    prefix: "E"
+    tips: 〔En〕
+    comment_format:
+      - xform/^.+$//  
+  # 响应 临时英文输入
+  recognizer/patterns/Eng: "^E[A-Z|a-z]*`?$"  
+
+##################################################
+
+  # 临时小鹤双拼标识
+  'engine/segmentors/@after 03': affix_segmentor@double_pinyin_flypy
+  # 音码翻译器 临时小鹤双拼混输
+  'engine/translators/@after 04': script_translator@double_pinyin_flypy
+
+# 次翻译器 小鹤双拼(临时音码混输）
+  double_pinyin_flypy:
+    dictionary: luna_pinyin.extended                            # 挂载词库
+    enable_encoder:  true                  # 是否启用 自动造词  
+    enable_sentence:  true                 # 是否启用造句模式
+    encode_commit_history: false     # 是否对已上屛词自动成词  
+    enable_completion: false              #  编码提示开关（提前显示尚未输入完整码的字）
+    enable_user_dict: true                 # 是否启用用户词典（记录动态字词频、自造词）
+    initial_quality: 10                           #初始权重应比其他高  
+    preedit_format:  # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
+      __include: flypy_preedit_format
+    tag: double_pinyin_flypy
+    prefix: "O"    
+    tips: "〔双拼〕"
+    disable_user_dict_for_patterns: 
+      - "^[a-z;,./]$"           # 禁止单码字调频
+      - "^[a-z;,./][a-z;,./]$"  # 禁止双码字调频
+
+# 反查：鹤双虎形单字  与词组交换引导按键
+  reverse_lookup/prefix: "~"    
+# 响应反查  (替换主方案原反查的引导符)  
+  recognizer/patterns/reverse_lookup: "^~[a-z]*'?$" 
+# 响应小鹤双拼临时输入   
+  recognizer/patterns/double_pinyin_flypy: "^O([a-z]+'?)*$"     
+
+##################################################
+
+  # 强制删词, 隐藏词组
+  'engine/processors/@after 00': lua_processor@*jdh/cold_word_drop*processor
+  # 删词, 隐词,降频 (Ctrl+D、Ctrl+X、Ctrl+J)  
+  'engine/filters/@after 00': lua_filter@*jdh/cold_word_drop*filter
+  # lua 快捷键
+  key_binder/drop_cand: "Control+d"            # 强制删词, 无视输入的编码
+  key_binder/ehide_cand: "Control+x"            # 匹配当前输入码后隐藏指定的候选字词
+  key_binder/reduce_fq_cand: "Control+j"       # 匹配当前输入码后降频指定的候选字词
+
+  # Lua 配置:  Ctrl+J 将词条降频到第 idx 个位置
+  cold_word_reduce:                   
+    idx: 4
+
+##################################################
+
+  # 中英混合词汇
+  'engine/translators/@after 05': table_translator@cn_en    
+
+  # 中英混合词汇
+  cn_en:
+    dictionary: ""
+    user_dict: en_dicts/cn_en_jdh
+    db_class: stabledb
+    enable_completion: true   # 补全提醒
+    enable_sentence: false      # 禁止造句
+    initial_quality: 0.5
+    comment_format:
+      - xform/^.+$//
+
+##################################################
+
+  # 自定义置顶词 快捷键响应
+  'engine/processors/@after 01': lua_processor@*jdh/pin_word*processor
+  # 自定义置顶词 ctrl-t
+  'engine/translators/@after 07': lua_translator@*jdh/pin_word*translator
+  # 替换掉雾凇版本自定义置顶词  （需配置 config_base 里的置顶词配置）
+  'engine/filters/@07': lua_filter@*jdh/pin_word*filter
+
+  # lua 快捷键
+  key_binder/pin_cand: "Control+t"             # 候选词置顶
+  key_binder/unpin_cand: "Control+t"           # 候选词取消置顶
+
+
+  # Lua 配置:  Ctrl+J 将词条降频到第 idx 个位置
+  pin_word:                           # 词条置顶配置
+    word_quality: 1000
+    comment_mark: "ᵀᴼᴾ"               # 置顶词标记
+
+
+
+##################################################
+
+##################################################
+
+  # 临时虎码反查标识
+  'engine/segmentors/@after 04': affix_segmentor@tiger_lookup
+  # 虎码反查（~）
+  'engine/translators/@after 06': table_translator@tiger_lookup
+  # 虎码反查显示编码
+  'engine/filters/@after 02': reverse_lookup_filter@tiger_reverse_lookup
+
+  # 虎码反查
+  tiger_lookup:
+    tag: tiger_lookup
+    dictionary: tiger
+    enable_user_dict: false
+    enable_completion: false              #  编码提示开关（提前显示尚未输入完整码的字）
+    prefix: "~"
+    tips: "〔虎码〕"
+    comment_format:
+      - "xform/^/ /"
+
+  tiger_reverse_lookup: 
+    dictionary: JDhe
+    tags: [ tiger_lookup ]
+
+
+  # 响应 临时虎码反查
+  recognizer/patterns/tiger_lookup: "^~[a-z]*'?$"  
+
+# 反查：鹤双虎形单字  (将虎码方案中的反查引导键改为无)  
+  reverse_lookup/prefix: null    
+# 响应反查  (将虎码方案中的反查引导改为通配反查)  
+  recognizer/patterns/reverse_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`|[a-z][a-z]`)))"
+
+
+
+##################################################
+
+  # 顶词空格单 正则按键绑定处理器
+#  'engine/processors/@after 01': lua_processor@*jdh/key_binder
+  # 顶词空格单 顶功处理器
+#  'engine/processors/@after 02': lua_processor@*jdh/popping
+
+  # 再次增加快捷键
+#  __patch: 
+#    key_binder/bindings/+: 
+    # 顶词空格单 空格次选
+#      - {accept: " ", match: "[a-z]{4}", send_sequence: 2}
+    # 顶词空格单 ` or / 首选
+#      - {accept: "`", match: "[a-z]{4}", send_sequence: 1}
+#      - {accept: "/", match: "[a-z]{4}", send_sequence: 1}
+
+##################################################
+
+
+
+##################################################
+
+
+
+  # Lua 配置: 自定义字集过滤 （影响范围）
+  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst, double_pinyin_flypy, tiger_lookup ] 
+
+  # Lua 配置: 自定义字集过滤 （影响范围）
+  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst, double_pinyin_flypy ] 
+
+  # Lua 配置: 虎码三重注解 隐藏除反查外的显示
+  spelling/tags: [ reverse_lookup, unicode ]
+
+  # Lua 配置：农历的触发关键字
+  lunar: /nl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
+
+
+  # 再次增加快捷键
+  __patch: 
+    key_binder/bindings/+: 
+     # 打字时，' 选中第3个候选字发送 (音码方案需要此键 分词，形码单独启用)
+      - { accept: apostrophe, send: 3, when: has_menu} 
+
+
+# 拼写设定
+# 不直接上屏的标点
+  speller/alphabet/+: "zyxwvutsrqponmlkjihgfedcba;/`NUO" 
+ # 是否开启无重码时自动上屏
+  speller/auto_select: true   
+ # 空码清屏
+  speller/auto_clear: max_length # 3种选择， manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
+
+####【以下为增加引用配置】
+
+# 将小鹤双拼上屏编码转换为全拼
+flypy_preedit_format:
+    - xform/([bpmfdtnljqx])n/$1iao/
+    - xform/(\w)g/$1eng/
+    - xform/(\w)q/$1iu/
+    - xform/(\w)w/$1ei/
+    - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
+    - xform/(\w)t/$1ve/
+    - xform/(\w)y/$1un/
+    - xform/([dtnlgkhvuirzcs])o/$1uo/
+    - xform/(\w)p/$1ie/
+    - xform/([jqx])s/$1iong/
+    - xform/(\w)s/$1ong/
+    - xform/(\w)d/$1ai/
+    - xform/(\w)f/$1en/
+    - xform/(\w)h/$1ang/
+    - xform/(\w)j/$1an/
+    - xform/([gkhvuirzcs])k/$1uai/
+    - xform/(\w)k/$1ing/
+    - xform/([jqxnl])l/$1iang/
+    - xform/(\w)l/$1uang/
+    - xform/(\w)z/$1ou/
+    - xform/([gkhvuirzcs])x/$1ua/
+    - xform/(\w)x/$1ia/
+    - xform/(\w)c/$1ao/
+    - xform/([dtgkhvuirzcs])v/$1ui/
+    - xform/(\w)b/$1in/
+    - xform/(\w)m/$1ian/
+    - xform/([aoe])\1(\w)/$1$2/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
+    - xform/([jqxy])v/$1u/
+    - xform/([nl])v/$1ü/
