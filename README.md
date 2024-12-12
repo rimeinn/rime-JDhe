@@ -45,6 +45,10 @@ Rime 输入法配置方案，小鹤双拼+**简单鹤**乱序字根辅助方案+
   - Unicode（<kbd>U</kbd>+Unicode 码位）（取自 [雾凇拼音](https://github.com/iDvel/rime-ice)）
   - 数字、人民币大写、简易计算器（<kbd>=</kbd> + 数字 或 算式）（取自 [空山五笔](https://github.com/mrshiqiqi/rime-wubi)）
   - 日期、时间、星期、农历（<kbd>/</kbd>+wd、wt、wk、nl 农历可加数字输入。<kbd>o</kbd> 加对应的简拼也可以，如orq、oxq、osj、onl、）（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
+  - Emoji 表情符号排序后置 （详见配置 `config_base.yaml/emoji_reduce` 节点）（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
+  - 字集切换开关（区分常用单字和全字集）（取自 [虎码输入方案](https://github.com/ywxt/rime-huma?tab=readme-ov-file)）
+  - 虎码拆字3重注释（已被本人修改为3.5重，0.5重为仅显示拼音，作为其他方案的拼音滤镜）（取自 [虎码输入方案](https://github.com/ywxt/rime-huma?tab=readme-ov-file)）
+  - 字词候选嵌入输入栏开关（取自 [宇浩输入方案](https://github.com/forFudan/yuhao)）
   
   
 
