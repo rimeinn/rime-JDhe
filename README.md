@@ -143,4 +143,6 @@ ctrl+~切换方案 (简单鹤用户请在开关中开启 「固词」，体验�
 - [雾凇拼音](https://github.com/iDvel/rime-ice) 接触RIME输入法时第一个遇到的方案，详细的注释，使得我能快速上手
 - [飞鹤快拼](https://github.com/boomker/rime-fast-xhup) 本方案中大部分特殊功能的Lua，皆来自此方案。
 - [部件拆字方案](https://github.com/mirtlecn/rime-radical-pinyin) 提供的拆字反查
+- [白霜拼音](https://github.com/gaboolic/rime-frost) 本方案的拼音词库与码表转换的脚本来自此方案
+- [万象拼音](https://github.com/gaboolic/rime-frost) 双拼与全拼辅码映射规则，皆参考自此方案
 
