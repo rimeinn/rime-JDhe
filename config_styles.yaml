@@ -1,0 +1,191 @@
+patch:
+  # 是否显示状态变化的通知：true；false；option_list（方案内的开头 option）
+  show_notifications: true
+  # 通知显示的时间，单位 ms
+  show_notifications_time: 500
+  # 切换为 ascii 模式时，是否影响所有窗口：true；false
+  global_ascii: false
+
+  # [preset_color_schemes]
+  # 配色设定
+  __include: config_color_schemes:/patch
+  # [app_options]
+  # 针对特定应用的设置
+  __include: config_app_options:/patch
+
+  # 字体设置
+  __include: font_face_settings
+  # 字体大小设置
+  __include: font_size_settings
+  # 布局设置
+  __include: layout settings  #仿微信
+
+
+
+  style/inline_preedit: false   # 行内显示预编辑区：true；false
+  style/horizontal: false # 候选词 true 为横排，竖排为 false
+  style/fullscreen: false                        # 候选窗口全屏显示：true；false
+  style/hover_type: none                         # 鼠标在候选窗口悬停时：none（无动作）；hilite（选中鼠标下的候选）；semi_hilite（高亮鼠标下的候选）
+  style/click_to_capture: false                  # 鼠标点击候选项，创建截图：true；false
+  style/antialias_mode: grayscale    # 次像素反锯齿设定：default；force_dword；cleartype；grayscale；aliased
+  style/vertical_auto_reverse: false             # 文本竖排模式下，候选窗口位于光标上方时倒序排列：true；false
+  style/candidate_abbreviate_length: 30          # 候选项略写，超过此数字则用省略号代替。设置为 0 则不启用此功能
+  style/label_format: "\u2005\u2006%s"                       # 标签字符：例如 %s. 效果为 1. 2. 3. .... ，\u2005\u2006%s 效果为留空
+
+#  style/layout/linespacing: 0                         # 字号百分比，参考 <https://github.com/rime/weasel/pull/1177>
+#  style/layout/baseline: 0                            # 字号百分比，与 linespacing 一同设置可解决字体跳动问题，设置为 0 为禁用
+
+
+  # 字体大小设置
+font_size_settings:
+  style/font_point:         14                           # 全局字体字号
+  style/label_font_point:   11                     # 标签字体字号
+  style/comment_font_point: 13                   # 注释字体字号
+
+  # 字体设置
+font_face_settings:
+  style/font_face:          "Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, 霞鹜文楷 GB 屏幕阅读版, 苹方, Microsoft YaHei, SF Pro, Noto Color Emoji, MiSans L3,"
+  style/label_font_face:    "Segoe UI Emoji:30:39, WB091:E000:E200, Noto Color Emoji SVG, Arial:600:6ff, LXGW Wenkai"
+  style/comment_font_face:  "Microsoft YaHei, TumanPUA, Segoe UI Emoji:30:39, LXGW Wenkai :7c:7c, Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, LXGW Wenkai, Segoe UI Emoji, WB091:E000:E200, Noto Color Emoji SVG, Arial:600:6ff"
+
+
+
+rime_ice:
+  #layout settings
+  style/layout/align_type: center # 标签、候选文字、注解文字之间的相对对齐方式：top ; center ; bottom
+  style/layout/min_height: 0                          # 候选框最小高度
+  style/layout/border_width: 2                       # 边框宽度；又名 border
+  style/layout/spacing: 13                              # inline_preedit 为否时，编码区域和候选区域的间距
+  style/layout/candidate_spacing: 22                  # 候选项之间的间距
+  style/layout/shadow_radius: 0                       # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
+  style/layout/shadow_offset_x: 4                     # 阴影左右偏移距离
+  style/layout/shadow_offset_y: 4                     # 阴影上下偏移距离
+  style/layout/hilite_padding: 8                      # 高亮区域和内部文字的间距，影响高亮区域大小
+  style/layout/hilite_spacing:  6                      # 候选项和相应标签的间距
+  style/layout/margin_x:  8                            # 主体元素和候选框的左右边距；为负值时，不显示候选框
+  style/layout/margin_y:  8                            # 主体元素的上下边距；为负值时，不显示候选框
+  style/layout/round_corner:  8                        # 候选背景色块圆角半径，又名 hilited_corner_radius
+  style/layout/corner_radius:   8                       # 候选窗口圆角半径
+
+
+layout settings:  #仿微信
+  style/mark_text: ""                           # 标记字符，显示在选中的候选标签前，需要在配色方案中指定颜色；如该项为空字符串 "" 而配色方案中 hilited_mark_color 非透明色，则显示 Windows 11 输入法风格标记
+  style/preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
+  style/layout/align_type: center                     # 标签、候选文字、注解文字之间的相对对齐方式：top ; center ; bottom
+  style/layout/max_height: 0                        # 候选框最大高度，horizontal 布局如宽超此尺寸则换行显示候选，设置为 0 不启用此功能
+  style/layout/max_width: 0                           # 候选框最大宽度，文本竖排模式下如高度超此尺寸则换列显示候选，设置为 0 则不启用此功能 
+  style/layout/min_height: 0                          # 候选框最小高度
+  style/layout/min_width: 0                          # 候选框最小宽度
+  style/layout/border_width: 1                        # 边框宽度；又名 border
+  style/layout/margin_x: 5                            # 主体元素和候选框的左右边距；为负值时，不显示候选框
+  style/layout/margin_y: 5                            # 主体元素的上下边距；为负值时，不显示候选框
+  style/layout/spacing: 10                            # inline_preedit 为否时，编码区域和候选区域的间距
+  style/candidate_spacing: 6                  # 候选项之间的间距
+  style/hilite_spacing: 4                      # 候选项和相应标签的间距
+  style/hilite_padding: 3                      # 选中区域和内部文字的间距，影响选中区域大小
+  style/shadow_radius: 0                       # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
+  style/shadow_offset_x: 2                     # 阴影左右偏移距离
+  style/shadow_offset_y: 2                     # 阴影上下偏移距离
+  style/corner_radius: 7                       # 候选窗口圆角半径
+  style/round_corner: 7                        # 候选背景色块圆角半径，又名 
+
+layout settings2:  #无圆角
+  style/mark_text: ""                           # 标记字符，显示在选中的候选标签前，需要在配色方案中指定颜色；如该项为空字符串 "" 而配色方案中 hilited_mark_color 非透明色，则显示 Windows 11 输入法风格标记
+  style/preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
+  style/layout/align_type: center                     # 标签、候选文字、注解文字之间的相对对齐方式：top ; center ; bottom
+  style/layout/max_height: 0                        # 候选框最大高度，horizontal 布局如宽超此尺寸则换行显示候选，设置为 0 不启用此功能
+  style/layout/max_width: 0                           # 候选框最大宽度，文本竖排模式下如高度超此尺寸则换列显示候选，设置为 0 则不启用此功能 
+  style/layout/min_height: 0                          # 候选框最小高度
+  style/layout/min_width: 0                          # 候选框最小宽度
+  style/layout/border_width: 1                        # 边框宽度；又名 border
+  style/layout/margin_x: 4                            # 主体元素和候选框的左右边距；为负值时，不显示候选框
+  style/layout/margin_y: 4                            # 主体元素的上下边距；为负值时，不显示候选框
+  style/layout/spacing: 10                            # inline_preedit 为否时，编码区域和候选区域的间距
+  style/candidate_spacing: 6                  # 候选项之间的间距
+  style/hilite_spacing: 4                      # 候选项和相应标签的间距
+  style/hilite_padding: 4                      # 选中区域和内部文字的间距，影响选中区域大小
+  style/shadow_radius: 0                       # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
+  style/shadow_offset_x: 4                     # 阴影左右偏移距离
+  style/shadow_offset_y: 4                     # 阴影上下偏移距离
+  style/corner_radius: 7                       # 候选窗口圆角半径
+  style/round_corner: 7                        # 候选背景色块圆角半径，又名 
+
+
+
+
+
+
+
+
+
+
+
+
+
+##################################################
+win10:
+  style/horizontal: false
+  style/inline_preedit: true
+  style/color_scheme: win10lightblue
+  style/color_scheme_dark: win10gray
+
+win11:
+  style/horizontal: true
+  style/inline_preedit: true
+  # color_scheme settings
+  style/color_schem_darke: win11dark2
+  style/color_scheme: win11light
+  __include: layout_offset2
+
+layout_square:
+  #layout settings
+  style/layout/align_type: center
+  style/layout/min_height: 0
+  style/layout/border: 1
+  style/layout/spacing: 20
+  style/layout/candidate_spacing: 10
+  style/layout/shadow_radius:   0
+  style/layout/shadow_offset_x: 0
+  style/layout/shadow_offset_y: 0
+  style/layout/hilite_padding:  10
+  style/layout/hilite_spacing:  15
+  style/layout/margin_x:  10
+  style/layout/margin_y:  10
+  style/layout/round_corner:    0
+  style/layout/corner_radius:   0
+
+layout_offset:
+  # layout settings
+  style/layout/align_type: center
+  style/layout/min_height: 0
+  style/layout/border: 2
+  style/layout/spacing: 20
+  style/layout/candidate_spacing: 20
+  style/layout/shadow_radius:    8
+  style/layout/shadow_offset_x: -3
+  style/layout/shadow_offset_y:  3
+  style/layout/hilite_spacing: 10
+  style/layout/hilite_padding_x:  10
+  style/layout/hilite_padding_y:  5
+  style/layout/margin_x:  20
+  style/layout/margin_y:  15
+  style/layout/round_corner:    5
+  style/layout/corner_radius:   15
+
+layout_offset2:
+  # layout settings
+  style/layout/align_type: center
+  style/layout/min_height: 0
+  style/layout/border: 2
+  style/layout/spacing: 10
+  style/layout/candidate_spacing: 15
+  style/layout/shadow_radius:    6
+  style/layout/shadow_offset_x: -3
+  style/layout/shadow_offset_y:  3
+  style/layout/hilite_spacing: 5
+  style/layout/hilite_padding_x:  10
+  style/layout/hilite_padding_y:  5
+  style/layout/margin_x:  20
+  style/layout/margin_y:  15
+  style/layout/round_corner:    10
+  style/layout/corner_radius:   15
