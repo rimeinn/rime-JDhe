@@ -49,6 +49,9 @@ Rime 输入法配置方案，小鹤双拼+**简单鹤**乱序字根辅助方案+
   - 字集切换开关（区分常用单字和全字集）（取自 [虎码输入方案](https://github.com/ywxt/rime-huma?tab=readme-ov-file)）
   - 虎码拆字3重注释（已被本人修改为3.5重，0.5重为仅显示拼音，作为其他方案的拼音滤镜）（取自 [虎码输入方案](https://github.com/ywxt/rime-huma?tab=readme-ov-file)）
   - 字词候选嵌入输入栏开关（取自 [宇浩输入方案](https://github.com/forFudan/yuhao)）
+  - 标点快符自动上屏 <kbd>；</kbd>+ 字母（详见配置 `custom_phrase/quick_symbol_phrase.txt` 文件）
+  - 置顶候选项， 将希望排序靠前的字词 按下<kbd>Ctrl</kbd>+<kbd>T</kbd>，再按一下取消指定。数据保存在 `Rime\lua\jdh\pin_word_record.lua` 或 `Rime\lua\tiger\pin_word_record.lua` **仅限 「简单鹤・字词」和「虎码」两个方案下使用**（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
+  - 隐藏候选词或降低排序，将不希望出现在候选中的词组，按下<kbd>Ctrl</kbd>+<kbd>X</kbd> 隐藏，按下<kbd>Ctrl</kbd>+<kbd>J</kbd> 降低排序，数据保存在 `Rime\lua\jdh\cold_word_records\hide_words.lua(隐藏组词)、reduce_freq_words.lua(降频词组)` 虎码方案下储存路径同理。**仅限 「简单鹤」「简单鹤・字词」和「虎码」三个方案下使用**（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
   
 
