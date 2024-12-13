@@ -165,8 +165,8 @@ sort: by_weight
 称职	cheng;uf;he;xy;hx; zhi;df;ev;qh;eb;	90
 螺蛳粉	luo;ff;il;ci;ix; si;fy;iu;cr;ij; fen;li,lu;mf;pp;md;	645
 螺蛳粉	luo;ff;il;ci;ix; shi;fy;iu;cr;ij; fen;li,lu;mf;pp;md;	645
-调换	diao;co;yv;sd;yk; huan;jx;fh;um;fd;	616
-调换	tiao;co;yv;sd;yk; huan;jx;fh;um;fd;	616
+调换	diao;co;yv;sd;yk; huan;jx,je;fh;um;fd;	616
+调换	tiao;co;yv;sd;yk; huan;jx,je;fh;um;fd;	616
 太行山	tai;xh;dd;mi;dd; hang;hj;xd,xi;px;ii; shan;pp;aa;vs;lk;	390
 太行山	tai;xh;dd;mi;dd; xing;hj;xd,xi;px;ii; shan;pp;aa;vs;lk;	390
 歇斯底里	xie;ve;qh;oe;or; si;vp;jq,qj;zt;qj; di;rh;gd;xi;gd; li;vg;aa,tt;dl;la;	883
@@ -384,7 +384,7 @@ sort: by_weight
 两个老	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; lao;ga;bl,lb;ql;lb;	0
 两个示	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shi;uf;ex,ad;fs;ex;	0
 两个至	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zhi;dg;tv,vt;yi;at;	0
-两个生	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; sheng;aa;na;ls;pf;	0
+两个生	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; sheng;eg;na;ls;pf;	0
 两个車	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; che;ds;aa;yc;;	0
 两个車	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ju;ds;aa;yc;;	0
 两个足	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zu;gg;kv;pu;kr;	0
@@ -415,7 +415,7 @@ sort: by_weight
 两个夋	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; qun;;sw,wb;kh;;	0
 两个天	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; tian;ue;ad;fm;ad;	0
 # 三叠字
-三个生	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; sheng;aa;na;ls;pf;	0
+三个生	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; sheng;eg;na;ls;pf;	0
 三个秦	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; qin;uf,uw;hf,fh;ax;fh;	0
 三个若	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ruo;zo;cy;ld;ck;	0
 三个雲	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yun;;yy;tb;;	0
