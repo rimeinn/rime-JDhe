@@ -1,6 +1,10 @@
 patch:
   __include: config_base:/patch
 
+ # 语言模型
+  grammar/language: zh-hans-t-essay-bgw
+  grammar/collocation_max_length: 4  # 最大搭配长度
+  grammar/collocation_min_length: 3  #  最小搭配长度
 
   schema/name: 朙月拼音·全拼
   schema/icon: ico/朙.ico           # string 方案图标，格式： .ico
@@ -131,12 +135,6 @@ patch:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
-
-
- # 语言模型
-  grammar/language: zh-hans-t-essay-bgw
-  grammar/collocation_max_length: 4  # 最大搭配长度
-  grammar/collocation_min_length: 3  #  最小搭配长度
 
 
 # 拼写设定
