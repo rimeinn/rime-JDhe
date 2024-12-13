@@ -352,9 +352,9 @@ patch:
       - xform/([a-z][a-z][a-z][a-z])o/$1°/
 
  # 语言模型
-#  grammar/language: amz-v3n2m1-zh-hans
-#  grammar/collocation_max_length: 4  # 最大搭配长度
-#  grammar/collocation_min_length: 2  #  最小搭配长度
+  grammar/language: zh-hans-t-essay-bgw
+  grammar/collocation_max_length: 4  # 最大搭配长度
+  grammar/collocation_min_length: 3  #  最小搭配长度
 
 
   # 再次增加快捷键
