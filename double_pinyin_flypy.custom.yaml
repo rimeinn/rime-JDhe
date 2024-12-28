@@ -351,7 +351,7 @@ patch:
   translator/disable_user_dict_for_patterns: 
       - "^[a-z;,./]$"           # 禁止单码字调频
       - "^[a-z;,./][a-z;,./]$"  # 禁止双码字调频
-      - "^[a-z;,./][a-z;,./][a-z;,./][a-z;,./]$"  # 禁止四码词调频
+#      - "^[a-z;,./][a-z;,./][a-z;,./][a-z;,./]$"  # 禁止四码词调频
   translator/preedit_format: # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
       - xform/([a-z][a-z][a-z][a-z])o/$1°/
 
