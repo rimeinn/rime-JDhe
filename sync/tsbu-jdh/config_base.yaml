@@ -1,0 +1,389 @@
+patch:
+
+
+  schema/dependencies/+: 
+    - tiger_spelling_pseudo   # 虎码拆字注释方案
+    - radical_pinyin   # 部件拆字
+
+# 开关
+# reset: 默认状态。注释掉后，切换窗口时不会重置到默认状态。
+# states: 方案选单显示的名称。可以注释掉，仍可以通过快捷键切换。
+# abbrev: 默认的缩写取 states 的第一个字符，abbrev 可自定义一个字符
+  switches/+:    
+    - name: emoji
+      states: [ 💀, 😄 ]
+#      reset: 1    
+    - name: simplification
+      states: [ 简, 繁 ] 
+#      reset: 0
+    - name: charset_filter                 #自定义字集
+      states: [ 全集, 常用 ]
+      reset: 1
+    - name: pinyin                   # 拼音滤镜
+#      states: [ 🔇, 🔊 ]        #有虎码拆字注释所以就先隐藏这个开关
+#      reset: 0    
+    - name: single_char_only_for_full_code             # 四码单字开关
+      states: [ 词组, 单字 ]
+#      reset: 0
+    - name: embeded_cands   # 字词嵌入编辑栏
+      states: [普通, 嵌入]      
+#      reset: 0
+    - name: block_words_enabled   # 是否屏蔽指定的字词列表
+      states: [ 正常, 屏蔽 ]      
+#      reset: 0
+    - options: [ spelling.off, spelling.lv1, spelling.lv1.1, spelling.lv1.2, spelling.lv2, spelling.lv3 ]               # 虎码拆字注释
+      states: [ 拆隐, 拆显, 编显, 显示拼音, 拆+编, 拆+编+音 ]       # 快捷键 spelling/lua 下的 cycle_key 和 switch_key 定义
+#      reset: 0
+
+
+
+# 输入引擎
+  # @before 0 在列表第一个元素之前插入新的设定值
+  # @after 0 在列表第一个元素之后插入新的设定值
+
+  # 快捷启动 
+  'engine/processors/@before 00': lua_processor@*launcher*processor    
+   # 特殊规则单字和特定词组 自动上屏(有快符Lua了 所以注释禁用掉)
+ # 'engine/processors/@before 01':  lua_processor@*word_autocommit*processor
+   # 快符引导以及重复上屏 「; 分号与 '单引号」
+#  'engine/processors/@before 01':  lua_processor@*quick_symbol_text
+  # 虎码拆字三重注解开关   
+  'engine/processors/@before 02': lua_processor@*tiger/spelling_processor_v2
+  # 以词定字   
+  'engine/processors/@before 03': lua_processor@*select_character
+  # 成语短句简码优先, 'ctrl + 0' 触发  
+#  'engine/processors/@before 04': lua_processor@*idiom_abbr_expand
+
+########################################################
+  # 部件拆字自定义 tag 
+  'engine/segmentors/@before 03': affix_segmentor@radical_lookup
+
+
+  engine/translators/+:  
+   # 部件拆字反查
+      - table_translator@radical_lookup   
+   # 快速符号短语词库
+      - table_translator@quick_symbol_phrase      
+   # 重复上屏
+      - history_translator@history
+   # 计算器功能，通过=实现
+      - lua_translator@*calculator             
+   # 日期输入 date, week, time, /wd, /wk, /wt 触发
+      - lua_translator@*date_time 
+   # 农历输入(被下方农历Lua替代)
+#      - lua_translator@*lunar@lunar                         
+   # 中国农历 /nl 触发显示
+      - lua_translator@*chinese_lunar     
+   # 快捷启动 /jj, /fj 触发快捷命令(可改触发前缀)
+      - lua_translator@*launcher*translator 
+   # 特殊规则单字和特定词组 自动上屏 (有快符Lua了 所以注释禁用掉)
+#      - lua_translator@*word_autocommit*translator
+    # Unicode 输入
+      - lua_translator@*unicode            
+   # 暴力GC，尝试解决小狼毫长期使用的卡顿
+      - lua_translator@*force_gc
+
+  engine/filters: 
+  # 四码单字过滤 lua
+  - lua_filter@*single_char_only_for_full_code@single_char_only
+  # 自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
+  - lua_filter@*charset_filter@charset_filter 
+  # 部件拆字滤镜
+  - reverse_lookup_filter@radical_reverse_lookup  
+  # 简繁切换
+  - simplifier@simplification                    
+  # 拼音滤镜
+  - simplifier@pinyin 
+  # Emoji
+  - simplifier@emoji   
+  # 英文自动大写
+  - lua_filter@*autocap_filter                   
+  # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
+  - lua_filter@*pin_cand_filter                  
+  # 降低部分英语单词在候选项的位置
+  - lua_filter@*reduce_english_filter  
+  # 降低emoji在候选的位置
+  - lua_filter@*reduce_emoji
+  # 虎码拆字三重注解
+  - lua_filter@*tiger/spelling_v2@spelling                            
+  # 根据是否在用户词典，在 comment 上加上一个标记
+  - lua_filter@*is_in_user_dict
+  # 特殊规则单字和特定词组 自动上屏(有快符Lua了 所以注释禁用掉)
+#  - lua_filter@*word_autocommit*filter   
+  # 英文词条上屏自动空格
+  - lua_filter@*en_spacer
+  # 快捷启动/切换应用
+  - lua_filter@*launcher*filter
+  # 在词典里面候选支持\r, \r\n, \n, <br>分割分行。&nbsp 表示空格
+  - lua_filter@*multiline_filter
+  # 字词候选嵌入编辑栏
+  - lua_filter@*embeded_cands_v2@embeded_cands
+  # 屏蔽指定的字词列表，并通过开关控制是否启用
+  - lua_filter@*block_words
+  # 去重（注意置底）
+  - uniquifier
+
+
+
+# Emoji
+  emoji:
+    option_name: emoji
+    opencc_config: emoji.json
+    tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+    tags: [ abc, encode, punct ]           # 设置其作用范围
+    inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
+
+# 简繁切换  
+  simplification:
+    option_name: simplification  
+    opencc_config: s2tw.json      # s2t.json | s2hk.json | s2tw.json | s2twp.json
+    option_name: simplification
+    tips: all                     #简繁对照   转换提示: all 都显示 | char 仅单字显示 | none 不显示。    
+
+# 拼音滤镜
+  pinyin:
+    opencc_config: pinyin.json
+    option_name: pinyin
+    show_in_comment: true # 是否仅将转换结果显示在备注中
+    comment_format:
+      - 'xform/&nbsp;/ /'
+      - "xform/^/ /"
+    tags: [ abc, encode, punct, reverse_lookup ]           # 设置其作用范围
+    tips: char #如只想给单字加滤镜，可改为 char，全部为 all
+
+  # 重复上屏
+  history: 
+    input: ;f
+    size: 1                             # 重复前几次上屏
+    initial_quality: 1              # 初始权重
+
+  # 部件拆字反查
+  radical_lookup:
+    tag: radical_lookup
+    dictionary: radical_pinyin
+    enable_user_dict: false
+    prefix: "oiz"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
+    tips: "  〔拆字〕"
+    comment_format:
+      - erase/^.*$//
+
+  # 部件拆字滤镜
+  radical_reverse_lookup:
+    tags: [ radical_lookup ]
+    # dictionary 为拼音标注来源。目前是显示本方案词库的注音，可去部件拆字方案下载更全的、带声调的、已编译好的词典
+    # https://github.com/mirtlecn/rime-radical-pinyin?tab=readme-ov-file#%E5%8F%8D%E6%9F%A5%E5%B8%A6%E5%A3%B0%E8%B0%83%E6%B3%A8%E9%9F%B3
+    dictionary: luna_pinyin.extended
+    comment_format:     # 自定义 comment，例如在左右加上括号
+    #  - xform/^/(/
+    #  - xform/$/)/
+      - xform/.*//           # 清空提示码 
+
+  # 快速符号短语词库
+  quick_symbol_phrase:
+    dictionary: ""
+    user_dict: custom_phrase/quick_symbol_phrase   # 自定义快符
+    db_class: stabledb
+    enable_completion: false # 补全提示
+    enable_sentence: false   # 禁止造句
+    initial_quality: 1      # custom_phrase 的权重
+
+#####################################
+
+# Lua 配置: 虎码三重注解
+  lua_reverse_db:
+    spelling: tiger_spelling_pseudo
+    code: tiger
+  spelling:
+    tags: [ abc, encode, punct, reverse_lookup, radical_lookup ]
+    lua:
+      switch_key: 'Control+c'
+      cycle_key: 'Shift+Control+C'
+      # 注意写法：Shift 在前，Control 在后。
+
+  # Lua 配置: 四码单字过滤 （影响范围）
+  single_char_only/tags: [ abc ] 
+
+  # Lua 配置: 自定义字集过滤 （影响范围）
+  charset_filter/tags: [ abc, encode, punct, reverse_lookup ] 
+
+  # Lua 配置：农历的触发关键字（被 chinese_lunar 替代，所以禁用）
+#  lunar: nl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
+
+  # Lua 配置：Emoji 降频到第 idx 个位置
+  emoji_reduce:                      
+    idx: 6
+
+  # Lua 配置:  为输入过的内容加上标记
+  is_in_user_dict: true 
+
+  # Lua 配置: 字词嵌入编辑栏
+  # 嵌入候选的显示配置
+  # 默认显示效果为:
+  # 宇[浩¹]iwl ~淍² ~泃³
+  embeded_cands:
+    option_name: embeded_cands                               # 嵌入候选开关
+    index_indicators: [ ¹, ², ³, ⁴, ⁵, ⁶, ⁷, ⁸, ⁹, ⁰ ]       # 嵌入候选的序号显示格式
+#    first_format: "${Stash}[${候選}${Seq}]${Code}${Comment}"  # 默认 首选的渲染格式
+    first_format: "${Stash}[${候選}]${Code}"  # 默认 首选的渲染格式
+    next_format: "${Stash}${候選}${Seq}${Comment}"            # 非首选的渲染格式
+    separator: ""                                           # 候选之间的分隔符
+    stash_placeholder: "~"  
+    show_only_first_in_preedit: true  # 控制是否仅显示首选词在编辑栏
+
+#####################################
+
+  # 标点符号
+  punctuator/import_preset: symbols  
+
+  # 响应 symbols
+#  recognizer/patterns/punct: "^(/([0-9]0?|[A-Za-z]+))|(;[A-Za-z]+)$"   
+  # email @ 之后不上屏     
+  recognizer/patterns/email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$" 
+  # # URL     
+  recognizer/patterns/url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$" 
+  # cctest 計算機功能 通过=实现     
+  recognizer/patterns/expression: "^=.*$"                   
+  # 响应时间日期lua  
+  recognizer/patterns/week: "^(/wk|week|oxq|owk)$"
+  recognizer/patterns/time: "^(/wt|time|osj|owt)$"
+  recognizer/patterns/date: "^(/wd|date|orq|owd)$" 
+   # 时间戳
+  recognizer/patterns/timestamp: "^/uts$"                      
+   # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」（被chinese_lunar 替代所以禁用）
+#  recognizer/patterns/gregorian_to_lunar: "^N[0-9]{1,8}"  
+   # 中国农历(可反查)
+  recognizer/patterns/chinese_lunar:  "^(/nl|onl)[0-9]*$"
+  # 快捷指令
+  recognizer/patterns/shortcuts: "^/fj[a-z]*$"                  
+  # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
+  recognizer/patterns/unicode: "^U[a-f0-9]+"              
+  #  响应部件拆字的反查，与 radical_lookup/prefix 匹配
+  recognizer/patterns/radical_lookup: "^oiz[a-z]+$" 
+#  recognizer/patterns/quick_symbol: "^'[A-Za-z']*$"  # 快符引导，例如输入'q 后自动上屏快速符号，双击''重复上屏符号
+#  recognizer/patterns/quick_text: "^;[A-Za-z;]*$"  # 双击;;重复上屏汉字和字母
+
+#####################################
+
+  # lua 快捷键
+  key_binder/expand_abbr_py: "Control+q"       # 展开超级简拼
+  key_binder/select_first_character: "Shift+exclam"  # 以词定字 shift+1 [(第一个字)
+  key_binder/select_last_character:  "Shift+at"  # 以词定字句号 shift+2 (最后一个字) 
+
+  # 快捷键
+  key_binder/bindings/+: 
+   # 自定义字集开关
+    - { when: always, accept: "Control+Shift+Q", toggle: charset_filter }  
+   # 拼音滤镜开关 
+    - { when: always, accept: "Control+Shift+P", toggle: pinyin } 
+   # 四码单字开关 
+    - { when: always, accept: "Control+Shift+D", toggle: single_char_only_for_full_code } 
+   # 字词候选嵌入编辑栏 
+    - { when: always, accept: "Control+Shift+E", toggle: embeded_cands } 
+
+
+   # 打字时，; 选中第2个候选字发送
+    - { accept: semicolon, send: 2, when: has_menu}  
+   # 打字时，' 选中第3个候选字发送 (音码方案需要此键 分词，形码单独启用)
+#    - { accept: apostrophe, send: 3, when: has_menu} 
+   # 打字时，[ 选中第4个候选字发送
+    - { accept: bracketleft, send: 4, when: has_menu} 
+   # 打字时，] 选中第5个候选字发送
+    - { accept: bracketright, send: 5, when: has_menu}  
+   # 打字时，\ 选中第6个候选字发送
+    - { accept: backslash, send: 6, when: has_menu}  
+   # 打字时，Caps_Lock 选中第4个候选字发送
+    - { accept: Caps_Lock, send: 4, when: has_menu} 
+   # 打字时，Caps_Lock 选中第4个候选字发送
+    - { accept: Release+Caps_Lock, send: Release+4, when: has_menu} 
+
+
+   # 打字时，Tab和Shift+Tab切换候选
+#    - { accept: Tab, send: Down, when: has_menu} 
+   # 打字时，Tab和Shift+Tab切换候选
+#    - { accept: Shift+Tab, send: Up, when: has_menu} 
+   
+   # 使用 tab 在不同音節間跳轉
+    - { accept: Tab, send: Control+Right, when: has_menu }
+    - { accept: Tab, send: Control+Right, when: composing }
+
+   # 减号向前翻页
+    - { accept: minus, send: Page_Up, when: paging} 
+   # 等于号向后翻页
+    - { accept: equal, send: Page_Down, when: has_menu} 
+
+   # 删除用户自造词
+    - { when: composing, accept: "Control+k", send: Shift+Delete } 
+   # 按词清码 
+    - { when: composing, accept: "Control+w", send: Control+BackSpace } 
+
+   # emoji开关
+    - { when: always, accept: "Shift+space", toggle: emoji, }
+   # 切换中英标点
+    - { when: always, accept: "Control+period", toggle: ascii_punct, }    
+   # 切换简繁
+    - { when: always, accept: "Control+Shift+4", toggle: simplification, } 
+   # 切换简繁（Mac）
+    - { when: always, accept: "Control+Shift+dollar", toggle: simplification, } 
+   # 切换全半角
+    - { when: always, accept: "Control+Shift+5", toggle: full_shape, }     
+   # 切换全半角（Mac）
+    - { when: always, accept: "Control+Shift+percent", toggle: full_shape, }     
+
+
+    # Option/Alt + ←/→ 切换光标至下/上一个拼音
+    - { when: composing, accept: Alt+Left, send: Shift+Left }
+    - { when: composing, accept: Alt+Right, send: Shift+Right }
+
+
+
+    # 将小键盘 0~9 . 映射到主键盘，数字金额大写的 Lua 如 R1234.5678 可使用小键盘输入
+    - {accept: KP_0, send: 0, when: composing}
+    - {accept: KP_1, send: 1, when: composing}
+    - {accept: KP_2, send: 2, when: composing}
+    - {accept: KP_3, send: 3, when: composing}
+    - {accept: KP_4, send: 4, when: composing}
+    - {accept: KP_5, send: 5, when: composing}
+    - {accept: KP_6, send: 6, when: composing}
+    - {accept: KP_7, send: 7, when: composing}
+    - {accept: KP_8, send: 8, when: composing}
+    - {accept: KP_9, send: 9, when: composing}
+    - {accept: KP_Decimal, send: period, when: composing}    
+    - {accept: KP_Enter, send: Return, when: composing}  
+
+#############################################    
+
+# Lua 配置: 降低部分英语单词在候选项的位置。
+# 详细介绍 https://dvel.me/posts/make-rime-en-better/#短单词置顶的问题
+# 正常情况： 输入 rug 得到 「1.rug 2.如果 …… 」
+# 降低之后： 输入 rug 得到 「1.如果 2.rug …… 」
+# 几种模式：
+# all     降低脚本内置的单词（所有 3~4 位长度、前 2~3 位是完整拼音、最后一位是声母），words 作为自定义的额外补充
+# custom  完全自定义，只降低 words 里的
+# none    不降低任何单词，相当于没有启用这个 Lua
+# （匹配的是编码，不是单词）
+  reduce_english_filter:
+    mode: custom  # all | custom | none
+    idx: 2        # 降低到第 idx 个位置
+    # 自定义的单词列表，示例列表没有降低部分常用单词，如 and cat mail Mac but bad shit ……
+    words: [
+      aid, ann,
+      bail, bait, bam, band, bans, bat, bay, bend, bent, benz, bib, bid, bien, biz, boc, bop, bos, bud, buf, bach, bench, bush,
+      cab, cad, cain, cam, cans, cap, cas, cef, chad, chan, chap, chef, cher, chew, chic, chin, chip, chit, coup, cum, cunt, cur, couch,
+      dab, dag, dal, dam, dent, dew, dial, diet, dim, din, dip, dis, dit, doug, dub, dug, dunn, don,
+      fab, fax, fob, fog, foul, fur,
+      gag, gail, gain, gal, gam, gaol, ged, gel, ger, guam, gus, gut,
+      hail, ham, hank, hans, hat, hay, heil, heir, hem, hep, hud, hum, hung, hunk, hut, hush,
+      jim, jug,
+      kat,
+      lab, lad, lag, laid, lam, laos, lap, lat, lax, lay, led, leg, lex, liam, lib, lid, lied, lien, lies, linn, lip, lit, liz, lob, lug, lund, lung, lux, lash, loch, lush,
+      mag, maid, mann, mar, mat, med, mel, mend, mens, ment, mil, mins, mint, mob, moc, mop, mos, mot, mud, mug, mum, mesh,
+      nap, nat, nay, neil, nib, nip, noun, nous, nun, nut, nail, nash,
+      pac, paid, pail, pain, pair, pak, pal, pam, pans, pant, pap, par, pat, paw, pax, pens, pic, pier, pies, pins, pint, pit, pix, pod, pop, pos, pot, pour, pow, pub, pinch, pouch,
+      rand, rant, rent, rep, res, ret, rex, rib, rid, rig, rim, rub, rug, rum, runc, runs, ranch,
+      sac, sail, sal, sam, sans, sap, saw, sax, sew, sham, shaw, shin, sig, sin, sip, sis, suit, sung, suns, sup, sur, sus,
+      tad, tail, taj, tar, tax, tec, ted, tel, ter, tex, tic, tied, tier, ties, tim, tin, tit, tour, tout, tum,
+      wag, wand, womens, wap, wax, weir, won, went,
+      yan, yen,
+      zach
+      my, mt, dj, as, js, cs, ak, ps, cd, cn, hk, bt, pk  # 一些由算法转写的大写单词编码      
+    ]

@@ -1,0 +1,38 @@
+__build_info:
+  rime_version: 1.11.2
+  timestamps:
+    default: 1717774589
+    default.custom: 1735469830
+    key_bindings: 1717774589
+    key_bindings.custom: 0
+    punctuation: 1717774589
+    punctuation.custom: 0
+    tiger_spelling_pseudo.custom: 0
+    tiger_spelling_pseudo.schema: 1735469830
+menu:
+  alternative_select_labels:
+    - "␣"
+    - ";"
+    - "3'"
+    - "4["
+    - "5]"
+    - 6
+    - 7
+    - 8
+    - 9
+    - 0
+  page_size: 5
+schema:
+  author:
+    - "發明人 ID;PeaceB"
+  description: |
+    僞方案，不能打字。
+    不要選我，不要修改本方案及配套词典。
+    僅用於輔助三重註解方案實現註解功能。
+
+  name: "虎碼·僞方案·勿用勿改"
+  schema_id: tiger_spelling_pseudo
+  version: 20230130
+translator:
+  dictionary: tiger_spelling_pseudo
+  enable_user_dict: false

@@ -1,0 +1,232 @@
+patch:
+
+  preset_color_schemes/Pink:
+    name: "粉色／Pink"
+    author: zHon                           # 配色作者名称
+    color_format: abgr                      # 颜色格式：argb（0xaarrggbb）；rgba（0xrrggbbaa）；abgr（0xaabbggrr 默认）
+    # 默认配色
+    text_color: 0x7A40EC                     # 拼音文字颜色
+    shadow_color: 0x15000000            # 阴影颜色，新版小狼毫 CI 更改了绘制，若无法看到阴影，请更改为 000000，观察是否能正常绘制阴影
+    back_color: 0xF9F9F9                     # 背景
+    hilited_candidate_back_color: 0xECE4FC   # 选中背景颜色
+    label_color: 0x888785                    # 序号颜色
+    hilited_label_color: 0xA483EC            # 选中序号颜色
+    candidate_text_color: 0x121212           # 候选文字颜色
+    hilited_candidate_text_color: 0x7A40EC   # 选中文字颜色
+    comment_text_color: 0x8E8E8E             # 注释
+    hilited_comment_text_color: 0x7A40EC     # 选中注释颜色
+    hilited_text_color: 0x000000             # 编码区拼音文字底色
+    hilited_back_color: 0xF9F9F9              # 选中拼音底色
+    border_color: 0xE2E7F5                   # 边框颜色
+#      hilited_mark_color: 0x7A40EC            # 标签前的标记
+    # 普通候选项配色
+  #  candidate_back_color: 0xECEFF4           # 候选项底色
+    # candidate_border_color:                # 边框
+    # candidate_shadow_color:                # 阴影
+    # 编码区域配色
+    # hilited_shadow_color:                  # 阴影
+
+  #  hilited_candidate_border_color: 0x8FBCBB # 边框
+    # hilited_candidate_shadow_color:        # 阴影
+    # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
+    # nextpage_color: 0x000000               # 下一页
+    # prevpage_color: 0x000000               # 上一页
+
+  preset_color_schemes/Pink_dark:
+    name: "粉色深色／Pink_dark"
+    author: zHon
+    color_format: abgr    
+    text_color:  0x7A40EC                                               # 拼音文字颜色    
+    back_color:  0x424242                                             # 背景颜色
+    hilited_candidate_back_color:  0xECE4FC                # 选中背景
+    label_color:  0xefefef                                              # 序号颜色
+    hilited_label_color:  0xA483EC                                    # 选中序号颜色
+    candidate_text_color:  0xefefef                              # 候选文字颜色
+    hilited_candidate_text_color:  0x7A40EC                       # 选中文字
+    comment_text_color:  0xefefef                              # 注释
+    hilited_comment_text_color:  0x7A40EC                     # 选中注释
+    hilited_text_color:  0xECE4FC                                   # 编码区文字
+    hilited_back_color:  0x424242                                        # 选中拼音底色
+    border_color:  0x00424242                                            # 边框
+#      hilited_mark_color: 0x7A40EC                      # 标签前的标记
+    shadow_color: 0x15000000                      # 候选窗阴影色
+
+  preset_color_schemes/Blue:
+    name: "蓝色／Blue"
+    author: zHon
+    color_format: abgr                      
+    text_color: 0xE56C2E                     # 拼音文字颜色
+    shadow_color: 0x15000000            # 阴影颜色，新版小狼毫 CI 更改了绘制，若无法看到阴影，请更改为 000000，观察是否能正常绘制阴影
+    back_color: 0xF9F9F9                     # 背景
+    hilited_candidate_back_color: 0xFFF0E7   # 选中背景颜色
+    label_color: 0x888785                    # 序号颜色
+    hilited_label_color: 0xDF9965            # 选中序号颜色
+    candidate_text_color: 0x121212           # 候选文字颜色
+    hilited_candidate_text_color: 0xD66938   # 选中文字颜色
+    comment_text_color: 0x8E8E8E             # 注释
+    hilited_comment_text_color: 0xD66938     # 选中注释颜色
+    hilited_text_color: 0x000000             # 编码区拼音文字底色
+    hilited_back_color: 0xF9F9F9              # 选中拼音底色
+    border_color: 0xFFF0E7                   # 边框颜色
+
+  preset_color_schemes/Blue_dark:
+    name: "蓝色深色／Blue_dark"
+    author: zHon
+    color_format: abgr                      
+    text_color: 0xE56C2E                     # 拼音文字颜色
+    shadow_color: 0x15000000            # 阴影颜色，新版小狼毫 CI 更改了绘制，若无法看到阴影，请更改为 000000，观察是否能正常绘制阴影
+    back_color: 0x424242                     # 背景
+    hilited_candidate_back_color: 0xFFF0E7   # 选中背景颜色
+    label_color: 0xefefef                    # 序号颜色
+    hilited_label_color: 0xDF9965            # 选中序号颜色
+    candidate_text_color: 0xefefef           # 候选文字颜色
+    hilited_candidate_text_color: 0xD66938   # 选中文字颜色
+    comment_text_color: 0xefefef             # 注释
+    hilited_comment_text_color: 0xD66938     # 选中注释颜色
+    hilited_text_color: 0xECE4FC             # 编码区拼音文字底色
+    hilited_back_color: 0x424242              # 选中拼音底色
+    border_color: 0x00424242                   # 边框颜色
+
+  preset_color_schemes/wechat_light:
+    name: "微信键盘浅色/wechat_light"
+    author: zHon
+    color_format: abgr    
+    text_color:  0x0d0d0d                                               # 拼音文字颜色    
+    back_color:  0xffffff                                                   # 背景颜色
+    hilited_candidate_back_color:  0x79b008                # 选中背景
+    label_color:  0x878787                                              # 序号颜色
+    hilited_label_color:  0xf8faf3                                    # 选中序号颜色
+    candidate_text_color:  0x484848                              # 候选文字颜色
+    hilited_candidate_text_color:  0xffffff                       # 选中文字
+    comment_text_color:  0x878787                              # 注释
+    hilited_comment_text_color:  0xf8faf3                     # 选中注释
+    hilited_text_color:  0x0d0d0d                                   # 编码区文字
+    hilited_back_color:  0xffffff                                        # 选中拼音底色
+    border_color:  0xe3e3e3                                           # 边框
+    shadow_color: 0x15000000                      # 候选窗阴影色    
+
+  preset_color_schemes/wechat_dark:
+    name: "微信键盘深色/wechat_dark"
+    author: zHon
+    color_format: abgr    
+    text_color:  0xf8faf3                                               # 拼音文字颜色    
+    back_color:  0x151515                                             # 背景颜色
+    hilited_candidate_back_color:  0x79b008                # 选中背景
+    label_color:  0x5e5e5e                                              # 序号颜色
+    hilited_label_color:  0xf8faf3                                    # 选中序号颜色
+    candidate_text_color:  0xafafaf                              # 候选文字颜色
+    hilited_candidate_text_color:  0xffffff                       # 选中文字
+    comment_text_color:  0x5e5e5e                              # 注释
+    hilited_comment_text_color:  0xf8faf3                     # 选中注释
+    hilited_text_color:  0xf8faf3                                   # 编码区文字
+    hilited_back_color:  0x151515                                        # 选中拼音底色
+    border_color:  0x151515                                           # 边框
+    shadow_color: 0x15000000                      # 候选窗阴影色
+
+  preset_color_schemes/purity_of_form_custom:
+    name: "純粹的形式／Purity of Form Custom"   #配色取自雾凇拼音
+    author: 雨過之後、佛振雨過之後、佛振
+    color_format: abgr    
+    text_color:  0x808080                                               # 拼音文字颜色    
+    back_color:  0x545554                                             # 背景颜色
+    hilited_candidate_back_color:  0xE3E3E3               # 选中背景
+    label_color:  0xBBBBBB                                              # 序号颜色
+    hilited_label_color:  0xBBBBBB                                    # 选中序号颜色
+    candidate_text_color:  0xEEEEEE                              # 候选文字颜色
+    hilited_candidate_text_color:  0x000000                       # 选中文字
+    comment_text_color:  0x808080                              # 注释
+    hilited_comment_text_color:  0x808080                     # 选中注释
+    hilited_text_color:  0xEEEEEE                                   # 编码区文字
+    hilited_back_color:  0x545554                                        # 选中拼音底色
+    border_color:  0x00545554                                           # 边框
+    shadow_color: 0x15000000                      # 候选窗阴影色
+
+  preset_color_schemes/mint_light_blue:
+    name: "蓝水鸭／Mint Light Blue"
+    author: Mintimate <"Mintimate's Blog">
+    color_format: abgr    
+    text_color:  0x6495ed                                               # 拼音文字颜色    
+    back_color:  0xefefef                                                   # 背景颜色
+    hilited_candidate_back_color:  0xed9564                # 选中背景
+    label_color:  0xcac9c8                                              # 序号颜色
+    hilited_label_color:  0xcac9c8                                    # 选中序号颜色
+    candidate_text_color:  0x424242                              # 候选文字颜色
+    hilited_candidate_text_color:  0xefefef                       # 选中文字
+    comment_text_color:  0xcac9c8                              # 注释
+    hilited_comment_text_color:  0xefefef                     # 选中注释
+    hilited_text_color:  0xed9564                                   # 编码区文字
+    hilited_back_color:  0xefefef                                        # 选中拼音底色
+    border_color:  0xefefef                                           # 边框
+    shadow_color: 0x15000000                      # 候选窗阴影色
+
+  preset_color_schemes/mint_dark_blue:
+    name: "黑水鸭／Mint Dark Blue"
+    author: Mintimate <"Mintimate's Blog">
+    color_format: abgr    
+    text_color:  0x6495ed                                               # 拼音文字颜色    
+    back_color:  0x424242                                                   # 背景颜色
+    hilited_candidate_back_color:  0xc6c01a                # 选中背景
+    label_color:  0xefefef                                              # 序号颜色
+    hilited_label_color:  0xffffff                                    # 选中序号颜色
+    candidate_text_color:  0xefefef                              # 候选文字颜色
+    hilited_candidate_text_color:  0xefefef                       # 选中文字
+    comment_text_color:  0xefefef                              # 注释
+    hilited_comment_text_color:  0xffffff                     # 选中注释
+    hilited_text_color:  0xc6c01a                                   # 编码区文字
+    hilited_back_color:  0x424242                                        # 选中拼音底色
+    border_color:  0x424242                                           # 边框
+    shadow_color: 0x15000000                      # 候选窗阴影色    
+
+  preset_color_schemes/win11light:
+    name: " Win11浅色/ Win11light"
+    color_format: abgr    
+    text_color:  0x777777                                               # 拼音文字颜色    
+    back_color:  0xf9f9f9                                                   # 背景颜色
+    hilited_candidate_back_color:  0xf0f0f0                # 选中背景
+    label_color:  0x666666                                              # 序号颜色
+    hilited_label_color:  0x666666                                    # 选中序号颜色
+    candidate_text_color:  0x3a3a3a                              # 候选文字颜色
+    hilited_candidate_text_color:  0x9e5a00                       # 选中文字
+    comment_text_color:  0x666666                              # 注释
+    hilited_comment_text_color:  0x1a1a1a                     # 选中注释
+    hilited_text_color:  0x000000                                   # 编码区文字
+    hilited_back_color:  0x1ff9f9f9                                        # 选中拼音底色
+    border_color:  0x009e5a00                                           # 边框
+    shadow_color: 0x20000000                      # 候选窗阴影色    
+
+  preset_color_schemes/win11dark:
+    name: "Win11暗色 / Win11Dark"
+    color_format: abgr    
+    text_color:  0xc9c9c9                                               # 拼音文字颜色    
+    back_color:  0x303030                                                   # 背景颜色
+    hilited_candidate_back_color:  0xD75A00                # 选中背景
+    label_color:  0xc9c9c9                                              # 序号颜色
+    hilited_label_color:  0xf9f9f9                                    # 选中序号颜色
+    candidate_text_color:  0xc9c9c9                              # 候选文字颜色
+    hilited_candidate_text_color:  0xf9f9f9                       # 选中文字
+    comment_text_color:  0xc9c9c9                              # 注释
+    hilited_comment_text_color:  0xf9f9f9                     # 选中注释
+    hilited_text_color:  0xf9f9f9                                   # 编码区文字
+    hilited_back_color:  0x20202020                                        # 选中拼音底色
+    border_color:  0x0c202020                                           # 边框
+    shadow_color: 0x60000000                      # 候选窗阴影色 
+
+  preset_color_schemes/minimalism_white:
+    name: "极简白 / minimalism_white"
+    color_format: abgr    
+    text_color:  0x0763EB                                               # 拼音文字颜色    
+    back_color:  0xFFFFFF                                                   # 背景颜色
+    hilited_candidate_back_color:  0xF1F7FF                # 选中背景
+    label_color:  0xFFBC48                                              # 序号颜色
+    hilited_label_color:  0x0763EB                                    # 选中序号颜色
+    candidate_text_color:  0xFF9F48                              # 候选文字颜色
+    hilited_candidate_text_color:  0x0763EB                       # 选中文字
+    comment_text_color:  0xFF9F48                              # 注释
+    hilited_comment_text_color:  0x0763EB                    # 选中注释
+    hilited_text_color:  0xFF9F48                                   # 编码区文字
+    hilited_back_color:  0xFFFFFF                                         # 选中拼音底色
+    border_color:  0x0cFFFFFF                                           # 边框
+    shadow_color: 0x4cFF9F48                      # 候选窗阴影色 
+    # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
+    nextpage_color: 0xFF9F48                 # 下一页
+    prevpage_color: 0xFF9F48                 # 上一页    

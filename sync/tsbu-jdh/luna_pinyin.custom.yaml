@@ -1,0 +1,300 @@
+patch:
+  __include: config_base:/patch
+
+ # 语言模型
+  grammar/language: zh-hans-t-essay-bgw
+  grammar/collocation_max_length: 4  # 最大搭配长度
+  grammar/collocation_min_length: 3  #  最小搭配长度
+
+  schema/name: 朙月拼音·全拼
+  schema/icon: ico/朙.ico           # string 方案图标，格式： .ico
+  schema/dependencies/+: 
+    - melt_eng # 英文
+
+  # 四码单字过滤开关 默认词组
+#  switches/@08/reset: 0
+
+##################################################
+
+  # 修改候选项标签
+  menu/alternative_select_labels: [ ①,②,③,④,⑤,⑥,⑦,⑧,⑨,⑩ ]
+
+
+# [style]
+# 字体；候选项、候选窗口的行为、布局及样式
+  style/horizontal: true # 候选词 true 为横排，竖排为 false
+#  style/inline_preedit: false   # 行内显示预编辑区：true；false
+  style/candidate_list_layout: stacked        # macOS 候选项排列方向 stacked(竖排) | linear  
+  style/color_scheme: wechat_light      # 浅色模式下，配色方案
+  style/color_scheme_dark: wechat_dark                # 深色模式下，Weasel 
+  style/layout/margin_x: 5
+  style/layout/margin_y: 5  
+  style/layout/hilite_padding: 3  
+  style/hilited_corner_radius: 0                   # macOS选中框 圆角半径  
+  style/layout/max_width: 500                           # 候选框最大宽度，文本竖排模式下如高度超此尺寸则换列显示候选，设置为 0 则不启用此功能 
+
+##################################################
+
+  # 自定义短语
+  'engine/translators/@after 02': table_translator@custom_phrase    
+
+  # 自定义短语
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase_full   # 需要手动创建 custom_phrase_xxx.txt 文件
+    db_class: stabledb
+    enable_completion: false # 补全提示
+    enable_sentence: false   # 禁止造句
+    initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
+
+##################################################
+
+  # 英文输入
+  'engine/translators/@after 03': table_translator@melt_eng 
+
+  # 次翻译器，英文
+  melt_eng:
+    dictionary: melt_eng     # 挂载词库 melt_eng.dict.yaml
+    enable_sentence: false   # 禁止造句
+    enable_user_dict: false  # 禁用用户词典
+    initial_quality: 1.1     # 初始权重
+    comment_format:          # 自定义提示码
+      - xform/.*//           # 清空提示码
+
+##################################################
+
+  # 中英混合词汇
+  'engine/translators/@after 04': table_translator@cn_en
+
+  # 中英混合词汇
+  cn_en:
+    dictionary: ""
+    user_dict: en_dicts/cn_en
+    db_class: stabledb
+    enable_completion: true
+    enable_sentence: false
+    initial_quality: 0.5
+    comment_format:
+      - xform/^.+$//
+
+
+##################################################
+
+  # 长词优先（顺序要求：长词优先 > Emoji）
+  #（提升「西安」「提案」「图案」「饥饿」等词汇的优先级）
+  'engine/filters/@after 00': lua_filter@*long_word_filter
+
+  # Lua 配置：长词优先
+  # 提升 count 个词语，插入到第 idx 个位置。
+  # 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
+  long_word_filter:
+    count: 2
+    idx: 4
+
+##################################################
+
+  # 辅助码 （before last 在列表最后一个之前加上）
+  'engine/filters/@before last': lua_filter@*auxCode_filter@zrm_aux_code
+
+ # Lua 配置:  辅助码
+  axu_code:
+    # 激活码
+    trigger_word: "`"
+    # 展示辅码的模式
+    # always:   总是展示(默认)
+    # trigger:  输入激活码后激活辅码
+    # none:     始终不展示辅码
+    show_aux_notice: "trigger"
+
+##################################################
+
+  # Lua 配置: 虎码三重注解 隐藏除反查外的显示
+  spelling/tags: [ reverse_lookup, wanxiang_py_lookup, unicode, radical_lookup, tiger_lookup ]    
+
+
+  # 响应时间日期lua  
+  recognizer/patterns/week: "^(/wk|xq)$"
+  recognizer/patterns/time: "^(/wt|sj)$"
+  recognizer/patterns/date: "^(/wd|rq)$" 
+
+
+
+# 主翻译器
+  translator/dictionary: luna_pinyin.extended          #引入增补自定词典
+  translator/prism: luna_pinyin   # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
+  translator/enable_word_completion: true  # 大于 4 音节的词条自动补全，librime > 1.11.2
+  translator/initial_quality: 1.2          # 拼音的权重应该比英文大
+######################
+  translator/enable_completion: true  # 启用候选词补全
+  translator/contextual_suggestions: true   #上下文建议开启〔需配合 grammar 使用〕
+  translator/max_homophones: 7 # 最大同音簇长度〔需配合 grammar 使用〕
+  translator/max_homographs: 7 # 最大同形簇长度〔需配合 grammar 使用〕
+######################
+  translator/preedit_format:         #不显示转换全拼编码
+  translator/preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+
+# 拼写设定
+# 不直接上屏的标点
+  speller/alphabet/: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`;/" 
+# table_translator翻译器，支持自动上屏。
+  speller/auto_select: true
+ # 自动上屏编码规则
+  speller/auto_select_pattern: ^;(\w+|;)
+
+
+  # 简繁切换  
+  simplification/tips: none   #简繁对照   转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+
+  # Lua 配置: 自定义字集过滤 （影响范围）
+  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst ] 
+
+  # Lua 配置：Emoji 降频到第 idx 个位置
+  emoji_reduce:                      
+    idx: 3
+
+
+
+##################################################
+
+    # Lua 配置: 置顶候选项
+  # 注释太长了，请参考 pin_cand_filter.lua 开头的说明书。
+  pin_cand_filter:
+    # 格式：编码<Tab>字词1<Space>字词2……
+    # 单编码
+    - q	去 千
+    - w	我 万 往
+    - e	呃
+    - r	让 人
+    - t	他 她 它 祂
+    - y	与 于
+    # - u 在 custom_phrase 置顶了 有 🈶 又 由
+    # - i 在 custom_phrase 置顶了 一 以 已 亦
+    - o	哦
+    - p	片 篇
+    - a	啊
+    - s	是 时 使 式
+    - d	的 地 得
+    - f	发 放 分
+    - g	个 各
+    - h	和 或
+    - j	及 将 即 既 继
+    - k	可
+    - l	了 啦 喽 嘞
+    - z	在 再 自
+    - x	想 像 向
+    - c	才 从
+    # - v
+    - b	吧 把 呗 百
+    - n	那 哪 拿 呐
+    - m	吗 嘛 呣 呒
+    # 常用单字
+    - qing	请
+    - qu	去
+    - wo	我
+    - wei	为
+    - er	而 儿 二
+    - en	嗯
+    - rang	让
+    - ta	他 她 它 祂
+    - tai	太
+    - tong	同
+    - yu	与 于
+    - you	有 又 由
+    - yao	要
+    - ye	也
+    - shi	是 时 使 式
+    - suo	所
+    - shang	上
+    - shuo	说
+    - de	的 地 得
+    - dan	但
+    - dou	都
+    - dao	到 倒
+    - dian	点
+    - dang	当
+    - dui	对
+    - fa	发
+    - ge	个 各
+    - gang	刚
+    - he	和
+    - huo	或
+    - hui	会
+    - hai	还
+    - hao	好
+    - ji	及 即 既
+    - jiu	就
+    - jiang	将
+    - ke	可
+    - kan	看
+    - kai	开
+    - le	了
+    - la	啦 拉
+    - lai	来
+    - li	里
+    - zai	在 再
+    - zhi	只
+    - zhe	这 着
+    - zhen	真
+    - zui	最
+    - zheng	正
+    - zuo	做 坐 左
+    - ze	则
+    - xiang	想 像 向
+    - xian	先
+    - xia	下
+    - xing	行
+    - cai	才
+    - cong	从
+    - chu	出
+    - ba	把 吧
+    - bu	不
+    - bing	并
+    - bei	被
+    - bie	别
+    - bi	比
+    - bing	并
+    - na	那 哪 拿 呐
+    - ni	你
+    - ma	吗 嘛 妈
+    - mei	没
+    - mai	买 卖
+    - reng	仍 扔
+    # ta、na
+    - ta men	他们 她们 它们
+    - tm	他们 她们 它们
+    - ta de	他的 她的 它的
+    - td	他的 她的 它的
+    - ta men de	他们的 她们的 它们的
+    - na er	那儿 哪儿
+    - na ge	那个 哪个
+    - ng	那个 哪个 拿个
+    - na xie	那些 哪些
+    - na li	那里 哪里
+    - na bian	那边 哪边
+    - na bian er	那边儿 哪边儿
+    - na wei	那位 哪位
+    # 简码
+    - zh	这
+    - dd	等等
+    - dddd	等等等等
+    - gg	刚刚
+    - cgg	才刚刚
+    - zd	知道
+    - bzd	不知道
+    - ww	往往
+    - hh	哈哈
+    - kk	看看
+    - cc	常常
+    - xx	想想 想象
+    - yw	因为
+    - sm	什么
+    - wsm	为什么
+    - sbs	是不是
+    - msm	没什么
+    - smd	什么的
+    - sms	什么是
+    - sma	什么啊

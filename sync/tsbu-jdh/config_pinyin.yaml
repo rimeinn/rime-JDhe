@@ -1,0 +1,497 @@
+# Rime configuration - pinyin
+
+# 參考資料：
+# 【朙月拼音】模糊音定製模板
+# https://gist.github.com/lotem/2320943
+# 【万象拼音】双拼辅助码编码规则
+# https://github.com/amzxyz/rime_wanxiang_pinyin
+
+# 用法
+usage: |
+  # luna_pinyin.custom.yaml
+  patch:
+    speller/algebra:
+      __patch:
+        - pinyin:/zh_z_bufen
+        - pinyin:/n_l_bufen
+        - pinyin:/r_l_bufen
+        - pinyin:/r_y_bufen
+        - pinyin:/hu_f_buhun
+        - pinyin:/eng_ong_bufen
+        - pinyin:/en_eng_bufen
+        - pinyin:/ziantuan
+        - pinyin:/zhongguan
+        - pinyin:/abbreviation
+        - pinyin:/spelling_correction
+        - pinyin:/key_correction
+    translator/preedit_format/+:
+      __patch:
+        - pinyin:/ziantuan_preedit_format
+        - pinyin:/zhongguan_preedit_format
+
+# 模糊音定義
+
+zh_z_bufen:
+  __append:
+    - derive/^([zcs])h/$1/             # zh, ch, sh => z, c, s
+    - derive/^([zcs])([^h])/$1h$2/     # z, c, s => zh, ch, sh
+
+n_l_bufen:
+  __append:
+    - derive/^n/l/                     # n => l
+    - derive/^l/n/                     # l => n
+
+r_l_bufen:
+  __append:
+    - derive/^r/l/                     # r => l
+
+r_y_bufen:
+  __append:
+    - derive/^ren/yin/                 # ren => yin, reng => ying
+    - derive/^r/y/                     # r => y
+
+hu_f_buhun:
+  __append:
+    - derive/^hu$/fu/                  # hu => fu
+    - derive/^hong$/feng/              # hong => feng
+    - derive/^hu([in])$/fe$1/          # hui => fei, hun => fen
+    - derive/^hu([ao])/f$1/            # hua => fa, ...
+
+    - derive/^fu$/hu/                  # fu => hu
+    - derive/^feng$/hong/              # feng => hong
+    - derive/^fe([in])$/hu$1/          # fei => hui, fen => hun
+    - derive/^f([ao])/hu$1/            # fa => hua, ...
+
+# 韻母部份
+
+eng_ong_bufen:
+  __append:
+    - derive/^([bpmf])eng$/$1ong/      # meng = mong, ...
+
+en_eng_bufen:
+  __append:
+    - derive/([ei])n$/$1ng/            # en => eng, in => ing
+    - derive/([ei])ng$/$1n/            # eng => en, ing => in
+
+# 「反模糊音」？
+# 誰說方言沒有普通話精確；有模糊音，就能有反模糊音。
+# 示例爲分尖團的中原官話。
+# 注意：這個辦法雖從拼寫上做出了區分，然而受拼音詞典制約，候選字仍是混的。
+
+# 強行分尖團
+ziantuan:
+  __append:
+    - derive/^ji$/zii/   # 在《漢語拼音方案》設計者的安排下鳩佔鵲巢，尖音i只好雙寫了
+    - derive/^qi$/cii/
+    - derive/^xi$/sii/
+    - derive/^ji([aoeun])/zi$1/  # jian => zian, ...
+    - derive/^qi([aoeun])/ci$1/
+    - derive/^xi([aoeun])/si$1/
+    - derive/^ju/zv/
+    - derive/^qu/cv/
+    - derive/^xu/sv/
+    - derive/^([zcs])ii/$1yi/  # zii 也可拼作 zyi
+    - derive/^([nlzcs])v/$1yu/  # zv 也可拼作 zyu
+
+# 分尖團後拼式的改寫條件也要相應地擴充
+ziantuan_preedit_format:
+  __append:
+    - xform/([zcs])ii/$1ï/
+    - xform/([zcs])v/$1ü/
+
+# 兼容中原官話（鄭汴洛）韻母，只能從大面上覆蓋
+zhongguan:
+  __append:
+    - derive/^([bpm])o$/$1eh/          # bo => beh, ...
+    - derive/(^|[dtnlgkhzcs]h?)e$/$1eh/  # ge => geh, se => sheh, ...
+    - derive/^([gkh])uo$/$1ueh/        # guo => gueh, ...
+    - derive/ueh$/ue/                  # ueh 也可拼作 ue
+    - derive/eh$/ee/                   # eh 也可拼作 ee
+    - derive/^([gkh])e$/$1uo/          # he => huo, ...
+    - derive/^([jqx])ie$/$1iai/        # jie => jiai, ...
+    - derive/([uv])e$/$1o/             # jue => juo, lve => lvo, ...
+    - derive/^fei$/fi/                 # fei => fi
+    - derive/^wei$/vi/                 # wei => vi
+    - derive/^([nl])ei$/$1ui/          # nei => nui, lei => lui
+    - derive/^([nlzcs])un$/$1vn/       # lun => lvn, zun => zvn, ...
+    - derive/^([nlzcs])ong$/$1iong/    # long => liong, song => siong, ...
+
+# 改寫字母 ê
+zhongguan_preedit_format:
+  __append:
+    - "xform/e[eh]($|[ '])/ê$1/"
+    - "xform/ue($|[ '])/uê$1/"
+
+# 注意：模糊音定義先於簡拼定義，方可令簡拼支持以上模糊音
+abbreviation:
+  __append:
+    - erase/^hm$/ # 响应超级简拼，取消「噷 hm」的独占（如果拼音词库有这个音节的话，雾凇里没有）
+    - erase/^m$/  # 响应超级简拼，取消「呣 m」的独占（如果拼音词库有这个音节的话，雾凇里没有）
+    - erase/^n$/  # 响应超级简拼，取消「嗯 n」的独占（如果拼音词库有这个音节的话，雾凇里没有）
+    - erase/^ng$/ # 响应超级简拼，取消「嗯 ng」的独占（如果拼音词库有这个音节的话，雾凇里没有）
+    - abbrev/^([a-z]).+$/$1/           # 簡拼（首字母）
+    - abbrev/^([zcs]h).+$/$1/          # 簡拼（zh, ch, sh）
+
+
+# 以下是一組容錯拼寫，《漢語拼音》方案以前者爲正
+spelling_correction:
+  __append:
+    - derive/^([nl])ve$/$1ue/          # nve = nue, lve = lue
+    - derive/^([jqxy])u/$1v/           # ju = jv,
+    - derive/un$/uen/                  # gun = guen,
+    - derive/ui$/uei/                  # gui = guei,
+    - derive/iu$/iou/                  # jiu = jiou,
+
+# 自動糾正一些常見的按鍵錯誤
+key_correction:
+  __append:
+    # - derive/([aeiou])ng$/$1gn/        # dagn => dang
+    # - derive/([dtngkhrzcs])o(u|ng)$/$1o/  # zho => zhong|zhou
+    # - derive/ong$/on/                  # zhonguo => zhong guo
+    # - derive/ao$/oa/                   # hoa => hao
+    # - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
+########## START 这几个有副作用的规则圈起来，方便取舍
+    # 这些规则对全拼简拼混输有副作用：如「x'ai 喜爱」被纠错为「xia 下」
+    # zh、ch、sh
+    - derive/([zcs])h(a|e|i|u|ai|ei|an|en|ou|uo|ua|un|ui|uan|uai|uang|ang|eng|ong)$/h$1$2/  # hzi → zhi
+    - derive/([zcs])h([aeiu])$/$1$2h/  # zih → zhi
+    # # ia
+    # - derive/([qjx])ia$/$1ai/  # qai → qia
+    # # an
+    # - derive/([wrtypsdfghklzcbnm])an$/$1na/  # dna → dan
+    # # en
+    # - derive/([wrpsdfghklzcbnm])en$/$1ne/  # rne → ren
+    # # in
+    # - derive/([qypjlxbnm])in$/$1ni/  # qni → qin
+    # # un
+    # - derive/([qrtysdghjklzxc])un$/$1nu/  # qnu → qun
+    # # ian
+    # - derive/([qtpdjlxbnm])ian$/$1ain/
+########## END
+    # ai
+    - derive/^([wghk])ai$/$1ia/  # wia → wai
+    # ei
+    - derive/([wfghkz])ei$/$1ie/  # wie → wei
+    # ie
+    - derive/([jqx])ie$/$1ei/  # jei → jie
+    # ao
+    - derive/([rtypsdghklzcbnm])ao$/$1oa/
+    # ou
+    - derive/([ypfm])ou$/$1uo/
+    # uo（无）
+    # ang
+    - derive/([wrtypsdfghklzcbnm])ang$/$1nag/
+    - derive/([wrtypsdfghklzcbnm])ang$/$1agn/
+    # eng
+    - derive/([wrtpsdfghklzcbnm])eng$/$1neg/
+    - derive/([wrtpsdfghklzcbnm])eng$/$1egn/
+    # ing
+    - derive/([qtypdjlxbnm])ing$/$1nig/
+    - derive/([qtypdjlxbnm])ing$/$1ign/
+    # ong
+    - derive/([rtysdghklzcn])ong$/$1nog/
+    - derive/([rtysdghklzcn])ong$/$1ogn/
+    # iao
+    - derive/([qtpdjlxbnm])iao$/$1ioa/
+    - derive/([qtpdjlxbnm])iao$/$1oia/
+    # ui
+    - derive/([rtsghkzc])ui$/$1iu/
+    # iu
+    - derive/([qjlxnm])iu$/$1ui/
+    # iang
+    - derive/([qjlxn])iang$/$1aing/
+    - derive/([qjlxn])iang$/$1inag/
+    # ua
+    - derive/([g|k|h|zh|sh])ua$/$1au/
+    # uai
+    - derive/([g|h|k|zh|ch|sh])uai$/$1aui/
+    # - derive/([g|h|k|zh|ch|sh])uai$/$1uia/ # 和「会啊、追啊」等常用词有冲突
+    # uan
+    - derive/([qrtysdghjklzxcn])uan$/$1aun/
+    # - derive/([qrtysdghjklzxcn])uan$/$1una/ # 和「去哪、露娜」等常用词有冲突
+    # ue
+    - derive/([nlyjqx])ue$/$1eu/
+    # uang
+    - derive/([g|h|k|zh|ch|sh])uang$/$1aung/
+    - derive/([g|h|k|zh|ch|sh])uang$/$1uagn/
+    - derive/([g|h|k|zh|ch|sh])uang$/$1unag/
+    - derive/([g|h|k|zh|ch|sh])uang$/$1augn/
+    # iong
+    - derive/([jqx])iong$/$1inog/
+    - derive/([jqx])iong$/$1oing/
+    - derive/([jqx])iong$/$1iogn/
+    - derive/([jqx])iong$/$1oign/
+
+
+############################################
+
+
+# 小鹤双拼按键映射
+algebra_xhup: 
+  __append: 
+    - erase/^xx$/
+    - derive/^([jqxy])u$/$1v/
+    - derive/^([aoe])([ioun])$/$1$1$2/
+    - xform/^([aoe])(ng)?$/$1$1$2/
+    - xform/iu$/Ⓠ/
+    - xform/(.)ei$/$1Ⓦ/
+    - xform/uan$/Ⓡ/
+    - xform/[uv]e$/Ⓣ/
+    - xform/un$/Ⓨ/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
+    - xform/uo$/Ⓞ/
+    - xform/ie$/Ⓟ/
+    - xform/(.)i?ong$/$1Ⓢ/
+    - xform/ing$|uai$/Ⓚ/
+    - xform/(.)ai$/$1Ⓓ/
+    - xform/(.)en$/$1Ⓕ/
+    - xform/(.)eng$/$1Ⓖ/
+    - xform/[iu]ang$/Ⓛ/
+    - xform/(.)ang$/$1Ⓗ/
+    - xform/ian$/Ⓜ/
+    - xform/(.)an$/$1Ⓙ/
+    - xform/(.)ou$/$1Ⓩ/
+    - xform/[iu]a$/Ⓧ/
+    - xform/iao$/Ⓝ/
+    - xform/(.)ao$/$1Ⓒ/
+    - xform/ui$/Ⓥ/
+    - xform/in$/Ⓑ/
+    - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/    
+  # 双拼简拼, 开启后可能性能不佳, 视情况开启
+    - abbrev/^(.).+$/$1/
+
+# 小鹤双拼解码规则
+algebra_flypy: 
+  __append:
+#    - erase/^xx$/
+#    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - derive/^([jqxy])u(;.*)$/$1v$2/
+    - derive/^([aoe])([ioun])(;.*)$/$1$1$2$3/
+    - xform/^([aoe])(ng)?(;.*)$/$1$1$2$3/
+    - xform/^(\w+?)iu(;.*)/$1Ⓠ$2/
+    - xform/^(\w+?)ei(;.*)/$1Ⓦ$2/
+    - xform/^(\w+?)uan(;.*)/$1Ⓡ$2/
+    - xform/^(\w+?)[uv]e(;.*)/$1Ⓣ$2/
+    - xform/^(\w+?)un(;.*)/$1Ⓨ$2/
+    - xform/^(\w+?)uo(;.*)/$1Ⓞ$2/
+    - xform/^(\w+?)ie(;.*)/$1Ⓟ$2/
+    - xform/^(\w+?)i?ong(;.*)/$1Ⓢ$2/
+    - xform/^(\w+?)ing(;.*)/$1Ⓚ$2/
+    - xform/^(\w+?)uai(;.*)/$1Ⓚ$2/
+    - xform/^(\w+?)ai(;.*)/$1Ⓓ$2/
+    - xform/^(\w+?)eng(;.*)/$1Ⓖ$2/
+    - xform/^(\w+?)en(;.*)/$1Ⓕ$2/
+    - xform/^(\w+?)[iu]ang(;.*)/$1Ⓛ$2/
+    - xform/^(\w+?)ang(;.*)/$1Ⓗ$2/
+    - xform/^(\w+?)ian(;.*)/$1Ⓜ$2/
+    - xform/^(\w+?)an(;.*)/$1Ⓙ$2/
+    - xform/^(\w+?)ou(;.*)/$1Ⓩ$2/
+    - xform/^(\w+?)iao(;.*)/$1Ⓝ$2/
+    - xform/^(\w+?)[iu]a(;.*)/$1Ⓧ$2/
+    - xform/^(\w+?)ao(;.*)/$1Ⓒ$2/
+    - xform/^(\w+?)ui(;.*)/$1Ⓥ$2/
+    - xform/^(\w+?)in(;.*)/$1Ⓑ$2/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
+    - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/
+  # 双拼简拼, 开启后可能性能不佳, 视情况开启
+#    - abbrev/^(.).+$/$1/
+
+# 自然码解码规则
+algebra_zrm: 
+  __append:
+    #- erase/^xx;.*$/
+    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - derive/^([jqxy])u(;.*)$/$1v$2/
+    - derive/^([aoe])([ioun])(;.*)$/$1$1$2$3/
+    - xform/^([aoe])(ng)?(;.*)$/$1$1$2$3/
+    - xform/^(\w+?)iu(;.*)$/$1Ⓠ$2/
+    - xform/^(\w+?)[uv]an(;.*)$/$1Ⓡ$2/
+    - xform/^(\w+?)[uv]e(;.*)$/$1Ⓣ$2/
+    - xform/^(\w+?)ing(;.*)$/$1Ⓨ$2/
+    - xform/^(\w+?)uai(;.*)$/$1Ⓨ$2/
+    - xform/^(\w+?)uo(;.*)$/$1Ⓞ$2/
+    - xform/^(\w+?)[uv]n(;.*)$/$1Ⓟ$2/
+    - xform/^(\w+?)i?ong(;.*)$/$1Ⓢ$2/
+    - xform/^(\w+?)[iu]ang(;.*)$/$1Ⓓ$2/
+    - xform/^(\w+?)en(;.*)$/$1Ⓕ$2/
+    - xform/^(\w+?)eng(;.*)$/$1Ⓖ$2/
+    - xform/^(\w+?)ang(;.*)$/$1Ⓗ$2/
+    - xform/^(\w+?)ian(;.*)$/$1Ⓜ$2/
+    - xform/^(\w+?)an(;.*)$/$1Ⓙ$2/
+    - xform/^(\w+?)iao(;.*)$/$1Ⓒ$2/
+    - xform/^(\w+?)ao(;.*)$/$1Ⓚ$2/
+    - xform/^(\w+?)ai(;.*)$/$1Ⓛ$2/
+    - xform/^(\w+?)ei(;.*)$/$1Ⓩ$2/
+    - xform/^(\w+?)ie(;.*)$/$1Ⓧ$2/
+    - xform/^(\w+?)ui(;.*)$/$1Ⓥ$2/
+    - xform/^(\w+?)ou(;.*)$/$1Ⓑ$2/
+    - xform/^(\w+?)in(;.*)$/$1Ⓝ$2/
+    - xform/^(\w+?)[iu]a(;.*)$/$1Ⓦ$2/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
+    - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
+
+
+# 全拼解码规则
+algebra_pinyin:     
+  __append: 
+#    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - erase/^xx;.*$/
+
+
+# 辅助码为空
+fuzhu_kong: 
+  __append: 
+    - "xform/;.*$//"
+
+# 简单鹤辅助码
+fuzhu_jdh:    ##############################位于词库第一个分号后
+  __append:
+    - xform|^(.{2});(.*?);.*$|$1;$2|         #匹配当前方案，转换为 双拼；辅助码（当前方案）的形式
+    - xform|^(\w+?);(.*?);.*$|$1;$2|
+    - derive/^(.{2}|\w+?);.*$/$1/ # 纯双拼的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+
+    - abbrev/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - abbrev/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+    - derive/^(.{2}|\w+?);.*,(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+# 自然码辅助码
+fuzhu_zrm:  ########################################位于词库第二个分号后
+  __append:
+    - xform|^(.{2});.*?;(.*?);.*$|$1;$2|
+    - xform|^(\w+?);.*?;(.*?);.*$|$1;$2|  #匹配当前方案，转换为 双拼；辅助码（当前方案）的形式
+    - derive/^(.{2}|\w+?);.*$/$1/ # 纯双拼的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+
+    - abbrev/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - abbrev/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+    - derive/^(.{2}|\w+?);.*,(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+# 虎码辅助码
+fuzhu_tiger:  ########################################位于词库第三个分号后
+  __append:
+    - xform|^(.{2});.*?;.*?;(.*?);.*$|$1;$2|
+    - xform|^(\w+?);.*?;.*?;(.*?);.*$|$1;$2|  #匹配当前方案，转换为 双拼；辅助码（当前方案）的形式
+    - derive/^(.{2}|\w+?);.*$/$1/ # 纯双拼的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+
+    - abbrev/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - abbrev/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+    - derive/^(.{2}|\w+?);.*,(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+# 小鹤音形辅助码
+fuzhu_flypy:  ########################################位于词库第四个分号后
+  __append:
+    - xform|^(.{2});.*?;.*?;.*?;(.*?);.*$|$1;$2|
+    - xform|^(\w+?);.*?;.*?;.*?;(.*?);.*$|$1;$2|  #匹配当前方案，转换为 双拼；辅助码（当前方案）的形式
+    - derive/^(.{2}|\w+?);.*$/$1/ # 纯双拼的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2/ # 双拼+一位辅助码的情况
+    - derive/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1[$2/ # 双拼+[一位辅助码的情况
+
+    - abbrev/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - abbrev/^(.{2}|\w+?);.*?,(\w)(\w).*$/$1$2$3/ # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+
+    - derive/^(.{2}|\w+?);(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+    - derive/^(.{2}|\w+?);.*,(\w)(\w).*$/$1$2$3o/ # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(\w+?);.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    - derive|^(.{2});.*,(\w)(\w).*$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+
+############################################
+
+# 小鹤双拼解码规则下的飞键
+fly_kk_kw:                              # kuai
+  __append:
+    - derive/kk;/kw;/
+fly_yi_ei:                              # yi
+  __append:
+    - derive/yi;/ei;/
+fly_qx_qo:                              # qia
+  __append:
+    - derive/qx;/qo;/
+fly_xq_xo:                              # xiu
+  __append:
+    - derive/xq;/xo;/
+fly_rr_rp:                              # ruan
+  __append:
+    - derive/rr;/rp;/
+fly_gf_gp:                              # gen
+  __append:
+    - derive/gf;/gp;/
+fly_jn_ja:                              # jiao
+  __append:
+    - derive/jn;/ja;/
+fly_po_ps:                              # po
+  __append:
+    - derive/po;/ps;/
+fly_fg_fs:                              # feng
+  __append:
+    - derive/fg;/fs;/
+fly_qq_qh:                              # qiu
+  __append:
+    - derive/qq;/qh;/
+fly_ww_wk:                              # wei
+  __append:
+    - derive/ww;/wk;/
+fly_cs_cl:                              # cong
+  __append:
+    - derive/cs;/cl;/
+fly_zs_zl:                              # zong
+  __append:
+    - derive/zs;/zl;/
+fly_dc_dl:                              # dao
+  __append:
+    - derive/dc;/dl;/
+fly_vr_vn:                              # zhuan
+  __append:                           
+    - derive/vr;/vn;/
+fly_ce_cn:                              # ce
+  __append:
+    - derive/ce;/cn;/
+
+

@@ -1,0 +1,245 @@
+# 朙拼音·挂载词库·自定义扩展
+# 修改主方案所挂词库
+---
+name: luna_pinyin.extended
+version: "2024-09-15"
+sort: by_weight  #字典初始排序，可選original或by_weight
+import_tables:
+  # ---------------------------------------
+  # 词库在「cn_dicts」文件目录下
+  # （使用#号禁用词库）
+  # ---------------------------------------
+  - cn_dicts/pinyin/8105                              # 字表
+  - cn_dicts/pinyin/41448                            # 大字表（按需启用）
+  - cn_dicts/pinyin/base                              # 基础词库
+  - cn_dicts/pinyin/ext                                # 扩展词库
+  - cn_dicts/pinyin/tencent_core                # 腾讯词库中抽取的一些词
+  - cn_dicts/pinyin/others                          # 一些杂项
+  # ---------------------------------------
+  - cn_dicts/my_user          # 用户词组与虎码通用
+  # ---------------------------------------
+    # 细胞词库
+#  - cn_dicts_cell/medication                             # 医药相关
+  - cn_dicts_cell/industry_product                    # 行业产品
+  - cn_dicts_cell/exthot                                     # ext 网络热词
+#  - cn_dicts_cell/chess                                       # 象棋
+#  - cn_dicts_cell/chess2                                     # 象棋棋谱等
+  - cn_dicts_cell/animal                                     # 动物
+#  - cn_dicts_cell/game                                      # 游戏相关
+  - cn_dicts_cell/idiom                                     # 成语
+#  - cn_dicts_cell/sport                                      # 运动相关 各种球类运动术语、明星
+#  - cn_dicts_cell/media                                    # 自媒体
+  - cn_dicts_cell/shulihua                                # 数理化
+#  - cn_dicts_cell/food                                      # 食物 菜名
+#  - cn_dicts_cell/inputmethod                         # 输入法相关
+#  - cn_dicts_cell/history                                  # 历史相关
+  - cn_dicts_cell/place                                     # 地名 地铁
+#  - cn_dicts_cell/geography                           # 地理 地质
+#  - cn_dicts_cell/name2                                 # 动漫人名等  需要降频
+#  - cn_dicts_cell/literature                             # 语文 文学 生僻词汇
+#  - cn_dicts_cell/music                                  # 音乐相关
+#  - cn_dicts_cell/computer                           # 计算机 互联网相关
+  - cn_dicts_cell/composite                         # 复合词 合成词
+#  - cn_dicts_cell/name                                 # 名字 要降频
+  # ---------------------------------------  
+...
+
+# 大写字母
+# 可在拼音方案下直接输入大写字母（Shift + 字母），大写字母参与造句。
+# 示例：输入 `nihaoASDFzaijian` 得到 `你好ASDF再见`
+# （非雾凇方案的双拼如果要启用，需要参考双拼方案下的 speller/algebra 将大写字母搭桥改成一些特殊字符）
+A	A
+B	B
+C	C
+D	D
+E	E
+F	F
+G	G
+H	H
+I	I
+J	J
+K	K
+L	L
+M	M
+N	N
+O	O
+P	P
+Q	Q
+R	R
+S	S
+T	T
+U	U
+V	V
+W	W
+X	X
+Y	Y
+Z	Z
+
+# 数字参与中文造词，方便输入一些特殊的 ID。配合大写字母造词可以自动为 `5G网络`，`3D打印` 等词汇注音
+0	ling
+1	yi
+1	yao
+2	er
+3	san
+4	si
+5	wu
+6	liu
+7	qi
+8	ba
+9	jiu
+
+# 示例：输入 sanDdayin 得到 3D打印
+M1
+M2
+M3
+M4
+3G
+4G
+5G
+2D
+3D
+4D
+3D打印
+
+# 加入词典，响应 opencc/others.txt 的 emoji 集合
+V动物
+V国旗
+V手势
+V表情
+V分数
+V按键
+V星号
+V特殊
+V常用
+V中华
+V中餐
+V串串
+V亚裔
+V亚裔女
+V亚裔男
+V运动
+V运动员
+V元素
+V公交
+V动物脸
+V包
+V午餐
+V饭
+V景点
+V器官
+V圆形
+V地铁
+V交通
+V坚果
+V外汇
+V钞票
+V纸币
+V货币
+V多媒体
+V夜晚
+V夜空
+V大自然
+V自然
+V气象
+V天气
+V娱乐
+V宗教
+V家禽
+V冷
+V寒冷
+V工具
+V帽
+V帽子
+V心心
+V快餐
+V怪物
+V拉丁
+V拉丁裔
+V拉美
+V拉美人
+V拉美裔
+V卷
+V数码
+V方形
+V正方形
+V日料
+V日式料理
+V日本菜
+V日用
+V早餐
+V早点
+V星座
+V时钟
+V月亮
+V有毒
+V服装
+V服饰
+V东亚人
+V东亚裔
+V果
+V水果
+V棕色人
+V棕色人种
+V植物
+V乐器
+V机械
+V正餐
+V武器
+V车
+V汽车
+V火车
+V热饮
+V牲畜
+V奖
+V奖项
+V奖牌
+V球
+V甜食
+V甜点
+V生肖
+V畜生
+V白人
+V白种人
+V眼镜
+V科学
+V穆斯林
+V节日
+V粗粮
+V精灵
+V肉
+V肤色
+V船
+V花
+V花朵
+V菜
+V蔬菜
+V叶子
+V虫
+V血型
+V衣服
+V西餐
+V调料
+V游乐园
+V酒
+V野味
+V野生动物
+V阿拉伯
+V阿拉伯人
+V雪
+V零食
+V电器
+V电子
+V鞋
+V鞋子
+V颜色
+V飞行器
+V饮料
+V餐具
+V发型
+V发色
+V鱼
+V鸟
+V面包
+V黄种人
+V黑人
+V点心

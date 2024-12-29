@@ -1,0 +1,7 @@
+# Rime user dictionary
+#@/db_name	JDhe
+#@/db_type	userdb
+#@/rime_version	1.12.0
+#@/tick	2
+#@/user_id	tsbu-jdh
+joge 	几个	c=2 d=1.99501 t=2

@@ -1,0 +1,26 @@
+## 简单鹤
+JDhe:
+  __append:
+## 三简词
+    - "xhu\t小红书 西红柿 喜欢上 小护士"
+
+## 虎码
+tiger:
+  __append:
+# 单字
+    - "xbjd\t刍"  
+    - "lpdk\t龆"  
+# 英文
+    - "ios\tiOS"
+
+
+## 小鹤双拼
+flypy_tiger:
+  __append:
+    - "haha\t哈哈"
+    - "hcde\t好的"
+
+## 乱序17双拼
+lx17_pinyin:
+  __append:
+    - "haha\t哈哈"

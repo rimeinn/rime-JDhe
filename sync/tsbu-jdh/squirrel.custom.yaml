@@ -1,0 +1,249 @@
+patch:
+
+
+# [style]s
+# 字体；候选项、候选窗口的行为、布局及样式 
+  style:
+    # 选择皮肤，亮色与暗色主题
+    color_scheme: native
+    color_scheme_dark: native
+
+  # 预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
+  style/text_orientation: horizontal             # horizontal 横排文本 | vertical 竖排文本   
+  style/candidate_list_layout: linear        # 候选项排列方向 stacked(默认) | linear
+  style/inline_preedit: true                          # 拼音位于： 候选框 false | 行内 true
+  style/corner_radius: 7                             # 外边框 圆角半径
+  style/hilited_corner_radius: 6                   # 选中框 圆角半径
+  style/border_height: -2                             # 外边框 高
+  style/border_width: -2                              # 外边框 宽
+  style/line_spacing: 5                               # 行间距
+  style/spacing: 8                                    # 拼音与候选项之间的距离 （inline_preedit: false）
+  style/shadow_size: 0                                   # 阴影大小 
+    # 如果将字体设置为 PingFangSC-Regular
+    # 会让 🈶🈚️🉑🈲🉐 这几个 Emoji 失去彩色效果，留空反而可以显示。。。  
+  style/font_face: "霞鹜文楷 GB 屏幕阅读版,MiSans L3"            # 候选词字体
+  style/font_point: 18                                         #候选字词大小
+#  stylelabel_font_face: ""                                 # 候选编号字体
+  style/label_font_point: 15                               # 候选编号大小
+  style/comment_font_face: "Helvetica, TumanPUA"    # 注释字体
+  style/comment_font_point: 16                       # 注释字体字号
+  style/candidate_format: '%c %@'                    # 标签字符
+
+
+# 皮肤列表
+  preset_color_schemes/+: 
+
+    native:
+      name: 系統配色
+
+    Pink:                                      # 在 `style/color_schema` 指定的配色方案值
+      name: "粉色／Pink"                     # 方案设置中显示的配色名称
+      author: zHon <鼠须管皮肤修改>                           # 配色作者名称
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0xF9F9F9                                      # 底色
+      hilited_candidate_back_color: 0xECE4FC        # 选中底色
+      label_color: 0x888785                                    # 序号颜色
+      hilited_candidate_label_color: 0xA483EC       # 选中序号颜色
+      candidate_text_color: 0x121212          # 文字颜色
+      hilited_candidate_text_color: 0x7A40EC  # 选中文字颜色
+      comment_text_color: 0x8E8E8E            # 注释颜色
+      hilited_comment_text_color: 0x7A40EC    # 选中注释颜色
+      text_color: 0x7A40EC                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0x7A40EC            # 选中拼音颜色 （inline_preedit: false）
+      # candidate_back_color:                 # 候选项底色
+      # preedit_back_color:                   # 拼音底色 （inline_preedit: false）
+      # hilited_back_color:                   # 选中拼音底色 （inline_preedit: false）
+      border_color: 0xE2E7F5                       # 外边框颜色
+
+    Pink_dark:
+      name: "粉色深色／Pink_dark"                    
+      author: zHon <鼠须管皮肤修改>  
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0x424242                                      # 底色
+      hilited_candidate_back_color: 0xECE4FC        # 选中底色
+      label_color: 0xefefef                                    # 序号颜色
+      hilited_candidate_label_color: 0xA483EC       # 选中序号颜色
+      candidate_text_color: 0xefefef          # 文字颜色
+      hilited_candidate_text_color: 0x7A40EC  # 选中文字颜色
+      comment_text_color: 0xefefef            # 注释颜色
+      hilited_comment_text_color: 0x7A40EC    # 选中注释颜色
+      text_color: 0x7A40EC                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0x424242            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0x00424242                       # 外边框颜色      
+
+
+    Blue:
+      name: "蓝色／Blue"                    
+      author: zHon  
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0xF9F9F9                                      # 底色
+      hilited_candidate_back_color: 0xFFF0E7        # 选中底色
+      label_color: 0x888785                                    # 序号颜色
+      hilited_candidate_label_color: 0xDF9965       # 选中序号颜色
+      candidate_text_color: 0x121212          # 文字颜色
+      hilited_candidate_text_color: 0xD66938  # 选中文字颜色
+      comment_text_color: 0x8E8E8E            # 注释颜色
+      hilited_comment_text_color: 0xD66938    # 选中注释颜色
+      text_color: 0xE56C2E                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0xF9F9F9            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0xFFF0E7                       # 外边框颜色     
+
+
+    Blue_dark:                                      
+      name: "蓝色深色／Blue_dark"               
+      author: zHon  
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0x424242                                      # 底色
+      hilited_candidate_back_color: 0xFFF0E7        # 选中底色
+      label_color: 0xefefef                                    # 序号颜色
+      hilited_candidate_label_color: 0xDF9965       # 选中序号颜色
+      candidate_text_color: 0xefefef          # 文字颜色
+      hilited_candidate_text_color: 0xD66938  # 选中文字颜色
+      comment_text_color: 0xefefef            # 注释颜色
+      hilited_comment_text_color: 0xD66938    # 选中注释颜色
+      text_color: 0xE56C2E                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0x424242            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0x00424242                       # 外边框颜色    
+
+
+    wechat_light:                                      
+      name: "微信键盘浅色/wechat_light"                     
+      author: zHon
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0xffffff                                      # 底色
+      hilited_candidate_back_color: 0x79b008        # 选中底色
+      label_color: 0x878787                                    # 序号颜色
+      hilited_candidate_label_color: 0xf8faf3       # 选中序号颜色
+      candidate_text_color: 0x484848          # 文字颜色
+      hilited_candidate_text_color: 0xffffff  # 选中文字颜色
+      comment_text_color: 0x878787            # 注释颜色
+      hilited_comment_text_color: 0xf8faf3    # 选中注释颜色
+      text_color: 0x0d0d0d                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0x0d0d0d            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0xe3e3e3                       # 外边框颜色      
+
+    wechat_dark:                                      
+      name: "微信键盘深色/wechat_dark"                     
+      author: zHon
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0x151515                                      # 底色
+      hilited_candidate_back_color: 0x79b008        # 选中底色
+      label_color: 0x5e5e5e                                    # 序号颜色
+      hilited_candidate_label_color: 0xf8faf3       # 选中序号颜色
+      candidate_text_color: 0xafafaf          # 文字颜色
+      hilited_candidate_text_color: 0xffffff  # 选中文字颜色
+      comment_text_color: 0x5e5e5e            # 注释颜色
+      hilited_comment_text_color: 0xf8faf3    # 选中注释颜色
+      text_color: 0xf8faf3                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0xf8faf3            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0x151515                       # 外边框颜色         
+
+    moqi:                                      
+      name: "墨奇/moqi"   #配色取自墨奇双拼辅助码方案                     
+      author: zHon
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0x151515                                      # 底色
+      hilited_candidate_back_color: 0xad7d53        # 选中底色
+      label_color: 0x5e5e5e                                    # 序号颜色
+      hilited_candidate_label_color: 0xf8faf3       # 选中序号颜色
+      candidate_text_color: 0xafafaf          # 文字颜色
+      hilited_candidate_text_color: 0xffffff  # 选中文字颜色
+      comment_text_color: 0x5e5e5e            # 注释颜色
+      hilited_comment_text_color: 0xf8faf3    # 选中注释颜色
+      text_color: 0xf8faf3                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0xf8faf3            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0x00151515                       # 外边框颜色               
+
+    mint_light_blue:
+      name: "蓝水鸭／Mint Light Blue"
+      author: Mintimate <"Mintimate's Blog">
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0xefefef                                      # 底色
+      hilited_candidate_back_color: 0xed9564        # 选中底色
+      label_color: 0xcac9c8                                    # 序号颜色
+      hilited_candidate_label_color: 0xcac9c8       # 选中序号颜色
+      candidate_text_color: 0x424242          # 文字颜色
+      hilited_candidate_text_color: 0xefefef  # 选中文字颜色
+      comment_text_color: 0xcac9c8            # 注释颜色
+      hilited_comment_text_color: 0xefefef    # 选中注释颜色
+      text_color: 0x6495ed                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0xefefef            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0xefefef                       # 外边框颜色         
+      shadow_size: 2                          # 阴影大小
+
+    mint_dark_blue:
+      name: "黑水鸭／Mint Dark Blue"
+      author: Mintimate <"Mintimate's Blog">
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0x424242                                      # 底色
+      hilited_candidate_back_color: 0xc6c01a        # 选中底色
+      label_color: 0xefefef                                    # 序号颜色
+      hilited_candidate_label_color: 0xffffff       # 选中序号颜色
+      candidate_text_color: 0xefefef          # 文字颜色
+      hilited_candidate_text_color: 0xefefef  # 选中文字颜色
+      comment_text_color: 0xefefef            # 注释颜色
+      hilited_comment_text_color: 0xffffff    # 选中注释颜色
+      text_color: 0x6495ed                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0x424242            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0x424242                       # 外边框颜色
+
+    mint_dark_blue:
+      name: "黑水鸭／Mint Dark Blue"
+      author: Mintimate <"Mintimate's Blog">
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0x424242                                      # 底色
+      hilited_candidate_back_color: 0xc6c01a        # 选中底色
+      label_color: 0xefefef                                    # 序号颜色
+      hilited_candidate_label_color: 0xffffff       # 选中序号颜色
+      candidate_text_color: 0xefefef          # 文字颜色
+      hilited_candidate_text_color: 0xefefef  # 选中文字颜色
+      comment_text_color: 0xefefef            # 注释颜色
+      hilited_comment_text_color: 0xffffff    # 选中注释颜色
+      text_color: 0x6495ed                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0x424242            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0x424242                       # 外边框颜色
+
+    win11light:
+      name: " Win11浅色/ Win11light"
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0xf9f9f9                                      # 底色
+      hilited_candidate_back_color: 0xf0f0f0        # 选中底色
+      label_color: 0x666666                                    # 序号颜色
+      hilited_candidate_label_color: 0x666666       # 选中序号颜色
+      candidate_text_color: 0x3a3a3a          # 文字颜色
+      hilited_candidate_text_color: 0x9e5a00  # 选中文字颜色
+      comment_text_color: 0x666666            # 注释颜色
+      hilited_comment_text_color: 0x1a1a1a    # 选中注释颜色
+      text_color: 0x777777                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0x000000            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0x009e5a00                       # 外边框颜色
+
+    win11dark:
+      name: " Win11暗色 / Win11Dark"
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0x303030                                      # 底色
+      hilited_candidate_back_color: 0xD75A00        # 选中底色
+      label_color: 0xc9c9c9                                    # 序号颜色
+      hilited_candidate_label_color: 0xf9f9f9       # 选中序号颜色
+      candidate_text_color: 0xc9c9c9          # 文字颜色
+      hilited_candidate_text_color: 0xf9f9f9  # 选中文字颜色
+      comment_text_color: 0xc9c9c9            # 注释颜色
+      hilited_comment_text_color: 0xf9f9f9    # 选中注释颜色
+      text_color: 0xc9c9c9                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0xf9f9f9            # 选中拼音颜色 （inline_preedit: false）
+      border_color: 0x0c202020                       # 外边框颜色
+
+    minimalism_white:
+      name: "极简白 / minimalism_white"
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      back_color: 0xFFFFFF                                      # 底色
+      hilited_candidate_back_color: 0xF1F7FF        # 选中底色
+      label_color: 0xFFBC48                                    # 序号颜色
+      hilited_candidate_label_color: 0x0763EB       # 选中序号颜色
+      candidate_text_color: 0xFF9F48          # 文字颜色
+      hilited_candidate_text_color: 0x0763EB  # 选中文字颜色
+      comment_text_color: 0xFF9F48            # 注释颜色
+      hilited_comment_text_color: 0x0763EB    # 选中注释颜色
+      text_color: 0xFF9F48                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0xFF9F48            # 选中拼音颜色 （inline_preedit: false）
+      #border_color: 0xe3e3e3                       # 外边框颜色

@@ -1,0 +1,70 @@
+# Rime user dictionary
+#@/db_name	moran_pin
+#@/db_type	userdb
+#@/rime_version	1.11.2
+#@/tick	1
+#@/user_id	tsbu-jdh
+aa 	吖//jj	c=-753095 d=0 t=1
+aa 	哦	c=-754503 d=0 t=1
+ai 	爱	c=820377 d=0 t=1
+ba 	把	c=781017 d=0 t=1
+bi 	比	c=820473 d=0 t=1
+cg 	曾	c=820697 d=0 t=1
+ci 	此	c=819945 d=0 t=1
+cif 	次	c=819945 d=0 t=1
+d 	倒	c=-803271 d=2 t=1
+dc 	到	c=803177 d=0 t=1
+de 	得	c=758265 d=0 t=1
+djjn 	单交	c=843929 d=0 t=1
+dz 	都	c=772329 d=0 t=1
+er 	而	c=782777 d=0 t=1
+erk 	儿	c=782761 d=0 t=1
+ff 	分	c=820345 d=0 t=1
+gg 	更	c=782601 d=0 t=1
+gw 	给	c=820617 d=0 t=1
+hd 	还	c=781113 d=0 t=1
+hljk 	黄静	c=754649 d=0 t=1
+hv 	会	c=819817 d=0 t=1
+ig 	成	c=782313 d=0 t=1
+igg 	城	c=802457 d=0 t=1
+iu 	处	c=820569 d=0 t=1
+jb 	进	c=819865 d=0 t=1
+jbe 	今	c=865785 d=0 t=1
+jm 	见	c=782681 d=0 t=1
+jxyixm 	驾意险	c=-864519 d=0 t=1
+kj 	看	c=780265 d=0 t=1
+ld 	来	c=769993 d=0 t=1
+li 	里	c=819881 d=0 t=1
+ma 	吗	c=782713 d=0 t=1
+na 	那	c=803337 d=0 t=1
+ng 	能	c=780425 d=0 t=1
+o 	有	c=-820327 d=0 t=1
+p 	说	c=-782823 d=0 t=1
+ps 	破	c=863177 d=0 t=1
+qi 	起	c=821049 d=0 t=1
+qm 	前	c=782729 d=0 t=1
+qms 	千	c=865209 d=0 t=1
+qms 	迁	c=-865207 d=0 t=1
+qmsr 	乾	c=-872327 d=0 t=1
+rh 	让	c=782793 d=0 t=1
+sj 	散	c=782986 d=0 t=1
+sj 	时间	c=782969 d=0 t=1
+ss 	送	c=782329 d=0 t=1
+uh 	上	c=820521 d=0 t=1
+uijix 	拾集	c=-757351 d=0 t=1
+uo 	说	c=782809 d=0 t=1
+ve 	着	c=820713 d=0 t=1
+vf 	真	c=781097 d=0 t=1
+viv 	庄传智	c=754489 d=0 t=1
+wk 	为	c=770025 d=0 t=1
+xl 	想	c=820665 d=0 t=1
+xluv 	香	c=-752983 d=0 t=1
+xmuu 	贤淑	c=-938247 d=0 t=1
+xx 	下	c=780217 d=0 t=1
+xys 	寻	c=826265 d=0 t=1
+ye 	也	c=794921 d=0 t=1
+yz 	有	c=820297 d=0 t=1
+yzso 	有所	c=847801 d=0 t=1
+zd 	再	c=820153 d=0 t=1
+zxx 	自信心	c=847865 d=0 t=1
+zz 	走	c=782697 d=0 t=1
