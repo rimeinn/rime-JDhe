@@ -153,7 +153,7 @@ patch:
 
   # 重复上屏
   history: 
-    input: ;f
+    input: ;k
     size: 1                             # 重复前几次上屏
     initial_quality: 1              # 初始权重
 
