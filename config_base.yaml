@@ -303,8 +303,14 @@ patch:
 #    - { accept: Shift+Tab, send: Up, when: has_menu} 
    
    # 使用 tab 在不同音節間跳轉
-    - { accept: Tab, send: Control+Right, when: has_menu }
-    - { accept: Tab, send: Control+Right, when: composing }
+#    - { accept: Tab, send: Control+Right, when: has_menu }
+#    - { accept: Tab, send: Control+Right, when: composing }
+
+
+   # Shift+Tab 向前翻页
+    - { accept: Shift+Tab, send: Page_Up, when: paging} 
+   # Tab 向后翻页
+    - { accept: Tab, send: Page_Down, when: has_menu} 
 
    # 减号向前翻页
     - { accept: minus, send: Page_Up, when: paging} 
