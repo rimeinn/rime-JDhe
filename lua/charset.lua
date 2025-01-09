@@ -9755,6 +9755,7 @@ local charset = {
 ['朙'] = 0,
 ['趙'] = 0,
 ['珄'] = 0,
+['殺'] = 0,
 }
 
 return charset
