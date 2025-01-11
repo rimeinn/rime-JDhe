@@ -570,8 +570,9 @@ end
 -- greedy：隨時求值（每次變化都會求值，否則結尾爲特定字符時求值）
 local greedy = true
 
+-- 指定一个符号作为引导符
 local function calculator(input, seg)
-  if string.sub(input, 1, 1) ~= "=" then return end
+  if string.sub(input, 1, 1) ~= "V" then return end
   
   local expfin = greedy or string.sub(input, -1, -1) == ";"
   local exp = (greedy or not expfin) and string.sub(input, 2, -1) or string.sub(input, 2, -2)

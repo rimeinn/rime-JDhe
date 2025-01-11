@@ -66,7 +66,7 @@ patch:
       - table_translator@quick_symbol_phrase      
    # 重复上屏
       - history_translator@history
-   # 计算器功能，通过=实现
+   # 计算器功能，通过V实现
       - lua_translator@*calculator             
    # 日期输入 date, week, time, /wd, /wk, /wt 触发
       - lua_translator@*date_time 
@@ -242,7 +242,7 @@ patch:
   # # URL     
   recognizer/patterns/url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$" 
   # cctest 計算機功能 通过=实现     
-  recognizer/patterns/expression: "^=.*$"                   
+  recognizer/patterns/expression: "^V.*$"                   
   # 响应时间日期lua  
   recognizer/patterns/week: "^(/wk|week|oxq|owk)$"
   recognizer/patterns/time: "^(/wt|time|osj|owt)$"
