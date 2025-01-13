@@ -6,7 +6,6 @@ version: "2024-11-25"
 sort: by_weight       # original 按原始顺序排序候选词 或 by_weight 按词频权重排序
 dict_grouped: false # 词库管理应用识别：标记该码表为分组模式
 ...
-上上策	uuc
 啊啊啊	aaa
 暗暗地	aad
 矮矮的	aad
@@ -1936,14 +1935,12 @@ Alt	alt
 必须把	bxb
 包心菜	bxc
 不晓得	bxd
-巴西队	bxd
+不许动	bxd
 保鲜袋	bxd
 保险单	bxd
 表兄弟	bxd
-不许动	bxd
-把兄弟	bxd
-保险带	bxd
 不相等	bxd
+巴西队	bxd
 变戏法	bxf
 不相符	bxf
 保险费	bxf
@@ -4994,10 +4991,10 @@ Alt	alt
 范冰冰	fbb
 帆布包	fbb
 分别比	fbb
-反病毒	fbd
-防病毒	fbd
-芬必得	fbd
 防波堤	fbd
+芬必得	fbd
+防病毒	fbd
+反病毒	fbd
 烦不烦	fbf
 服不服	fbf
 发布会	fbh
@@ -7675,11 +7672,11 @@ GDP	gdp
 换档键	hdj
 回到了	hdl
 好多了	hdl
-红灯笼	hdl
-魂斗罗	hdl
+海底捞	hdl
 耗电量	hdl
+魂斗罗	hdl
 蝴蝶兰	hdl
-活到老	hdl
+红灯笼	hdl
 核动力	hdl
 亨得利	hdl
 横断面	hdm
@@ -8088,12 +8085,9 @@ GDP	gdp
 候机厅	hjt
 回教徒	hjt
 很健谈	hjt
-会计师	hju
 火炬手	hju
-核技术	hju
-会计室	hju
 候机室	hju
-很精神	hju
+核技术	hju
 好几种	hjv
 黄金周	hjv
 获奖者	hjv
@@ -12127,11 +12121,9 @@ GDP	gdp
 科技部	kjb
 空降兵	kjb
 课间操	kjc
-抗静电	kjd
-孔家店	kjd
-可见度	kjd
 可降低	kjd
-看见的	kjd
+抗静电	kjd
+可见度	kjd
 抗击打	kjd
 坎肩儿	kje
 看见过	kjg
@@ -12164,9 +12156,11 @@ GDP	gdp
 科技厅	kjt
 壳聚糖	kjt
 快镜头	kjt
+可就是	kju
+会计师	kju
 科技史	kju
 空间商	kju
-可就是	kju
+会计室	kju
 空间站	kjv
 恐惧症	kjv
 科举制	kjv
@@ -12261,7 +12255,6 @@ GDP	gdp
 孔明灯	kmd
 抠门儿	kme
 科目二	kme
-科目二	kme
 看门狗	kmg
 昆明湖	kmh
 开门红	kmh
@@ -12275,12 +12268,10 @@ GDP	gdp
 看门人	kmr
 科目三	kms
 科目四	kms
-科目四	kms
 开幕式	kmu
 昆明市	kmu
 空码位	kmw
 可没有	kmy
-科目一	kmy
 科目一	kmy
 扣帽子	kmz
 可能吧	knb
@@ -13050,8 +13041,9 @@ KTV	ktv
 老皇历	lhl
 领回来	lhl
 理还乱	lhl
-连环马	lhm
+癞蛤蟆	lhm
 狸花猫	lhm
+连环马	lhm
 老黄牛	lhn
 氯化钠	lhn
 连环炮	lhp
@@ -20364,7 +20356,6 @@ PPT	ppt
 沙发床	ufi
 收费处	ufi
 始发车	ufi
-顺风车	ufi
 煞风景	ufj
 书法家	ufj
 上飞机	ufj
@@ -21256,6 +21247,7 @@ PPT	ppt
 石头子	utz
 射手榜	uub
 数十倍	uub
+上上策	uuc
 摄氏度	uud
 深深地	uud
 深深的	uud
@@ -21881,9 +21873,8 @@ PPT	ppt
 真不想	vbx
 这必须	vbx
 止步于	vby
-值班员	vby
 占便宜	vby
-周邦彦	vby
+值班员	vby
 这辈子	vbz
 猪鼻子	vbz
 注册表	vcb
@@ -26389,12 +26380,12 @@ PPT	ppt
 引爆器	ybq
 用不起	ybq
 一边去	ybq
-一般人	ybr
 要不然	ybr
-远不如	ybr
-一班人	ybr
+一般人	ybr
 一帮人	ybr
+远不如	ybr
 又比如	ybr
+一班人	ybr
 也不算	ybs
 银白色	ybs
 隐蔽所	ybs
@@ -26655,7 +26646,6 @@ PPT	ppt
 易腐烂	yfl
 有份量	yfl
 一方面	yfm
-与非门	yfm
 养父母	yfm
 英法美	yfm
 亚非欧	yfo
