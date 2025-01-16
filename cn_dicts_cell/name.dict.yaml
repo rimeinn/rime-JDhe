@@ -52,11 +52,11 @@ sort: by_weight
 伊卡尔迪	yi;xu;ry;jt;ry; ka;ph;bx,ub;yy;ub; er;gf;dx,xd;xy;dx; di;vq;zy;du;zy;	160
 伊坂幸太郎	yi;xu;ry;jt;ry; ban;gl;tf;gr;ty; xing;gs;tu,ty;gg;tg; tai;xh;dd;mi;dd; lang;hb;el;it;de;	123
 伊巴卡	yi;xu;ry;jt;ry; ba;tt;ag,kg,vg;mb;sl,vv; ka;ph;bx,ub;yy;ub;	404
-伊戈达拉	yi;xu;ry;jt;ry; ge;aa,ha;ad;pg;ad; da;xq;zd;mu;zd; la;jb;fl;ui;fl;	351
+伊戈达拉	yi;xu;ry;jt;ry; ge;dh,aa,ha;ad;pg;ad; da;xq;zd;mu;zd; la;jb;fl;ui;fl;	351
 伊斯科	yi;xu;ry;jt;ry; si;vp;jq,qj;zt;qj; ke;uh,us;hd;xj;hu;	218
 妃英理	fei;yt;nj;bv;nj; ying;zx,ze;cy;lm;cy; li;ag;wl;nd;wl;	204
 姆巴佩	mu;yh;nm;bk;nm; ba;tt;ag,kg,vg;mb;sl,vv; pei;xy;rb,rj;jr;rj;	1543
-姚主席	yao;yh,yf;nv;bw;nd; zhu;ig;dw;in;dw; xi;ry;jc,gj;xr;gj;	161
+姚主席	yao;yh,yf;nv;bw;nd; zhu;ig,ha;dw;in;dw; xi;ry;jc,gj;xr;gj;	161
 姆希塔良	mu;yh;nm;bk;nm; xi;yy;ju,ib,ij;br;xj; ta;go;td,th;gd;tk; liang;hh;dg;ii;dg;	196
 徐涛	xu;hf;xy;wx;ih; tao;kk;du;kk;dc;	3258
 腿姐	tui;lq;ot;vu;oz; jie;yu;nq;bf;nq;	3152
@@ -70,7 +70,7 @@ sort: by_weight
 哈莉	ha;oo;kh;dd;kk; li;zi;cl;lp;cd;	1479
 短短的	duan;ed;ud;oz;ua; duan;ed;ud;oz;ua; de;sh;bu;ui;bu;	1444
 没地去	mei;kl;du;kr;dy; di;gr,ga;ty;ge;ty; qu;gp;ts;gk;ts;	0
-知群	zhi;eo;uk,ku;od;uk; qun;rp;yj;bg;yy;	1435
+知群	zhi;eo;uk,ku;od;uk; qun;rp,sp;yj;bg;yy;	1435
 来答	lai;uf,ef,dl;am,wb;ah;an; da;no;vh;rd;vk;	1433
 唐军	tang;ro;gk;xd;gk; jun;it;bi;wy;bi;	1336
 迪伦	di;vq;zy;du;zy; lun;;rl;jj;rb;	1259
@@ -85,19 +85,19 @@ sort: by_weight
 王澍	wang;aa;aa;nw;at; shu;kk;dc,du;kk;dc;	990
 盛瑾	sheng;rd,ra;mi;na;im; jin;aa,ag,ad;wj;na;wa;	985
 罗夏	luo;af;sx;yl;sx; xia;dj;wz,aw;fh;aw;	974
-魔禁	mo;ds,rs;gm,mg;za;gg; jin;wf;ul;ef;mx;	955
+魔禁	mo;ds,rs,rp,dp;gm,mg;za;gg; jin;wf;ul;ef;mx;	955
 许稚	xu;cs;yw;sn;yw; zhi;ua;hv;xu;hf;	942
 直子	zhi;sd,su;aa,uq;nf;uq; zi;aa;aa,vh;hi;va;	938
 阿泽	a;bj;ek;tz;ek; ze;kp;df;ku;dl;	931
 西昊	xi;pp;aa;vx;aa; hao;vx;ot;om;ot;	882
 立信	li;bb;da;il;wa; xin;xo,xc;ry;js;rk;	874
 梁博	liang;kw;mb;ke;dm; bo;sk;uc,uf;nk;uc;	833
-戈恩	ge;aa,ha;ad;pg;ad; en;nn;xy;rh;kx;	818
+戈恩	ge;dh,aa,ha;ad;pg;ad; en;nn;xy;rh;kx;	818
 晴子	qing;vl;oq;ov;oo; zi;aa;aa,vh;hi;va;	815
 伯格	bo;xs;rb;ju;rb; ge;wo;mg;es;mk;	796
 博子	bo;sk;uc,uf;nk;uc; zi;aa;aa,vh;hi;va;	762
 莱万	lai;zf,zl;cl;lh;cl; wan;du;ag,ap;fp;ap;	758
-大超	da;xx;ad;md;un; chao;qo;zv;pd;tk;	752
+大超	da;xx;ad;md;un; chao;go,qo;zv;pd;tk;	752
 慕若	mu;zh,zf;cx,xm;lh;cx; ruo;zo;cy;ld;ck;	740
 今敏	jin;er;ra,rv;ja;rv; min;ej;wm;eh;pw;	740
 泽北	ze;kp;df;ku;dl; bei;la;ap,bj;av;lb;	736
@@ -110,7 +110,7 @@ sort: by_weight
 灰原	hui;st;hu,uh;nc;uh; yuan;rf;ix;xy;ix;	647
 扎导	zha;jr;fg;ua;fv; dao;tk;cs,sc;vk;sc;	678
 比伯	bi;aa;bb;vv;bb; bo;xs;rb;ju;rb;	666
-元起	yuan;uk;aw,ee;mp;ee; qi;qt;zj;pv;tj;	654
+元起	yuan;uk;aw,ee;mp;ee; qi;qt,gt;zj;pv;tj;	654
 林奇	lin;ww;mm;ee;mm; qi;xj;dk;mz;dk;	594
 李陵	li;wa;mz;eh;mz; ling;bj;el,ew;th;ew;	586
 艺兴	yi;zr;cy;la;cv; xing;hf;ba,db;kh;xb;	528
@@ -137,7 +137,7 @@ sort: by_weight
 复星	fu;ej;pw,rw,wo;eh;pw; xing;vg,va;ou;ol;ou;	384
 石昊	shi;tt;kp,aa,ak,pk;ms;ak; hao;vx;ot;om;ot;	383
 蒙氏	meng;zh;cm,cu;lj;cn,cu; shi;ur;pg;bs;pv;	378
-赵姬	zhao;qy;zi;pb;tx; ji;yr;ni;bq;ni,nl;	378
+赵姬	zhao;qy,gy;zi;pb;tx; ji;yr;ni;bq;ni,nl;	378
 范雎	fan;zt;ce,cf;lz;cv; ju;pa;qv,vq;fu;qf;	375
 杨紫	yang;wu;my;ee;mp; zi;rf;sc;si;vx;	358
 黄洋	huang;zf;ad,cb;nh;cb; yang;kp;dy;kg;dy;	367
@@ -155,7 +155,7 @@ sort: by_weight
 霍尊	huo;ya;yv;tu;yf; zun;fk;cq,qc;hk;bc;	305
 值乎	zhi;xd,xu;rv;jf;rq; hu;up;pa;tn;pl;	303
 宋眠	song;iw;bm;we;bm; mian;sr;om;qd;om;	303
-彭越	peng;gu;pd,up;he;up; yue;qh;zy;pn;tv;	302
+彭越	peng;gu;pd,up;he;up; yue;qh,gh;zy;pn;tv;	302
 于敏	yu;ss;aa;fn;al; min;ej;wm;eh;pw;	301
 途锐	tu;eq;zy;ju;zh; rui;dk;jd;zp;je;	298
 任然	ren;xd,xg;rr;jg;rr; ran;fn;hq;vc;ph;	298
@@ -196,16 +196,16 @@ sort: by_weight
 秦奋	qin;uf,uw;hf,fh;ax;fh; fen;xw;dt;mq;dt;	221
 老饭骨	lao;ga;bl,lb;ql;lb; fan;gl;uf;qr;uy; gu;cc;go,ob,og;fg;lo;	0
 赛睿	sai;im;bb;wo;br; rui;ps;bo,or;gq;lo;	219
-墓主	mu;zg;tm,ct;lg;ct; zhu;ig;dw;in;dw;	218
+墓主	mu;zg;tm,ct;lg;ct; zhu;ig,ha;dw;in;dw;	218
 打本	da;jj;fd;ua;fd; ben;wd;aa,ma;ef;aa;	217
 实车	shi;ix;bt;wm;bd; che;tt;aa;yc;al;	217
 花活	hua;za;ch;lv;cb; huo;ko;du;ka;dk;	217
 陆鸿	lu;bp;ej;tm;ej; hong;kc;dn,nj;kx;dn;	209
 陆奇	lu;bp;ej;tm;ej; qi;xj;dk;mz;dk;	208
 御坂	yu;hb;xx;wz;ie; ban;gl;tf;gr;ty;	199
-微视	wei;hj;xw;wh;iw; shi;hk;ju,uj;fe;pe;	199
+微视	wei;hj;xw;wh;iw; shi;hk,hr;ju,uj;fe;pe;	199
 酷安	ku;po;yg;yd;yk; an;iy;bn;wb;bn;	198
-魏冉	wei;us;gw;xa;hg; ran;og;aa,kt;mg;la;	197
+魏冉	wei;us;gw;xa;hg; ran;og,pd;aa,kt;mg;la;	197
 郑薇	zheng;fb;eg;ht;be; wei;zj;cw;lh;cw;	194
 蔡澜	cai;zf;cj;lf;cx; lan;kf;dl;kh;dj;	193
 武忠祥	wu;dr,ha;vy,yv;fs;av; zhong;on;xv;dh;vx; xiang;hp;uy;fg;py;	193
@@ -218,7 +218,7 @@ sort: by_weight
 曼恩	man;vl;oy;or;oy; en;nn;xy;rh;kx;	186
 伯明顿	bo;xs;rb;ju;rb; ming;vl;oo;ov;oo; dun;dm;yt;fw;tr;	186
 游卡	you;ka;dz;kh;dz; ka;ph;bx,ub;yy;ub;	181
-旷视	kuang;vr;og;ox;og; shi;hk;ju,uj;fe;pe;	178
+旷视	kuang;vr;og;ox;og; shi;hk,hr;ju,uj;fe;pe;	178
 胡斐	hu;sl;og;cv;uo; fei;pj,uj;wf;rv;fw;	176
 倪匡	ni;xk;re;jp;re; kuang;dr;kw;nn;kw;	175
 牛客	niu;bb;pa;qn;pl; ke;io;bg;ws;bk;	174
@@ -240,7 +240,7 @@ sort: by_weight
 关谷	guan;fx;bt,qd;hm;bt; gu;fo;bk,kr;hg;bk;	123
 齐绍安	qi;jp;wa,wp;qq;wl; shao;eo;sv;id;sk; an;iy;bn;wb;bn;	123
 韩立	han;sp;uw,wu;ng;uw; li;bb;da;il;wa;	122
-剑南	jian;ei;da,dq;jp;rd; nan;ss;ua,uy;ng;ug,ag;	120
+剑南	jian;ei;da,dq;jp;rd; nan;ss,sp;ua,uy;ng;ug,ag;	120
 菊厂	ju;zl;cj,cm;lp;cm; chang;rr;ap;xc;ap;	119
 曾哥	ceng;fv;ob,bo;ho;bo; ge;jj;kd,kk,dk;zz;dk;	110
 金妮	jin;ed,ef;ra,pa;zj;ra; ni;ya;nn;bv;nb;	110

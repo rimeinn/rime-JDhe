@@ -15,8 +15,8 @@ use_preset_vocabulary: false
 纯律	chun;er;st;is;st; lv;hp;xy;wb;iy;	287
 协和音程	xie;sf;ub;nh;ub; he;uo;hk;xd;hk; yin;cc,bv;lo;xy;lo; cheng;ua;hi;xn;hw;	42
 不协和音程	bu;dh;ad,ax;cb;ad; xie;sf;ub;nh;ub; he;uo;hk;xd;hk; yin;cc,bv;lo;xy;lo; cheng;ua;hi;xn;hw;	42
-无调性	wu;uk;ag,ay,ee;du;ay; diao;co;yv;sd;yk; xing;ng,na;xu;hl;xu;	214
-平行五度	ping;ds,sf;aa,gb;eh;au; xing;hj;xd,xi;px;ii; wu;gg;aa;wu;aa; du;rl;gy;xr;gy;	13
+无调性	wu;uk,ur;ag,ay,ee;du;ay; diao;co;yv;sd;yk; xing;ng,na;xu;hl;xu;	214
+平行五度	ping;ds,sf;aa,gb;eh;au; xing;hj,hp;xd,xi;px;ii; wu;gg;aa;wu;aa; du;rl;gy;xr;gy;	13
 单调音乐	dan;fs;ba,bd;hn;bl; diao;co;yv;sd;yk; yin;cc,bv;lo;xy;lo; yue;uf;pd,px;by;pd;	0
 复调音乐	fu;ej;pw,rw,wo;eh;pw; tiao;co;yv;sd;yk; yin;cc,bv;lo;xy;lo; le;uf;pd,px;by;pd;	240
 复调	fu;ej;pw,rw,wo;eh;pw; diao;co;yv;sd;yk;	871

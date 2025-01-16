@@ -1610,7 +1610,7 @@ sort: by_weight
 般	bo;tl;vu;ir;vy;	0
 佛	bo;xp;rf;jt;rf;	0
 簿	bo;nk;vc,vf;rk;vc;	0
-魄	bo;ss;bg,gb;ua;bg;	0
+魄	bo;ss,sp;bg,gb;ua;bg;	0
 狛	bo;;qb;mu;;	16
 髆	bo;;gc,gf;fk;;	35
 蔔	bo;;cf,ct;lq;;	27
@@ -2788,14 +2788,14 @@ sort: by_weight
 𩗙	che;;fv;ot;;	0
 𩴟	che;;gu;ma;;	0
 𪎺	che;;hi;ni;;	0
-沈	chen;kk;dg,dy;kp;dv;	0
+沈	chen;kk,kr;dg,dy;kp;dv;	0
 陳	chen;;ed;to;;	359
 稱	chen;;hr;xg;;	10
 肜	chen;;op;ve;;	6
 爯	chen;;vr;yg;;	5
 綝	chen;;sl;ie;;	1
 塵	chen;;tl,lt;xg;;	14
-偁	chen;xg;rr;jg;rr;	0
+偁	chen;xg,xd;rr;jg;rr;	0
 讖	chen;;yg,yx;sf;;	8
 襯	chen;;yq;te;;	7
 瘨	chen;;bv;ah;;	2
@@ -3328,7 +3328,7 @@ sort: by_weight
 䡴	chong;;it;yd;;	0
 䳯	chong;;nv;lx;;	0
 嘃	chong;;ky;dt;;	0
-埫	chong;go;tu;gs;tk;	0
+埫	chong;;tu;gs;tk;	0
 崈	chong;;uz;wv;;	0
 徸	chong;;xt;wd;;	0
 痋	chong;;bi;ac;;	0
@@ -4163,8 +4163,8 @@ sort: by_weight
 𨨯	cou;;jz;zm;;	0
 𩹀	cou;;yz;wm;;	0
 𪉮	cou;;lz,bz;ym;;	0
-趣	cu;ql;zq;pr;ty;	0
-趋	cu;qs;zi,zx;pb;te;	0
+趣	cu;ql,gl;zq;pr;ty;	0
+趋	cu;qs,gs;zi,zx;pb;te;	0
 酢	cu;pu;yv;yw;yv;	0
 趨	cu;;zc,zi;ps;;	3
 麤	cu;ra;ll;xx;gb;	9
@@ -7106,7 +7106,7 @@ sort: by_weight
 払	fu;;fs;uk;;	4
 栿	fu;;mf;em;;	28
 頫	fu;;yv;pw;;	28
-呒	fu;ok;kw;dd;kw;	0
+呒	fu;ok,or;kw;dd;kw;	0
 祔	fu;;uf;fk;;	24
 賦	fu;;bw;os;;	24
 冨	fu;;bf,bt;wq;;	21
@@ -8150,7 +8150,7 @@ sort: by_weight
 鼔	gu;;pa,pd,uy;hh;;	10
 唃	gu;;kj;dt;;	10
 盬	gu;;mk;qa;;	2
-巭	gu;fu,pe;fg,gf;uh;gf;	8
+巭	gu;pe;fg,gf;uh;gf;	8
 淈	gu;;dq;km;;	6
 夃	gu;;ny;vr;;	2
 賈	gu;;bx,xb;vo;;	2
@@ -8502,8 +8502,8 @@ sort: by_weight
 炔	gui;tx,te;hd,hg;cj;hg;	0
 槻	gui;;mg;ee;;	33
 龜	gui;;da,pa;wg;;	3
-廆	gui;rs;gg;xa;gg;	0
-傀	gui;xs;rg;ja;rg;	0
+廆	gui;rs,rp;gg;xa;gg;	0
+傀	gui;xs,xp;rg;ja;rg;	0
 雟	gui;;ck;sd;;	4
 袿	gui;;yg;tg;;	3
 瓌	gui;;wh,wy;nk;;	17
@@ -9109,7 +9109,7 @@ sort: by_weight
 𩼉	han;;yd;wq;;	0
 𩾝	han;;ng;xe;;	0
 𪁟	han;;nh,hn;jx;;	0
-桁	hang;wj;mx;ep;mi;	0
+桁	hang;wj,wp;mx;ep;mi;	0
 忼	hang;;xk;ho;;	2
 迒	hang;;zk;zu;;	3
 垳	hang;;tx;gp;;	3
@@ -10435,7 +10435,7 @@ sort: by_weight
 廻	hui;;zh;ru;;	50
 輝	hui;;gj;my;;	32
 芔	hui;;cc;sl;;	0
-廆	hui;rs;gg;xa;gg;	0
+廆	hui;rs,rp;gg;xa;gg;	0
 煇	hui;;hj;cy;;	3
 諱	hui;;yw;sg;;	22
 濊	hui;;ds;ks;;	4
@@ -14338,7 +14338,7 @@ sort: by_weight
 餽	kui;;ug;qa;;	7
 刲	kui;;dg;gp;;	5
 匱	kui;;kg;no;;	2
-隗	kui;bs;eg;ta;eg;	0
+隗	kui;bs,bp;eg;ta;eg;	0
 頍	kui;;yv;cw;;	3
 嬇	kui;;ng;bo;;	2
 瞶	kui;;og;qo;;	1
@@ -17273,7 +17273,7 @@ sort: by_weight
 𧑀	lve;;ii;ce;;	0
 𧕌	lve;;lk;qc;;	0
 𪅅	lve;;nl,ln;qx;;	0
-麽	ma;dp,rp;mm;zk;gm;	0
+麽	ma;rp,dp;mm;zk;gm;	0
 嗎	ma;;km;dn;;	783
 馬	ma;;ah;nm;;	440
 唛	ma;oj;km;dh;kw;	0
@@ -17653,7 +17653,7 @@ sort: by_weight
 𩭾	mao;;iw;ph;;	0
 𩿂	mao;;nm,mn;vx;;	0
 𪃑	mao;;nm,mn;ox;;	0
-麽	me;dp,rp;mm;zk;gm;	0
+麽	me;rp,dp;mm;zk;gm;	0
 麼	me;;my;zi;;	8
 嚒	me;;km;di;;	75
 濹	me;;dm;kg;;	8
@@ -17771,7 +17771,7 @@ sort: by_weight
 悗	men;;xm;hp;;	1
 燜	men;;hm;ch;;	2
 虋	men;;cf,cx;lp;;	2
-鞔	men;vk;gm;tp;gv;	0
+鞔	men;vr,vk;gm;tp;gv;	0
 瞞	men;;or;qm;;	1
 閅	men;;md;aa;;	1
 穈	men;;hm,mh;zx;;	1
@@ -18443,7 +18443,7 @@ sort: by_weight
 𨱯	miu;;ie,ix;py;;	0
 嘿	mo;on;kh;dp;kh;	0
 沒	mo;;du,dy;kr;;	33
-冒	mo;vs;oo;oq;ko,oo;	0
+冒	mo;vs,ps,ss;oo;oq;ko,oo;	0
 無	mo;en;rh,ph,ha,da,pd,rd;ec;;	21
 麼	mo;;my;zi;;	8
 貉	mo;ur,uo;vg;ms;vk;	0
@@ -22788,7 +22788,7 @@ sort: by_weight
 𪏈	que;;hx;no;;	0
 𪏨	que;;hl;nz;;	0
 𪖀	que;;uq;pu;;	0
-羣	qun;rp;yj;bg;;	92
+羣	qun;rp,sp;yj;bg;;	92
 夋	qun;;sw,wb;kh;;	63
 箘	qun;;vh,vq;rx;;	3
 峮	qun;;uj;vd;;	2
@@ -24001,7 +24001,7 @@ sort: by_weight
 鋿	shang;;ju;zs;;	1
 鑜	shang;;ju;zo;;	1
 䬕	shang;;ff;oc;;	0
-埫	shang;go;tu;gs;tk;	0
+埫	shang;;tu;gs;tk;	0
 恦	shang;;xx;hd;;	0
 愓	shang;;xy;he;;	0
 慯	shang;;xw,xy;he;;	0
@@ -27256,7 +27256,7 @@ sort: by_weight
 𪏆	tun;;hx,xh;gn;;	0
 𪑒	tun;;hx;ph;;	0
 託	tuo;;yq,yt;sr;;	131
-魄	tuo;ss;bg,gb;ua;bg;	0
+魄	tuo;ss,sp;bg,gb;ua;bg;	0
 讬	tuo;;yq,yt;sr;;	35
 乇	tuo;;pq;tr;;	4
 駄	tuo;;mt;ni;;	4
@@ -34231,7 +34231,7 @@ sort: by_weight
 嶽	yue;;uq,uy;vm;;	31
 兌	yue;;bx,ek;hp;;	0
 鸑	yue;;nq,ny;mx;;	14
-趯	yue;qa;zd,zv;pu;tf;	0
+趯	yue;qa,ga;zd,zv;pu;tf;	0
 閲	yue;;md;ap;;	12
 悅	yue;;xx;hp;;	10
 鉞	yue;;jy;zn;;	9

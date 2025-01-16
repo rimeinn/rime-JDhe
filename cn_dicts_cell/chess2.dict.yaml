@@ -51,15 +51,15 @@ use_preset_vocabulary: false
 车八平四	che;tt;aa;yc;al; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 车八平五	che;tt;aa;yc;al; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 车八平一	che;tt;aa;yc;al; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-车八退八	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-车八退二	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-车八退九	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-车八退六	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-车八退七	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-车八退三	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-车八退四	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-车八退五	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-车八退一	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+车八退八	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+车八退二	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+车八退九	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+车八退六	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+车八退七	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+车八退三	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+车八退四	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+车八退五	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+车八退一	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 车二进八	che;tt;aa;yc;al; er;uu;aa;me;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 车二进二	che;tt;aa;yc;al; er;uu;aa;me;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 车二进九	che;tt;aa;yc;al; er;uu;aa;me;aa; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
@@ -77,15 +77,15 @@ use_preset_vocabulary: false
 车二平四	che;tt;aa;yc;al; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 车二平五	che;tt;aa;yc;al; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 车二平一	che;tt;aa;yc;al; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-车二退八	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-车二退二	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-车二退九	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-车二退六	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-车二退七	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-车二退三	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-车二退四	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-车二退五	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-车二退一	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+车二退八	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+车二退二	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+车二退九	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+车二退六	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+车二退七	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+车二退三	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+车二退四	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+车二退五	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+车二退一	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 车进	che;tt;aa;yc;al; jin;uq;zj;qu;zj;	21
 车九进八	che;tt;aa;yc;al; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 车九进二	che;tt;aa;yc;al; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	1
@@ -104,15 +104,15 @@ use_preset_vocabulary: false
 车九平四	che;tt;aa;yc;al; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 车九平五	che;tt;aa;yc;al; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 车九平一	che;tt;aa;yc;al; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-车九退八	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-车九退二	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-车九退九	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-车九退六	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-车九退七	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-车九退三	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-车九退四	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-车九退五	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-车九退一	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+车九退八	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+车九退二	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+车九退九	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+车九退六	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+车九退七	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+车九退三	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+车九退四	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+车九退五	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+车九退一	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 车六进八	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	1
 车六进二	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	1
 车六进九	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
@@ -130,15 +130,15 @@ use_preset_vocabulary: false
 车六平四	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	5
 车六平五	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	1
 车六平一	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	1
-车六退八	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-车六退二	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-车六退九	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-车六退六	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-车六退七	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-车六退三	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-车六退四	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-车六退五	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-车六退一	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+车六退八	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+车六退二	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+车六退九	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+车六退六	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+车六退七	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+车六退三	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+车六退四	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+车六退五	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+车六退一	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 车平	che;tt;aa;yc;al; ping;ds,sf;aa,gb;eh;au;	0
 车七进八	che;tt;aa;yc;al; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 车七进二	che;tt;aa;yc;al; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -157,15 +157,15 @@ use_preset_vocabulary: false
 车七平四	che;tt;aa;yc;al; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 车七平五	che;tt;aa;yc;al; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 车七平一	che;tt;aa;yc;al; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-车七退八	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-车七退二	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-车七退九	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-车七退六	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-车七退七	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-车七退三	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-车七退四	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-车七退五	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-车七退一	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	1
+车七退八	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+车七退二	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+车七退九	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+车七退六	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+车七退七	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+车七退三	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+车七退四	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+车七退五	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+车七退一	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	1
 车三进八	che;tt;aa;yc;al; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 车三进二	che;tt;aa;yc;al; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 车三进九	che;tt;aa;yc;al; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
@@ -183,15 +183,15 @@ use_preset_vocabulary: false
 车三平四	che;tt;aa;yc;al; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 车三平五	che;tt;aa;yc;al; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 车三平一	che;tt;aa;yc;al; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-车三退八	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-车三退二	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	1
-车三退九	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-车三退六	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-车三退七	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-车三退三	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-车三退四	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-车三退五	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-车三退一	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+车三退八	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+车三退二	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	1
+车三退九	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+车三退六	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+车三退七	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+车三退三	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+车三退四	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+车三退五	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+车三退一	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 车四进八	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 车四进二	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 车四进九	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
@@ -209,16 +209,16 @@ use_preset_vocabulary: false
 车四平三	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; san;uu;aa;ts;ae;	0
 车四平五	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 车四平一	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-车四退八	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-车四退二	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	1
-车四退九	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-车四退六	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-车四退七	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-车四退三	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-车四退四	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-车四退五	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-车四退一	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-车退	che;tt;aa;yc;al; tui;sq;zg;iu;zg;	2
+车四退八	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+车四退二	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	1
+车四退九	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+车四退六	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+车四退七	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+车四退三	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+车四退四	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+车四退五	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+车四退一	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+车退	che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg;	2
 车五进八	che;tt;aa;yc;al; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 车五进二	che;tt;aa;yc;al; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 车五进九	che;tt;aa;yc;al; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
@@ -236,15 +236,15 @@ use_preset_vocabulary: false
 车五平三	che;tt;aa;yc;al; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; san;uu;aa;ts;ae;	0
 车五平四	che;tt;aa;yc;al; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	1
 车五平一	che;tt;aa;yc;al; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-车五退八	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-车五退二	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-车五退九	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-车五退六	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-车五退七	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-车五退三	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-车五退四	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-车五退五	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-车五退一	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+车五退八	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+车五退二	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+车五退九	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+车五退六	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+车五退七	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+车五退三	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+车五退四	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+车五退五	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+车五退一	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 车一进八	che;tt;aa;yc;al; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 车一进二	che;tt;aa;yc;al; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	4
 车一进九	che;tt;aa;yc;al; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
@@ -262,15 +262,15 @@ use_preset_vocabulary: false
 车一平三	che;tt;aa;yc;al; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au; san;uu;aa;ts;ae;	1
 车一平四	che;tt;aa;yc;al; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 车一平五	che;tt;aa;yc;al; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
-车一退八	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-车一退二	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-车一退九	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-车一退六	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-车一退七	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-车一退三	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-车一退四	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-车一退五	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-车一退一	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+车一退八	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+车一退二	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+车一退九	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+车一退六	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+车一退七	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+车一退三	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+车一退四	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+车一退五	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+车一退一	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 二兵进一	er;uu;aa;me;aa; bing;uf;qb;th;qb; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 二兵平八	er;uu;aa;me;aa; bing;uf;qb;th;qb; ping;ds,sf;aa,gb;eh;au; ba;ff;pd;hb;pn;	0
 二兵平二	er;uu;aa;me;aa; bing;uf;qb;th;qb; ping;ds,sf;aa,gb;eh;au; er;uu;aa;me;aa;	0
@@ -303,15 +303,15 @@ use_preset_vocabulary: false
 后包平四	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 后包平五	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 后包平一	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-后包退	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg;	0
-后包退八	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-后包退二	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-后包退六	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-后包退七	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-后包退三	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-后包退四	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-后包退五	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-后包退一	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+后包退	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg;	0
+后包退八	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+后包退二	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+后包退六	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+后包退七	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+后包退三	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+后包退四	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+后包退五	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+后包退一	hou;uo;pk;xd;pk; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 后兵八进一	hou;uo;pk;xd;pk; bing;uf;qb;th;qb; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 后兵八平七	hou;uo;pk;xd;pk; bing;uf;qb;th;qb; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; qi;aa;ag;rq;av;	0
 后兵二进一	hou;uo;pk;xd;pk; bing;uf;qb;th;qb; er;uu;aa;me;aa; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
@@ -364,15 +364,15 @@ use_preset_vocabulary: false
 后车平四	hou;uo;pk;xd;pk; che;tt;aa;yc;al; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	1
 后车平五	hou;uo;pk;xd;pk; che;tt;aa;yc;al; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 后车平一	hou;uo;pk;xd;pk; che;tt;aa;yc;al; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-后车退	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq;zg;iu;zg;	0
-后车退八	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-后车退二	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-后车退六	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-后车退七	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-后车退三	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-后车退四	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-后车退五	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-后车退一	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+后车退	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg;	0
+后车退八	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+后车退二	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+后车退六	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+后车退七	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+后车退三	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+后车退四	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+后车退五	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+后车退一	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 后車进	hou;uo;pk;xd;pk; ju;ds;aa;yc;; jin;uq;zj;qu;zj;	0
 后俥进八	hou;uo;pk;xd;pk; ju;;ri;jy;; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 后車进八	hou;uo;pk;xd;pk; ju;ds;aa;yc;; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -409,23 +409,23 @@ use_preset_vocabulary: false
 后車平五	hou;uo;pk;xd;pk; ju;ds;aa;yc;; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 后俥平一	hou;uo;pk;xd;pk; ju;;ri;jy;; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 后車平一	hou;uo;pk;xd;pk; ju;ds;aa;yc;; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-后車退	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq;zg;iu;zg;	0
-后俥退八	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-后車退八	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-后俥退二	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-后車退二	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-后俥退六	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-后車退六	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-后俥退七	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-后車退七	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-后俥退三	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-后車退三	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-后俥退四	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-后車退四	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-后俥退五	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-后車退五	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-后俥退一	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-后車退一	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+后車退	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg;	0
+后俥退八	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+后車退八	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+后俥退二	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+后車退二	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+后俥退六	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+后車退六	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+后俥退七	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+后車退七	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+后俥退三	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+后車退三	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+后俥退四	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+后車退四	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+后俥退五	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+后車退五	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+后俥退一	hou;uo;pk;xd;pk; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+后車退一	hou;uo;pk;xd;pk; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 后馬进	hou;uo;pk;xd;pk; ma;;ah;nm;; jin;uq;zj;qu;zj;	0
 后马进	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; jin;uq;zj;qu;zj;	0
 后傌进八	hou;uo;pk;xd;pk; ma;;rm;jn;; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -455,35 +455,35 @@ use_preset_vocabulary: false
 后傌进一	hou;uo;pk;xd;pk; ma;;rm;jn;; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 后馬进一	hou;uo;pk;xd;pk; ma;;ah;nm;; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 后马进一	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
-后馬退	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq;zg;iu;zg;	0
-后马退	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg;	0
-后傌退八	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-后馬退八	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-后马退八	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-后傌退二	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-后馬退二	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-后马退二	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-后傌退九	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-后馬退九	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-后马退九	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-后傌退六	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-后馬退六	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-后马退六	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-后傌退七	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-后馬退七	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-后马退七	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-后傌退三	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-后馬退三	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-后马退三	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-后傌退四	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-后馬退四	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-后马退四	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-后傌退五	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-后馬退五	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-后马退五	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-后傌退一	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-后馬退一	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-后马退一	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+后馬退	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq,rq;zg;iu;zg;	0
+后马退	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg;	0
+后傌退八	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+后馬退八	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+后马退八	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+后傌退二	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+后馬退二	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+后马退二	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+后傌退九	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+后馬退九	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+后马退九	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+后傌退六	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+后馬退六	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+后马退六	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+后傌退七	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+后馬退七	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+后马退七	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+后傌退三	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+后馬退三	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+后马退三	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+后傌退四	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+后馬退四	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+后马退四	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+后傌退五	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+后馬退五	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+后马退五	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+后傌退一	hou;uo;pk;xd;pk; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+后馬退一	hou;uo;pk;xd;pk; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+后马退一	hou;uo;pk;xd;pk; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 后炮进	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; jin;uq;zj;qu;zj;	0
 后砲进	hou;uo;pk;xd;pk; pao;;ub;mv;; jin;uq;zj;qu;zj;	0
 后炮进八	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -524,32 +524,32 @@ use_preset_vocabulary: false
 后砲平五	hou;uo;pk;xd;pk; pao;;ub;mv;; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 后炮平一	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 后砲平一	hou;uo;pk;xd;pk; pao;;ub;mv;; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-后炮退	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg;	0
-后砲退	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq;zg;iu;zg;	0
-后炮退八	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-后砲退八	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-后炮退二	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-后砲退二	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-后炮退六	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-后砲退六	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-后炮退七	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-后砲退七	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-后炮退三	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-后砲退三	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-后炮退四	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-后砲退四	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-后炮退五	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-后砲退五	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-后炮退一	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-后砲退一	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+后炮退	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg;	0
+后砲退	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq,rq;zg;iu;zg;	0
+后炮退八	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+后砲退八	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+后炮退二	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+后砲退二	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+后炮退六	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+后砲退六	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+后炮退七	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+后砲退七	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+后炮退三	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+后砲退三	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+后炮退四	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+后砲退四	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+后炮退五	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+后砲退五	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+后炮退一	hou;uo;pk;xd;pk; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+后砲退一	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 后卒进	hou;uo;pk;xd;pk; zu;is;wu,uc;zn;wu; jin;uq;zj;qu;zj;	0
 后卒平	hou;uo;pk;xd;pk; zu;is;wu,uc;zn;wu; ping;ds,sf;aa,gb;eh;au;	0
 将进	jiang;lk;dc,jc,pc;ak;dc; jin;uq;zj;qu;zj;	0
 將进	jiang;;pc;ak;; jin;uq;zj;qu;zj;	0
 将平	jiang;lk;dc,jc,pc;ak;dc; ping;ds,sf;aa,gb;eh;au;	1
 將平	jiang;;pc;ak;; ping;ds,sf;aa,gb;eh;au;	2
-将退	jiang;lk;dc,jc,pc;ak;dc; tui;sq;zg;iu;zg;	0
-將退	jiang;;pc;ak;; tui;sq;zg;iu;zg;	1
+将退	jiang;lk;dc,jc,pc;ak;dc; tui;sq,rq;zg;iu;zg;	0
+將退	jiang;;pc;ak;; tui;sq,rq;zg;iu;zg;	1
 俥八进八	ju;;ri;jy;; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 車八进八	ju;ds;aa;yc;; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 俥八进二	ju;;ri;jy;; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -584,24 +584,24 @@ use_preset_vocabulary: false
 車八平五	ju;ds;aa;yc;; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 俥八平一	ju;;ri;jy;; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 車八平一	ju;ds;aa;yc;; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-俥八退八	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-車八退八	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-俥八退二	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-車八退二	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-俥八退九	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-車八退九	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-俥八退六	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-車八退六	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-俥八退七	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-車八退七	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-俥八退三	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-車八退三	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-俥八退四	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-車八退四	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-俥八退五	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-車八退五	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-俥八退一	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-車八退一	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+俥八退八	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+車八退八	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+俥八退二	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+車八退二	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+俥八退九	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+車八退九	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+俥八退六	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+車八退六	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+俥八退七	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+車八退七	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+俥八退三	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+車八退三	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+俥八退四	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+車八退四	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+俥八退五	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+車八退五	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+俥八退一	ju;;ri;jy;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+車八退一	ju;ds;aa;yc;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 俥二进八	ju;;ri;jy;; er;uu;aa;me;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 車二进八	ju;ds;aa;yc;; er;uu;aa;me;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 俥二进二	ju;;ri;jy;; er;uu;aa;me;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -636,24 +636,24 @@ use_preset_vocabulary: false
 車二平五	ju;ds;aa;yc;; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 俥二平一	ju;;ri;jy;; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 車二平一	ju;ds;aa;yc;; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-俥二退八	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-車二退八	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-俥二退二	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-車二退二	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-俥二退九	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-車二退九	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-俥二退六	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-車二退六	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-俥二退七	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-車二退七	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-俥二退三	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-車二退三	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-俥二退四	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-車二退四	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-俥二退五	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-車二退五	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-俥二退一	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-車二退一	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+俥二退八	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+車二退八	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+俥二退二	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+車二退二	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+俥二退九	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+車二退九	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+俥二退六	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+車二退六	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+俥二退七	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+車二退七	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+俥二退三	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+車二退三	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+俥二退四	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+車二退四	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+俥二退五	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+車二退五	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+俥二退一	ju;;ri;jy;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+車二退一	ju;ds;aa;yc;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 車进	ju;ds;aa;yc;; jin;uq;zj;qu;zj;	0
 俥九进八	ju;;ri;jy;; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 車九进八	ju;ds;aa;yc;; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -689,24 +689,24 @@ use_preset_vocabulary: false
 車九平五	ju;ds;aa;yc;; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	1
 俥九平一	ju;;ri;jy;; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 車九平一	ju;ds;aa;yc;; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-俥九退八	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-車九退八	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-俥九退二	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-車九退二	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-俥九退九	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-車九退九	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-俥九退六	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-車九退六	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-俥九退七	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-車九退七	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-俥九退三	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-車九退三	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-俥九退四	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-車九退四	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-俥九退五	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-車九退五	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-俥九退一	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-車九退一	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	1
+俥九退八	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+車九退八	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+俥九退二	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+車九退二	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+俥九退九	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+車九退九	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+俥九退六	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+車九退六	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+俥九退七	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+車九退七	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+俥九退三	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+車九退三	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+俥九退四	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+車九退四	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+俥九退五	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+車九退五	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+俥九退一	ju;;ri;jy;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+車九退一	ju;ds;aa;yc;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	1
 俥六进八	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 車六进八	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 俥六进二	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -741,24 +741,24 @@ use_preset_vocabulary: false
 車六平五	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 俥六平一	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 車六平一	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-俥六退八	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-車六退八	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-俥六退二	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-車六退二	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-俥六退九	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-車六退九	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-俥六退六	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-車六退六	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-俥六退七	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-車六退七	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-俥六退三	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-車六退三	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-俥六退四	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-車六退四	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-俥六退五	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-車六退五	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-俥六退一	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-車六退一	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+俥六退八	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+車六退八	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+俥六退二	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+車六退二	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+俥六退九	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+車六退九	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+俥六退六	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+車六退六	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+俥六退七	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+車六退七	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+俥六退三	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+車六退三	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+俥六退四	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+車六退四	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+俥六退五	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+車六退五	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+俥六退一	ju;;ri;jy;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+車六退一	ju;ds;aa;yc;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 車平	ju;ds;aa;yc;; ping;ds,sf;aa,gb;eh;au;	0
 俥七进八	ju;;ri;jy;; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 車七进八	ju;ds;aa;yc;; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -794,24 +794,24 @@ use_preset_vocabulary: false
 車七平五	ju;ds;aa;yc;; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 俥七平一	ju;;ri;jy;; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 車七平一	ju;ds;aa;yc;; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-俥七退八	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-車七退八	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-俥七退二	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-車七退二	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-俥七退九	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-車七退九	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-俥七退六	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-車七退六	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-俥七退七	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-車七退七	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-俥七退三	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-車七退三	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-俥七退四	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-車七退四	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-俥七退五	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-車七退五	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-俥七退一	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-車七退一	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+俥七退八	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+車七退八	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+俥七退二	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+車七退二	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+俥七退九	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+車七退九	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+俥七退六	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+車七退六	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+俥七退七	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+車七退七	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+俥七退三	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+車七退三	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+俥七退四	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+車七退四	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+俥七退五	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+車七退五	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+俥七退一	ju;;ri;jy;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+車七退一	ju;ds;aa;yc;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 俥三进八	ju;;ri;jy;; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 車三进八	ju;ds;aa;yc;; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 俥三进二	ju;;ri;jy;; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -846,24 +846,24 @@ use_preset_vocabulary: false
 車三平五	ju;ds;aa;yc;; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 俥三平一	ju;;ri;jy;; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 車三平一	ju;ds;aa;yc;; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-俥三退八	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-車三退八	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-俥三退二	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-車三退二	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-俥三退九	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-車三退九	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-俥三退六	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-車三退六	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-俥三退七	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-車三退七	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-俥三退三	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-車三退三	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-俥三退四	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-車三退四	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-俥三退五	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-車三退五	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-俥三退一	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-車三退一	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+俥三退八	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+車三退八	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+俥三退二	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+車三退二	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+俥三退九	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+車三退九	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+俥三退六	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+車三退六	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+俥三退七	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+車三退七	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+俥三退三	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+車三退三	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+俥三退四	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+車三退四	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+俥三退五	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+車三退五	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+俥三退一	ju;;ri;jy;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+車三退一	ju;ds;aa;yc;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 俥四进八	ju;;ri;jy;; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 車四进八	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 俥四进二	ju;;ri;jy;; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -898,25 +898,25 @@ use_preset_vocabulary: false
 車四平五	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 俥四平一	ju;;ri;jy;; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 車四平一	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-俥四退八	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-車四退八	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-俥四退二	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-車四退二	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-俥四退九	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-車四退九	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-俥四退六	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-車四退六	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-俥四退七	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-車四退七	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-俥四退三	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-車四退三	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-俥四退四	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-車四退四	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-俥四退五	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-車四退五	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-俥四退一	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-車四退一	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-車退	ju;ds;aa;yc;; tui;sq;zg;iu;zg;	0
+俥四退八	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+車四退八	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+俥四退二	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+車四退二	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+俥四退九	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+車四退九	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+俥四退六	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+車四退六	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+俥四退七	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+車四退七	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+俥四退三	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+車四退三	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+俥四退四	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+車四退四	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+俥四退五	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+車四退五	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+俥四退一	ju;;ri;jy;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+車四退一	ju;ds;aa;yc;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+車退	ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg;	0
 俥五进八	ju;;ri;jy;; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 車五进八	ju;ds;aa;yc;; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 俥五进二	ju;;ri;jy;; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -951,24 +951,24 @@ use_preset_vocabulary: false
 車五平四	ju;ds;aa;yc;; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 俥五平一	ju;;ri;jy;; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 車五平一	ju;ds;aa;yc;; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-俥五退八	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-車五退八	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-俥五退二	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-車五退二	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-俥五退九	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-車五退九	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-俥五退六	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-車五退六	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-俥五退七	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-車五退七	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-俥五退三	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-車五退三	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-俥五退四	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-車五退四	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-俥五退五	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-車五退五	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-俥五退一	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-車五退一	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+俥五退八	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+車五退八	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+俥五退二	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+車五退二	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+俥五退九	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+車五退九	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+俥五退六	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+車五退六	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+俥五退七	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+車五退七	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+俥五退三	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+車五退三	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+俥五退四	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+車五退四	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+俥五退五	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+車五退五	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+俥五退一	ju;;ri;jy;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+車五退一	ju;ds;aa;yc;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 俥一进八	ju;;ri;jy;; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 車一进八	ju;ds;aa;yc;; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 俥一进二	ju;;ri;jy;; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -1003,24 +1003,24 @@ use_preset_vocabulary: false
 車一平四	ju;ds;aa;yc;; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 俥一平五	ju;;ri;jy;; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 車一平五	ju;ds;aa;yc;; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
-俥一退八	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-車一退八	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-俥一退二	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-車一退二	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-俥一退九	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-車一退九	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-俥一退六	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-車一退六	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-俥一退七	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-車一退七	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-俥一退三	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-車一退三	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-俥一退四	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-車一退四	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-俥一退五	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-車一退五	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-俥一退一	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-車一退一	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+俥一退八	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+車一退八	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+俥一退二	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+車一退二	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+俥一退九	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+車一退九	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+俥一退六	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+車一退六	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+俥一退七	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+車一退七	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+俥一退三	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+車一退三	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+俥一退四	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+車一退四	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+俥一退五	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+車一退五	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+俥一退一	ju;;ri;jy;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+車一退一	ju;ds;aa;yc;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 傌八进九	ma;;rm;jn;; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
 馬八进九	ma;;ah;nm;; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
 马八进九	ma;zz;aa,vh;nm;va; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	3
@@ -1030,15 +1030,15 @@ use_preset_vocabulary: false
 傌八进七	ma;;rm;jn;; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; qi;aa;ag;rq;av;	0
 馬八进七	ma;;ah;nm;; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; qi;aa;ag;rq;av;	0
 马八进七	ma;zz;aa,vh;nm;va; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; qi;aa;ag;rq;av;	6
-傌八退九	ma;;rm;jn;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-馬八退九	ma;;ah;nm;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-马八退九	ma;zz;aa,vh;nm;va; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-傌八退六	ma;;rm;jn;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-馬八退六	ma;;ah;nm;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-马八退六	ma;zz;aa,vh;nm;va; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-傌八退七	ma;;rm;jn;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-馬八退七	ma;;ah;nm;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-马八退七	ma;zz;aa,vh;nm;va; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
+傌八退九	ma;;rm;jn;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+馬八退九	ma;;ah;nm;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+马八退九	ma;zz;aa,vh;nm;va; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+傌八退六	ma;;rm;jn;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+馬八退六	ma;;ah;nm;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+马八退六	ma;zz;aa,vh;nm;va; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+傌八退七	ma;;rm;jn;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+馬八退七	ma;;ah;nm;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+马八退七	ma;zz;aa,vh;nm;va; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
 傌二进三	ma;;rm;jn;; er;uu;aa;me;aa; jin;uq;zj;qu;zj; san;uu;aa;ts;ae;	0
 馬二进三	ma;;ah;nm;; er;uu;aa;me;aa; jin;uq;zj;qu;zj; san;uu;aa;ts;ae;	0
 马二进三	ma;zz;aa,vh;nm;va; er;uu;aa;me;aa; jin;uq;zj;qu;zj; san;uu;aa;ts;ae;	12
@@ -1048,15 +1048,15 @@ use_preset_vocabulary: false
 傌二进一	ma;;rm;jn;; er;uu;aa;me;aa; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 馬二进一	ma;;ah;nm;; er;uu;aa;me;aa; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 马二进一	ma;zz;aa,vh;nm;va; er;uu;aa;me;aa; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	5
-傌二退三	ma;;rm;jn;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-馬二退三	ma;;ah;nm;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-马二退三	ma;zz;aa,vh;nm;va; er;uu;aa;me;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	2
-傌二退四	ma;;rm;jn;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-馬二退四	ma;;ah;nm;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-马二退四	ma;zz;aa,vh;nm;va; er;uu;aa;me;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	1
-傌二退一	ma;;rm;jn;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-馬二退一	ma;;ah;nm;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-马二退一	ma;zz;aa,vh;nm;va; er;uu;aa;me;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	1
+傌二退三	ma;;rm;jn;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+馬二退三	ma;;ah;nm;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+马二退三	ma;zz;aa,vh;nm;va; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	2
+傌二退四	ma;;rm;jn;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+馬二退四	ma;;ah;nm;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+马二退四	ma;zz;aa,vh;nm;va; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	1
+傌二退一	ma;;rm;jn;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+馬二退一	ma;;ah;nm;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+马二退一	ma;zz;aa,vh;nm;va; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	1
 馬进	ma;;ah;nm;; jin;uq;zj;qu;zj;	0
 马进	ma;zz;aa,vh;nm;va; jin;uq;zj;qu;zj;	10
 傌九进八	ma;;rm;jn;; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -1065,12 +1065,12 @@ use_preset_vocabulary: false
 傌九进七	ma;;rm;jn;; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj; qi;aa;ag;rq;av;	0
 馬九进七	ma;;ah;nm;; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj; qi;aa;ag;rq;av;	0
 马九进七	ma;zz;aa,vh;nm;va; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj; qi;aa;ag;rq;av;	0
-傌九退八	ma;;rm;jn;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-馬九退八	ma;;ah;nm;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-马九退八	ma;zz;aa,vh;nm;va; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-傌九退七	ma;;rm;jn;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-馬九退七	ma;;ah;nm;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-马九退七	ma;zz;aa,vh;nm;va; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
+傌九退八	ma;;rm;jn;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+馬九退八	ma;;ah;nm;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+马九退八	ma;zz;aa,vh;nm;va; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+傌九退七	ma;;rm;jn;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+馬九退七	ma;;ah;nm;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+马九退七	ma;zz;aa,vh;nm;va; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
 傌六进八	ma;;rm;jn;; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 馬六进八	ma;;ah;nm;; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 马六进八	ma;zz;aa,vh;nm;va; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -1083,18 +1083,18 @@ use_preset_vocabulary: false
 傌六进五	ma;;rm;jn;; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	0
 馬六进五	ma;;ah;nm;; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	0
 马六进五	ma;zz;aa,vh;nm;va; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	0
-傌六退八	ma;;rm;jn;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-馬六退八	ma;;ah;nm;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-马六退八	ma;zz;aa,vh;nm;va; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-傌六退七	ma;;rm;jn;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-馬六退七	ma;;ah;nm;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-马六退七	ma;zz;aa,vh;nm;va; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-傌六退四	ma;;rm;jn;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-馬六退四	ma;;ah;nm;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-马六退四	ma;zz;aa,vh;nm;va; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-傌六退五	ma;;rm;jn;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-馬六退五	ma;;ah;nm;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-马六退五	ma;zz;aa,vh;nm;va; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	1
+傌六退八	ma;;rm;jn;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+馬六退八	ma;;ah;nm;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+马六退八	ma;zz;aa,vh;nm;va; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+傌六退七	ma;;rm;jn;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+馬六退七	ma;;ah;nm;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+马六退七	ma;zz;aa,vh;nm;va; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+傌六退四	ma;;rm;jn;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+馬六退四	ma;;ah;nm;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+马六退四	ma;zz;aa,vh;nm;va; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+傌六退五	ma;;rm;jn;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+馬六退五	ma;;ah;nm;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+马六退五	ma;zz;aa,vh;nm;va; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	1
 傌七进八	ma;;rm;jn;; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 馬七进八	ma;;ah;nm;; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 马七进八	ma;zz;aa,vh;nm;va; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -1107,18 +1107,18 @@ use_preset_vocabulary: false
 傌七进五	ma;;rm;jn;; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	0
 馬七进五	ma;;ah;nm;; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	0
 马七进五	ma;zz;aa,vh;nm;va; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	5
-傌七退八	ma;;rm;jn;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-馬七退八	ma;;ah;nm;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-马七退八	ma;zz;aa,vh;nm;va; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-傌七退九	ma;;rm;jn;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-馬七退九	ma;;ah;nm;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-马七退九	ma;zz;aa,vh;nm;va; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-傌七退六	ma;;rm;jn;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-馬七退六	ma;;ah;nm;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-马七退六	ma;zz;aa,vh;nm;va; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-傌七退五	ma;;rm;jn;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-馬七退五	ma;;ah;nm;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-马七退五	ma;zz;aa,vh;nm;va; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+傌七退八	ma;;rm;jn;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+馬七退八	ma;;ah;nm;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+马七退八	ma;zz;aa,vh;nm;va; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+傌七退九	ma;;rm;jn;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+馬七退九	ma;;ah;nm;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+马七退九	ma;zz;aa,vh;nm;va; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+傌七退六	ma;;rm;jn;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+馬七退六	ma;;ah;nm;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+马七退六	ma;zz;aa,vh;nm;va; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+傌七退五	ma;;rm;jn;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+馬七退五	ma;;ah;nm;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+马七退五	ma;zz;aa,vh;nm;va; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
 傌三进二	ma;;rm;jn;; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 馬三进二	ma;;ah;nm;; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 马三进二	ma;zz;aa,vh;nm;va; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	2
@@ -1131,18 +1131,18 @@ use_preset_vocabulary: false
 傌三进一	ma;;rm;jn;; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 馬三进一	ma;;ah;nm;; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 马三进一	ma;zz;aa,vh;nm;va; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	3
-傌三退二	ma;;rm;jn;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-馬三退二	ma;;ah;nm;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-马三退二	ma;zz;aa,vh;nm;va; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-傌三退四	ma;;rm;jn;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-馬三退四	ma;;ah;nm;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-马三退四	ma;zz;aa,vh;nm;va; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-傌三退五	ma;;rm;jn;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-馬三退五	ma;;ah;nm;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-马三退五	ma;zz;aa,vh;nm;va; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-傌三退一	ma;;rm;jn;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-馬三退一	ma;;ah;nm;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-马三退一	ma;zz;aa,vh;nm;va; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+傌三退二	ma;;rm;jn;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+馬三退二	ma;;ah;nm;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+马三退二	ma;zz;aa,vh;nm;va; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+傌三退四	ma;;rm;jn;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+馬三退四	ma;;ah;nm;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+马三退四	ma;zz;aa,vh;nm;va; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+傌三退五	ma;;rm;jn;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+馬三退五	ma;;ah;nm;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+马三退五	ma;zz;aa,vh;nm;va; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+傌三退一	ma;;rm;jn;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+馬三退一	ma;;ah;nm;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+马三退一	ma;zz;aa,vh;nm;va; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 傌四进二	ma;;rm;jn;; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 馬四进二	ma;;ah;nm;; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 马四进二	ma;zz;aa,vh;nm;va; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	1
@@ -1155,20 +1155,20 @@ use_preset_vocabulary: false
 傌四进五	ma;;rm;jn;; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	0
 馬四进五	ma;;ah;nm;; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	0
 马四进五	ma;zz;aa,vh;nm;va; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	0
-傌四退二	ma;;rm;jn;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-馬四退二	ma;;ah;nm;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-马四退二	ma;zz;aa,vh;nm;va; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	1
-傌四退六	ma;;rm;jn;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-馬四退六	ma;;ah;nm;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-马四退六	ma;zz;aa,vh;nm;va; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	1
-傌四退三	ma;;rm;jn;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-馬四退三	ma;;ah;nm;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-马四退三	ma;zz;aa,vh;nm;va; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	1
-傌四退五	ma;;rm;jn;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-馬四退五	ma;;ah;nm;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-马四退五	ma;zz;aa,vh;nm;va; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-馬退	ma;;ah;nm;; tui;sq;zg;iu;zg;	0
-马退	ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg;	0
+傌四退二	ma;;rm;jn;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+馬四退二	ma;;ah;nm;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+马四退二	ma;zz;aa,vh;nm;va; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	1
+傌四退六	ma;;rm;jn;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+馬四退六	ma;;ah;nm;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+马四退六	ma;zz;aa,vh;nm;va; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	1
+傌四退三	ma;;rm;jn;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+馬四退三	ma;;ah;nm;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+马四退三	ma;zz;aa,vh;nm;va; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	1
+傌四退五	ma;;rm;jn;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+馬四退五	ma;;ah;nm;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+马四退五	ma;zz;aa,vh;nm;va; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+馬退	ma;;ah;nm;; tui;sq,rq;zg;iu;zg;	0
+马退	ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg;	0
 傌五进六	ma;;rm;jn;; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; liu;if;wb,dd,db;al;wb;	0
 馬五进六	ma;;ah;nm;; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; liu;if;wb,dd,db;al;wb;	0
 马五进六	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; liu;if;wb,dd,db;al;wb;	0
@@ -1181,30 +1181,30 @@ use_preset_vocabulary: false
 傌五进四	ma;;rm;jn;; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; si;nk;aa,ke;ys;ke;	0
 馬五进四	ma;;ah;nm;; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; si;nk;aa,ke;ys;ke;	0
 马五进四	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; si;nk;aa,ke;ys;ke;	0
-傌五退六	ma;;rm;jn;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-馬五退六	ma;;ah;nm;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-马五退六	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-傌五退七	ma;;rm;jn;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-馬五退七	ma;;ah;nm;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-马五退七	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-傌五退三	ma;;rm;jn;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-馬五退三	ma;;ah;nm;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-马五退三	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-傌五退四	ma;;rm;jn;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-馬五退四	ma;;ah;nm;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-马五退四	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+傌五退六	ma;;rm;jn;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+馬五退六	ma;;ah;nm;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+马五退六	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+傌五退七	ma;;rm;jn;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+馬五退七	ma;;ah;nm;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+马五退七	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+傌五退三	ma;;rm;jn;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+馬五退三	ma;;ah;nm;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+马五退三	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+傌五退四	ma;;rm;jn;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+馬五退四	ma;;ah;nm;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+马五退四	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
 傌一进二	ma;;rm;jn;; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 馬一进二	ma;;ah;nm;; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 马一进二	ma;zz;aa,vh;nm;va; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
 傌一进三	ma;;rm;jn;; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; san;uu;aa;ts;ae;	0
 馬一进三	ma;;ah;nm;; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; san;uu;aa;ts;ae;	0
 马一进三	ma;zz;aa,vh;nm;va; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; san;uu;aa;ts;ae;	2
-傌一退二	ma;;rm;jn;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-馬一退二	ma;;ah;nm;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-马一退二	ma;zz;aa,vh;nm;va; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-傌一退三	ma;;rm;jn;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-馬一退三	ma;;ah;nm;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-马一退三	ma;zz;aa,vh;nm;va; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	1
+傌一退二	ma;;rm;jn;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+馬一退二	ma;;ah;nm;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+马一退二	ma;zz;aa,vh;nm;va; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+傌一退三	ma;;rm;jn;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+馬一退三	ma;;ah;nm;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+马一退三	ma;zz;aa,vh;nm;va; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	1
 炮八进八	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 砲八进八	pao;;ub;mv;; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 炮八进二	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	1
@@ -1239,24 +1239,24 @@ use_preset_vocabulary: false
 砲八平五	pao;;ub;mv;; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 炮八平一	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 砲八平一	pao;;ub;mv;; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-炮八退八	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-砲八退八	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-炮八退二	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-砲八退二	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-炮八退九	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-砲八退九	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-炮八退六	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-砲八退六	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-炮八退七	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-砲八退七	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-炮八退三	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-砲八退三	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-炮八退四	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-砲八退四	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-炮八退五	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-砲八退五	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-炮八退一	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	3
-砲八退一	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+炮八退八	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+砲八退八	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+炮八退二	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+砲八退二	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+炮八退九	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+砲八退九	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+炮八退六	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+砲八退六	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+炮八退七	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+砲八退七	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+炮八退三	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+砲八退三	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+炮八退四	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+砲八退四	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+炮八退五	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+砲八退五	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+炮八退一	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	3
+砲八退一	pao;;ub;mv;; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 炮二进八	pao;tt;hb;cv;hs; er;uu;aa;me;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 砲二进八	pao;;ub;mv;; er;uu;aa;me;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 炮二进二	pao;tt;hb;cv;hs; er;uu;aa;me;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	2
@@ -1291,24 +1291,24 @@ use_preset_vocabulary: false
 砲二平五	pao;;ub;mv;; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 炮二平一	pao;tt;hb;cv;hs; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	4
 砲二平一	pao;;ub;mv;; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-炮二退八	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-砲二退八	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-炮二退二	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-砲二退二	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-炮二退九	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-砲二退九	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-炮二退六	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-砲二退六	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-炮二退七	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-砲二退七	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-炮二退三	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-砲二退三	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-炮二退四	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-砲二退四	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-炮二退五	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-砲二退五	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-炮二退一	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-砲二退一	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+炮二退八	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+砲二退八	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+炮二退二	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+砲二退二	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+炮二退九	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+砲二退九	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+炮二退六	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+砲二退六	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+炮二退七	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+砲二退七	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+炮二退三	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+砲二退三	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+炮二退四	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+砲二退四	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+炮二退五	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+砲二退五	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+炮二退一	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+砲二退一	pao;;ub;mv;; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 炮进	pao;tt;hb;cv;hs; jin;uq;zj;qu;zj;	3
 砲进	pao;;ub;mv;; jin;uq;zj;qu;zj;	0
 炮九进八	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -1345,24 +1345,24 @@ use_preset_vocabulary: false
 砲九平五	pao;;ub;mv;; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 炮九平一	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 砲九平一	pao;;ub;mv;; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-炮九退八	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-砲九退八	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-炮九退二	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-砲九退二	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-炮九退九	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-砲九退九	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-炮九退六	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-砲九退六	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-炮九退七	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-砲九退七	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-炮九退三	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-砲九退三	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-炮九退四	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-砲九退四	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-炮九退五	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-砲九退五	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-炮九退一	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-砲九退一	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+炮九退八	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+砲九退八	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+炮九退二	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+砲九退二	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+炮九退九	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+砲九退九	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+炮九退六	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+砲九退六	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+炮九退七	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+砲九退七	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+炮九退三	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+砲九退三	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+炮九退四	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+砲九退四	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+炮九退五	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+砲九退五	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+炮九退一	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+砲九退一	pao;;ub;mv;; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 炮六进八	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 砲六进八	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 炮六进二	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -1397,24 +1397,24 @@ use_preset_vocabulary: false
 砲六平五	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 炮六平一	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 砲六平一	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-炮六退八	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-砲六退八	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-炮六退二	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-砲六退二	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-炮六退九	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-砲六退九	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-炮六退六	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-砲六退六	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-炮六退七	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-砲六退七	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-炮六退三	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-砲六退三	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-炮六退四	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-砲六退四	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-炮六退五	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-砲六退五	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-炮六退一	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-砲六退一	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+炮六退八	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+砲六退八	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+炮六退二	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+砲六退二	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+炮六退九	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+砲六退九	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+炮六退六	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+砲六退六	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+炮六退七	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+砲六退七	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+炮六退三	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+砲六退三	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+炮六退四	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+砲六退四	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+炮六退五	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+砲六退五	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+炮六退一	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+砲六退一	pao;;ub;mv;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 炮平	pao;tt;hb;cv;hs; ping;ds,sf;aa,gb;eh;au;	3
 砲平	pao;;ub;mv;; ping;ds,sf;aa,gb;eh;au;	0
 炮七进八	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -1451,24 +1451,24 @@ use_preset_vocabulary: false
 砲七平五	pao;;ub;mv;; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 炮七平一	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 砲七平一	pao;;ub;mv;; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-炮七退八	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-砲七退八	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-炮七退二	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-砲七退二	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-炮七退九	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-砲七退九	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-炮七退六	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-砲七退六	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-炮七退七	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-砲七退七	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-炮七退三	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-砲七退三	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-炮七退四	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-砲七退四	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-炮七退五	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-砲七退五	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-炮七退一	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	1
-砲七退一	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+炮七退八	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+砲七退八	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+炮七退二	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+砲七退二	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+炮七退九	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+砲七退九	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+炮七退六	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+砲七退六	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+炮七退七	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+砲七退七	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+炮七退三	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+砲七退三	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+炮七退四	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+砲七退四	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+炮七退五	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+砲七退五	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+炮七退一	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	1
+砲七退一	pao;;ub;mv;; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 炮三进八	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 砲三进八	pao;;ub;mv;; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 炮三进二	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -1503,24 +1503,24 @@ use_preset_vocabulary: false
 砲三平五	pao;;ub;mv;; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 炮三平一	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	3
 砲三平一	pao;;ub;mv;; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-炮三退八	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-砲三退八	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-炮三退二	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-砲三退二	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-炮三退九	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-砲三退九	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-炮三退六	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-砲三退六	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-炮三退七	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-砲三退七	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-炮三退三	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-砲三退三	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-炮三退四	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-砲三退四	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-炮三退五	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-砲三退五	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-炮三退一	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	2
-砲三退一	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+炮三退八	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+砲三退八	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+炮三退二	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+砲三退二	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+炮三退九	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+砲三退九	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+炮三退六	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+砲三退六	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+炮三退七	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+砲三退七	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+炮三退三	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+砲三退三	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+炮三退四	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+砲三退四	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+炮三退五	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+砲三退五	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+炮三退一	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	2
+砲三退一	pao;;ub;mv;; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 炮四进八	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 砲四进八	pao;;ub;mv;; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 炮四进二	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -1555,26 +1555,26 @@ use_preset_vocabulary: false
 砲四平五	pao;;ub;mv;; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 炮四平一	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 砲四平一	pao;;ub;mv;; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-炮四退八	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-砲四退八	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-炮四退二	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-砲四退二	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-炮四退九	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-砲四退九	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-炮四退六	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-砲四退六	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-炮四退七	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-砲四退七	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-炮四退三	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-砲四退三	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-炮四退四	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-砲四退四	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-炮四退五	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-砲四退五	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-炮四退一	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-砲四退一	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-炮退	pao;tt;hb;cv;hs; tui;sq;zg;iu;zg;	0
-砲退	pao;;ub;mv;; tui;sq;zg;iu;zg;	0
+炮四退八	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+砲四退八	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+炮四退二	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+砲四退二	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+炮四退九	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+砲四退九	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+炮四退六	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+砲四退六	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+炮四退七	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+砲四退七	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+炮四退三	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+砲四退三	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+炮四退四	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+砲四退四	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+炮四退五	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+砲四退五	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+炮四退一	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+砲四退一	pao;;ub;mv;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+炮退	pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg;	0
+砲退	pao;;ub;mv;; tui;sq,rq;zg;iu;zg;	0
 炮五进八	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 砲五进八	pao;;ub;mv;; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 炮五进二	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -1609,24 +1609,24 @@ use_preset_vocabulary: false
 砲五平四	pao;;ub;mv;; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 炮五平一	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 砲五平一	pao;;ub;mv;; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-炮五退八	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-砲五退八	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-炮五退二	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	1
-砲五退二	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-炮五退九	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-砲五退九	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-炮五退六	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-砲五退六	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-炮五退七	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-砲五退七	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-炮五退三	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-砲五退三	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-炮五退四	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-砲五退四	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-炮五退五	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-砲五退五	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-炮五退一	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	1
-砲五退一	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+炮五退八	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+砲五退八	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+炮五退二	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	1
+砲五退二	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+炮五退九	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+砲五退九	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+炮五退六	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+砲五退六	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+炮五退七	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+砲五退七	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+炮五退三	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+砲五退三	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+炮五退四	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+砲五退四	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+炮五退五	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+砲五退五	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+炮五退一	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	1
+砲五退一	pao;;ub;mv;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 炮一进八	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 砲一进八	pao;;ub;mv;; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 炮一进二	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -1661,24 +1661,24 @@ use_preset_vocabulary: false
 砲一平四	pao;;ub;mv;; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 炮一平五	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 砲一平五	pao;;ub;mv;; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
-炮一退八	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-砲一退八	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-炮一退二	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-砲一退二	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-炮一退九	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-砲一退九	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-炮一退六	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-砲一退六	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-炮一退七	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-砲一退七	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-炮一退三	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-砲一退三	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-炮一退四	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-砲一退四	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-炮一退五	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-砲一退五	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-炮一退一	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-砲一退一	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+炮一退八	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+砲一退八	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+炮一退二	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+砲一退二	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+炮一退九	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+砲一退九	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+炮一退六	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+砲一退六	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+炮一退七	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+砲一退七	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+炮一退三	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+砲一退三	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+炮一退四	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+砲一退四	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+炮一退五	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+砲一退五	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+炮一退一	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+砲一退一	pao;;ub;mv;; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 前包进	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; jin;uq;zj;qu;zj;	0
 前包进八	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 前包进二	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; jin;uq;zj;qu;zj; er;uu;aa;me;aa;	0
@@ -1698,16 +1698,16 @@ use_preset_vocabulary: false
 前包平四	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 前包平五	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 前包平一	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-前包退	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg;	0
-前包退八	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-前包退二	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-前包退九	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-前包退六	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-前包退七	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-前包退三	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-前包退四	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-前包退五	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-前包退一	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+前包退	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg;	0
+前包退八	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+前包退二	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+前包退九	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+前包退六	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+前包退七	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+前包退三	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+前包退四	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+前包退五	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+前包退一	qian;fi;bd,qd;hp;bd; bao;ut;gs;nv;bs; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 前兵八进一	qian;fi;bd,qd;hp;bd; bing;uf;qb;th;qb; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 前兵八平七	qian;fi;bd,qd;hp;bd; bing;uf;qb;th;qb; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au; qi;aa;ag;rq;av;	0
 前兵二进一	qian;fi;bd,qd;hp;bd; bing;uf;qb;th;qb; er;uu;aa;me;aa; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
@@ -1760,15 +1760,15 @@ use_preset_vocabulary: false
 前车平四	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
 前车平五	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 前车平一	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-前车退	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq;zg;iu;zg;	0
-前车退八	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-前车退二	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-前车退六	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-前车退七	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-前车退三	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-前车退四	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-前车退五	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-前车退一	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	1
+前车退	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg;	0
+前车退八	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+前车退二	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+前车退六	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+前车退七	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+前车退三	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+前车退四	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+前车退五	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+前车退一	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	1
 前車进	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; jin;uq;zj;qu;zj;	0
 前俥进八	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
 前車进八	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -1805,23 +1805,23 @@ use_preset_vocabulary: false
 前車平五	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 前俥平一	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 前車平一	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-前車退	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq;zg;iu;zg;	0
-前俥退八	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-前車退八	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-前俥退二	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-前車退二	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-前俥退六	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-前車退六	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-前俥退七	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-前車退七	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-前俥退三	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-前車退三	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-前俥退四	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-前車退四	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-前俥退五	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-前車退五	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-前俥退一	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-前車退一	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+前車退	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg;	0
+前俥退八	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+前車退八	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+前俥退二	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+前車退二	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+前俥退六	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+前車退六	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+前俥退七	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+前車退七	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+前俥退三	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+前車退三	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+前俥退四	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+前車退四	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+前俥退五	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+前車退五	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+前俥退一	qian;fi;bd,qd;hp;bd; ju;;ri;jy;; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+前車退一	qian;fi;bd,qd;hp;bd; ju;ds;aa;yc;; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 前馬进	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; jin;uq;zj;qu;zj;	0
 前马进	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; jin;uq;zj;qu;zj;	0
 前傌进八	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -1851,35 +1851,35 @@ use_preset_vocabulary: false
 前傌进一	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 前馬进一	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 前马进一	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
-前馬退	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq;zg;iu;zg;	0
-前马退	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg;	0
-前傌退八	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-前馬退八	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-前马退八	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-前傌退二	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-前馬退二	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-前马退二	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-前傌退九	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-前馬退九	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-前马退九	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-前傌退六	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-前馬退六	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-前马退六	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-前傌退七	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-前馬退七	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-前马退七	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-前傌退三	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-前馬退三	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-前马退三	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-前傌退四	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-前馬退四	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-前马退四	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-前傌退五	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-前馬退五	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-前马退五	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-前傌退一	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-前馬退一	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-前马退一	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+前馬退	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq,rq;zg;iu;zg;	0
+前马退	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg;	0
+前傌退八	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+前馬退八	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+前马退八	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+前傌退二	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+前馬退二	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+前马退二	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+前傌退九	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+前馬退九	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+前马退九	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+前傌退六	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+前馬退六	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+前马退六	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+前傌退七	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+前馬退七	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+前马退七	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+前傌退三	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+前馬退三	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+前马退三	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+前傌退四	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+前馬退四	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+前马退四	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+前傌退五	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+前馬退五	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+前马退五	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+前傌退一	qian;fi;bd,qd;hp;bd; ma;;rm;jn;; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+前馬退一	qian;fi;bd,qd;hp;bd; ma;;ah;nm;; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+前马退一	qian;fi;bd,qd;hp;bd; ma;zz;aa,vh;nm;va; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 前炮进	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; jin;uq;zj;qu;zj;	0
 前砲进	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; jin;uq;zj;qu;zj;	0
 前炮进八	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; jin;uq;zj;qu;zj; ba;ff;pd;hb;pn;	0
@@ -1918,26 +1918,26 @@ use_preset_vocabulary: false
 前砲平五	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 前炮平一	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
 前砲平一	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; ping;ds,sf;aa,gb;eh;au; yi;dd;aa;fi;aa;	0
-前炮退	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg;	0
-前砲退	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq;zg;iu;zg;	0
-前炮退八	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-前砲退八	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	0
-前炮退二	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-前砲退二	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq;zg;iu;zg; er;uu;aa;me;aa;	0
-前炮退九	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-前砲退九	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-前炮退六	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-前砲退六	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-前炮退七	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-前砲退七	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-前炮退三	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-前砲退三	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
-前炮退四	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-前砲退四	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-前炮退五	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-前砲退五	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-前炮退一	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-前砲退一	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+前炮退	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg;	0
+前砲退	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq,rq;zg;iu;zg;	0
+前炮退八	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+前砲退八	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	0
+前炮退二	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+前砲退二	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	0
+前炮退九	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+前砲退九	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+前炮退六	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+前砲退六	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+前炮退七	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+前砲退七	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+前炮退三	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+前砲退三	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
+前炮退四	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+前砲退四	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+前炮退五	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+前砲退五	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+前炮退一	qian;fi;bd,qd;hp;bd; pao;tt;hb;cv;hs; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+前砲退一	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 前卒进	qian;fi;bd,qd;hp;bd; zu;is;wu,uc;zn;wu; jin;uq;zj;qu;zj;	0
 前卒平	qian;fi;bd,qd;hp;bd; zu;is;wu,uc;zn;wu; ping;ds,sf;aa,gb;eh;au;	0
 三兵进一	san;uu;aa;ts;ae; bing;uf;qb;th;qb; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
@@ -1955,41 +1955,41 @@ use_preset_vocabulary: false
 士进	shi;gg;aa;gs;ua; jin;uq;zj;qu;zj;	0
 仕六进五	shi;xg;ru;jg;ru; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	0
 士六进五	shi;gg;aa;gs;ua; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	2
-仕六退五	shi;xg;ru;jg;ru; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-士六退五	shi;gg;aa;gs;ua; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+仕六退五	shi;xg;ru;jg;ru; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+士六退五	shi;gg;aa;gs;ua; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
 仕四进五	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	1
 士四进五	shi;gg;aa;gs;ua; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	0
-仕四退五	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-士四退五	shi;gg;aa;gs;ua; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
-士退	shi;gg;aa;gs;ua; tui;sq;zg;iu;zg;	0
+仕四退五	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+士四退五	shi;gg;aa;gs;ua; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+士退	shi;gg;aa;gs;ua; tui;sq,rq;zg;iu;zg;	0
 仕五进六	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; liu;if;wb,dd,db;al;wb;	0
 士五进六	shi;gg;aa;gs;ua; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; liu;if;wb,dd,db;al;wb;	0
 仕五进四	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; si;nk;aa,ke;ys;ke;	0
 士五进四	shi;gg;aa;gs;ua; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; si;nk;aa,ke;ys;ke;	0
-仕五退六	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-士五退六	shi;gg;aa;gs;ua; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
-仕五退四	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-士五退四	shi;gg;aa;gs;ua; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+仕五退六	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+士五退六	shi;gg;aa;gs;ua; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	0
+仕五退四	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+士五退四	shi;gg;aa;gs;ua; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
 帅六进一	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 帥六进一	shuai;;jv,vj;tr;; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 帅六平五	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	1
 帥六平五	shuai;;jv,vj;tr;; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
-帅六退一	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-帥六退一	shuai;;jv,vj;tr;; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+帅六退一	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+帥六退一	shuai;;jv,vj;tr;; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 帅四进一	shuai;py;aj,dj,jd;pr;lj; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 帥四进一	shuai;;jv,vj;tr;; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 帅四平五	shuai;py;aj,dj,jd;pr;lj; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
 帥四平五	shuai;;jv,vj;tr;; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa;	0
-帅四退一	shuai;py;aj,dj,jd;pr;lj; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
-帥四退一	shuai;;jv,vj;tr;; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+帅四退一	shuai;py;aj,dj,jd;pr;lj; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+帥四退一	shuai;;jv,vj;tr;; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 帅五进一	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	10
 帥五进一	shuai;;jv,vj;tr;; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 帅五平六	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; liu;if;wb,dd,db;al;wb;	0
 帥五平六	shuai;;jv,vj;tr;; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; liu;if;wb,dd,db;al;wb;	0
 帅五平四	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	1
 帥五平四	shuai;;jv,vj;tr;; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
-帅五退一	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	1
-帥五退一	shuai;;jv,vj;tr;; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	0
+帅五退一	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	1
+帥五退一	shuai;;jv,vj;tr;; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	0
 四兵进一	si;nk;aa,ke;ys;ke; bing;uf;qb;th;qb; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 四兵平八	si;nk;aa,ke;ys;ke; bing;uf;qb;th;qb; ping;ds,sf;aa,gb;eh;au; ba;ff;pd;hb;pn;	0
 四兵平二	si;nk;aa,ke;ys;ke; bing;uf;qb;th;qb; ping;ds,sf;aa,gb;eh;au; er;uu;aa;me;aa;	0
@@ -2004,22 +2004,22 @@ use_preset_vocabulary: false
 四卒平	si;nk;aa,ke;ys;ke; zu;is;wu,uc;zn;wu; ping;ds,sf;aa,gb;eh;au;	0
 象进	xiang;gh;du,pd,ua;wx;dn; jin;uq;zj;qu;zj;	4
 相九进七	xiang;ws;mo;eq;mo; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj; qi;aa;ag;rq;av;	0
-相九退七	xiang;ws;mo;eq;mo; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
+相九退七	xiang;ws;mo;eq;mo; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
 相七进九	xiang;ws;mo;eq;mo; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
 相七进五	xiang;ws;mo;eq;mo; qi;aa;ag;rq;av; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	1
-相七退九	xiang;ws;mo;eq;mo; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-相七退五	xiang;ws;mo;eq;mo; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	0
+相七退九	xiang;ws;mo;eq;mo; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+相七退五	xiang;ws;mo;eq;mo; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	0
 相三进五	xiang;ws;mo;eq;mo; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa;	3
 相三进一	xiang;ws;mo;eq;mo; san;uu;aa;ts;ae; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	2
-相三退五	xiang;ws;mo;eq;mo; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	2
-相三退一	xiang;ws;mo;eq;mo; san;uu;aa;ts;ae; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	1
-象退	xiang;gh;du,pd,ua;wx;dn; tui;sq;zg;iu;zg;	0
+相三退五	xiang;ws;mo;eq;mo; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	2
+相三退一	xiang;ws;mo;eq;mo; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	1
+象退	xiang;gh;du,pd,ua;wx;dn; tui;sq,rq;zg;iu;zg;	0
 相五进七	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; qi;aa;ag;rq;av;	0
 相五进三	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; san;uu;aa;ts;ae;	0
-相五退七	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	0
-相五退三	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	0
+相五退七	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	0
+相五退三	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	0
 相一进三	xiang;ws;mo;eq;mo; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj; san;uu;aa;ts;ae;	0
-相一退三	xiang;ws;mo;eq;mo; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	1
+相一退三	xiang;ws;mo;eq;mo; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	1
 中兵进一	zhong;op;aa,ka;dg;ll; bing;uf;qb;th;qb; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	1
 中兵平八	zhong;op;aa,ka;dg;ll; bing;uf;qb;th;qb; ping;ds,sf;aa,gb;eh;au; ba;ff;pd;hb;pn;	0
 中兵平二	zhong;op;aa,ka;dg;ll; bing;uf;qb;th;qb; ping;ds,sf;aa,gb;eh;au; er;uu;aa;me;aa;	0
@@ -2035,7 +2035,7 @@ use_preset_vocabulary: false
 卒进	zu;is;wu,uc;zn;wu; jin;uq;zj;qu;zj;	0
 卒平	zu;is;wu,uc;zn;wu; ping;ds,sf;aa,gb;eh;au;	0
 暗根子	an;vv;oy;ox;oo; gen;wh;mg;ei;mg; zi;aa;aa,vh;hi;va;	0
-按规行棋	an;jy;fa;ub;fn; gui;ek;fj,jf;he;fe; xing;hj;xd,xi;px;ii; qi;wf;mq;eh;mb;	0
+按规行棋	an;jy;fa;ub;fn; gui;ek,er;fj,jf;he;fe; xing;hj,hp;xd,xi;px;ii; qi;wf;mq;eh;mb;	0
 按时拨钟	an;jy;fa;ub;fn; shi;vk;oc;ok;oc; bo;jh;ff;ui;fd; zhong;dp;jv;zg;jv;	0
 按时加钟	an;jy;fa;ub;fn; shi;vk;oc;ok;oc; jia;uo;lk,kl;sd;lk; zhong;dp;jv;zg;jv;	0
 暗捉	an;vv;oy;ox;oo; zhuo;jg;fz;up;fr;	1
@@ -2051,7 +2051,7 @@ use_preset_vocabulary: false
 北京中加	bei;la;ap,bj;av;lb; jing;if;wx;gy;wx; zhong;op;aa,ka;dg;ll; jia;uo;lk,kl;sd;lk;	0
 边马	bian;uq;zl;su;zl; ma;zz;aa,vh;nm;va;	22
 边马对还中炮	bian;uq;zl;su;zl; ma;zz;aa,vh;nm;va; dui;lk;cy,yc;rk;yc; hai;dq;zb;cu;zb; zhong;op;aa,ka;dg;ll; pao;tt;hb;cv;hs;	0
-兵行线	bing;uf;qb;th;qb; xing;hj;xd,xi;px;ii; xian;ea;sj;ip;sj;	0
+兵行线	bing;uf;qb;th;qb; xing;hj,hp;xd,xi;px;ii; xian;ea;sj;ip;sj;	0
 卜凤波	bo;ph;ad;yb;ld; feng;il;jy;or;jy; bo;kl;dp;kr;dy;	0
 不变作负	bu;dh;ad,ax;cb;ad; bian;il;wy,yy;zr;wy; zuo;xu;rv;jw;rv; fu;gm;db;xo;dr;	1
 不变作和	bu;dh;ad,ax;cb;ad; bian;il;wy,yy;zr;wy; zuo;xu;rv;jw;rv; he;uo;hk;xd;hk;	5
@@ -2078,7 +2078,7 @@ use_preset_vocabulary: false
 陈海华	chen;bf;ed;ty;ed; hai;kh;dm;kk;dm; hua;xs;uh;jn;ru;	2
 陈罗平	chen;bf;ed;ty;ed; luo;af;sx;yl;sx; ping;ds,sf;aa,gb;eh;au;	0
 陈启明	chen;bf;ed;ty;ed; qi;qo;hk,kh;md;hk; ming;vl;oo;ov;oo;	2
-程进超	cheng;ua;hi;xn;hw; jin;uq;zj;qu;zj; chao;qo;zv;pd;tk;	0
+程进超	cheng;ua;hi;xn;hw; jin;uq;zj;qu;zj; chao;go,qo;zv;pd;tk;	0
 程鸣	cheng;ua;hi;xn;hw; ming;oc;kn;dx;kn;	2
 楚汉六凤	chu;we;mp,pl;et;mr; han;kl;dy;kr;dy; liu;if;wb,dd,db;al;wb; feng;il;jy;or;jy;	0
 从没捉到捉	cong;ee;rr;jj;rr; mei;kl;du;kr;dy; zhuo;jg;fz;up;fr; dao;di;dv;yp;ad; zhuo;jg;fz;up;fr;	0
@@ -2105,7 +2105,7 @@ use_preset_vocabulary: false
 叠炮	die;lu;qr,qu,yy;rf;yq; pao;tt;hb;cv;hs;	2
 东北三虎	dong;df,af;ad,qx;ry;ad; bei;la;ap,bj;av;lb; san;uu;aa;ts;ae; hu;pi;hj;zh;hj;	0
 对兵局	dui;lk;cy,yc;rk;yc; bing;uf;qb;th;qb; ju;qo;uk;cd;uk;	3
-兑其主力	dui;fk;bx,ek;hp;be; qi;vf;ba,ad,hb;zh;qb; zhu;ig;dw;in;dw; li;uu;gp;sl;vp;	0
+兑其主力	dui;fk;bx,ek;hp;be; qi;vf;ba,ad,hb;zh;qb; zhu;ig,ha;dw;in;dw; li;uu;gp;sl;vp;	0
 对头兵	dui;lk;cy,yc;rk;yc; tou;hx;dd;wm;dd; bing;uf;qb;th;qb;	2
 兑子夺先	dui;fk;bx,ek;hp;be; zi;aa;aa,vh;hi;va; duo;xk;dc,cd;mk;dc; xian;bk;ne,en;qp;ne;	0
 兑子夺子	dui;fk;bx,ek;hp;be; zi;aa;aa,vh;hi;va; duo;xk;dc,cd;mk;dc; zi;aa;aa,vh;hi;va;	0
@@ -2128,7 +2128,7 @@ use_preset_vocabulary: false
 范思远	fan;zt;ce,cf;lz;cv; si;wn;tx,xt;qh;tx; yuan;uq;zy;mu;ze;	0
 飞相	fei;rh;yd;cf;vd; xiang;ws;mo;eq;mo;	15
 飞相对金钩炮	fei;rh;yd;cf;vd; xiang;ws;mo;eq;mo; dui;lk;cy,yc;rk;yc; jin;ed,ef;ra,pa;zj;ra; gou;dp;jg;zk;js; pao;tt;hb;cv;hs;	0
-飞相对起马	fei;rh;yd;cf;vd; xiang;ws;mo;eq;mo; dui;lk;cy,yc;rk;yc; qi;qt;zj;pv;tj; ma;zz;aa,vh;nm;va;	0
+飞相对起马	fei;rh;yd;cf;vd; xiang;ws;mo;eq;mo; dui;lk;cy,yc;rk;yc; qi;qt,gt;zj;pv;tj; ma;zz;aa,vh;nm;va;	0
 飞相对挺卒	fei;rh;yd;cf;vd; xiang;ws;mo;eq;mo; dui;lk;cy,yc;rk;yc; ting;jq;ft;uu;fz; zu;is;wu,uc;zn;wu;	0
 飞相局	fei;rh;yd;cf;vd; xiang;ws;mo;eq;mo; ju;qo;uk;cd;uk;	15
 飞相局对右过宫炮	fei;rh;yd;cf;vd; xiang;ws;mo;eq;mo; ju;qo;uk;cd;uk; dui;lk;cy,yc;rk;yc; you;so;ku,uk;nd;uk; guo;kq;zc;ku;zc; gong;io;bl;wd;bk; pao;tt;hb;cv;hs;	0
@@ -2155,7 +2155,7 @@ use_preset_vocabulary: false
 郭丽萍	guo;ib;ex;gt;we; li;dh;ad;fv;ad; ping;zs,zf;cp;lh;cp;	2
 还中炮	hai;dq;zb;cu;zb; zhong;op;aa,ka;dg;ll; pao;tt;hb;cv;hs;	1
 河北金环钢构	he;kj;dk;kz;dk; bei;la;ap,bj;av;lb; jin;ed,ef;ra,pa;zj;ra; huan;ah;wb;nc;wb; gang;dy;jg;zb;jx; gou;wp;mg;ek;ms;	0
-河边无青草不用多嘴牛	he;kj;dk;kz;dk; bian;uq;zl;su;zl; wu;uk;ag,ay,ee;du;ay; qing;al;of,fo;av;fo; cao;zs;cz;ln;cu; bu;dh;ad,ax;cb;ad; yong;lp;kf;ty;kl; duo;ff;xx;ll;xx; zui;op;kj,kz;dt;ky; niu;bb;pa;qn;pl;	0
+河边无青草不用多嘴牛	he;kj;dk;kz;dk; bian;uq;zl;su;zl; wu;uk,ur;ag,ay,ee;du;ay; qing;al;of,fo;av;fo; cao;zs;cz;ln;cu; bu;dh;ad,ax;cb;ad; yong;lp;kf;ty;kl; duo;ff;xx;ll;xx; zui;op;kj,kz;dt;ky; niu;bb;pa;qn;pl;	0
 何刚	he;xj;rk;jz;rk; gang;oi;dg;mp;kd;	10
 合击战术	he;eo;rk;jd;rk; ji;up;aa,eu,fk;um;ak; zhan;pa;gv;yp;lg; shu;wh;md;ei;md;	0
 河界线	he;kj;dk;kz;dk; jie;wp;tj;qp;tl; xian;ea;sj;ip;sj;	1
@@ -2236,17 +2236,17 @@ use_preset_vocabulary: false
 蒋川	jiang;zk;cj;lk;cc; chuan;up;pa;oc;pl;	22
 蒋凤山	jiang;zk;cj;lk;cc; feng;il;jy;or;jy; shan;pp;aa;vs;lk;	0
 江湖残局	jiang;kp;dg;ku;dg; hu;kl;dh;kv;do; can;fa;dj;gp;dj; ju;qo;uk;cd;uk;	15
-江南四燕	jiang;kp;dg;ku;dg; nan;ss;ua,uy;ng;ug,ag; si;nk;aa,ke;ys;ke; yan;vn;ch,hb;lc;ah,nh;	0
+江南四燕	jiang;kp;dg;ku;dg; nan;ss,sp;ua,uy;ng;ug,ag; si;nk;aa,ke;ys;ke; yan;vn;ch,hb;lc;ah,nh;	0
 江苏金陵人酒店	jiang;kp;dg;ku;dg; su;zf;cb;lh;cb; jin;ed,ef;ra,pa;zj;ra; ling;bj;el,ew;th;ew; ren;ee;pd;jr;pn; jiu;kd;dy;ky;dy; dian;ro;gv;xd;gk;	0
 蒋志梁	jiang;zk;cj;lk;cc; zhi;gn;ux,xu;gh;ux; liang;kw;mb;ke;dm;	1
 借车使炮	jie;xv;rx;jo;ro; che;tt;aa;yc;al; shi;xy;rl;jb;rl; pao;tt;hb;cv;hs;	1
 借炮使马	jie;xv;rx;jo;ro; pao;tt;hb;cv;hs; shi;xy;rl;jb;rl; ma;zz;aa,vh;nm;va;	1
 金波	jin;ed,ef;ra,pa;zj;ra; bo;kl;dp;kr;dy;	144
 金钩炮	jin;ed,ef;ra,pa;zj;ra; gou;dp;jg;zk;js; pao;tt;hb;cv;hs;	6
-金钩炮对起马	jin;ed,ef;ra,pa;zj;ra; gou;dp;jg;zk;js; pao;tt;hb;cv;hs; dui;lk;cy,yc;rk;yc; qi;qt;zj;pv;tj; ma;zz;aa,vh;nm;va;	0
+金钩炮对起马	jin;ed,ef;ra,pa;zj;ra; gou;dp;jg;zk;js; pao;tt;hb;cv;hs; dui;lk;cy,yc;rk;yc; qi;qt,gt;zj;pv;tj; ma;zz;aa,vh;nm;va;	0
 金海英	jin;ed,ef;ra,pa;zj;ra; hai;kh;dm;kk;dm; ying;zx,ze;cy;lm;cy;	0
 进炮应须要辅车	jin;uq;zj;qu;zj; pao;tt;hb;cv;hs; ying;rd;ga;xf;ga; xu;um;py,yp;ew;pr; yao;py;xn;vb;xn; fu;th;if;yn;if; che;tt;aa;yc;al;	0
-靳玉砚	jin;vp;gj,jg;tt;gj; yu;ah,aa;ad,wd;ni;wd; yan;tk;uj;me;ue;	1
+靳玉砚	jin;vp;gj,jg;tt;gj; yu;ah,aa;ad,wd;ni;wd; yan;tk,tr;uj;me;ue;	1
 禁止着法	jin;wf;ul;ef;mx; zhi;rr;aa;si;la; zhao;fs;yo;gq;yo; fa;kp;dq;kk;ds;	1
 精选着法	jing;ll;mq;pv;mo; xuan;bq;zx;qu;ze; zhao;fs;yo;gq;yo; fa;kp;dq;kk;ds;	0
 景学义	jing;vf;oj;oy;ox; xue;ha;dz,zb;kh;xz; yi;hy,yh;di,id;ib;dx;	0
@@ -2254,7 +2254,7 @@ use_preset_vocabulary: false
 开滦煤矿股份	kai;dz,dp,up;ac;fl;ac; luan;kw;dl;ke;dm; mei;tw;hm;ce;hm; kuang;tr;ug;mx;ug; gu;ll;ou;vr;oy; fen;xi,xu;rf;jp;rd;	0
 开通子力	kai;dz,dp,up;ac;fl;ac; tong;pq;zy;ku;zy; zi;aa;aa,vh;hi;va; li;uu;gp;sl;vp;	0
 空头炮	kong;ip;xg,bg;eu;bg; tou;hx;dd;wm;dd; pao;tt;hb;cv;hs;	8
-落子无悔	lao;zo;cl;ls;ck; zi;aa;aa,vh;hi;va; wu;uk;ag,ay,ee;du;ay; hui;nh;xm;hk;xm;	68
+落子无悔	lao;zo;cl;ls;ck; zi;aa;aa,vh;hi;va; wu;uk,ur;ag,ay,ee;du;ay; hui;nh;xm;hk;xm;	68
 肋车	lei;lu;ol;vs;ol; che;tt;aa;yc;al;	2
 肋道	lei;lu;ol;vs;ol; dao;fq;zu;hu;zz;	17
 冷巷炮	leng;fp;dl;wk;ds; xiang;zt;sg,gs;lv;cs; pao;tt;hb;cv;hs;	0
@@ -2262,16 +2262,16 @@ use_preset_vocabulary: false
 李鸿嘉	li;wa;mz;eh;mz; hong;kc;dn,nj;kx;dn; jia;go;uj;hd;uk;	0
 李家华	li;wa;mz;eh;mz; jia;ih;bu;wj;bu; hua;xs;uh;jn;ru;	0
 立马车	li;bb;da;il;wa; ma;zz;aa,vh;nm;va; che;tt;aa;yc;al;	1
-李群	li;wa;mz;eh;mz; qun;rp;yj;bg;yy;	243
+李群	li;wa;mz;eh;mz; qun;rp,sp;yj;bg;yy;	243
 李少庚	li;wa;mz;eh;mz; shao;pu;xp;yt;xp; geng;re;gd,gg,gr;xj;gn;	1
 李望祥	li;wa;mz;eh;mz; wang;ia;wo;fn;ww; xiang;hp;uy;fg;py;	0
 敛炮	lian;ej;wa,wq;jh;rw; pao;tt;hb;cv;hs;	1
 联子配合	lian;dx;eg;qm;et; zi;aa;aa,vh;hi;va; pei;pt;yj;yv;yj; he;eo;rk;jd;rk;	0
-两鬼拍门	liang;de;ad;ml;ad; gui;ss;pd,ps;ag;ps; pai;js;fb;uu;fb; men;oo;dg;am;dv;	0
+两鬼拍门	liang;de;ad;ml;ad; gui;ss,up;pd,ps;ag;ps; pai;js;fb;uu;fb; men;oo;dg;am;dv;	0
 廖二平	liao;ru;gl,gp;xe;gp; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au;	0
 列炮	lie;fi;dd;gp;dd; pao;tt;hb;cv;hs;	17
-岭南双龙	ling;pp;ul;vk;es; nan;ss;ua,uy;ng;ug,ag; shuang;ll;yy;rr;yy; long;sh;ad;tl;ud;	0
-流行布局新变探索	liu;kr;di;ko;dv; xing;hj;xd,xi;px;ii; bu;sy;ju,uj;nr;uj; ju;qo;uk;cd;uk; xin;bp;jq;it;lj; bian;il;wy,yy;zr;wy; tan;jw;fm,fu;ue;fm; suo;sf;sb,us;ni;ux;	0
+岭南双龙	ling;pp;ul;vk;es; nan;ss,sp;ua,uy;ng;ug,ag; shuang;ll;yy;rr;yy; long;sh;ad;tl;ud;	0
+流行布局新变探索	liu;kr;di;ko;dv; xing;hj,hp;xd,xi;px;ii; bu;sy;ju,uj;nr;uj; ju;qo;uk;cd;uk; xin;bp;jq;it;lj; bian;il;wy,yy;zr;wy; tan;jw;fm,fu;ue;fm; suo;sf;sb,us;ni;ux;	0
 刘宗泽	liu;ji;dw,wd;vp;wd; zong;if;bu;wf;bx; ze;kp;df;ku;dl;	1
 马炮仕相全	ma;zz;aa,vh;nm;va; pao;tt;hb;cv;hs; shi;xg;ru;jg;ru; xiang;ws;mo;eq;mo; quan;ea;rw;jn;rw;	0
 马士象全	ma;zz;aa,vh;nm;va; shi;gg;aa;gs;ua; xiang;gh;du,pd,ua;wx;dn; quan;ea;rw;jn;rw;	5
@@ -2284,13 +2284,13 @@ use_preset_vocabulary: false
 苗永鹏	miao;zw;ct;lq;ct; yong;hh;dd;ik;dn; peng;lc;np;vx;on;	0
 明捉	ming;vl;oo;ov;oo; zhuo;jg;fz;up;fr;	0
 摸子走子	mo;jx;fm;um;fd; zi;aa;aa,vh;hi;va; zou;qq,ge;tv;pz;tr; zi;aa;aa,vh;hi;va;	1
-谋而后行	mou;cw;ym;se;ym; er;ee;aa;le;al; hou;uo;pk;xd;pk; xing;hj;xd,xi;px;ii;	0
+谋而后行	mou;cw;ym;se;ym; er;ee;aa;le;al; hou;uo;pk;xd;pk; xing;hj,hp;xd,xi;px;ii;	0
 牟海勤	mou;pb;sn;kq;sn; hai;kh;dm;kk;dm; qin;vu;lj;ls;nl;	0
 谋子战术	mou;cw;ym;se;ym; zi;aa;aa,vh;hi;va; zhan;pa;gv;yp;lg; shu;wh;md;ei;md;	1
 尼姑打伞	ni;qa;ub;cv;ub; gu;yo;ng;bc;nk; da;jj;fd;ua;fd; san;es;ru;jn;ru;	0
 倪敏	ni;xk;re;jp;re; min;ej;wm;eh;pw;	0
 逆手炮	ni;fq;zn;hu;zp; shou;up;pa,ub;us;pl; pao;tt;hb;cv;hs;	0
-藕断丝牵	ou;zh;co;lv;cy; duan;lp;ja,jm,jv;pt;mj; si;ee;aa;ii;va; qian;xb;nb,dn;mq;dn;	0
+藕断丝牵	ou;zh;co;lv;cy; duan;lp;ja,jm,jv;pt;mj; si;ee,rd;aa;ii;va; qian;xb;nb,dn;mq;dn;	0
 欧阳琦琳	ou;de;qq;ne;kr; yang;bv;eo;to;eo; qi;aj;wq;nz;wk; lin;aw;wl;ne;wm;	0
 排局研究	pai;ju,jp;ff;ur;ff; ju;qo;uk;cd;uk; yan;tp;uk;ml;uk; jiu;ir;xj,bj;ek;bj;	2
 盘河马探秘	pan;td,ta;mv,vm;ia;vm; he;kj;dk;kz;dk; ma;zz;aa,vh;nm;va; tan;jw;fm,fu;ue;fm; mi;uu;hb;xt;hb;	0
@@ -2298,23 +2298,23 @@ use_preset_vocabulary: false
 匹马单刀	pi;dr;ke;np;ke; ma;zz;aa,vh;nm;va; dan;fs;ba,bd;hn;bl; dao;ii,ru;gp,pg;pd;vp;	0
 七兵	qi;aa;ag;rq;av; bing;uf;qb;th;qb;	7
 七斗星杯象甲联赛	qi;aa;ag;rq;av; dou;hs,sh;du;jd;du; xing;vg,va;ou;ol;ou; bei;wh;mb;ec;mb; xiang;gh;du,pd,ua;wx;dn; jia;vp;aa,oa;sj;ll; lian;dx;eg;qm;et; sai;im;bb;wo;br;	0
-棋规	qi;wf;mq;eh;mb; gui;ek;fj,jf;he;fe;	25
-棋规交流	qi;wf;mq;eh;mb; gui;ek;fj,jf;he;fe; jiao;iy;li,wf,df;ab;wx; liu;kr;di;ko;dv;	0
+棋规	qi;wf;mq;eh;mb; gui;ek,er;fj,jf;he;fe;	25
+棋规交流	qi;wf;mq;eh;mb; gui;ek,er;fj,jf;he;fe; jiao;iy;li,wf,df;ab;wx; liu;kr;di;ko;dv;	0
 骑河	qi;zj;mq;nz;mk; he;kj;dk;kz;dk;	8
 棋理	qi;wf;mq;eh;mb; li;ag;wl;nd;wl;	99
 棋例裁决	qi;wf;mq;eh;mb; li;xi;rl;jp;rd; cai;sk,ha;gy,yg;nt;uy; jue;fx,fe;dd,dg;wj;dg;	0
 棋联大师	qi;wf;mq;eh;mb; lian;dx;eg;qm;et; da;xx;ad;md;un; shi;py;ab,aj,db,dj;pr;lj;	0
-起马	qi;qt;zj;pv;tj; ma;zz;aa,vh;nm;va;	9
-起马对挺卒	qi;qt;zj;pv;tj; ma;zz;aa,vh;nm;va; dui;lk;cy,yc;rk;yc; ting;jq;ft;uu;fz; zu;is;wu,uc;zn;wu;	0
-起马局	qi;qt;zj;pv;tj; ma;zz;aa,vh;nm;va; ju;qo;uk;cd;uk;	9
+起马	qi;qt,gt;zj;pv;tj; ma;zz;aa,vh;nm;va;	9
+起马对挺卒	qi;qt,gt;zj;pv;tj; ma;zz;aa,vh;nm;va; dui;lk;cy,yc;rk;yc; ting;jq;ft;uu;fz; zu;is;wu,uc;zn;wu;	0
+起马局	qi;qt,gt;zj;pv;tj; ma;zz;aa,vh;nm;va; ju;qo;uk;cd;uk;	9
 弃马十三着	qi;iz,ip;cw,wc;bl;wc; ma;zz;aa,vh;nm;va; shi;ss;aa;ns;al; san;uu;aa;ts;ae; zhao;fs;yo;gq;yo;	11
 棋评	qi;wf;mq;eh;mb; ping;cs,cf;yp;sh;yp;	2
-奇趣象棋排局谱	qi;xj;dk;mz;dk; qu;ql;zq;pr;ty; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; pai;ju,jp;ff;ur;ff; ju;qo;uk;cd;uk; pu;cv;yp;so;yo;	0
+奇趣象棋排局谱	qi;xj;dk;mz;dk; qu;ql,gl;zq;pr;ty; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; pai;ju,jp;ff;ur;ff; ju;qo;uk;cd;uk; pu;cv;yp;so;yo;	0
 棋书	qi;wf;mq;eh;mb; shu;rh;ad,vd;ai;vd;	16
 弃象陷车	qi;iz,ip;cw,wc;bl;wc; xiang;gh;du,pd,ua;wx;dn; xian;bs;ej,ex;tp;ej; che;tt;aa;yc;al;	0
 棋协大师	qi;wf;mq;eh;mb; xie;sf;ub;nh;ub; da;xx;ad;md;un; shi;py;ab,aj,db,dj;pr;lj;	13
 启新高尔夫杯全国象棋甲级联赛	qi;qo;hk,kh;md;hk; xin;bp;jq;it;lj; gao;io;wk;gg;wk; er;gf;dx,xd;xy;dx; fu;ee;ad,er;hf;an; bei;wh;mb;ec;mb; quan;ea;rw;jn;rw; guo;na,nh;ky;ri;ky; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; jia;vp;aa,oa;sj;ll; ji;eh;sj;ic;sj; lian;dx;eg;qm;et; sai;im;bb;wo;br;	0
-起着	qi;qt;zj;pv;tj; zhao;fs;yo;gq;yo;	1146
+起着	qi;qt,gt;zj;pv;tj; zhao;fs;yo;gq;yo;	1146
 弃子成和	qi;iz,ip;cw,wc;bl;wc; zi;aa;aa,vh;hi;va; cheng;rh;gg,wg;na;wv; he;uo;hk;xd;hk;	0
 弃子解困	qi;iz,ip;cw,wc;bl;wc; zi;aa;aa,vh;hi;va; jie;gb;jn;xq;dn; kun;nw;km;re;km;	0
 弃子谋子	qi;iz,ip;cw,wc;bl;wc; zi;aa;aa,vh;hi;va; mou;cw;ym;se;ym; zi;aa;aa,vh;hi;va;	0
@@ -2327,7 +2327,7 @@ use_preset_vocabulary: false
 牵制战术	qian;xb;nb,dn;mq;dn; zhi;bi;dg,dv;qp;pd; zhan;pa;gv;yp;lg; shu;wh;md;ei;md;	4
 巧连成局	qiao;pr;gk;ua;gv; lian;tq;zi;yu;zi; cheng;rh;gg,wg;na;wv; ju;qo;uk;cd;uk;	0
 屈头屏风马	qu;qp;ui;cm;ui; tou;hx;dd;wm;dd; ping;qp,qz;ub;cl;uk; feng;iy;ji;ob;jx; ma;zz;aa,vh;nm;va;	0
-权衡缓急	quan;wl;my;er;my; heng;hj;xd,xi;pw;ii; huan;el;sy;ir;sy; ji;gn;xi,xx;xh;dx;	0
+权衡缓急	quan;wl;my;er;my; heng;hj,hp;xd,xi;pw;ii; huan;el;sy;ir;sy; ji;gn;xi,xx;xh;dx;	0
 三兵	san;uu;aa;ts;ae; bing;uf;qb;th;qb;	17
 三车闹士	san;uu;aa;ts;ae; che;tt;aa;yc;al; nao;oy;mu;ar;mj; shi;gg;aa;gs;ua;	4
 三级棋士	san;uu;aa;ts;ae; ji;eh;sj;ic;sj; qi;wf;mq;eh;mb; shi;gg;aa;gs;ua;	3
@@ -2344,11 +2344,11 @@ use_preset_vocabulary: false
 神州八骏	shen;hp;uu;fg;pu; zhou;hp;id,da;oo;dl; ba;ff;pd;hb;pn; jun;zj;mj,mw;nh;mw;	0
 审子	shen;ip;bu;wg;bu; zi;aa;aa,vh;hi;va;	0
 胜定	sheng;la,lg;ou;vl;ou; ding;ie;bp;wt;br;	2
-士角炮对起马局	shi;gg;aa;gs;ua; jiao;gp;dy;xt;dy; pao;tt;hb;cv;hs; dui;lk;cy,yc;rk;yc; qi;qt;zj;pv;tj; ma;zz;aa,vh;nm;va; ju;qo;uk;cd;uk;	0
+士角炮对起马局	shi;gg;aa;gs;ua; jiao;gp;dy;xt;dy; pao;tt;hb;cv;hs; dui;lk;cy,yc;rk;yc; qi;qt,gt;zj;pv;tj; ma;zz;aa,vh;nm;va; ju;qo;uk;cd;uk;	0
 士角炮对挺卒	shi;gg;aa;gs;ua; jiao;gp;dy;xt;dy; pao;tt;hb;cv;hs; dui;lk;cy,yc;rk;yc; ting;jq;ft;uu;fz; zu;is;wu,uc;zn;wu;	0
 事林广记	shi;dp;aa;fb;al; lin;ww;mm;ee;mm; guang;rr;dp;xg;di,wp; ji;ct;yj;sv;yj;	5
-适情雅趣	shi;sq;zu;au;zk; qing;nl;xq;hv;xo; ya;da;vy,yv;lu;yf; qu;ql;zq;pr;ty;	16
-适情雅趣象棋古谱新编	shi;sq;zu;au;zk; qing;nl;xq;hv;xo; ya;da;vy,yv;lu;yf; qu;ql;zq;pr;ty; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; gu;so;uk;cg;uk; pu;cv;yp;so;yo; xin;bp;jq;it;lj; bian;ej,ed;sb;ii;sc;	0
+适情雅趣	shi;sq;zu;au;zk; qing;nl;xq;hv;xo; ya;da;vy,yv;lu;yf; qu;ql,gl;zq;pr;ty;	16
+适情雅趣象棋古谱新编	shi;sq;zu;au;zk; qing;nl;xq;hv;xo; ya;da;vy,yv;lu;yf; qu;ql,gl;zq;pr;ty; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; gu;so;uk;cg;uk; pu;cv;yp;so;yo; xin;bp;jq;it;lj; bian;ej,ed;sb;ii;sc;	0
 实用残局	shi;ix;bt;wm;bd; yong;lp;kf;ty;kl; can;fa;dj;gp;dj; ju;qo;uk;cd;uk;	12
 实战中的误区	shi;ix;bt;wm;bd; zhan;pa;gv;yp;lg; zhong;op;aa,ka;dg;ll; de;sh;bu;ui;bu; wu;cx;yw;sm;yt; qu;dr;ki;nb;kx;	0
 失子得势	shi;ee;pf;th;pf; zi;aa;aa,vh;hi;va; de;hk;xc;wk;ic; shi;ju;lv;us;fl;	0
@@ -2372,8 +2372,8 @@ use_preset_vocabulary: false
 顺炮直车进七兵对缓开车	shun;um;yi;ow;ir; pao;tt;hb;cv;hs; zhi;sd,su;aa,uq;nf;uq; che;tt;aa;yc;al; jin;uq;zj;qu;zj; qi;aa;ag;rq;av; bing;uf;qb;th;qb; dui;lk;cy,yc;rk;yc; huan;el;sy;ir;sy; kai;dz,dp,up;ac;fl;ac; che;tt;aa;yc;al;	0
 顺炮直车五六炮对横车	shun;um;yi;ow;ir; pao;tt;hb;cv;hs; zhi;sd,su;aa,uq;nf;uq; che;tt;aa;yc;al; wu;gg;aa;wu;aa; liu;if;wb,dd,db;al;wb; pao;tt;hb;cv;hs; dui;lk;cy,yc;rk;yc; heng;wf;mh;en;mb; che;tt;aa;yc;al;	0
 顺手炮	shun;um;yi;ow;ir; shou;up;pa,ub;us;pl; pao;tt;hb;cv;hs;	6
-四车相见	si;nk;aa,ke;ys;ke; che;tt;aa;yc;al; xiang;ws;mo;eq;mo; jian;pk;ag,ek,ke;ej;ke;	1
-丝线牵牛	si;ee;aa;ii;va; xian;ea;sj;ip;sj; qian;xb;nb,dn;mq;dn; niu;bb;pa;qn;pl;	0
+四车相见	si;nk;aa,ke;ys;ke; che;tt;aa;yc;al; xiang;ws;mo;eq;mo; jian;pk,pr;ag,ek,ke;ej;ke;	1
+丝线牵牛	si;ee,rd;aa;ii;va; xian;ea;sj;ip;sj; qian;xb;nb,dn;mq;dn; niu;bb;pa;qn;pl;	0
 送吃	song;fq;zg;hu;zt; chi;or;kq;da;kq;	0
 算度深远	suan;np,nz;vc;rl;vc; du;rl;gy;xr;gy; shen;kw;dm;ke;dm; yuan;uq;zy;mu;ze;	2
 孙勇征	sun;af;zx;hy;zx; yong;pu;ly;ks;sl; zheng;hr;xv;ws;iv;	0
@@ -2391,12 +2391,12 @@ use_preset_vocabulary: false
 挺兵对还中炮	ting;jq;ft;uu;fz; bing;uf;qb;th;qb; dui;lk;cy,yc;rk;yc; hai;dq;zb;cu;zb; zhong;op;aa,ka;dg;ll; pao;tt;hb;cv;hs;	0
 挺兵对金钩炮	ting;jq;ft;uu;fz; bing;uf;qb;th;qb; dui;lk;cy,yc;rk;yc; jin;ed,ef;ra,pa;zj;ra; gou;dp;jg;zk;js; pao;tt;hb;cv;hs;	0
 挺兵对进马	ting;jq;ft;uu;fz; bing;uf;qb;th;qb; dui;lk;cy,yc;rk;yc; jin;uq;zj;qu;zj; ma;zz;aa,vh;nm;va;	0
-挺兵对起马	ting;jq;ft;uu;fz; bing;uf;qb;th;qb; dui;lk;cy,yc;rk;yc; qi;qt;zj;pv;tj; ma;zz;aa,vh;nm;va;	0
+挺兵对起马	ting;jq;ft;uu;fz; bing;uf;qb;th;qb; dui;lk;cy,yc;rk;yc; qi;qt,gt;zj;pv;tj; ma;zz;aa,vh;nm;va;	0
 停着	ting;xj;rt;ja;rd; zhao;fs;yo;gq;yo;	336
 挺卒	ting;jq;ft;uu;fz; zu;is;wu,uc;zn;wu;	3
 同线车	tong;oo;kk;md;kk; xian;ea;sj;ip;sj; che;tt;aa;yc;al;	0
 突破战术	tu;ib;xq,bq;em;bq; po;tl;up;mr;uy; zhan;pa;gv;yp;lg; shu;wh;md;ei;md;	0
-退象	tui;sq;zg;iu;zg; xiang;gh;du,pd,ua;wx;dn;	0
+退象	tui;sq,rq;zg;iu;zg; xiang;gh;du,pd,ua;wx;dn;	0
 王孔兴	wang;aa;aa;nw;at; kong;ar;zg;ha;zv; xing;hf;ba,db;kh;xb;	0
 王跃飞	wang;aa;aa;nw;at; yue;gx;zy;pm;zy; fei;rh;yd;cf;vd;	0
 稳步缓攻	wen;un;hj;xh;hx; bu;ru;vx;ss;vp; huan;el;sy;ir;sy; gong;pj;gw,wg;uh;gw;	0
@@ -2404,7 +2404,7 @@ use_preset_vocabulary: false
 五八炮对屏风马	wu;gg;aa;wu;aa; ba;ff;pd;hb;pn; pao;tt;hb;cv;hs; dui;lk;cy,yc;rk;yc; ping;qp,qz;ub;cl;uk; feng;iy;ji;ob;jx; ma;zz;aa,vh;nm;va;	0
 五八炮进三兵对屏风马	wu;gg;aa;wu;aa; ba;ff;pd;hb;pn; pao;tt;hb;cv;hs; jin;uq;zj;qu;zj; san;uu;aa;ts;ae; bing;uf;qb;th;qb; dui;lk;cy,yc;rk;yc; ping;qp,qz;ub;cl;uk; feng;iy;ji;ob;jx; ma;zz;aa,vh;nm;va;	1
 五八炮进正马对屏风马	wu;gg;aa;wu;aa; ba;ff;pd;hb;pn; pao;tt;hb;cv;hs; jin;uq;zj;qu;zj; zheng;dr;av;fs;av; ma;zz;aa,vh;nm;va; dui;lk;cy,yc;rk;yc; ping;qp,qz;ub;cl;uk; feng;iy;ji;ob;jx; ma;zz;aa,vh;nm;va;	0
-无根子	wu;uk;ag,ay,ee;du;ay; gen;wh;mg;ei;mg; zi;aa;aa,vh;hi;va;	0
+无根子	wu;uk,ur;ag,ay,ee;du;ay; gen;wh;mg;ei;mg; zi;aa;aa,vh;hi;va;	0
 武俊强	wu;dr,ha;vy,yv;fs;av; jun;xj;rj,rw;jh;rw; qiang;rf;gs;bc;gi;	1
 五六炮	wu;gg;aa;wu;aa; liu;if;wb,dd,db;al;wb; pao;tt;hb;cv;hs;	3
 五六炮对反宫马	wu;gg;aa;wu;aa; liu;if;wb,dd,db;al;wb; pao;tt;hb;cv;hs; dui;lk;cy,yc;rk;yc; fan;ul;py;xr;py; gong;io;bl;wd;bk; ma;zz;aa,vh;nm;va;	0
@@ -2424,24 +2424,24 @@ use_preset_vocabulary: false
 闲着	xian;ow;mm;ae;mm; zhao;fs;yo;gq;yo;	766
 象棋残局新论	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; can;fa;dj;gp;dj; ju;qo;uk;cd;uk; xin;bp;jq;it;lj; lun;ca;yl;sj;yb;	2
 象棋棋例与待判局面的裁决	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; qi;wf;mq;eh;mb; li;xi;rl;jp;rd; yu;dd;aa;ff;aa; dai;hk;xs;wk;ic; pan;fi;db;hp;bd; ju;qo;uk;cd;uk; mian;dd,du;aa;bm;aa; de;sh;bu;ui;bu; cai;sk,ha;gy,yg;nt;uy; jue;fx,fe;dd,dg;wj;dg;	0
-象棋史话	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; shi;oy;ad,ki;db;ln; hua;co;yu;sa;yk;	0
+象棋史话	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; shi;oy,oh;ad,ki;db;ln; hua;co;yu;sa;yk;	0
 象棋世家	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; shi;vr;ca,cv,aa;la;av; jia;ih;bu;wj;bu;	1
 象棋十诀	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; shi;ss;aa;ns;al; jue;cx,ce;yd,yg;sj;yg;	1
 象棋实战精妙杀法例	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; shi;ix;bt;wm;bd; zhan;pa;gv;yp;lg; jing;ll;mq;pv;mo; miao;yu;nu;bt;nu; sha;yf;mi,im;be;xm; fa;kp;dq;kk;ds; li;xi;rl;jp;rd;	0
 象棋形势判断	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; xing;uu;pk;fe;kp; shi;ju;lv;us;fl; pan;fi;db;hp;bd; duan;lp;ja,jm,jv;pt;mj;	0
-象棋业余贰级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; er;ha,am;by,yb;po;yr; ji;eh;sj;ic;sj;	0
-象棋业余陆级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; lu;bp;ej;tm;ej; ji;eh;sj;ic;sj;	0
-象棋业余叁级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; san;pu;ss;kt;ss; ji;eh;sj;ic;sj;	0
-象棋业余肆级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; si;dp;yi,ys;pb;ay; ji;eh;sj;ic;sj;	0
-象棋业余伍级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; wu;xg;rw;jw;rw; ji;eh;sj;ic;sj;	0
-象棋业余壹级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; yi;gd;ud;gz;ua; ji;eh;sj;ic;sj;	0
+象棋业余贰级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd,hd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; er;ha,am;by,yb;po;yr; ji;eh;sj;ic;sj;	0
+象棋业余陆级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd,hd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; lu;bp;ej;tm;ej; ji;eh;sj;ic;sj;	0
+象棋业余叁级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd,hd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; san;pu;ss;kt;ss; ji;eh;sj;ic;sj;	0
+象棋业余肆级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd,hd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; si;dp;yi,ys;pb;ay; ji;eh;sj;ic;sj;	0
+象棋业余伍级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd,hd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; wu;xg;rw;jw;rw; ji;eh;sj;ic;sj;	0
+象棋业余壹级	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ye;pd,hd;aa;cy;la; yu;ef;rb,rd,rh;jx;rh; yi;gd;ud;gz;ua; ji;eh;sj;ic;sj;	0
 象棋中局杀势	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; zhong;op;aa,ka;dg;ll; ju;qo;uk;cd;uk; sha;yf;mi,im;be;xm; shi;ju;lv;us;fl;	0
 谢岿	xie;ck;yu;sk;yc; kui;ps;ug;vb;ee;	0
 谢思明	xie;ck;yu;sk;yc; si;wn;tx,xt;qh;tx; ming;vl;oo;ov;oo;	0
-谢业枧	xie;ck;yu;sk;yc; ye;pd;aa;cy;la; jian;wk;mj;ee;me;	0
+谢业枧	xie;ck;yu;sk;yc; ye;pd,hd;aa;cy;la; jian;wk,wr;mj;ee;me;	0
 心武残编	xin;nn;dd;hx;dd; wu;dr,ha;vy,yv;fs;av; can;fa;dj;gp;dj; bian;ej,ed;sb;ii;sc;	1
-行棋处理	xing;hj;xd,xi;px;ii; qi;wf;mq;eh;mb; chu;jh;wb;hy;wb; li;ag;wl;nd;wl;	0
-胸有全局	xiong;lp;ox;vm;ok; you;sl;ou,uo;nv;uo; quan;ea;rw;jn;rw; ju;qo;uk;cd;uk;	0
+行棋处理	xing;hj,hp;xd,xi;px;ii; qi;wf;mq;eh;mb; chu;jh;wb;hy;wb; li;ag;wl;nd;wl;	0
+胸有全局	xiong;lp,ly;ox;vm;ok; you;sl;ou,uo;nv;uo; quan;ea;rw;jn;rw; ju;qo;uk;cd;uk;	0
 徐健秒	xu;hf;xy;wx;ih; jian;xq;rj;ju;rz; miao;uu;hu;xt;hu;	0
 许银川中残局精华	xu;cs;yw;sn;yw; yin;dh;jg;zi;jg; chuan;up;pa;oc;pl; zhong;op;aa,ka;dg;ll; can;fa;dj;gp;dj; ju;qo;uk;cd;uk; jing;ll;mq;pv;mo; hua;xs;uh;jn;ru;	0
 选机突破	xuan;bq;zx;qu;ze; ji;wi;mj;eo;mj; tu;ib;xq,bq;em;bq; po;tl;up;mr;uy;	0
@@ -2491,14 +2491,14 @@ use_preset_vocabulary: false
 张申宏	zhang;rh;gi;bp;gi; shen;vp;aa,oa;og;ll; hong;ip;bh,bs;wk;bs;	0
 张影富	zhang;rh;gi;bp;gi; ying;vu;pj;oe;op; fu;iw;bf,bt;wq;bt;	0
 照将	zhao;vn;hv;oc;oh; jiang;lk;dc,jc,pc;ak;dc;	0
-赵汝权	zhao;qy;zi;pb;tx; ru;ky;dn;kb;dn; quan;wl;my;er;my;	0
+赵汝权	zhao;qy,gy;zi;pb;tx; ru;ky;dn;kb;dn; quan;wl;my;er;my;	0
 着中有数	zhao;fs;yo;gq;yo; zhong;op;aa,ka;dg;ll; you;sl;ou,uo;nv;uo; shu;lj;wl;ph;mw;	0
 正头车	zheng;dr;av;fs;av; tou;hx;dd;wm;dd; che;tt;aa;yc;al;	0
 郑一泓	zheng;fb;eg;ht;be; yi;dd;aa;fi;aa; hong;kp;dh,ds;kk;ds;	0
 智弈棋评	zhi;ev;ov;oo;uo; yi;ip,iz;cy,wc,yc;zl;wc; qi;wf;mq;eh;mb; ping;cs,cf;yp;sh;yp;	0
 智弈象棋论坛	zhi;ev;ov;oo;uo; yi;ip,iz;cy,wc,yc;zl;wc; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; lun;ca;yl;sj;yb; tan;gp;ty;gb;ts;	0
 中宫炮	zhong;op;aa,ka;dg;ll; gong;io;bl;wd;bk; pao;tt;hb;cv;hs;	0
-中国甘肃通信移动	zhong;op;aa,ka;dg;ll; guo;na,nh;ky;ri;ky; gan;vv;aa,ca;zg;aa,na; su;rf;ad,vd,yd;bh;vd; tong;pq;zy;ku;zy; xin;xo,xc;ry;js;rk; yi;uf;hd;xl;hx; dong;uu;ly,yl;bs;el;	0
+中国甘肃通信移动	zhong;op;aa,ka;dg;ll; guo;na,nh;ky;ri;ky; gan;vv;aa,ca;zg;aa,na; su;rf,sf,rp,sp;ad,vd,yd;bh;vd; tong;pq;zy;ku;zy; xin;xo,xc;ry;js;rk; yi;uf;hd;xl;hx; dong;uu;ly,yl;bs;el;	0
 中国象棋兵法种	zhong;op;aa,ka;dg;ll; guo;na,nh;ky;ri;ky; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; bing;uf;qb;th;qb; fa;kp;dq;kk;ds; zhong;up;hv;xg;hv;	0
 中国象棋教科书	zhong;op;aa,ka;dg;ll; guo;na,nh;ky;ri;ky; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; jiao;gj;wx;qh;lw; ke;uh,us;hd;xj;hu; shu;rh;ad,vd;ai;vd;	0
 中国象棋入门与提高问答	zhong;op;aa,ka;dg;ll; guo;na,nh;ky;ri;ky; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; ru;ee;pd;ju;pn; men;oo;dg;am;dv; yu;dd;aa;ff;aa; ti;je;fu;ut;fr; gao;io;wk;gg;wk; wen;oo;km,mk;ad;mk; da;no;vh;rd;vk;	0
@@ -2543,7 +2543,7 @@ use_preset_vocabulary: false
 中卒	zhong;op;aa,ka;dg;ll; zu;is;wu,uc;zn;wu;	19
 朱琮思	zhu;ee;pw;ta;nn,pw; cong;af;wz;nf;wx; si;wn;tx,xt;qh;tx;	0
 竹香斋	zhu;nn;gg;ru;gg,pl; xiang;uv;ho;xo;ho; zhai;je;we;vl;we;	2
-自来出洞无敌手象棋古谱新编	zi;ss;pa,po;oi;po; lai;uf,ef,dl;am,wb;ah;an; chu;pp;ck,aa;sm;vk; dong;ko;dt;kd;dk; wu;uk;ag,ay,ee;du;ay; di;sj;wu,uw;ah;qw; shou;up;pa,ub;us;pl; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; gu;so;uk;cg;uk; pu;cv;yp;so;yo; xin;bp;jq;it;lj; bian;ej,ed;sb;ii;sc;	0
+自来出洞无敌手象棋古谱新编	zi;ss;pa,po;oi;po; lai;uf,ef,dl;am,wb;ah;an; chu;pp;ck,aa;sm;vk; dong;ko;dt;kd;dk; wu;uk,ur;ag,ay,ee;du;ay; di;sj;wu,uw;ah;qw; shou;up;pa,ub;us;pl; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; gu;so;uk;cg;uk; pu;cv;yp;so;yo; xin;bp;jq;it;lj; bian;ej,ed;sb;ii;sc;	0
 子力价值	zi;aa;aa,vh;hi;va; li;uu;gp;sl;vp; jia;xp;rj;jp;rl; zhi;xd,xu;rv;jf;rq;	38
 阻碍敌军	zu;bu;eq;tf;eq; ai;tk;uc;mk;uc; di;sj;wu,uw;ah;qw; jun;it;bi;wy;bi;	2
 卒林线	zu;is;wu,uc;zn;wu; lin;ww;mm;ee;mm; xian;ea;sj;ip;sj;	3
@@ -2552,10 +2552,10 @@ use_preset_vocabulary: false
 左文静	zuo;sp;gu,ug;nu;ug; wen;jj;wi,dd;vw;wx; jing;ap;qv;ab;fl;	37
 左中炮	zuo;sp;gu,ug;nu;ug; zhong;op;aa,ka;dg;ll; pao;tt;hb;cv;hs;	3
 后车进九	hou;uo;pk;xd;pk; che;tt;aa;yc;al; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
-后车退九	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-后砲退九	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+后车退九	hou;uo;pk;xd;pk; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+后砲退九	hou;uo;pk;xd;pk; pao;;ub;mv;; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
 前车进九	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
-前车退九	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+前车退九	qian;fi;bd,qd;hp;bd; che;tt;aa;yc;al; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
 前砲进九	qian;fi;bd,qd;hp;bd; pao;;ub;mv;; jin;uq;zj;qu;zj; jiu;ur;py;kj;pv;	0
 八平	ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au;	2
 八卒	ba;ff;pd;hb;pn; zu;is;wu,uc;zn;wu;	0
@@ -2607,35 +2607,35 @@ use_preset_vocabulary: false
 缠角马	chan;eg;sl;id;sl; jiao;gp;dy;xt;dy; ma;zz;aa,vh;nm;va;	0
 车八进	che;tt;aa;yc;al; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj;	0
 车八平	che;tt;aa;yc;al; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au;	0
-车八退	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg;	0
+车八退	che;tt;aa;yc;al; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg;	0
 车二进	che;tt;aa;yc;al; er;uu;aa;me;aa; jin;uq;zj;qu;zj;	0
 车二平	che;tt;aa;yc;al; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au;	0
-车二退	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq;zg;iu;zg;	0
+车二退	che;tt;aa;yc;al; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg;	0
 车九进	che;tt;aa;yc;al; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj;	0
 车九平	che;tt;aa;yc;al; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au;	0
-车九退	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg;	0
+车九退	che;tt;aa;yc;al; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg;	0
 车控	che;tt;aa;yc;al; kong;jp;fk;uu;fg;	14
 车六进	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj;	0
 车六平	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au;	0
-车六退	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg;	0
+车六退	che;tt;aa;yc;al; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg;	0
 车每一着	che;tt;aa;yc;al; mei;eh;pm,rm;ek;pm; yi;dd;aa;fi;aa; zhao;fs;yo;gq;yo;	0
 撤炮	che;jj;fw;uh;fw; pao;tt;hb;cv;hs;	0
 车七进	che;tt;aa;yc;al; qi;aa;ag;rq;av; jin;uq;zj;qu;zj;	0
 车七平	che;tt;aa;yc;al; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au;	0
-车七退	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq;zg;iu;zg;	0
+车七退	che;tt;aa;yc;al; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg;	0
 车三进	che;tt;aa;yc;al; san;uu;aa;ts;ae; jin;uq;zj;qu;zj;	0
 车三平	che;tt;aa;yc;al; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au;	0
-车三退	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq;zg;iu;zg;	0
+车三退	che;tt;aa;yc;al; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg;	0
 车四进	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj;	0
 车四平	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au;	0
-车四退	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg;	0
+车四退	che;tt;aa;yc;al; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg;	0
 车五进	che;tt;aa;yc;al; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj;	0
 车五平	che;tt;aa;yc;al; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au;	0
-车五退	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg;	0
+车五退	che;tt;aa;yc;al; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg;	0
 车心马角	che;tt;aa;yc;al; xin;nn;dd;hx;dd; ma;zz;aa,vh;nm;va; jiao;gp;dy;xt;dy;	0
 车一进	che;tt;aa;yc;al; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj;	0
 车一平	che;tt;aa;yc;al; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au;	0
-车一退	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg;	0
+车一退	che;tt;aa;yc;al; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg;	0
 沉底月	chen;ki;dj,dr;ko;dj; di;rh;gd;xi;gd; yue;ll;oy,pa,yt;vy;ka;	1
 陈寒峰	chen;bf;ed;ty;ed; han;ih;bd;ww;bd; feng;pa;uf;va;ef;	0
 程吉俊	cheng;ua;hi;xn;hw; ji;go;ku,uk;gd;uk; jun;xj;rj,rw;jh;rw;	0
@@ -2648,7 +2648,7 @@ use_preset_vocabulary: false
 抽将	chou;jp;fy;ud;fy; jiang;lk;dc,jc,pc;ak;dc;	0
 出帅	chu;pp;ck,aa;sm;vk; shuai;py;aj,dj,jd;pr;lj;	2
 除帅	chu;bf;ey;tx;eh; shuai;py;aj,dj,jd;pr;lj;	0
-出现循环反复	chu;pp;ck,aa;sm;vk; xian;ak;wj;ne;we; xun;hs;xd;wq;io; huan;ah;wb;nc;wb; fan;ul;py;xr;py; fu;ej;pw,rw,wo;eh;pw;	0
+出现循环反复	chu;pp;ck,aa;sm;vk; xian;ak,ar;wj;ne;we; xun;hs;xd;wq;io; huan;ah;wb;nc;wb; fan;ul;py;xr;py; fu;ej;pw,rw,wo;eh;pw;	0
 此局由于	ci;ra;vb;sv;vb; ju;qo;uk;cd;uk; you;vp;aa,ao;dy;la; yu;ss;aa;fn;al;	0
 此象	ci;ra;vb;sv;vb; xiang;gh;du,pd,ua;wx;dn;	1
 此着	ci;ra;vb;sv;vb; zhao;fs;yo;gq;yo;	4
@@ -2663,7 +2663,7 @@ use_preset_vocabulary: false
 但黑有	dan;xd;rd;jf;ra; hei;nn;ad,ha;ph;lh; you;sl;ou,uo;nv;uo;	0
 单缺相胜	dan;fs;ba,bd;hn;bl; que;ex,ee;fd,fg;aj;fg; xiang;ws;mo;eq;mo; sheng;la,lg;ou;vl;ou;	0
 当田字中心	dang;hs;xx;yb;xe; tian;ww;aa;qt;ku; zi;ia;bz;wh;bz; zhong;op;aa,ka;dg;ll; xin;nn;dd;hx;dd;	0
-的规定时	de;sh;bu;ui;bu; gui;ek;fj,jf;he;fe; ding;ie;bp;wt;br; shi;vk;oc;ok;oc;	0
+的规定时	de;sh;bu;ui;bu; gui;ek,er;fj,jf;he;fe; ding;ie;bp;wt;br; shi;vk;oc;ok;oc;	0
 得仕	de;hk;xc;wk;ic; shi;xg;ru;jg;ru;	1
 得子得先各得子	de;hk;xc;wk;ic; zi;aa;aa,vh;hi;va; dei;hk;xc;wk;ic; xian;bk;ne,en;qp;ne; ge;jo;wk;sg;wk; de;hk;xc;wk;ic; zi;aa;aa,vh;hi;va;	0
 底炮	di;rh;gd;xi;gd; pao;tt;hb;cv;hs;	3
@@ -2689,7 +2689,7 @@ use_preset_vocabulary: false
 二车	er;uu;aa;me;aa; che;tt;aa;yc;al;	3
 二打一还打	er;uu;aa;me;aa; da;jj;fd;ua;fd; yi;dd;aa;fi;aa; hai;dq;zb;cu;zb; da;jj;fd;ua;fd;	0
 而径走	er;ee;aa;le;al; jing;hp;xg;wu;ig; zou;qq,ge;tv;pz;tr;	0
-二退	er;uu;aa;me;aa; tui;sq;zg;iu;zg;	36
+二退	er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg;	36
 而占领叉点	er;ee;aa;le;al; zhan;po;bk;yd;lk; ling;em;yl;jw;rr; cha;lh;dy,yd;ri;yd; dian;pn;hv;yc;lh;	0
 二卒	er;uu;aa;me;aa; zu;is;wu,uc;zn;wu;	0
 反先	fan;ul;py;xr;py; xian;bk;ne,en;qp;ne;	9
@@ -2697,12 +2697,12 @@ use_preset_vocabulary: false
 方的攻势	fang;ff;dg,wd,dp,dw;lf;dw; de;sh;bu;ui;bu; gong;pj;gw,wg;uh;gw; shi;ju;lv;us;fl;	3
 方多	fang;ff;dg,wd,dp,dw;lf;dw; duo;ff;xx;ll;xx;	0
 方可按动	fang;ff;dg,wd,dp,dw;lf;dw; ke;jj;dk;zk;dk; an;jy;fa;ub;fn; dong;uu;ly,yl;bs;el;	0
-方欠行认负	fang;ff;dg,wd,dp,dw;lf;dw; qian;ge;dr;eq;dr; xing;hj;xd,xi;px;ii; ren;ce;yr;sj;yr; fu;gm;db;xo;dr;	0
+方欠行认负	fang;ff;dg,wd,dp,dw;lf;dw; qian;ge;dr;eq;dr; xing;hj,hp;xd,xi;px;ii; ren;ce;yr;sj;yr; fu;gm;db;xo;dr;	0
 方认负	fang;ff;dg,wd,dp,dw;lf;dw; ren;ce;yr;sj;yr; fu;gm;db;xo;dr;	0
 方胜定	fang;ff;dg,wd,dp,dw;lf;dw; sheng;la,lg;ou;vl;ou; ding;ie;bp;wt;br;	1
-方实现了	fang;ff;dg,wd,dp,dw;lf;dw; shi;ix;bt;wm;bd; xian;ak;wj;ne;we; le;rp;aa,vu;rl;vl;	1
+方实现了	fang;ff;dg,wd,dp,dw;lf;dw; shi;ix;bt;wm;bd; xian;ak,ar;wj;ne;we; le;rp;aa,vu;rl;vl;	1
 方士象残缺	fang;ff;dg,wd,dp,dw;lf;dw; shi;gg;aa;gs;ua; xiang;gh;du,pd,ua;wx;dn; can;fa;dj;gp;dj; que;ex,ee;fd,fg;aj;fg;	0
-方无直	fang;ff;dg,wd,dp,dw;lf;dw; wu;uk;ag,ay,ee;du;ay; zhi;sd,su;aa,uq;nf;uq;	0
+方无直	fang;ff;dg,wd,dp,dw;lf;dw; wu;uk,ur;ag,ay,ee;du;ay; zhi;sd,su;aa,uq;nf;uq;	0
 方终以	fang;ff;dg,wd,dp,dw;lf;dw; zhong;eh;sd;iw;sd; yi;re;rd,ry;vj;vr;	0
 飞错了马	fei;rh;yd;cf;vd; cuo;dv;jx;zo;jo; le;rp;aa,vu;rl;vl; ma;zz;aa,vh;nm;va;	0
 飞高象	fei;rh;yd;cf;vd; gao;io;wk;gg;wk; xiang;gh;du,pd,ua;wx;dn;	0
@@ -2725,7 +2725,7 @@ use_preset_vocabulary: false
 共有九十个交叉点	gong;zf;bc,cb;lh;cb; you;sl;ou,uo;nv;uo; jiu;ur;py;kj;pv; shi;ss;aa;ns;al; ge;ep;ra,pa;jg;rl; jiao;iy;li,wf,df;ab;wx; cha;lh;dy,yd;ri;yd; dian;pn;hv;yc;lh;	0
 挂盘讲解	gua;jg;fg;ug;ft; pan;td,ta;mv,vm;ia;vm; jiang;cp;yj;sq;yj; jie;gb;jn;xq;dn;	0
 寡士怯双车	gua;ii,iu;bf;wp;bd; shi;gg;aa;gs;ua; qie;np;xq;hk;xs; shuang;ll;yy;rr;yy; che;tt;aa;yc;al;	0
-观秤	guan;lk;jy,yj;re;ye; cheng;uf,us;hp;xh;hp;	0
+观秤	guan;lk,lr;jy,yj;re;ye; cheng;uf,us;hp;xh;hp;	0
 官和	guan;id;bg,bk;wk;bk; he;uo;hk;xd;hk;	0
 广东惠州华轩象棋队	guang;rr;dp;xg;di,wp; dong;df,af;ad,qx;ry;ad; hui;dn;xh,hx;nh;ax; zhou;hp;id,da;oo;dl; hua;xs;uh;jn;ru; xuan;ts;ig;ye;ig; xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; dui;be;er;tj;er;	0
 广东吕钦	guang;rr;dp;xg;di,wp; dong;df,af;ad,qx;ry;ad; lv;oo;kk;dd;kk; qin;de;jq;ze;jr;	0
@@ -2736,19 +2736,19 @@ use_preset_vocabulary: false
 和十道横线	he;uo;hk;xd;hk; shi;ss;aa;ns;al; dao;fq;zu;hu;zz; heng;wf;mh;en;mb; xian;ea;sj;ip;sj;	0
 河头马	he;kj;dk;kz;dk; tou;hx;dd;wm;dd; ma;zz;aa,vh;nm;va;	0
 黑必胜	hei;nn;ad,ha;ph;lh; bi;nu;dd,xp;ht;dd; sheng;la,lg;ou;vl;ou;	20
-黑冲卒无奈	hei;nn;ad,ha;ph;lh; chong;fp;dv;wg;dv; zu;is;wu,uc;zn;wu; wu;uk;ag,ay,ee;du;ay; nai;xf;du;mf;dx;	0
+黑冲卒无奈	hei;nn;ad,ha;ph;lh; chong;fp;dv;wg;dv; zu;is;wu,uc;zn;wu; wu;uk,ur;ag,ay,ee;du;ay; nai;xf;du;mf;dx;	0
 黑出将	hei;nn;ad,ha;ph;lh; chu;pp;ck,aa;sm;vk; jiang;lk;dc,jc,pc;ak;dc;	0
 黑方必须	hei;nn;ad,ha;ph;lh; fang;ff;dg,wd,dp,dw;lf;dw; bi;nu;dd,xp;ht;dd; xu;um;py,yp;ew;pr;	0
 黑方只有	hei;nn;ad,ha;ph;lh; fang;ff;dg,wd,dp,dw;lf;dw; zhi;of;kb;dh;kb; you;sl;ou,uo;nv;uo;	1
 黑两组	hei;nn;ad,ha;ph;lh; liang;de;ad;ml;ad; zu;eu;sq;if;sq;	0
-黑马紧贴红马而行	hei;nn;ad,ha;ph;lh; ma;zz;aa,vh;nm;va; jin;pf;sy;pi;lx; tie;mo;bv;od;kk; hong;ep;sg;iu;sg; ma;zz;aa,vh;nm;va; er;ee;aa;le;al; xing;hj;xd,xi;px;ii;	0
+黑马紧贴红马而行	hei;nn;ad,ha;ph;lh; ma;zz;aa,vh;nm;va; jin;pf;sy;pi;lx; tie;mo;bv;od;kk; hong;ep;sg;iu;sg; ma;zz;aa,vh;nm;va; er;ee;aa;le;al; xing;hj,hp;xd,xi;px;ii;	0
 黑炮	hei;nn;ad,ha;ph;lh; pao;tt;hb;cv;hs;	64
 黑如	hei;nn;ad,ha;ph;lh; ru;yo;nk;bd;nk;	2
 黑如改走	hei;nn;ad,ha;ph;lh; ru;yo;nk;bd;nk; gai;tj;wj,jw;vh;jw; zou;qq,ge;tv;pz;tr;	0
 黑若	hei;nn;ad,ha;ph;lh; ruo;zo;cy;ld;ck;	0
 黑胜定	hei;nn;ad,ha;ph;lh; sheng;la,lg;ou;vl;ou; ding;ie;bp;wt;br;	0
 黑也	hei;nn;ad,ha;ph;lh; ye;rr;gg;ey;vv;	0
-黑亦	hei;nn;ad,ha;ph;lh; yi;ii,if;wb,wy,dd;zc;wd;	1
+黑亦	hei;nn;ad,ha;ph;lh; yi;ih,ii,if;wb,wy,dd;zc;wd;	1
 横车	heng;wf;mh;en;mb; che;tt;aa;yc;al;	31
 横走	heng;wf;mh;en;mb; zou;qq,ge;tv;pz;tr;	55
 横走都可以	heng;wf;mh;en;mb; zou;qq,ge;tv;pz;tr; dou;gb;ev;qt;le; ke;jj;dk;zk;dk; yi;re;rd,ry;vj;vr;	0
@@ -2766,7 +2766,7 @@ use_preset_vocabulary: false
 后中先	hou;uo;pk;xd;pk; zhong;op;aa,ka;dg;ll; xian;bk;ne,en;qp;ne;	2
 后卒进一	hou;uo;pk;xd;pk; zu;is;wu,uc;zn;wu; jin;uq;zj;qu;zj; yi;dd;aa;fi;aa;	0
 后卒平四	hou;uo;pk;xd;pk; zu;is;wu,uc;zn;wu; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke;	0
-湖北队主帅	hu;kl;dh;kv;do; bei;la;ap,bj;av;lb; dui;be;er;tj;er; zhu;ig;dw;in;dw; shuai;py;aj,dj,jd;pr;lj;	0
+湖北队主帅	hu;kl;dh;kv;do; bei;la;ap,bj;av;lb; dui;be;er;tj;er; zhu;ig,ha;dw;in;dw; shuai;py;aj,dj,jd;pr;lj;	0
 湖北宏宇队	hu;kl;dh;kv;do; bei;la;ap,bj;av;lb; hong;ip;bh,bs;wk;bs; yu;is;by;wn;by; dui;be;er;tj;er;	0
 湖北柳大华	hu;kl;dh;kv;do; bei;la;ap,bj;av;lb; liu;wb;mm;eb;me; da;xx;ad;md;un; hua;xs;uh;jn;ru;	0
 护双卒	hu;jq;fh;um;fh; shuang;ll;yy;rr;yy; zu;is;wu,uc;zn;wu;	0
@@ -2779,10 +2779,10 @@ use_preset_vocabulary: false
 回合时的	hui;no;kk;rd;kk; he;eo;rk;jd;rk; shi;vk;oc;ok;oc; de;sh;bu;ui;bu;	1
 惠州华轩杯	hui;dn;xh,hx;nh;ax; zhou;hp;id,da;oo;dl; hua;xs;uh;jn;ru; xuan;ts;ig;ye;ig; bei;wh;mb;ec;mb;	0
 或一横	huo;ad,ha;gk;pf;ga; yi;dd;aa;fi;aa; heng;wf;mh;en;mb;	1
-或主动送吃	huo;ad,ha;gk;pf;ga; zhu;ig;dw;in;dw; dong;uu;ly,yl;bs;el; song;fq;zg;hu;zt; chi;or;kq;da;kq;	0
+或主动送吃	huo;ad,ha;gk;pf;ga; zhu;ig,ha;dw;in;dw; dong;uu;ly,yl;bs;el; song;fq;zg;hu;zt; chi;or;kq;da;kq;	0
 或走成和棋为止	huo;ad,ha;gk;pf;ga; zou;qq,ge;tv;pz;tr; cheng;rh;gg,wg;na;wv; he;uo;hk;xd;hk; qi;wf;mq;eh;mb; wei;hh,uu;dd;ii;dd; zhi;rr;aa;si;la;	0
-及结局图棋局	ji;uh;nd,pd;cj;pn; jie;eo;sj;id;sk; ju;qo;uk;cd;uk; tu;nh;kd;rw;kd; qi;wf;mq;eh;mb; ju;qo;uk;cd;uk;	0
-即使黑马	ji;sb;eg,ge;iz;ge; shi;xy;rl;jb;rl; hei;nn;ad,ha;ph;lh; ma;zz;aa,vh;nm;va;	0
+及结局图棋局	ji;uh,rh;nd,pd;cj;pn; jie;eo;sj;id;sk; ju;qo;uk;cd;uk; tu;nh;kd;rw;kd; qi;wf;mq;eh;mb; ju;qo;uk;cd;uk;	0
+即使黑马	ji;sb,rb;eg,ge;iz;ge; shi;xy;rl;jb;rl; hei;nn;ad,ha;ph;lh; ma;zz;aa,vh;nm;va;	0
 计时钟	ji;cs;yu;sn;yu; shi;vk;oc;ok;oc; zhong;dp;jv;zg;jv;	15
 将帅捕杀	jiang;lk;dc,jc,pc;ak;dc; shuai;py;aj,dj,jd;pr;lj; bu;jh;ff;un;ff; sha;yf;mi,im;be;xm;	0
 交叉组成	jiao;iy;li,wf,df;ab;wx; cha;lh;dy,yd;ri;yd; zu;eu;sq;if;sq; cheng;rh;gg,wg;na;wv;	2
@@ -2814,7 +2814,7 @@ use_preset_vocabulary: false
 均在马蹄之下	jun;gf;ty;gw;td; zai;sg;ta,ut;ng;ut; ma;zz;aa,vh;nm;va; ti;gy;zd;pr;zj; zhi;hh;dd;ri;dn; xia;dh;ab,ad;fy;ab;	0
 可打死红兵	ke;jj;dk;zk;dk; da;jj;fd;ua;fd; si;ff;db;gv;db; hong;ep;sg;iu;sg; bing;uf;qb;th;qb;	0
 客队身份	ke;io;bg;ws;bk; dui;be;er;tj;er; shen;uu;pp;zs;pp; fen;xi,xu;rf;jp;rd;	2
-可见黑第	ke;jj;dk;zk;dk; jian;pk;ag,ek,ke;ej;ke; hei;nn;ad,ha;ph;lh; di;nu;vp;rt;vp;	0
+可见黑第	ke;jj;dk;zk;dk; jian;pk,pr;ag,ek,ke;ej;ke; hei;nn;ad,ha;ph;lh; di;nu;vp;rt;vp;	0
 可以直进	ke;jj;dk;zk;dk; yi;re;rd,ry;vj;vr; zhi;sd,su;aa,uq;nf;uq; jin;uq;zj;qu;zj;	0
 控局	kong;jp;fk;uu;fg; ju;qo;uk;cd;uk;	20
 控局得胜	kong;jp;fk;uu;fg; ju;qo;uk;cd;uk; de;hk;xc;wk;ic; sheng;la,lg;ou;vl;ou;	0
@@ -2822,7 +2822,7 @@ use_preset_vocabulary: false
 空心炮	kong;ip;xg,bg;eu;bg; xin;nn;dd;hx;dd; pao;tt;hb;cv;hs;	0
 困法	kun;nw;km;re;km; fa;kp;dq;kk;ds;	0
 拦炮	lan;ju;fl;ut;fs; pao;tt;hb;cv;hs;	0
-老兵建功	lao;ga;bl,lb;ql;lb; bing;uf;qb;th;qb; jian;rq;zy;bu;zy; gong;pu;gl,lg;us;gl;	0
+老兵建功	lao;ga;bl,lb;ql;lb; bing;uf;qb;th;qb; jian;rq,sq;zy;bu;zy; gong;pu;gl,lg;us;gl;	0
 勒车马	le;vu;lg,gl;ts;gl; che;tt;aa;yc;al; ma;zz;aa,vh;nm;va;	0
 李智屏	li;wa;mz;eh;mz; zhi;ev;ov;oo;uo; ping;qp,qz;ub;cl;uk;	0
 连环炮	lian;tq;zi;yu;zi; huan;ah;wb;nc;wb; pao;tt;hb;cv;hs;	7
@@ -2832,7 +2832,7 @@ use_preset_vocabulary: false
 另一方必须回避	ling;ou;kl;ds;kl; yi;dd;aa;fi;aa; fang;ff;dg,wd,dp,dw;lf;dw; bi;nu;dd,xp;ht;dd; xu;um;py,yp;ew;pr; hui;no;kk;rd;kk; bi;qq;zb,zx;cu;zu;	0
 另一方已	ling;ou;kl;ds;kl; yi;dd;aa;fi;aa; fang;ff;dg,wd,dp,dw;lf;dw; yi;tt;vg,ag;vi;vv;	0
 六士	liu;if;wb,dd,db;al;wb; shi;gg;aa;gs;ua;	1
-六十回合规则	liu;if;wb,dd,db;al;wb; shi;ss;aa;ns;al; hui;no;kk;rd;kk; he;eo;rk;jd;rk; gui;ek;fj,jf;he;fe; ze;mi;bd,db;op;kd;	0
+六十回合规则	liu;if;wb,dd,db;al;wb; shi;ss;aa;ns;al; hui;no;kk;rd;kk; he;eo;rk;jd;rk; gui;ek,er;fj,jf;he;fe; ze;mi;bd,db;op;kd;	0
 路边卒	lu;go;zg;ps;zk; bian;uq;zl;su;zl; zu;is;wu,uc;zn;wu;	0
 路车	lu;go;zg;ps;zk; che;tt;aa;yc;al;	66
 路河头	lu;go;zg;ps;zk; he;kj;dk;kz;dk; tou;hx;dd;wm;dd;	0
@@ -2863,7 +2863,7 @@ use_preset_vocabulary: false
 马五	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa;	14
 马五进六车	ma;zz;aa,vh;nm;va; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; liu;if;wb,dd,db;al;wb; che;tt;aa;yc;al;	0
 马象牵	ma;zz;aa,vh;nm;va; xiang;gh;du,pd,ua;wx;dn; qian;xb;nb,dn;mq;dn;	0
-马亦难逃遁	ma;zz;aa,vh;nm;va; yi;ii,if;wb,wy,dd;zc;wd; nan;la;yv;ru;yf; tao;kq,uq;zv;pu;zd; dun;uq;zd;xu;zo;	0
+马亦难逃遁	ma;zz;aa,vh;nm;va; yi;ih,ii,if;wb,wy,dd;zc;wd; nan;la;yv;ru;yf; tao;kq,uq,fq;zv;pu;zd; dun;uq;zd;xu;zo;	0
 马走日字	ma;zz;aa,vh;nm;va; zou;qq,ge;tv;pz;tr; ri;vv;aa,or,ri;or;ka; zi;ia;bz;wh;bz;	0
 马卒	ma;zz;aa,vh;nm;va; zu;is;wu,uc;zn;wu;	1
 每一着	mei;eh;pm,rm;ek;pm; yi;dd;aa;fi;aa; zhao;fs;yo;gq;yo;	0
@@ -2891,42 +2891,42 @@ use_preset_vocabulary: false
 炮八	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn;	0
 炮八进	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; jin;uq;zj;qu;zj;	0
 炮八平	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; ping;ds,sf;aa,gb;eh;au;	0
-炮八退	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq;zg;iu;zg;	0
+炮八退	pao;tt;hb;cv;hs; ba;ff;pd;hb;pn; tui;sq,rq;zg;iu;zg;	0
 炮打隔子	pao;tt;hb;cv;hs; da;jj;fd;ua;fd; ge;bp;eg;tn;el; zi;aa;aa,vh;hi;va;	0
 炮二	pao;tt;hb;cv;hs; er;uu;aa;me;aa;	1
 炮二进	pao;tt;hb;cv;hs; er;uu;aa;me;aa; jin;uq;zj;qu;zj;	0
 跑二平	pao;gt;zb;pv;zs; er;uu;aa;me;aa; ping;ds,sf;aa,gb;eh;au;	1
-炮二退	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq;zg;iu;zg;	0
+炮二退	pao;tt;hb;cv;hs; er;uu;aa;me;aa; tui;sq,rq;zg;iu;zg;	0
 炮管制	pao;tt;hb;cv;hs; guan;nd;vg;rk;vk; zhi;bi;dg,dv;qp;pd;	0
 炮九	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv;	0
 炮九进	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; jin;uq;zj;qu;zj;	0
 炮九平	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; ping;ds,sf;aa,gb;eh;au;	0
-炮九退	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq;zg;iu;zg;	0
+炮九退	pao;tt;hb;cv;hs; jiu;ur;py;kj;pv; tui;sq,rq;zg;iu;zg;	0
 炮六	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb;	0
 炮六进	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj;	0
 炮六平	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au;	0
-炮六退	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg;	0
+炮六退	pao;tt;hb;cv;hs; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg;	0
 炮七	pao;tt;hb;cv;hs; qi;aa;ag;rq;av;	0
 炮七进	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; jin;uq;zj;qu;zj;	0
 炮七平	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au;	0
 炮七平四将	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke; jiang;lk;dc,jc,pc;ak;dc;	0
-炮七退	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq;zg;iu;zg;	0
+炮七退	pao;tt;hb;cv;hs; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg;	0
 炮三	pao;tt;hb;cv;hs; san;uu;aa;ts;ae;	18
 炮三进	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; jin;uq;zj;qu;zj;	0
 炮三平	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; ping;ds,sf;aa,gb;eh;au;	0
-炮三退	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq;zg;iu;zg;	0
+炮三退	pao;tt;hb;cv;hs; san;uu;aa;ts;ae; tui;sq,rq;zg;iu;zg;	0
 炮四	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke;	1
 炮四进	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj;	0
 炮四平	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au;	0
-炮四退	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg;	0
+炮四退	pao;tt;hb;cv;hs; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg;	0
 炮五	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa;	0
 炮五进	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj;	0
 炮五平	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au;	0
-炮五退	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg;	0
+炮五退	pao;tt;hb;cv;hs; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg;	0
 炮一	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa;	14
 炮一进	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; jin;uq;zj;qu;zj;	1
 炮一平	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; ping;ds,sf;aa,gb;eh;au;	0
-炮一退	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq;zg;iu;zg;	0
+炮一退	pao;tt;hb;cv;hs; yi;dd;aa;fi;aa; tui;sq,rq;zg;iu;zg;	0
 炮镇中路	pao;tt;hb;cv;hs; zhen;df;jv;zh;jb; zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk;	0
 炮卒	pao;tt;hb;cv;hs; zu;is;wu,uc;zn;wu;	2
 偏马局	pian;xj,xd;rb;ji;rc; ma;zz;aa,vh;nm;va; ju;qo;uk;cd;uk;	0
@@ -2979,7 +2979,7 @@ use_preset_vocabulary: false
 如黑	ru;yo;nk;bd;nk; hei;nn;ad,ha;ph;lh;	3
 如急于走	ru;yo;nk;bd;nk; ji;gn;xi,xx;xh;dx; yu;ss;aa;fn;al; zou;qq,ge;tv;pz;tr;	0
 如一方	ru;yo;nk;bd;nk; yi;dd;aa;fi;aa; fang;ff;dg,wd,dp,dw;lf;dw;	0
-软硬炮	ruan;te;iq;ye;ir; ying;ty;ug;mb;ug; pao;tt;hb;cv;hs;	0
+软硬炮	ruan;te;iq;ye;ir; ying;ty,th;ug;mb;ug; pao;tt;hb;cv;hs;	0
 赛吉林	sai;im;bb;wo;br; ji;go;ku,uk;gd;uk; lin;ww;mm;ee;mm;	0
 塞相眼	sai;ig;tb,bt;wg;bt; xiang;ws;mo;eq;mo; yan;sh;og;qi;og;	0
 三步虎	san;uu;aa;ts;ae; bu;ru;vx;ss;vp; hu;pi;hj;zh;hj;	5
@@ -3000,16 +3000,16 @@ use_preset_vocabulary: false
 士各两个	shi;gg;aa;gs;ua; ge;jo;wk;sg;wk; liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl;	0
 士六	shi;gg;aa;gs;ua; liu;if;wb,dd,db;al;wb;	1
 仕六进五车	shi;xg;ru;jg;ru; liu;if;wb,dd,db;al;wb; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa; che;tt;aa;yc;al;	0
-仕六退五车	shi;xg;ru;jg;ru; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa; che;tt;aa;yc;al;	0
-仕六退五卒	shi;xg;ru;jg;ru; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa; zu;is;wu,uc;zn;wu;	0
+仕六退五车	shi;xg;ru;jg;ru; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa; che;tt;aa;yc;al;	0
+仕六退五卒	shi;xg;ru;jg;ru; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa; zu;is;wu,uc;zn;wu;	0
 实乃讹诈	shi;ix;bt;wm;bd; nai;ru;pg,gp;vn;vp; e;ca;yh;sv;yb; zha;cu;yv;sw;yv;	0
 士四	shi;gg;aa;gs;ua; si;nk;aa,ke;ys;ke;	2
 仕四进五车	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa; che;tt;aa;yc;al;	0
 仕四进五将	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa; jiang;lk;dc,jc,pc;ak;dc;	0
 仕四进五炮	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; jin;uq;zj;qu;zj; wu;gg;aa;wu;aa; pao;tt;hb;cv;hs;	0
-仕四退五车	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa; che;tt;aa;yc;al;	0
-仕四退五士	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa; shi;gg;aa;gs;ua;	0
-仕四退五卒	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; tui;sq;zg;iu;zg; wu;gg;aa;wu;aa; zu;is;wu,uc;zn;wu;	0
+仕四退五车	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa; che;tt;aa;yc;al;	0
+仕四退五士	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa; shi;gg;aa;gs;ua;	0
+仕四退五卒	shi;xg;ru;jg;ru; si;nk;aa,ke;ys;ke; tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa; zu;is;wu,uc;zn;wu;	0
 士五	shi;gg;aa;gs;ua; wu;gg;aa;wu;aa;	4
 仕五进六车	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; liu;if;wb,dd,db;al;wb; che;tt;aa;yc;al;	0
 仕五进六马	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; liu;if;wb,dd,db;al;wb; ma;zz;aa,vh;nm;va;	0
@@ -3017,9 +3017,9 @@ use_preset_vocabulary: false
 仕五进六士	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; liu;if;wb,dd,db;al;wb; shi;gg;aa;gs;ua;	0
 仕五进六卒	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; liu;if;wb,dd,db;al;wb; zu;is;wu,uc;zn;wu;	0
 仕五进四炮	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; si;nk;aa,ke;ys;ke; pao;tt;hb;cv;hs;	0
-仕五退四车	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke; che;tt;aa;yc;al;	0
-仕五退四炮	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke; pao;tt;hb;cv;hs;	0
-仕五退四士	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke; shi;gg;aa;gs;ua;	0
+仕五退四车	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke; che;tt;aa;yc;al;	0
+仕五退四炮	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke; pao;tt;hb;cv;hs;	0
+仕五退四士	shi;xg;ru;jg;ru; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke; shi;gg;aa;gs;ua;	0
 仕相	shi;xg;ru;jg;ru; xiang;ws;mo;eq;mo;	7
 士象	shi;gg;aa;gs;ua; xiang;gh;du,pd,ua;wx;dn;	86
 仕相全	shi;xg;ru;jg;ru; xiang;ws;mo;eq;mo; quan;ea;rw;jn;rw;	0
@@ -3035,8 +3035,8 @@ use_preset_vocabulary: false
 帅六平五士	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa; shi;gg;aa;gs;ua;	0
 帅六平五象	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa; xiang;gh;du,pd,ua;wx;dn;	0
 帅六平五卒	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa; zu;is;wu,uc;zn;wu;	0
-帅六退一车	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa; che;tt;aa;yc;al;	0
-帅六退一马	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa; ma;zz;aa,vh;nm;va;	0
+帅六退一车	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa; che;tt;aa;yc;al;	0
+帅六退一马	shuai;py;aj,dj,jd;pr;lj; liu;if;wb,dd,db;al;wb; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa; ma;zz;aa,vh;nm;va;	0
 帅每一着	shuai;py;aj,dj,jd;pr;lj; mei;eh;pm,rm;ek;pm; yi;dd;aa;fi;aa; zhao;fs;yo;gq;yo;	0
 帅四	shuai;py;aj,dj,jd;pr;lj; si;nk;aa,ke;ys;ke;	0
 帅四平五车	shuai;py;aj,dj,jd;pr;lj; si;nk;aa,ke;ys;ke; ping;ds,sf;aa,gb;eh;au; wu;gg;aa;wu;aa; che;tt;aa;yc;al;	0
@@ -3057,12 +3057,12 @@ use_preset_vocabulary: false
 帅五平四车	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke; che;tt;aa;yc;al;	0
 帅五平四马	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke; ma;zz;aa,vh;nm;va;	0
 帅五平四炮	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; ping;ds,sf;aa,gb;eh;au; si;nk;aa,ke;ys;ke; pao;tt;hb;cv;hs;	0
-帅五退一车	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa; che;tt;aa;yc;al;	0
-帅五退一马	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa; ma;zz;aa,vh;nm;va;	0
-帅五退一炮	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; yi;dd;aa;fi;aa; pao;tt;hb;cv;hs;	0
+帅五退一车	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa; che;tt;aa;yc;al;	0
+帅五退一马	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa; ma;zz;aa,vh;nm;va;	0
+帅五退一炮	shuai;py;aj,dj,jd;pr;lj; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa; pao;tt;hb;cv;hs;	0
 双兵	shuang;ll;yy;rr;yy; bing;uf;qb;th;qb;	14
 双方各走了一着	shuang;ll;yy;rr;yy; fang;ff;dg,wd,dp,dw;lf;dw; ge;jo;wk;sg;wk; zou;qq,ge;tv;pz;tr; liao;rp;aa,vu;rl;vl; yi;dd;aa;fi;aa; zhao;fs;yo;gq;yo;	0
-双方均无	shuang;ll;yy;rr;yy; fang;ff;dg,wd,dp,dw;lf;dw; jun;gf;ty;gw;td; wu;uk;ag,ay,ee;du;ay;	23
+双方均无	shuang;ll;yy;rr;yy; fang;ff;dg,wd,dp,dw;lf;dw; jun;gf;ty;gw;td; wu;uk,ur;ag,ay,ee;du;ay;	23
 双方轮流各走一着	shuang;ll;yy;rr;yy; fang;ff;dg,wd,dp,dw;lf;dw; lun;ta;il;yj;ib; liu;kr;di;ko;dv; ge;jo;wk;sg;wk; zou;qq,ge;tv;pz;tr; yi;dd;aa;fi;aa; zhao;fs;yo;gq;yo;	1
 双方排阵	shuang;ll;yy;rr;yy; fang;ff;dg,wd,dp,dw;lf;dw; pai;ju,jp;ff;ur;ff; zhen;bt;ei;ty;ei;	0
 双方走棋	shuang;ll;yy;rr;yy; fang;ff;dg,wd,dp,dw;lf;dw; zou;qq,ge;tv;pz;tr; qi;wf;mq;eh;mb;	1
@@ -3087,21 +3087,21 @@ use_preset_vocabulary: false
 同对方将	tong;oo;kk;md;kk; dui;lk;cy,yc;rk;yc; fang;ff;dg,wd,dp,dw;lf;dw; jiang;lk;dc,jc,pc;ak;dc;	0
 同时己方其它棋子	tong;oo;kk;md;kk; shi;vk;oc;ok;oc; ji;tt;ag,vg;vj;vv; fang;ff;dg,wd,dp,dw;lf;dw; qi;vf;ba,ad,hb;zh;qb; ta;ia;bb;wv;bb; qi;wf;mq;eh;mb; zi;aa;aa,vh;hi;va;	0
 投子认负	tou;jl;fu;ur;fy; zi;aa;aa,vh;hi;va; ren;ce;yr;sj;yr; fu;gm;db;xo;dr;	13
-退八	tui;sq;zg;iu;zg; ba;ff;pd;hb;pn;	1
-退二	tui;sq;zg;iu;zg; er;uu;aa;me;aa;	12
-退九	tui;sq;zg;iu;zg; jiu;ur;py;kj;pv;	0
-退六	tui;sq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	1
-退马反击	tui;sq;zg;iu;zg; ma;zz;aa,vh;nm;va; fan;ul;py;xr;py; ji;up;aa,eu,fk;um;ak;	0
-退炮	tui;sq;zg;iu;zg; pao;tt;hb;cv;hs;	20
-退七	tui;sq;zg;iu;zg; qi;aa;ag;rq;av;	1
-退三	tui;sq;zg;iu;zg; san;uu;aa;ts;ae;	4
-退四	tui;sq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
-退五	tui;sq;zg;iu;zg; wu;gg;aa;wu;aa;	1
-退一	tui;sq;zg;iu;zg; yi;dd;aa;fi;aa;	10
+退八	tui;sq,rq;zg;iu;zg; ba;ff;pd;hb;pn;	1
+退二	tui;sq,rq;zg;iu;zg; er;uu;aa;me;aa;	12
+退九	tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv;	0
+退六	tui;sq,rq;zg;iu;zg; liu;if;wb,dd,db;al;wb;	1
+退马反击	tui;sq,rq;zg;iu;zg; ma;zz;aa,vh;nm;va; fan;ul;py;xr;py; ji;up;aa,eu,fk;um;ak;	0
+退炮	tui;sq,rq;zg;iu;zg; pao;tt;hb;cv;hs;	20
+退七	tui;sq,rq;zg;iu;zg; qi;aa;ag;rq;av;	1
+退三	tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae;	4
+退四	tui;sq,rq;zg;iu;zg; si;nk;aa,ke;ys;ke;	0
+退五	tui;sq,rq;zg;iu;zg; wu;gg;aa;wu;aa;	1
+退一	tui;sq,rq;zg;iu;zg; yi;dd;aa;fi;aa;	10
 未走满	wei;ee;ex,ad;aw;an; zou;qq,ge;tv;pz;tr; man;ke;dl;km;dl;	0
 卧槽马杀	wo;dh;bi,ib;qy;ib; cao;wv;mc;eo;mo; ma;zz;aa,vh;nm;va; sha;yf;mi,im;be;xm;	2
 五八炮	wu;gg;aa;wu;aa; ba;ff;pd;hb;pn; pao;tt;hb;cv;hs;	3
-无车棋	wu;uk;ag,ay,ee;du;ay; che;tt;aa;yc;al; qi;wf;mq;eh;mb;	0
+无车棋	wu;uk,ur;ag,ay,ee;du;ay; che;tt;aa;yc;al; qi;wf;mq;eh;mb;	0
 五进	wu;gg;aa;wu;aa; jin;uq;zj;qu;zj;	13
 五进四	wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; si;nk;aa,ke;ys;ke;	2
 五九炮	wu;gg;aa;wu;aa; jiu;ur;py;kj;pv; pao;tt;hb;cv;hs;	0
@@ -3121,13 +3121,13 @@ use_preset_vocabulary: false
 相七	xiang;ws;mo;eq;mo; qi;aa;ag;rq;av;	0
 象棋盘	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; pan;td,ta;mv,vm;ia;vm;	4
 象棋特级大师	xiang;gh;du,pd,ua;wx;dn; qi;wf;mq;eh;mb; te;bk;ns;qk;nc; ji;eh;sj;ic;sj; da;xx;ad;md;un; shi;py;ab,aj,db,dj;pr;lj;	17
-相七退九车	xiang;ws;mo;eq;mo; qi;aa;ag;rq;av; tui;sq;zg;iu;zg; jiu;ur;py;kj;pv; che;tt;aa;yc;al;	0
+相七退九车	xiang;ws;mo;eq;mo; qi;aa;ag;rq;av; tui;sq,rq;zg;iu;zg; jiu;ur;py;kj;pv; che;tt;aa;yc;al;	0
 相三	xiang;ws;mo;eq;mo; san;uu;aa;ts;ae;	5
 象头卒	xiang;gh;du,pd,ua;wx;dn; tou;hx;dd;wm;dd; zu;is;wu,uc;zn;wu;	0
 相五	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa;	2
 相五进三车	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; jin;uq;zj;qu;zj; san;uu;aa;ts;ae; che;tt;aa;yc;al;	0
-相五退三车	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae; che;tt;aa;yc;al;	0
-相五退三炮	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; tui;sq;zg;iu;zg; san;uu;aa;ts;ae; pao;tt;hb;cv;hs;	0
+相五退三车	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae; che;tt;aa;yc;al;	0
+相五退三炮	xiang;ws;mo;eq;mo; wu;gg;aa;wu;aa; tui;sq,rq;zg;iu;zg; san;uu;aa;ts;ae; pao;tt;hb;cv;hs;	0
 相走田字	xiang;ws;mo;eq;mo; zou;qq,ge;tv;pz;tr; tian;ww;aa;qt;ku; zi;ia;bz;wh;bz;	0
 消除黑方	xiao;kl;dx;kv;do; chu;bf;ey;tx;eh; hei;nn;ad,ha;ph;lh; fang;ff;dg,wd,dp,dw;lf;dw;	1
 胁帅	xie;lf;ob;vh;ob; shuai;py;aj,dj,jd;pr;lj;	0
@@ -3143,12 +3143,12 @@ use_preset_vocabulary: false
 也非跳不可了	ye;rr;gg;ey;vv; fei;pu,up;aa;rf;la; tiao;gh,gf;zv;pw;zd; bu;dh;ad,ax;cb;ad; ke;jj;dk;zk;dk; le;rp;aa,vu;rl;vl;	0
 也可以横走一步	ye;rr;gg;ey;vv; ke;jj;dk;zk;dk; yi;re;rd,ry;vj;vr; heng;wf;mh;en;mb; zou;qq,ge;tv;pz;tr; yi;dd;aa;fi;aa; bu;ru;vx;ss;vp;	0
 移车	yi;uf;hd;xl;hx; che;tt;aa;yc;al;	7
-一方出现	yi;dd;aa;fi;aa; fang;ff;dg,wd,dp,dw;lf;dw; chu;pp;ck,aa;sm;vk; xian;ak;wj;ne;we;	0
+一方出现	yi;dd;aa;fi;aa; fang;ff;dg,wd,dp,dw;lf;dw; chu;pp;ck,aa;sm;vk; xian;ak,ar;wj;ne;we;	0
 一方的棋子	yi;dd;aa;fi;aa; fang;ff;dg,wd,dp,dw;lf;dw; de;sh;bu;ui;bu; qi;wf;mq;eh;mb; zi;aa;aa,vh;hi;va;	3
 一方提和	yi;dd;aa;fi;aa; fang;ff;dg,wd,dp,dw;lf;dw; ti;je;fu;ut;fr; he;uo;hk;xd;hk;	0
-亦红优	yi;ii,if;wb,wy,dd;zc;wd; hong;ep;sg;iu;sg; you;xh;ry;jo;ry;	0
+亦红优	yi;ih,ii,if;wb,wy,dd;zc;wd; hong;ep;sg;iu;sg; you;xh;ry;jo;ry;	0
 以后黑炮	yi;re;rd,ry;vj;vr; hou;uo;pk;xd;pk; hei;nn;ad,ha;ph;lh; pao;tt;hb;cv;hs;	0
-亦可改走	yi;ii,if;wb,wy,dd;zc;wd; ke;jj;dk;zk;dk; gai;tj;wj,jw;vh;jw; zou;qq,ge;tv;pz;tr;	0
+亦可改走	yi;ih,ii,if;wb,wy,dd;zc;wd; ke;jj;dk;zk;dk; gai;tj;wj,jw;vh;jw; zou;qq,ge;tv;pz;tr;	0
 弈完第	yi;ip,iz;cy,wc,yc;zl;wc; wan;ik;by;wp;be; di;nu;vp;rt;vp;	0
 以下黑	yi;re;rd,ry;vj;vr; xia;dh;ab,ad;fy;ab; hei;nn;ad,ha;ph;lh;	0
 已先占据	yi;tt;vg,ag;vi;vv; xian;bk;ne,en;qp;ne; zhan;po;bk;yd;lk; ju;jo;fj;uc;fk;	0
@@ -3177,11 +3177,11 @@ use_preset_vocabulary: false
 约恩	yue;eh;su;ii;su; en;nn;xy;rh;kx;	19
 运马	yun;uq;zy;bu;zs; ma;zz;aa,vh;nm;va;	3
 在布局后	zai;sg;ta,ut;ng;ut; bu;sy;ju,uj;nr;uj; ju;qo;uk;cd;uk; hou;uo;pk;xd;pk;	0
-再次提和	zai;dg;aa,at;fg;ar; ci;fe;dq;we;dr; ti;je;fu;ut;fr; he;uo;hk;xd;hk;	0
+再次提和	zai;dg,dd;aa,at;fg;ar; ci;fe;dq;we;dr; ti;je;fu;ut;fr; he;uo;hk;xd;hk;	0
 在对局时	zai;sg;ta,ut;ng;ut; dui;lk;cy,yc;rk;yc; ju;qo;uk;cd;uk; shi;vk;oc;ok;oc;	2
-再马	zai;dg;aa,at;fg;ar; ma;zz;aa,vh;nm;va;	1
+再马	zai;dg,dd;aa,at;fg;ar; ma;zz;aa,vh;nm;va;	1
 在没有过	zai;sg;ta,ut;ng;ut; mei;kl;du;kr;dy; you;sl;ou,uo;nv;uo; guo;kq;zc;ku;zc;	0
-再仕	zai;dg;aa,at;fg;ar; shi;xg;ru;jg;ru;	7
+再仕	zai;dg,dd;aa,at;fg;ar; shi;xg;ru;jg;ru;	7
 则马	ze;mi;bd,db;op;kd; ma;zz;aa,vh;nm;va;	0
 则马二	ze;mi;bd,db;op;kd; ma;zz;aa,vh;nm;va; er;uu;aa;me;aa;	0
 则仕	ze;mi;bd,db;op;kd; shi;xg;ru;jg;ru;	12
@@ -3194,7 +3194,7 @@ use_preset_vocabulary: false
 张学潮	zhang;rh;gi;bp;gi; xue;ha;dz,zb;kh;xz; chao;kl;di;kv;do;	1
 着法红先	zhao;fs;yo;gq;yo; fa;kp;dq;kk;ds; hong;ep;sg;iu;sg; xian;bk;ne,en;qp;ne;	0
 着法老练	zhao;fs;yo;gq;yo; fa;kp;dq;kk;ds; lao;ga;bl,lb;ql;lb; lian;ef;sd,sj;iy;sd;	0
-赵子仪	zhao;qy;zi;pb;tx; zi;aa;aa,vh;hi;va; yi;xy,xh;ry;jb;ry;	0
+赵子仪	zhao;qy,gy;zi;pb;tx; zi;aa;aa,vh;hi;va; yi;xy,xh;ry;jb;ry;	0
 着改走	zhao;fs;yo;gq;yo; gai;tj;wj,jw;vh;jw; zou;qq,ge;tv;pz;tr;	0
 争夺对手	zheng;gp;dy;xb;dl; duo;xk;dc,cd;mk;dc; dui;lk;cy,yc;rk;yc; shou;up;pa,ub;us;pl;	1
 直车	zhi;sd,su;aa,uq;nf;uq; che;tt;aa;yc;al;	13
@@ -3202,7 +3202,7 @@ use_preset_vocabulary: false
 直接对面	zhi;sd,su;aa,uq;nf;uq; jie;jy;fq;ub;fn; dui;lk;cy,yc;rk;yc; mian;dd,du;aa;bm;aa;	0
 只能在提和后	zhi;of;kb;dh;kb; neng;pa;sb;kv;sb; zai;sg;ta,ut;ng;ut; ti;je;fu;ut;fr; he;uo;hk;xd;hk; hou;uo;pk;xd;pk;	0
 制胜妙法	zhi;bi;dg,dv;qp;pd; sheng;la,lg;ou;vl;ou; miao;yu;nu;bt;nu; fa;kp;dq;kk;ds;	0
-直退	zhi;sd,su;aa,uq;nf;uq; tui;sq;zg;iu;zg;	4
+直退	zhi;sd,su;aa,uq;nf;uq; tui;sq,rq;zg;iu;zg;	4
 只许向前直走一步	zhi;of;kb;dh;kb; xu;cs;yw;sn;yw; xiang;uo;pk;td;pk; qian;fi;bd,qd;hp;bd; zhi;sd,su;aa,uq;nf;uq; zou;qq,ge;tv;pz;tr; yi;dd;aa;fi;aa; bu;ru;vx;ss;vp;	0
 只许走一步	zhi;of;kb;dh;kb; xu;cs;yw;sn;yw; zou;qq,ge;tv;pz;tr; yi;dd;aa;fi;aa; bu;ru;vx;ss;vp;	0
 只有炮吃子	zhi;of;kb;dh;kb; you;sl;ou,uo;nv;uo; pao;tt;hb;cv;hs; chi;or;kq;da;kq; zi;aa;aa,vh;hi;va;	1
@@ -3216,9 +3216,9 @@ use_preset_vocabulary: false
 中局阶段	zhong;op;aa,ka;dg;ll; ju;qo;uk;cd;uk; jie;bp;ej;tp;el; duan;ul;ud,du,pu;ur;py;	10
 中路取势	zhong;op;aa,ka;dg;ll; lu;go;zg;ps;zk; qu;dl;ey,ye;qr;ey; shi;ju;lv;us;fl;	0
 重炮杀	chong;sg;pa,ql;ld;pa; pao;tt;hb;cv;hs; sha;yf;mi,im;be;xm;	7
-主队身份	zhu;ig;dw;in;dw; dui;be;er;tj;er; shen;uu;pp;zs;pp; fen;xi,xu;rf;jp;rd;	0
+主队身份	zhu;ig,ha;dw;in;dw; dui;be;er;tj;er; shen;uu;pp;zs;pp; fen;xi,xu;rf;jp;rd;	0
 转入中局	zhuan;th;iv;yi;iv; ru;ee;pd;ju;pn; zhong;op;aa,ka;dg;ll; ju;qo;uk;cd;uk;	0
-准备赶走	zhun;fa;dv;wu;df; bei;jw;wt;hq;wt; gan;qs;zg;pe;tg; zou;qq,ge;tv;pz;tr;	0
+准备赶走	zhun;fa;dv;wu;df; bei;jw;wt;hq;wt; gan;gs,qs;zg;pe;tg; zou;qq,ge;tv;pz;tr;	0
 准备平中	zhun;fa;dv;wu;df; bei;jw;wt;hq;wt; ping;ds,sf;aa,gb;eh;au; zhong;op;aa,ka;dg;ll;	0
 准备镇中	zhun;fa;dv;wu;df; bei;jw;wt;hq;wt; zhen;df;jv;zh;jb; zhong;op;aa,ka;dg;ll;	0
 子力位置	zi;aa;aa,vh;hi;va; li;uu;gp;sl;vp; wei;xb;rl;ji;rl; zhi;ad,au;sv;yf;sq;	14
