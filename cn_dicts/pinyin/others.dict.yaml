@@ -10,587 +10,587 @@ sort: by_weight
 ...
 ##### 容错词
 # 一些口语读音
-空落落	kong;ip;xg,bg;eu;bg; luo;zo;cl;ls;ck; luo;zo;cl;ls;ck;	16
-空落落	kong;ip;xg,bg;eu;bg; lao;zo;cl;ls;ck; lao;zo;cl;ls;ck;	16
-空落落的	kong;ip;xg,bg;eu;bg; luo;zo;cl;ls;ck; luo;zo;cl;ls;ck; de;sh;bu;ui;bu;	87
-空落落的	kong;ip;xg,bg;eu;bg; lao;zo;cl;ls;ck; lao;zo;cl;ls;ck; de;sh;bu;ui;bu;	87
+空落落	kong;ip; luo;zo; luo;zo;	16
+空落落	kong;ip; lao;zo; lao;zo;	16
+空落落的	kong;ip; luo;zo; luo;zo; de;sh;	87
+空落落的	kong;ip; lao;zo; lao;zo; de;sh;	87
 # 「阿房宫」的注音争议比较大
-阿房宫	e;bj;ek;tz;ek; pang;qf;hf;ml;hf; gong;io;bl;wd;bk;	180
-阿房宫	a;bj;ek;tz;ek; pang;qf;hf;ml;hf; gong;io;bl;wd;bk;	180
-阿房宫	e;bj;ek;tz;ek; fang;qf;hf;ml;hf; gong;io;bl;wd;bk;	180
-阿房宫	a;bj;ek;tz;ek; fang;qf;hf;ml;hf; gong;io;bl;wd;bk;	180
-阿房宫赋	e;bj;ek;tz;ek; pang;qf;hf;ml;hf; gong;io;bl;wd;bk; fu;ma,mr;bw;os;kv;	44
-阿房宫赋	a;bj;ek;tz;ek; pang;qf;hf;ml;hf; gong;io;bl;wd;bk; fu;ma,mr;bw;os;kv;	44
-阿房宫赋	e;bj;ek;tz;ek; fang;qf;hf;ml;hf; gong;io;bl;wd;bk; fu;ma,mr;bw;os;kv;	44
-阿房宫赋	a;bj;ek;tz;ek; fang;qf;hf;ml;hf; gong;io;bl;wd;bk; fu;ma,mr;bw;os;kv;	44
+阿房宫	e;bj; pang;qf; gong;io;	180
+阿房宫	a;bj; pang;qf; gong;io;	180
+阿房宫	e;bj; fang;qf; gong;io;	180
+阿房宫	a;bj; fang;qf; gong;io;	180
+阿房宫赋	e;bj; pang;qf; gong;io; fu;ma,mr;	44
+阿房宫赋	a;bj; pang;qf; gong;io; fu;ma,mr;	44
+阿房宫赋	e;bj; fang;qf; gong;io; fu;ma,mr;	44
+阿房宫赋	a;bj; fang;qf; gong;io; fu;ma,mr;	44
 # 「伯伯」方言
-伯伯	bo;xs;rb;ju;rb; bo;xs;rb;ju;rb;	541
-伯伯	bai;xs;rb;ju;rb; bai;xs;rb;ju;rb;	541
+伯伯	bo;xs; bo;xs;	541
+伯伯	bai;xs; bai;xs;	541
 # 「斜」的古音
-远上寒山石径斜	yuan;uq;zy;mu;ze; shang;pd,pu;aa,ba;yf;la; han;ih;bd;ww;bd; shan;pp;aa;vs;lk; shi;tt;kp,aa,ak,pk;ms;ak; jing;hp;xg;wu;ig; xie;es,eh;dy;jj;ru;	38
-远上寒山石径斜	yuan;uq;zy;mu;ze; shang;pd,pu;aa,ba;yf;la; han;ih;bd;ww;bd; shan;pp;aa;vs;lk; shi;tt;kp,aa,ak,pk;ms;ak; jing;hp;xg;wu;ig; xia;es,eh;dy;jj;ru;	38
+远上寒山石径斜	yuan;uq; shang;pd,pu; han;ih; shan;pp; shi;tt; jing;hp; xie;es,eh;	38
+远上寒山石径斜	yuan;uq; shang;pd,pu; han;ih; shan;pp; shi;tt; jing;hp; xia;es,eh;	38
 # 「骑」目前统读 qi
-坐骑	zuo;eg;tc,tr,rt;jg;rt; qi;zj;mq;nz;mk;	1019
-坐骑	zuo;eg;tc,tr,rt;jg;rt; ji;zj;mq;nz;mk;	1019
-铁骑	tie;de;ju;zh;ju; qi;zj;mq;nz;mk;	383
-铁骑	tie;de;ju;zh;ju; ji;zj;mq;nz;mk;	383
-一骑绝尘	yi;dd;aa;fi;aa; qi;zj;mq;nz;mk; jue;et;ss;im;sb; chen;pg;tx,xt;yg;xt;	684
-一骑绝尘	yi;dd;aa;fi;aa; ji;zj;mq;nz;mk; jue;et;ss;im;sb; chen;pg;tx,xt;yg;xt;	684
-一骑当千	yi;dd;aa;fi;aa; qi;zj;mq;nz;mk; dang;hs;xx;yb;xe; qian;ss;pa;lq;pu;	53
-一骑当千	yi;dd;aa;fi;aa; ji;zj;mq;nz;mk; dang;hs;xx;yb;xe; qian;ss;pa;lq;pu;	53
-一骑红尘妃子笑	yi;dd;aa;fi;aa; qi;zj;mq;nz;mk; hong;ep;sg;iu;sg; chen;pg;tx,xt;yg;xt; fei;yt;nj;bv;nj; zi;aa;aa,vh;hi;va; xiao;nx;vy;rm;vy;	37
-一骑红尘妃子笑	yi;dd;aa;fi;aa; ji;zj;mq;nz;mk; hong;ep;sg;iu;sg; chen;pg;tx,xt;yg;xt; fei;yt;nj;bv;nj; zi;aa;aa,vh;hi;va; xiao;nx;vy;rm;vy;	37
-走单骑	zou;qq,ge;tv;pz;tr; dan;fs;ba,bd;hn;bl; qi;zj;mq;nz;mk;	0
-走单骑	zou;qq,ge;tv;pz;tr; dan;fs;ba,bd;hn;bl; ji;zj;mq;nz;mk;	0
-千里走单骑	qian;ss;pa;lq;pu; li;vg;aa,tt;dl;la; zou;qq,ge;tv;pz;tr; dan;fs;ba,bd;hn;bl; qi;zj;mq;nz;mk;	100
-千里走单骑	qian;ss;pa;lq;pu; li;vg;aa,tt;dl;la; zou;qq,ge;tv;pz;tr; dan;fs;ba,bd;hn;bl; ji;zj;mq;nz;mk;	100
+坐骑	zuo;eg; qi;zj;	1019
+坐骑	zuo;eg; ji;zj;	1019
+铁骑	tie;de; qi;zj;	383
+铁骑	tie;de; ji;zj;	383
+一骑绝尘	yi;dd; qi;zj; jue;et; chen;pg;	684
+一骑绝尘	yi;dd; ji;zj; jue;et; chen;pg;	684
+一骑当千	yi;dd; qi;zj; dang;hs; qian;ss;	53
+一骑当千	yi;dd; ji;zj; dang;hs; qian;ss;	53
+一骑红尘妃子笑	yi;dd; qi;zj; hong;ep; chen;pg; fei;yt; zi;aa; xiao;nx;	37
+一骑红尘妃子笑	yi;dd; ji;zj; hong;ep; chen;pg; fei;yt; zi;aa; xiao;nx;	37
+走单骑	zou;qq,ge; dan;fs; qi;zj;	0
+走单骑	zou;qq,ge; dan;fs; ji;zj;	0
+千里走单骑	qian;ss; li;vg; zou;qq,ge; dan;fs; qi;zj;	100
+千里走单骑	qian;ss; li;vg; zou;qq,ge; dan;fs; ji;zj;	100
 # 「街」的粤语和东北话读音及常见的两种写法
-仆街	pu;xh;rb;jy;rb; jie;hj,hp;xg,xi;pg;ii;	37
-仆街	pu;xh;rb;jy;rb; gai;hj,hp;xg,xi;pg;ii;	37
-扑街	pu;jh;fb;uy;fb; jie;hj,hp;xg,xi;pg;ii;	1315
-扑街	pu;jh;fb;uy;fb; gai;hj,hp;xg,xi;pg;ii;	1315
-扑街仔	pu;jh;fb;uy;fb; jie;hj,hp;xg,xi;pg;ii; zai;xa;rz;jh;rz;	20
-扑街仔	pu;jh;fb;uy;fb; gai;hj,hp;xg,xi;pg;ii; zai;xa;rz;jh;rz;	20
-仆街仔	pu;xh;rb;jy;rb; jie;hj,hp;xg,xi;pg;ii; zai;xa;rz;jh;rz;	0
-仆街仔	pu;xh;rb;jy;rb; gai;hj,hp;xg,xi;pg;ii; zai;xa;rz;jh;rz;	0
-街溜子	jie;hj,hp;xg,xi;pg;ii; liu;kw;dl;kq;dt; zi;aa;aa,vh;hi;va;	70
-街溜子	gai;hj,hp;xg,xi;pg;ii; liu;kw;dl;kq;dt; zi;aa;aa,vh;hi;va;	70
+仆街	pu;xh; jie;hj,hp;	37
+仆街	pu;xh; gai;hj,hp;	37
+扑街	pu;jh; jie;hj,hp;	1315
+扑街	pu;jh; gai;hj,hp;	1315
+扑街仔	pu;jh; jie;hj,hp; zai;xa;	20
+扑街仔	pu;jh; gai;hj,hp; zai;xa;	20
+仆街仔	pu;xh; jie;hj,hp; zai;xa;	0
+仆街仔	pu;xh; gai;hj,hp; zai;xa;	0
+街溜子	jie;hj,hp; liu;kw; zi;aa;	70
+街溜子	gai;hj,hp; liu;kw; zi;aa;	70
 # 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
-郭明錤	guo;ib;ex;gt;we; ming;vl;oo;ov;oo; ji;;jq;zh;;	38
-郭明錤	guo;ib;ex;gt;we; ming;vl;oo;ov;oo; qi;;jq;zh;;	38
+郭明錤	guo;ib; ming;vl; ji;;	38
+郭明錤	guo;ib; ming;vl; qi;;	38
 # 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
-李昌镐	li;wa;mz;eh;mz; chang;vv;oo;oo;oo; hao;do;jg;zg;jk;	242
-曹世镐	cao;dv;oc,co;fo;ao; shi;vr;ca,cv,aa;la;av; hao;do;jg;zg;jk;	0
-张镐哲	zhang;rh;gi;bp;gi; gao;do;jg;zg;jk; zhe;jo;kv;ud;fk;	0
-姜成镐	jiang;fy;ny,yn;gb;yn; cheng;rh;gg,wg;na;wv; hao;do;jg;zg;jk;	0
-姜镐童	jiang;fy;ny,yn;gb;yn; hao;do;jg;zg;jk; tong;bg;ll;id;ll;	0
-张镐濂	zhang;rh;gi;bp;gi; hao;do;jg;zg;jk; lian;kf;dl;kc;dn;	0
-李敏镐	li;wa;mz;eh;mz; min;ej;wm;eh;pw; hao;do;jg;zg;jk;	28
-李陈镐	li;wa;mz;eh;mz; chen;bf;ed;ty;ed; hao;do;jg;zg;jk;	2
-赵亮镐	zhao;qy,gy;zi;pb;tx; liang;ii;wj,jb;go;wj; hao;do;jg;zg;jk;	0
-郑俊镐	zheng;fb;eg;ht;be; jun;xj;rj,rw;jh;rw; hao;do;jg;zg;jk;	1
+李昌镐	li;wa; chang;vv; hao;do;	242
+曹世镐	cao;dv; shi;vr; hao;do;	0
+张镐哲	zhang;rh; gao;do; zhe;jo;	0
+姜成镐	jiang;fy; cheng;rh; hao;do;	0
+姜镐童	jiang;fy; hao;do; tong;bg;	0
+张镐濂	zhang;rh; hao;do; lian;kf;	0
+李敏镐	li;wa; min;ej; hao;do;	28
+李陈镐	li;wa; chen;bf; hao;do;	2
+赵亮镐	zhao;qy,gy; liang;ii; hao;do;	0
+郑俊镐	zheng;fb; jun;xj; hao;do;	1
 ##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
 ### 错音
-馄饨	hun;ga;uk;qv;ub; tun;gr;ut;qs;ut;	898
-馄饨	hun;ga;uk;qv;ub; dun;gr;ut;qs;ut;	898
-主角	zhu;ig,ha;dw;in;dw; jue;gp;dy;xt;dy;	24115
-主角	zhu;ig,ha;dw;in;dw; jiao;gp;dy;xt;dy;	24115
-角色	jue;gp;dy;xt;dy; se;gt;db;xm;db;	20102
-角色	jiao;gp;dy;xt;dy; se;gt;db;xm;db;	20102
-比萨	bi;aa;bb;vv;bb; sa;zu,zr;ci;lx;ci;	197
-比萨	pi;aa;bb;vv;bb; sa;zu,zr;ci;lx;ci;	197
-比萨饼	bi;aa;bb;vv;bb; sa;zu,zr;ci;lx;ci; bing;gz,gp;ub;ql;uk;	23
-比萨饼	pi;aa;bb;vv;bb; sa;zu,zr;ci;lx;ci; bing;gz,gp;ub;ql;uk;	23
-吃比萨	chi;or;kq;da;kq; bi;aa;bb;vv;bb; sa;zu,zr;ci;lx;ci;	5
-吃比萨	chi;or;kq;da;kq; pi;aa;bb;vv;bb; sa;zu,zr;ci;lx;ci;	5
-说服	shuo;ck;yd;sp;ye; fu;ll;oy;vr;oy;	5642
-说服	shui;ck;yd;sp;ye; fu;ll;oy;vr;oy;	5642
-道行	dao;fq;zu;hu;zz; heng;hj,hp;xd,xi;px;ii;	270
-道行	dao;fq;zu;hu;zz; hang;hj,hp;xd,xi;px;ii;	270
-模样	mu;wx;mm;em;md; yang;wp;my;eg;my;	5185
-模样	mo;wx;mm;em;md; yang;wp;my;eg;my;	5185
-有模有样	you;sl;ou,uo;nv;uo; mu;wx;mm;em;md; you;sl;ou,uo;nv;uo; yang;wp;my;eg;my;	279
-有模有样	you;sl;ou,uo;nv;uo; mo;wx;mm;em;md; you;sl;ou,uo;nv;uo; yang;wp;my;eg;my;	279
-一模一样	yi;dd;aa;fi;aa; mu;wx;mm;em;md; yi;dd;aa;fi;aa; yang;wp;my;eg;my;	5083
-一模一样	yi;dd;aa;fi;aa; mo;wx;mm;em;md; yi;dd;aa;fi;aa; yang;wp;my;eg;my;	5083
-装模作样	zhuang;lk;yv;at;dy; mu;wx;mm;em;md; zuo;xu;rv;jw;rv; yang;wp;my;eg;my;	485
-装模作样	zhuang;lk;yv;at;dy; mo;wx;mm;em;md; zuo;xu;rv;jw;rv; yang;wp;my;eg;my;	485
-人模狗样	ren;ee;pd;jr;pn; mu;wx;mm;em;md; gou;bi;qj;mg;qk; yang;wp;my;eg;my;	146
-人模狗样	ren;ee;pd;jr;pn; mo;wx;mm;em;md; gou;bi;qj;mg;qk; yang;wp;my;eg;my;	146
-模板	mu;wx;mm;em;md; ban;wl;mf;er;my;	14674
-模板	mo;wx;mm;em;md; ban;wl;mf;er;my;	14674
-阿弥陀佛	e;bj;ek;tz;ek; mi;rf;ge;by;gx; tuo;ba;et;tv;eb; fo;xp;rf;jt;rf;	371
-阿弥陀佛	a;bj;ek;tz;ek; mi;rf;ge;by;gx; tuo;ba;et;tv;eb; fo;xp;rf;jt;rf;	371
-南无阿弥陀佛	na;ss,sp;ua,uy;ng;ug,ag; mo;uk,ur;ag,ay,ee;du;ay; e;bj;ek;tz;ek; mi;rf;ge;by;gx; tuo;ba;et;tv;eb; fo;xp;rf;jt;rf;	42
-南无阿弥陀佛	na;ss,sp;ua,uy;ng;ug,ag; mo;uk,ur;ag,ay,ee;du;ay; a;bj;ek;tz;ek; mi;rf;ge;by;gx; tuo;ba;et;tv;eb; fo;xp;rf;jt;rf;	42
-南无阿弥陀佛	nan;ss,sp;ua,uy;ng;ug,ag; wu;uk,ur;ag,ay,ee;du;ay; e;bj;ek;tz;ek; mi;rf;ge;by;gx; tuo;ba;et;tv;eb; fo;xp;rf;jt;rf;	42
-南无阿弥陀佛	nan;ss,sp;ua,uy;ng;ug,ag; wu;uk,ur;ag,ay,ee;du;ay; a;bj;ek;tz;ek; mi;rf;ge;by;gx; tuo;ba;et;tv;eb; fo;xp;rf;jt;rf;	42
-给予	ji;eo;sh;id;sk; yu;pp;sa,aa;iv;sl;	11349
-给予	gei;eo;sh;id;sk; yu;pp;sa,aa;iv;sl;	11349
-槟榔	bing;wf;mb;eh;mb; lang;wb;ml;et;me;	633
-槟榔	bin;wf;mb;eh;mb; lang;wb;ml;et;me;	633
-张柏芝	zhang;rh;gi;bp;gi; bo;ws;mb;eu;mb; zhi;zh;cv;lr;cv;	748
-张柏芝	zhang;rh;gi;bp;gi; bai;ws;mb;eu;mb; zhi;zh;cv;lr;cv;	748
-藤蔓	teng;zo;ct;lk;cu; wan;zl;cm;lr;cy;	320
-藤蔓	teng;zo;ct;lk;cu; man;zl;cm;lr;cy;	320
-弄堂	long;ap,az;cw,wc;nl;wc; tang;hg;tk,dt,xt;sg;xt;	126
-弄堂	nong;ap,az;cw,wc;nl;wc; tang;hg;tk,dt,xt;sg;xt;	126
-心宽体胖	xin;nn;dd;hx;dd; kuan;ik,ir;bj,jb;we;be; ti;xd;rb;jf;rb; pan;lp,ls;ob;vu;ob;	39
-心宽体胖	xin;nn;dd;hx;dd; kuan;ik,ir;bj,jb;we;be; ti;xd;rb;jf;rb; pang;lp,ls;ob;vu;ob;	39
-埋怨	man;gg;tl;gd;tl; yuan;fn;xe,xy;lh;xx;	1138
-埋怨	mai;gg;tl;gd;tl; yuan;fn;xe,xy;lh;xx;	1138
-虚与委蛇	xu;pd;hy;zc;hy; yu;dd;aa;ff;aa; wei;uy;hn;xb;hn; yi;fa;it;cv;ib;	93
-虚与委蛇	xu;pd;hy;zc;hy; yu;dd;aa;ff;aa; wei;uy;hn;xb;hn; she;fa;it;cv;ib;	93
-木讷	mu;ww;ad;em;an,un; ne;ce;yn;sj;yn;	471
-木讷	mu;ww;ad;em;an,un; na;ce;yn;sj;yn;	471
-独乐乐	du;bf;qi;mc;qi; yue;uf;pd,px;by;pd; le;uf;pd,px;by;pd;	13
-独乐乐	du;bf;qi;mc;qi; le;uf;pd,px;by;pd; le;uf;pd,px;by;pd;	13
-众乐乐	zhong;ee;rc;jj;rr; yue;uf;pd,px;by;pd; le;uf;pd,px;by;pd;	20
-众乐乐	zhong;ee;rc;jj;rr; le;uf;pd,px;by;pd; le;uf;pd,px;by;pd;	20
-荨麻	qian;zk;cx;lk;cc; ma;dd,rw;gl;zm;gm;	71
-荨麻	xun;zk;cx;lk;cc; ma;dd,rw;gl;zm;gm;	71
-荨麻疹	xun;zk;cx;lk;cc; ma;dd,rw;gl;zm;gm; zhen;mu;bp;ae;bp;	198
-荨麻疹	qian;zk;cx;lk;cc; ma;dd,rw;gl;zm;gm; zhen;mu;bp;ae;bp;	198
-模具	mu;wx;mm;em;md; ju;pf;ba,bq,qb;qh;qb;	1935
-模具	mo;wx;mm;em;md; ju;pf;ba,bq,qb;qh;qb;	1935
-草薙	cao;zs;cz;ln;cu; ti;za;cv;lu;cf;	88
-草薙	cao;zs;cz;ln;cu; zhi;za;cv;lu;cf;	88
-草薙京	cao;zs;cz;ln;cu; ti;za;cv;lu;cf; jing;if;wx;gy;wx;	144
-草薙京	cao;zs;cz;ln;cu; zhi;za;cv;lu;cf; jing;if;wx;gy;wx;	144
-草薙剑	cao;zs;cz;ln;cu; ti;za;cv;lu;cf; jian;ei;da,dq;jp;rd;	17
-草薙剑	cao;zs;cz;ln;cu; zhi;za;cv;lu;cf; jian;ei;da,dq;jp;rd;	17
-贾平凹	jia;pm;bx,xb;vo;xr; ping;ds,sf;aa,gb;eh;au; wa;pd;aa;mf;la;	247
-贾平凹	jia;pm;bx,xb;vo;xr; ping;ds,sf;aa,gb;eh;au; ao;pd;aa;mf;la;	247
-雪佛兰	xue;ys;yx;tb;ye; fu;xp;rf;jt;rf; lan;fu;bs,qe;ht;bs;	365
-雪佛兰	xue;ys;yx;tb;ye; fo;xp;rf;jt;rf; lan;fu;bs,qe;ht;bs;	365
-强劲	qiang;rf;gs;bc;gi; jing;ru;lg;rs;vl;	1505
-强劲	qiang;rf;gs;bc;gi; jin;ru;lg;rs;vl;	1505
-胴体	dong;lo;ot;vd;ok; ti;xd;rb;jf;rb;	80
-胴体	tong;lo;ot;vd;ok; ti;xd;rb;jf;rb;	80
-力能扛鼎	li;uu;gp;sl;vp; neng;pa;sb;kv;sb; gang;jp;fg;uu;fg; ding;sr;oa,od;qa;ov;	26
-力能扛鼎	li;uu;gp;sl;vp; neng;pa;sb;kv;sb; kang;jp;fg;uu;fg; ding;sr;oa,od;qa;ov;	26
-鸭绿江	ya;vc;nj,jn;sx;jn; lu;eo;sl;ik;su; jiang;kp;dg;ku;dg;	152
-鸭绿江	ya;vc;nj,jn;sx;jn; lv;eo;sl;ik;su; jiang;kp;dg;ku;dg;	152
-大腹便便	da;xx;ad;md;un; fu;lj;of;vh;ow; pian;xy;rg;jb;rg; pian;xy;rg;jb;rg;	147
-大腹便便	da;xx;ad;md;un; fu;lj;of;vh;ow; bian;xy;rg;jb;rg; bian;xy;rg;jb;rg;	147
-卡脖子	qia;ph;bx,ub;yy;ub; bo;la;ob,oz;vh;oz; zi;aa;aa,vh;hi;va;	308
-卡脖子	ka;ph;bx,ub;yy;ub; bo;la;ob,oz;vh;oz; zi;aa;aa,vh;hi;va;	308
-吱声	zi;ol;kv;dc;ky; sheng;gp;um;gc;up;	217
-吱声	zhi;ol;kv;dc;ky; sheng;gp;um;gc;up;	217
-掺和	chan;ju;fc;ue;fp; huo;uo;hk;xd;hk;	438
-掺和	chan;ju;fc;ue;fp; he;uo;hk;xd;hk;	438
-掺和	can;ju;fc;ue;fp; huo;uo;hk;xd;hk;	438
-掺和	can;ju;fc;ue;fp; he;uo;hk;xd;hk;	438
-称职	chen;uf;he;xy;hx; zhi;df;ev;qh;eb;	90
-称职	cheng;uf;he;xy;hx; zhi;df;ev;qh;eb;	90
-螺蛳粉	luo;ff;il;ci;ix; si;fy;iu;cr;ij; fen;li,lu;mf;pp;md;	645
-螺蛳粉	luo;ff;il;ci;ix; shi;fy;iu;cr;ij; fen;li,lu;mf;pp;md;	645
-调换	diao;co;yv;sd;yk; huan;jx,je;fh;um;fd;	616
-调换	tiao;co;yv;sd;yk; huan;jx,je;fh;um;fd;	616
-太行山	tai;xh;dd;mi;dd; hang;hj,hp;xd,xi;px;ii; shan;pp;aa;vs;lk;	390
-太行山	tai;xh;dd;mi;dd; xing;hj,hp;xd,xi;px;ii; shan;pp;aa;vs;lk;	390
-歇斯底里	xie;ve;qh;oe;or; si;vp;jq,qj;zt;qj; di;rh;gd;xi;gd; li;vg;aa,tt;dl;la;	883
-歇斯底里	jie;ve;qh;oe;or; si;vp;jq,qj;zt;qj; di;rh;gd;xi;gd; li;vg;aa,tt;dl;la;	883
-暖和	nuan;vl;oy;or;oy; huo;uo;hk;xd;hk;	743
-暖和	nuan;vl;oy;or;oy; he;uo;hk;xd;hk;	743
-模棱两可	mo;wx;mm;em;md; leng;wj;ml,mw;eh;mw; liang;de;ad;ml;ad; ke;jj;dk;zk;dk;	848
-模棱两可	mo;wx;mm;em;md; ling;wj;ml,mw;eh;mw; liang;de;ad;ml;ad; ke;jj;dk;zk;dk;	848
-鄱阳湖	po;hb;ef;tt;pe; yang;bv;eo;to;eo; hu;kl;dh;kv;do;	1336
-鄱阳湖	pan;hb;ef;tt;pe; yang;bv;eo;to;eo; hu;kl;dh;kv;do;	1336
-脖颈	bo;la;ob,oz;vh;oz; geng;rm;yg;rw;vr;	483
-脖颈	bo;la;ob,oz;vh;oz; jing;rm;yg;rw;vr;	483
-脖颈儿	bo;la;ob,oz;vh;oz; geng;rm;yg;rw;vr; er;kk;pg;pe;pv;	1
-脖颈儿	bo;la;ob,oz;vh;oz; jing;rm;yg;rw;vr; er;kk;pg;pe;pv;	1
-结扎	jie;eo;sj;id;sk; za;jr;fg;ua;fv;	126
-结扎	jie;eo;sj;id;sk; zha;jr;fg;ua;fv;	126
-海参崴	hai;kh;dm;kk;dm; shen;pu;sp;ke;sp; wai;ph;uw;vb;en;	304
-海参崴	hai;kh;dm;kk;dm; shen;pu;sp;ke;sp; wei;ph;uw;vb;en;	304
-厚朴	hou;ra;iz;xh;iz; po;wh;mb;ey;mb;	52
-厚朴	hou;ra;iz;xh;iz; pu;wh;mb;ey;mb;	52
-大宛马	da;xx;ad;md;un; yuan;it;be,by;wz;bv; ma;zz;aa,vh;nm;va;	9
-大宛马	da;xx;ad;md;un; wan;it;be,by;wz;bv; ma;zz;aa,vh;nm;va;	9
-龇牙	zi;ra;ic;lv;vb; ya;du;ap;ly;ap;	62
-龇牙	ci;ra;ic;lv;vb; ya;du;ap;ly;ap;	62
-龇着牙	zi;ra;ic;lv;vb; zhe;fs;yo;gq;yo; ya;du;ap;ly;ap;	14
-龇着牙	ci;ra;ic;lv;vb; zhe;fs;yo;gq;yo; ya;du;ap;ly;ap;	14
-龇牙咧嘴	zi;ra;ic;lv;vb; ya;du;ap;ly;ap; lie;oi;kl;dp;kd; zui;op;kj,kz;dt;ky;	166
-龇牙咧嘴	ci;ra;ic;lv;vb; ya;du;ap;ly;ap; lie;oi;kl;dp;kd; zui;op;kj,kz;dt;ky;	166
-头皮屑	tou;hx;dd;wm;dd; pi;rl;ad,ay,vd,vy,ya;rp;vy; xie;ql;ux;cv;uo;	525
-头皮屑	tou;hx;dd;wm;dd; pi;rl;ad,ay,vd,vy,ya;rp;vy; xue;ql;ux;cv;uo;	525
-六安	lu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn;	110
-六安	liu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn;	110
-六安县	lu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn; xian;pp;sq,qs;fk;qs;	3
-六安县	liu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn; xian;pp;sq,qs;fk;qs;	3
-六安市	lu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn; shi;iy;wj;zr;wj;	23
-六安市	liu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn; shi;iy;wj;zr;wj;	23
-六合区	lu;if;wb,dd,db;al;wb; he;eo;rk;jd;rk; qu;dr;ki;nb;kx;	3
-六合区	liu;if;wb,dd,db;al;wb; he;eo;rk;jd;rk; qu;dr;ki;nb;kx;	3
-安徽六安	an;iy;bn;wb;bn; hui;hj;xw;wh;iw; lu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn;	16
-安徽六安	an;iy;bn;wb;bn; hui;hj;xw;wh;iw; liu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn;	16
-安徽六安市	an;iy;bn;wb;bn; hui;hj;xw;wh;iw; lu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn; shi;iy;wj;zr;wj;	3
-安徽六安市	an;iy;bn;wb;bn; hui;hj;xw;wh;iw; liu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn; shi;iy;wj;zr;wj;	3
-安徽省六安市	an;iy;bn;wb;bn; hui;hj;xw;wh;iw; sheng;ps;ou;yq;uo; lu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn; shi;iy;wj;zr;wj;	8
-安徽省六安市	an;iy;bn;wb;bn; hui;hj;xw;wh;iw; sheng;ps;ou;yq;uo; liu;if;wb,dd,db;al;wb; an;iy;bn;wb;bn; shi;iy;wj;zr;wj;	8
-南京六合	nan;ss,sp;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; lu;if;wb,dd,db;al;wb; he;eo;rk;jd;rk;	5
-南京六合	nan;ss,sp;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; liu;if;wb,dd,db;al;wb; he;eo;rk;jd;rk;	5
-南京六合区	nan;ss,sp;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; lu;if;wb,dd,db;al;wb; he;eo;rk;jd;rk; qu;dr;ki;nb;kx;	1
-南京六合区	nan;ss,sp;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; liu;if;wb,dd,db;al;wb; he;eo;rk;jd;rk; qu;dr;ki;nb;kx;	1
-南京市六合区	nan;ss,sp;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; shi;iy;wj;zr;wj; lu;if;wb,dd,db;al;wb; he;eo;rk;jd;rk; qu;dr;ki;nb;kx;	2
-南京市六合区	nan;ss,sp;ua,uy;ng;ug,ag; jing;if;wx;gy;wx; shi;iy;wj;zr;wj; liu;if;wb,dd,db;al;wb; he;eo;rk;jd;rk; qu;dr;ki;nb;kx;	2
-偌大	ruo;xo;rr;jd;rk; da;xx;ad;md;un;	680
-偌大	nuo;xo;rr;jd;rk; da;xx;ad;md;un;	680
-饮鸩止渴	yin;ge;uq;qe;ur; zhen;ic;na,ng,nv,ny;wx;dn; zhi;rr;aa;si;la; ke;kr;dh;kf;dv;	336
-饮鸩止渴	yin;ge;uq;qe;ur; jiu;ic;na,ng,nv,ny;wx;dn; zhi;rr;aa;si;la; ke;kr;dh;kf;dv;	336
-饮鸩解渴	yin;ge;uq;qe;ur; zhen;ic;na,ng,nv,ny;wx;dn; jie;gb;jn;xq;dn; ke;kr;dh;kf;dv;	0
-饮鸩解渴	yin;ge;uq;qe;ur; jiu;ic;na,ng,nv,ny;wx;dn; jie;gb;jn;xq;dn; ke;kr;dh;kf;dv;	0
+馄饨	hun;ga; tun;gr;	898
+馄饨	hun;ga; dun;gr;	898
+主角	zhu;ig,ha; jue;gp;	24115
+主角	zhu;ig,ha; jiao;gp;	24115
+角色	jue;gp; se;gt;	20102
+角色	jiao;gp; se;gt;	20102
+比萨	bi;aa; sa;zu,zr;	197
+比萨	pi;aa; sa;zu,zr;	197
+比萨饼	bi;aa; sa;zu,zr; bing;gz,gp;	23
+比萨饼	pi;aa; sa;zu,zr; bing;gz,gp;	23
+吃比萨	chi;or; bi;aa; sa;zu,zr;	5
+吃比萨	chi;or; pi;aa; sa;zu,zr;	5
+说服	shuo;ck; fu;ll;	5642
+说服	shui;ck; fu;ll;	5642
+道行	dao;fq; heng;hj,hp;	270
+道行	dao;fq; hang;hj,hp;	270
+模样	mu;wx; yang;wp;	5185
+模样	mo;wx; yang;wp;	5185
+有模有样	you;sl; mu;wx; you;sl; yang;wp;	279
+有模有样	you;sl; mo;wx; you;sl; yang;wp;	279
+一模一样	yi;dd; mu;wx; yi;dd; yang;wp;	5083
+一模一样	yi;dd; mo;wx; yi;dd; yang;wp;	5083
+装模作样	zhuang;lk; mu;wx; zuo;xu; yang;wp;	485
+装模作样	zhuang;lk; mo;wx; zuo;xu; yang;wp;	485
+人模狗样	ren;ee; mu;wx; gou;bi; yang;wp;	146
+人模狗样	ren;ee; mo;wx; gou;bi; yang;wp;	146
+模板	mu;wx; ban;wl;	14674
+模板	mo;wx; ban;wl;	14674
+阿弥陀佛	e;bj; mi;rf; tuo;ba; fo;xp;	371
+阿弥陀佛	a;bj; mi;rf; tuo;ba; fo;xp;	371
+南无阿弥陀佛	na;ss,sp; mo;uk,ur; e;bj; mi;rf; tuo;ba; fo;xp;	42
+南无阿弥陀佛	na;ss,sp; mo;uk,ur; a;bj; mi;rf; tuo;ba; fo;xp;	42
+南无阿弥陀佛	nan;ss,sp; wu;uk,ur; e;bj; mi;rf; tuo;ba; fo;xp;	42
+南无阿弥陀佛	nan;ss,sp; wu;uk,ur; a;bj; mi;rf; tuo;ba; fo;xp;	42
+给予	ji;eo; yu;pp;	11349
+给予	gei;eo; yu;pp;	11349
+槟榔	bing;wf; lang;wb;	633
+槟榔	bin;wf; lang;wb;	633
+张柏芝	zhang;rh; bo;ws; zhi;zh;	748
+张柏芝	zhang;rh; bai;ws; zhi;zh;	748
+藤蔓	teng;zo; wan;zl;	320
+藤蔓	teng;zo; man;zl;	320
+弄堂	long;ap,az; tang;hg;	126
+弄堂	nong;ap,az; tang;hg;	126
+心宽体胖	xin;nn; kuan;ik,ir; ti;xd; pan;lp,ls;	39
+心宽体胖	xin;nn; kuan;ik,ir; ti;xd; pang;lp,ls;	39
+埋怨	man;gg; yuan;fn;	1138
+埋怨	mai;gg; yuan;fn;	1138
+虚与委蛇	xu;pd; yu;dd; wei;uy; yi;fa;	93
+虚与委蛇	xu;pd; yu;dd; wei;uy; she;fa;	93
+木讷	mu;ww; ne;ce;	471
+木讷	mu;ww; na;ce;	471
+独乐乐	du;bf; yue;uf; le;uf;	13
+独乐乐	du;bf; le;uf; le;uf;	13
+众乐乐	zhong;ee; yue;uf; le;uf;	20
+众乐乐	zhong;ee; le;uf; le;uf;	20
+荨麻	qian;zk; ma;dd,rw;	71
+荨麻	xun;zk; ma;dd,rw;	71
+荨麻疹	xun;zk; ma;dd,rw; zhen;mu;	198
+荨麻疹	qian;zk; ma;dd,rw; zhen;mu;	198
+模具	mu;wx; ju;pf;	1935
+模具	mo;wx; ju;pf;	1935
+草薙	cao;zs; ti;za;	88
+草薙	cao;zs; zhi;za;	88
+草薙京	cao;zs; ti;za; jing;if;	144
+草薙京	cao;zs; zhi;za; jing;if;	144
+草薙剑	cao;zs; ti;za; jian;ei;	17
+草薙剑	cao;zs; zhi;za; jian;ei;	17
+贾平凹	jia;pm; ping;ds,sf; wa;pd;	247
+贾平凹	jia;pm; ping;ds,sf; ao;pd;	247
+雪佛兰	xue;ys; fu;xp; lan;fu;	365
+雪佛兰	xue;ys; fo;xp; lan;fu;	365
+强劲	qiang;rf; jing;ru;	1505
+强劲	qiang;rf; jin;ru;	1505
+胴体	dong;lo; ti;xd;	80
+胴体	tong;lo; ti;xd;	80
+力能扛鼎	li;uu; neng;pa; gang;jp; ding;sr;	26
+力能扛鼎	li;uu; neng;pa; kang;jp; ding;sr;	26
+鸭绿江	ya;vc; lu;eo; jiang;kp;	152
+鸭绿江	ya;vc; lv;eo; jiang;kp;	152
+大腹便便	da;xx; fu;lj; pian;xy; pian;xy;	147
+大腹便便	da;xx; fu;lj; bian;xy; bian;xy;	147
+卡脖子	qia;ph; bo;la; zi;aa;	308
+卡脖子	ka;ph; bo;la; zi;aa;	308
+吱声	zi;ol; sheng;gp;	217
+吱声	zhi;ol; sheng;gp;	217
+掺和	chan;ju; huo;uo;	438
+掺和	chan;ju; he;uo;	438
+掺和	can;ju; huo;uo;	438
+掺和	can;ju; he;uo;	438
+称职	chen;uf; zhi;df;	90
+称职	cheng;uf; zhi;df;	90
+螺蛳粉	luo;ff; si;fy; fen;li,lu;	645
+螺蛳粉	luo;ff; shi;fy; fen;li,lu;	645
+调换	diao;co; huan;jx,je;	616
+调换	tiao;co; huan;jx,je;	616
+太行山	tai;xh; hang;hj,hp; shan;pp;	390
+太行山	tai;xh; xing;hj,hp; shan;pp;	390
+歇斯底里	xie;ve; si;vp; di;rh; li;vg;	883
+歇斯底里	jie;ve; si;vp; di;rh; li;vg;	883
+暖和	nuan;vl; huo;uo;	743
+暖和	nuan;vl; he;uo;	743
+模棱两可	mo;wx; leng;wj; liang;de; ke;jj;	848
+模棱两可	mo;wx; ling;wj; liang;de; ke;jj;	848
+鄱阳湖	po;hb; yang;bv; hu;kl;	1336
+鄱阳湖	pan;hb; yang;bv; hu;kl;	1336
+脖颈	bo;la; geng;rm;	483
+脖颈	bo;la; jing;rm;	483
+脖颈儿	bo;la; geng;rm; er;kk;	1
+脖颈儿	bo;la; jing;rm; er;kk;	1
+结扎	jie;eo; za;jr;	126
+结扎	jie;eo; zha;jr;	126
+海参崴	hai;kh; shen;pu; wai;ph;	304
+海参崴	hai;kh; shen;pu; wei;ph;	304
+厚朴	hou;ra; po;wh;	52
+厚朴	hou;ra; pu;wh;	52
+大宛马	da;xx; yuan;it; ma;zz;	9
+大宛马	da;xx; wan;it; ma;zz;	9
+龇牙	zi;ra; ya;du;	62
+龇牙	ci;ra; ya;du;	62
+龇着牙	zi;ra; zhe;fs; ya;du;	14
+龇着牙	ci;ra; zhe;fs; ya;du;	14
+龇牙咧嘴	zi;ra; ya;du; lie;oi; zui;op;	166
+龇牙咧嘴	ci;ra; ya;du; lie;oi; zui;op;	166
+头皮屑	tou;hx; pi;rl; xie;ql;	525
+头皮屑	tou;hx; pi;rl; xue;ql;	525
+六安	lu;if; an;iy;	110
+六安	liu;if; an;iy;	110
+六安县	lu;if; an;iy; xian;pp;	3
+六安县	liu;if; an;iy; xian;pp;	3
+六安市	lu;if; an;iy; shi;iy;	23
+六安市	liu;if; an;iy; shi;iy;	23
+六合区	lu;if; he;eo; qu;dr;	3
+六合区	liu;if; he;eo; qu;dr;	3
+安徽六安	an;iy; hui;hj; lu;if; an;iy;	16
+安徽六安	an;iy; hui;hj; liu;if; an;iy;	16
+安徽六安市	an;iy; hui;hj; lu;if; an;iy; shi;iy;	3
+安徽六安市	an;iy; hui;hj; liu;if; an;iy; shi;iy;	3
+安徽省六安市	an;iy; hui;hj; sheng;ps; lu;if; an;iy; shi;iy;	8
+安徽省六安市	an;iy; hui;hj; sheng;ps; liu;if; an;iy; shi;iy;	8
+南京六合	nan;ss,sp; jing;if; lu;if; he;eo;	5
+南京六合	nan;ss,sp; jing;if; liu;if; he;eo;	5
+南京六合区	nan;ss,sp; jing;if; lu;if; he;eo; qu;dr;	1
+南京六合区	nan;ss,sp; jing;if; liu;if; he;eo; qu;dr;	1
+南京市六合区	nan;ss,sp; jing;if; shi;iy; lu;if; he;eo; qu;dr;	2
+南京市六合区	nan;ss,sp; jing;if; shi;iy; liu;if; he;eo; qu;dr;	2
+偌大	ruo;xo; da;xx;	680
+偌大	nuo;xo; da;xx;	680
+饮鸩止渴	yin;ge; zhen;ic; zhi;rr; ke;kr;	336
+饮鸩止渴	yin;ge; jiu;ic; zhi;rr; ke;kr;	336
+饮鸩解渴	yin;ge; zhen;ic; jie;gb; ke;kr;	0
+饮鸩解渴	yin;ge; jiu;ic; jie;gb; ke;kr;	0
 ### 错字
-曾经	ceng;fv;ob,bo;ho;bo; jing;ep;sg;iu;sg;	39759
-曾今	ceng;fv;ob,bo;ho;bo; jin;er;ra,rv;ja;rv;	105
-按捺	an;jy;fa;ub;fn; na;jf;fn;uf;fx;	127
-按耐	an;jy;fa;ub;fn; nai;ek;ce;lk;ec;	8
-按捺不住	an;jy;fa;ub;fn; na;jf;fn;uf;fx; bu;dh;ad,ax;cb;ad; zhu;xa,xg;rv;jn;rv;	345
-按耐不住	an;jy;fa;ub;fn; nai;ek;ce;lk;ec; bu;dh;ad,ax;cb;ad; zhu;xa,xg;rv;jn;rv;	0
-别价	bie;oi;dl;dp;kd; jie;xp;rj;jp;rl;	1
-别介	bie;oi;dl;dp;kd; jie;ep;ra,rd;jp;rl;	31
-甭价	beng;dp;by;ct;by; jie;xp;rj;jp;rl;	0
-甭介	beng;dp;by;ct;by; jie;ep;ra,rd;jp;rl;	0
-血脉贲张	xue;ud,ua;pa,pm;ta;pm; mai;lh,lo;oy;vk;oy; ben;sm;bh;no;ur; zhang;rh;gi;bp;gi;	49
-血脉偾张	xue;ud,ua;pa,pm;ta;pm; mai;lh,lo;oy;vk;oy; fen;xm;rb;jo;rr; zhang;rh;gi;bp;gi;	0
-血脉喷张	xue;ud,ua;pa,pm;ta;pm; mai;lh,lo;oy;vk;oy; pen;om;kb;do;kr; zhang;rh;gi;bp;gi;	0
-契诃夫	qi;ax;dd;am;fd; he;cj;yk;sz;yk; fu;ee;ad,er;hf;an;	437
-契科夫	qi;ax;dd;am;fd; ke;uh,us;hd;xj;hu; fu;ee;ad,er;hf;an;	0
-凑合	cou;fx;dz;wm;dt; he;eo;rk;jd;rk;	1809
-凑活	cou;fx;dz;wm;dt; huo;ko;du;ka;dk;	246
-巨惠	ju;dr;kk,aa;nn;ka; hui;dn;xh,hx;nh;ax;	0
-钜惠	ju;dr;jj;zn;jj; hui;dn;xh,hx;nh;ax;	0
-摩羯座	mo;do,dp,rp;mu,um;zu;gu; jie;fr;yh;gf;yv; zuo;rg;gz;xg;gt;	107
-魔蝎座	mo;ds,rs,rp,dp;gm,mg;za;gg; xie;fr;ih;cf;iv; zuo;rg;gz;xg;gt;	0
+曾经	ceng;fv; jing;ep;	39759
+曾今	ceng;fv; jin;er;	105
+按捺	an;jy; na;jf;	127
+按耐	an;jy; nai;ek;	8
+按捺不住	an;jy; na;jf; bu;dh; zhu;xa,xg;	345
+按耐不住	an;jy; nai;ek; bu;dh; zhu;xa,xg;	0
+别价	bie;oi; jie;xp;	1
+别介	bie;oi; jie;ep;	31
+甭价	beng;dp; jie;xp;	0
+甭介	beng;dp; jie;ep;	0
+血脉贲张	xue;ud,ua; mai;lh,lo; ben;sm; zhang;rh;	49
+血脉偾张	xue;ud,ua; mai;lh,lo; fen;xm; zhang;rh;	0
+血脉喷张	xue;ud,ua; mai;lh,lo; pen;om; zhang;rh;	0
+契诃夫	qi;ax; he;cj; fu;ee;	437
+契科夫	qi;ax; ke;uh,us; fu;ee;	0
+凑合	cou;fx; he;eo;	1809
+凑活	cou;fx; huo;ko;	246
+巨惠	ju;dr; hui;dn;	0
+钜惠	ju;dr; hui;dn;	0
+摩羯座	mo;do,dp,rp; jie;fr; zuo;rg;	107
+魔蝎座	mo;ds,rs,rp,dp; xie;fr; zuo;rg;	0
 ##### 叠字
 # 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
 # 二叠字
-两个火	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; huo;tt;dd;ch;dr;	0
-两个土	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; tu;gg;aa;gt;ua;	0
-两个一	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yi;dd;aa;fi;aa;	0
-两个二	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; er;uu;aa;me;aa;	0
-两个山	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shan;pp;aa;vs;lk;	0
-两个口	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; kou;oo;aa;dk;la;	0
-两个田	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; tian;ww;aa;qt;ku;	0
-两个九	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; jiu;ur;py;kj;pv;	0
-两个人	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ren;ee;pd;jr;pn;	18484
-两个飞	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; fei;rh;yd;cf;vd;	0
-两个戈	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ge;dh,aa,ha;ad;pg;ad;	0
-两个厶	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; si;;ad,si,vd;ks;;	0
-两个厶	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; mou;;ad,si,vd;ks;;	0
-两个又	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; you;ll;vd,ad;ry;vn;	0
-两个香	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xiang;uv;ho;xo;ho;	0
-两个面	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; mian;dd,du;aa;bm;aa;	0
-两个兀	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; wu;dk;ae,ag,wu;fp;ae;	0
-两个女	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; nv;yy;aa,vh;bn;va;	0
-两个𡥦	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ni;;zz;hh;;	0
-两个臣	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; chen;dr;aa,ka;qc;kl;	0
-两个巾	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; jin;yy;aa;rj;ll;	0
-两个左	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zuo;sp;gu,ug;nu;ug;	0
-两个母	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; mu;rh;ad,vd;km;vd;	0
-两个来	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; lai;uf,ef,dl;am,wb;ah;an;	0
-两个凡	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; fan;ih;dj,jd;oi;jd;	0
-两个夕	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xi;ff;pd;lx;pd;	0
-两个彐	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ji;;aa,vh,xt;bj;;	0
-两个𢎘	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; han;;;nm;;	0
-两个魚	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yu;;dh;wv;;	0
-两个明	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ming;vl;oo;ov;oo;	0
-两个朿	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ci;;ad,mk;em;;	0
-两个乂	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yi;yy;pd,yi;bi;pn;	0
-两个曰	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yue;vv;aa,oy,yt;or;ka;	0
-两个尸	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shi;qq;ap,kp,vp;cs;vp;	0
-两个户	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; hu;qq;dp,du;mh;du;	0
-两个大	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; da;xx;ad;md;un;	541
-两个八	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ba;ff;pd;hb;pn;	12
-两个而	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; er;ee;aa;le;al;	0
-两个羊	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yang;fp;da;gy;bl;	0
-两个吉	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ji;go;ku,uk;gd;uk;	0
-两个马	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ma;zz;aa,vh;nm;va;	0
-两个卅	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; sa;sp,ud;aa,ia;ls;al;	0
-两个巛	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; chuan;;aa,vv;oc;;	0
-两个止	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zhi;rr;aa;si;la;	0
-两个比	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; bi;aa;bb;vv;bb;	0
-两个言	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yan;cc,io;da,dk,wk;sy;wk;	0
-两个申	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shen;vp;aa,oa;og;ll;	0
-两个牛	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; niu;bb;pa;qn;pl;	0
-两个余	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yu;ef;rb,rd,rh;jx;rh;	0
-两个束	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shu;df;ad,mk;xs;an;	0
-两个罒	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; mu;;aa,si;ys;;	0
-两个㐅	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; wu;;pd;bi;;	0
-两个金	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; jin;ed,ef;ra,pa;zj;ra;	0
-两个木	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; mu;ww;ad;em;an,un;	0
-两个水	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shui;oo;ad,uv;ks;ln;	0
-两个風	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; feng;;ji;oc;;	0
-两个石	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shi;tt;kp,aa,ak,pk;ms;ak;	0
-两个日	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ri;vv;aa,or,ri;or;ka;	0
-两个月	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yue;ll;oy,pa,yt;vy;ka;	7342
-两个目	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; mu;ss;aa,om,mu;qm;ka;	0
-两个白	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; bai;ss;pa,po;ub;po;	0
-两个百	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; bai;ds;ab;fu;ab;	0
-两个耳	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; er;dd,du;aa;qe;aa;	0
-两个屮	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; che;;aa,ck;sc;;	0
-两个屮	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; cao;;aa,ck;sc;;	0
-两个廿	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; nian;vv;aa,ck;ln;aa,ca;	0
-两个卄	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; nian;;aa,ck;lc;;	0
-两个虫	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; chong;ff;ad,vd;cc;vd;	0
-两个虎	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; hu;pi;hj;zh;hj;	0
-两个龍	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; long;bu;dg,lg;tl;;	0
-两个馬	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ma;;ah;nm;;	0
-两个犬	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; quan;bb,xh;dd,ad;mq;dd;	0
-两个入	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ru;ee;pd;ju;pn;	0
-两个习	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xi;dd;ga;zx;vd;	0
-两个卪	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; jie;;ed;zj;;	0
-两个㔾	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; jie;;aa;zj;;	0
-两个几	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ji;ii;py;oj;pv;	0
-两个乙	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yi;rr;aa,vv,yy;ai;vv;	0
-两个夫	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; fu;ee;ad,er;hf;an;	0
-两个禾	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; he;uw,sf;pd,pm;xh;pm,qn;	0
-两个干	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; gan;ss;aa;eg;au;	0
-两个井	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; jing;up;aa,ep;qj;al;	0
-两个斤	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; jin;up;pa;tj;pl;	0
-两个片	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; pian;ii,ur;pa,pv;ap;pv;	0
-两个牙	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ya;du;ap;ly;ap;	0
-两个炎	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yan;tt;hh;cc;hh;	0
-两个弓	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; gong;rr;ag,vg;bg;vv;	0
-两个永	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yong;hh;dd;ik;dn;	0
-两个亦	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yi;ih,ii,if;wb,wy,dd;zc;wd;	0
-两个手	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shou;up;pa,ub;us;pl;	0
-两个毛	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; mao;ur,ua;pg;vm;pv;	0
-两个王	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; wang;aa;aa;nw;at;	0
-两个男	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; nan;wu;tl;qs;tl;	0
-两个支	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zhi;sl;uy;ci;uy;	0
-两个隻	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zhi;;vy,yv;ur;;	0
-两个古	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; gu;so;uk;cg;uk;	0
-两个舌	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; she;so;qk;as;qk;	0
-两个启	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; qi;qo;hk,kh;md;hk;	0
-两个來	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; lai;;ad,mc,mr;ej;;	0
-两个桼	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; qi;;mu;ek;;	0
-两个旡	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ji;;ag;du;;	0
-两个歹	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; dai;ff;ad,ax;gd;ax;	0
-两个匕	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; bi;aa;pg;vb;pv;	0
-两个幺	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yao;rp;ad,as,vd,vs;iy;vs;	0
-两个玄	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xuan;ip;wy;zi;wy;	0
-两个心	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xin;nn;dd;hx;dd;	0
-两个力	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; li;uu;gp;sl;vp;	0
-两个欠	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; qian;ge;dr;eq;dr;	0
-两个子	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zi;aa;aa,vh;hi;va;	0
-两个予	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yu;pp;sa,aa;iv;sl;	0
-两个享	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xiang;ia;wz,zk;gh;wz;	0
-两个立	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; li;bb;da;il;wa;	0
-两个音	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yin;cc,bv;lo;xy;lo;	0
-两个竟	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; jing;bk,ck;le;xp;le;	0
-两个竞	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; jing;bk;lx;ip;le;	0
-两个兄	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xiong;ok;ke;dp;ke;	0
-两个見	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; jian;;oe;ej;;	0
-两个貝	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; bei;;ad,ob;ob;;	0
-两个辛	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xin;bs;lu;nx;lu;	0
-两个瓜	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; gua;uh;pd;yg;pn;	0
-两个呆	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; dai;ow;km;de;km;	0
-两个果	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; guo;vw;ad,tm;qe;ln;	0
-两个鸟	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; niao;cc;na,pa;xn;pa,wd;	0
-两个巢	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; chao;rw;ig;oe;vg;	0
-两个禺	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yu;vh;ad,od;qv;ld;	0
-两个巿	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; fu;;aa,aj;fr;;	0
-两个句	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ju;ii;gk,kg,pk;gj;bk;	0
-两个奇	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; qi;xj;dk;mz;dk;	0
-两个真	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zhen;sf;uj;nh;ub;	0
-两个尹	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yin;ru,su;ap,vp;bt;vp;	0
-两个昔	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xi;zv;co,oc;lo;co;	0
-两个易	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yi;vi;ow;oe;ow;	0
-两个先	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xian;bk;ne,en;qp;ne;	0
-两个老	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; lao;ga;bl,lb;ql;lb;	0
-两个示	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shi;uf;ex,ad;fs;ex;	0
-两个至	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zhi;dg;tv,vt;yi;at;	0
-两个生	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; sheng;eg;na;ls;pf;	0
-两个車	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; che;ds;aa;yc;;	0
-两个車	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; ju;ds;aa;yc;;	0
-两个足	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zu;gg;kv;pu;kr;	0
-两个區	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; qu;;kp;nd;;	0
-两个隹	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zhui;xa,ea;pa,rv;ui;rf;	0
-两个牟	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; mou;pb;sn;kq;sn;	0
-两个豕	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shi;dh;ad,ui;js;an;	0
-两个𠂢	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; pai;;pp;xt;;	0
-两个畐	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; fu;;at;fq;;	0
-两个㣇	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yi;;jj,jx;br;;	0
-两个邑	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yi;ot;kb;dm;kb;	0
-两个堯	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; yao;;tw,wy;gp;;	0
-两个秉	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; bing;sf;ha,pd;xb;pn;	0
-两个倉	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; cang;;rk;jd;;	0
-两个東	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; dong;;ad,mo;eo;;	0
-两个善	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; shan;fo;yk,ka,kq;gd;yk;	0
-两个僉	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; qian;;rc;jj;;	0
-两个齒	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; chi;;vk;lc;;	0
-两个喜	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; xi;go;uk;hd;uk;	0
-两个走	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; zou;qq,ge;tv;pz;tr;	0
-两个昌	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; chang;vv;oo;oo;oo;	0
-两个串	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; chuan;op;aa,vv;dg;ll;	0
-两个米	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; mi;ll;dd;pm;dm;	0
-两个隶	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; li;ro,so;ad,vd,vu,yd;bk;vn;	0
-两个不	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; bu;dh;ad,ax;cb;ad;	0
-两个龙	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; long;sh;ad;tl;ud;	0
-两个乞	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; qi;er;py,ry,yr;ea;pv;	0
-两个夋	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; qun;;sw,wb;kh;;	0
-两个天	liang;de;ad;ml;ad; ge;ep;ra,pa;jg;rl; tian;ue;ad;fm;ad;	0
+两个火	liang;de; ge;ep; huo;tt;	0
+两个土	liang;de; ge;ep; tu;gg;	0
+两个一	liang;de; ge;ep; yi;dd;	0
+两个二	liang;de; ge;ep; er;uu;	0
+两个山	liang;de; ge;ep; shan;pp;	0
+两个口	liang;de; ge;ep; kou;oo;	0
+两个田	liang;de; ge;ep; tian;ww;	0
+两个九	liang;de; ge;ep; jiu;ur;	0
+两个人	liang;de; ge;ep; ren;ee;	18484
+两个飞	liang;de; ge;ep; fei;rh;	0
+两个戈	liang;de; ge;ep; ge;dh,aa,ha;	0
+两个厶	liang;de; ge;ep; si;;	0
+两个厶	liang;de; ge;ep; mou;;	0
+两个又	liang;de; ge;ep; you;ll;	0
+两个香	liang;de; ge;ep; xiang;uv;	0
+两个面	liang;de; ge;ep; mian;dd,du;	0
+两个兀	liang;de; ge;ep; wu;dk;	0
+两个女	liang;de; ge;ep; nv;yy;	0
+两个𡥦	liang;de; ge;ep; ni;;	0
+两个臣	liang;de; ge;ep; chen;dr;	0
+两个巾	liang;de; ge;ep; jin;yy;	0
+两个左	liang;de; ge;ep; zuo;sp;	0
+两个母	liang;de; ge;ep; mu;rh;	0
+两个来	liang;de; ge;ep; lai;uf,ef,dl;	0
+两个凡	liang;de; ge;ep; fan;ih;	0
+两个夕	liang;de; ge;ep; xi;ff;	0
+两个彐	liang;de; ge;ep; ji;;	0
+两个𢎘	liang;de; ge;ep; han;;	0
+两个魚	liang;de; ge;ep; yu;;	0
+两个明	liang;de; ge;ep; ming;vl;	0
+两个朿	liang;de; ge;ep; ci;;	0
+两个乂	liang;de; ge;ep; yi;yy;	0
+两个曰	liang;de; ge;ep; yue;vv;	0
+两个尸	liang;de; ge;ep; shi;qq;	0
+两个户	liang;de; ge;ep; hu;qq;	0
+两个大	liang;de; ge;ep; da;xx;	541
+两个八	liang;de; ge;ep; ba;ff;	12
+两个而	liang;de; ge;ep; er;ee;	0
+两个羊	liang;de; ge;ep; yang;fp;	0
+两个吉	liang;de; ge;ep; ji;go;	0
+两个马	liang;de; ge;ep; ma;zz;	0
+两个卅	liang;de; ge;ep; sa;sp,ud;	0
+两个巛	liang;de; ge;ep; chuan;;	0
+两个止	liang;de; ge;ep; zhi;rr;	0
+两个比	liang;de; ge;ep; bi;aa;	0
+两个言	liang;de; ge;ep; yan;cc,io;	0
+两个申	liang;de; ge;ep; shen;vp;	0
+两个牛	liang;de; ge;ep; niu;bb;	0
+两个余	liang;de; ge;ep; yu;ef;	0
+两个束	liang;de; ge;ep; shu;df;	0
+两个罒	liang;de; ge;ep; mu;;	0
+两个㐅	liang;de; ge;ep; wu;;	0
+两个金	liang;de; ge;ep; jin;ed,ef;	0
+两个木	liang;de; ge;ep; mu;ww;	0
+两个水	liang;de; ge;ep; shui;oo;	0
+两个風	liang;de; ge;ep; feng;;	0
+两个石	liang;de; ge;ep; shi;tt;	0
+两个日	liang;de; ge;ep; ri;vv;	0
+两个月	liang;de; ge;ep; yue;ll;	7342
+两个目	liang;de; ge;ep; mu;ss;	0
+两个白	liang;de; ge;ep; bai;ss;	0
+两个百	liang;de; ge;ep; bai;ds;	0
+两个耳	liang;de; ge;ep; er;dd,du;	0
+两个屮	liang;de; ge;ep; che;;	0
+两个屮	liang;de; ge;ep; cao;;	0
+两个廿	liang;de; ge;ep; nian;vv;	0
+两个卄	liang;de; ge;ep; nian;;	0
+两个虫	liang;de; ge;ep; chong;ff;	0
+两个虎	liang;de; ge;ep; hu;pi;	0
+两个龍	liang;de; ge;ep; long;bu;	0
+两个馬	liang;de; ge;ep; ma;;	0
+两个犬	liang;de; ge;ep; quan;bb,xh;	0
+两个入	liang;de; ge;ep; ru;ee;	0
+两个习	liang;de; ge;ep; xi;dd;	0
+两个卪	liang;de; ge;ep; jie;;	0
+两个㔾	liang;de; ge;ep; jie;;	0
+两个几	liang;de; ge;ep; ji;ii;	0
+两个乙	liang;de; ge;ep; yi;rr;	0
+两个夫	liang;de; ge;ep; fu;ee;	0
+两个禾	liang;de; ge;ep; he;uw,sf;	0
+两个干	liang;de; ge;ep; gan;ss;	0
+两个井	liang;de; ge;ep; jing;up;	0
+两个斤	liang;de; ge;ep; jin;up;	0
+两个片	liang;de; ge;ep; pian;ii,ur;	0
+两个牙	liang;de; ge;ep; ya;du;	0
+两个炎	liang;de; ge;ep; yan;tt;	0
+两个弓	liang;de; ge;ep; gong;rr;	0
+两个永	liang;de; ge;ep; yong;hh;	0
+两个亦	liang;de; ge;ep; yi;ih,ii,if;	0
+两个手	liang;de; ge;ep; shou;up;	0
+两个毛	liang;de; ge;ep; mao;ur,ua;	0
+两个王	liang;de; ge;ep; wang;aa;	0
+两个男	liang;de; ge;ep; nan;wu;	0
+两个支	liang;de; ge;ep; zhi;sl;	0
+两个隻	liang;de; ge;ep; zhi;;	0
+两个古	liang;de; ge;ep; gu;so;	0
+两个舌	liang;de; ge;ep; she;so;	0
+两个启	liang;de; ge;ep; qi;qo;	0
+两个來	liang;de; ge;ep; lai;;	0
+两个桼	liang;de; ge;ep; qi;;	0
+两个旡	liang;de; ge;ep; ji;;	0
+两个歹	liang;de; ge;ep; dai;ff;	0
+两个匕	liang;de; ge;ep; bi;aa;	0
+两个幺	liang;de; ge;ep; yao;rp;	0
+两个玄	liang;de; ge;ep; xuan;ip;	0
+两个心	liang;de; ge;ep; xin;nn;	0
+两个力	liang;de; ge;ep; li;uu;	0
+两个欠	liang;de; ge;ep; qian;ge;	0
+两个子	liang;de; ge;ep; zi;aa;	0
+两个予	liang;de; ge;ep; yu;pp;	0
+两个享	liang;de; ge;ep; xiang;ia;	0
+两个立	liang;de; ge;ep; li;bb;	0
+两个音	liang;de; ge;ep; yin;cc,bv;	0
+两个竟	liang;de; ge;ep; jing;bk,ck;	0
+两个竞	liang;de; ge;ep; jing;bk;	0
+两个兄	liang;de; ge;ep; xiong;ok;	0
+两个見	liang;de; ge;ep; jian;;	0
+两个貝	liang;de; ge;ep; bei;;	0
+两个辛	liang;de; ge;ep; xin;bs;	0
+两个瓜	liang;de; ge;ep; gua;uh;	0
+两个呆	liang;de; ge;ep; dai;ow;	0
+两个果	liang;de; ge;ep; guo;vw;	0
+两个鸟	liang;de; ge;ep; niao;cc;	0
+两个巢	liang;de; ge;ep; chao;rw;	0
+两个禺	liang;de; ge;ep; yu;vh;	0
+两个巿	liang;de; ge;ep; fu;;	0
+两个句	liang;de; ge;ep; ju;ii;	0
+两个奇	liang;de; ge;ep; qi;xj;	0
+两个真	liang;de; ge;ep; zhen;sf;	0
+两个尹	liang;de; ge;ep; yin;ru,su;	0
+两个昔	liang;de; ge;ep; xi;zv;	0
+两个易	liang;de; ge;ep; yi;vi;	0
+两个先	liang;de; ge;ep; xian;bk;	0
+两个老	liang;de; ge;ep; lao;ga;	0
+两个示	liang;de; ge;ep; shi;uf;	0
+两个至	liang;de; ge;ep; zhi;dg;	0
+两个生	liang;de; ge;ep; sheng;eg;	0
+两个車	liang;de; ge;ep; che;ds;	0
+两个車	liang;de; ge;ep; ju;ds;	0
+两个足	liang;de; ge;ep; zu;gg;	0
+两个區	liang;de; ge;ep; qu;;	0
+两个隹	liang;de; ge;ep; zhui;xa,ea;	0
+两个牟	liang;de; ge;ep; mou;pb;	0
+两个豕	liang;de; ge;ep; shi;dh;	0
+两个𠂢	liang;de; ge;ep; pai;;	0
+两个畐	liang;de; ge;ep; fu;;	0
+两个㣇	liang;de; ge;ep; yi;;	0
+两个邑	liang;de; ge;ep; yi;ot;	0
+两个堯	liang;de; ge;ep; yao;;	0
+两个秉	liang;de; ge;ep; bing;sf;	0
+两个倉	liang;de; ge;ep; cang;;	0
+两个東	liang;de; ge;ep; dong;;	0
+两个善	liang;de; ge;ep; shan;fo;	0
+两个僉	liang;de; ge;ep; qian;;	0
+两个齒	liang;de; ge;ep; chi;;	0
+两个喜	liang;de; ge;ep; xi;go;	0
+两个走	liang;de; ge;ep; zou;qq,ge;	0
+两个昌	liang;de; ge;ep; chang;vv;	0
+两个串	liang;de; ge;ep; chuan;op;	0
+两个米	liang;de; ge;ep; mi;ll;	0
+两个隶	liang;de; ge;ep; li;ro,so;	0
+两个不	liang;de; ge;ep; bu;dh;	0
+两个龙	liang;de; ge;ep; long;sh;	0
+两个乞	liang;de; ge;ep; qi;er;	0
+两个夋	liang;de; ge;ep; qun;;	0
+两个天	liang;de; ge;ep; tian;ue;	0
 # 三叠字
-三个生	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; sheng;eg;na;ls;pf;	0
-三个秦	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; qin;uf,uw;hf,fh;ax;fh;	0
-三个若	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ruo;zo;cy;ld;ck;	0
-三个雲	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yun;;yy;tb;;	0
-三个人	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ren;ee;pd;jr;pn;	4260
-三个刀	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; dao;ii,ru;gp,pg;pd;vp;	0
-三个十	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shi;ss;aa;ns;al;	1
-三个力	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; li;uu;gp;sl;vp;	0
-三个原	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yuan;rf;ix;xy;ix;	0
-三个厶	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; si;;ad,si,vd;ks;;	0
-三个厶	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; mou;;ad,si,vd;ks;;	0
-三个又	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; you;ll;vd,ad;ry;vn;	0
-三个口	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; kou;oo;aa;dk;la;	5
-三个七	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; qi;aa;ag;rq;av;	0
-三个吉	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ji;go;ku,uk;gd;uk;	0
-三个土	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; tu;gg;aa;gt;ua;	0
-三个士	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shi;gg;aa;gs;ua;	0
-三个女	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; nv;yy;aa,vh;bn;va;	0
-三个子	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; zi;aa;aa,vh;hi;va;	0
-三个小	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; xiao;pf;ad;yx;ld;	0
-三个心	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; xin;nn;dd;hx;dd;	0
-三个手	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shou;up;pa,ub;us;pl;	0
-三个日	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ri;vv;aa,or,ri;or;ka;	0
-三个木	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; mu;ww;ad;em;an,un;	0
-三个止	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; zhi;rr;aa;si;la;	0
-三个毛	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; mao;ur,ua;pg;vm;pv;	0
-三个水	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shui;oo;ad,uv;ks;ln;	0
-三个泉	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; quan;so;bu,ub;uk;bu;	0
-三个火	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; huo;tt;dd;ch;dr;	0
-三个牛	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; niu;bb;pa;qn;pl;	0
-三个犬	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; quan;bb,xh;dd,ad;mq;dd;	0
-三个田	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; tian;ww;aa;qt;ku;	0
-三个白	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; bai;ss;pa,po;ub;po;	0
-三个目	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; mu;ss;aa,om,mu;qm;ka;	0
-三个直	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; zhi;sd,su;aa,uq;nf;uq;	0
-三个石	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shi;tt;kp,aa,ak,pk;ms;ak;	0
-三个羊	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yang;fp;da;gy;bl;	0
-三个耳	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; er;dd,du;aa;qe;aa;	0
-三个舌	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; she;so;qk;as;qk;	0
-三个屮	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; che;;aa,ck;sc;;	0
-三个屮	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; cao;;aa,ck;sc;;	0
-三个虫	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; chong;ff;ad,vd;cc;vd;	0
-三个言	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yan;cc,io;da,dk,wk;sy;wk;	0
-三个贝	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; bei;mm;ad,kr;ob;kr;	0
-三个車	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; che;ds;aa;yc;;	0
-三个金	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; jin;ed,ef;ra,pa;zj;ra;	0
-三个隹	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; zhui;xa,ea;pa,rv;ui;rf;	0
-三个雷	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; lei;yw;yt;tq;yt;	0
-三个風	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; feng;;ji;oc;;	0
-三个飛	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; fei;;ff,yd;cf;;	0
-三个香	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; xiang;uv;ho;xo;ho;	0
-三个马	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ma;zz;aa,vh;nm;va;	0
-三个魚	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yu;;dh;wv;;	0
-三个鹿	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; lu;ra;gb,lb;xl;gb;	0
-三个龍	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; long;bu;dg,lg;tl;;	0
-三个个	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ge;ep;ra,pa;jg;rl;	0
-三个丶	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; zhu;;dd,dm;id;;	0
-三个丶	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; dian;;dd,dm;id;;	0
-三个了	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; le;rp;aa,vu;rl;vl;	0
-三个介	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; jie;ep;ra,rd;jp;rl;	0
-三个企	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; qi;er;rv;js;rv;	0
-三个舍	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; she;eo;ru;ja;rk;	0
-三个圥	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; lu;;te,uw;gp;;	0
-三个光	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; guang;hk;ea,xw;mg;xw;	0
-三个兔	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; tu;gh;dd;wt;dd;	0
-三个全	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; quan;ea;rw;jn;rw;	0
-三个𠙽	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; kuai;;ku;gm;;	0
-三个𠧪	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; tiao;;br;yj;;	0
-三个𠧪	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; you;;br;yj;;	0
-三个㔾	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; jie;;aa;zj;;	0
-三个厡	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yuan;;iq;xk;;	0
-三个可	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ke;jj;dk;zk;dk;	0
-三个因	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yin;nx;kd;rm;kd;	0
-三个夏	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; xia;dj;wz,aw;fh;aw;	0
-三个大	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; da;xx;ad;md;un;	0
-三个天	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; tian;ue;ad;fm;ad;	0
-三个太	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; tai;xh;dd;mi;dd;	0
-三个𦉼	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ku;;sd;ym;;	0
-三个宝	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; bao;ia,ih;by;wi;by;	0
-三个宜	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yi;iu;bq;wf;bq;	0
-三个客	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ke;io;bg;ws;bk;	0
-三个寒	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; han;ih;bd;ww;bd;	0
-三个少	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shao;pu;xp;yt;xp;	0
-三个山	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shan;pp;aa;vs;lk;	0
-三个市	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shi;iy;wj;zr;wj;	3
-三个文	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; wen;jj;wi,dd;vw;wx;	0
-三个斗	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; dou;hs,sh;du;jd;du;	0
-三个朿	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ci;;ad,mk;em;;	0
-三个束	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shu;df;ad,mk;xs;an;	0
-三个林	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; lin;ww;mm;ee;mm;	0
-三个果	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; guo;vw;ad,tm;qe;ln;	0
-三个欠	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; qian;ge;dr;eq;dr;	0
-三个𣥚	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; zou;;vy,yv;ts;;	0
-三个爪	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; zhao;uh;pd;ya;pn;	0
-三个妥	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; tuo;hy;vn;yb;pn;	0
-三个用	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yong;lp;kf;ty;kl;	0
-三个甲	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; jia;vp;aa,oa;sj;ll;	0
-三个百	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; bai;ds;ab;fu;ab;	0
-三个盖	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; gai;fd,fa;my,ym;ga;ym;	0
-三个県	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; xian;;ox;qy;;	0
-三个空	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; kong;ip;xg,bg;eu;bg;	0
-三个亇	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ge;;da,ra;xg;;	0
-三个竹	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; zhu;nn;gg;ru;gg,pl;	0
-三个罒	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; mu;;aa,si;ys;;	0
-三个羗	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; qiang;;qs,ys;gk;;	0
-三个老	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; lao;ga;bl,lb;ql;lb;	0
-三个月	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yue;ll;oy,pa,yt;vy;ka;	9003
-三个至	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; zhi;dg;tv,vt;yi;at;	0
-三个興	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; xing;;ba,jb,tb;ph;;	0
-三个足	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; zu;gg;kv;pu;kr;	0
-三个㖖	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; nie;;kx;nd;;	0
-三个門	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; men;;aa,vh,xa;am;;	0
-三个面	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; mian;dd,du;aa;bm;aa;	0
-三个頁	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ye;;ab;wy;;	0
-三个鳥	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; niao;;ph;xn;;	0
-三个男	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; nan;wu;tl;qs;tl;	0
-三个立	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; li;bb;da;il;wa;	0
-三个九	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; jiu;ur;py;kj;pv;	3
-三个也	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; ye;rr;gg;ey;vv;	0
-三个加	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; jia;uo;lk,kl;sd;lk;	0
-三个動	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; dong;;lv;ls;;	0
-三个千	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; qian;ss;pa;lq;pu;	0
-三个方	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; fang;ff;dg,wd,dp,dw;lf;dw;	0
-三个朔	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shuo;fl;on;hv;bo;	0
-三个玉	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; yu;ah,aa;ad,wd;ni;wd;	0
-三个申	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; shen;vp;aa,oa;og;ll;	0
-三个𡿨	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; quan;;;ae;;	0
-三个去	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; qu;gp;ts;gk;ts;	0
-三个弓	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; gong;rr;ag,vg;bg;vv;	0
-三个䖝	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; chong;;pi;tc;;	0
-三个丿	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; pie;;px;tp;;	0
-三个户	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; hu;qq;dp,du;mh;du;	0
-三个瓜	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; gua;uh;pd;yg;pn;	0
-三个鸟	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; niao;cc;na,pa;xn;pa,wd;	0
-三个米	san;uu;aa;ts;ae; ge;ep;ra,pa;jg;rl; mi;ll;dd;pm;dm;	0
+三个生	san;uu; ge;ep; sheng;eg;	0
+三个秦	san;uu; ge;ep; qin;uf,uw;	0
+三个若	san;uu; ge;ep; ruo;zo;	0
+三个雲	san;uu; ge;ep; yun;;	0
+三个人	san;uu; ge;ep; ren;ee;	4260
+三个刀	san;uu; ge;ep; dao;ii,ru;	0
+三个十	san;uu; ge;ep; shi;ss;	1
+三个力	san;uu; ge;ep; li;uu;	0
+三个原	san;uu; ge;ep; yuan;rf;	0
+三个厶	san;uu; ge;ep; si;;	0
+三个厶	san;uu; ge;ep; mou;;	0
+三个又	san;uu; ge;ep; you;ll;	0
+三个口	san;uu; ge;ep; kou;oo;	5
+三个七	san;uu; ge;ep; qi;aa;	0
+三个吉	san;uu; ge;ep; ji;go;	0
+三个土	san;uu; ge;ep; tu;gg;	0
+三个士	san;uu; ge;ep; shi;gg;	0
+三个女	san;uu; ge;ep; nv;yy;	0
+三个子	san;uu; ge;ep; zi;aa;	0
+三个小	san;uu; ge;ep; xiao;pf;	0
+三个心	san;uu; ge;ep; xin;nn;	0
+三个手	san;uu; ge;ep; shou;up;	0
+三个日	san;uu; ge;ep; ri;vv;	0
+三个木	san;uu; ge;ep; mu;ww;	0
+三个止	san;uu; ge;ep; zhi;rr;	0
+三个毛	san;uu; ge;ep; mao;ur,ua;	0
+三个水	san;uu; ge;ep; shui;oo;	0
+三个泉	san;uu; ge;ep; quan;so;	0
+三个火	san;uu; ge;ep; huo;tt;	0
+三个牛	san;uu; ge;ep; niu;bb;	0
+三个犬	san;uu; ge;ep; quan;bb,xh;	0
+三个田	san;uu; ge;ep; tian;ww;	0
+三个白	san;uu; ge;ep; bai;ss;	0
+三个目	san;uu; ge;ep; mu;ss;	0
+三个直	san;uu; ge;ep; zhi;sd,su;	0
+三个石	san;uu; ge;ep; shi;tt;	0
+三个羊	san;uu; ge;ep; yang;fp;	0
+三个耳	san;uu; ge;ep; er;dd,du;	0
+三个舌	san;uu; ge;ep; she;so;	0
+三个屮	san;uu; ge;ep; che;;	0
+三个屮	san;uu; ge;ep; cao;;	0
+三个虫	san;uu; ge;ep; chong;ff;	0
+三个言	san;uu; ge;ep; yan;cc,io;	0
+三个贝	san;uu; ge;ep; bei;mm;	0
+三个車	san;uu; ge;ep; che;ds;	0
+三个金	san;uu; ge;ep; jin;ed,ef;	0
+三个隹	san;uu; ge;ep; zhui;xa,ea;	0
+三个雷	san;uu; ge;ep; lei;yw;	0
+三个風	san;uu; ge;ep; feng;;	0
+三个飛	san;uu; ge;ep; fei;;	0
+三个香	san;uu; ge;ep; xiang;uv;	0
+三个马	san;uu; ge;ep; ma;zz;	0
+三个魚	san;uu; ge;ep; yu;;	0
+三个鹿	san;uu; ge;ep; lu;ra;	0
+三个龍	san;uu; ge;ep; long;bu;	0
+三个个	san;uu; ge;ep; ge;ep;	0
+三个丶	san;uu; ge;ep; zhu;;	0
+三个丶	san;uu; ge;ep; dian;;	0
+三个了	san;uu; ge;ep; le;rp;	0
+三个介	san;uu; ge;ep; jie;ep;	0
+三个企	san;uu; ge;ep; qi;er;	0
+三个舍	san;uu; ge;ep; she;eo;	0
+三个圥	san;uu; ge;ep; lu;;	0
+三个光	san;uu; ge;ep; guang;hk;	0
+三个兔	san;uu; ge;ep; tu;gh;	0
+三个全	san;uu; ge;ep; quan;ea;	0
+三个𠙽	san;uu; ge;ep; kuai;;	0
+三个𠧪	san;uu; ge;ep; tiao;;	0
+三个𠧪	san;uu; ge;ep; you;;	0
+三个㔾	san;uu; ge;ep; jie;;	0
+三个厡	san;uu; ge;ep; yuan;;	0
+三个可	san;uu; ge;ep; ke;jj;	0
+三个因	san;uu; ge;ep; yin;nx;	0
+三个夏	san;uu; ge;ep; xia;dj;	0
+三个大	san;uu; ge;ep; da;xx;	0
+三个天	san;uu; ge;ep; tian;ue;	0
+三个太	san;uu; ge;ep; tai;xh;	0
+三个𦉼	san;uu; ge;ep; ku;;	0
+三个宝	san;uu; ge;ep; bao;ia,ih;	0
+三个宜	san;uu; ge;ep; yi;iu;	0
+三个客	san;uu; ge;ep; ke;io;	0
+三个寒	san;uu; ge;ep; han;ih;	0
+三个少	san;uu; ge;ep; shao;pu;	0
+三个山	san;uu; ge;ep; shan;pp;	0
+三个市	san;uu; ge;ep; shi;iy;	3
+三个文	san;uu; ge;ep; wen;jj;	0
+三个斗	san;uu; ge;ep; dou;hs,sh;	0
+三个朿	san;uu; ge;ep; ci;;	0
+三个束	san;uu; ge;ep; shu;df;	0
+三个林	san;uu; ge;ep; lin;ww;	0
+三个果	san;uu; ge;ep; guo;vw;	0
+三个欠	san;uu; ge;ep; qian;ge;	0
+三个𣥚	san;uu; ge;ep; zou;;	0
+三个爪	san;uu; ge;ep; zhao;uh;	0
+三个妥	san;uu; ge;ep; tuo;hy;	0
+三个用	san;uu; ge;ep; yong;lp;	0
+三个甲	san;uu; ge;ep; jia;vp;	0
+三个百	san;uu; ge;ep; bai;ds;	0
+三个盖	san;uu; ge;ep; gai;fd,fa;	0
+三个県	san;uu; ge;ep; xian;;	0
+三个空	san;uu; ge;ep; kong;ip;	0
+三个亇	san;uu; ge;ep; ge;;	0
+三个竹	san;uu; ge;ep; zhu;nn;	0
+三个罒	san;uu; ge;ep; mu;;	0
+三个羗	san;uu; ge;ep; qiang;;	0
+三个老	san;uu; ge;ep; lao;ga;	0
+三个月	san;uu; ge;ep; yue;ll;	9003
+三个至	san;uu; ge;ep; zhi;dg;	0
+三个興	san;uu; ge;ep; xing;;	0
+三个足	san;uu; ge;ep; zu;gg;	0
+三个㖖	san;uu; ge;ep; nie;;	0
+三个門	san;uu; ge;ep; men;;	0
+三个面	san;uu; ge;ep; mian;dd,du;	0
+三个頁	san;uu; ge;ep; ye;;	0
+三个鳥	san;uu; ge;ep; niao;;	0
+三个男	san;uu; ge;ep; nan;wu;	0
+三个立	san;uu; ge;ep; li;bb;	0
+三个九	san;uu; ge;ep; jiu;ur;	3
+三个也	san;uu; ge;ep; ye;rr;	0
+三个加	san;uu; ge;ep; jia;uo;	0
+三个動	san;uu; ge;ep; dong;;	0
+三个千	san;uu; ge;ep; qian;ss;	0
+三个方	san;uu; ge;ep; fang;ff;	0
+三个朔	san;uu; ge;ep; shuo;fl;	0
+三个玉	san;uu; ge;ep; yu;ah,aa;	0
+三个申	san;uu; ge;ep; shen;vp;	0
+三个𡿨	san;uu; ge;ep; quan;;	0
+三个去	san;uu; ge;ep; qu;gp;	0
+三个弓	san;uu; ge;ep; gong;rr;	0
+三个䖝	san;uu; ge;ep; chong;;	0
+三个丿	san;uu; ge;ep; pie;;	0
+三个户	san;uu; ge;ep; hu;qq;	0
+三个瓜	san;uu; ge;ep; gua;uh;	0
+三个鸟	san;uu; ge;ep; niao;cc;	0
+三个米	san;uu; ge;ep; mi;ll;	0
 # 四叠字
-四个乂	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; yi;yy;pd,yi;bi;pn;	0
-四个人	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; ren;ee;pd;jr;pn;	2268
-四个厶	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; si;;ad,si,vd;ks;;	0
-四个厶	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; mou;;ad,si,vd;ks;;	0
-四个又	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; you;ll;vd,ad;ry;vn;	0
-四个匕	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; bi;aa;pg;vb;pv;	0
-四个工	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; gong;pp;aa;ug;aa;	0
-四个口	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; kou;oo;aa;dk;la;	0
-四个天	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; tian;ue;ad;fm;ad;	0
-四个小	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; xiao;pf;ad;yx;ld;	0
-四个屮	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; che;;aa,ck;sc;;	0
-四个屮	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; cao;;aa,ck;sc;;	0
-四个火	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; huo;tt;dd;ch;dr;	0
-四个牛	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; niu;bb;pa;qn;pl;	0
-四个魚	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; yu;;dh;wv;;	0
-四个月	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; yue;ll;oy,pa,yt;vy;ka;	1860
-四个日	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; ri;vv;aa,or,ri;or;ka;	0
-四个林	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; lin;ww;mm;ee;mm;	0
-四个水	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; shui;oo;ad,uv;ks;ln;	0
-四个石	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; shi;tt;kp,aa,ak,pk;ms;ak;	0
-四个田	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; tian;ww;aa;qt;ku;	0
-四个甲	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; jia;vp;aa,oa;sj;ll;	0
-四个且	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; qie;pd,pu;aa;fq;la;	0
-四个囚	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; qiu;ne;kr;rj;kr;	0
-四个困	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; kun;nw;km;re;km;	0
-四个竹	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; zhu;nn;gg;ru;gg,pl;	0
-四个老	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; lao;ga;bl,lb;ql;lb;	0
-四个朿	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; ci;;ad,mk;em;;	0
-四个先	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; xian;bk;ne,en;qp;ne;	0
-四个金	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; jin;ed,ef;ra,pa;zj;ra;	0
-四个泉	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; quan;so;bu,ub;uk;bu;	0
-四个言	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; yan;cc,io;da,dk,wk;sy;wk;	0
-四个門	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; men;;aa,vh,xa;am;;	0
-四个果	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; guo;vw;ad,tm;qe;ln;	0
-四个春	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; chun;uv;of,fo;ao;fo;	0
-四个車	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; che;ds;aa;yc;;	0
-四个風	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; feng;;ji;oc;;	0
-四个雷	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; lei;yw;yt;tq;yt;	0
-四个雲	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; yun;;yy;tb;;	0
-四个興	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; xing;;ba,jb,tb;ph;;	0
-四个龍	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; long;bu;dg,lg;tl;;	0
-四个土	si;nk;aa,ke;ys;ke; ge;ep;ra,pa;jg;rl; tu;gg;aa;gt;ua;	0
+四个乂	si;nk; ge;ep; yi;yy;	0
+四个人	si;nk; ge;ep; ren;ee;	2268
+四个厶	si;nk; ge;ep; si;;	0
+四个厶	si;nk; ge;ep; mou;;	0
+四个又	si;nk; ge;ep; you;ll;	0
+四个匕	si;nk; ge;ep; bi;aa;	0
+四个工	si;nk; ge;ep; gong;pp;	0
+四个口	si;nk; ge;ep; kou;oo;	0
+四个天	si;nk; ge;ep; tian;ue;	0
+四个小	si;nk; ge;ep; xiao;pf;	0
+四个屮	si;nk; ge;ep; che;;	0
+四个屮	si;nk; ge;ep; cao;;	0
+四个火	si;nk; ge;ep; huo;tt;	0
+四个牛	si;nk; ge;ep; niu;bb;	0
+四个魚	si;nk; ge;ep; yu;;	0
+四个月	si;nk; ge;ep; yue;ll;	1860
+四个日	si;nk; ge;ep; ri;vv;	0
+四个林	si;nk; ge;ep; lin;ww;	0
+四个水	si;nk; ge;ep; shui;oo;	0
+四个石	si;nk; ge;ep; shi;tt;	0
+四个田	si;nk; ge;ep; tian;ww;	0
+四个甲	si;nk; ge;ep; jia;vp;	0
+四个且	si;nk; ge;ep; qie;pd,pu;	0
+四个囚	si;nk; ge;ep; qiu;ne;	0
+四个困	si;nk; ge;ep; kun;nw;	0
+四个竹	si;nk; ge;ep; zhu;nn;	0
+四个老	si;nk; ge;ep; lao;ga;	0
+四个朿	si;nk; ge;ep; ci;;	0
+四个先	si;nk; ge;ep; xian;bk;	0
+四个金	si;nk; ge;ep; jin;ed,ef;	0
+四个泉	si;nk; ge;ep; quan;so;	0
+四个言	si;nk; ge;ep; yan;cc,io;	0
+四个門	si;nk; ge;ep; men;;	0
+四个果	si;nk; ge;ep; guo;vw;	0
+四个春	si;nk; ge;ep; chun;uv;	0
+四个車	si;nk; ge;ep; che;ds;	0
+四个風	si;nk; ge;ep; feng;;	0
+四个雷	si;nk; ge;ep; lei;yw;	0
+四个雲	si;nk; ge;ep; yun;;	0
+四个興	si;nk; ge;ep; xing;;	0
+四个龍	si;nk; ge;ep; long;bu;	0
+四个土	si;nk; ge;ep; tu;gg;	0
 
