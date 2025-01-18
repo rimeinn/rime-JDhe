@@ -7,6 +7,8 @@ version: "2025-01-16"
 sort: by_weight       # original 按原始顺序排序候选词 或 by_weight 按词频权重排序
 dict_grouped: false # 词库管理应用识别：标记该码表为分组模式
 ...
+# 此行之后不能写注释
+# no comment
 艾	aiz
 傲	aox
 岸	anp
