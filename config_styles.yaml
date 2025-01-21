@@ -40,7 +40,7 @@ patch:
 font_size_settings:
   style/font_point:         14                           # 全局字体字号
   style/label_font_point:   11                     # 标签字体字号
-  style/comment_font_point: 13                   # 注释字体字号
+  style/comment_font_point: 12                   # 注释字体字号
 
   # 字体设置
 font_face_settings:
