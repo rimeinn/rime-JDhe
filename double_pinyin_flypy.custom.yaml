@@ -17,14 +17,14 @@ patch:
   switches/+:   
     - name: ascii_mode
       reset: 0
-      states: [ 中, En ]
+      states: [ 中, En ]   
     - name: full_shape
       states: [ 半, 全 ]  # 符号
     - name: ascii_punct
       states: [ 。，, ．， ] # 中文标点，英文标点 
     - name: inflexible
       reset: 1    
-      states: [ 动词, 固词 ] # 「固詞」表示「固頂詞」
+#      states: [ 动词, 固词 ] # 「固詞」表示「固頂詞」註釋隱藏開關，請直接在此指定 reset
       # 默認情況下，輸入 4 碼時，會禁止碼表輸出（「動詞」模式）。
       # 這是因爲碼表最大碼長爲 4，可能會產生較低頻的多字詞，覆蓋過用戶自造的常用詞語。
       # 當固詞模式啓動後，輸入 4 碼時會優先輸出碼表中的二字詞，這些輸出帶有「⚡️」標記。
@@ -181,7 +181,7 @@ patch:
   # 自定义置顶词 自造词
   'engine/translators/@after 06': lua_translator@*moran_pin*panacea_translator
   # 替换掉雾凇版本自定义置顶词  （需配置 config_base 里的置顶词配置）
-  'engine/filters/@07': lua_filter@*moran_pin*pin_filter
+  'engine/filters/@08': lua_filter@*moran_pin*pin_filter
 
   # Lua 配置:  自定义置顶词 自造词 快捷键响应
     # 输入时通过快捷键 Ctrl+t 可以将高亮显示的候选置顶，被置顶的候选位置固定，不再参与调频
@@ -289,7 +289,7 @@ patch:
 
   # Lua 配置：Emoji 降频到第 idx 个位置
   emoji_reduce:                      
-    idx: 4
+    idx: 5
 
   # Lua 配置: 虎码三重注解 隐藏除反查外的显示
   spelling/tags: [ reverse_lookup, wanxiang_py_lookup, unicode, radical_lookup, tiger_lookup ]    

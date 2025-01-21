@@ -90,20 +90,20 @@ patch:
   - lua_filter@*charset_filter@charset_filter 
   # 部件拆字滤镜
   - reverse_lookup_filter@radical_reverse_lookup  
-  # 简繁切换
-  - simplifier@simplification                    
   # 拼音滤镜
   - simplifier@pinyin 
   # Emoji
   - simplifier@emoji   
+  # 降低emoji在候选的位置
+  - lua_filter@*reduce_emoji  
+  # 简繁切换
+  - simplifier@simplification                    
   # 英文自动大写
   - lua_filter@*autocap_filter                   
   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
   - lua_filter@*pin_cand_filter                  
   # 降低部分英语单词在候选项的位置
   - lua_filter@*reduce_english_filter  
-  # 降低emoji在候选的位置
-  - lua_filter@*reduce_emoji
   # 虎码拆字三重注解
   - lua_filter@*tiger/spelling_v2@spelling                            
   # 根据是否在用户词典，在 comment 上加上一个标记
@@ -129,7 +129,7 @@ patch:
   emoji:
     option_name: emoji
     opencc_config: emoji.json
-    tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+    tips: all               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
     tags: [ abc, encode, punct ]           # 设置其作用范围
     inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
 
