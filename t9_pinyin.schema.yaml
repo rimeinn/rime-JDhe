@@ -26,50 +26,6 @@ schema:
     - melt_eng  # 英文输入，作为次翻译器挂载到拼音方案
 
 
-engine:
-  processors:
-  # 快捷启动  
-    - lua_processor@*launcher*processor 
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor
-  translators:
-    - punct_translator
-    - script_translator
-    - lua_translator@date_translator  # 时间、日期、星期
-  # 快捷启动  
-    - lua_translator@*launcher*translator 
-    - table_translator@custom_phrase  # 自定义短语 custom_phrase_t9.txt
-   # - table_translator@melt_eng     # 英文输入
-  filters:
-  # 自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
-    - lua_filter@*tiger/charset_filter@charset_filter 
-    - simplifier@emoji                    # Emoji
-    - simplifier@simplification           # 简繁切换
-  # 降低emoji在候选的位置
-    - lua_filter@*reduce_emoji
-  # 特定条件 自动上屏
-    - lua_filter@*word_autocommit*filter  
-  # 快捷启动  
-    - lua_filter@*launcher*filter 
-  # 根据是否在用户词典，在 comment 上加上一个标记
-    - lua_filter@*is_in_user_dict
-   # 辅助码
-    - lua_filter@*auxCode_filter@tiger_aux_code
-    - uniquifier                          # 去重
-
-
 
 # Lua 配置:  辅助码
 axu_code:
@@ -87,8 +43,6 @@ translator:
   prism: t9
   spelling_hints: 0 # 初始100
   comment_format: []
-
-
 
 
 
@@ -364,3 +318,4 @@ speller:
     - derive/[xy]ue/983/
     - derive/zui/984/
     - derive/[xyz]un|zuo/986/
+    - xform/;.*$//   #空辅助码
