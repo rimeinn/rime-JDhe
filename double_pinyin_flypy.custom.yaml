@@ -261,7 +261,7 @@ patch:
 
 
   # Lua 配置: 自定义字集过滤 （影响范围）
-  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst, tiger_lookup, stroke_lookup ] 
+  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst, tiger_lookup ] 
 
   # Lua 配置：Emoji 降频到第 idx 个位置
   emoji_reduce:                      

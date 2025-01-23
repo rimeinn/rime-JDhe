@@ -176,7 +176,7 @@ patch:
 ##################################################
 
   # Lua 配置: 自定义字集过滤 （影响范围）
-  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst, double_pinyin_flypy, stroke_lookup ] 
+  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst, double_pinyin_flypy ] 
 
   # Lua 配置: 虎码三重注解 隐藏除反查外的显示
   spelling/tags: [ reverse_lookup, unicode, radical_lookup, stroke_lookup ]
