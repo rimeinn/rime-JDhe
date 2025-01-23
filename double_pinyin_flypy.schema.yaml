@@ -21,7 +21,7 @@ schema:
     雾凇拼音 <https://github.com/iDvel/rime-ice>
     白霜拼音 <https://github.com/gaboolic/rime-frost>
   dependencies:
-    - wanxiang_pinyin_dz   # 双拼虎形单字反查
+    - wanxiang_pinyin_dz   # 万象拼音单字反查
 
 switches:
   - name: ascii_mode
@@ -108,7 +108,7 @@ translator:
     - xform/([nl])v/$1ü/
 
 
-# 双拼虎形单字反查
+# 万象拼音反查
 reverse_lookup:
   dictionary: wanxiang_pinyin_dz
   prefix: "`"

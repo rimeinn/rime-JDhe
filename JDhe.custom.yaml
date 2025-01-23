@@ -117,7 +117,7 @@ patch:
   # 自定义置顶词 ctrl-t
   'engine/translators/@after 07': lua_translator@*jdh/pin_word*translator
   # 替换掉雾凇版本自定义置顶词  （需配置 config_base 里的置顶词配置）
-  'engine/filters/@07': lua_filter@*jdh/pin_word*filter
+  'engine/filters/@09': lua_filter@*jdh/pin_word*filter
 
   # lua 快捷键
   key_binder/pin_cand: "Control+t"             # 候选词置顶
@@ -132,6 +132,13 @@ patch:
 
 
 ##################################################
+
+  # 五笔画反查显示编码
+  radical_reverse_lookup/dictionary: JDhe
+  radical_reverse_lookup/comment_format: null
+
+  # 五笔画反查显示编码
+  stroke_reverse_lookup/dictionary: JDhe
 
 ##################################################
 

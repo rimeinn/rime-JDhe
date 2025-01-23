@@ -152,7 +152,7 @@ patch:
   # 自定义置顶词 ctrl-t
   'engine/translators/@after 08': lua_translator@*tiger/pin_word*translator
   # 替换掉雾凇版本自定义置顶词  （需配置 config_base 里的置顶词配置）
-  'engine/filters/@07': lua_filter@*tiger/pin_word*filter
+  'engine/filters/@09': lua_filter@*tiger/pin_word*filter
 
   # lua 快捷键
   key_binder/pin_cand: "Control+t"             # 候选词置顶
@@ -166,12 +166,20 @@ patch:
 
 ##################################################
 
+  # 五笔画反查显示编码
+  radical_reverse_lookup/dictionary: tiger
+  radical_reverse_lookup/comment_format: null
+
+  # 五笔画反查显示编码
+  stroke_reverse_lookup/dictionary: tiger
+
+##################################################
 
   # Lua 配置: 自定义字集过滤 （影响范围）
-  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst, double_pinyin_flypy ] 
+  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst, double_pinyin_flypy, stroke_lookup ] 
 
   # Lua 配置: 虎码三重注解 隐藏除反查外的显示
-  spelling/tags: [ reverse_lookup, unicode, radical_lookup ]
+  spelling/tags: [ reverse_lookup, unicode, radical_lookup, stroke_lookup ]
 
   # Lua 配置：农历的触发关键字
   lunar: /nl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十

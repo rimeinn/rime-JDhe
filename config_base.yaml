@@ -4,6 +4,7 @@ patch:
   schema/dependencies/+: 
     - tiger_spelling_pseudo   # 虎码拆字注释方案
     - radical_pinyin   # 部件拆字
+    - stroke   # 五筆畫
 
 # 开关
 # reset: 默认状态。注释掉后，切换窗口时不会重置到默认状态。
@@ -57,11 +58,14 @@ patch:
 ########################################################
   # 部件拆字自定义 tag 
   'engine/segmentors/@before 03': affix_segmentor@radical_lookup
-
+  # 五笔画自定义 tag 
+  'engine/segmentors/@before 04': affix_segmentor@stroke_lookup
 
   engine/translators/+:  
    # 部件拆字反查
-      - table_translator@radical_lookup   
+      - table_translator@radical_lookup  
+   # 五笔画反查
+      - table_translator@stroke_lookup         
    # 快速符号短语词库
       - table_translator@quick_symbol_phrase      
    # 重复上屏
@@ -88,8 +92,10 @@ patch:
   - lua_filter@*single_char_only_for_full_code@single_char_only
   # 自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
   - lua_filter@*charset_filter@charset_filter 
-  # 部件拆字滤镜
+  # 部件拆字反查显示编码
   - reverse_lookup_filter@radical_reverse_lookup  
+  # 五笔画反查显示编码
+  - reverse_lookup_filter@stroke_reverse_lookup    
   # 拼音滤镜
   - simplifier@pinyin 
   # Emoji
@@ -163,11 +169,11 @@ patch:
     dictionary: radical_pinyin
     enable_user_dict: false
     prefix: "oiz"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
-    tips: "  〔拆字〕"
+    tips: "〔拆字〕"
     comment_format:
       - erase/^.*$//
 
-  # 部件拆字滤镜
+  # 部件拆字反查显示编码
   radical_reverse_lookup:
     tags: [ radical_lookup ]
     # dictionary 为拼音标注来源。目前是显示本方案词库的注音，可去部件拆字方案下载更全的、带声调的、已编译好的词典
@@ -177,6 +183,25 @@ patch:
     #  - xform/^/(/
     #  - xform/$/)/
       - xform/.*//           # 清空提示码 
+
+  # 五笔画反查
+  stroke_lookup:
+    tag: stroke_lookup
+    dictionary: stroke
+    enable_encoder:  false                  # 是否启用 自动造词  
+    enable_sentence:  false                 # 是否启用造句模式
+    enable_user_dict: false
+    enable_completion: false              #  编码提示开关（提前显示尚未输入完整码的字）    
+    prefix: "obh"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
+    tips: "〔h豎s撇p捺n折z〕"
+    preedit_format:
+      - xlit/hspnz/⼀⼁⼃⼂⼄/  # 康熙部首（橫豎撇點折）
+
+  # 五笔画反查显示编码
+  stroke_reverse_lookup:
+    tags: [ stroke_lookup ]
+    dictionary: luna_pinyin.extended
+
 
   # 快速符号短语词库
   quick_symbol_phrase:
@@ -194,7 +219,7 @@ patch:
     spelling: tiger_spelling_pseudo
     code: tiger
   spelling:
-    tags: [ abc, encode, punct, reverse_lookup, radical_lookup ]
+    tags: [ abc, encode, punct, reverse_lookup, radical_lookup, stroke_lookup ]
     lua:
       switch_key: 'Control+c'
       cycle_key: 'Shift+Control+C'
@@ -259,6 +284,8 @@ patch:
   recognizer/patterns/unicode: "^U[a-f0-9]+"              
   #  响应部件拆字的反查，与 radical_lookup/prefix 匹配
   recognizer/patterns/radical_lookup: "^oiz[a-z]+$" 
+  #  响应五笔画的反查，与 stroke_lookup/prefix 匹配
+  recognizer/patterns/stroke_lookup: "^obh[a-z]+$" 
 #  recognizer/patterns/quick_symbol: "^'[A-Za-z']*$"  # 快符引导，例如输入'q 后自动上屏快速符号，双击''重复上屏符号
 #  recognizer/patterns/quick_text: "^;[A-Za-z;]*$"  # 双击;;重复上屏汉字和字母
 
