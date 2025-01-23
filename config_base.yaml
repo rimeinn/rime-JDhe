@@ -191,7 +191,7 @@ patch:
     enable_encoder:  false                  # 是否启用 自动造词  
     enable_sentence:  false                 # 是否启用造句模式
     enable_user_dict: false
-    enable_completion: false              #  编码提示开关（提前显示尚未输入完整码的字）    
+    enable_completion: true              #  编码提示开关（提前显示尚未输入完整码的字）    
     prefix: "obh"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
     tips: "〔h豎s撇p捺n折z〕"
     preedit_format:
