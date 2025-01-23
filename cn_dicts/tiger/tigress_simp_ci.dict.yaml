@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2024.08.31"
+version: "2025.01.09"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -15,7 +15,6 @@ encoder:
       formula: "AaBaCaCb"
     - length_in_range: [4, 99]
       formula: "AaBaCaZa"
-
 ...
 那个	a	5000
 如果	b	5000
@@ -611,6 +610,7 @@ encoder:
 强制性	bqh	186
 许可证	szs	186
 免不了	wcr	186
+高水平	gke	186
 行不行	pcp	186
 自治县	okf	186
 照相机	oee	186
@@ -975,6 +975,7 @@ encoder:
 上半身	yhz	141
 黑色素	pxa	141
 快一点	hfy	141
+乔布斯	tnz	141
 好男人	bqj	141
 聊聊天	qqf	138
 话语权	sse	138
@@ -982,7 +983,6 @@ encoder:
 大少爷	myh	138
 摄像机	uje	138
 在不在	ncn	138
-乔布斯	tnz	138
 小东西	yrv	138
 出来的	sau	138
 混凝土	kwg	138
@@ -1409,6 +1409,7 @@ encoder:
 持力层	usc	117
 北伐军	ajw	117
 哥斯拉	zzu	117
+显眼包	oqn	117
 成都市	nqz	117
 转折点	yuy	117
 音乐家	xbw	117
@@ -1492,6 +1493,19 @@ encoder:
 赛力斯	wsz	117
 潘展乐	kcb	117
 袁启聪	gmq	117
+方程豹	lxm	117
+星纪元	oim	117
+赵露思	ptq	117
+鞠婧祎	tbf	117
+本乡爱	eiy	117
+仓本堇	jel	117
+八蜜凛	hww	117
+末广纯	fxi	117
+海克斯	kcz	117
+王楚钦	nez	117
+绝绝子	iih	117
+小孩姐	yhb	117
+哈集美	dug	117
 地下水	gfk	117
 运动鞋	bbt	117
 适合于	ajf	117
@@ -1532,7 +1546,6 @@ encoder:
 威尼斯	ncz	114
 仙人掌	jjs	114
 菩提树	lue	114
-总决赛	hww	114
 主心骨	ihf	114
 有句话	ngs	114
 老前辈	qhr	114
@@ -2571,7 +2584,6 @@ encoder:
 乔其纱	tzi	90
 坎土曼	ggo	90
 水刷石	kcm	90
-阿灵顿	tbf	90
 黑颈鹤	prw	90
 画镜线	fzi	90
 二尖瓣	myn	90
@@ -3155,7 +3167,6 @@ encoder:
 雇佣兵	mjt	84
 副县长	ffp	84
 随意性	txh	84
-组织性	iih	84
 自习课	ozs	84
 伤不起	jcp	84
 支持率	cuz	84
