@@ -200,7 +200,7 @@ patch:
 ##################################################
 
   # 临时虎码反查标识
-  'engine/segmentors/@after 03': affix_segmentor@tiger_lookup
+  'engine/segmentors/@after 02': affix_segmentor@tiger_lookup
   # 虎码反查（O）
   'engine/translators/@after 07': table_translator@tiger_lookup
   # 虎码反查显示编码
@@ -230,6 +230,39 @@ patch:
 
 ##################################################
 
+  # 万象拼音反查标识
+  'engine/segmentors/@after 03': affix_segmentor@wanxiang_py_lookup
+  # 万象拼音反查（`）
+  'engine/translators/@after 08': table_translator@wanxiang_py_lookup
+  # 万象拼音反查显示编码
+  'engine/filters/@after 06': reverse_lookup_filter@wanxiang_py_reverse_lookup
+
+  # 禁用原方案的反查
+  reverse_lookup: null     
+  recognizer/patterns/reverse_lookup: null
+
+  # 万象拼音反查
+  wanxiang_py_lookup:
+    tag: wanxiang_py_lookup
+    dictionary: wanxiang_pinyin_dz
+    enable_encoder:  false                  # 是否启用 自动造词  
+    enable_sentence:  false                 # 是否启用造句模式
+    enable_user_dict: false
+    enable_completion: false              #  编码提示开关（提前显示尚未输入完整码的字）
+#    prefix: "`"
+    tips: "〔反查〕"
+    comment_format:
+      - "xform/^/ /"
+      - xform/([nl])v/$1ü/
+
+  wanxiang_py_reverse_lookup: 
+    dictionary: JDhe
+    tags: [ wanxiang_py_lookup ]
+
+  # 响应 临时「`」统配反查
+  recognizer/patterns/wanxiang_py_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`|[a-z][a-z]`)))"  
+
+##################################################
 
   # 辅助码 （before last 在列表最后一个之前加上）
   'engine/filters/@before last': lua_filter@*auxCode_filter@jdh_aux_code
@@ -252,23 +285,20 @@ patch:
   radical_reverse_lookup/comment_format: null
 
   # 五笔画反查显示编码
-  stroke_reverse_lookup/dictionary: JDhe
-
-  # 响应 临时「`」统配反查
-  recognizer/patterns/reverse_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`|[a-z][a-z]`)))"  
+  stroke_reverse_lookup/dictionary: JDhe  
 
 ##################################################
 
 
   # Lua 配置: 自定义字集过滤 （影响范围）
-  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst, tiger_lookup ] 
+  charset_filter/tags: [ abc, encode, punct, reverse_lookup, mkst, tiger_lookup, wanxiang_py_lookup ] 
 
   # Lua 配置：Emoji 降频到第 idx 个位置
   emoji_reduce:                      
     idx: 5
 
   # Lua 配置: 虎码三重注解 隐藏除反查外的显示
-  spelling/tags: [ reverse_lookup, unicode, radical_lookup, tiger_lookup, stroke_lookup ]    
+  spelling/tags: [ reverse_lookup, unicode, radical_lookup, tiger_lookup, stroke_lookup, wanxiang_py_lookup ]    
 
   # Lua 配置：农历的触发关键字
   lunar: /nl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
