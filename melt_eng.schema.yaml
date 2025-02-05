@@ -58,6 +58,7 @@ speller:
 
 translator:
   dictionary: melt_eng
+  enable_user_dict: false
   spelling_hints: 9
 
 key_binder:
