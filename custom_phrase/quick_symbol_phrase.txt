@@ -51,7 +51,7 @@
 😄	oihh
 🥺	oikl
 😭	oiku
-😡	oiuq
+💢	oiuq
 🤬	oitm
 😨	oihp
 😅	oilh
@@ -62,6 +62,10 @@
 🥱	oihq
 ✅	oidv
 ❌	oico
+🤔	oiyw
+👍	oiql
+👍	oibh
+👋	oinh
 
 # 此行之后不能写注释
 # no comment
