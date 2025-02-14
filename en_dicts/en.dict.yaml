@@ -4,6 +4,7 @@
 #
 # https://github.com/iDvel/rime-ice
 # ------- 英文主词库 -------
+# 20k 左右的常见单词
 #
 #
 # 来源：
@@ -14,7 +15,7 @@
 # 转化应当大写的单词
 ---
 name: en
-version: "2024-12-19"
+version: "2025-02-02"
 sort: by_weight
 ...
 # +_+
@@ -537,6 +538,7 @@ album	album
 albums	albums
 Albuquerque	Albuquerque
 Alcatel	Alcatel
+alchemist	alchemist
 alchemy	alchemy
 alcohol	alcohol
 alcoholic	alcoholic
@@ -818,6 +820,7 @@ animations	animations
 anime	anime
 Aniston	Aniston
 Anita	Anita
+ankh	ankh
 ankle	ankle
 Ann	Ann
 Anna	Anna
@@ -4754,6 +4757,7 @@ cutting	cutting
 # cy	cy
 cyan	cyan
 cyber	cyber
+cyberpunk	cyberpunk
 cyberspace	cyberspace
 cycle	cycle
 cycles	cycles
@@ -4814,6 +4818,7 @@ dancer	dancer
 dancers	dancers
 dances	dances
 dancing	dancing
+dandelion	dandelion
 Dane	Dane
 danger	danger
 dangerous	dangerous
@@ -11295,6 +11300,7 @@ LOL	LOL
 Lola	Lola
 Lolita	Lolita
 # lolitas	lolitas
+lollipop	lollipop
 # lon	lon
 London	London
 lone	lone
@@ -11442,7 +11448,7 @@ lyrics	lyrics
 # lys	lys
 # m	m
 # ma	ma
-mac	mac
+Mac	Mac
 Macau	Macau
 MacDonald	MacDonald
 macedonia	macedonia
@@ -12560,7 +12566,7 @@ MSNBC	MSNBC
 # mt	mt
 # mta	mta
 MTV	MTV
-# mu	mu
+mu	mu
 much	much
 mud	mud
 muddy	muddy
@@ -12661,6 +12667,7 @@ myths	myths
 # n	n
 # na	na
 # nabble	nabble
+nabla	nabla
 # nach	nach
 # nacional	nacional
 # nad	nad
@@ -15270,6 +15277,7 @@ PVC	PVC
 # py	py
 pyjamas	pyjamas
 pyramid	pyramid
+Python	python
 python	python
 pythonic	pythonic
 # q	q
@@ -17819,6 +17827,8 @@ sorts	sorts
 SOS	SOS
 sought	sought
 soul	soul
+soulmate	soulmate
+soulmates	soulmates
 souls	souls
 sound	sound
 sounded	sounded
@@ -18193,6 +18203,7 @@ steal	steal
 stealing	stealing
 steals	steals
 stealth	stealth
+Steam	steam
 steam	steam
 steamer	steamer
 steel	steel
@@ -19074,6 +19085,7 @@ tense	tense
 tensile	tensile
 tension	tension
 tensions	tensions
+tensor	tensor
 tent	tent
 tentative	tentative
 tenth	tenth
@@ -20198,6 +20210,7 @@ upward	upward
 upwards	upwards
 # ur	ur
 uranium	uranium
+Uranus	Uranus
 urban	urban
 Urbana	Urbana
 urge	urge

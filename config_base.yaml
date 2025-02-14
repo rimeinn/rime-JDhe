@@ -324,7 +324,7 @@ patch:
     - { accept: Release+Caps_Lock, send: Release+4, when: has_menu} 
 
    # 打字时，Tab 输入「~」符号，配合辅助码 Lua 使用 
-    - { accept: Tab, send: asciitilde, when: composing }
+#    - { accept: Tab, send: asciitilde, when: composing }
 
    # 打字时，Tab和Shift+Tab切换候选
 #    - { accept: Tab, send: Down, when: has_menu} 
@@ -337,9 +337,9 @@ patch:
 
 
    # Shift+Tab 向前翻页
-#    - { accept: Shift+Tab, send: Page_Up, when: paging} 
+    - { accept: Shift+Tab, send: Page_Up, when: paging} 
    # Tab 向后翻页
-#    - { accept: Tab, send: Page_Down, when: has_menu} 
+    - { accept: Tab, send: Page_Down, when: has_menu} 
 
    # 减号向前翻页
     - { accept: minus, send: Page_Up, when: paging} 
