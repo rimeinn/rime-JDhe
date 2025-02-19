@@ -246,4 +246,4 @@ patch:
       hilited_comment_text_color: 0x0763EB    # 选中注释颜色
       text_color: 0xFF9F48                    # 拼音颜色 （inline_preedit: false）
       hilited_text_color: 0xFF9F48            # 选中拼音颜色 （inline_preedit: false）
-      #border_color: 0xe3e3e3                       # 外边框颜色
+      border_color: 0xe3e3e3                       # 外边框颜色
