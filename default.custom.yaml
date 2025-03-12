@@ -100,7 +100,7 @@ patch:
     - jdh_cf        # 简单鹤拆字注释开关
     - inflexible    # 固词或动词开关
     - block_words_enabled   # 是否屏蔽指定的字词列表
-
+    - prediction                 #输入联想预测
 
 # 按键速查
 # https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md

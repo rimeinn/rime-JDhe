@@ -20,6 +20,9 @@ patch:
     - name: charset_filter                 #自定义字集
       states: [ 全集, 常用 ]
       reset: 1
+    - name: prediction                 #输入候选预测
+      states: [ 关闭预测, 开启预测 ]
+#      reset: 0 
     - name: pinyin                   # 拼音滤镜
 #      states: [ 🔇, 🔊 ]        #有虎码拆字注释所以就先隐藏这个开关
 #      reset: 0    
@@ -53,7 +56,7 @@ patch:
   # 以词定字   
   'engine/processors/@before 03': lua_processor@*select_character
   # 成语短句简码优先, 'ctrl + 0' 触发  
-#  'engine/processors/@before 04': lua_processor@*idiom_abbr_expand
+  'engine/processors/@before 04': predictor
 
 ########################################################
   # 部件拆字自定义 tag 
@@ -84,6 +87,8 @@ patch:
 #      - lua_translator@*word_autocommit*translator
     # Unicode 输入
       - lua_translator@*unicode            
+   # 输入预测
+      - predict_translator
    # 暴力GC，尝试解决小狼毫长期使用的卡顿
       - lua_translator@*force_gc
 
@@ -163,6 +168,17 @@ patch:
     size: 1                             # 重复前几次上屏
     initial_quality: 1              # 初始权重
 
+  # 输入候选预测
+  predictor:
+    db: predict.db
+  #每次最大预测候选 
+  #默认为0，这意味着显示所有候选人 
+  #您可以将其设置为与page_size相同，这样句点就不会触发下一页
+    max_candidates: 5   
+  #最大连续预测次数 
+  #默认为0，这意味着没有限制
+    max_iterations: 1
+
   # 部件拆字反查
   radical_lookup:
     tag: radical_lookup
@@ -193,7 +209,7 @@ patch:
     enable_user_dict: false
     enable_completion: true              #  编码提示开关（提前显示尚未输入完整码的字）    
     prefix: "obh"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
-    tips: "〔h豎s撇p捺n折z〕"
+    tips: "〔横h竖s撇p捺n折z〕"
     preedit_format:
       - xlit/hspnz/⼀⼁⼃⼂⼄/  # 康熙部首（橫豎撇點折）
 
