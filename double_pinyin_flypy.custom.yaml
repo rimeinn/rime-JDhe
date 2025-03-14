@@ -320,7 +320,8 @@ patch:
   speller/alphabet/: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`;/~" 
 # table_translator翻译器，支持自动上屏。例如 “zmhu”可以自动上屏“怎么回事”
   speller/auto_select: true
-  speller/auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}|^;(\w+|;)
+#  speller/auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}|^;(\w+|;)
+  speller/auto_select_pattern: ^;\w+|^o\w{3}$  
   speller/algebra/: 
     __patch: 
       - set_shuru_schema     #输入解码规则

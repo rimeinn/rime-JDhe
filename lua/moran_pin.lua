@@ -294,10 +294,13 @@ function pin_processor.func(key_event, env)
         local input = context.input
         local cand = context:get_selected_candidate()
         local text = cand.text
-        -- Special-case pure Chinese candidates: the text could be
+        -- 1) Special-case pure Chinese candidates: the text could be
         -- output from OpenCC, so pin the genuine candidate instead to
         -- preserve word frequency.
-        if moran.str_is_chinese(text) then
+        --
+        -- 2) If we know for sure this is a pinned candidate, always
+        -- retrieve the genuine candidate to correctly delete it.
+        if cand.type == 'pinned' or moran.str_is_chinese(text) then
             text = cand:get_genuine().text
         end
         user_db.toggle_pin_status(input, text)
@@ -380,9 +383,21 @@ function panacea_translator.init(env)
     local pattern = string.format("(.+)%s(.+)", env.escaped_infix)
     local function on_commit(ctx)
         local commit_text = ctx:get_commit_text()
+        if moran.str_is_chinese(commit_text) then
+            local segmentation = ctx.composition:toSegmentation()
+            local segs = segmentation:get_segments()
+            local genuine_text = ""
+            for _, seg in pairs(segs) do
+                local c = seg:get_selected_candidate()
+                local g = c:get_genuine()
+                genuine_text = genuine_text .. g.text
+            end
+            commit_text = genuine_text
+        end
         local selected_cand = ctx:get_selected_candidate()
         if selected_cand ~= nil then
-            if env.freestyle and selected_cand:get_genuine().type == "pin_tip" then
+            local gen_cand = selected_cand:get_genuine()
+            if env.freestyle and gen_cand.type == "pin_tip" then
                 if env.freestyle_state then
                     if env.freestyle_code and env.freestyle_code ~= "" and env.freestyle_text and env.freestyle_text ~= "" then
                         user_db.toggle_pin_status(env.freestyle_code, env.freestyle_text)

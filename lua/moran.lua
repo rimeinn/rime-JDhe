@@ -2,21 +2,51 @@
 
 local Module = {}
 
+---A more robust io.open
+---@param rel_path string a relative path
+function Module.open_rime_file(rel_path, pathsep)
+   -- Case 1: user dir
+   local path = rime_api.get_user_data_dir() .. pathsep .. rel_path
+   local file, err = io.open(path)
+   if file then
+      return file
+   else
+      log.error('moran: failed to open ' .. path .. ', error: ' .. err)
+   end
+
+   -- Case 2: shared dir
+   if pathsep == '\\' then
+      return nil
+   end
+   local prefixes = {
+      '/usr/local/share/rime-data/',
+      '/usr/share/rime-data/'
+   }
+   for _, prefix in pairs(prefixes) do
+      path = prefix .. rel_path
+      file, err = io.open(path)
+      if file then
+         return file
+      else
+         log.error('moran: failed to open ' .. path .. ', error: ' .. err)
+      end
+   end
+   return nil
+end
+
 ---Load zrmdb.txt bundled with the standard Moran distribution.
 ---@return table<integer,table<string>>
 function Module.load_zrmdb()
    if Module.aux_table then
       return Module.aux_table
    end
-   local aux_table = {}
    local pathsep = (package.config or '/'):sub(1, 1)
-   local filename = 'zrmdb.txt'
-   local path = rime_api.get_user_data_dir() .. pathsep .. "lua" .. pathsep .. filename
-   local file = io.open(path) or io.open("/rime/lua/" .. filename)
+   local file = Module.open_rime_file('lua' .. pathsep .. 'zrmdb.txt', pathsep)
    if not file then
-      log.error("moran: failed to open aux file at path " .. path)
-      return
+      log.error('failed to open auxfile!')
+      return nil
    end
+   local aux_table = {}
    for line in file:lines() do
       line = line:match("[^\r\n]+")
       local key, value = line:match("(.+) (.+)")
