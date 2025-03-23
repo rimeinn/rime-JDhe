@@ -178,9 +178,9 @@ be 百（以及相关词）
   
   - 标点快符自动上屏 <kbd>；</kbd>+ 字母 比如输入 `;a` 自动上屏 `！`（详见配置 `custom_phrase/quick_symbol_phrase.txt` 文件）
   
-  - <kbd>/FJ</kbd> 前缀: 用于输入常用短语(邮箱/手机号/银行卡号/收件地址); 和打开常用网站网址, 本地文件路径; 执行常见指令(开关系统设置) 等等, 可自行在`Rime\lua\launcher_config.lua` 里添加（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
+  - <kbd>/KJ</kbd> 前缀: 用于输入常用短语(邮箱/手机号/银行卡号/收件地址); 和打开常用网站网址, 本地文件路径; 执行常见指令(开关系统设置) 等等, 可自行在`Rime\lua\shortcut_config.lua` 里添加（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
-  - <kbd>/JK</kbd> 前缀: 用于快速启动或切换程序 可自行在`Rime\lua\launcher_config.lua` （取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
+  - <kbd>/JK</kbd> 前缀: 用于快速启动或切换程序 可自行在`Rime\lua\shortcut_config.lua` （取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
   - 根据是否在用户词典，在结尾加上一个标识（取自 [白霜拼音](https://github.com/gaboolic/rime-frost)）
     上屏过的候选词 末尾带有「✩」
@@ -188,6 +188,10 @@ be 百（以及相关词）
     用户短语词库中的候选词（custom_phrase）末尾带有「❖」
   
     整句连拼时（输入词库中未有的词句）末尾带有「∞」
+    
+  - 「还未同步Github」按下<kbd>Ctrl</kbd>+<kbd>，</kbd>，显示文字的拼音
+  
+  - 「还未同步Github」**简单鹤方案下**按<kbd>Ctrl</kbd>+<kbd>I</kbd>，临时显示简单鹤字根拆分（有点问题，看完及时关闭，有造成软件无响应的可能，如果遇到只能通过结束后台进程的方式解决）
   
 - **简单鹤方案下的特殊介绍**（上述的主要功能全都包含，以下为专有） 
 
