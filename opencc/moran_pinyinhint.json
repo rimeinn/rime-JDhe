@@ -1,10 +1,10 @@
 {
-  "name": "pinyin",
+  "name": "pinyinhint",
   "segmentation": {
     "type": "mmseg",
     "dict": {
       "type": "text",
-      "file": "PYPhrases.txt"
+      "file": "moran_pinyinhint.txt"
     }
   },
   "conversion_chain": [{
@@ -12,10 +12,7 @@
       "type": "group",
       "dicts": [{
         "type": "text",
-        "file": "PYPhrases.txt"
-      }, {
-        "type": "text",
-        "file": "PYCharacters.txt"
+        "file": "moran_pinyinhint.txt"
       }]
     }
   }]

@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2025.01.09"
+version: "2025.03.07"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1002,6 +1002,7 @@ encoder:
 用得着	twg	138
 真心话	nhs	138
 不怕死	chg	138
+爱好者	ybq	138
 高素质	gax	138
 打麻将	uza	138
 真的吗	nud	138
@@ -1305,11 +1306,9 @@ encoder:
 狐狸精	mmp	120
 肩并肩	mhm	120
 发病率	saz	120
-了出来	rsa	120
 销售员	zud	120
 郑州市	hoz	120
 保卫战	jzy	120
-告诉我	qst	120
 意见书	xea	120
 鹅卵石	tbm	120
 芝加哥	lsz	120
@@ -1403,11 +1402,14 @@ encoder:
 一秒钟	fxz	117
 梁羽生	kzl	117
 成员国	ndr	117
+后勤部	xli	117
 性解放	hxl	117
+评论界	ssq	117
 急救站	xfi	117
 快节奏	hla	117
 持力层	usc	117
 北伐军	ajw	117
+葵玲奈	lnm	117
 哥斯拉	zzu	117
 显眼包	oqn	117
 成都市	nqz	117
@@ -1425,7 +1427,6 @@ encoder:
 杀人罪	bjy	117
 亚文化	fvj	117
 王心凌	nhw	117
-张嘉倪	bhj	117
 汉堡王	kjn	117
 德克士	wcg	117
 三杯鸡	ter	117
@@ -1473,6 +1474,7 @@ encoder:
 许幻山	siv	117
 洪世贤	klp	117
 张楚岚	bev	117
+张嘉倪	bhj	117
 绘丽奈	ifm	117
 水川润	kok	117
 千寺狐	lgm	117
@@ -1506,6 +1508,19 @@ encoder:
 绝绝子	iih	117
 小孩姐	yhb	117
 哈集美	dug	117
+一乃葵	fvl	117
+皆月光	vvm	117
+申小豹	oym	117
+泉莉音	ulx	117
+玉虚宫	nzw	117
+天元鼎	fmq	117
+余大嘴	jmd	117
+雨田君	tqb	117
+李维刚	eim	117
+李行亮	epg	117
+郑秀斌	hxv	117
+禹瑟琪	tnn	117
+姜惠元	gnm	117
 地下水	gfk	117
 运动鞋	bbt	117
 适合于	ajf	117
@@ -1748,8 +1763,6 @@ encoder:
 对着干	rge	108
 心绞痛	hia	108
 政府军	fxw	108
-因为他	rij	108
-是没有	okn	108
 贫困户	hrm	108
 三明治	tok	108
 自家人	owj	108
@@ -1759,8 +1772,6 @@ encoder:
 代言人	jsj	108
 决策者	wrq	108
 房产证	mis	108
-因为我	rit	108
-告诉你	qsj	108
 别人的	dju	108
 转基因	yzr	108
 制高点	qgy	108
@@ -1868,7 +1879,6 @@ encoder:
 闹着玩	agn	105
 没事人	kfj	105
 一共有	fln	105
-离开了	zfr	105
 一等奖	fra	105
 三部曲	tiy	105
 火葬场	clg	105
@@ -1918,7 +1928,6 @@ encoder:
 历史观	xdr	102
 补助金	tfz	102
 老好人	qbj	102
-是怎么	owt	102
 马铃薯	nzl	102
 幻灯片	ica	102
 副校长	fep	102
@@ -1928,7 +1937,6 @@ encoder:
 前些年	hse	102
 白癜风	uao	102
 增长点	gpy	102
-我们都	tjq	102
 厦门市	xaz	102
 明眼人	oqj	102
 保监会	jpj	102
@@ -1955,7 +1963,6 @@ encoder:
 双飞燕	rcl	102
 化粪池	jpk	102
 玩不转	ncy	102
-打草稿	ulx	102
 不搭调	cus	102
 达尔优	mxj	102
 陀螺仪	tcj	102
@@ -2037,7 +2044,6 @@ encoder:
 小护士	yug	102
 慢动作	hbj	102
 御花园	wlr	102
-最后一	oxf	102
 添加剂	ksq	102
 游乐园	kbr	102
 能见度	kex	102
@@ -2079,7 +2085,6 @@ encoder:
 初中生	tdl	102
 月收入	vij	102
 废弃物	xbq	102
-设计者	ssq	102
 硬邦邦	maa	102
 上千万	ylf	102
 识时务	soh	102
@@ -2102,7 +2107,6 @@ encoder:
 吊脚楼	dve	102
 继承法	iak	102
 缓一缓	ifi	102
-发生了	slr	102
 刘德华	vwj	99
 斯大林	zme	99
 心连心	hyh	99
@@ -2139,7 +2143,6 @@ encoder:
 二手车	muy	99
 棚户区	emn	99
 占优势	yju	99
-出来了	sar	99
 制片人	qaj	99
 一般的	fiu	99
 步行街	spp	99
@@ -2196,7 +2199,6 @@ encoder:
 综合症	ija	99
 高富帅	gwp	99
 扑克牌	uca	99
-件事情	jfh	99
 三国志	trg	99
 抚恤金	uhz	99
 酸溜溜	ykk	99
@@ -2259,9 +2261,6 @@ encoder:
 山海经	vki	96
 美少年	gye	96
 挑战者	uyq	96
-这样一	vef	96
-就是这	gov	96
-就像是	gjo	96
 的故事	ucf	96
 匈牙利	nlx	96
 洞庭湖	kxk	96
@@ -2273,7 +2272,6 @@ encoder:
 增加值	gsj	96
 亮闪闪	gaa	96
 彼此间	wsa	96
-一切都	frq	96
 继承者	iaq	96
 祖师爷	fph	96
 不愧为	chi	96
@@ -2305,7 +2303,6 @@ encoder:
 用不完	tcw	96
 某件事	zjf	96
 骨骼肌	ffv	96
-充满了	bkr	96
 老母亲	qki	96
 淘汰赛	kkw	96
 安徒生	wwl	96
@@ -2315,7 +2312,6 @@ encoder:
 老丈人	qfj	96
 问候语	ajs	96
 灰白色	nux	96
-自然是	ovo	96
 收费站	iti	96
 双刃剑	rpj	96
 六合彩	ajy	96
@@ -2329,6 +2325,7 @@ encoder:
 电子化	ohj	96
 好玩儿	bnp	96
 聚光灯	qmc	96
+鸭舌帽	sar	96
 类人猿	pjm	96
 比基尼	vzc	96
 自助餐	ofg	96
@@ -2379,7 +2376,6 @@ encoder:
 中山装	dva	93
 夜生活	zlk	93
 活到老	kyq	93
-肯定是	swo	93
 的过程	ukx	93
 装甲车	asy	93
 金戒指	zpu	93
@@ -2390,7 +2386,6 @@ encoder:
 骨灰盒	fnj	93
 旅行包	lpn	93
 蝴蝶花	ccl	93
-几乎是	oto	93
 张家口	bwd	93
 贾宝玉	vwn	93
 诺基亚	szf	93
@@ -2417,8 +2412,6 @@ encoder:
 孙媳妇	hbb	93
 抗病毒	uaa	93
 第一流	rfk	93
-似乎是	jto	93
-就这么	gvt	93
 太多的	mlu	93
 常用字	stw	93
 电磁波	omk	93
@@ -2474,7 +2467,6 @@ encoder:
 安第斯	wrz	93
 啥玩意	dnx	93
 白羊座	ugx	93
-只剩下	dxf	93
 新生代	ilj	93
 划时代	poj	93
 一小撮	fyu	93
@@ -2515,6 +2507,7 @@ encoder:
 鬼地方	agl	93
 大提琴	mun	93
 忽必烈	nhg	93
+金正恩	zfr	93
 葛洲坝	lkg	93
 不包括	cnu	93
 安乃近	wvt	93
@@ -2657,11 +2650,8 @@ encoder:
 电子书	oha	90
 上档次	yew	90
 够得着	gwg	90
-我不想	tce	90
-我怎么	twt	90
 干着急	egx	90
 十分之	nhr	90
-了多少	rly	90
 很大的	wmu	90
 等价物	rjq	90
 背对背	ara	90
@@ -2709,15 +2699,12 @@ encoder:
 支配权	cye	90
 绣花鞋	ilt	90
 赶得上	pwy	90
-之日起	rop	90
 社会的	fju	90
-我已经	tvi	90
 真实的	nwu	90
 下来的	fau	90
 世界的	lqu	90
 的力量	uso	90
 金银花	zzl	90
-笑着说	rgs	90
 难道说	rhs	90
 风向标	ote	90
 定心丸	whk	90
@@ -2740,7 +2727,6 @@ encoder:
 教导员	qvd	90
 衣帽间	tra	90
 会员卡	jdy	90
-不是我	cot	90
 百叶窗	fde	90
 圆明园	ror	90
 监视器	pfd	90
@@ -2757,7 +2743,6 @@ encoder:
 理查德	new	90
 左撇子	nuh	90
 维克多	icl	90
-察觉到	wky	90
 巨无霸	ndt	87
 排泄物	ukq	87
 陆战队	tyt	87
@@ -2771,7 +2756,6 @@ encoder:
 执政官	ufw	87
 高浓度	gkx	87
 革命化	tjj	87
-是可以	ozv	87
 出版物	saq	87
 电话费	ost	87
 马其顿	nzf	87
@@ -2863,9 +2847,6 @@ encoder:
 小算盘	yri	87
 佛教徒	jqw	87
 惊天地	hfg	87
-在外面	nlb	87
-绝对不	irc	87
-已经不	vic	87
 普通的	hku	87
 餐饮业	gqc	87
 宁波市	wkz	87
@@ -2890,10 +2871,6 @@ encoder:
 发大财	smo	87
 耳边风	qso	87
 波罗蜜	kyw	87
-再加上	fsy	87
-竟然是	xvo	87
-我们也	tje	87
-不出来	csa	87
 产生的	ilu	87
 强大的	bmu	87
 保守党	jws	87
@@ -2923,7 +2900,6 @@ encoder:
 纸老虎	iqz	87
 阿罗汉	tyk	87
 接地气	ugv	87
-我现在	tnn	87
 印花税	blx	87
 老掉牙	qul	87
 连锁店	yzx	87
@@ -2936,10 +2912,7 @@ encoder:
 老同事	qmf	87
 红霉素	ita	87
 看到了	uyr	87
-面对着	brg	87
 让自己	sov	87
-来到了	ayr	87
-个地方	jgl	87
 忧郁症	hna	87
 吸尘器	dyd	87
 急转弯	xyz	87
@@ -2968,7 +2941,6 @@ encoder:
 征服者	wvq	87
 馊主意	qix	87
 低年级	jei	87
-我可以	tzv	87
 张小斐	byr	87
 示意图	fxr	84
 托儿所	upm	84
@@ -2983,7 +2955,6 @@ encoder:
 冻豆腐	wzx	84
 要不了	vcr	84
 玩艺儿	nlp	84
-我发现	tsn	84
 反对派	xrk	84
 离退休	zij	84
 饲养员	qgd	84
@@ -2996,11 +2967,7 @@ encoder:
 人民网	jdm	84
 很需要	wtv	84
 被害者	twq	84
-也不敢	eca	84
-就已经	gvi	84
 尿不湿	cck	84
-了过去	rkg	84
-看见了	uer	84
 发现了	snr	84
 大中型	mdf	84
 客流量	wko	84
@@ -3034,14 +3001,10 @@ encoder:
 对抗性	ruh	84
 妊娠期	bbz	84
 好胜心	bvh	84
-原来是	xao	84
 庞大的	xmu	84
 其中的	zdu	84
 达芬奇	mlm	84
 中国队	drt	84
-还真是	cno	84
-不管是	cro	84
-听到了	dyr	84
 当时的	you	84
 张柏芝	bel	84
 与会者	fjq	84
@@ -3060,6 +3023,7 @@ encoder:
 小舅子	yph	84
 贬义词	ois	84
 脸皮薄	vrl	84
+拼好饭	ubq	84
 戴维斯	niz	84
 家常菜	wsl	84
 印度教	bxq	84
@@ -3090,7 +3054,6 @@ encoder:
 接待室	uww	84
 冒牌货	oaj	84
 备用金	htz	84
-习惯了	zhr	84
 要面子	vbh	84
 总动员	hbd	84
 中下游	dfk	84
@@ -3109,9 +3072,6 @@ encoder:
 冷兵器	wtd	84
 白兰地	uhg	84
 形而上	fly	84
-必须要	hev	84
-另外一	dlf	84
-回到了	ryr	84
 却没有	gkn	84
 种植业	xec	84
 学习班	kzn	84
@@ -3173,6 +3133,7 @@ encoder:
 短距离	opz	84
 黑手党	pus	84
 汤姆斯	kbz	84
+索菲娅	nlb	84
 坏东西	grv	84
 造成的	qnu	84
 的社会	ufj	84
@@ -3221,8 +3182,7 @@ encoder:
 龙虎榜	tze	81
 提款机	uge	81
 怎样的	weu	81
-完全不	wjc	81
-也算是	ero	81
+自治区	okn	81
 上面的	ybu	81
 黄金周	nzm	81
 福斯特	fzq	81

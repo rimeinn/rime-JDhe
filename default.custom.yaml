@@ -95,9 +95,9 @@ patch:
     - spelling.lv2          # 虎码拆字注释  拆+编
     - spelling.lv3          # 虎码拆字注释 拆+编+音
     - autocompletion_filter      # 编码补全提示
-    - pinyin                          # 拼音滤镜开关
+    - pinyinhint                          # 拼音滤镜开关
     - single_char_only_for_full_code        # 四码单字开关
-    - jdh_cf        # 简单鹤拆字注释开关
+    - chaifen        # 简单鹤拆字注释开关
     - inflexible    # 固词或动词开关
     - block_words_enabled   # 是否屏蔽指定的字词列表
     - prediction                 #输入联想预测

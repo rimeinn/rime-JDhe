@@ -1,5 +1,5 @@
 {
-  "name": "jdh_cf",
+  "name": "chaifen",
   "segmentation": {
     "type": "mmseg",
     "dict": {
@@ -9,8 +9,11 @@
   },
   "conversion_chain": [{
     "dict": {
-      "type": "text",
-      "file": "jdh_cf.txt"
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "jdh_cf.txt"
+      }]
     }
   }]
 }

@@ -23,8 +23,8 @@ patch:
     - name: prediction                 #输入候选预测
       states: [ 关闭预测, 开启预测 ]
 #      reset: 0 
-    - name: pinyin                   # 拼音滤镜
-#      states: [ 🔇, 🔊 ]        #有虎码拆字注释所以就先隐藏这个开关
+    - name: pinyinhint                   # 拼音滤镜
+      states: [ 🔇, 🔊 ]        
 #      reset: 0    
     - name: single_char_only_for_full_code             # 四码单字开关
       states: [ 词组, 单字 ]
@@ -35,8 +35,8 @@ patch:
     - name: block_words_enabled   # 是否屏蔽指定的字词列表
       states: [ 正常, 屏蔽 ]      
 #      reset: 0
-    - options: [ spelling.off, spelling.lv1, spelling.lv1.1, spelling.lv1.2, spelling.lv2, spelling.lv3 ]               # 虎码拆字注释
-      states: [ 拆隐, 拆显, 编显, 显示拼音, 拆+编, 拆+编+音 ]       # 快捷键 spelling/lua 下的 cycle_key 和 switch_key 定义
+    - name: unicode_comment   # Unicode 区位提示
+      states: [ U关, U开 ]    
 #      reset: 0
 
 
@@ -47,15 +47,13 @@ patch:
 
   # 快捷启动 
   'engine/processors/@before 00': lua_processor@*shortcut*processor    
-   # 特殊规则单字和特定词组 自动上屏(有快符Lua了 所以注释禁用掉)
- # 'engine/processors/@before 01':  lua_processor@*word_autocommit*processor
    # 快符引导以及重复上屏 「; 分号与 '单引号」
 #  'engine/processors/@before 01':  lua_processor@*quick_symbol_text
   # 虎码拆字三重注解开关   
   'engine/processors/@before 02': lua_processor@*tiger/spelling_processor_v2
   # 以词定字   
   'engine/processors/@before 03': lua_processor@*select_character
-  # 成语短句简码优先, 'ctrl + 0' 触发  
+  # 输入候选预测
   'engine/processors/@before 04': predictor
 
 ########################################################
@@ -83,8 +81,6 @@ patch:
       - lua_translator@*chinese_lunar     
    #  /jk, /kj 触发快捷命令
       - lua_translator@*shortcut*translator 
-   # 特殊规则单字和特定词组 自动上屏 (有快符Lua了 所以注释禁用掉)
-#      - lua_translator@*word_autocommit*translator
     # Unicode 输入
       - lua_translator@*unicode            
    # 输入预测
@@ -101,12 +97,12 @@ patch:
   - reverse_lookup_filter@radical_reverse_lookup  
   # 五笔画反查显示编码
   - reverse_lookup_filter@stroke_reverse_lookup    
-  # 拼音滤镜
-  - simplifier@pinyin 
   # Emoji
   - simplifier@emoji   
   # 降低emoji在候选的位置
   - lua_filter@*reduce_emoji  
+  # 拼音滤镜
+  - simplifier@pinyinhint 
   # 简繁切换
   - simplifier@simplification                    
   # 英文自动大写
@@ -115,12 +111,8 @@ patch:
   - lua_filter@*pin_cand_filter                  
   # 降低部分英语单词在候选项的位置
   - lua_filter@*reduce_english_filter  
-  # 虎码拆字三重注解
-  - lua_filter@*tiger/spelling_v2@spelling                            
   # 根据是否在用户词典，在 comment 上加上一个标记
-  - lua_filter@*is_in_user_dict
-  # 特殊规则单字和特定词组 自动上屏(有快符Lua了 所以注释禁用掉)
-#  - lua_filter@*word_autocommit*filter   
+  - lua_filter@*is_in_user_dict  
   # 英文词条上屏自动空格
   - lua_filter@*en_spacer
   # 在词典里面候选支持\r, \r\n, \n, <br>分割分行。&nbsp 表示空格
@@ -129,6 +121,8 @@ patch:
   - lua_filter@*embeded_cands_v2@embeded_cands
   # 屏蔽指定的字词列表，并通过开关控制是否启用
   - lua_filter@*block_words
+  # Unicode 區位提示
+  - lua_filter@*moran_charset_comment_filter
   # 去重（注意置底）
   - uniquifier
 
@@ -150,15 +144,15 @@ patch:
     tips: all                     #简繁对照   转换提示: all 都显示 | char 仅单字显示 | none 不显示。    
 
 # 拼音滤镜
-  pinyin:
-    opencc_config: pinyin.json
-    option_name: pinyin
+  pinyinhint:
+    option_name: pinyinhint
+    opencc_config: moran_pinyinhint.json
     show_in_comment: true # 是否仅将转换结果显示在备注中
-    comment_format:
-      - 'xform/&nbsp;/ /'
-      - "xform/^/ /"
     tags: [ abc, encode, punct, reverse_lookup ]           # 设置其作用范围
     tips: char #如只想给单字加滤镜，可改为 char，全部为 all
+    comment_format:
+#      - 'xform/&nbsp;/ /'
+#      - "xform/^/ /"
 
   # 重复上屏
   history: 
@@ -227,17 +221,6 @@ patch:
     initial_quality: 1      # custom_phrase 的权重
 
 #####################################
-
-# Lua 配置: 虎码三重注解
-  lua_reverse_db:
-    spelling: tiger_spelling_pseudo
-    code: tiger
-  spelling:
-    tags: [ abc, encode, punct, reverse_lookup, radical_lookup, stroke_lookup ]
-    lua:
-      switch_key: 'Control+c'
-      cycle_key: 'Shift+Control+C'
-      # 注意写法：Shift 在前，Control 在后。
 
   # Lua 配置: 四码单字过滤 （影响范围）
   single_char_only/tags: [ abc ] 
@@ -378,6 +361,8 @@ patch:
     - { when: always, accept: "Control+Shift+5", toggle: full_shape, }     
    # 切换全半角（Mac）
     - { when: always, accept: "Control+Shift+percent", toggle: full_shape, }     
+   # 显示拼音滤镜
+    - { when: has_menu, accept: "Control+comma", toggle: pinyinhint }
 
 
     # Option/Alt + ←/→ 切换光标至下/上一个拼音
