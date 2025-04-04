@@ -92,12 +92,12 @@ patch:
     # 開啓後，詞輔篩選的詞語會帶有輔助碼提示，例如「鏈接」後會有「jf」，
     # 意思是輸入 j *或* f 都可以定位到這個詞，而不是說要同時輸入 jf 兩個碼
     # （相反，同時輸入 jf 兩碼後反而無法得到該選項）。
-    enable_word_filter: false
+    enable_word_filter: true
     # 重設詞輔匹配提示符爲其他字符串。
     # 即輸入 lmjxz 時被詞輔匹配的候選「連接」的提示符，不影響輔助碼提示功能的輸出。
     # 設爲 "" 完全取消提示。
     # 設爲 {} 表示不重設詞輔提示符。
-    word_filter_match_indicator: {}
+    word_filter_match_indicator: ""
 
     # 「出簡讓全」相關設置
     # 當一個字具有簡碼時，打其全碼（不論是 yyxx 還是 yyxxo）都會導致該
@@ -383,6 +383,7 @@ patch:
   translator/preedit_format:         #不显示转换全拼编码
 ######################
   translator/enable_completion: true  # 启用候选词补全
+  translator/spelling_hints: 3    # 设置多少字以内候选标注完整带调拼音
   translator/contextual_suggestions: true   #上下文建议开启〔需配合 grammar 使用〕
   translator/max_homophones: 7 # 最大同音簇长度〔需配合 grammar 使用〕
   translator/max_homographs: 7 # 最大同形簇长度〔需配合 grammar 使用〕
