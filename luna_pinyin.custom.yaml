@@ -94,7 +94,7 @@ patch:
 ##################################################
 
   # 辅助码 （before last 在列表最后一个之前加上）
-  'engine/filters/@before last': lua_filter@*auxCode_filter@zrm_aux_code
+#  'engine/filters/@before last': lua_filter@*auxCode_filter@zrm_aux_code
 
  # Lua 配置:  辅助码
   axu_code:
