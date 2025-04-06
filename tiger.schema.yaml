@@ -64,7 +64,7 @@ punctuator:
 
 # 快捷键设置
 key_binder:
-  import_preset: default  # 从 default.yaml 继承通用的 
+#  import_preset: default  # 从 default.yaml 继承通用的 
 # Lua 配置: 以词定字
   select_first_character: "Shift+exclam"  # 以词定字 shift+1 [(第一个字)
   select_last_character:  "Shift+at"  # 以词定字句号 shift+2 (最后一个字) 
