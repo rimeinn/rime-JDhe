@@ -230,3 +230,25 @@ patch:
     # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
     nextpage_color: 0xFF9F48                 # 下一页
     prevpage_color: 0xFF9F48                 # 上一页    
+
+  preset_color_schemes/pornhub:
+    name: "P站风／Pornhub"
+    author: swwrww
+    back_color: 0x232323
+    border_color: 0x00000000
+    candidate_back_color: 0x00000000
+    candidate_shadow_color: 0x000083FF
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_back_color: 0x00000000
+    hilited_candidate_back_color: 0x0083FF
+    hilited_candidate_shadow_color: 0x00000000
+    hilited_candidate_text_color: 0x000000
+    hilited_comment_text_color: 0x000000
+    hilited_label_color: 0x000000
+    hilited_mark_color: 0xffffff
+    hilited_shadow_color: 0x000083FF
+    hilited_text_color: 0xffffff
+    label_color: 0xFFFFFF
+    shadow_color: 0x00000000
+    text_color: 0x0083FF
