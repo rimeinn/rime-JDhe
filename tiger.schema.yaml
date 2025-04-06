@@ -4,82 +4,41 @@
 schema:
   schema_id: tiger
   name: 虎码
-  version: "2024-09-12"
+  icon: ico/tiger.ico           # string 方案图标，格式： .ico
+  version: "2025.04.05"
   author:
     - 發明人 ID;PeaceB
-    - 方案修改：zHon     
+    - Rime schema by zHon   
   description: |
     虎码输入方案
     敲 ` 鍵進入双拼反查      
   dependencies:
     - wanxiang_pinyin_dz   # 万象拼音单字反查
-
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中, En ]
-  - name: full_shape
-    states: [ 半, 全 ]  # 符号
-  - name: ascii_punct
-    states: [ 。，, ．， ] # 中文标点，英文标点 
-
-engine:
-  processors:
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor 
-  translators:
-    - punct_translator
-    - reverse_lookup_translator
-    - table_translator
-  filters:
-    - uniquifier
-
-# 标点符号
-punctuator:
-  import_preset: default  # 从 default.yaml 继承通用的 
-
-# 快捷键设置
-key_binder:
-  import_preset: default  # 从 default.yaml 继承通用的 
+    - melt_eng # 英文
+    - tiger  # 虎码
+    - JDhe  # 简单鹤 
+    - radical_pinyin   # 部件拆字
+    - stroke   # 五筆畫
+    - double_pinyin_flypy  # 小鹤双拼  
+    - tiger_spelling_pseudo   # 虎码拆字注释方案
 
 
-# 识别器 处理符合特定规则的输入码，如网址、反查   
-recognizer:
-  import_preset: default  # 从 default.yaml 继承通用的 
-  patterns:                       # 再增加方案专有的
-    punct: "^/([0-9]0?|[A-Za-z]+)$"  # 响应 symbols
-    reverse_lookup: "^`[a-z]*'?$" #响应反查 
-    uppercase: "" #中文状态大写锁定直接上屏
-
-# 万象拼音单字反查
-reverse_lookup:
-  dictionary: wanxiang_pinyin_dz
-  prefix: "`"
-  tips: "〔单字〕"
-  comment_format:
-    - "xform/^/ /"
+__include: config_base:/switches_engine_table        # Rime模块
+__include: config_base:/opencc_config
+__include: config_base:/reverse_config                # 反查模块
+__include: config_base:/Lua_config                    # 自定义模块
+__include: config_base:/recognizer_config             # 识别器模块
 
 
 # 拼写设定
 speller:                                            
-  alphabet: "zyxwvutsrqponmlkjihgfedcba;/"                 # 不直接上屏的标点
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;/NUO`"                 # 不直接上屏的标点
 #  initials: 'abcdefghijklmnopqrstuvwxyz;/ZYXWVUTSRQPONMLKJIHGFEDCBA'                   # 可以作为第一位的「引导键」 
   delimiter: "'"     # 上屛时的音节间分音符
   max_code_length: 4  # 形码最大码长，超过则顶字上屛  
   auto_select: true   #是否开启无重码时自动上屏（仅在编码吻合时判断）
-  auto_select_pattern: ^;\w+|^\w{4}$   #自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏， 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  ，以此类推。直接注释禁用则达最大码长后，无重码时自动上屏
+#  auto_select_pattern: ^;\w+|^\w{4}$   #自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏， 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  ，以此类推。直接注释禁用则达最大码长后，无重码时自动上屏
+  auto_select_pattern: ^;(\w+|;)
   algebra:
     - xform/^\*//  # 特码以星号开头，以便在全码后置脚本中区分，以防识别为全码
 
@@ -97,3 +56,207 @@ translator:
   comment_format:  #提示码自定义
     - "xform/~/ /" #去掉编码提示前的~号
     # - "xform/^/ /" #提示前面 +间距
+
+
+# 标点符号
+punctuator:
+  import_preset: symbols  # 从 default.yaml 继承通用的 
+
+# 快捷键设置
+key_binder:
+  import_preset: default  # 从 default.yaml 继承通用的 
+# Lua 配置: 以词定字
+  select_first_character: "Shift+exclam"  # 以词定字 shift+1 [(第一个字)
+  select_last_character:  "Shift+at"  # 以词定字句号 shift+2 (最后一个字) 
+# Lua 配置: 强制删词, 隐藏词组
+  drop_cand: "Control+d"            # 强制删词, 无视输入的编码
+  ehide_cand: "Control+x"            # 匹配当前输入码后隐藏指定的候选字词
+  reduce_fq_cand: "Control+j"       # 匹配当前输入码后降频指定的候选字词
+# Lua 配置:  置顶词组，取消置顶词组
+  pin_cand: "Control+t"             # 候选词置顶
+  unpin_cand: "Control+t"           # 候选词取消置顶
+  custom_bindings:
+    __append: 
+      # 在這裏添加只在本方案中生效的按鍵綁定
+      # 打字时，' 选中第3个候选字发送 (音码方案需要此键 分词，形码单独启用)
+      - { accept: apostrophe, send: 3, when: has_menu}       
+  bindings:
+    __patch: 
+      - :/key_binder/custom_bindings?
+      - config_base:/key_config/options_toggle
+      - config_base:/key_config/keys
+
+
+__patch:
+  - tiger.custom:/patch?
+##################################################
+  # 英文临时输入标识
+  - 'engine/segmentors/@after 01': affix_segmentor@Eng 
+  # 英文临时输入（E）
+  - 'engine/translators/@after 02': table_translator@Eng
+##################################################
+  # 临时小鹤双拼标识
+  - 'engine/segmentors/@after 02': affix_segmentor@double_pinyin_flypy
+  # 音码翻译器 临时小鹤双拼混输
+  - 'engine/translators/@after 03': script_translator@double_pinyin_flypy
+##################################################
+  # 强制删词, 隐藏词组
+  - 'engine/processors/@after 00': lua_processor@*tiger/cold_word_drop*processor
+  # 删词, 隐词,降频 (Ctrl+D、Ctrl+X、Ctrl+J)  
+  - 'engine/filters/@after 00': lua_filter@*tiger/cold_word_drop*filter
+##################################################
+  # 中英混合词汇
+  - 'engine/translators/@after 04': table_translator@cn_en    
+##################################################
+  # 虎码拆字三重注解开关
+  - 'engine/processors/@after 00': lua_processor@*tiger/spelling_processor_v2  
+  # 虎码拆字三重注解
+  - 'engine/filters/@after 01': lua_filter@*tiger/spelling_v2@spelling  
+##################################################
+  # 自定义置顶词 快捷键响应
+  - 'engine/processors/@after 01': lua_processor@*tiger/pin_word*processor
+  # 自定义置顶词 ctrl-t
+  - 'engine/translators/@after 08': lua_translator@*tiger/pin_word*translator
+  # 替换掉雾凇版本自定义置顶词  
+  - 'engine/filters/@13': lua_filter@*tiger/pin_word*filter
+##################################################
+
+  - switches/+: 
+    - options: [ spelling.off, spelling.lv1, spelling.lv1.1, spelling.lv1.2, spelling.lv2, spelling.lv3 ]               # 虎码拆字注释
+      states: [ 拆隐, 拆显, 编显, 显示拼音, 拆+编, 拆+编+音 ]       # 快捷键 spelling/lua 下的 cycle_key 和 switch_key 定义
+##################################################
+  # 笔画反查显示编码
+  - radical_reverse_lookup/dictionary: tiger
+  - radical_reverse_lookup/comment_format: null
+
+  # 五笔画反查显示编码
+  - stroke_reverse_lookup/dictionary: tiger  
+  # 虎码反查显示编码
+  - tiger_reverse_lookup/dictionary: tiger  
+  # 万象拼音反查显示编码
+  - wanxiang_py_reverse_lookup/dictionary: tiger
+
+##################################################
+
+  # 响应 临时英文输入
+  - recognizer/patterns/Eng: "^E[A-Z|a-z]*`?$"  
+  # 响应 小鹤双拼临时输入   
+  - recognizer/patterns/double_pinyin_flypy: "^oup([a-z]+'?)*$"     
+  # 响应 单字反查 
+  - recognizer/patterns/reverse_lookup: "^`([a-z]+'?)*$" 
+  # 关闭万象拼音统配反查
+  - recognizer/patterns/wanxiang_py_lookup: null 
+
+##################################################
+# 英文翻译器
+Eng:
+  tag: Eng
+  dictionary: melt_eng
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+  prefix: "E"
+  tips: 〔En〕
+  comment_format:
+    - xform/^.+$//  
+
+# 次翻译器 小鹤双拼(临时音码混输）
+double_pinyin_flypy:
+  dictionary: luna_pinyin.extended                            # 挂载词库
+  enable_encoder:  true                  # 是否启用 自动造词  
+  enable_sentence:  true                 # 是否启用造句模式
+  encode_commit_history: false     # 是否对已上屛词自动成词  
+  enable_completion: false              #  编码提示开关（提前显示尚未输入完整码的字）
+  enable_user_dict: true                 # 是否启用用户词典（记录动态字词频、自造词）
+  initial_quality: 10                           #初始权重应比其他高  
+  preedit_format:  # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
+    __include: flypy_preedit_format
+  tag: double_pinyin_flypy
+  prefix: "oup"    
+  tips: "〔双拼〕"
+  disable_user_dict_for_patterns: 
+    - "^[a-z;,./]$"           # 禁止单码字调频
+    - "^[a-z;,./][a-z;,./]$"  # 禁止双码字调频
+
+# 中英混合词汇
+cn_en:
+  dictionary: ""
+  user_dict: en_dicts/cn_en_tiger
+  db_class: stabledb
+  enable_completion: true   # 补全提醒
+  enable_sentence: false      # 禁止造句
+  initial_quality: 0.5
+  comment_format:
+    - xform/^.+$//
+
+# 万象拼音单字反查
+reverse_lookup:
+  dictionary: wanxiang_pinyin_dz
+  prefix: "`"
+  tips: "〔单字〕"
+  comment_format:
+    - "xform/^/ /"
+
+
+##################################################
+# Lua 配置:  Ctrl+J 将词条降频到第 idx 个位置
+cold_word_reduce:                   
+  idx: 4
+
+# Lua 配置:  Ctrl+T 将词条置顶
+pin_word:                           # 词条置顶配置
+  word_quality: 1000
+  comment_mark: "ᵀᴼᴾ"               # 置顶词标记
+
+# Lua 配置: 虎码三重注解
+lua_reverse_db:
+  spelling: tiger_spelling_pseudo
+  code: tiger
+spelling:
+#    tags: [ abc, encode, punct, reverse_lookup, radical_lookup, stroke_lookup ]
+  tags: [ reverse_lookup, unicode, radical_lookup, stroke_lookup ] #隐藏除反查外的显示
+  lua:
+    switch_key: 'Control+c'
+    cycle_key: 'Shift+Control+C'
+    # 注意写法：Shift 在前，Control 在后。
+
+
+
+##################################################
+# 将小鹤双拼上屏编码转换为全拼
+flypy_preedit_format:
+    - xform/([bpmfdtnljqx])n/$1iao/
+    - xform/(\w)g/$1eng/
+    - xform/(\w)q/$1iu/
+    - xform/(\w)w/$1ei/
+    - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
+    - xform/(\w)t/$1ve/
+    - xform/(\w)y/$1un/
+    - xform/([dtnlgkhvuirzcs])o/$1uo/
+    - xform/(\w)p/$1ie/
+    - xform/([jqx])s/$1iong/
+    - xform/(\w)s/$1ong/
+    - xform/(\w)d/$1ai/
+    - xform/(\w)f/$1en/
+    - xform/(\w)h/$1ang/
+    - xform/(\w)j/$1an/
+    - xform/([gkhvuirzcs])k/$1uai/
+    - xform/(\w)k/$1ing/
+    - xform/([jqxnl])l/$1iang/
+    - xform/(\w)l/$1uang/
+    - xform/(\w)z/$1ou/
+    - xform/([gkhvuirzcs])x/$1ua/
+    - xform/(\w)x/$1ia/
+    - xform/(\w)c/$1ao/
+    - xform/([dtgkhvuirzcs])v/$1ui/
+    - xform/(\w)b/$1in/
+    - xform/(\w)m/$1ian/
+    - xform/([aoe])\1(\w)/$1$2/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
+    - xform/([jqxy])v/$1u/
+    - xform/([nl])v/$1ü/
+
+
+
