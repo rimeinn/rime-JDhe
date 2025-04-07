@@ -27,6 +27,10 @@ patch:
     - "9"
     - "0"
 
+  # 禁用根据是否在用户词典，在 comment 上加上一个标记
+  'engine/filters/@013': null
+
+
   # 簡快碼提示符
   # 修改爲 "" 可取消提示符
   # 建議在熟悉簡碼後再取消
@@ -34,5 +38,3 @@ patch:
   # 简码提示（包括字和詞）
   moran/enable_quick_code_hint: true
 
- # Lua 配置:  为输入过的内容加上标记
-  is_in_user_dict: false 
