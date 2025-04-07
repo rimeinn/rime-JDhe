@@ -15,14 +15,14 @@ sort: by_weight
 空落落的	kong;ip; luo;zo; luo;zo; de;sh;	87
 空落落的	kong;ip; lao;zo; lao;zo; de;sh;	87
 # 「阿房宫」的注音争议比较大
-阿房宫	e;bj; pang;qf; gong;io;	180
-阿房宫	a;bj; pang;qf; gong;io;	180
-阿房宫	e;bj; fang;qf; gong;io;	180
-阿房宫	a;bj; fang;qf; gong;io;	180
-阿房宫赋	e;bj; pang;qf; gong;io; fu;ma,mr;	44
-阿房宫赋	a;bj; pang;qf; gong;io; fu;ma,mr;	44
-阿房宫赋	e;bj; fang;qf; gong;io; fu;ma,mr;	44
-阿房宫赋	a;bj; fang;qf; gong;io; fu;ma,mr;	44
+阿房宫	e;bj,bo; pang;qf; gong;io;	180
+阿房宫	a;bj,bo; pang;qf; gong;io;	180
+阿房宫	e;bj,bo; fang;qf; gong;io;	180
+阿房宫	a;bj,bo; fang;qf; gong;io;	180
+阿房宫赋	e;bj,bo; pang;qf; gong;io; fu;ma,mr;	44
+阿房宫赋	a;bj,bo; pang;qf; gong;io; fu;ma,mr;	44
+阿房宫赋	e;bj,bo; fang;qf; gong;io; fu;ma,mr;	44
+阿房宫赋	a;bj,bo; fang;qf; gong;io; fu;ma,mr;	44
 # 「伯伯」方言
 伯伯	bo;xs; bo;xs;	541
 伯伯	bai;xs; bai;xs;	541
@@ -30,20 +30,20 @@ sort: by_weight
 远上寒山石径斜	yuan;uq; shang;pd,pu; han;ih; shan;pp; shi;tt; jing;hp; xie;es,eh;	38
 远上寒山石径斜	yuan;uq; shang;pd,pu; han;ih; shan;pp; shi;tt; jing;hp; xia;es,eh;	38
 # 「骑」目前统读 qi
-坐骑	zuo;eg; qi;zj;	1019
-坐骑	zuo;eg; ji;zj;	1019
-铁骑	tie;de; qi;zj;	383
-铁骑	tie;de; ji;zj;	383
-一骑绝尘	yi;dd; qi;zj; jue;et; chen;pg;	684
-一骑绝尘	yi;dd; ji;zj; jue;et; chen;pg;	684
-一骑当千	yi;dd; qi;zj; dang;hs; qian;ss;	53
-一骑当千	yi;dd; ji;zj; dang;hs; qian;ss;	53
-一骑红尘妃子笑	yi;dd; qi;zj; hong;ep; chen;pg; fei;yt; zi;aa; xiao;nx;	37
-一骑红尘妃子笑	yi;dd; ji;zj; hong;ep; chen;pg; fei;yt; zi;aa; xiao;nx;	37
-走单骑	zou;qq,ge; dan;fs; qi;zj;	0
-走单骑	zou;qq,ge; dan;fs; ji;zj;	0
-千里走单骑	qian;ss; li;vg; zou;qq,ge; dan;fs; qi;zj;	100
-千里走单骑	qian;ss; li;vg; zou;qq,ge; dan;fs; ji;zj;	100
+坐骑	zuo;eg; qi;zj,zo;	1019
+坐骑	zuo;eg; ji;zj,zo;	1019
+铁骑	tie;de; qi;zj,zo;	383
+铁骑	tie;de; ji;zj,zo;	383
+一骑绝尘	yi;dd; qi;zj,zo; jue;et; chen;pg;	684
+一骑绝尘	yi;dd; ji;zj,zo; jue;et; chen;pg;	684
+一骑当千	yi;dd; qi;zj,zo; dang;hs; qian;ss;	53
+一骑当千	yi;dd; ji;zj,zo; dang;hs; qian;ss;	53
+一骑红尘妃子笑	yi;dd; qi;zj,zo; hong;ep; chen;pg; fei;yt; zi;aa; xiao;nx;	37
+一骑红尘妃子笑	yi;dd; ji;zj,zo; hong;ep; chen;pg; fei;yt; zi;aa; xiao;nx;	37
+走单骑	zou;qq,ge; dan;fs; qi;zj,zo;	0
+走单骑	zou;qq,ge; dan;fs; ji;zj,zo;	0
+千里走单骑	qian;ss; li;vg; zou;qq,ge; dan;fs; qi;zj,zo;	100
+千里走单骑	qian;ss; li;vg; zou;qq,ge; dan;fs; ji;zj,zo;	100
 # 「街」的粤语和东北话读音及常见的两种写法
 仆街	pu;xh; jie;hj,hp;	37
 仆街	pu;xh; gai;hj,hp;	37
@@ -56,8 +56,8 @@ sort: by_weight
 街溜子	jie;hj,hp; liu;kw; zi;aa;	70
 街溜子	gai;hj,hp; liu;kw; zi;aa;	70
 # 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
-郭明錤	guo;ib; ming;vl; ji;;	38
-郭明錤	guo;ib; ming;vl; qi;;	38
+郭明錤	guo;ib; ming;vl; ji;ef;	38
+郭明錤	guo;ib; ming;vl; qi;ef;	38
 # 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
 李昌镐	li;wa; chang;vv; hao;do;	242
 曹世镐	cao;dv; shi;vr; hao;do;	0
@@ -89,8 +89,8 @@ sort: by_weight
 道行	dao;fq; hang;hj,hp;	270
 模样	mu;wx; yang;wp;	5185
 模样	mo;wx; yang;wp;	5185
-有模有样	you;sl; mu;wx; you;sl; yang;wp;	279
-有模有样	you;sl; mo;wx; you;sl; yang;wp;	279
+有模有样	you;sl,dl; mu;wx; you;sl,dl; yang;wp;	279
+有模有样	you;sl,dl; mo;wx; you;sl,dl; yang;wp;	279
 一模一样	yi;dd; mu;wx; yi;dd; yang;wp;	5083
 一模一样	yi;dd; mo;wx; yi;dd; yang;wp;	5083
 装模作样	zhuang;lk; mu;wx; zuo;xu; yang;wp;	485
@@ -99,20 +99,20 @@ sort: by_weight
 人模狗样	ren;ee; mo;wx; gou;bi; yang;wp;	146
 模板	mu;wx; ban;wl;	14674
 模板	mo;wx; ban;wl;	14674
-阿弥陀佛	e;bj; mi;rf; tuo;ba; fo;xp;	371
-阿弥陀佛	a;bj; mi;rf; tuo;ba; fo;xp;	371
-南无阿弥陀佛	na;ss,sp; mo;uk,ur; e;bj; mi;rf; tuo;ba; fo;xp;	42
-南无阿弥陀佛	na;ss,sp; mo;uk,ur; a;bj; mi;rf; tuo;ba; fo;xp;	42
-南无阿弥陀佛	nan;ss,sp; wu;uk,ur; e;bj; mi;rf; tuo;ba; fo;xp;	42
-南无阿弥陀佛	nan;ss,sp; wu;uk,ur; a;bj; mi;rf; tuo;ba; fo;xp;	42
+阿弥陀佛	e;bj,bo; mi;rf; tuo;ba; fo;xp;	371
+阿弥陀佛	a;bj,bo; mi;rf; tuo;ba; fo;xp;	371
+南无阿弥陀佛	na;ss,sp; mo;uk,ur; e;bj,bo; mi;rf; tuo;ba; fo;xp;	42
+南无阿弥陀佛	na;ss,sp; mo;uk,ur; a;bj,bo; mi;rf; tuo;ba; fo;xp;	42
+南无阿弥陀佛	nan;ss,sp; wu;uk,ur; e;bj,bo; mi;rf; tuo;ba; fo;xp;	42
+南无阿弥陀佛	nan;ss,sp; wu;uk,ur; a;bj,bo; mi;rf; tuo;ba; fo;xp;	42
 给予	ji;eo; yu;pp;	11349
 给予	gei;eo; yu;pp;	11349
 槟榔	bing;wf; lang;wb;	633
 槟榔	bin;wf; lang;wb;	633
 张柏芝	zhang;rh; bo;ws; zhi;zh;	748
 张柏芝	zhang;rh; bai;ws; zhi;zh;	748
-藤蔓	teng;zo; wan;zl;	320
-藤蔓	teng;zo; man;zl;	320
+藤蔓	teng;zo,zf; wan;zl;	320
+藤蔓	teng;zo,zf; man;zl;	320
 弄堂	long;ap,az; tang;hg;	126
 弄堂	nong;ap,az; tang;hg;	126
 心宽体胖	xin;nn; kuan;ik,ir; ti;xd; pan;lp,ls;	39
@@ -149,8 +149,8 @@ sort: by_weight
 胴体	tong;lo; ti;xd;	80
 力能扛鼎	li;uu; neng;pa; gang;jp; ding;sr;	26
 力能扛鼎	li;uu; neng;pa; kang;jp; ding;sr;	26
-鸭绿江	ya;vc; lu;eo; jiang;kp;	152
-鸭绿江	ya;vc; lv;eo; jiang;kp;	152
+鸭绿江	ya;vc; lu;eo,ef; jiang;kp;	152
+鸭绿江	ya;vc; lv;eo,ef; jiang;kp;	152
 大腹便便	da;xx; fu;lj; pian;xy; pian;xy;	147
 大腹便便	da;xx; fu;lj; bian;xy; bian;xy;	147
 卡脖子	qia;ph; bo;la; zi;aa;	308
@@ -173,8 +173,8 @@ sort: by_weight
 歇斯底里	jie;ve; si;vp; di;rh; li;vg;	883
 暖和	nuan;vl; huo;uo;	743
 暖和	nuan;vl; he;uo;	743
-模棱两可	mo;wx; leng;wj; liang;de; ke;jj;	848
-模棱两可	mo;wx; ling;wj; liang;de; ke;jj;	848
+模棱两可	mo;wx; leng;wj; liang;de; ke;jj,jo;	848
+模棱两可	mo;wx; ling;wj; liang;de; ke;jj,jo;	848
 鄱阳湖	po;hb; yang;bv; hu;kl;	1336
 鄱阳湖	pan;hb; yang;bv; hu;kl;	1336
 脖颈	bo;la; geng;rm;	483
@@ -237,12 +237,12 @@ sort: by_weight
 血脉贲张	xue;ud,ua; mai;lh,lo; ben;sm; zhang;rh;	49
 血脉偾张	xue;ud,ua; mai;lh,lo; fen;xm; zhang;rh;	0
 血脉喷张	xue;ud,ua; mai;lh,lo; pen;om; zhang;rh;	0
-契诃夫	qi;ax; he;cj; fu;ee;	437
+契诃夫	qi;ax; he;cj,co; fu;ee;	437
 契科夫	qi;ax; ke;uh,us; fu;ee;	0
 凑合	cou;fx; he;eo;	1809
 凑活	cou;fx; huo;ko;	246
-巨惠	ju;dr; hui;dn;	0
-钜惠	ju;dr; hui;dn;	0
+巨惠	ju;dr; hui;dn,sn;	0
+钜惠	ju;dr; hui;dn,sn;	0
 摩羯座	mo;do,dp,rp; jie;fr; zuo;rg;	107
 魔蝎座	mo;ds,rs,rp,dp; xie;fr; zuo;rg;	0
 ##### 叠字
@@ -259,8 +259,8 @@ sort: by_weight
 两个人	liang;de; ge;ep; ren;ee;	18484
 两个飞	liang;de; ge;ep; fei;rh;	0
 两个戈	liang;de; ge;ep; ge;dh,aa,ha;	0
-两个厶	liang;de; ge;ep; si;;	0
-两个厶	liang;de; ge;ep; mou;;	0
+两个厶	liang;de; ge;ep; si;pp;	0
+两个厶	liang;de; ge;ep; mou;pp;	0
 两个又	liang;de; ge;ep; you;ll;	0
 两个香	liang;de; ge;ep; xiang;uv;	0
 两个面	liang;de; ge;ep; mian;dd,du;	0
@@ -269,16 +269,16 @@ sort: by_weight
 两个𡥦	liang;de; ge;ep; ni;;	0
 两个臣	liang;de; ge;ep; chen;dr;	0
 两个巾	liang;de; ge;ep; jin;yy;	0
-两个左	liang;de; ge;ep; zuo;sp;	0
+两个左	liang;de; ge;ep; zuo;sp,dp;	0
 两个母	liang;de; ge;ep; mu;rh;	0
 两个来	liang;de; ge;ep; lai;uf,ef,dl;	0
 两个凡	liang;de; ge;ep; fan;ih;	0
 两个夕	liang;de; ge;ep; xi;ff;	0
 两个彐	liang;de; ge;ep; ji;;	0
 两个𢎘	liang;de; ge;ep; han;;	0
-两个魚	liang;de; ge;ep; yu;;	0
+两个魚	liang;de; ge;ep; yu;gn;	0
 两个明	liang;de; ge;ep; ming;vl;	0
-两个朿	liang;de; ge;ep; ci;;	0
+两个朿	liang;de; ge;ep; ci;df;	0
 两个乂	liang;de; ge;ep; yi;yy;	0
 两个曰	liang;de; ge;ep; yue;vv;	0
 两个尸	liang;de; ge;ep; shi;qq;	0
@@ -290,7 +290,7 @@ sort: by_weight
 两个吉	liang;de; ge;ep; ji;go;	0
 两个马	liang;de; ge;ep; ma;zz;	0
 两个卅	liang;de; ge;ep; sa;sp,ud;	0
-两个巛	liang;de; ge;ep; chuan;;	0
+两个巛	liang;de; ge;ep; chuan;rr;	0
 两个止	liang;de; ge;ep; zhi;rr;	0
 两个比	liang;de; ge;ep; bi;aa;	0
 两个言	liang;de; ge;ep; yan;cc,io;	0
@@ -298,12 +298,12 @@ sort: by_weight
 两个牛	liang;de; ge;ep; niu;bb;	0
 两个余	liang;de; ge;ep; yu;ef;	0
 两个束	liang;de; ge;ep; shu;df;	0
-两个罒	liang;de; ge;ep; mu;;	0
-两个㐅	liang;de; ge;ep; wu;;	0
+两个罒	liang;de; ge;ep; mu;aa;	0
+两个㐅	liang;de; ge;ep; wu;yy;	0
 两个金	liang;de; ge;ep; jin;ed,ef;	0
 两个木	liang;de; ge;ep; mu;ww;	0
 两个水	liang;de; ge;ep; shui;oo;	0
-两个風	liang;de; ge;ep; feng;;	0
+两个風	liang;de; ge;ep; feng;if;	0
 两个石	liang;de; ge;ep; shi;tt;	0
 两个日	liang;de; ge;ep; ri;vv;	0
 两个月	liang;de; ge;ep; yue;ll;	7342
@@ -314,16 +314,16 @@ sort: by_weight
 两个屮	liang;de; ge;ep; che;;	0
 两个屮	liang;de; ge;ep; cao;;	0
 两个廿	liang;de; ge;ep; nian;vv;	0
-两个卄	liang;de; ge;ep; nian;;	0
+两个卄	liang;de; ge;ep; nian;zz;	0
 两个虫	liang;de; ge;ep; chong;ff;	0
 两个虎	liang;de; ge;ep; hu;pi;	0
 两个龍	liang;de; ge;ep; long;bu;	0
-两个馬	liang;de; ge;ep; ma;;	0
+两个馬	liang;de; ge;ep; ma;dn;	0
 两个犬	liang;de; ge;ep; quan;bb,xh;	0
 两个入	liang;de; ge;ep; ru;ee;	0
 两个习	liang;de; ge;ep; xi;dd;	0
-两个卪	liang;de; ge;ep; jie;;	0
-两个㔾	liang;de; ge;ep; jie;;	0
+两个卪	liang;de; ge;ep; jie;bh;	0
+两个㔾	liang;de; ge;ep; jie;tt;	0
 两个几	liang;de; ge;ep; ji;ii;	0
 两个乙	liang;de; ge;ep; yi;rr;	0
 两个夫	liang;de; ge;ep; fu;ee;	0
@@ -342,13 +342,13 @@ sort: by_weight
 两个王	liang;de; ge;ep; wang;aa;	0
 两个男	liang;de; ge;ep; nan;wu;	0
 两个支	liang;de; ge;ep; zhi;sl;	0
-两个隻	liang;de; ge;ep; zhi;;	0
+两个隻	liang;de; ge;ep; zhi;xl;	0
 两个古	liang;de; ge;ep; gu;so;	0
 两个舌	liang;de; ge;ep; she;so;	0
 两个启	liang;de; ge;ep; qi;qo;	0
-两个來	liang;de; ge;ep; lai;;	0
-两个桼	liang;de; ge;ep; qi;;	0
-两个旡	liang;de; ge;ep; ji;;	0
+两个來	liang;de; ge;ep; lai;se;	0
+两个桼	liang;de; ge;ep; qi;wo;	0
+两个旡	liang;de; ge;ep; ji;dk;	0
 两个歹	liang;de; ge;ep; dai;ff;	0
 两个匕	liang;de; ge;ep; bi;aa;	0
 两个幺	liang;de; ge;ep; yao;rp;	0
@@ -364,8 +364,8 @@ sort: by_weight
 两个竟	liang;de; ge;ep; jing;bk,ck;	0
 两个竞	liang;de; ge;ep; jing;bk;	0
 两个兄	liang;de; ge;ep; xiong;ok;	0
-两个見	liang;de; ge;ep; jian;;	0
-两个貝	liang;de; ge;ep; bei;;	0
+两个見	liang;de; ge;ep; jian;sk;	0
+两个貝	liang;de; ge;ep; bei;sf;	0
 两个辛	liang;de; ge;ep; xin;bs;	0
 两个瓜	liang;de; ge;ep; gua;uh;	0
 两个呆	liang;de; ge;ep; dai;ow;	0
@@ -373,13 +373,13 @@ sort: by_weight
 两个鸟	liang;de; ge;ep; niao;cc;	0
 两个巢	liang;de; ge;ep; chao;rw;	0
 两个禺	liang;de; ge;ep; yu;vh;	0
-两个巿	liang;de; ge;ep; fu;;	0
+两个巿	liang;de; ge;ep; fu;dy;	0
 两个句	liang;de; ge;ep; ju;ii;	0
-两个奇	liang;de; ge;ep; qi;xj;	0
+两个奇	liang;de; ge;ep; qi;xj,xo;	0
 两个真	liang;de; ge;ep; zhen;sf;	0
 两个尹	liang;de; ge;ep; yin;ru,su;	0
 两个昔	liang;de; ge;ep; xi;zv;	0
-两个易	liang;de; ge;ep; yi;vi;	0
+两个易	liang;de; ge;ep; yi;vi,vu;	0
 两个先	liang;de; ge;ep; xian;bk;	0
 两个老	liang;de; ge;ep; lao;ga;	0
 两个示	liang;de; ge;ep; shi;uf;	0
@@ -388,44 +388,44 @@ sort: by_weight
 两个車	liang;de; ge;ep; che;ds;	0
 两个車	liang;de; ge;ep; ju;ds;	0
 两个足	liang;de; ge;ep; zu;gg;	0
-两个區	liang;de; ge;ep; qu;;	0
+两个區	liang;de; ge;ep; qu;dr;	0
 两个隹	liang;de; ge;ep; zhui;xa,ea;	0
 两个牟	liang;de; ge;ep; mou;pb;	0
 两个豕	liang;de; ge;ep; shi;dh;	0
 两个𠂢	liang;de; ge;ep; pai;;	0
-两个畐	liang;de; ge;ep; fu;;	0
-两个㣇	liang;de; ge;ep; yi;;	0
+两个畐	liang;de; ge;ep; fu;dw;	0
+两个㣇	liang;de; ge;ep; yi;ry;	0
 两个邑	liang;de; ge;ep; yi;ot;	0
-两个堯	liang;de; ge;ep; yao;;	0
+两个堯	liang;de; ge;ep; yao;gk;	0
 两个秉	liang;de; ge;ep; bing;sf;	0
-两个倉	liang;de; ge;ep; cang;;	0
-两个東	liang;de; ge;ep; dong;;	0
+两个倉	liang;de; ge;ep; cang;eo;	0
+两个東	liang;de; ge;ep; dong;dh;	0
 两个善	liang;de; ge;ep; shan;fo;	0
-两个僉	liang;de; ge;ep; qian;;	0
-两个齒	liang;de; ge;ep; chi;;	0
+两个僉	liang;de; ge;ep; qian;ee;	0
+两个齒	liang;de; ge;ep; chi;rp;	0
 两个喜	liang;de; ge;ep; xi;go;	0
 两个走	liang;de; ge;ep; zou;qq,ge;	0
 两个昌	liang;de; ge;ep; chang;vv;	0
 两个串	liang;de; ge;ep; chuan;op;	0
 两个米	liang;de; ge;ep; mi;ll;	0
-两个隶	liang;de; ge;ep; li;ro,so;	0
+两个隶	liang;de; ge;ep; li;rf,ro,so;	0
 两个不	liang;de; ge;ep; bu;dh;	0
-两个龙	liang;de; ge;ep; long;sh;	0
+两个龙	liang;de; ge;ep; long;sh,dh;	0
 两个乞	liang;de; ge;ep; qi;er;	0
-两个夋	liang;de; ge;ep; qun;;	0
+两个夋	liang;de; ge;ep; qun;pj;	0
 两个天	liang;de; ge;ep; tian;ue;	0
 # 三叠字
 三个生	san;uu; ge;ep; sheng;eg;	0
 三个秦	san;uu; ge;ep; qin;uf,uw;	0
 三个若	san;uu; ge;ep; ruo;zo;	0
-三个雲	san;uu; ge;ep; yun;;	0
+三个雲	san;uu; ge;ep; yun;yp;	0
 三个人	san;uu; ge;ep; ren;ee;	4260
 三个刀	san;uu; ge;ep; dao;ii,ru;	0
 三个十	san;uu; ge;ep; shi;ss;	1
 三个力	san;uu; ge;ep; li;uu;	0
 三个原	san;uu; ge;ep; yuan;rf;	0
-三个厶	san;uu; ge;ep; si;;	0
-三个厶	san;uu; ge;ep; mou;;	0
+三个厶	san;uu; ge;ep; si;pp;	0
+三个厶	san;uu; ge;ep; mou;pp;	0
 三个又	san;uu; ge;ep; you;ll;	0
 三个口	san;uu; ge;ep; kou;oo;	5
 三个七	san;uu; ge;ep; qi;aa;	0
@@ -463,11 +463,11 @@ sort: by_weight
 三个金	san;uu; ge;ep; jin;ed,ef;	0
 三个隹	san;uu; ge;ep; zhui;xa,ea;	0
 三个雷	san;uu; ge;ep; lei;yw;	0
-三个風	san;uu; ge;ep; feng;;	0
-三个飛	san;uu; ge;ep; fei;;	0
+三个風	san;uu; ge;ep; feng;if;	0
+三个飛	san;uu; ge;ep; fei;rp;	0
 三个香	san;uu; ge;ep; xiang;uv;	0
 三个马	san;uu; ge;ep; ma;zz;	0
-三个魚	san;uu; ge;ep; yu;;	0
+三个魚	san;uu; ge;ep; yu;gn;	0
 三个鹿	san;uu; ge;ep; lu;ra;	0
 三个龍	san;uu; ge;ep; long;bu;	0
 三个个	san;uu; ge;ep; ge;ep;	0
@@ -477,16 +477,16 @@ sort: by_weight
 三个介	san;uu; ge;ep; jie;ep;	0
 三个企	san;uu; ge;ep; qi;er;	0
 三个舍	san;uu; ge;ep; she;eo;	0
-三个圥	san;uu; ge;ep; lu;;	0
+三个圥	san;uu; ge;ep; lu;gk;	0
 三个光	san;uu; ge;ep; guang;hk;	0
 三个兔	san;uu; ge;ep; tu;gh;	0
 三个全	san;uu; ge;ep; quan;ea;	0
 三个𠙽	san;uu; ge;ep; kuai;;	0
 三个𠧪	san;uu; ge;ep; tiao;;	0
 三个𠧪	san;uu; ge;ep; you;;	0
-三个㔾	san;uu; ge;ep; jie;;	0
-三个厡	san;uu; ge;ep; yuan;;	0
-三个可	san;uu; ge;ep; ke;jj;	0
+三个㔾	san;uu; ge;ep; jie;tt;	0
+三个厡	san;uu; ge;ep; yuan;ro;	0
+三个可	san;uu; ge;ep; ke;jj,jo;	0
 三个因	san;uu; ge;ep; yin;nx;	0
 三个夏	san;uu; ge;ep; xia;dj;	0
 三个大	san;uu; ge;ep; da;xx;	0
@@ -502,7 +502,7 @@ sort: by_weight
 三个市	san;uu; ge;ep; shi;iy;	3
 三个文	san;uu; ge;ep; wen;jj;	0
 三个斗	san;uu; ge;ep; dou;hs,sh;	0
-三个朿	san;uu; ge;ep; ci;;	0
+三个朿	san;uu; ge;ep; ci;df;	0
 三个束	san;uu; ge;ep; shu;df;	0
 三个林	san;uu; ge;ep; lin;ww;	0
 三个果	san;uu; ge;ep; guo;vw;	0
@@ -514,28 +514,28 @@ sort: by_weight
 三个甲	san;uu; ge;ep; jia;vp;	0
 三个百	san;uu; ge;ep; bai;ds;	0
 三个盖	san;uu; ge;ep; gai;fd,fa;	0
-三个県	san;uu; ge;ep; xian;;	0
+三个県	san;uu; ge;ep; xian;sf;	0
 三个空	san;uu; ge;ep; kong;ip;	0
-三个亇	san;uu; ge;ep; ge;;	0
+三个亇	san;uu; ge;ep; ge;gp;	0
 三个竹	san;uu; ge;ep; zhu;nn;	0
-三个罒	san;uu; ge;ep; mu;;	0
-三个羗	san;uu; ge;ep; qiang;;	0
+三个罒	san;uu; ge;ep; mu;aa;	0
+三个羗	san;uu; ge;ep; qiang;fp;	0
 三个老	san;uu; ge;ep; lao;ga;	0
 三个月	san;uu; ge;ep; yue;ll;	9003
 三个至	san;uu; ge;ep; zhi;dg;	0
-三个興	san;uu; ge;ep; xing;;	0
+三个興	san;uu; ge;ep; xing;uf;	0
 三个足	san;uu; ge;ep; zu;gg;	0
-三个㖖	san;uu; ge;ep; nie;;	0
-三个門	san;uu; ge;ep; men;;	0
+三个㖖	san;uu; ge;ep; nie;bo;	0
+三个門	san;uu; ge;ep; men;pu;	0
 三个面	san;uu; ge;ep; mian;dd,du;	0
-三个頁	san;uu; ge;ep; ye;;	0
-三个鳥	san;uu; ge;ep; niao;;	0
+三个頁	san;uu; ge;ep; ye;df;	0
+三个鳥	san;uu; ge;ep; niao;un;	0
 三个男	san;uu; ge;ep; nan;wu;	0
 三个立	san;uu; ge;ep; li;bb;	0
 三个九	san;uu; ge;ep; jiu;ur;	3
 三个也	san;uu; ge;ep; ye;rr;	0
 三个加	san;uu; ge;ep; jia;uo;	0
-三个動	san;uu; ge;ep; dong;;	0
+三个動	san;uu; ge;ep; dong;su;	0
 三个千	san;uu; ge;ep; qian;ss;	0
 三个方	san;uu; ge;ep; fang;ff;	0
 三个朔	san;uu; ge;ep; shuo;fl;	0
@@ -544,7 +544,7 @@ sort: by_weight
 三个𡿨	san;uu; ge;ep; quan;;	0
 三个去	san;uu; ge;ep; qu;gp;	0
 三个弓	san;uu; ge;ep; gong;rr;	0
-三个䖝	san;uu; ge;ep; chong;;	0
+三个䖝	san;uu; ge;ep; chong;uf;	0
 三个丿	san;uu; ge;ep; pie;;	0
 三个户	san;uu; ge;ep; hu;qq;	0
 三个瓜	san;uu; ge;ep; gua;uh;	0
@@ -553,8 +553,8 @@ sort: by_weight
 # 四叠字
 四个乂	si;nk; ge;ep; yi;yy;	0
 四个人	si;nk; ge;ep; ren;ee;	2268
-四个厶	si;nk; ge;ep; si;;	0
-四个厶	si;nk; ge;ep; mou;;	0
+四个厶	si;nk; ge;ep; si;pp;	0
+四个厶	si;nk; ge;ep; mou;pp;	0
 四个又	si;nk; ge;ep; you;ll;	0
 四个匕	si;nk; ge;ep; bi;aa;	0
 四个工	si;nk; ge;ep; gong;pp;	0
@@ -565,7 +565,7 @@ sort: by_weight
 四个屮	si;nk; ge;ep; cao;;	0
 四个火	si;nk; ge;ep; huo;tt;	0
 四个牛	si;nk; ge;ep; niu;bb;	0
-四个魚	si;nk; ge;ep; yu;;	0
+四个魚	si;nk; ge;ep; yu;gn;	0
 四个月	si;nk; ge;ep; yue;ll;	1860
 四个日	si;nk; ge;ep; ri;vv;	0
 四个林	si;nk; ge;ep; lin;ww;	0
@@ -578,19 +578,19 @@ sort: by_weight
 四个困	si;nk; ge;ep; kun;nw;	0
 四个竹	si;nk; ge;ep; zhu;nn;	0
 四个老	si;nk; ge;ep; lao;ga;	0
-四个朿	si;nk; ge;ep; ci;;	0
+四个朿	si;nk; ge;ep; ci;df;	0
 四个先	si;nk; ge;ep; xian;bk;	0
 四个金	si;nk; ge;ep; jin;ed,ef;	0
 四个泉	si;nk; ge;ep; quan;so;	0
 四个言	si;nk; ge;ep; yan;cc,io;	0
-四个門	si;nk; ge;ep; men;;	0
+四个門	si;nk; ge;ep; men;pu;	0
 四个果	si;nk; ge;ep; guo;vw;	0
 四个春	si;nk; ge;ep; chun;uv;	0
 四个車	si;nk; ge;ep; che;ds;	0
-四个風	si;nk; ge;ep; feng;;	0
+四个風	si;nk; ge;ep; feng;if;	0
 四个雷	si;nk; ge;ep; lei;yw;	0
-四个雲	si;nk; ge;ep; yun;;	0
-四个興	si;nk; ge;ep; xing;;	0
+四个雲	si;nk; ge;ep; yun;yp;	0
+四个興	si;nk; ge;ep; xing;uf;	0
 四个龍	si;nk; ge;ep; long;bu;	0
 四个土	si;nk; ge;ep; tu;gg;	0
 

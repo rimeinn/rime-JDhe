@@ -3,7 +3,7 @@
 
 ---
 name: JDhe
-version: "2024-10-07"
+version: "2025-04-08"
 sort: by_weight
 import_tables:
   # ---------------------------------------
@@ -11,9 +11,9 @@ import_tables:
   # （使用#号禁用词库）
   # ---------------------------------------  
   - cn_dicts/JDhe/JDhe                   
-  - cn_dicts/JDhe/JDhe_ext 
-  - cn_dicts/JDhe/JDhe_3j 
   - cn_dicts/my_user          # 用户词组 
+  - cn_dicts/JDhe/JDhe_ext    # 扩展字集
+
   # ---------------------------------------  
 columns:
   - text
