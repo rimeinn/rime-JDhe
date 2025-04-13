@@ -1,5 +1,5 @@
 name: tigress
-version: "2025.01.09"
+version: "2025.03.07"
 sort: by_weight
 columns:
   - text          # 第一列字／词
@@ -16,6 +16,7 @@ encoder:
       formula: "AaBaCaZa"
 ...
 的	u	10359470	un
+的	uni	256	
 的	unid	256	
 一	f	4346343	fi
 一	fi	256	
@@ -54,6 +55,7 @@ encoder:
 说	s	1214559	sh
 说	shdp	256	
 为	i	1195466	is
+为	isi	256	
 为	isid	256	
 们	ja	1176988	
 们	jam	256	
@@ -83,6 +85,7 @@ encoder:
 可	z	952249	zk
 可	zk	256	
 道	h	911043	ho
+道	hou	256	
 道	houc	256	
 之	ri	907523	
 对	rk	892639	
@@ -93,6 +96,7 @@ encoder:
 而	l	824737	le
 而	le	256	
 得	w	796166	wo
+得	wof	256	
 得	wofk	256	
 下	fy	795219	
 下	fyb	256	
@@ -107,11 +111,13 @@ encoder:
 年	ev	688481	
 年	evk	256	
 后	xf	682764	
+后	xfd	256	
 后	xfdk	256	
 发	sr	674666	
 发	sri	256	
 发	srid	256	
 都	q	651479	qo
+都	qot	256	
 都	qote	256	
 里	dl	650836	
 没	kr	648348	
@@ -520,6 +526,7 @@ encoder:
 德	wny	256	
 德	wnyh	256	
 强	bd	182703	
+强	bdc	256	
 强	bdcc	256	
 量	ofd	182659	
 量	ofdl	397	
@@ -754,6 +761,7 @@ encoder:
 满	klm	256	
 满	klml	256	
 服	vz	127960	
+服	vzr	256	
 服	vzry	256	
 官	wk	127954	
 官	wki	256	
@@ -782,6 +790,7 @@ encoder:
 证	sfs	256	
 证	sfsi	256	
 单	hq	123586	
+单	hqn	256	
 单	hqns	256	
 议	sib	123237	
 议	sibi	397	
@@ -831,6 +840,7 @@ encoder:
 半	hus	256	
 容	whg	112409	
 曾	hr	112373	
+曾	hry	256	
 曾	hryo	256	
 啊	dt	112351	
 啊	dtz	256	
@@ -959,6 +969,7 @@ encoder:
 响	dtm	97060	
 响	dtmd	397	
 号	df	97043	
+号	dfa	256	
 号	dfae	256	
 参	kme	96889	
 参	kmes	397	
@@ -1244,6 +1255,7 @@ encoder:
 追	tkuc	397	
 木	em	70322	
 哈	dj	70269	
+哈	djd	256	
 哈	djdk	256	
 您	jxy	70259	
 您	jxyh	397	
@@ -1563,9 +1575,9 @@ encoder:
 贵	cob	256	
 顺	ow	49276	
 顺	owy	256	
-楼	ep	49147	
-楼	epb	256	
-楼	epbn	256	
+楼	epb	49147	
+楼	ep	397	
+楼	epbn	397	
 遇	qv	49125	
 遇	qvu	256	
 遇	qvuc	256	
@@ -2134,9 +2146,9 @@ encoder:
 爆	col	28322	
 爆	colk	397	
 振	ufc	28317	
-趣	pq	28314	
-趣	pqr	256	
-趣	pqry	256	
+趣	pqr	28314	
+趣	pq	397	
+趣	pqry	397	
 操	udd	28307	
 操	udde	397	
 诚	sna	28271	
@@ -2511,9 +2523,9 @@ encoder:
 播	utp	20431	
 播	utpq	397	
 零	tjks	20379	
-躲	zo	20265	
-躲	zoe	256	
-躲	zoem	256	
+躲	zoe	20265	
+躲	zo	397	
+躲	zoem	397	
 映	om	20237	
 映	omm	256	
 映	ommd	256	
@@ -5367,8 +5379,7 @@ encoder:
 唬	dzh	2321	
 钙	zfy	2321	
 钙	zfya	397	
-缪	izj	2313	
-缪	izje	397	
+缪	izje	2313	
 酱	aly	2311	
 酱	alyy	397	
 痰	acc	2310	
@@ -5787,8 +5798,7 @@ encoder:
 黝	pisl	397	
 汴	kzy	1740	
 汴	kzyb	397	
-缰	ifq	1740	
-缰	ifqf	397	
+缰	ifqf	1740	
 酝	yby	1740	
 垢	gxf	1736	
 垢	gxfd	397	
@@ -7157,8 +7167,6 @@ encoder:
 镌	zuvn	397	
 鳗	woyr	822	
 痢	axpd	821	
-冁	hqn	820	
-冁	hqnt	397	
 秆	xeg	819	
 嚅	dtle	818	
 胄	dvy	818	
@@ -7368,8 +7376,7 @@ encoder:
 靼	tofi	742	
 俚	jdl	741	
 殁	grs	741	
-饕	dfa	741	
-饕	dfaq	397	
+饕	dfaq	741	
 仄	xjr	740	
 牍	ana	737	
 牍	anam	397	
@@ -7594,8 +7601,7 @@ encoder:
 诤	sxbv	652	
 辏	yaim	652	
 祉	fsi	651	
-犟	bdc	650	
-犟	bdcq	397	
+犟	bdcq	650	
 猬	mqv	650	
 猬	mqvy	397	
 夯	msl	649	
@@ -7779,8 +7785,7 @@ encoder:
 杈	erid	397	
 荻	lmc	602	
 荻	lmch	397	
-逅	xfd	602	
-逅	xfdu	397	
+逅	xfdu	602	
 矾	moi	601	
 矾	moid	397	
 馑	qld	601	
@@ -8208,8 +8213,7 @@ encoder:
 烩	cjb	504	
 烩	cjby	397	
 骅	njvn	504	
-啖	dcc	503	
-啖	dcch	397	
+啖	dcch	503	
 峁	vbm	503	
 怩	hcv	503	
 怩	hcvb	397	
@@ -8234,8 +8238,7 @@ encoder:
 嗪	daix	499	
 殚	ghqn	499	
 潸	keev	499	
-甑	hry	499	
-甑	hryr	397	
+甑	hryr	499	
 逖	mcu	499	
 逖	mcuc	397	
 錾	ytz	499	
@@ -8626,7 +8629,6 @@ encoder:
 缛	ifk	436	
 缛	ifkc	436	
 娌	bdl	435	
-膻	vzr	435	
 膻	vzrf	435	
 茱	lta	435	
 茱	ltaw	435	
@@ -8640,7 +8642,6 @@ encoder:
 浠	kbnr	434	
 瘛	aap	434	
 瘛	aaph	434	
-碚	mid	434	
 碚	midk	434	
 禳	ftd	434	
 禳	ftdf	434	
@@ -8759,7 +8760,6 @@ encoder:
 芄	lkid	421	
 藿	ltu	421	
 藿	ltui	421	
-仞	jpi	420	
 仞	jpid	420	
 洮	kpw	420	
 洮	kpww	420	
@@ -8892,7 +8892,6 @@ encoder:
 衿	tjae	408	
 侔	jkq	407	
 侔	jkqn	407	
-堀	gcs	407	
 堀	gcsm	407	
 睚	qxg	407	
 睚	qxgg	407	
@@ -8991,6 +8990,7 @@ encoder:
 渫	klae	399	
 瘅	ahqn	399	
 硌	msg	399	
+窭	epbn	399	
 箅	rqlc	399	
 翀	zdgs	399	
 腈	vavy	399	
@@ -9215,7 +9215,6 @@ encoder:
 榇	eiem	379	
 焐	cwd	379	
 焐	cwdk	379	
-肫	vfs	379	
 肫	vfsc	379	
 膂	letv	379	
 鲅	wnr	379	
@@ -9673,7 +9672,6 @@ encoder:
 朊	vmpe	336	
 槔	eum	336	
 槔	eumn	336	
-沔	kfg	336	
 沔	kfga	336	
 泶	kwks	336	
 蒌	lpb	336	
@@ -9694,12 +9692,10 @@ encoder:
 鲔	wnvy	335	
 嵛	vjv	334	
 嵛	vjvp	334	
-樘	esg	334	
 樘	esgt	334	
 獍	mxpe	334	
 祆	ffm	334	
 祆	ffmd	334	
-窭	epbn	334	
 銎	uoiz	334	
 喱	dxd	333	
 喱	dxdl	333	
@@ -10062,7 +10058,6 @@ encoder:
 蚺	cmgt	276	
 參	kkke	275	
 嵫	vhii	275	
-幞	rcg	275	
 幞	rcgi	275	
 滏	khbz	275	
 瘗	ahhg	275	
@@ -10307,7 +10302,6 @@ encoder:
 堙	gvgt	265	
 怃	hdu	265	
 憝	ghhh	265	
-扃	mmd	265	
 扃	mmdk	265	
 撙	uhy	265	
 撙	uhyk	265	
@@ -10782,6 +10776,7 @@ encoder:
 䌷	idy	258	
 亍	wc	258	
 仂	jsl	258	
+冁	hqnt	258	
 劐	lur	258	
 劐	lurp	258	
 厶	ks	258	
@@ -11007,7 +11002,6 @@ encoder:
 㘵	gnrj	257	
 㙍	grr	257	
 㙍	grrr	257	
-㙘	gvb	257	
 㙘	gvbn	257	
 㙟	giiv	257	
 㙦	jxjg	257	
@@ -11386,6 +11380,7 @@ encoder:
 冔	odf	257	
 冔	odfn	257	
 冖	wg	257	
+冞	wpm	257	
 冧	wee	257	
 冧	weem	257	
 冫	wbb	257	
@@ -11643,7 +11638,6 @@ encoder:
 坢	ghus	257	
 坥	gfq	257	
 坬	gyg	257	
-坰	gmd	257	
 坰	gmdk	257	
 坽	gjks	257	
 垇	gmfi	257	
@@ -11775,7 +11769,6 @@ encoder:
 姁	bgj	257	
 姈	bjk	257	
 姈	bjks	257	
-姕	svb	257	
 姕	svbn	257	
 姛	bmf	257	
 姛	bmfd	257	
@@ -11874,6 +11867,7 @@ encoder:
 孃	btdf	257	
 孅	bjjf	257	
 孖	hhi	257	
+宍	wal	257	
 宧	wqc	257	
 宬	wna	257	
 宬	wnae	257	
@@ -12135,7 +12129,6 @@ encoder:
 扂	mydk	257	
 扅	mllx	257	
 扆	mti	257	
-扊	mcc	257	
 扊	mcch	257	
 扞	ueg	257	
 扠	urid	257	
@@ -12252,7 +12245,6 @@ encoder:
 旴	ofn	257	
 旴	ofns	257	
 旵	ovs	257	
-旸	oae	257	
 旸	oaes	257	
 旻	ovw	257	
 旿	oen	257	
@@ -12627,6 +12619,8 @@ encoder:
 淽	klsi	257	
 渋	ksw	257	
 渋	ksww	257	
+渕	khm	257	
+渕	khmp	257	
 渟	kga	257	
 渟	kgad	257	
 渰	kjdl	257	
@@ -12802,7 +12796,6 @@ encoder:
 燄	xpc	257	
 燄	xpcc	257	
 燊	ccce	257	
-燋	cuc	257	
 燋	cuch	257	
 燏	citd	257	
 燐	cplv	257	
@@ -12848,6 +12841,8 @@ encoder:
 犭	mqq	257	
 犭	mq	256	
 犮	nrid	257	
+犺	mzo	257	
+犺	mzoj	257	
 犼	mhae	257	
 犽	mly	257	
 狉	mcf	257	
@@ -12891,7 +12886,6 @@ encoder:
 玘	nvj	257	
 玙	nfa	257	
 玙	nfaf	257	
-玚	nae	257	
 玚	naes	257	
 玞	nhf	257	
 玠	njpd	257	
@@ -13222,11 +13216,9 @@ encoder:
 祾	fghh	257	
 禋	fvg	257	
 禋	fvgt	257	
-禒	fbj	257	
 禒	fbjs	257	
 禔	fot	257	
 禔	fots	257	
-禘	fi	257	
 禘	fiw	257	
 禘	fiwr	257	
 禚	fgc	257	
@@ -14127,14 +14119,12 @@ encoder:
 鳂	wqft	257	
 鳈	wuk	257	
 鳈	wuks	257	
-鳉	wal	257	
 鳉	walk	257	
 鳋	wri	257	
 鳋	wric	257	
 鳑	wiw	257	
 鳑	wiwl	257	
 鳒	whbc	257	
-鳓	wts	257	
 鳓	wtsl	257	
 鳛	wzu	257	
 鳛	wzub	257	
@@ -15484,7 +15474,6 @@ encoder:
 優	jwhh	42	
 吶	dmju	42	
 噴	dnlo	42	
-導	hou	42	
 導	houk	42	
 掃	ubwr	42	
 虛	zcy	42	
@@ -16610,7 +16599,6 @@ encoder:
 冘	wpe	0	
 冚	wvs	0	
 冝	wfq	0	
-冞	wpm	0	
 冟	wuv	0	
 冟	wuvb	0	
 冡	wfj	0	
@@ -18063,7 +18051,6 @@ encoder:
 宂	woj	0	
 宆	wbg	0	
 宊	wmq	0	
-宍	wal	0	
 宎	wtm	0	
 宎	wtmd	0	
 宐	wlfi	0	
@@ -19144,7 +19131,6 @@ encoder:
 扖	uju	0	
 扗	ugt	0	
 扙	ufbi	0	
-扚	uni	0	
 扚	unid	0	
 扜	ufn	0	
 扜	ufns	0	
@@ -19652,7 +19638,6 @@ encoder:
 斪	gtj	0	
 斮	lot	0	
 斮	lotj	0	
-斱	qot	0	
 斱	qotj	0	
 斳	ldat	0	
 斴	plvt	0	
@@ -20888,7 +20873,6 @@ encoder:
 洶	knbm	0	
 洷	kyi	0	
 浀	kyq	0	
-浂	khm	0	
 浂	khmd	0	
 浄	kxbv	0	
 浌	kjp	0	
@@ -20986,7 +20970,6 @@ encoder:
 渏	kmzk	0	
 渒	kutn	0	
 渓	kyhf	0	
-渕	khmp	0	
 渘	kite	0	
 渙	kxmm	0	
 渜	klmd	0	
@@ -21789,8 +21772,6 @@ encoder:
 犲	mntp	0	
 犳	mnid	0	
 犵	meai	0	
-犺	mzo	0	
-犺	mzoj	0	
 犻	mfr	0	
 犻	mfrj	0	
 犾	mmq	0	
@@ -23983,7 +23964,6 @@ encoder:
 纚	ifvx	0	
 纜	iqre	0	
 纝	iqqi	0	
-纞	isi	0	
 纞	isih	0	
 缷	azj	0	
 缹	ach	0	
@@ -29065,7 +29045,6 @@ encoder:
 鰎	wbuy	0	
 鰏	wfdq	0	
 鰐	wdda	0	
-鰑	wof	0	
 鰑	wofe	0	
 鰒	weoh	0	
 鰓	wqhx	0	
@@ -29594,7 +29573,6 @@ encoder:
 麴	ejjp	0	
 麶	ejjv	0	
 麷	ejjz	0	
-麺	ahb	0	
 麺	ahbm	0	
 黀	zqry	0	
 黂	znlo	0	
@@ -111230,6 +111208,8 @@ encoder:
 ㇡	ae	0	
 ㇢	ae	0	
 ㇣	dk	0	
+㇤	ae	0	
+㇥	ae	0	
 ㇯	rrfi	0	
 ⺀	wb	0	
 ⺁	xc	0	

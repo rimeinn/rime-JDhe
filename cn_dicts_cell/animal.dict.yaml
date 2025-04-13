@@ -9,19 +9,19 @@ version: "1.0"
 sort: by_weight
 use_preset_vocabulary: true
 ...
-阿拉斯加雪撬犬	a;bj; la;jb; si;vp; jia;uo; xue;ys; qiao;jr,ja; quan;bb,xh;	0
-阿拉斯加雪橇犬	a;bj; la;jb; si;vp; jia;uo; xue;ys; qiao;wr,wa; quan;bb,xh;	2
+阿拉斯加雪撬犬	a;bj,bo; la;jb; si;vp; jia;uo; xue;ys; qiao;jr,ja; quan;bb,xh;	0
+阿拉斯加雪橇犬	a;bj,bo; la;jb; si;vp; jia;uo; xue;ys; qiao;wr,wa; quan;bb,xh;	2
 爱尔兰长毛水狗	ai;hl; er;gf; lan;fu; chang;uh; mao;ur,ua; shui;oo; gou;bi;	0
-爱尔兰㹴	ai;hl; er;gf; lan;fu; geng;;	0
+爱尔兰㹴	ai;hl; er;gf; lan;fu; geng;by;	0
 爱尔兰猎狼犬	ai;hl; er;gf; lan;fu; lie;bv; lang;bh; quan;bb,xh;	0
-爱尔兰软毛㹴	ai;hl; er;gf; lan;fu; ruan;te; mao;ur,ua; geng;;	0
+爱尔兰软毛㹴	ai;hl; er;gf; lan;fu; ruan;te; mao;ur,ua; geng;by;	0
 爱尔兰水猎犬	ai;hl; er;gf; lan;fu; shui;oo; lie;bv; quan;bb,xh;	0
 爱斯基摩犬	ai;hl; si;vp; ji;vg; mo;do,dp,rp; quan;bb,xh;	2
-澳大利亚㹴	ao;kx; da;xx; li;ui; ya;dd; geng;;	0
-澳洲㹴	ao;kx; zhou;kp; geng;;	0
+澳大利亚㹴	ao;kx; da;xx; li;ui; ya;dd; geng;by;	0
+澳洲㹴	ao;kx; zhou;kp; geng;by;	0
 澳洲牧牛犬	ao;kx; zhou;kp; mu;bj; niu;bb; quan;bb,xh;	0
-澳洲丝毛㹴	ao;kx; zhou;kp; si;ee,rd; mao;ur,ua; geng;;	0
-巴比伦犬	ba;tt; bi;aa; lun;; quan;bb,xh;	0
+澳洲丝毛㹴	ao;kx; zhou;kp; si;ee,rd; mao;ur,ua; geng;by;	0
+巴比伦犬	ba;tt; bi;aa; lun;ea,xa; quan;bb,xh;	0
 八哥犬	ba;ff; ge;jj; quan;bb,xh;	1
 巴哥犬	ba;tt; ge;jj; quan;bb,xh;	2
 巴吉度猎犬	ba;tt; ji;go; du;rl; lie;bv; quan;bb,xh;	1
@@ -36,22 +36,22 @@ use_preset_vocabulary: true
 伴侣犬	ban;xp,xs; lv;xo; quan;bb,xh;	0
 半毛犬	ban;fp,fs; mao;ur,ua; quan;bb,xh;	0
 北京犬	bei;la; jing;if; quan;bb,xh;	0
-贝林登㹴	bei;mm; lin;ww; deng;rd; geng;;	0
-贝灵顿㹴	bei;mm; ling;st; dun;dm; geng;;	0
+贝林登㹴	bei;mm; lin;ww; deng;rd; geng;by;	0
+贝灵顿㹴	bei;mm; ling;st; dun;dm; geng;by;	0
 贝生吉犬	bei;mm; sheng;eg; ji;go; quan;bb,xh;	0
 毕高犬	bi;as; gao;io; quan;bb,xh;	0
 比格猎犬	bi;aa; ge;wo; lie;bv; quan;bb,xh;	1
 比格犬	bi;aa; ge;wo; quan;bb,xh;	13
 毕格犬	bi;as; ge;wo; quan;bb,xh;	0
 比利时牧羊犬	bi;aa; li;ui; shi;vk; mu;bj; yang;fp; quan;bb,xh;	0
-边境㹴	bian;uq; jing;gk; geng;;	0
-标准曼彻斯特㹴	biao;wf; zhun;fa; man;vl; che;hi,hu; si;vp; te;bk; geng;;	0
-伯德㹴	bo;xs; de;hn; geng;;	0
+边境㹴	bian;uq; jing;gk; geng;by;	0
+标准曼彻斯特㹴	biao;wf; zhun;fa; man;vl; che;hi,hu; si;vp; te;bk; geng;by;	0
+伯德㹴	bo;xs; de;hn; geng;by;	0
 伯恩山犬	bo;xs; en;nn; shan;pp; quan;bb,xh;	0
 博美狗	bo;sk; mei;fx; gou;bi;	0
 波美拉尼亚犬	bo;kl; mei;fx; la;jb; ni;qa; ya;dd; quan;bb,xh;	0
 博美犬	bo;sk; mei;fx; quan;bb,xh;	8
-波士顿㹴	bo;kl; shi;gg; dun;dm; geng;;	0
+波士顿㹴	bo;kl; shi;gg; dun;dm; geng;by;	0
 波士顿狗	bo;kl; shi;gg; dun;dm; gou;bi;	0
 波音达猎犬	bo;kl; yin;cc,bv; da;xq; lie;bv; quan;bb,xh;	0
 查理士王猎犬	cha;wd; li;ag; shi;gg; wang;aa; lie;bv; quan;bb,xh;	0
@@ -69,23 +69,23 @@ use_preset_vocabulary: true
 德国笃宾犬	de;hn; guo;na,nh; du;nz; bin;if; quan;bb,xh;	0
 德国牧羊犬	de;hn; guo;na,nh; mu;bj; yang;fp; quan;bb,xh;	10
 蝶耳犬	die;fw; er;dd,du; quan;bb,xh;	0
-斗鸡獚	dou;hs,sh; ji;lc; huang;;	0
+斗鸡獚	dou;hs,sh; ji;lc; huang;bf;	0
 斗鸡犬	dou;hs,sh; ji;lc; quan;bb,xh;	0
-斗牛㹴	dou;hs,sh; niu;bb; geng;;	0
+斗牛㹴	dou;hs,sh; niu;bb; geng;by;	0
 斗牛犬	dou;hs,sh; niu;bb; quan;bb,xh;	39
 杜宾狗	du;wg; bin;if; gou;bi;	0
-短脚长身㹴	duan;ed; jiao;lb; chang;uh; shen;uu; geng;;	0
-短脚狄文㹴	duan;ed; jiao;lb; di;bt; wen;jj; geng;;	0
-短毛猎狐㹴	duan;ed; mao;ur,ua; lie;bv; hu;bh; geng;;	0
+短脚长身㹴	duan;ed; jiao;lb; chang;uh; shen;uu; geng;by;	0
+短脚狄文㹴	duan;ed; jiao;lb; di;bt; wen;jj; geng;by;	0
+短毛猎狐㹴	duan;ed; mao;ur,ua; lie;bv; hu;bh; geng;by;	0
 俄罗斯猎犬	e;xa; luo;af; si;vp; lie;bv; quan;bb,xh;	0
 法国斗牛犬	fa;kp; guo;na,nh; dou;hs,sh; niu;bb; quan;bb,xh;	0
 法兰德斯牧牛犬	fa;kp; lan;fu; de;hn; si;vp; mu;bj; niu;bb; quan;bb,xh;	0
 法老王猎犬	fa;kp; lao;ga; wang;aa; lie;bv; quan;bb,xh;	0
 刚果犬	gang;oi; guo;vw; quan;bb,xh;	0
-刚毛猎狐㹴	gang;oi; mao;ur,ua; lie;bv; hu;bh; geng;;	0
+刚毛猎狐㹴	gang;oi; mao;ur,ua; lie;bv; hu;bh; geng;by;	0
 高地牧羊犬	gao;io; di;gr,ga; mu;bj; yang;fp; quan;bb,xh;	0
 格陵兰犬	ge;wo; ling;bj; lan;fu; quan;bb,xh;	0
-㹴类犬	geng;; lei;lx; quan;bb,xh;	0
+㹴类犬	geng;by; lei;lx; quan;bb,xh;	0
 工作犬	gong;pp; zuo;xu; quan;bb,xh;	13
 古典英国牧羊犬	gu;so; dian;pf; ying;zx,ze; guo;na,nh; mu;bj; yang;fp; quan;bb,xh;	0
 古英国牧羊犬	gu;so; ying;zx,ze; guo;na,nh; mu;bj; yang;fp; quan;bb,xh;	0
@@ -94,46 +94,46 @@ use_preset_vocabulary: true
 贵妇犬	gui;fm; fu;ys; quan;bb,xh;	2
 哈巴狗	ha;oo; ba;tt; gou;bi;	49
 哈巴犬	ha;oo; ba;tt; quan;bb,xh;	0
-哈士奇	ha;oo; shi;gg; qi;xj;	289
-荷兰毛狮犬	he;zj; lan;fu; mao;ur,ua; shi;by; quan;bb,xh;	0
+哈士奇	ha;oo; shi;gg; qi;xj,xo;	289
+荷兰毛狮犬	he;zj,zo; lan;fu; mao;ur,ua; shi;by; quan;bb,xh;	0
 蝴蝶犬	hu;fl; die;fw; quan;bb,xh;	1
 狐狸犬	hu;bh; li;bg; quan;bb,xh;	0
-湖畔㹴	hu;kl; pan;wp,ws; geng;;	0
+湖畔㹴	hu;kl; pan;wp,ws; geng;by;	0
 黄金猎犬	huang;zf; jin;ed,ef; lie;bv; quan;bb,xh;	1
 黄寻猎犬	huang;zf; xun;sk; lie;bv; quan;bb,xh;	0
-惠比犬特	hui;dn; bi;aa; quan;bb,xh; te;bk;	0
-惠比特	hui;dn; bi;aa; te;bk;	1
-惠比特犬	hui;dn; bi;aa; te;bk; quan;bb,xh;	0
+惠比犬特	hui;dn,sn; bi;aa; quan;bb,xh; te;bk;	0
+惠比特	hui;dn,sn; bi;aa; te;bk;	1
+惠比特犬	hui;dn,sn; bi;aa; te;bk; quan;bb,xh;	0
 基斯犬	ji;vg; si;vp; quan;bb,xh;	0
 吉娃娃	ji;go; wa;yg; wa;yg;	82
 吉娃娃犬	ji;go; wa;yg; wa;yg; quan;bb,xh;	1
-杰克拉西尔㹴	jie;wn; ke;sk; la;jb; xi;pp; er;gf; geng;;	0
+杰克拉西尔㹴	jie;wn; ke;sk; la;jb; xi;pp; er;gf; geng;by;	0
 金毛猎犬	jin;ed,ef; mao;ur,ua; lie;bv; quan;bb,xh;	2
 金毛寻回犬	jin;ed,ef; mao;ur,ua; xun;sk; hui;no; quan;bb,xh;	0
 金色猎犬	jin;ed,ef; se;gt; lie;bv; quan;bb,xh;	0
 金丝犬	jin;ed,ef; si;ee,rd; quan;bb,xh;	0
-卷毛比雄犬	juan;ft; mao;ur,ua; bi;aa; xiong;sa; quan;bb,xh;	0
+卷毛比雄犬	juan;ft; mao;ur,ua; bi;aa; xiong;da,sa; quan;bb,xh;	0
 卷毛寻回犬	juan;ft; mao;ur,ua; xun;sk; hui;no; quan;bb,xh;	0
-凯恩㹴	kai;pi; en;nn; geng;;	0
-凯莉蓝㹴	kai;pi; li;zi; lan;zd,za; geng;;	0
-凯利兰㹴	kai;pi; li;ui; lan;fu; geng;;	0
-柯卡	ke;wj; ka;ph;	0
-可卡长毛猎犬	ke;jj; ka;ph; chang;uh; mao;ur,ua; lie;bv; quan;bb,xh;	0
-可卡獚	ke;jj; ka;ph; huang;;	0
-可卡猎鹬犬	ke;jj; ka;ph; lie;bv; yu;pc; quan;bb,xh;	0
-可卡犬	ke;jj; ka;ph; quan;bb,xh;	2
-柯利犬	ke;wj; li;ui; quan;bb,xh;	0
-克伦伯长猎犬	ke;sk; lun;; bo;xs; chang;uh; lie;bv; quan;bb,xh;	0
+凯恩㹴	kai;pi; en;nn; geng;by;	0
+凯莉蓝㹴	kai;pi; li;zi; lan;zd,za; geng;by;	0
+凯利兰㹴	kai;pi; li;ui; lan;fu; geng;by;	0
+柯卡	ke;wj,wo; ka;ph;	0
+可卡长毛猎犬	ke;jj,jo; ka;ph; chang;uh; mao;ur,ua; lie;bv; quan;bb,xh;	0
+可卡獚	ke;jj,jo; ka;ph; huang;bf;	0
+可卡猎鹬犬	ke;jj,jo; ka;ph; lie;bv; yu;pc; quan;bb,xh;	0
+可卡犬	ke;jj,jo; ka;ph; quan;bb,xh;	2
+柯利犬	ke;wj,wo; li;ui; quan;bb,xh;	0
+克伦伯长猎犬	ke;sk; lun;ea,xa; bo;xs; chang;uh; lie;bv; quan;bb,xh;	0
 昆明犬	kun;va; ming;vl; quan;bb,xh;	3
 拉不拉多	la;jb; bu;dh; la;jb; duo;ff;	2
-拉布拉多猎犬	la;jb; bu;sy; la;jb; duo;ff; lie;bv; quan;bb,xh;	1
+拉布拉多猎犬	la;jb; bu;sy,dy; la;jb; duo;ff; lie;bv; quan;bb,xh;	1
 腊肠狗	la;lv; chang;lu; gou;bi;	5
 腊肠犬	la;lv; chang;lu; quan;bb,xh;	5
 拉萨狗	la;jb; sa;zu,zr; gou;bi;	0
 拉萨犬	la;jb; sa;zu,zr; quan;bb,xh;	0
 莱卡	lai;zf,zl; ka;ph;	375
 狼犬	lang;bh; quan;bb,xh;	19
-老式英国牧羊犬	lao;ga; shi;ha,ap; ying;zx,ze; guo;na,nh; mu;bj; yang;fp; quan;bb,xh;	0
+老式英国牧羊犬	lao;ga; shi;dh,ha,ap; ying;zx,ze; guo;na,nh; mu;bj; yang;fp; quan;bb,xh;	0
 猎狐犬	lie;bv; hu;bh; quan;bb,xh;	4
 猎麋	lie;bv; mi;rl;	0
 猎枪犬	lie;bv; qiang;wt; quan;bb,xh;	0
@@ -148,22 +148,22 @@ use_preset_vocabulary: true
 罗威纳	luo;af; wei;rh; na;ee;	9
 罗威那犬	luo;af; wei;rh; na;rb; quan;bb,xh;	0
 罗威纳犬	luo;af; wei;rh; na;ee; quan;bb,xh;	0
-罗威士㹴	luo;af; wei;rh; shi;gg; geng;;	0
+罗威士㹴	luo;af; wei;rh; shi;gg; geng;by;	0
 马车犬	ma;zz; che;tt; quan;bb,xh;	0
 马尔济斯	ma;zz; er;gf; ji;kp; si;vp;	3
 玛尔济斯	ma;az; er;gf; ji;kp; si;vp;	0
 马耳济斯犬	ma;zz; er;dd,du; ji;kp; si;vp; quan;bb,xh;	0
 马耳他犬	ma;zz; er;dd,du; ta;xr; quan;bb,xh;	0
-马士提夫獒犬	ma;zz; shi;gg; ti;je; fu;ee; ao;ab; quan;bb,xh;	0
+马士提夫獒犬	ma;zz; shi;gg; ti;je; fu;ee; ao;ab,ah; quan;bb,xh;	0
 马士提夫犬	ma;zz; shi;gg; ti;je; fu;ee; quan;bb,xh;	0
-曼彻斯特㹴	man;vl; che;hi,hu; si;vp; te;bk; geng;;	0
-美国可卡犬	mei;fx; guo;na,nh; ke;jj; ka;ph; quan;bb,xh;	0
-美国史塔副郡㹴	mei;fx; guo;na,nh; shi;oy,oh; ta;go; fu;di; jun;rb,sb; geng;;	0
+曼彻斯特㹴	man;vl; che;hi,hu; si;vp; te;bk; geng;by;	0
+美国可卡犬	mei;fx; guo;na,nh; ke;jj,jo; ka;ph; quan;bb,xh;	0
+美国史塔副郡㹴	mei;fx; guo;na,nh; shi;oy,oh; ta;go; fu;di; jun;rb,sb; geng;by;	0
 米格鲁	mi;ll; ge;wo; lu;qv;	4
 米格鲁犬	mi;ll; ge;wo; lu;qv; quan;bb,xh;	0
 迷你宾沙犬	mi;lq; ni;xf; bin;if; sha;ku; quan;bb,xh;	0
 迷你笃宾犬	mi;lq; ni;xf; du;nz; bin;if; quan;bb,xh;	0
-迷你牛头㹴	mi;lq; ni;xf; niu;bb; tou;hx; geng;;	0
+迷你牛头㹴	mi;lq; ni;xf; niu;bb; tou;hx; geng;by;	0
 迷你史劳策犬	mi;lq; ni;xf; shi;oy,oh; lao;zu; ce;nh; quan;bb,xh;	0
 迷你史纳莎	mi;lq; ni;xf; shi;oy,oh; na;ee; sha;zu;	0
 迷你雪那瑞	mi;lq; ni;xf; xue;ys; na;rb; rui;ae;	0
@@ -175,28 +175,28 @@ use_preset_vocabulary: true
 牧场长毛猎犬	mu;bj; chang;gu; chang;uh; mao;ur,ua; lie;bv; quan;bb,xh;	0
 牡丹犬	mu;bg; dan;ua,ud,uz,od,oz; quan;bb,xh;	0
 牧羊犬	mu;bj; yang;fp; quan;bb,xh;	93
-南非獒犬	nan;ss,sp; fei;pu,up; ao;ab; quan;bb,xh;	0
+南非獒犬	nan;ss,sp; fei;pu,up; ao;ab,ah; quan;bb,xh;	0
 纽芬兰犬	niu;eg; fen;zi,zu; lan;fu; quan;bb,xh;	1
-牛头㹴	niu;bb; tou;hx; geng;;	0
-诺福㹴	nuo;co; fu;hw; geng;;	0
-诺里奇㹴	nuo;co; li;vg; qi;xj; geng;;	0
+牛头㹴	niu;bb; tou;hx; geng;by;	0
+诺福㹴	nuo;co; fu;hw; geng;by;	0
+诺里奇㹴	nuo;co; li;vg; qi;xj,xo; geng;by;	0
 挪威糜提	nuo;jb; wei;rh; mi;dl,rl; ti;je;	0
 挪威糜缇	nuo;jb; wei;rh; mi;dl,rl; ti;ee;	0
-帕森拉希尔㹴	pa;ys; sen;ww; la;jb; xi;yy; er;gf; geng;;	0
-彭布罗克歌基犬	peng;gu; bu;sy; luo;af; ke;sk; ge;je; ji;vg; quan;bb,xh;	0
-骑士查理王猎犬	qi;zj; shi;gg; cha;wd; li;ag; wang;aa; lie;bv; quan;bb,xh;	0
+帕森拉希尔㹴	pa;ys; sen;ww; la;jb; xi;yy; er;gf; geng;by;	0
+彭布罗克歌基犬	peng;gu; bu;sy,dy; luo;af; ke;sk; ge;je; ji;vg; quan;bb,xh;	0
+骑士查理王猎犬	qi;zj,zo; shi;gg; cha;wd; li;ag; wang;aa; lie;bv; quan;bb,xh;	0
 枪猎犬	qiang;wt; lie;bv; quan;bb,xh;	0
 秦得圣赫伯特犬	qin;uf,uw; de;hk; sheng;lg; he;gf,gi; bo;xs; te;bk; quan;bb,xh;	0
 秋田犬	qiu;ut; tian;ww; quan;bb,xh;	80
 拳师犬	quan;fp; shi;py; quan;bb,xh;	2
-确架獚	que;tp; jia;uw; huang;;	1
+确架獚	que;tp; jia;uw; huang;bf;	1
 日本狐狸犬	ri;vv; ben;wd; hu;bh; li;bg; quan;bb,xh;	0
-日本獚	ri;vv; ben;wd; huang;;	0
+日本獚	ri;vv; ben;wd; huang;bf;	0
 日本秋田犬	ri;vv; ben;wd; qiu;ut; tian;ww; quan;bb,xh;	8
 日本狮子犬	ri;vv; ben;wd; shi;by; zi;aa; quan;bb,xh;	0
 日本跳跳犬	ri;vv; ben;wd; tiao;gh,gf; tiao;gh,gf; quan;bb,xh;	0
 日本仲	ri;vv; ben;wd; zhong;xp;	0
-日本狆	ri;vv; ben;wd; zhong;;	0
+日本狆	ri;vv; ben;wd; zhong;bp;	0
 萨摩犬	sa;zu,zr; mo;do,dp,rp; quan;bb,xh;	0
 萨西克斯长毛猎犬	sa;zu,zr; xi;pp; ke;sk; si;vp; chang;uh; mao;ur,ua; lie;bv; quan;bb,xh;	0
 塞蒙地犬	sai;ig; meng;zh; di;gr,ga; quan;bb,xh;	0
@@ -208,46 +208,46 @@ use_preset_vocabulary: true
 圣伯纳	sheng;lg; bo;xs; na;ee;	15
 圣伯纳犬	sheng;lg; bo;xs; na;ee; quan;bb,xh;	1
 狮毛犬	shi;by; mao;ur,ua; quan;bb,xh;	0
-史柔查㹴	shi;oy,oh; rou;pw; cha;wd; geng;;	0
-史塔副郡牛头㹴	shi;oy,oh; ta;go; fu;di; jun;rb,sb; niu;bb; tou;hx; geng;;	0
+史柔查㹴	shi;oy,oh; rou;pw; cha;wd; geng;by;	0
+史塔副郡牛头㹴	shi;oy,oh; ta;go; fu;di; jun;rb,sb; niu;bb; tou;hx; geng;by;	0
 实用犬	shi;ix; yong;lp; quan;bb,xh;	0
 狮子狗	shi;by; zi;aa; gou;bi;	55
 狩猎犬	shou;bk; lie;bv; quan;bb,xh;	2
 四国犬	si;nk; guo;na,nh; quan;bb,xh;	0
-斯开岛㹴	si;vp; kai;dz,dp,up; dao;up; geng;;	0
-丝毛㹴	si;ee,rd; mao;ur,ua; geng;;	0
+斯开岛㹴	si;vp; kai;dz,dp,up; dao;up; geng;by;	0
+丝毛㹴	si;ee,rd; mao;ur,ua; geng;by;	0
 松狮	song;wp; shi;by;	21
 松狮犬	song;wp; shi;by; quan;bb,xh;	0
 松鼠犬	song;wp; shu;sr; quan;bb,xh;	0
 苏俄牧羊犬	su;zf; e;xa; mu;bj; yang;fp; quan;bb,xh;	0
 苏俄追踪犬	su;zf; e;xa; zhui;uq; zong;gf; quan;bb,xh;	0
 苏格兰粗毛牧羊犬	su;zf; ge;wo; lan;fu; cu;lu; mao;ur,ua; mu;bj; yang;fp; quan;bb,xh;	0
-苏格兰㹴	su;zf; ge;wo; lan;fu; geng;;	0
+苏格兰㹴	su;zf; ge;wo; lan;fu; geng;by;	0
 苏格兰牧羊犬	su;zf; ge;wo; lan;fu; mu;bj; yang;fp; quan;bb,xh;	2
 特兰犬	te;bk; lan;fu; quan;bb,xh;	0
 土佐犬	tu;gg; zuo;xp; quan;bb,xh;	1
-万能㹴	wan;du; neng;pa; geng;;	0
+万能㹴	wan;du; neng;pa; geng;by;	0
 玩赏犬	wan;ak; shang;hm; quan;bb,xh;	0
-威尔士㹴	wei;rh; er;gf; shi;gg; geng;;	0
-威尔斯激飞可卡长毛猎犬	wei;rh; er;gf; si;vp; ji;kj; fei;rh; ke;jj; ka;ph; chang;uh; mao;ur,ua; lie;bv; quan;bb,xh;	0
-威尔斯柯基犬	wei;rh; er;gf; si;vp; ke;wj; ji;vg; quan;bb,xh;	0
+威尔士㹴	wei;rh; er;gf; shi;gg; geng;by;	0
+威尔斯激飞可卡长毛猎犬	wei;rh; er;gf; si;vp; ji;kj; fei;rh; ke;jj,jo; ka;ph; chang;uh; mao;ur,ua; lie;bv; quan;bb,xh;	0
+威尔斯柯基犬	wei;rh; er;gf; si;vp; ke;wj,wo; ji;vg; quan;bb,xh;	0
 威尔斯牧畜犬	wei;rh; er;gf; si;vp; mu;bj; xu;iw; quan;bb,xh;	0
 威玛猎犬	wei;rh; ma;az; lie;bv; quan;bb,xh;	0
 威斯拉犬	wei;rh; si;vp; la;jb; quan;bb,xh;	0
 沃尔皮诺	wo;kx; er;gf; pi;rl; nuo;co;	0
 西伯利亚雪撬犬	xi;pp; bo;xs; li;ui; ya;dd; xue;ys; qiao;jr,ja; quan;bb,xh;	1
 西伯利亚雪橇犬	xi;pp; bo;xs; li;ui; ya;dd; xue;ys; qiao;wr,wa; quan;bb,xh;	0
-西部高地白㹴	xi;pp; bu;bb; gao;io; di;gr,ga; bai;ss; geng;;	0
-西高地白㹴	xi;pp; gao;io; di;gr,ga; bai;ss; geng;;	0
+西部高地白㹴	xi;pp; bu;bb; gao;io; di;gr,ga; bai;ss; geng;by;	0
+西高地白㹴	xi;pp; gao;io; di;gr,ga; bai;ss; geng;by;	0
 西高地铁利亚	xi;pp; gao;io; di;gr,ga; tie;de; li;ui; ya;dd;	0
 喜乐蒂牧羊犬	xi;go; le;uf; di;zy; mu;bj; yang;fp; quan;bb,xh;	0
 喜乐蒂犬	xi;go; le;uf; di;zy; quan;bb,xh;	0
-西里汉㹴	xi;pp; li;vg; han;kl; geng;;	0
+西里汉㹴	xi;pp; li;vg; han;kl; geng;by;	0
 西摩犬	xi;pp; mo;do,dp,rp; quan;bb,xh;	0
 西帕凯犬	xi;pp; pa;ys; kai;pi; quan;bb,xh;	0
 西施	xi;pp; shi;fr;	581
 西施犬	xi;pp; shi;fr; quan;bb,xh;	0
-西藏㹴	xi;pp; zang;zh; geng;;	0
+西藏㹴	xi;pp; zang;zh; geng;by;	0
 小丹犬	xiao;pf; dan;ua,ud,uz,od,oz; quan;bb,xh;	0
 小猎犬	xiao;pf; lie;bv; quan;bb,xh;	38
 小鹿犬	xiao;pf; lu;ra; quan;bb,xh;	0
@@ -264,13 +264,13 @@ use_preset_vocabulary: true
 寻血猎犬	xun;sk; xue;ud,ua; lie;bv; quan;bb,xh;	3
 英国斗鸡犬	ying;zx,ze; guo;na,nh; dou;hs,sh; ji;lc; quan;bb,xh;	1
 英国斗牛犬	ying;zx,ze; guo;na,nh; dou;hs,sh; niu;bb; quan;bb,xh;	4
-英国激飞可卡长毛猎犬	ying;zx,ze; guo;na,nh; ji;kj; fei;rh; ke;jj; ka;ph; chang;uh; mao;ur,ua; lie;bv; quan;bb,xh;	0
-英国可卡长毛猎犬	ying;zx,ze; guo;na,nh; ke;jj; ka;ph; chang;uh; mao;ur,ua; lie;bv; quan;bb,xh;	1
-英国可卡猎鹬犬	ying;zx,ze; guo;na,nh; ke;jj; ka;ph; lie;bv; yu;pc; quan;bb,xh;	1
-英国可卡犬	ying;zx,ze; guo;na,nh; ke;jj; ka;ph; quan;bb,xh;	2
+英国激飞可卡长毛猎犬	ying;zx,ze; guo;na,nh; ji;kj; fei;rh; ke;jj,jo; ka;ph; chang;uh; mao;ur,ua; lie;bv; quan;bb,xh;	0
+英国可卡长毛猎犬	ying;zx,ze; guo;na,nh; ke;jj,jo; ka;ph; chang;uh; mao;ur,ua; lie;bv; quan;bb,xh;	1
+英国可卡猎鹬犬	ying;zx,ze; guo;na,nh; ke;jj,jo; ka;ph; lie;bv; yu;pc; quan;bb,xh;	1
+英国可卡犬	ying;zx,ze; guo;na,nh; ke;jj,jo; ka;ph; quan;bb,xh;	2
 英国小型猎免犬	ying;zx,ze; guo;na,nh; xiao;pf; xing;ug; lie;bv; mian;gk; quan;bb,xh;	0
 约克夏	yue;eh; ke;sk; xia;dj;	13
-约克夏㹴	yue;eh; ke;sk; xia;dj; geng;;	0
+约克夏㹴	yue;eh; ke;sk; xia;dj; geng;by;	0
 约瑟犬	yue;eh; se;au; quan;bb,xh;	0
 约瑟猩	yue;eh; se;au; xing;ba,bg;	0
 指标犬	zhi;jv; biao;wf; quan;bb,xh;	0
@@ -300,35 +300,35 @@ use_preset_vocabulary: true
 华乐蛋白石基因	hua;xs; le;uf; dan;rf; bai;ss; shi;tt; ji;vg; yin;nx;	0
 华乐基因	hua;xs; le;uf; ji;vg; yin;nx;	0
 黄脸	huang;zf; lian;ld;	21
-黄绿灰翅	huang;zf; lv;eo; hui;st; chi;sd;	0
-灰翅	hui;st; chi;sd;	1
-灰翅蛋白石基因	hui;st; chi;sd; dan;rf; bai;ss; shi;tt; ji;vg; yin;nx;	0
-灰翅基因	hui;st; chi;sd; ji;vg; yin;nx;	0
-灰翅肉桂基因	hui;st; chi;sd; rou;oe; gui;wg; ji;vg; yin;nx;	0
+黄绿灰翅	huang;zf; lv;eo,ef; hui;dt,st; chi;sd;	0
+灰翅	hui;dt,st; chi;sd;	1
+灰翅蛋白石基因	hui;dt,st; chi;sd; dan;rf; bai;ss; shi;tt; ji;vg; yin;nx;	0
+灰翅基因	hui;dt,st; chi;sd; ji;vg; yin;nx;	0
+灰翅肉桂基因	hui;dt,st; chi;sd; rou;oe; gui;wg; ji;vg; yin;nx;	0
 肉桂	rou;oe; gui;wg;	513
 肉桂蛋白石基因	rou;oe; gui;wg; dan;rf; bai;ss; shi;tt; ji;vg; yin;nx;	0
 肉桂隐派基因	rou;oe; gui;wg; yin;bn; pai;kh; ji;vg; yin;nx;	0
-天空蓝灰翅	tian;ue; kong;ip; lan;zd,za; hui;st; chi;sd;	0
+天空蓝灰翅	tian;ue; kong;ip; lan;zd,za; hui;dt,st; chi;sd;	0
 显派	xian;vd; pai;kh;	2
 隐派	yin;bn; pai;kh;	4
 隐派基因	yin;bn; pai;kh; ji;vg; yin;nx;	0
 鱼鳞	yu;qq; lin;qp;	234
 原始蓝	yuan;rf; shi;yo; lan;zd,za;	0
-原始绿	yuan;rf; shi;yo; lv;eo;	0
+原始绿	yuan;rf; shi;yo; lv;eo,ef;	0
 珍珠	zhen;au; zhu;ae;	1780
 边境牧羊犬	bian;uq; jing;gk; mu;bj; yang;fp; quan;bb,xh;	0
 凯利蓝梗	kai;pi; li;ui; lan;zd,za; geng;wy,wh;	0
-可蒙犬	ke;jj; meng;zh; quan;bb,xh;	0
+可蒙犬	ke;jj,jo; meng;zh; quan;bb,xh;	0
 马尔济斯犬	ma;zz; er;gf; ji;kp; si;vp; quan;bb,xh;	0
 日本银狐	ri;vv; ben;wd; yin;dh; hu;bh;	0
 萨摩耶犬	sa;zu,zr; mo;do,dp,rp; ye;db; quan;bb,xh;	0
 苏格兰梗	su;zf; ge;wo; lan;fu; geng;wy,wh;	1
-西伯利亚哈士奇	xi;pp; bo;xs; li;ui; ya;dd; ha;oo; shi;gg; qi;xj;	1
+西伯利亚哈士奇	xi;pp; bo;xs; li;ui; ya;dd; ha;oo; shi;gg; qi;xj,xo;	1
 雪纳瑞	xue;ys; na;ee; rui;ae;	10
-英国古代牧羊犬	ying;zx,ze; guo;na,nh; gu;so; dai;xa; mu;bj; yang;fp; quan;bb,xh;	0
-藏獒	zang;zh; ao;ab;	220
+英国古代牧羊犬	ying;zx,ze; guo;na,nh; gu;so; dai;xa,xh; mu;bj; yang;fp; quan;bb,xh;	0
+藏獒	zang;zh; ao;ab,ah;	220
 暗脉菜粉蝶	an;vv; mai;lh,lo; cai;zw; fen;li,lu; die;fw;	0
-巴黎翠凤蝶	ba;tt; li;uo; cui;ds; feng;il; die;fw;	0
+巴黎翠凤蝶	ba;tt; li;uo,uf; cui;ds; feng;il; die;fw;	0
 白带凤蝶	bai;ss; dai;zy; feng;il; die;fw;	0
 白点褐蚬蝶	bai;ss; dian;pn; he;hr; xian;fk,fr; die;fw;	0
 白角星弄蝶	bai;ss; jiao;gp; xing;vg,va; nong;ap,az; die;fw;	0
@@ -340,7 +340,7 @@ use_preset_vocabulary: true
 报喜斑粉蝶	bao;jl; xi;go; ban;aj,aa; fen;li,lu; die;fw;	0
 碧凤蝶	bi;at; feng;il; die;fw;	0
 檗黄粉蝶	bo;qw; huang;zf; fen;li,lu; die;fw;	0
-布莱荫眼蝶	bu;sy; lai;zf,zl; yin;zl; yan;sh; die;fw;	0
+布莱荫眼蝶	bu;sy,dy; lai;zf,zl; yin;zl; yan;sh; die;fw;	0
 长尾青凤蝶	chang;uh; wei;qr,qa; qing;al; feng;il; die;fw;	0
 长须蝶	chang;uh; xu;um; die;fw;	0
 橙翅方粉蝶	cheng;wd; chi;sd; fang;ff; fen;li,lu; die;fw;	0
@@ -349,7 +349,7 @@ use_preset_vocabulary: true
 赤顶粉蝶	chi;gf,gi; ding;jm; fen;li,lu; die;fw;	0
 齿缘红蛱蝶	chi;rp; yuan;eh; hong;ep; jia;fx; die;fw;	0
 串珠环蝶	chuan;op; zhu;ae; huan;ah; die;fw;	0
-槌果藤粉蝶	chui;wq; guo;vw; teng;zo; fen;li,lu; die;fw;	0
+槌果藤粉蝶	chui;wq; guo;vw; teng;zo,zf; fen;li,lu; die;fw;	0
 粗纹青斑蝶	cu;lu; wen;ej; qing;al; ban;aj,aa; die;fw;	0
 翠袖锯眼蝶	cui;ds; xiu;hp; ju;do; yan;sh; die;fw;	0
 大翅绢粉蝶	da;xx; chi;sd; juan;el; fen;li,lu; die;fw;	0
@@ -367,7 +367,7 @@ use_preset_vocabulary: true
 多型凤蝶	duo;ff; xing;ug; feng;il; die;fw;	0
 峨眉大弄蝶	e;pa; mei;rs,qs; da;xx; nong;ap,az; die;fw;	0
 二尾蛱蝶	er;uu; wei;qr,qa; jia;fx; die;fw;	0
-飞龙粉蝶	fei;rh; long;sh; fen;li,lu; die;fw;	0
+飞龙粉蝶	fei;rh; long;sh,dh; fen;li,lu; die;fw;	0
 凤蝶	feng;il; die;fw;	16
 凤尾青凤蝶	feng;il; wei;qr,qa; qing;al; feng;il; die;fw;	0
 凤眼方环蝶	feng;il; yan;sh; fang;ff; huan;ah; die;fw;	0
@@ -386,13 +386,13 @@ use_preset_vocabulary: true
 黑脉园粉蝶	hei;nn; mai;lh,lo; yuan;nk; fen;li,lu; die;fw;	0
 黑燕尾蚬蝶	hei;nn; yan;vn; wei;qr,qa; xian;fk,fr; die;fw;	0
 横纹环蝶	heng;wf; wen;ej; huan;ah; die;fw;	0
-红灰蝶	hong;ep; hui;st; die;fw;	0
+红灰蝶	hong;ep; hui;dt,st; die;fw;	0
 红襟粉蝶	hong;ep; jin;hf; fen;li,lu; die;fw;	0
 红锯蛱蝶	hong;ep; ju;do; jia;fx; die;fw;	0
 红裙凤蝶	hong;ep; qun;ho; feng;il; die;fw;	0
 红纹凤蝶	hong;ep; wen;ej; feng;il; die;fw;	0
 红缘凤蝶	hong;ep; yuan;eh; feng;il; die;fw;	0
-红缘灰蝶	hong;ep; yuan;eh; hui;st; die;fw;	0
+红缘灰蝶	hong;ep; yuan;eh; hui;dt,st; die;fw;	0
 红珠凤蝶	hong;ep; zhu;ae; feng;il; die;fw;	0
 虎斑蝶	hu;pi; ban;aj,aa; die;fw;	3
 虎纹斑蝶	hu;pi; wen;ej; ban;aj,aa; die;fw;	0
@@ -406,9 +406,9 @@ use_preset_vocabulary: true
 黄扇蝶	huang;zf; shan;qd; die;fw;	0
 黄裳凤蝶	huang;zf; shang;hk; feng;il; die;fw;	0
 黄帅蛱蝶	huang;zf; shuai;py; jia;fx; die;fw;	0
-灰翅串珠环蝶	hui;st; chi;sd; chuan;op; zhu;ae; huan;ah; die;fw;	0
+灰翅串珠环蝶	hui;dt,st; chi;sd; chuan;op; zhu;ae; huan;ah; die;fw;	0
 尖翅弄蝶	jian;px; chi;sd; nong;ap,az; die;fw;	0
-尖翅银灰蝶	jian;px; chi;sd; yin;dh; hui;st; die;fw;	0
+尖翅银灰蝶	jian;px; chi;sd; yin;dh; hui;dt,st; die;fw;	0
 箭环蝶	jian;ni; huan;ah; die;fw;	0
 姜黄弄蝶	jiang;fy; huang;zf; nong;ap,az; die;fw;	0
 金斑蝶	jin;ed,ef; ban;aj,aa; die;fw;	0
@@ -424,19 +424,19 @@ use_preset_vocabulary: true
 宽带凤蝶	kuan;ik,ir; dai;zy; feng;il; die;fw;	0
 宽带青凤蝶	kuan;ik,ir; dai;zy; qing;al; feng;il; die;fw;	0
 宽尾凤蝶	kuan;ik,ir; wei;qr,qa; feng;il; die;fw;	0
-莱灰蝶	lai;zf,zl; hui;st; die;fw;	0
+莱灰蝶	lai;zf,zl; hui;dt,st; die;fw;	0
 蓝点紫斑蝶	lan;zd,za; dian;pn; zi;rf; ban;aj,aa; die;fw;	0
 蓝凤蝶	lan;zd,za; feng;il; die;fw;	0
 楞凤蝶	leng;wf; feng;il; die;fw;	0
 梨花粉蝶	li;uw; hua;za; fen;li,lu; die;fw;	0
 梨花迁粉蝶	li;uw; hua;za; qian;sq; fen;li,lu; die;fw;	0
 连纹黛眼蝶	lian;tq; wen;ej; dai;xn; yan;sh; die;fw;	0
-裂斑金灰蝶	lie;fk; ban;aj,aa; jin;ed,ef; hui;st; die;fw;	0
-琉璃波纹小灰蝶	liu;ar; li;ah,ap; bo;kl; wen;ej; xiao;pf; hui;st; die;fw;	0
+裂斑金灰蝶	lie;fk; ban;aj,aa; jin;ed,ef; hui;dt,st; die;fw;	0
+琉璃波纹小灰蝶	liu;ar; li;ah,ap; bo;kl; wen;ej; xiao;pf; hui;dt,st; die;fw;	0
 琉璃纹凤蝶	liu;ar; li;ah,ap; wen;ej; feng;il; die;fw;	0
-绿斑凤蝶	lv;eo; ban;aj,aa; feng;il; die;fw;	0
-绿凤蝶	lv;eo; feng;il; die;fw;	0
-绿灰蝶	lv;eo; hui;st; die;fw;	0
+绿斑凤蝶	lv;eo,ef; ban;aj,aa; feng;il; die;fw;	0
+绿凤蝶	lv;eo,ef; feng;il; die;fw;	0
+绿灰蝶	lv;eo,ef; hui;dt,st; die;fw;	0
 美凤蝶	mei;fx; feng;il; die;fw;	0
 迷蛱蝶	mi;lq; jia;fx; die;fw;	1
 密纱眉眼蝶	mi;ip; sha;eu; mei;rs,qs; yan;sh; die;fw;	0
@@ -444,11 +444,11 @@ use_preset_vocabulary: true
 木兰青凤蝶	mu;ww; lan;fu; qing;al; feng;il; die;fw;	0
 拟斑凤蝶	ni;je; ban;aj,aa; feng;il; die;fw;	0
 拟幻紫斑蝶	ni;je; huan;rr; zi;rf; ban;aj,aa; die;fw;	0
-拟旖斑蝶	ni;je; yi;fj; ban;aj,aa; die;fw;	0
-浓紫彩灰蝶	nong;kh; zi;rf; cai;hu; hui;st; die;fw;	0
+拟旖斑蝶	ni;je; yi;fj,fo; ban;aj,aa; die;fw;	0
+浓紫彩灰蝶	nong;kh; zi;rf; cai;hu; hui;dt,st; die;fw;	0
 朴喙蝶	pu;wh; hui;oh; die;fw;	0
 迁粉蝶	qian;sq; fen;li,lu; die;fw;	0
-牵牛灰蝶	qian;xb; niu;bb; hui;st; die;fw;	0
+牵牛灰蝶	qian;xb; niu;bb; hui;dt,st; die;fw;	0
 青斑蝶	qing;al; ban;aj,aa; die;fw;	0
 青城箭环蝶	qing;al; cheng;gh; jian;ni; huan;ah; die;fw;	0
 青凤蝶	qing;al; feng;il; die;fw;	0
@@ -458,7 +458,7 @@ use_preset_vocabulary: true
 僧袈眉眼蝶	seng;xv; jia;uk; mei;rs,qs; yan;sh; die;fw;	0
 裳凤蝶	shang;hk; feng;il; die;fw;	0
 蛇目褐蚬蝶	she;fa; mu;ss; he;hr; xian;fk,fr; die;fw;	0
-榺凤蝶	sheng;; feng;il; die;fw;	0
+榺凤蝶	sheng;lw; feng;il; die;fw;	0
 鼠李粉蝶	shu;sr; li;wa; fen;li,lu; die;fw;	0
 双色带蛱蝶	shuang;ll; se;gt; dai;zy; jia;fx; die;fw;	0
 双尾蛱蝶	shuang;ll; wei;qr,qa; jia;fx; die;fw;	0
@@ -467,17 +467,17 @@ use_preset_vocabulary: true
 丝链荫眼蝶	si;ee,rd; lian;dq; yin;zl; yan;sh; die;fw;	0
 碎斑凤蝶	sui;ts; ban;aj,aa; feng;il; die;fw;	0
 碎斑青凤蝶	sui;ts; ban;aj,aa; qing;al; feng;il; die;fw;	0
-藤粉蝶	teng;zo; fen;li,lu; die;fw;	0
-藤果蚬蝶	teng;zo; guo;vw; xian;fk,fr; die;fw;	0
+藤粉蝶	teng;zo,zf; fen;li,lu; die;fw;	0
+藤果蚬蝶	teng;zo,zf; guo;vw; xian;fk,fr; die;fw;	0
 天狗蝶	tian;ue; gou;bi; die;fw;	0
 铁刀木粉蝶	tie;de; dao;ii,ru; mu;ww; fen;li,lu; die;fw;	0
-铁木莱异灰蝶	tie;de; mu;ww; lai;zf,zl; yi;tp,tz; hui;st; die;fw;	0
-铁锈灰蝶	tie;de; xiu;du; hui;st; die;fw;	0
+铁木莱异灰蝶	tie;de; mu;ww; lai;zf,zl; yi;tp,tz; hui;dt,st; die;fw;	0
+铁锈灰蝶	tie;de; xiu;du; hui;dt,st; die;fw;	0
 统帅青凤蝶	tong;ek; shuai;py; qing;al; feng;il; die;fw;	0
 透翅斑蝶	tou;uq; chi;sd; ban;aj,aa; die;fw;	0
-桅子灰蝶	wei;wt; zi;aa; hui;st; die;fw;	0
+桅子灰蝶	wei;wt; zi;aa; hui;dt,st; die;fw;	0
 纹环蝶	wen;ej; huan;ah; die;fw;	0
-无尾灰蝶	wu;uk,ur; wei;qr,qa; hui;st; die;fw;	0
+无尾灰蝶	wu;uk,ur; wei;qr,qa; hui;dt,st; die;fw;	0
 乌鸦凤蝶	wu;ud; ya;dc; feng;il; die;fw;	0
 无趾弄蝶	wu;uk,ur; zhi;gr; nong;ap,az; die;fw;	0
 细纹青斑蝶	xi;ew; wen;ej; qing;al; ban;aj,aa; die;fw;	0
@@ -486,16 +486,16 @@ use_preset_vocabulary: true
 小青凤蝶	xiao;pf; qing;al; feng;il; die;fw;	0
 小透翅斑蝶	xiao;pf; tou;uq; chi;sd; ban;aj,aa; die;fw;	0
 斜带缺尾蚬蝶	xie;es,eh; dai;zy; que;ex,ee; wei;qr,qa; xian;fk,fr; die;fw;	0
-猩灰蝶	xing;ba,bg; hui;st; die;fw;	0
-蚜灰蝶	ya;fu; hui;st; die;fw;	0
-雅灰蝶	ya;da; hui;st; die;fw;	0
+猩灰蝶	xing;ba,bg; hui;dt,st; die;fw;	0
+蚜灰蝶	ya;fu; hui;dt,st; die;fw;	0
+雅灰蝶	ya;da; hui;dt,st; die;fw;	0
 燕凤蝶	yan;vn; feng;il; die;fw;	0
 烟环蝶	yan;td,tx; huan;ah; die;fw;	0
 瑶凤蝶	yao;ap; feng;il; die;fw;	0
 椰眼蝶	ye;wb; yan;sh; die;fw;	0
 异型紫斑蝶	yi;tp,tz; xing;ug; zi;rf; ban;aj,aa; die;fw;	0
 银白蛱蝶	yin;dh; bai;ss; jia;fx; die;fw;	0
-银线灰蝶	yin;dh; xian;ea; hui;st; die;fw;	0
+银线灰蝶	yin;dh; xian;ea; hui;dt,st; die;fw;	0
 玉斑凤蝶	yu;ah,aa; ban;aj,aa; feng;il; die;fw;	0
 玉带蝶	yu;ah,aa; dai;zy; die;fw;	0
 玉带凤蝶	yu;ah,aa; dai;zy; feng;il; die;fw;	0
@@ -505,21 +505,21 @@ use_preset_vocabulary: true
 月纹矩环蝶	yue;ll; wen;ej; ju;er; huan;ah; die;fw;	0
 窄斑翠凤蝶	zhai;iu; ban;aj,aa; cui;ds; feng;il; die;fw;	0
 樟青凤蝶	zhang;ws; qing;al; feng;il; die;fw;	0
-赭灰蝶	zhe;gv; hui;st; die;fw;	0
+赭灰蝶	zhe;gv; hui;dt,st; die;fw;	0
 甄蝶	zhen;ph; die;fw;	0
 苎麻斑蛱蝶	zhu;zd; ma;dd,rw; ban;aj,aa; jia;fx; die;fw;	0
 苎麻珍蝶	zhu;zd; ma;dd,rw; zhen;au; die;fw;	0
-竹蚜小灰蝶	zhu;nn; ya;fu; xiao;pf; hui;st; die;fw;	0
+竹蚜小灰蝶	zhu;nn; ya;fu; xiao;pf; hui;dt,st; die;fw;	0
 紫端斑蝶	zi;rf; duan;be; ban;aj,aa; die;fw;	0
 紫线黛眼蝶	zi;rf; xian;ea; dai;xn; yan;sh; die;fw;	0
 棕脉粉蝶	zong;wf; mai;lh,lo; fen;li,lu; die;fw;	0
-阿拉斯加马拉密犬	a;bj; la;jb; si;vp; jia;uo; ma;zz; la;jb; mi;ip; quan;bb,xh;	0
-阿拉斯加马拉缪特犬	a;bj; la;jb; si;vp; jia;uo; ma;zz; la;jb; miu;eu; te;bk; quan;bb,xh;	0
+阿拉斯加马拉密犬	a;bj,bo; la;jb; si;vp; jia;uo; ma;zz; la;jb; mi;ip; quan;bb,xh;	0
+阿拉斯加马拉缪特犬	a;bj,bo; la;jb; si;vp; jia;uo; ma;zz; la;jb; miu;eu; te;bk; quan;bb,xh;	0
 大型犬	da;xx; xing;ug; quan;bb,xh;	94
-短毛阿拉斯加	duan;ed; mao;ur,ua; a;bj; la;jb; si;vp; jia;uo;	0
-短毛阿拉斯加雪橇犬	duan;ed; mao;ur,ua; a;bj; la;jb; si;vp; jia;uo; xue;ys; qiao;wr,wa; quan;bb,xh;	0
-短毛标准阿拉斯加	duan;ed; mao;ur,ua; biao;wf; zhun;fa; a;bj; la;jb; si;vp; jia;uo;	0
-短毛正常毛质阿拉斯加	duan;ed; mao;ur,ua; zheng;dr; chang;hy; mao;ur,ua; zhi;um,rm; a;bj; la;jb; si;vp; jia;uo;	0
+短毛阿拉斯加	duan;ed; mao;ur,ua; a;bj,bo; la;jb; si;vp; jia;uo;	0
+短毛阿拉斯加雪橇犬	duan;ed; mao;ur,ua; a;bj,bo; la;jb; si;vp; jia;uo; xue;ys; qiao;wr,wa; quan;bb,xh;	0
+短毛标准阿拉斯加	duan;ed; mao;ur,ua; biao;wf; zhun;fa; a;bj,bo; la;jb; si;vp; jia;uo;	0
+短毛正常毛质阿拉斯加	duan;ed; mao;ur,ua; zheng;dr; chang;hy; mao;ur,ua; zhi;um,rm; a;bj,bo; la;jb; si;vp; jia;uo;	0
 福犬	fu;hw; quan;bb,xh;	0
 雪橇犬	xue;ys; qiao;wr,wa; quan;bb,xh;	20
 菜粉蝶	cai;zw; fen;li,lu; die;fw;	6
@@ -528,25 +528,25 @@ use_preset_vocabulary: true
 蛱蝶	jia;fx; die;fw;	12
 双环蛱蝶	shuang;ll; huan;ah; jia;fx; die;fw;	0
 眼碟	yan;sh; die;tw;	0
-阿比西尼亚猫	a;bj; bi;aa; xi;pp; ni;qa; ya;dd; mao;bw;	2
+阿比西尼亚猫	a;bj,bo; bi;aa; xi;pp; ni;qa; ya;dd; mao;bw;	2
 埃及猫	ai;gx; ji;uh,rh; mao;bw;	1
 奥西猫	ao;ux; xi;pp; mao;bw;	0
 巴厘猫	ba;tt; li;rg; mao;bw;	0
 伯曼猫	bo;xs; man;vl; mao;bw;	0
 波斯猫	bo;kl; si;vp; mao;bw;	63
-布偶猫	bu;sy; ou;xh; mao;bw;	29
+布偶猫	bu;sy,dy; ou;xh; mao;bw;	29
 田园猫	tian;ww; yuan;nk; mao;bw;	0
 德文卷毛猫	de;hn; wen;jj; juan;ft; mao;ur,ua; mao;bw;	42
 电烫卷猫	dian;ee,ve; tang;kt; juan;ft; mao;bw;	0
 东方短毛猫	dong;df,af; fang;ff; duan;ed; mao;ur,ua; mao;bw;	0
-东奇尼猫	dong;df,af; qi;xj; ni;qa; mao;bw;	0
+东奇尼猫	dong;df,af; qi;xj,xo; ni;qa; mao;bw;	0
 俄罗斯蓝猫	e;xa; luo;af; si;vp; lan;zd,za; mao;bw;	2
 哈瓦那棕猫	ha;oo; wa;dh; na;rb; zong;wf; mao;bw;	0
 加拿大无毛猫	jia;uo; na;ep; da;xx; wu;uk,ur; mao;ur,ua; mao;bw;	1
 无毛猫	wu;uk,ur; mao;ur,ua; mao;bw;	1
 金吉拉	jin;ed,ef; ji;go; la;jb;	10
 科拉特猫	ke;uh,us; la;jb; te;bk; mao;bw;	0
-柯尼斯卷毛猫	ke;wj; ni;qa; si;vp; juan;ft; mao;ur,ua; mao;bw;	0
+柯尼斯卷毛猫	ke;wj,wo; ni;qa; si;vp; juan;ft; mao;ur,ua; mao;bw;	0
 褴褛猫	lan;hd,ha; lv;hy; mao;bw;	1
 狸猫	li;bg; mao;bw;	156
 狸花猫	li;bg; hua;za; mao;bw;	30
@@ -564,7 +564,7 @@ use_preset_vocabulary: true
 山东狮子猫	shan;pp; dong;df,af; shi;by; zi;aa; mao;bw;	0
 狮子猫	shi;by; zi;aa; mao;bw;	3
 四川简州猫	si;nk; chuan;up; jian;nv; zhou;hp; mao;bw;	0
-斯可可猫	si;vp; ke;jj; ke;jj; mao;bw;	0
+斯可可猫	si;vp; ke;jj,jo; ke;jj,jo; mao;bw;	0
 苏格兰折耳猫	su;zf; ge;wo; lan;fu; zhe;jp; er;dd,du; mao;bw;	4
 索马里猫	suo;sf; ma;zz; li;vg; mao;bw;	0
 土耳其安哥拉猫	tu;gg; er;dd,du; qi;vf; an;iy; ge;jj; la;jb; mao;bw;	1

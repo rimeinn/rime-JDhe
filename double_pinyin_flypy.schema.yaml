@@ -6,129 +6,333 @@ set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分�
   __include: config_pinyin:/algebra_flypy  #可选解码规则有   algebra_pinyin(全拼), algebra_zrm(自然码), algebra_flypy(小鹤双拼)  选择一个填入
 set_algebra_fuzhu:        #配置此项就是选择什么辅助码
   __include: config_pinyin:/fuzhu_jdh # 可选辅助码有：fuzhu_kong(空 无辅助码)，fuzhu_jdh(简单鹤), fuzhu_zrm(自然码), fuzhu_tiger(虎码), fuzhu_flypy(官鹤音形) 选择一个填入
+set_preedit_format:         # 小鹤双拼编码转换成全拼显示
+  __include: config_pinyin:/flypy_preedit_format
+
 ########################以下是方案配置######################################################
 
 schema:
   schema_id: double_pinyin_flypy
-  name: 小鹤双拼
-  version: "2024.11.07"
+  name: 简单鹤
+  icon: ico/双.ico           # string 方案图标，格式： .ico
+  version: "2025.04.05"
   author:
     - double pinyin layout by 鶴
-    - Rime schema by 佛振 <chen.sst@gmail.com>
-    - 方案修改：zHon 
+    - Rime schema by zHon 
   description: |
-    白霜拼音＋小鹤双拼方案。
+    白霜拼音＋小鹤双拼键位+简单鹤字词码表
     雾凇拼音 <https://github.com/iDvel/rime-ice>
     白霜拼音 <https://github.com/gaboolic/rime-frost>
   dependencies:
     - wanxiang_pinyin_dz   # 万象拼音单字反查
+    - melt_eng # 英文
+    - tiger  # 虎码
+    - JDhe  # 简单鹤 
+    - radical_pinyin   # 部件拆字
+    - stroke   # 五筆畫
 
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中, En ]
-  - name: full_shape
-    states: [ 半, 全 ]  # 符号
-  - name: ascii_punct
-    states: [ 。，, ．， ] # 中文标点，英文标点 
 
-engine:
-  processors:
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor
-  translators:
-    - punct_translator
-    - reverse_lookup_translator
-    - script_translator
-  filters:
-    - uniquifier
+__include: config_base:/switches_engine_script        # Rime模块
+__include: config_base:/opencc_config
+__include: config_base:/reverse_config                # 反查模块
+__include: config_base:/Lua_config                    # 自定义模块
+__include: config_base:/recognizer_config             # 识别器模块
+__include: config_base:/octagram/enable_for_sentence  # 启用语言模型
+
+
 
 
 # 拼写设定
 speller:
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
-  alphabet: zyxwvutsrqponmlkjihgfedcba;/
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`;/" 
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
 #  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
+# table_translator翻译器，支持自动上屏。例如 “zmhu”可以自动上屏“怎么回事”
+  auto_select: true
+#  auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}|^;(\w+|;)
+  auto_select_pattern: ^;\w+|^o\w{3}$
   algebra:
     __patch:
-      - set_shuru_schema     #输入解码规则
-      - set_algebra_fuzhu    #辅助码部分
+      - set_shuru_schema     # 输入解码规则
+      - config_pinyin:/fly_kk_kw                              # 飞键 kuai
+      - config_pinyin:/fly_yi_ei                              # 飞键 yi
+      - config_pinyin:/fly_qx_qo                              # 飞键 qia
+      - config_pinyin:/fly_xq_xo                              # 飞键 xiu
+      - config_pinyin:/fly_rr_rp                              # 飞键 ruan
+      - config_pinyin:/fly_gf_gp                              # 飞键 gen
+      - config_pinyin:/fly_jn_ja                              # 飞键 jiao
+      - config_pinyin:/fly_po_ps                              # 飞键 po
+      - config_pinyin:/fly_fg_fs                              # 飞键 feng
+      - config_pinyin:/fly_qq_qh                              # 飞键 qiu
+      - config_pinyin:/fly_ww_wk                              # 飞键 wei
+      - config_pinyin:/fly_cs_cl                              # 飞键 cong
+      - config_pinyin:/fly_zs_zl                              # 飞键 zong
+      - config_pinyin:/fly_dc_dl                              # 飞键 dao
+      - config_pinyin:/fly_vr_vn                              # 飞键 zhuan
+      - config_pinyin:/fly_ce_cn                              # 飞键 ce
+      - set_algebra_fuzhu    # 辅助码部分
 
 
 # 主翻译器，拼音
 translator:
-  dictionary: luna_pinyin                   # 挂载词库
-  prism: double_pinyin_flypy   # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
-  preedit_format:
-    - xform/([bpmfdtnljqx])n/$1iao/
-    - xform/(\w)g/$1eng/
-    - xform/(\w)q/$1iu/
-    - xform/(\w)w/$1ei/
-    - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
-    - xform/(\w)t/$1ve/
-    - xform/(\w)y/$1un/
-    - xform/([dtnlgkhvuirzcs])o/$1uo/
-    - xform/(\w)p/$1ie/
-    - xform/([jqx])s/$1iong/
-    - xform/(\w)s/$1ong/
-    - xform/(\w)d/$1ai/
-    - xform/(\w)f/$1en/
-    - xform/(\w)h/$1ang/
-    - xform/(\w)j/$1an/
-    - xform/([gkhvuirzcs])k/$1uai/
-    - xform/(\w)k/$1ing/
-    - xform/([jqxnl])l/$1iang/
-    - xform/(\w)l/$1uang/
-    - xform/(\w)z/$1ou/
-    - xform/([gkhvuirzcs])x/$1ua/
-    - xform/(\w)x/$1ia/
-    - xform/(\w)c/$1ao/
-    - xform/([dtgkhvuirzcs])v/$1ui/
-    - xform/(\w)b/$1in/
-    - xform/(\w)m/$1ian/
-    - xform/([aoe])\1(\w)/$1$2/
-    - "xform/(^|[ '])v/$1zh/"
-    - "xform/(^|[ '])i/$1ch/"
-    - "xform/(^|[ '])u/$1sh/"
-    - xform/([jqxy])v/$1u/
-    - xform/([nl])v/$1ü/
+  dictionary: luna_pinyin.extended               # 挂载词库 引入增补自定词典
+#  prism: double_pinyin_flypy   # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
+  enable_word_completion: true  # 大于 4 音节的词条自动补全，librime > 1.11.2
+  enable_completion: true  # 启用候选词补全
+  spelling_hints: 3    # 设置多少字以内候选标注完整带调拼音
+  initial_quality: 1.2          # 拼音的权重应该比英文大
+  disable_user_dict_for_patterns: 
+    - "^[a-z;,./]$"           # 禁止单码字调频
+    - "^[a-z;,./][a-z;,./]$"  # 禁止双码字调频
+#    - "^[a-z;,./][a-z;,./][a-z;,./][a-z;,./]$"  # 禁止四码词调频    
+  preedit_format: 
+    - xform/([a-z][a-z][a-z][a-z])o/$1°/    
 
-
-# 万象拼音反查
-reverse_lookup:
-  dictionary: wanxiang_pinyin_dz
-  prefix: "`"
-  tips: "〔单字〕"
-  comment_format:
-    - "xform/^/ /"
-    - xform/([nl])v/$1ü/
 
 # 标点符号
 punctuator:
-  import_preset: default  # 从 default.yaml 继承通用的 
+  import_preset: symbols  # 从 default.yaml 继承通用的 
 
 # 快捷键设置
 key_binder:
-  import_preset: default  # 从 default.yaml 继承通用的 
+#  import_preset: default  # 从 default.yaml 继承通用的 
+# Lua 配置: 以词定字
+  select_first_character: "Shift+exclam"  # 以词定字 shift+1 [(第一个字)
+  select_last_character:  "Shift+at"  # 以词定字句号 shift+2 (最后一个字) 
+# Lua 配置:  强制删词, 隐藏词组
+  drop_cand: "Control+d"            # 强制删词, 无视输入的编码
+  ehide_cand: "Control+x"            # 匹配当前输入码后隐藏指定的候选字词
+  reduce_fq_cand: "Control+j"       # 匹配当前输入码后降频指定的候选字词
+  custom_bindings:
+    __append: 
+      # 在這裏添加只在本方案中生效的按鍵綁定
+      # 打字时，' 选中第3个候选字发送 (音码方案需要此键 分词，形码单独启用)
+      - { accept: apostrophe, send: 3, when: has_menu} 
+      # 简单鹤字根拆分显示开关
+      - { when: has_menu, accept: "Control+i", toggle: chaifen }         
+  bindings:
+    __patch: 
+      - :/key_binder/custom_bindings?
+      - config_base:/key_config/options_toggle
+      - config_base:/key_config/keys
+__patch:
+  - double_pinyin_flypy.custom:/patch?
+##################################################
+  # 禁用原方案的翻译器
+  - 'engine/translators/@02': null
+  # 魔然翻譯器
+  - 'engine/translators/@after 02': lua_translator@*moran_express_translator@with_reorder 
+  # 候选排序
+  - 'engine/filters/@after 00': lua_filter@*moran_reorder_filter
+  # 词语级出简让全
+  - 'engine/filters/@after 01': lua_filter@*moran_ijrq_filter
+  # 简快码提示
+  - 'engine/filters/@after 02': lua_filter@*moran_hint_filter_v2
+##################################################
+  # 自定义短语
+  - 'engine/translators/@after 03': table_translator@custom_phrase  
+  # 英文输入
+  - 'engine/translators/@after 04': table_translator@melt_eng 
+  # 中英混合词汇
+  - 'engine/translators/@after 05': table_translator@cn_en
+##################################################
+  # 强制删词, 隐藏词组
+  - 'engine/processors/@after 00': lua_processor@*jdh/cold_word_drop*processor
+  # 删词, 隐词,降频 (Ctrl+D、Ctrl+X、Ctrl+J)  
+  - 'engine/filters/@after 03': lua_filter@*jdh/cold_word_drop*filter
+##################################################
+  # 自定义置顶词 自造词 快捷键响应
+  - 'engine/processors/@after 01': lua_processor@*moran_pin*pin_processor
+  # 自定义置顶词 自造词
+  - 'engine/translators/@after 06': lua_translator@*moran_pin*panacea_translator
+  # 替换掉雾凇版本自定义置顶词  （需配置 config_base 里的置顶词配置）
+  - 'engine/filters/@15': lua_filter@*moran_pin*pin_filter
+##################################################
+  # 简单鹤拆分滤镜
+  - 'engine/filters/@after 11': simplifier@chaifen
+  # 辅助码 （before last 在列表最后一个之前加上）
+#  - 'engine/filters/@before last': lua_filter@*auxCode_filter@jdh_aux_code
 
-# 识别器 处理符合特定规则的输入码，如网址、反查   
-recognizer:
-  import_preset: default  # 从 default.yaml 继承通用的 
-  patterns:                       # 再增加方案专有的
-    punct: "^/([0-9]0?|[A-Za-z]+)$"  # 响应 symbols
-    reverse_lookup: "^`[a-z]*'?$" # 响应反查 
-    uppercase: "" #中文状态大写锁定直接上屏    
+
+##################################################
+  - switches/+: 
+    - name: chaifen
+      states: [ 不拆, 扌斥 ]
+    - name: inflexible
+      reset: 1    
+#      states: [ 动词, 固词 ] # 「固詞」表示「固頂詞」註釋隱藏開關，請直接在此指定 reset
+      # 默認情況下，輸入 4 碼時，會禁止碼表輸出（「動詞」模式）。
+      # 這是因爲碼表最大碼長爲 4，可能會產生較低頻的多字詞，覆蓋過用戶自造的常用詞語。
+      # 當固詞模式啓動後，輸入 4 碼時會優先輸出碼表中的二字詞，這些輸出帶有「⚡️」標記。
+
+  # 简繁切换  
+  - simplification/tips: none   #简繁对照   转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+  # 笔画反查显示编码
+  - radical_reverse_lookup/dictionary: JDhe
+  - radical_reverse_lookup/comment_format: null
+
+  # 五笔画反查显示编码
+  - stroke_reverse_lookup/dictionary: JDhe  
+  # 虎码反查显示编码
+  - tiger_reverse_lookup/dictionary: JDhe  
+  # 万象拼音反查显示编码
+  - wanxiang_py_reverse_lookup/dictionary: JDhe 
+
+##################################################
+
+# 次翻译器固定词频 （配合自造词使用）
+fixed:
+  dictionary: JDhe                            # 挂载词库
+  enable_encoder:  false                  # 是否启用 自动造词  
+  enable_sentence:  false                 # 是否启用造句模式
+  encode_commit_history: true     # 是否对已上屛词自动成词  
+  enable_completion: false              # 编码提示开关（提前显示尚未输入完整码的字）
+  enable_user_dict: false                 # 是否启用用户词典（记录动态字词频、自造词）
+  initial_quality: 10                           # 初始权重应比其他高  
+
+moran:
+  # 簡快碼提示符
+  # 修改爲 "" 可取消提示符
+  # 建議在熟悉簡碼後再取消
+  quick_code_indicator: "⌃"
+
+  # 詞輔功能
+  # 當輸入二字或三字詞時，允許詞末輸入 *一位* 輔助碼篩選詞語。
+  # 例如輸入 lmjxz 得到「連接」，輸入 lmjxj 得到「鏈接」。
+  # 但是與字輔輸入方法不同，詞輔在生效後 *不能* 在句末繼續輸入形成整
+  # 句——這個功能僅用於「詞語篩選」。因此，這個功能僅適合習慣於以詞語
+  # 爲單位輸入的用戶，因此默認是關閉的。
+  #
+  # 開啓後，詞輔篩選的詞語會帶有輔助碼提示，例如「鏈接」後會有「jf」，
+  # 意思是輸入 j *或* f 都可以定位到這個詞，而不是說要同時輸入 jf 兩個碼
+  # （相反，同時輸入 jf 兩碼後反而無法得到該選項）。
+  enable_word_filter: true
+  # 重設詞輔匹配提示符爲其他字符串。
+  # 即輸入 lmjxz 時被詞輔匹配的候選「連接」的提示符，不影響輔助碼提示功能的輸出。
+  # 設爲 "" 完全取消提示。
+  # 設爲 {} 表示不重設詞輔提示符。
+  word_filter_match_indicator: ""
+
+  # 「出簡讓全」相關設置
+  # 當一個字具有簡碼時，打其全碼（不論是 yyxx 還是 yyxxo）都會導致該
+  # 字讓出首位，而被推遲到後位。
+  ijrq:
+    enable: true       # 是否啓用單字的出簡讓全？
+    #defer: 5          # 延遲多少位？若不設置该项，或值小於等於 0，則推遲到第二頁的首選
+    show_hint: true    # 若讓全，則提示簡碼打法
+
+    # 詞語級「讓全」，對二、三、四字詞有效
+    # 例：假設 lmjx 的輸出是 1.連接 2.鏈接
+    # 想要「鏈接」時，增加 f ，但是由於這兩個候選仍然共享 lmjxf 編碼，因此順序不變。
+    # 若開啓詞語級讓全，則 lmjxf 的首選會被調整爲「鏈接」
+    enable_word: false
+
+  # 單字或詞輔的輔助碼提示
+  # 
+  # 單字輔助碼會顯示出所有可能的輔助碼，且不顯示拆分
+  # 建議使用 Ctrl+i 切換輔助碼拆分提示功能
+  #
+  # 詞輔助碼提示僅在開啓 enable_word_filter 時生效
+  # 具體提示格式請參考上面「詞輔功能」的說明
+  enable_aux_hint: false
+
+  # 簡快碼提示（包括字和詞）
+  # 例如 輸入 yy te er 英特爾 會提示「⚡yte」，即使用 yte 可以打出這個詞
+  enable_quick_code_hint: true
+  quick_code_indicator2: ""    #简码提示图标
+  quick_code_indicator3: ""    #分割符提示 默认“ ¦ ”
+  quick_code_hint_min_len: 2 # 最小词长默认2，改为1则单字如果有简码也提醒
+  quick_code_hint_max_len: 3 # 最大词长默认3
+
+
+  # 輸入四碼時，如果簡碼碼表中含有對應條目，則放置在第二選項。
+  show_chars_anyway: true   # 是否輸出簡碼碼表單字，例：輸入 jwrg 時，次選爲「佳」
+  show_words_anyway: true   # 是否輸出簡碼碼表詞語，例：輸入 lmsd 時，次選爲「兩面三刀」
+
+  # 「置頂」功能相關設置
+  # 輸入時通過快捷鍵 Ctrl+t 可以將高亮顯示的候選置頂，被置頂的候選位置固定，不再參與調頻
+  # 對同一輸入碼最高支持8個置頂詞，當嘗試置頂第9個詞時，最早被置頂的詞將會失效
+  pin:
+    # 「置頂」功能開關
+    enable: true
+    # 置頂詞提示符
+    indicator: "ᵀᴼᴾ"
+    # 「萬靈藥」加詞功能
+    # 通過輸入 「編碼A」//「編碼B」 實現造詞功能，編碼A是這個新詞的新編碼 編碼B是目前可以打出該詞的編碼
+    # 例如 輸入 tnfb 不能得到「頭腦風暴」這一候選， 此時我們可以輸入 tnfb//tbnkfgbk 按下空格 讓「頭腦風暴」候選上屏，上屏的詞會被加入用戶詞庫中，之後我們可以用 tnfb 來得到「頭腦風暴」這一候選了
+    # 造出的詞與置頂詞是等同的
+    panacea:
+      # 加詞狀態提示
+      prompt: "〔加詞〕"
+      # 加詞中綴引導符
+      infix: "//"
+      # 自由加詞模式開關，開啓此模式後，輸入「編碼A」//並空格上屏後會進入加詞狀態，此時可以連續地、不受束縛地輸入，再次按下x//空格退出加詞狀態，期間輸入的內容將會被記錄爲「編碼A」的新置頂詞
+      # 此模式適合造一些混合詞，如「A4紙」、「KOS-MOS」等
+      freestyle: false
+
+##################################################
+# 自定义短语
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase/custom_phrase_double   # 双拼自定义短语
+  db_class: stabledb
+  enable_completion: false # 补全提示
+  enable_sentence: false   # 禁止造句
+  initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
+
+##################################################
+# 次翻译器，英文
+melt_eng:
+  dictionary: melt_eng     # 挂载词库 melt_eng.dict.yaml
+  enable_sentence: false   # 禁止造句
+  enable_user_dict: false  # 禁用用户词典
+  initial_quality: 1.1     # 初始权重
+  comment_format:          # 自定义提示码
+    - xform/.*//           # 清空提示码
+
+##################################################
+# 中英混合词汇
+cn_en:
+  dictionary: ""
+  user_dict: en_dicts/cn_en_flypy
+  db_class: stabledb
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: 0.5
+  comment_format:
+    - xform/^.+$//
+
+##################################################
+# lua 快捷键
+  key_binder/drop_cand: "Control+d"            # 强制删词, 无视输入的编码
+  key_binder/ehide_cand: "Control+x"            # 匹配当前输入码后隐藏指定的候选字词
+  key_binder/reduce_fq_cand: "Control+j"       # 匹配当前输入码后降频指定的候选字词
+
+# Lua 配置:  Ctrl+J 将词条降频到第 idx 个位置
+cold_word_reduce:                   
+  idx: 4
+
+##################################################
+
+ # Lua 配置:  辅助码
+axu_code:
+  # 激活码
+  trigger_word: "~"
+  # 展示辅码的模式
+  # always:   总是展示(默认)
+  # trigger:  输入激活码后激活辅码
+  # none:     始终不展示辅码
+  show_aux_notice: "trigger"
+
+##################################################
+chaifen:
+  option_name: chaifen
+  opencc_config: jdh_cf.json
+  tips: char        # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+  tags: [ abc, encode, punct, reverse_lookup ]           # 设置其作用范围
+  show_in_comment: true   # 是否仅将转换结果显示在备注中
+  comment_format:
+#      - "xform/-/ /"
+#      - "xform/〕〔/｜/"

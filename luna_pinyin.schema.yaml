@@ -7,96 +7,300 @@ set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分�
 set_algebra_fuzhu:        #配置此项就是选择什么辅助码
   __include: config_pinyin:/fuzhu_kong # 可选辅助码有：fuzhu_kong(空 无辅助码)，fuzhu_jdh(简单鹤), fuzhu_zrm(自然码), fuzhu_tiger(虎码), fuzhu_flypy(官鹤音形) 选择一个填入
 ########################以下是方案配置######################################################
+
 schema:
   schema_id: luna_pinyin
-  name: 朙月拼音
-  version: '2024.11.07'
+  name: 朙月拼音·全拼
+  icon: ico/朙.ico          # string 方案图标，格式： .ico
+  version: "2025.04.05"
   author:
     - 佛振 <chen.sst@gmail.com>
-    - Dvel    
-    - 方案修改：zHon       
+    - Rime schema by zHon     
   description: |
     Rime 預設的拼音輸入方案。
     雾凇拼音 <https://github.com/iDvel/rime-ice>
     白霜拼音 <https://github.com/gaboolic/rime-frost>
   dependencies:
     - wanxiang_pinyin_dz   # 万象拼音单字反查
+    - melt_eng # 英文
+    - tiger  # 虎码
+    - JDhe  # 简单鹤 
+    - radical_pinyin   # 部件拆字
+    - stroke   # 五筆畫
 
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中, En ]
-  - name: full_shape
-    states: [ 半, 全 ]  # 符号
-  - name: ascii_punct
-    states: [ 。，, ．， ] # 中文标点，英文标点 
+__include: config_base:/switches_engine_script        # Rime模块
+__include: config_base:/opencc_config
+__include: config_base:/reverse_config                # 反查模块
+__include: config_base:/Lua_config                    # 自定义模块
+__include: config_base:/recognizer_config             # 识别器模块
+__include: config_base:/octagram/enable_for_sentence  # 启用语言模型
 
-engine:
-  processors:
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor
-  translators:
-    - punct_translator
-    - reverse_lookup_translator
-    - script_translator
-  filters:
-    - uniquifier
 
 # 拼写设定
 speller:
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
-  alphabet: zyxwvutsrqponmlkjihgfedcba;/
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`;/" 
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
 #  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"  # 第一位<空格>
-  algebra:
+# table_translator翻译器，支持自动上屏。例如 “zmhu”可以自动上屏“怎么回事”
+  auto_select: true
+  auto_select_pattern: ^;\w+|^o\w{3}$
+  algebra: 
     __patch:
       - set_shuru_schema     #输入解码规则
-      - set_algebra_fuzhu    #辅助码部分
 #      - config_pinyin:/abbreviation         #简拼
       - config_pinyin:/spelling_correction # 容错拼写
       - config_pinyin:/key_correction # 自动纠正一些常见的按键错误
+      - set_algebra_fuzhu    #辅助码部分
 
 # 主翻译器，拼音
 translator:
-  dictionary: luna_pinyin            # 挂载词库
+  dictionary: luna_pinyin.extended               # 挂载词库 引入增补自定词典
+  prism: luna_pinyin   # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
+  enable_word_completion: true  # 大于 4 音节的词条自动补全，librime > 1.11.2
+  enable_completion: true  # 启用候选词补全
+  initial_quality: 1.2          # 拼音的权重应该比英文大  
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
 
-# 万象拼音单字反查
-reverse_lookup:
-  dictionary: wanxiang_pinyin_dz
-  prefix: "`"
-  tips: "〔单字〕"
-  comment_format:
-    - "xform/^/ /"
-    - xform/([nl])v/$1ü/
 
 # 标点符号
 punctuator:
-  import_preset: default  # 从 default.yaml 继承通用的 
+  import_preset: symbols  # 从 symbols.yaml 继承通用的 
 
 # 快捷键设置
 key_binder:
-  import_preset: default
+#  import_preset: default  # 从 default.yaml 继承通用的 
+# Lua 配置: 以词定字
+  select_first_character: "Shift+exclam"  # 以词定字 shift+1 [(第一个字)
+  select_last_character:  "Shift+at"  # 以词定字句号 shift+2 (最后一个字) 
+  custom_bindings:
+    __append: 
+      # 在這裏添加只在本方案中生效的按鍵綁定    
+  bindings:
+    __patch: 
+      - :/key_binder/custom_bindings?
+      - config_base:/key_config/options_toggle
+      - config_base:/key_config/keys
 
-recognizer:
-  import_preset: default
-  patterns:
-    punct: "^/([0-9]0?|[A-Za-z]+)$"  # 响应 symbols
-    reverse_lookup: "`[a-z]*'?$" # 响应反查 
-    uppercase: "" #中文状态大写锁定直接上屏
+__patch:
+  - luna_pinyin.custom:/patch?
+
+  # 自定义短语
+  - 'engine/translators/@after 02': table_translator@custom_phrase 
+  # 英文输入
+  - 'engine/translators/@after 03': table_translator@melt_eng 
+  # 中英混合词汇
+  - 'engine/translators/@after 04': table_translator@cn_en
+  # 长词优先（顺序要求：长词优先 > Emoji）
+  #（提升「西安」「提案」「图案」「饥饿」等词汇的优先级）
+  - 'engine/filters/@after 00': lua_filter@*long_word_filter
+  # 辅助码 （before last 在列表最后一个之前加上）
+#  - 'engine/filters/@before last': lua_filter@*auxCode_filter@zrm_aux_code
+
+##################################################
+  # Lua 配置：Emoji 降频到第 idx 个位置
+  - emoji_reduce: 
+    idx: 3
+
+  # 简繁切换  
+  - simplification/tips: none   #简繁对照   转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+
+  # 响应时间日期lua  
+  - recognizer/patterns/week: "^(/wk|xq)$"
+  - recognizer/patterns/time: "^(/wt|sj)$"
+  - recognizer/patterns/date: "^(/wd|rq)$" 
+
+##################################################
+
+# 自定义短语
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase/custom_phrase_full   # 需要手动创建 custom_phrase_xxx.txt 文件
+  db_class: stabledb
+  enable_completion: false # 补全提示
+  enable_sentence: false   # 禁止造句
+  initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
+
+# 次翻译器，英文
+melt_eng:
+  dictionary: melt_eng     # 挂载词库 melt_eng.dict.yaml
+  enable_sentence: false   # 禁止造句
+  enable_user_dict: false  # 禁用用户词典
+  initial_quality: 1.1     # 初始权重
+  comment_format:          # 自定义提示码
+    - xform/.*//           # 清空提示码
+
+# 中英混合词汇
+cn_en:
+  dictionary: ""
+  user_dict: en_dicts/cn_en
+  db_class: stabledb
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: 0.5
+  comment_format:
+    - xform/^.+$//
+
+
+##################################################
+
+# Lua 配置：长词优先
+# 提升 count 个词语，插入到第 idx 个位置。
+# 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
+long_word_filter:
+  count: 2
+  idx: 4
+
+# Lua 配置:  辅助码
+axu_code:
+  # 激活码
+  trigger_word: "`"
+  # 展示辅码的模式
+  # always:   总是展示(默认)
+  # trigger:  输入激活码后激活辅码
+  # none:     始终不展示辅码
+  show_aux_notice: "trigger"
+
+  # Lua 配置: 置顶候选项
+# 注释太长了，请参考 pin_cand_filter.lua 开头的说明书。
+pin_cand_filter:
+  # 格式：编码<Tab>字词1<Space>字词2……
+  # 单编码
+  - q	去 千
+  - w	我 万 往
+  - e	呃
+  - r	让 人
+  - t	他 她 它 祂
+  - y	与 于
+  # - u 在 custom_phrase 置顶了 有 🈶 又 由
+  # - i 在 custom_phrase 置顶了 一 以 已 亦
+  - o	哦
+  - p	片 篇
+  - a	啊
+  - s	是 时 使 式
+  - d	的 地 得
+  - f	发 放 分
+  - g	个 各
+  - h	和 或
+  - j	及 将 即 既 继
+  - k	可
+  - l	了 啦 喽 嘞
+  - z	在 再 自
+  - x	想 像 向
+  - c	才 从
+  # - v
+  - b	吧 把 呗 百
+  - n	那 哪 拿 呐
+  - m	吗 嘛 呣 呒
+  # 常用单字
+  - qing	请
+  - qu	去
+  - wo	我
+  - wei	为
+  - er	而 儿 二
+  - en	嗯
+  - rang	让
+  - ta	他 她 它 祂
+  - tai	太
+  - tong	同
+  - yu	与 于
+  - you	有 又 由
+  - yao	要
+  - ye	也
+  - shi	是 时 使 式
+  - suo	所
+  - shang	上
+  - shuo	说
+  - de	的 地 得
+  - dan	但
+  - dou	都
+  - dao	到 倒
+  - dian	点
+  - dang	当
+  - dui	对
+  - fa	发
+  - ge	个 各
+  - gang	刚
+  - he	和
+  - huo	或
+  - hui	会
+  - hai	还
+  - hao	好
+  - ji	及 即 既
+  - jiu	就
+  - jiang	将
+  - ke	可
+  - kan	看
+  - kai	开
+  - le	了
+  - la	啦 拉
+  - lai	来
+  - li	里
+  - zai	在 再
+  - zhi	只
+  - zhe	这 着
+  - zhen	真
+  - zui	最
+  - zheng	正
+  - zuo	做 坐 左
+  - ze	则
+  - xiang	想 像 向
+  - xian	先
+  - xia	下
+  - xing	行
+  - cai	才
+  - cong	从
+  - chu	出
+  - ba	把 吧
+  - bu	不
+  - bing	并
+  - bei	被
+  - bie	别
+  - bi	比
+  - bing	并
+  - na	那 哪 拿 呐
+  - ni	你
+  - ma	吗 嘛 妈
+  - mei	没
+  - mai	买 卖
+  - reng	仍 扔
+  # ta、na
+  - ta men	他们 她们 它们
+  - tm	他们 她们 它们
+  - ta de	他的 她的 它的
+  - td	他的 她的 它的
+  - ta men de	他们的 她们的 它们的
+  - na er	那儿 哪儿
+  - na ge	那个 哪个
+  - ng	那个 哪个 拿个
+  - na xie	那些 哪些
+  - na li	那里 哪里
+  - na bian	那边 哪边
+  - na bian er	那边儿 哪边儿
+  - na wei	那位 哪位
+  # 简码
+  - zh	这
+  - dd	等等
+  - dddd	等等等等
+  - gg	刚刚
+  - cgg	才刚刚
+  - zd	知道
+  - bzd	不知道
+  - ww	往往
+  - hh	哈哈
+  - kk	看看
+  - cc	常常
+  - xx	想想 想象
+  - yw	因为
+  - sm	什么
+  - wsm	为什么
+  - sbs	是不是
+  - msm	没什么
+  - smd	什么的
+  - sms	什么是
+  - sma	什么啊
+

@@ -25,17 +25,7 @@ patch:
   #menu/alternative_select_labels: [ ⓐ,ⓑ,ⓒ,ⓓ,ⓔ,ⓕ,ⓖ,ⓗ,ⓘ,ⓙ ]
   #menu/alternative_select_labels: [ ➊, ➋, ➌, ➍, ➎, ➏,  ➐, ➑,  ➒, ➓ ]
   #menu/alternative_select_labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
-  menu/alternative_select_labels: 
-    - "␣"
-    - ";"
-    - "3'"
-    - "4["
-    - "5]"
-    - "6"
-    - "7"
-    - "8"
-    - "9"
-    - "0"
+
 
 # 中西文切换
 #
@@ -95,9 +85,9 @@ patch:
     - spelling.lv2          # 虎码拆字注释  拆+编
     - spelling.lv3          # 虎码拆字注释 拆+编+音
     - autocompletion_filter      # 编码补全提示
-    - pinyin                          # 拼音滤镜开关
+    - pinyinhint                          # 拼音滤镜开关
     - single_char_only_for_full_code        # 四码单字开关
-    - jdh_cf        # 简单鹤拆字注释开关
+    - chaifen        # 简单鹤拆字注释开关
     - inflexible    # 固词或动词开关
     - block_words_enabled   # 是否屏蔽指定的字词列表
     - prediction                 #输入联想预测
