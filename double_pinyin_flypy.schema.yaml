@@ -89,7 +89,7 @@ translator:
 #    - "^[a-z;,./][a-z;,./][a-z;,./][a-z;,./]$"  # 禁止四码词调频    
   preedit_format: 
     - xform/([a-z][a-z][a-z][a-z])o/$1°/    
-
+    - xform/(?<=[A-Z])\s(?=[A-Z])//  # 消除大写字母之间的空格
 
 # 标点符号
 punctuator:
@@ -129,7 +129,7 @@ __patch:
   # 词语级出简让全
   - 'engine/filters/@after 01': lua_filter@*moran_ijrq_filter
   # 简快码提示
-  - 'engine/filters/@after 02': lua_filter@*moran_hint_filter_v2
+  - 'engine/filters/@after 02': lua_filter@*moran_hint_filter
 ##################################################
   # 自定义短语
   - 'engine/translators/@after 03': table_translator@custom_phrase  
@@ -192,6 +192,7 @@ fixed:
   enable_user_dict: false                 # 是否启用用户词典（记录动态字词频、自造词）
   initial_quality: 10                           # 初始权重应比其他高  
 
+
 moran:
   # 簡快碼提示符
   # 修改爲 "" 可取消提示符
@@ -241,11 +242,8 @@ moran:
   # 簡快碼提示（包括字和詞）
   # 例如 輸入 yy te er 英特爾 會提示「⚡yte」，即使用 yte 可以打出這個詞
   enable_quick_code_hint: true
-  quick_code_indicator2: ""    #简码提示图标
-  quick_code_indicator3: ""    #分割符提示 默认“ ¦ ”
-  quick_code_hint_min_len: 2 # 最小词长默认2，改为1则单字如果有简码也提醒
-  quick_code_hint_max_len: 3 # 最大词长默认3
-
+  # 取消單字的簡快碼提示
+  quick_code_hint_skip_chars: true
 
   # 輸入四碼時，如果簡碼碼表中含有對應條目，則放置在第二選項。
   show_chars_anyway: true   # 是否輸出簡碼碼表單字，例：輸入 jwrg 時，次選爲「佳」

@@ -8,7 +8,6 @@
 --
 -- 0.1.0: 合併原 moran_aux_hint 和 moran_quick_code_hint
 --
-
 local moran = require("moran")
 local Module = {}
 
@@ -25,11 +24,6 @@ function Module.init(env)
 
    env.is_auxfilter = env.name_space == "auxfilter"
    env.enable_quick_code_hint = env.engine.schema.config:get_bool("moran/enable_quick_code_hint")
-
-   -- 添加自定义简码提示最小和最大长度配置
-   env.quick_code_hint_min_len = env.engine.schema.config:get_int("moran/quick_code_hint_min_len") or 1
-   env.quick_code_hint_max_len = env.engine.schema.config:get_int("moran/quick_code_hint_max_len") or 10
-
    -- 輔篩模式禁止簡碼提示
    if env.enable_quick_code_hint and not env.is_auxfilter then
       -- The user might have changed it.
@@ -39,11 +33,7 @@ function Module.init(env)
    else
       env.quick_code_hint_reverse = nil
    end
-
-   -- 获取用户配置的简码提示指示符，默认使用 ⚡
-   env.quick_code_indicator = env.engine.schema.config:get_string("moran/quick_code_indicator2") or "⚡"
-   -- 允许用户自定义主要分隔符
-   env.major_separator = env.engine.schema.config:get_string("moran/quick_code_indicator3") or " ¦ "
+   env.quick_code_indicator = env.engine.schema.config:get_string("moran/quick_code_indicator") or "⚡"
 end
 
 function Module.fini(env)
@@ -96,22 +86,13 @@ function Module.get_quickcode_hint(env, cand, gcand)
       return nil
    end
    local text = gcand.text
-   local len = utf8.len(text)
-   
-   -- 根据最小和最大长度限制启用简码提示
-   if len < env.quick_code_hint_min_len or len > env.quick_code_hint_max_len then
+   if utf8.len(text) == 1 and env.quick_code_hint_skip_chars then
       return nil
    end
-   
-   if len == 1 and env.quick_code_hint_skip_chars then
-      return nil
-   end
-
    local all_codes = env.quick_code_hint_reverse:lookup(text)
    if not all_codes then
       return nil
    end
-
    local in_use = false
    local codes = {}
    for code in all_codes:gmatch("%S+") do
@@ -141,12 +122,11 @@ function Module.func(translation, env)
       return
    end
 
-   local major_sep = env.major_separator  -- 主要分隔符
-   local minor_sep = env.quick_code_indicator  -- 快速代码提示符号
+   local major_sep = " ¦ "
+   local minor_sep = env.quick_code_indicator
    if #minor_sep == 0 then
       minor_sep = "⚡"
    end
-
    for cand in translation:iter() do
       if cand.type == "punct" then
          yield(cand)
@@ -175,8 +155,11 @@ function Module.func(translation, env)
             gcand.comment = gcand.comment .. major_sep .. auxhint
          end
       elseif qchint then
-         if #gcand.comment == 0 or gcand.comment == env.quick_code_indicator then
+         if #gcand.comment == 0 then
             gcand.comment = gcand.comment .. env.quick_code_indicator .. qchint
+         elseif gcand.comment == env.quick_code_indicator then
+            -- 已有 ⚡ ，不再加
+            gcand.comment = gcand.comment .. qchint
          else
             gcand.comment = gcand.comment .. major_sep .. env.quick_code_indicator .. qchint
          end
