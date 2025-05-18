@@ -377,10 +377,42 @@ key_config:
       - {accept: KP_Enter, send: Return, when: composing}  
 
 
+  # 使用大写字母追加输入到上一个音节末尾
+  capital_for_last_syllable:
+    __append:
+      - { when: has_menu, accept: Shift+A, send_sequence: "{Control+Left}a{Control+Right}" }
+      - { when: has_menu, accept: Shift+B, send_sequence: "{Control+Left}b{Control+Right}" }
+      - { when: has_menu, accept: Shift+C, send_sequence: "{Control+Left}c{Control+Right}" }
+      - { when: has_menu, accept: Shift+D, send_sequence: "{Control+Left}d{Control+Right}" }
+      - { when: has_menu, accept: Shift+E, send_sequence: "{Control+Left}e{Control+Right}" }
+      - { when: has_menu, accept: Shift+F, send_sequence: "{Control+Left}f{Control+Right}" }
+      - { when: has_menu, accept: Shift+G, send_sequence: "{Control+Left}g{Control+Right}" }
+      - { when: has_menu, accept: Shift+H, send_sequence: "{Control+Left}h{Control+Right}" }
+      - { when: has_menu, accept: Shift+I, send_sequence: "{Control+Left}i{Control+Right}" }
+      - { when: has_menu, accept: Shift+J, send_sequence: "{Control+Left}j{Control+Right}" }
+      - { when: has_menu, accept: Shift+K, send_sequence: "{Control+Left}k{Control+Right}" }
+      - { when: has_menu, accept: Shift+L, send_sequence: "{Control+Left}l{Control+Right}" }
+      - { when: has_menu, accept: Shift+M, send_sequence: "{Control+Left}m{Control+Right}" }
+      - { when: has_menu, accept: Shift+N, send_sequence: "{Control+Left}n{Control+Right}" }
+      - { when: has_menu, accept: Shift+O, send_sequence: "{Control+Left}o{Control+Right}" }
+      - { when: has_menu, accept: Shift+P, send_sequence: "{Control+Left}p{Control+Right}" }
+      - { when: has_menu, accept: Shift+Q, send_sequence: "{Control+Left}q{Control+Right}" }
+      - { when: has_menu, accept: Shift+R, send_sequence: "{Control+Left}r{Control+Right}" }
+      - { when: has_menu, accept: Shift+S, send_sequence: "{Control+Left}s{Control+Right}" }
+      - { when: has_menu, accept: Shift+T, send_sequence: "{Control+Left}t{Control+Right}" }
+      - { when: has_menu, accept: Shift+U, send_sequence: "{Control+Left}u{Control+Right}" }
+      - { when: has_menu, accept: Shift+V, send_sequence: "{Control+Left}v{Control+Right}" }
+      - { when: has_menu, accept: Shift+W, send_sequence: "{Control+Left}w{Control+Right}" }
+      - { when: has_menu, accept: Shift+X, send_sequence: "{Control+Left}x{Control+Right}" }
+      - { when: has_menu, accept: Shift+Y, send_sequence: "{Control+Left}y{Control+Right}" }
+      - { when: has_menu, accept: Shift+Z, send_sequence: "{Control+Left}z{Control+Right}" }
+      - { when: has_menu, accept: Shift+BackSpace, send_sequence: "{Control+Left}{BackSpace}{Control+Right}" }
+
+
 Lua_config: 
   # 重复上屏
   history: 
-    input: ;k
+    input: ;d
     size: 1                             # 重复前几次上屏
     initial_quality: 1              # 初始权重
 
