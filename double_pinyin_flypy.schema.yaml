@@ -118,8 +118,6 @@ key_binder:
       - config_base:/key_config/options_toggle
       - config_base:/key_config/keys
 __patch:
-  - double_pinyin_flypy.custom:/patch?
-##################################################
   # 禁用原方案的翻译器
   - 'engine/translators/@02': null
   # 魔然翻譯器
@@ -180,7 +178,12 @@ __patch:
   # 万象拼音反查显示编码
   - wanxiang_py_reverse_lookup/dictionary: JDhe 
 
+
 ##################################################
+  # 【重要】读取用户自定义补丁文件
+  - double_pinyin_flypy.custom:/patch?
+##################################################
+
 
 # 次翻译器固定词频 （配合自造词使用）
 fixed:

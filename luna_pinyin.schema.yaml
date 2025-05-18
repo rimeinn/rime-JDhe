@@ -88,8 +88,6 @@ key_binder:
       - config_base:/key_config/keys
 
 __patch:
-  - luna_pinyin.custom:/patch?
-
   # 自定义短语
   - 'engine/translators/@after 02': table_translator@custom_phrase 
   # 英文输入
@@ -116,6 +114,10 @@ __patch:
   - recognizer/patterns/date: "^(/wd|rq)$" 
 
 ##################################################
+  # 【重要】读取用户自定义补丁文件
+  - luna_pinyin.custom:/patch?
+##################################################
+
 
 # 自定义短语
 custom_phrase:

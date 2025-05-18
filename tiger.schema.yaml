@@ -88,8 +88,6 @@ key_binder:
 
 
 __patch:
-  - tiger.custom:/patch?
-##################################################
   # 英文临时输入标识
   - 'engine/segmentors/@after 01': affix_segmentor@Eng 
   # 英文临时输入（E）
@@ -148,6 +146,11 @@ __patch:
   - recognizer/patterns/wanxiang_py_lookup: null 
 
 ##################################################
+  # 【重要】读取用户自定义补丁文件
+  - tiger.custom:/patch?
+##################################################
+
+
 # 英文翻译器
 Eng:
   tag: Eng
