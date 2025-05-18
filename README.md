@@ -177,7 +177,7 @@ be 百（以及相关词）
   - 字词候选嵌入输入栏开关（取自 [宇浩输入方案](https://github.com/forFudan/yuhao)）
   
   - 标点快符自动上屏 <kbd>；</kbd>+ 字母 比如输入 `;a` 自动上屏 `！`（详见配置 `custom_phrase/quick_symbol_phrase.txt` 文件）
-  
+  - 重复上屏 `;d` 自动重复上屏 上一次输入的内容
   - <kbd>/KJ</kbd> 前缀: 用于输入常用短语(邮箱/手机号/银行卡号/收件地址); 和打开常用网站网址, 本地文件路径; 执行常见指令(开关系统设置) 等等, 可自行在`Rime\lua\shortcut_config.lua` 里添加（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
   - <kbd>/JK</kbd> 前缀: 用于快速启动或切换程序 可自行在`Rime\lua\shortcut_config.lua` （取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
