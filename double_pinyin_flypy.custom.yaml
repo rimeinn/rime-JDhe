@@ -46,13 +46,26 @@ patch:
   #  emoji
   emoji/tips: none   # 转换提示: all 都显示 | char 仅单字显示 | none 
 
+
+
   key_binder/bindings: 
     __patch: 
-      - :/key_binder/custom_bindings?
+      - double_pinyin_flypy.custom:/key_binder/custom_bindings?
       - config_base:/key_config/options_toggle
       - config_base:/key_config/keys
       # 大写字母追加辅助码到上一个音节
       - config_base:/key_config/capital_for_last_syllable
+ 
+# 增加快捷键设置
+key_binder: 
+  custom_bindings:
+    __append: 
+      # 在這裏添加只在本方案中生效的按鍵綁定
+      # 打字时，' 选中第3个候选字发送 (音码方案需要此键 分词，形码单独启用)
+      - { accept: apostrophe, send: 3, when: has_menu} 
+      # 简单鹤字根拆分显示开关
+      - { when: has_menu, accept: "Control+i", toggle: chaifen }     
+
 
 
   # 增加一个辅助识别器
