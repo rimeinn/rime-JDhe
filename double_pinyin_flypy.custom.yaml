@@ -33,7 +33,7 @@ patch:
 
 
   # 禁用根据是否在用户词典，在 comment 上加上一个标记
-  'engine/filters/@013': null
+  'engine/filters/@018': null
 
 
   # 簡快碼提示符
@@ -46,6 +46,24 @@ patch:
   #  emoji
   emoji/tips: none   # 转换提示: all 都显示 | char 仅单字显示 | none 
 
+
+  # 增加一个辅助识别器
+  'engine/segmentors/@after 01': matcher@recognizer_secondary
+  # 给英文翻译器添加tag匹配规则
+  melt_eng/tag: english  # librime<=1.11 請在 custom 中置空
+  # 辅助识别器
+  recognizer_secondary:
+    patterns:
+      # {4} 表示輸入長度達到 4 後開始輸出英語
+      english: '^[A-Za-z]{4}[A-Za-z]*'
+
+
+##【注意】此功能开启后，四码词组会根据使用习惯动态调整候选词排序(建议还是固定词序使用，但我开了😂)##
+# 简单鹤方案下动词模式必须 打开屏蔽开关，将原先的「①」占位符屏蔽。
+#  switches/@10/reset: 1
+#  switches/@13/reset: 0
+#  switches/@13/states: [ 动词, 固词 ] # 「固詞」表示「固頂詞」註釋隱藏開關，請直接在此指定 reset
+##################################################################
 
 
   key_binder/bindings: 
@@ -65,15 +83,10 @@ key_binder:
       - { accept: apostrophe, send: 3, when: has_menu} 
       # 简单鹤字根拆分显示开关
       - { when: has_menu, accept: "Control+i", toggle: chaifen }     
+      # 固定词序or动态词序 临时切换开关
+      - { when: has_menu, accept: "Control+g", toggle: inflexible }     
 
 
 
-  # 增加一个辅助识别器
-  'engine/segmentors/@after 01': matcher@recognizer_secondary
-  # 给英文翻译器添加tag匹配规则
-  melt_eng/tag: english  # librime<=1.11 請在 custom 中置空
-  # 辅助识别器
-  recognizer_secondary:
-    patterns:
-      # {4} 表示輸入長度達到 4 後開始輸出英語
-      english: '^[A-Za-z]{4}[A-Za-z]*'
+
+
