@@ -83,7 +83,6 @@ switches_engine_script:
       - simplifier@simplification                     # 简繁切换            
       - lua_filter@*autocap_filter                    # 英文自动大写            
       - lua_filter@*pin_cand_filter                   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）            
-      - lua_filter@*reduce_english_filter             # 降低部分英语单词在候选项的位置
       - lua_filter@*is_in_user_dict                   # 根据是否在用户词典，在 comment 上加上一个标记
       - lua_filter@*en_spacer                         # 英文词条上屏自动空格
       - lua_filter@*multiline_filter                  # 在词典里面候选支持\r, \r\n, \n, <br>分割分行。&nbsp 表示空格
@@ -149,7 +148,6 @@ switches_engine_table:
       - simplifier@simplification                     # 简繁切换            
       - lua_filter@*autocap_filter                    # 英文自动大写            
       - lua_filter@*pin_cand_filter                   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）            
-      - lua_filter@*reduce_english_filter             # 降低部分英语单词在候选项的位置
       - lua_filter@*is_in_user_dict                   # 根据是否在用户词典，在 comment 上加上一个标记
       - lua_filter@*en_spacer                         # 英文词条上屏自动空格
       - lua_filter@*multiline_filter                  # 在词典里面候选支持\r, \r\n, \n, <br>分割分行。&nbsp 表示空格
@@ -157,7 +155,6 @@ switches_engine_table:
       - lua_filter@*block_words                       # 屏蔽指定的字词列表，并通过开关控制是否启用
       - lua_filter@*moran_charset_comment_filter      # Unicode 區位提示
       - uniquifier       
-
 
 
 opencc_config: 
@@ -279,8 +276,9 @@ recognizer_config:
       time: "^(/wt|time|osj|owt)$"  # 响应时间输入
       date: "^(/wd|date|orq|owd)$"  # 响应日期输入
       timestamp: "^/uts$"           # 时间戳
-      chinese_lunar: "^(/nl|onl)[0-9]*$"  # 中国农历(可反查)
-      shortcuts: "^/(jk|kj)[a-z]*$"       # 快捷指令(短语)
+      chinese_lunar: "^(/nl|nL)[0-9]*$"  # 中国农历(可反查)
+      shortcuts_app: "^/jk[a-z]*$"              # 快捷指令(启动应用)
+      shortcuts_cmd: "^/kj[a-z]*$"              # 快捷指令(执行命令)
       unicode: "^U[a-f0-9]+"  # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
       radical_lookup: "^oiz[a-z]+$"   # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
       stroke_lookup: "^obh[a-z]+$"    # 响应五笔画的反查，与 stroke_lookup/prefix 匹配
@@ -482,42 +480,6 @@ Lua_config:
     separator: ""                                           # 候选之间的分隔符
     stash_placeholder: "~"  
     show_only_first_in_preedit: true  # 控制是否仅显示首选词在编辑栏
-
-# Lua 配置: 降低部分英语单词在候选项的位置。
-# 详细介绍 https://dvel.me/posts/make-rime-en-better/#短单词置顶的问题
-# 正常情况： 输入 rug 得到 「1.rug 2.如果 …… 」
-# 降低之后： 输入 rug 得到 「1.如果 2.rug …… 」
-# 几种模式：
-# all     降低脚本内置的单词（所有 3~4 位长度、前 2~3 位是完整拼音、最后一位是声母），words 作为自定义的额外补充
-# custom  完全自定义，只降低 words 里的
-# none    不降低任何单词，相当于没有启用这个 Lua
-# （匹配的是编码，不是单词）
-  reduce_english_filter:
-    mode: custom  # all | custom | none
-    idx: 2        # 降低到第 idx 个位置
-    # 自定义的单词列表，示例列表没有降低部分常用单词，如 and cat mail Mac but bad shit ……
-    words: [
-      aid, ann,
-      bail, bait, bam, band, bans, bat, bay, bend, bent, benz, bib, bid, bien, biz, boc, bop, bos, bud, buf, bach, bench, bush,
-      cab, cad, cain, cam, cans, cap, cas, cef, chad, chan, chap, chef, cher, chew, chic, chin, chip, chit, coup, cum, cunt, cur, couch,
-      dab, dag, dal, dam, dent, dew, dial, diet, dim, din, dip, dis, dit, doug, dub, dug, dunn, don,
-      fab, fax, fob, fog, foul, fur,
-      gag, gail, gain, gal, gam, gaol, ged, gel, ger, guam, gus, gut,
-      hail, ham, hank, hans, hat, hay, heil, heir, hem, hep, hud, hum, hung, hunk, hut, hush,
-      jim, jug,
-      kat,
-      lab, lad, lag, laid, lam, laos, lap, lat, lax, lay, led, leg, lex, liam, lib, lid, lied, lien, lies, linn, lip, lit, liz, lob, lug, lund, lung, lux, lash, loch, lush,
-      mag, maid, mann, mar, mat, med, mel, mend, mens, ment, mil, mins, mint, mob, moc, mop, mos, mot, mud, mug, mum, mesh,
-      nap, nat, nay, neil, nib, nip, noun, nous, nun, nut, nail, nash,
-      pac, paid, pail, pain, pair, pak, pal, pam, pans, pant, pap, par, pat, paw, pax, pens, pic, pier, pies, pins, pint, pit, pix, pod, pop, pos, pot, pour, pow, pub, pinch, pouch,
-      rand, rant, rent, rep, res, ret, rex, rib, rid, rig, rim, rub, rug, rum, runc, runs, ranch,
-      sac, sail, sal, sam, sans, sap, saw, sax, sew, sham, shaw, shin, sig, sin, sip, sis, suit, sung, suns, sup, sur, sus,
-      tad, tail, taj, tar, tax, tec, ted, tel, ter, tex, tic, tied, tier, ties, tim, tin, tit, tour, tout, tum,
-      wag, wand, womens, wap, wax, weir, won, went,
-      yan, yen,
-      zach
-      my, mt, dj, as, js, cs, ak, ps, cd, cn, hk, bt, pk  # 一些由算法转写的大写单词编码      
-    ]
 
 
 octagram:
