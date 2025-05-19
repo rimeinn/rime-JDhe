@@ -33,7 +33,7 @@ patch:
 
 
   # 禁用根据是否在用户词典，在 comment 上加上一个标记
-  'engine/filters/@018': null
+  'engine/filters/@017': null
 
 
   # 簡快碼提示符
