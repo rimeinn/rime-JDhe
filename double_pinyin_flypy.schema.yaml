@@ -116,6 +116,7 @@ key_binder:
     __patch: 
       - :/key_binder/custom_bindings?
       - config_base:/key_config/options_toggle
+      - config_base:/key_config/tab_Page
       - config_base:/key_config/keys
 __patch:
   # 禁用原方案的翻译器

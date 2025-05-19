@@ -331,23 +331,6 @@ key_config:
      # 打字时，Caps_Lock 选中第4个候选字发送
       - { accept: Release+Caps_Lock, send: Release+4, when: has_menu} 
 
-     # 打字时，Tab 输入「~」符号，配合辅助码 Lua 使用 
-  #    - { accept: Tab, send: asciitilde, when: composing }
-
-     # 打字时，Tab和Shift+Tab切换候选
-  #    - { accept: Tab, send: Down, when: has_menu} 
-     # 打字时，Tab和Shift+Tab切换候选
-  #    - { accept: Shift+Tab, send: Up, when: has_menu} 
-
-     # 使用 tab 在不同音節間跳轉
-  #    - { accept: Tab, send: Control+Right, when: has_menu }
-  #    - { accept: Tab, send: Control+Right, when: composing }
-
-     # Shift+Tab 向前翻页
-      - { accept: Shift+Tab, send: Page_Up, when: paging} 
-     # Tab 向后翻页
-      - { accept: Tab, send: Page_Down, when: has_menu} 
-
      # 减号向前翻页
       - { accept: minus, send: Page_Up, when: paging} 
      # 等于号向后翻页
@@ -375,6 +358,28 @@ key_config:
       - {accept: KP_9, send: 9, when: composing}
       - {accept: KP_Decimal, send: period, when: composing}    
       - {accept: KP_Enter, send: Return, when: composing}  
+
+  # 使用 tab 翻页
+  tab_Page:
+    __append:
+     # Tab 向后翻页
+      - { accept: Tab, send: Page_Down, when: has_menu} 
+     # Shift+Tab 向前翻页
+      - { accept: Shift+Tab, send: Page_Up, when: paging} 
+
+  # 使用 tab 在不同音节间跳转
+  tab_jump:
+    __append:
+     - { accept: Tab, send: Control+Right, when: has_menu }
+     - { accept: Tab, send: Control+Right, when: composing }
+
+  # 使用 tab 切换候选
+  tab_switch:
+    __append:
+     # 打字时，Tab 选中下一个候选
+     - { accept: Tab, send: Down, when: has_menu} 
+     # 打字时，Shift+Tab 选中上一个候选
+     - { accept: Shift+Tab, send: Up, when: has_menu} 
 
 
   # 使用大写字母追加输入到上一个音节末尾
