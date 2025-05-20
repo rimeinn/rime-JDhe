@@ -178,9 +178,9 @@ be 百（以及相关词）
   
   - 标点快符自动上屏 <kbd>；</kbd>+ 字母 比如输入 `;a` 自动上屏 `！`（详见配置 `custom_phrase/quick_symbol_phrase.txt` 文件）
   - 重复上屏 `;d` 自动重复上屏 上一次输入的内容
-  - <kbd>/KJ</kbd> 前缀: 用于输入常用短语(邮箱/手机号/银行卡号/收件地址); 和打开常用网站网址, 本地文件路径; 执行常见指令(开关系统设置) 等等, 可自行在`Rime\lua\shortcut_config.lua` 里添加（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
+  - <kbd>/KJ</kbd> (简单鹤方案用<kbd>okj</kbd>) 前缀: 用于输入常用短语(邮箱/手机号/银行卡号/收件地址); 和打开常用网站网址, 本地文件路径; 执行常见指令(开关系统设置) 等等, 可自行在`Rime\lua\shortcut_config.lua` 里添加（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
-  - <kbd>/JK</kbd> 前缀: 用于快速启动或切换程序 可自行在`Rime\lua\shortcut_config.lua` （取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
+  - <kbd>/JK</kbd>  (简单鹤方案用<kbd>ojk</kbd>) 前缀: 用于快速启动或切换程序 可自行在`Rime\lua\shortcut_config.lua` （取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
   - 根据是否在用户词典，在结尾加上一个标识（取自 [白霜拼音](https://github.com/gaboolic/rime-frost)）
     上屏过的候选词 末尾带有「✩」
@@ -236,13 +236,10 @@ be 百（以及相关词）
 **ctrl+~切换方案**
 
 - 简单鹤用户默认启用了 **「固词」**，体验完全体的简单鹤
-- 如需要启用**「动词」**，自行在`double_pinyin_flypy.custom.yaml/switches/inflexible/reset: 1` **修改为reset: 0**，启用后需要用户手动打开**「屏蔽」**这个开关选项（作用是可以屏蔽四码时简单鹤词库中为了固定单字次选的占位符号「➀」，因为默认动词下单字的会让给词组，故不需要占位符号，不去除的话，单字会被挤占到3选的位置）
 
 **简单鹤**（虽然文件名是朴素的 double_pinyin_flypy，但实际上补丁中已让其大变样）
 
 **简单鹤・字词**（四码定长，自动上屏）
-
-- **如果打开过上述「屏蔽」开关，请手动切换到「正常」，将占位符号「➀」恢复，否则四码无词时，单字会在首选**
 
 **朙月拼音・全拼**（虽然文件名是朴素的 luna_pinyin，但实际上补丁中已让其大变样，词库也改为使用白霜拼音。因为小狼毫在「用户配置文件为空」时每次部署都会生成「luna_pinyin.userdb」，本人不想手动删除，索性自用方案也改为 「luna_pinyin」）
 
