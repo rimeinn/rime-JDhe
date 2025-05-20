@@ -34,6 +34,7 @@ switches_engine_script:
     processors:
       - lua_processor@*shortcut*processor            # 快捷启动 
       - lua_processor@*select_character              # 以词定字
+      - lua_processor@*moran_processor               # Ctrl+l 快速取出/放回被吞掉的辅码，「;」次选跳过emoji
       - predictor                                    # 输入候选预测
       - ascii_composer     # 处理英文模式及中英文切换
       - recognizer         # 与 matcher 
@@ -97,8 +98,8 @@ switches_engine_table:
   engine:
     processors:
       - lua_processor@*shortcut*processor            # 快捷启动 
-#      - lua_processor@*tiger/spelling_processor_v2   # 虎码拆字三重注解开关
       - lua_processor@*select_character              # 以词定字
+      - lua_processor@*moran_processor               # Ctrl+l 快速取出/放回被吞掉的辅码，「;」次选跳过emoji     
       - predictor                                    # 输入候选预测
       - ascii_composer     # 处理英文模式及中英文切换
       - recognizer         # 与 matcher 
