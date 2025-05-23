@@ -442,6 +442,13 @@ Lua_config:
   # Lua 配置: 自定义字集过滤 （影响范围）
   charset_filter: 
     tags: [ abc, encode, punct, reverse_lookup ] 
+  # 「常用」字符集设置
+  # 不影响「全集」：全集仍显示*所有*字符
+  #
+  # both: 允许繁体和简体同时显示
+  # simp: 只显示简化字
+  # trad: 只显示繁体字
+  charset: simp  # 或 simp, trad
 
   # Lua 配置：Emoji 降频到第 idx 个位置
   emoji_reduce:                      
