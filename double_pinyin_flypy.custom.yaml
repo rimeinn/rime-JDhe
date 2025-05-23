@@ -33,7 +33,7 @@ patch:
 
 
   # 禁用根据是否在用户词典，在 comment 上加上一个标记
-  'engine/filters/@017': null
+  'engine/filters/@014': null
 
 
   # 簡快碼提示符
@@ -65,6 +65,11 @@ patch:
 #  switches/@13/reset: 0
 #  switches/@13/states: [ 动词, 固词 ] # 「固詞」表示「固頂詞」註釋隱藏開關，請直接在此指定 reset
 #  moran/ijrq/enable: false       # 如果开启动词，注意关闭单字的出简让全
+#################################################################
+
+#  moran/ijrq/enable_word: true               # 词语级出简让全
+#  moran/enable_word_filter: false       # 如果开启词语级出简让全，注意关闭词辅功能
+
 ##################################################################
 
   key_binder/bindings: 
