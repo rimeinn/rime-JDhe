@@ -3,9 +3,11 @@
 # 本方案匹配词库解码顺序为：全拼拼音;简单鹤;自然码;虎码首末;官版鹤形
 #############DIY你想要的方案组合吧###########################
 set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
-  __include: config_pinyin:/algebra_flypy  #可选解码规则有   algebra_pinyin(全拼), algebra_zrm(自然码), algebra_flypy(小鹤双拼)  选择一个填入
+  __include: config_pinyin:/小鹤双拼  #可选解码规则有   全拼，自然码，小鹤双拼
 set_algebra_fuzhu:        #配置此项就是选择什么辅助码
-  __include: config_pinyin:/fuzhu_jdh # 可选辅助码有：fuzhu_kong(空 无辅助码)，fuzhu_jdh(简单鹤), fuzhu_zrm(自然码), fuzhu_tiger(虎码), fuzhu_flypy(官鹤音形) 选择一个填入
+  __include: config_pinyin:/fuzhu_jdh # 可选辅助码有：fuzhu_kong(空 无辅助码)，fuzhu_jdh(简单鹤)
+set_fuzhu_type:                #直接辅助就是nire/=你，间接辅助就是ni/re=你，区别在于间接辅助不使用/引导的时候就和普通双拼没区别
+  __include: config_pinyin:/直接辅助           #可选的有：直接辅助、间接辅助
 set_preedit_format:         # 小鹤双拼编码转换成全拼显示
   __include: config_pinyin:/flypy_preedit_format
 
@@ -15,10 +17,11 @@ schema:
   schema_id: double_pinyin_flypy
   name: 简单鹤
   icon: ico/双.ico           # string 方案图标，格式： .ico
-  version: "2025.04.05"
+  version: "2025.05.23"
   author:
     - double pinyin layout by 鶴
     - Rime schema by zHon 
+    - 简单鹤字根码表 by 简单
   description: |
     白霜拼音＋小鹤双拼键位+简单鹤字词码表
     雾凇拼音 <https://github.com/iDvel/rime-ice>
@@ -55,7 +58,7 @@ speller:
   auto_select_pattern: ^;\w+|^o\w{3}$
   algebra:
     __patch:
-      - set_shuru_schema     # 输入解码规则
+      - set_shuru_schema     #拼音转双拼码
       - config_pinyin:/fly_kk_kw                              # 飞键 kuai
       - config_pinyin:/fly_yi_ei                              # 飞键 yi
       - config_pinyin:/fly_qx_qo                              # 飞键 qia
@@ -72,7 +75,8 @@ speller:
       - config_pinyin:/fly_dc_dl                              # 飞键 dao
       - config_pinyin:/fly_vr_vn                              # 飞键 zhuan
       - config_pinyin:/fly_ce_cn                              # 飞键 ce
-      - set_algebra_fuzhu    # 辅助码部分
+      - set_algebra_fuzhu    #辅助码选择
+      - set_fuzhu_type       #辅助码类型
 
 
 # 主翻译器，拼音
@@ -147,10 +151,10 @@ __patch:
   # 自定义置顶词 自造词
   - 'engine/translators/@after 06': lua_translator@*moran_pin*panacea_translator
   # 替换掉雾凇版本自定义置顶词  （需配置 config_base 里的置顶词配置）
-  - 'engine/filters/@15': lua_filter@*moran_pin*pin_filter
+  - 'engine/filters/@12': lua_filter@*moran_pin*pin_filter
 ##################################################
   # 简单鹤拆分滤镜
-  - 'engine/filters/@after 11': simplifier@chaifen
+  - 'engine/filters/@after 08': simplifier@chaifen
   # 辅助码 （before last 在列表最后一个之前加上）
 #  - 'engine/filters/@before last': lua_filter@*auxCode_filter@jdh_aux_code
 
@@ -168,16 +172,12 @@ __patch:
 
   # 简繁切换  
   - simplification/tips: none   #简繁对照   转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-  # 笔画反查显示编码
-  - radical_reverse_lookup/dictionary: JDhe
-  - radical_reverse_lookup/comment_format: null
 
-  # 五笔画反查显示编码
-  - stroke_reverse_lookup/dictionary: JDhe  
-  # 虎码反查显示编码
-  - tiger_reverse_lookup/dictionary: JDhe  
-  # 万象拼音反查显示编码
-  - wanxiang_py_reverse_lookup/dictionary: JDhe 
+  # 反查显示编码的词库
+  - reverse_lookup_filter/dictionary: JDhe 
+
+  # 响应 单字反查 
+  - recognizer/patterns/reverse_lookup: "^`([a-z]+'?)*$" 
 
 ##################################################
 
@@ -310,6 +310,15 @@ cn_en:
   initial_quality: 0.5
   comment_format:
     - xform/^.+$//
+
+##################################################
+# 万象拼音单字反查
+reverse_lookup:
+  dictionary: wanxiang_pinyin_dz
+  prefix: "`"
+  tips: "〔单字〕"
+  comment_format:
+    - "xform/^/ /"
 
 ##################################################
 # lua 快捷键

@@ -5,9 +5,10 @@ schema:
   schema_id: JDhe
   name: 简单鹤·字词
   icon: ico/鹤.ico           # string 方案图标，格式： .ico
-  version: "2025.04.05"
+  version: "2025.05.23"
   author:
     - Rime schema by zHon     
+    - 简单鹤字根码表 by 简单
   description: |
     音形输入方案
     敲 ` 鍵進入双拼反查      
@@ -119,7 +120,7 @@ __patch:
   # 自定义置顶词 ctrl-t
   - 'engine/translators/@after 08': lua_translator@*jdh/pin_word*translator
   # 替换掉雾凇版本自定义置顶词  
-  - 'engine/filters/@13': lua_filter@*jdh/pin_word*filter
+  - 'engine/filters/@10': lua_filter@*jdh/pin_word*filter
 ##################################################
   # 顶词空格单 正则按键绑定处理器
 #  - 'engine/processors/@after 02': lua_processor@*jdh/key_binder
@@ -132,16 +133,8 @@ __patch:
       states: [ 不拆, 扌斥 ]
 ##################################################
 
-  # 笔画反查显示编码
-  - radical_reverse_lookup/dictionary: JDhe
-  - radical_reverse_lookup/comment_format: null
-
-  # 五笔画反查显示编码
-  - stroke_reverse_lookup/dictionary: JDhe  
-  # 虎码反查显示编码
-  - tiger_reverse_lookup/dictionary: JDhe  
-  # 万象拼音反查显示编码
-  - wanxiang_py_reverse_lookup/dictionary: JDhe
+  # 反查显示编码的词库
+  - reverse_lookup_filter/dictionary: JDhe 
 
 ##################################################
 

@@ -3,16 +3,18 @@
 # 本方案匹配词库解码顺序为：全拼拼音;简单鹤;自然码;虎码首末;官版鹤形
 #############DIY你想要的方案组合吧###########################
 set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
-  __include: config_pinyin:/algebra_pinyin  #可选解码规则有   algebra_pinyin(全拼), algebra_zrm(自然码), algebra_flypy(小鹤双拼)  选择一个填入
+  __include: config_pinyin:/全拼  #可选解码规则有   全拼，自然码，小鹤双拼，微软双拼
 set_algebra_fuzhu:        #配置此项就是选择什么辅助码
-  __include: config_pinyin:/fuzhu_kong # 可选辅助码有：fuzhu_kong(空 无辅助码)，fuzhu_jdh(简单鹤), fuzhu_zrm(自然码), fuzhu_tiger(虎码), fuzhu_flypy(官鹤音形) 选择一个填入
+  __include: config_pinyin:/fuzhu_kong # 可选辅助码有：fuzhu_kong(空 无辅助码)，fuzhu_jdh(简单鹤)
+#set_fuzhu_type:                #直接辅助就是nire/=你，间接辅助就是ni/re=你，区别在于间接辅助不使用/引导的时候就和普通双拼没区别
+#  __include: config_pinyin:/间接辅助           #可选的有：直接辅助、间接辅助
 ########################以下是方案配置######################################################
 
 schema:
   schema_id: luna_pinyin
   name: 朙月拼音·全拼
   icon: ico/朙.ico          # string 方案图标，格式： .ico
-  version: "2025.04.05"
+  version: "2025.05.23"
   author:
     - 佛振 <chen.sst@gmail.com>
     - Rime schema by zHon     
@@ -48,11 +50,12 @@ speller:
   auto_select_pattern: ^;\w+|^o\w{3}$
   algebra: 
     __patch:
-      - set_shuru_schema     #输入解码规则
+      - set_shuru_schema     #万象词库 拼音转码
 #      - config_pinyin:/abbreviation         #简拼
       - config_pinyin:/spelling_correction # 容错拼写
       - config_pinyin:/key_correction # 自动纠正一些常见的按键错误
-      - set_algebra_fuzhu    #辅助码部分
+      - set_algebra_fuzhu    #辅助码选择
+#      - set_fuzhu_type       #辅助码类型
 
 # 主翻译器，拼音
 translator:

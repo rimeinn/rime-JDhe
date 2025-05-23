@@ -5,7 +5,7 @@ schema:
   schema_id: tiger
   name: 虎码
   icon: ico/tiger.ico           # string 方案图标，格式： .ico
-  version: "2025.04.05"
+  version: "2025.05.23"
   author:
     - 發明人 ID;PeaceB
     - Rime schema by zHon   
@@ -117,23 +117,16 @@ __patch:
   # 自定义置顶词 ctrl-t
   - 'engine/translators/@after 08': lua_translator@*tiger/pin_word*translator
   # 替换掉雾凇版本自定义置顶词  
-  - 'engine/filters/@13': lua_filter@*tiger/pin_word*filter
+  - 'engine/filters/@10': lua_filter@*tiger/pin_word*filter
 ##################################################
 
   - switches/+: 
     - options: [ spelling.off, spelling.lv1, spelling.lv1.1, spelling.lv1.2, spelling.lv2, spelling.lv3 ]               # 虎码拆字注释
       states: [ 拆隐, 拆显, 编显, 显示拼音, 拆+编, 拆+编+音 ]       # 快捷键 spelling/lua 下的 cycle_key 和 switch_key 定义
 ##################################################
-  # 笔画反查显示编码
-  - radical_reverse_lookup/dictionary: tiger
-  - radical_reverse_lookup/comment_format: null
 
-  # 五笔画反查显示编码
-  - stroke_reverse_lookup/dictionary: tiger  
-  # 虎码反查显示编码
-  - tiger_reverse_lookup/dictionary: tiger  
-  # 万象拼音反查显示编码
-  - wanxiang_py_reverse_lookup/dictionary: tiger
+  # 反查显示编码的词库
+  - reverse_lookup_filter/dictionary: tiger 
 
 ##################################################
 

@@ -74,10 +74,7 @@ switches_engine_script:
     filters:      
       - lua_filter@*charset_filter@charset_filter # 自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
       - lua_filter@*single_char_only_for_full_code@single_char_only # 四码单字过滤 lua     
-      - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字反查显示编码      
-      - reverse_lookup_filter@stroke_reverse_lookup    # 五笔画反查显示编码      
-      - reverse_lookup_filter@wanxiang_py_reverse_lookup    # 万象拼音反查显示编码  
-      - reverse_lookup_filter@tiger_reverse_lookup        # 虎码反查显示编码
+      - reverse_lookup_filter@reverse_lookup_filter  # 反查的filter      
       - simplifier@emoji                              # Emoji     
       - lua_filter@*reduce_emoji                      # 降低emoji在候选的位置     
       - simplifier@pinyinhint                         # 拼音滤镜   
@@ -139,10 +136,7 @@ switches_engine_table:
     filters:      
       - lua_filter@*charset_filter@charset_filter # 自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
       - lua_filter@*single_char_only_for_full_code@single_char_only # 四码单字过滤 lua     
-      - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字反查显示编码      
-      - reverse_lookup_filter@stroke_reverse_lookup    # 五笔画反查显示编码      
-      - reverse_lookup_filter@wanxiang_py_reverse_lookup    # 万象拼音反查显示编码  
-      - reverse_lookup_filter@tiger_reverse_lookup        # 虎码反查显示编码
+      - reverse_lookup_filter@reverse_lookup_filter  # 反查的filter      
       - simplifier@emoji                              # Emoji     
       - lua_filter@*reduce_emoji                      # 降低emoji在候选的位置     
       - simplifier@pinyinhint                         # 拼音滤镜   
@@ -155,7 +149,7 @@ switches_engine_table:
       - lua_filter@*embeded_cands_v2@embeded_cands    # 字词候选嵌入编辑栏
       - lua_filter@*block_words                       # 屏蔽指定的字词列表，并通过开关控制是否启用
       - lua_filter@*moran_charset_comment_filter      # Unicode 區位提示
-      - uniquifier       
+      - uniquifier    
 
 
 opencc_config: 
@@ -193,21 +187,12 @@ reverse_config:
     tag: radical_lookup
     dictionary: radical_pinyin
     enable_user_dict: false
-    prefix: "oiz"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
+    enable_completion: true              #  编码提示开关（提前显示尚未输入完整码的字） 
+    prefix: "oiz"  # 反查前缀
     tips: "〔拆字〕"
     comment_format:
       - erase/^.*$//
 
-  # 部件拆字反查显示编码
-  radical_reverse_lookup:
-    tags: [ radical_lookup ]
-    # dictionary 为拼音标注来源。目前是显示本方案词库的注音，可去部件拆字方案下载更全的、带声调的、已编译好的词典
-    # https://github.com/mirtlecn/rime-radical-pinyin?tab=readme-ov-file#%E5%8F%8D%E6%9F%A5%E5%B8%A6%E5%A3%B0%E8%B0%83%E6%B3%A8%E9%9F%B3
-    dictionary: luna_pinyin.extended
-    comment_format:     # 自定义 comment，例如在左右加上括号
-    #  - xform/^/(/
-    #  - xform/$/)/
-      - xform/.*//           # 清空提示码 
 
   # 五笔画反查
   stroke_lookup:
@@ -217,15 +202,12 @@ reverse_config:
     enable_sentence:  false                 # 是否启用造句模式
     enable_user_dict: false
     enable_completion: true              #  编码提示开关（提前显示尚未输入完整码的字）    
-    prefix: "obh"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
+    prefix: "obh"  # 反查前缀
     tips: "〔横h竖s撇p捺n折z〕"
     preedit_format:
       - xlit/hspnz/⼀⼁⼃⼂⼄/  # 康熙部首（橫豎撇點折）
 
-  # 五笔画反查显示编码
-  stroke_reverse_lookup:
-    tags: [ stroke_lookup ]
-    dictionary: luna_pinyin.extended
+
 
   # 万象拼音反查
   wanxiang_py_lookup:
@@ -241,9 +223,6 @@ reverse_config:
       - "xform/^/ /"
       - xform/([nl])v/$1ü/
 
-  wanxiang_py_reverse_lookup: 
-    tags: [ wanxiang_py_lookup ]
-    dictionary: luna_pinyin.extended
 
   # 虎码反查
   tiger_lookup:
@@ -252,15 +231,18 @@ reverse_config:
     enable_encoder:  false                  # 是否启用 自动造词  
     enable_sentence:  false                 # 是否启用造句模式
     enable_user_dict: false
-    enable_completion: false              #  编码提示开关（提前显示尚未输入完整码的字）
+    enable_completion: true              #  编码提示开关（提前显示尚未输入完整码的字）
     prefix: "ohm"
     tips: "〔虎码〕"
     comment_format:
       - "xform/^/ /"
 
-  tiger_reverse_lookup: 
-    tags: [ tiger_lookup ]
-    dictionary: luna_pinyin.extended
+  reverse_lookup_filter: #该反查过滤器名
+    tags: [radical_lookup,stroke_lookup,wanxiang_py_lookup,tiger_lookup] #挂在这个tag所对应的翻译器上
+    overwrite_comment: true
+    dictionary: luna_pinyin.extended #反查所得词库
+    comment_format:
+
 
 recognizer_config: 
   recognizer:
@@ -281,8 +263,8 @@ recognizer_config:
       shortcuts_app: "^/jk[a-z]*$"              # 快捷指令(启动应用)
       shortcuts_cmd: "^/kj[a-z]*$"              # 快捷指令(执行命令)
       unicode: "^U[a-f0-9]+"  # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
-      radical_lookup: "^oiz[a-z]+$"   # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
-      stroke_lookup: "^obh[a-z]+$"    # 响应五笔画的反查，与 stroke_lookup/prefix 匹配
+      radical_lookup: "^oiz[A-Za-z]*$"   # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
+      stroke_lookup: "^obh[A-Za-z]*$"    # 响应五笔画的反查，与 stroke_lookup/prefix 匹配
       wanxiang_py_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`|[a-z][a-z]`)))"  # 响应 临时「`」统配反查
       tiger_lookup: "^ohm[a-z]*'?$"  # 响应虎码的反查，与 tiger_lookup/prefix 匹配
 
