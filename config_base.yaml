@@ -242,7 +242,8 @@ reverse_config:
     overwrite_comment: true
     dictionary: luna_pinyin.extended #反查所得词库
     comment_format:
-
+      - xform/(\w\w);(\w\w);/$1[$2]/
+      - xform/(\w\w);(\w\w),(\w\w);/$1[$2][$3]/
 
 recognizer_config: 
   recognizer:
@@ -265,7 +266,7 @@ recognizer_config:
       unicode: "^U[a-f0-9]+"  # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
       radical_lookup: "^oiz[A-Za-z]*$"   # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
       stroke_lookup: "^obh[A-Za-z]*$"    # 响应五笔画的反查，与 stroke_lookup/prefix 匹配
-      wanxiang_py_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`|[a-z][a-z]`)))"  # 响应 临时「`」统配反查
+      wanxiang_py_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`)))"  # 响应 临时「`」统配反查
       tiger_lookup: "^ohm[a-z]*'?$"  # 响应虎码的反查，与 tiger_lookup/prefix 匹配
 
 
@@ -441,7 +442,7 @@ Lua_config:
 
   # Lua 配置: 自定义字集过滤 （影响范围）
   charset_filter: 
-    tags: [ abc, encode, punct, reverse_lookup ] 
+    tags: [ abc, encode, punct, wanxiang_py_lookup, reverse_lookup ] 
   # 「常用」字符集设置
   # 不影响「全集」：全集仍显示*所有*字符
   #

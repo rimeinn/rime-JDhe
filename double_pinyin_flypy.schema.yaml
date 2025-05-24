@@ -318,7 +318,9 @@ reverse_lookup:
   prefix: "`"
   tips: "〔单字〕"
   comment_format:
-    - "xform/^/ /"
+#    - "xform/^/ /"
+    - xform/(\w\w);(\w\w);/$1[$2]/
+    - xform/(\w\w);(\w\w),(\w\w);/$1[$2][$3]/    
 
 ##################################################
 # lua 快捷键
