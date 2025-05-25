@@ -266,7 +266,7 @@ recognizer_config:
       unicode: "^U[a-f0-9]+"  # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
       radical_lookup: "^oiz[A-Za-z]*$"   # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
       stroke_lookup: "^obh[A-Za-z]*$"    # 响应五笔画的反查，与 stroke_lookup/prefix 匹配
-      wanxiang_py_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`)))"  # 响应 临时「`」统配反查
+      wanxiang_py_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`))|^([a-z]{4}`))"  # 响应 临时「`」统配反查
       tiger_lookup: "^ohm[a-z]*'?$"  # 响应虎码的反查，与 tiger_lookup/prefix 匹配
 
 
