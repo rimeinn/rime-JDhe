@@ -35,6 +35,7 @@ switches_engine_script:
       - lua_processor@*shortcut*processor            # 快捷启动 
       - lua_processor@*select_character              # 以词定字
       - lua_processor@*moran_processor               # Ctrl+l 快速取出/放回被吞掉的辅码，「;」次选跳过emoji
+      - lua_processor@*chinese_number*processor      # 大写金额数字
       - predictor                                    # 输入候选预测
       - ascii_composer     # 处理英文模式及中英文切换
       - recognizer         # 与 matcher 
@@ -64,7 +65,8 @@ switches_engine_script:
       - table_translator@tiger_lookup           # 虎码反查
       - table_translator@quick_symbol_phrase    # 快速符号短语词库       
       - history_translator@history              # 重复上屏
-      - lua_translator@*calculator              # 计算器功能，通过V实现  
+      - lua_translator@*calculator              # /= 触发简易计算器
+      - lua_translator@*chinese_number*translator  # /cn 触发大写金额数字 
       - lua_translator@*date_time               # 日期输入 date, week, time, /wd, /wk, /wt 触发                           
       - lua_translator@*chinese_lunar           # 中国农历 /nl 触发显示   
       - lua_translator@*shortcut*translator     #  /jk, /kj 触发快捷命令 
@@ -96,7 +98,8 @@ switches_engine_table:
     processors:
       - lua_processor@*shortcut*processor            # 快捷启动 
       - lua_processor@*select_character              # 以词定字
-      - lua_processor@*moran_processor               # Ctrl+l 快速取出/放回被吞掉的辅码，「;」次选跳过emoji     
+      - lua_processor@*moran_processor               # Ctrl+l 快速取出/放回被吞掉的辅码，「;」次选跳过emoji
+      - lua_processor@*chinese_number*processor      # 大写金额数字
       - predictor                                    # 输入候选预测
       - ascii_composer     # 处理英文模式及中英文切换
       - recognizer         # 与 matcher 
@@ -126,7 +129,8 @@ switches_engine_table:
       - table_translator@tiger_lookup           # 虎码反查
       - table_translator@quick_symbol_phrase    # 快速符号短语词库       
       - history_translator@history              # 重复上屏
-      - lua_translator@*calculator              # 计算器功能，通过V实现  
+      - lua_translator@*calculator              # /= 触发简易计算器
+      - lua_translator@*chinese_number*translator  # /cn 触发大写金额数字 
       - lua_translator@*date_time               # 日期输入 date, week, time, /wd, /wk, /wt 触发                           
       - lua_translator@*chinese_lunar           # 中国农历 /nl 触发显示   
       - lua_translator@*shortcut*translator     #  /jk, /kj 触发快捷命令 
@@ -255,7 +259,8 @@ recognizer_config:
       uppercase: "" #中文状态大写锁定直接上屏 
       email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"  # email @ 之后不上屏                    
       url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"  # URL
-      expression: "^V.*$"           # cctest 計算機功能 通过V实现
+      calculator: "^(/=|cC)(.*)$"               # 简易计算器
+      chinese_number: "^(/cn|cN)[0-9.]+$"       # 中文大写数字(金额)
       week: "^(/wk|week|oxq|owk)$"  # 响应星期输入
       time: "^(/wt|time|osj|owt)$"  # 响应时间输入
       date: "^(/wd|date|orq|owd)$"  # 响应日期输入
