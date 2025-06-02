@@ -158,7 +158,9 @@ be 百（以及相关词）
   
   - Unicode（<kbd>U</kbd>+Unicode 码位）（取自 [雾凇拼音](https://github.com/iDvel/rime-ice)）
   
-  - 数字、人民币大写、简易计算器（<kbd>V</kbd> + 数字 或 算式）（取自 [空山五笔](https://github.com/mrshiqiqi/rime-wubi)）
+  - 简易计算器（<kbd>/=</kbd>或<kbd>cC</kbd> + 数字 或 算式）（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
+
+  - 数字、人民币大写（<kbd>/cn</kbd>或<kbd>cN</kbd>(简单鹤方案可用<kbd>ocn</kbd>) + 数字）（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
   - 日期、时间、星期、农历（<kbd>/</kbd>+wd、wt、wk、nl 农历可加数字输入。<kbd>o</kbd> 加对应的简拼也可以，如orq、oxq、osj、onl、）（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
