@@ -1,621 +1,337 @@
--- Rime Script >https://github.com/baopaau/rime-lua-collection/blob/master/calculator.lua
--- 簡易計算器（執行任何Lua表達式）
--- modify: 空山明月
--- date: 2024-05-10
--- 格式：=<exp>
--- Lambda語法糖：\<arg>.<exp>|
---
--- 例子：
--- =1+1 輸出 2
--- =floor(9^(8/7)*cos(deg(6))) 輸出 -3
--- =e^pi>pi^e 輸出 true
--- =max({1,7,2}) 輸出 7
--- =map({1,2,3},\x.x^2|) 輸出 {1, 4, 9}
--- =map(range(-5,5),\x.x*pi/4|,deriv(sin)) 輸出 {-0.7071, -1, -0.7071, 0, 0.7071, 1, 0.7071, 0, -0.7071, -1}
--- =$(range(-5,5,0.01))(map,\x.-60*x^2-16*x+20|)(max)() 輸出 21.066
--- =test(\x.trunc(sin(x),1e-3)==trunc(deriv(cos)(x),1e-3)|,range(-2,2,0.1)) 輸出 true
---
--- 函数名 	描述 	格式 	结果
--- pi 	圆周率 	=pi 	3.1415926535898
--- abs 	取绝对值 	=abs(-2012) 	2012
--- ceil 	向上取整 	=ceil(9.1) 	10
--- floor 	向下取整 	=floor(9.9) 	9
--- max 	取参数最大值 	=max(2,4,6,8) 	8
--- min 	取参数最小值 	=min(2,4,6,8) 	2
--- pow 	计算x的y次幂 	=pow(2,16) 	65536
--- sqrt 	开平方 	=sqrt(65536) 	256
--- mod 	取模 	=mod(65535,2) 	1
--- modf 	取整数和小数部分 	=modf(20.12) 	20   0.12
--- randomseed 	设随机数种子 	=randomseed(os.time()) 	　
--- random 	取随机数 	=random(5,90) 	5~90
--- rad 	角度转弧度 	=rad(180) 	3.1415926535898
--- deg 	弧度转角度 	=deg(=pi) 	180
--- exp 	e的x次方 	=exp(4) 	54.598150033144
--- log 	计算x的自然对数 	=log(54.598150033144) 	4
--- log10 	计算10为底，x的对数 	=log10(1000) 	3
--- frexp 	将参数拆成x * (2 ^ y)的形式 	=frexp(160) 	0.625    8
--- ldexp 	计算x * (2 ^ y) 	=ldexp(0.625,8) 	160
--- sin 	正弦 	=sin(rad(30)) 	0.5
--- cos 	余弦 	=cos(rad(60)) 	0.5
--- tan 	正切 	=tan(rad(45)) 	1
--- asin 	反正弦 	=deg(asin(0.5)) 	30
--- acos 	反余弦 	=deg(acos(0.5)) 	60
--- atan 	反正切 	=deg(atan(1)) 	45
--- ————————————————
+-- author: ChaosAlphard, boomker
 
+local T = {}
 
-
--- 安装：
--- - 將本文件保存至 <rime>/lua/
--- - 在 <rime>/rime.lua 新增一行：
---   `calculator = require("calculator")`
--- - 在 <rime>/<schema>.schema.yaml 新增：
---   `engine/translators/@next: lua_translator@calculator`
---   `recognizer/patterns/expression: "^=.*$"`
--- 註：
--- - <rime> 替換爲RIME的共享目錄
--- - <schema> 替換爲自己的方案ID
--- - 如目錄／文件不存在，請自行創建
-
--- 定義全局函數、常數（注意命名空間污染）
-cos = math.cos
-sin = math.sin
-tan = math.tan
-acos = math.acos
-asin = math.asin
-atan = math.atan
-rad = math.rad
-deg = math.deg
-
-abs = math.abs
-floor = math.floor
-ceil = math.ceil
-mod = math.fmod
-
-trunc = function (x, dc)
-  if dc == nil then
-    return math.modf(x)
-  end
-  return x - mod(x, dc)
+function T.init(env)
+    local config = env.engine.schema.config
+    env.name_space = env.name_space:gsub("^*", "")
+    local _calc_pat = config:get_string("recognizer/patterns/calculator") or nil
+    T.prefix = _calc_pat and _calc_pat:match("%^.?([a-zA-Z/=]+).*") or "/="
+    T.tips = config:get_string("calculator/tips") or "计算器"
 end
 
-round = function (x, dc)
-  dc = dc or 1
-  local dif = mod(x, dc)
-  if abs(dif) > dc / 2 then
-    return x < 0 and x - dif - dc or x - dif + dc
-  end
-  return x - dif
+local function startsWith(str, start)
+    return string.sub(str, 1, string.len(start)) == start
 end
 
-random = math.random
-randomseed = math.randomseed
+-- 函数表
+local calc_methods = {
+    -- e, exp(1) = e^1 = e
+    e = math.exp(1),
+    -- π
+    pi = math.pi,
+    b = 10 ^ 2,
+    q = 10 ^ 3,
+    k = 10 ^ 3,
+    w = 10 ^ 4,
+    tw = 10 ^ 5,
+    m = 10 ^ 6,
+    tm = 10 ^ 7,
+    y = 10 ^ 8,
+    g = 10 ^ 9,
+}
 
-inf = math.huge
-MAX_INT = math.maxinteger
-MIN_INT = math.mininteger
-pi = math.pi
-sqrt = math.sqrt
-exp = math.exp
-e = exp(1)
-ln = math.log
-log = function (x, base)
-  base = base or 10
-  return ln(x)/ln(base)
+local methods_desc = {
+    ["e"] = "自然数",
+    ["pi"] = "π",
+    ["b"] = "百",
+    ["q"] = "千",
+    ["k"] = "千",
+    ["w"] = "万",
+    ["tw"] = "十万",
+    ["m"] = "百万",
+    ["tm"] = "千万",
+    ["y"] = "亿",
+    ["g"] = "十亿",
+}
+
+-- random([m [,n ]]) 返回m-n之间的随机数, n为空则返回1-m之间, 都为空则返回0-1之间的小数
+local function random(...)
+    return math.random(...)
 end
+-- 注册到函数表中
+calc_methods["rdm"] = random
+methods_desc["rdm"] = "随机数"
 
-min = function (arr)
-  local m = inf
-  for k, x in ipairs(arr) do
-   m = x < m and x or m
-  end
-  return m
+-- 正弦
+local function sin(x)
+    return math.sin(x)
 end
+calc_methods["sin"] = sin
+methods_desc["sin"] = "正弦"
 
-max = function (arr)
-  local m = -inf
-  for k, x in ipairs(arr) do
-   m = x > m and x or m
-  end
-  return m
+-- 双曲正弦
+local function sinh(x)
+    return (math.exp(x) - math.exp(-x)) / 2
 end
+calc_methods["sinh"] = sinh
+methods_desc["sinh"] = "双曲正弦"
 
-sum = function (t)
-  local acc = 0
-  for k,v in ipairs(t) do
-    acc = acc + v
-  end
-  return acc
+-- 反正弦
+local function asin(x)
+    return math.asin(x)
 end
+calc_methods["asin"] = asin
+methods_desc["asin"] = "反正弦"
 
-avg = function (t)
-  return sum(t) / #t
+-- 余弦
+local function cos(x)
+    return math.cos(x)
 end
+calc_methods["cos"] = cos
+methods_desc["cos"] = "余弦"
 
-isinteger = function (x)
-  return math.fmod(x, 1) == 0
+-- 双曲余弦
+local function cosh(x)
+    return (math.exp(x) + math.exp(-x)) / 2
 end
+calc_methods["cosh"] = cosh
+methods_desc["cosh"] = "双曲余弦"
 
--- iterator . array
-array = function (...)
-  local arr = {}
-  for v in ... do
-    arr[#arr + 1] = v
-  end
-  return arr
+-- 反余弦
+local function acos(x)
+    return math.acos(x)
 end
+calc_methods["acos"] = acos
+methods_desc["acos"] = "反余弦"
 
--- iterator <- [form, to)
-irange = function (from, to, step)
-  if to == nil then
-    to = from
-    from = 0
-  end
-  step = step or 1
-  local i = from - step
-  to = to - step
-  return function()
-    if i < to then
-      i = i + step
-      return i
-    end
-  end
+-- 正切
+local function tan(x)
+    return math.tan(x)
 end
+calc_methods["tan"] = tan
+methods_desc["tan"] = "正切"
 
--- array <- [form, to)
-range = function (from, to, step)
-  return array(irange(from, to, step))
+-- 双曲正切
+local function tanh(x)
+    local e = math.exp(2 * x)
+    return (e - 1) / (e + 1)
 end
+calc_methods["tanh"] = tanh
+methods_desc["tanh"] = "双曲正切"
 
--- array . reversed iterator
-irev = function (arr)
-  local i = #arr + 1
-  return function()
-    if i > 1 then
-      i = i - 1
-      return arr[i]
-    end
-  end
+-- 反正切
+local function atan(x)
+    return math.atan(x)
 end
+calc_methods["atan"] = atan
+methods_desc["atan"] = "反正切"
 
--- array . reversed array
-arev = function (arr)
-  return array(irev(arr))
-end
-
-test = function (f, t)
-  for k,v in ipairs(t) do
-    if not f(v) then
-      return false
-    end
-  end
-  return true
-end
-
--- # Functional
-map = function (t, ...)
-  local ta = {}
-  for k,v in pairs(t) do
-    local tmp = v
-    for _,f in pairs({...}) do tmp = f(tmp) end
-    ta[k] = tmp
-  end
-  return ta
-end
-
-filter = function (t, ...)
-  local ta = {}
-  local i = 1
-  for k,v in pairs(t) do
-    local erase = false
-    for _,f in pairs({...}) do
-      if not f(v) then
-        erase = true
-        break
-      end
-    end
-    if not erase then
-	  ta[i] = v
-	  i = i + 1
-    end
-  end
-  return ta
-end
-
--- e.g: foldr({2,3},\n,x.x^n|,2) = 81
-foldr = function (t, f, acc)
-  for k,v in pairs(t) do
-    acc = f(acc, v)
-  end
-  return acc
-end
-
--- e.g: foldl({2,3},\n,x.x^n|,2) = 512
-foldl = function (t, f, acc)
-  for v in irev(t) do
-    acc = f(acc, v)
-  end
-  return acc
-end
-
--- 調用鏈生成函數（HOF for method chaining）
--- e.g: chain(range(-5,5))(map,\x.x/5|)(map,sin)(map,\x.e^x*10|)(map,floor)()
---    = floor(map(map(map(range(-5,5),\x.x/5|),sin),\x.e^x*10|))
---    = {4, 4, 5, 6, 8, 10, 12, 14, 17, 20}
--- 可以用 $ 代替 chain
-chain = function (t)
-  local ta = t
-  local function cf(f, ...)
-    if f ~= nil then
-      ta = f(ta, ...)
-      return cf
+-- 返回以弧度为单位的点(x,y)相对于x轴的逆时针角度。y是点的纵坐标，x是点的横坐标
+-- 返回范围从−π到π （以弧度为单位），其中负角度表示向下旋转，正角度表示向上旋转
+-- 它与传统的 math.atan(y/x) 函数相比，具有更好的数学定义，因为它能够正确处理边界情况（例如x=0）
+local function atan2(y, x)
+    if x == 0 and y == 0 then
+        return 0 / 0 -- 返回NaN
+    elseif x == 0 and y ~= 0 then
+        if y > 0 then
+            return math.pi / 2
+        else
+            return -math.pi / 2
+        end
     else
-      return ta
+        return math.atan(y / x) + (x < 0 and math.pi or 0)
     end
-  end
-  return cf
 end
+calc_methods["atan2"] = atan2
+methods_desc["atan2"] = "反正切(弧度)"
 
--- # Statistics
-fac = function (n)
-  local acc = 1
-  for i = 2,n do
-    acc = acc * i
-  end
-  return acc
+-- 将角度从弧度转换为度 e.g. deg(π) = 180
+local function deg(x)
+    return math.deg(x)
 end
+calc_methods["deg"] = deg
+methods_desc["deg"] = "弧度转换为角度"
 
-nPr = function (n, r)
-  return fac(n) / fac(n - r)
+-- 将角度从度转换为弧度 e.g. rad(180) = π
+local function rad(x)
+    return math.rad(x)
 end
+calc_methods["rad"] = rad
+methods_desc["rad"] = "角度转换为弧度"
 
-nCr = function (n, r)
-  return nPr(n,r) / fac(r)
+-- 返回两个值, 无法参与运算后续
+-- 返回m,e 使得x = m*2^e
+--[[
+local function frexp(x)
+  return math.frexp(x)
 end
+calcPlugin["frexp"] = frexp
+--]]
 
-MSE = function (t)
-  local ss = 0
-  local s = 0
-  local n = #t
-  for k,v in ipairs(t) do
-    ss = ss + v*v
-    s = s + v
-  end
-  return sqrt((n*ss - s*s) / (n*n))
+-- 返回 x*2^y
+local function ldexp(x, y)
+    return x * 2 ^ y
 end
+calc_methods["ldexp"] = ldexp
+methods_desc["ldexp"] = "返回 x*2^y"
 
--- # Linear Algebra
-
-
--- # Calculus
--- Linear approximation
-lapproxd = function (f, delta)
-  local delta = delta or 1e-8
-  return function (x)
-           return (f(x+delta) - f(x)) / delta
-         end
+-- 返回 e^x
+local function exp(x)
+    return math.exp(x)
 end
+calc_methods["exp"] = exp
+methods_desc["exp"] = "返回 e^x"
 
--- Symmetric approximation
-sapproxd = function (f, delta)
-  local delta = delta or 1e-8
-  return function (x)
-           return (f(x+delta) - f(x-delta)) / delta / 2
-         end
-end
-
--- 近似導數
-deriv = function (f, delta, dc)
-  dc = dc or 1e-4
-  local fd = sapproxd(f, delta)
-  return function (x)
-           return round(fd(x), dc)
-         end
-end
-
--- Trapezoidal rule
-trapzo = function (f, a, b, n)
-  local dif = b - a
-  local acc = 0
-  for i = 1, n-1 do
-    acc = acc + f(a + dif * (i/n))
-  end
-  acc = acc * 2 + f(a) + f(b)
-  acc = acc * dif / n / 2
-  return acc
-end
-
--- 近似積分
-integ = function (f, delta, dc)
-  delta = delta or 1e-4
-  dc = dc or 1e-4
-  return function (a, b)
-           if b == nil then
-             b = a
-             a = 0
-           end
-           local n = round(abs(b - a) / delta)
-           return round(trapzo(f, a, b, n), dc)
-         end
-end
-
--- Runge-Kutta
-rk4 = function (f, timestep)
-  local timestep = timestep or 0.01
-  return function (start_x, start_y, time)
-           local x = start_x
-           local y = start_y
-           local t = time
-           -- loop until i >= t
-           for i = 0, t, timestep do
-             local k1 = f(x, y)
-             local k2 = f(x + (timestep/2), y + (timestep/2)*k1)
-             local k3 = f(x + (timestep/2), y + (timestep/2)*k2)
-             local k4 = f(x + timestep, y + timestep*k3)
-             y = y + (timestep/6)*(k1 + 2*k2 + 2*k3 + k4)
-             x = x + timestep
-           end
-           return y
-         end
-end
-
-
--- # System
-date = os.date
-time = os.time
-path = function ()
-  return debug.getinfo(1).source:match("@?(.*/)")
-end
-
-
-local function serialize(obj)
-  local type = type(obj)
-  if type == "number" then
-    return isinteger(obj) and floor(obj) or obj
-  elseif type == "boolean" then
-    return tostring(obj)
-  elseif type == "string" then
-    return '"'..obj..'"'
-  elseif type == "table" then
-    local str = "{"
-    local i = 1
-    for k, v in pairs(obj) do
-      if i ~= k then  
-        str = str.."["..serialize(k).."]="
-      end
-      str = str..serialize(v)..", "  
-      i = i + 1
+-- 计算开 N 次方
+local function nth_root(x, n)
+    if n % 2 == 0 and x < 0 then
+        return nil -- 偶次方时负数没有实数解
+    elseif x < 0 then
+        return -((-x) ^ (1 / n))
+    else
+        return x ^ (1 / n)
     end
-    str = str:len() > 3 and str:sub(0,-3) or str
-    return str.."}"
-  elseif pcall(obj) then -- function類型
-    return "callable"
-  end
-  return obj
+end
+calc_methods["nroot"] = nth_root
+methods_desc["nroot"] = "开 n 次方"
+
+-- 返回x的平方根 e.g. sqrt(x) = x^0.5
+local function sqrt(x)
+    return math.sqrt(x)
+end
+calc_methods["sqrt"] = sqrt
+methods_desc["sqrt"] = "平方根"
+
+-- x为底的对数, log(10, 100) = log(100) / log(10) = 2
+local function log(x, y)
+    -- 不能为负数或0
+    if x <= 0 or y <= 0 then
+        return nil
+    end
+
+    return math.log(y) / math.log(x)
+end
+calc_methods["log"] = log
+methods_desc["log"] = "x作为底数的对数"
+
+-- 自然数e为底的对数
+local function loge(x)
+    -- 不能为负数或0
+    if x <= 0 then return nil end
+
+    return math.log(x)
+end
+calc_methods["loge"] = loge
+methods_desc["loge"] = "e作为底数的对数"
+
+-- 10为底的对数
+local function logt(x)
+    -- 不能为负数或0
+    if x <= 0 then return nil end
+
+    return math.log(x) / math.log(10)
+end
+calc_methods["logt"] = logt
+methods_desc["logt"] = "10作为底数的对数"
+
+-- 平均值
+local function avg(...)
+    local data = { ... }
+    local n = select("#", ...)
+    -- 样本数量不能为0
+    if n == 0 then return nil end
+
+    -- 计算总和
+    local sum = 0
+    for _, value in ipairs(data) do
+        sum = sum + value
+    end
+
+    return sum / n
+end
+calc_methods["avg"] = avg
+methods_desc["avg"] = "平均值"
+
+-- 方差
+local function variance(...)
+    local data = { ... }
+    local n = select("#", ...)
+    -- 样本数量不能为0
+    if n == 0 then return nil end
+
+    -- 计算均值
+    local sum = 0
+    for _, value in ipairs(data) do
+        sum = sum + value
+    end
+    local mean = sum / n
+
+    -- 计算方差
+    local sum_squared_diff = 0
+    for _, value in ipairs(data) do
+        sum_squared_diff = sum_squared_diff + (value - mean) ^ 2
+    end
+
+    return sum_squared_diff / n
+end
+calc_methods["var"] = variance
+methods_desc["var"] = "方差"
+
+-- 阶乘
+local function factorial(x)
+    -- 不能为负数
+    if x < 0 then return nil end
+    if x == 0 or x == 1 then return 1 end
+
+    local result = 1
+    for i = 1, x do
+        result = result * i
+    end
+
+    return result
+end
+calc_methods["fact"] = factorial
+methods_desc["fact"] = "阶乘"
+
+-- 实现阶乘计算(!)
+local function replaceToFactorial(str)
+    -- 替换[0-9]!字符为fact([0-9])以实现阶乘
+    return str:gsub("([0-9]+)!", "fact(%1)")
 end
 
+-- 简单计算器
+function T.func(input, seg, env)
+    local composition = env.engine.context.composition
+    if composition:empty() then return end
+    local segment = composition:back()
 
+    if startsWith(input, T.prefix) or (seg:has_tag("calculator")) then
+        segment.prompt = "〔" .. T.tips .. "〕"
+        if input:match("?h$") then
+            for _, fn in pairs(table.sorted_keys(methods_desc, "len")) do
+                local fd = methods_desc[fn]
+                yield(Candidate("calc", seg.start, seg._end, fn .. ":" .. fd, ""))
+            end
+        end
+        -- 提取算式
+        local express = input:gsub(T.prefix, ""):gsub("^cC", "")
+        -- 算式长度 < 2 直接终止(没有计算意义)
+        if (string.len(express) < 2) and not calc_methods[express] then
+            return
+        end
+        if (string.len(express) == 2) and (express:match("^%d[^%!]$")) then
+            return
+        end
+        local code = replaceToFactorial(express)
 
-
-local function speakLiterally(str, valMap)
-	valMap = valMap or {
-		[0]="零"; "一"; "二"; "三"; "四"; "五"; "六"; "七"; "八"; "九"; "十";
-		["+"]="正"; ["-"]="负"; ["."]="点"; [""]=""
-	}
-
-	local tbOut = {}
-	for k = 1, #str do
-		local v = string.sub(str, k, k)
-		v = tonumber(v) or v
-		tbOut[k] = valMap[v]
-	end
-	return table.concat(tbOut)
+        local loaded_func, load_error = load("return " .. code, "calculate", "t", calc_methods)
+        if loaded_func and (type(methods_desc[code]) == "string") then
+            yield(Candidate("calc", seg.start, seg._end, express .. ":" .. methods_desc[code], ""))
+        elseif loaded_func then
+            local success, result = pcall(loaded_func)
+            if success then
+                yield(Candidate("calc", seg.start, seg._end, tostring(result), ""))
+                yield(Candidate("calc", seg.start, seg._end, express .. "=" .. tostring(result), ""))
+            else
+                -- 处理执行错误
+                yield(Candidate("calc", seg.start, seg._end, express, "执行错误"))
+            end
+        else
+            -- 处理加载错误
+            yield(Candidate(input, seg.start, seg._end, express, "解析失败"))
+        end
+    end
 end
 
-local function speakMillitary(str)
-	return speakLiterally(str, {[0]="洞"; "幺"; "两"; "三"; "四"; "五"; "六"; "拐"; "八"; "勾"; "十";["+"]="正"; ["-"]="负"; ["."]="点"; [""]=""})
-end
-
-local function splitNumStr(str)
-	--[[
-		split a number (or a string describing a number) into 4 parts:
-		.sym: "+", "-" or ""
-		.int: "0", "000", "123456", "", etc
-		.dig: "." or ""
-		.dec: "0", "10000", "00001", "", etc
-	--]]
-	local part = {}
-	part.sym, part.int, part.dig, part.dec = string.match(str, "^([%+%-]?)(%d*)(%.?)(%d*)")
-	return part
-end
-
-local function speakBar(str, posMap, valMap)
-	posMap = posMap or {[1]="仟"; [2]="佰"; [3]="拾"; [4]=""}
-	valMap = valMap or {[0]="零"; "一"; "二"; "三" ;"四"; "五"; "六"; "七"; "八"; "九"} -- the length of valMap[0] should not excess 1
-
-	local out = ""
-	local bar = string.sub("****" .. str, -4, -1) -- the integer part of a number string can be divided into bars; each bar has 4 bits
-	for pos = 1, 4 do
-		local val = tonumber(string.sub(bar, pos, pos))
-		-- case1: place holder
-		if val == nil then
-			goto continue
-		end
-		-- case2: number 1~9
-		if val > 0 then
-			out = out .. valMap[val] .. posMap[pos]
-			goto continue
-		end
-		-- case3: number 0
-		local valNext = tonumber(string.sub(bar, pos+1, pos+1))
-		if ( valNext==nil or valNext==0 )then
-			goto continue
-		else
-			out = out .. valMap[0]
-			goto continue
-		end
-	::continue::
-	end
-	if out == "" then out = valMap[0] end
-	return out
-end
-
-local function speakIntOfficially(str, posMap, valMap)
-	posMap = posMap or {[1]="千"; [2]="百"; [3]="十"; [4]=""}
-	valMap = valMap or {[0]="零"; "一"; "二"; "三" ;"四"; "五"; "六"; "七"; "八"; "九"} -- the length of valMap[0] should not excess 1
-
-	-- split the number string into bars, for example, in:str=123456789 → out:tbBar={1|2345|6789}
-	local int = string.match(str, "^0*(%d+)$")
-	if int=="" then int = "0" end
-	local remain = #int % 4
-	if remain==0 then remain = 4 end
-	local tbBar = {[1] = string.sub(int, 1, remain)}
-	for pos = remain+1, #int, 4 do
-		local bar = string.sub(int, pos, pos+3)
-		table.insert(tbBar, bar)
-	end
-	-- generate the suffixes of each bar, for example, tbSpeakBarSuffix={亿|万|""}
-	local tbSpeakBarSuffix = {[1]=""}
-	for iBar = 2, #tbBar do
-		local suffix = (iBar % 2 == 0) and ("万"..tbSpeakBarSuffix[1]) or ("亿"..tbSpeakBarSuffix[2])
-		table.insert(tbSpeakBarSuffix, 1, suffix)
-	end
-	-- speak each bar
-	local tbSpeakBar = {}
-	for k = 1, #tbBar do
-		tbSpeakBar[k] = speakBar(tbBar[k], posMap, valMap)
-	end
-	-- combine the results
-	local out = ""
-	for k = 1, #tbBar do
-		local speakBar = tbSpeakBar[k]
-		if speakBar ~= valMap[0] then
-			out = out .. speakBar .. tbSpeakBarSuffix[k]
-		end
-	end
-	if out == "" then out = valMap[0] end
-	return out
-end
-
-local function speakDecMoney(str, posMap, valMap)
-	posMap = posMap or {[1]="角"; [2]="分"; [3]="厘"; [4]="毫"}
-	valMap = valMap or {[0]="零"; "壹"; "贰"; "叁" ;"肆"; "伍"; "陆"; "柒"; "捌"; "玖"} -- the length of valMap[0] should not excess 1
-
-	local dec = string.sub(str, 1, 4)
-	dec = string.gsub(dec, "0*$", "")
-	if dec == "" then
-		return "整"
-	end
-
-	local out = ""
-	for pos = 1, #dec do
-		local val = tonumber(string.sub(dec, pos, pos))
-		out = out .. valMap[val] .. posMap[pos]
-	end
-	return out
-end
-
-local function speakOfficiallyLower(str)
-	local part = splitNumStr(str)
-	local speakSym = speakLiterally(part.sym)
-	local speakInt = speakIntOfficially(part.int)
-	local speakDig = speakLiterally(part.dig)
-	local speakDec = speakLiterally(part.dec)
-	local out = speakSym .. speakInt .. speakDig .. speakDec
-	return out
-end
-
-local function speakOfficiallyUpper(str)
-  local part = splitNumStr(str)
-	local speakSym = speakLiterally(part.sym)
-	local speakInt = speakIntOfficially(part.int, {[1]="仟"; [2]="佰"; [3]="拾"; [4]=""}, {[0]="零"; "壹"; "贰"; "叁" ;"肆"; "伍"; "陆"; "柒"; "捌"; "玖"})
-	local speakDig = speakLiterally(part.dig)
-	local speakDec = speakLiterally(part.dec)
-	local out = speakSym .. speakInt .. speakDig .. speakDec
-	return out
-end
-
-local function speakMoneyUpper(str)
-	local part = splitNumStr(str)
-	local speakSym = speakLiterally(part.sym)
-	local speakInt = speakIntOfficially(part.int, {[1]="仟"; [2]="佰"; [3]="拾"; [4]=""}, {[0]="零"; "壹"; "贰"; "叁" ;"肆"; "伍"; "陆"; "柒"; "捌"; "玖"}) .. "元"
-	local speakDec = speakDecMoney(part.dec)
-	local out = speakSym .. speakInt .. speakDec
-	return out
-end
-
-local function speakMoneyLower(str)
-	local part = splitNumStr(str)
-	local speakSym = speakLiterally(part.sym)
-	local speakInt = speakIntOfficially(part.int, {[1]="千"; [2]="百"; [3]="十"; [4]=""}, {[0]="〇"; "一"; "二"; "三" ;"四"; "五"; "六"; "七"; "八"; "九"}) .. "元"
-	local speakDec = speakDecMoney(part.dec)
-	local out = speakSym .. speakInt .. speakDec
-	return out
-end
-
-local function baseConverse(str, from, to)
-	local str10 = str
-	if from == 16 then
-		str10 = string.format("%d", str)
-	end
-	local strout = str10
-	if to == 16 then
-		strout = string.format("%#x", str10)
-	end
-	return strout
-end
-
-
-
--- greedy：隨時求值（每次變化都會求值，否則結尾爲特定字符時求值）
-local greedy = true
-
--- 指定一个符号作为引导符
-local function calculator(input, seg)
-  if string.sub(input, 1, 1) ~= "V" then return end
-  
-  local expfin = greedy or string.sub(input, -1, -1) == ";"
-  local exp = (greedy or not expfin) and string.sub(input, 2, -1) or string.sub(input, 2, -2)
-  
-  -- 空格輸入可能
-  exp = exp:gsub("#", " ")
-  
-  -- yield(Candidate("number", seg.start, seg._end, exp, "表達式"))
-       
-  if not expfin then return end
-  
-  local expe = exp
-  -- 鏈式調用語法糖
-  expe = expe:gsub("%$", " chain ")
-  -- lambda語法糖
-  do
-    local count
-    repeat
-      expe, count = expe:gsub("\\%s*([%a%d%s,_]-)%s*%.(.-)|", " (function (%1) return %2 end) ")
-    until count == 0
-  end
-  --yield(Candidate("number", seg.start, seg._end, expe, "展開"))
-
-  -- 防止危險操作，禁用os和io命名空間
-  if expe:find("i?os?%.") then return end
-  -- return語句保證了只有合法的Lua表達式才可執行
-  local result = load("return "..expe)()
-  if result == nil then return end
-  
-  result = serialize(result)
-  yield(Candidate("number", seg.start, seg._end, result, "〈计算结果〉"))
- -- yield(Candidate("number", seg.start, seg._end, exp.." = "..result, "等式"))
-
-
-  if string.match(result, "^[%+%-]?%d*%.?%d*$") then -- sadly, lua does not support regex like {0,4}
-    -- comment or reorder following lines to adjust the effects
---    yield(Candidate("number", seg.start, seg._end, exp.."="..result, "〈计算等式〉","123"))
-    -- yield(Candidate("number", seg.start, seg._end, result, "〈计算结果〉"))
-    yield(Candidate("number", seg.start, seg._end, speakMoneyUpper(result), "〈大写金额〉"))
-    yield(Candidate("number", seg.start, seg._end, speakMoneyLower(result), "〈小写金额〉"))
-    yield(Candidate("number", seg.start, seg._end, speakOfficiallyUpper(result), "〈大写数字〉"))
-    yield(Candidate("number", seg.start, seg._end, speakOfficiallyLower(result), "〈小写数字〉"))
-  end
-end
-
-return calculator
+return T
