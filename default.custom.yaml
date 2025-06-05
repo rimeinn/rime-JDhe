@@ -2,9 +2,11 @@ patch:
 
 # 方案列表
   schema_list:
-    - schema: double_pinyin_flypy       # 小鹤双拼   
-    - schema: luna_pinyin                     # 朙月拼音（白霜詞庫）
-    - schema: JDhe                               # 简单鹤 （音形） 
+    - schema: double_pinyin_flypy       # 简单鹤挂接小鹤双拼   
+    - schema: luna_pinyin                     # 朙月拼音（白霜词库）
+    - schema: JDhe                               # 简单鹤 （乱序字根音形） 
+    - schema: whale_double_flypy       # 鲸凉鹤挂接小鹤双拼   
+    - schema: whaleHe                            # 鲸凉鹤（小鹤音形官版字根）
     - schema: tiger                                # 虎码  
 #    - schema: t9_pinyin                      # 手机专用 九宫格方案
 #    - schema: t17_pinyin_double       # 手机专用 17键乱序双拼

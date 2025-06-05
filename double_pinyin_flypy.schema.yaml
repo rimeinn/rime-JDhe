@@ -3,9 +3,11 @@
 # 本方案匹配词库解码顺序为：全拼拼音;简单鹤;自然码;虎码首末;官版鹤形
 #############DIY你想要的方案组合吧###########################
 set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
-  __include: config_pinyin:/algebra_flypy  #可选解码规则有   algebra_pinyin(全拼), algebra_zrm(自然码), algebra_flypy(小鹤双拼)  选择一个填入
+  __include: config_pinyin:/小鹤双拼  #可选解码规则有   全拼，自然码，小鹤双拼
 set_algebra_fuzhu:        #配置此项就是选择什么辅助码
-  __include: config_pinyin:/fuzhu_jdh # 可选辅助码有：fuzhu_kong(空 无辅助码)，fuzhu_jdh(简单鹤), fuzhu_zrm(自然码), fuzhu_tiger(虎码), fuzhu_flypy(官鹤音形) 选择一个填入
+  __include: config_pinyin:/fuzhu_jdh # 可选辅助码有：fuzhu_kong(空 无辅助码)，fuzhu_jdh(简单鹤)
+set_fuzhu_type:                #直接辅助就是nire/=你，间接辅助就是ni/re=你，区别在于间接辅助不使用/引导的时候就和普通双拼没区别
+  __include: config_pinyin:/直接辅助           #可选的有：直接辅助、间接辅助
 set_preedit_format:         # 小鹤双拼编码转换成全拼显示
   __include: config_pinyin:/flypy_preedit_format
 
@@ -15,10 +17,11 @@ schema:
   schema_id: double_pinyin_flypy
   name: 简单鹤
   icon: ico/双.ico           # string 方案图标，格式： .ico
-  version: "2025.04.05"
+  version: "2025.05.23"
   author:
     - double pinyin layout by 鶴
     - Rime schema by zHon 
+    - 简单鹤字根码表 by 简单
   description: |
     白霜拼音＋小鹤双拼键位+简单鹤字词码表
     雾凇拼音 <https://github.com/iDvel/rime-ice>
@@ -55,7 +58,7 @@ speller:
   auto_select_pattern: ^;\w+|^o\w{3}$
   algebra:
     __patch:
-      - set_shuru_schema     # 输入解码规则
+      - set_shuru_schema     #拼音转双拼码
       - config_pinyin:/fly_kk_kw                              # 飞键 kuai
       - config_pinyin:/fly_yi_ei                              # 飞键 yi
       - config_pinyin:/fly_qx_qo                              # 飞键 qia
@@ -72,7 +75,8 @@ speller:
       - config_pinyin:/fly_dc_dl                              # 飞键 dao
       - config_pinyin:/fly_vr_vn                              # 飞键 zhuan
       - config_pinyin:/fly_ce_cn                              # 飞键 ce
-      - set_algebra_fuzhu    # 辅助码部分
+      - set_algebra_fuzhu    #辅助码选择
+      - set_fuzhu_type       #辅助码类型
 
 
 # 主翻译器，拼音
@@ -89,7 +93,7 @@ translator:
 #    - "^[a-z;,./][a-z;,./][a-z;,./][a-z;,./]$"  # 禁止四码词调频    
   preedit_format: 
     - xform/([a-z][a-z][a-z][a-z])o/$1°/    
-
+    - xform/(?<=[A-Z])\s(?=[A-Z])//  # 消除大写字母之间的空格
 
 # 标点符号
 punctuator:
@@ -116,10 +120,9 @@ key_binder:
     __patch: 
       - :/key_binder/custom_bindings?
       - config_base:/key_config/options_toggle
+      - config_base:/key_config/tab_Page
       - config_base:/key_config/keys
 __patch:
-  - double_pinyin_flypy.custom:/patch?
-##################################################
   # 禁用原方案的翻译器
   - 'engine/translators/@02': null
   # 魔然翻譯器
@@ -129,7 +132,7 @@ __patch:
   # 词语级出简让全
   - 'engine/filters/@after 01': lua_filter@*moran_ijrq_filter
   # 简快码提示
-  - 'engine/filters/@after 02': lua_filter@*moran_hint_filter_v2
+  - 'engine/filters/@after 02': lua_filter@*moran_hint_filter
 ##################################################
   # 自定义短语
   - 'engine/translators/@after 03': table_translator@custom_phrase  
@@ -148,10 +151,10 @@ __patch:
   # 自定义置顶词 自造词
   - 'engine/translators/@after 06': lua_translator@*moran_pin*panacea_translator
   # 替换掉雾凇版本自定义置顶词  （需配置 config_base 里的置顶词配置）
-  - 'engine/filters/@15': lua_filter@*moran_pin*pin_filter
+  - 'engine/filters/@12': lua_filter@*moran_pin*pin_filter
 ##################################################
   # 简单鹤拆分滤镜
-  - 'engine/filters/@after 11': simplifier@chaifen
+  - 'engine/filters/@after 08': simplifier@chaifen
   # 辅助码 （before last 在列表最后一个之前加上）
 #  - 'engine/filters/@before last': lua_filter@*auxCode_filter@jdh_aux_code
 
@@ -169,18 +172,25 @@ __patch:
 
   # 简繁切换  
   - simplification/tips: none   #简繁对照   转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-  # 笔画反查显示编码
-  - radical_reverse_lookup/dictionary: JDhe
-  - radical_reverse_lookup/comment_format: null
 
-  # 五笔画反查显示编码
-  - stroke_reverse_lookup/dictionary: JDhe  
-  # 虎码反查显示编码
-  - tiger_reverse_lookup/dictionary: JDhe  
-  # 万象拼音反查显示编码
-  - wanxiang_py_reverse_lookup/dictionary: JDhe 
+  # 反查显示编码的词库
+  - reverse_lookup_filter/dictionary: JDhe 
+
+  # 响应 单字反查 
+  - recognizer/patterns/reverse_lookup: "^`([a-z]+'?)*$" 
 
 ##################################################
+
+  - recognizer/patterns/chinese_lunar: "^(/nl|onl)[0-9]*$"  # 中国农历(可反查)
+  - recognizer/patterns/shortcuts_app: "^ojk[a-z]*$"        # 快捷指令(启动应用)
+  - recognizer/patterns/shortcuts_cmd: "^okj[a-z]*$"        # 快捷指令(执行命令)
+  - recognizer/patterns/chinese_number: "^(/cn|ocn)[0-9.]*$"       # 中文大写数字(金额)
+
+##################################################
+  # 【重要】读取用户自定义补丁文件
+  - double_pinyin_flypy.custom:/patch?
+##################################################
+
 
 # 次翻译器固定词频 （配合自造词使用）
 fixed:
@@ -191,6 +201,7 @@ fixed:
   enable_completion: false              # 编码提示开关（提前显示尚未输入完整码的字）
   enable_user_dict: false                 # 是否启用用户词典（记录动态字词频、自造词）
   initial_quality: 10                           # 初始权重应比其他高  
+
 
 moran:
   # 簡快碼提示符
@@ -241,11 +252,8 @@ moran:
   # 簡快碼提示（包括字和詞）
   # 例如 輸入 yy te er 英特爾 會提示「⚡yte」，即使用 yte 可以打出這個詞
   enable_quick_code_hint: true
-  quick_code_indicator2: ""    #简码提示图标
-  quick_code_indicator3: ""    #分割符提示 默认“ ¦ ”
-  quick_code_hint_min_len: 2 # 最小词长默认2，改为1则单字如果有简码也提醒
-  quick_code_hint_max_len: 3 # 最大词长默认3
-
+  # 取消單字的簡快碼提示
+  quick_code_hint_skip_chars: true
 
   # 輸入四碼時，如果簡碼碼表中含有對應條目，則放置在第二選項。
   show_chars_anyway: true   # 是否輸出簡碼碼表單字，例：輸入 jwrg 時，次選爲「佳」
@@ -271,6 +279,19 @@ moran:
       # 自由加詞模式開關，開啓此模式後，輸入「編碼A」//並空格上屏後會進入加詞狀態，此時可以連續地、不受束縛地輸入，再次按下x//空格退出加詞狀態，期間輸入的內容將會被記錄爲「編碼A」的新置頂詞
       # 此模式適合造一些混合詞，如「A4紙」、「KOS-MOS」等
       freestyle: false
+
+  # 重复略码功能
+  # 一些输入中存在字词重复，如「好不好」「看了看」「想一想」。
+  # 略码提供了替代的输入方法，在输入完一些字后，按对应Shift+<对应键>调用响应功能。
+  # 默认提供的略码有：
+  # B：输入 hcB 直接上屏「好不好」
+  # L：输入 kjL 直接上屏 「看了看」
+  # Y：输入 xlY 直接上屏「想一想」
+  # V：输入uoV 直接上屏「说着说着」
+  # Q：输入pcQ 直接上屏「跑来跑去」
+  #(如需要自定义/增加/删除略码，请编辑
+  shorthands: false  
+
 
 ##################################################
 # 自定义短语
@@ -303,6 +324,18 @@ cn_en:
   initial_quality: 0.5
   comment_format:
     - xform/^.+$//
+
+##################################################
+# 万象拼音单字反查
+reverse_lookup:
+  dictionary: wanxiang_pinyin_dz
+  prefix: "`"
+  tips: "〔单字〕"
+  comment_format:
+#    - "xform/^/ /"
+    - xform/(\w\w);(\w\w);(\w\w);/$1[简单$2][官鹤$3]/
+    - xform/(\w\w);(\w\w),(\w\w);(\w\w);/$1[简单$2,$3][官鹤$4]/    
+    - xform/(\w\w);(\w\w),(\w\w),(\w\w),(\w\w),(\w\w);(\w\w);/$1[简单$2,$3,$4,$5,$6][官鹤$7]/ 
 
 ##################################################
 # lua 快捷键

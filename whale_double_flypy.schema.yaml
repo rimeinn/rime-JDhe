@@ -1,0 +1,89 @@
+# Rime schema
+# encoding: utf-8
+# 本方案直接读取简单鹤方案下的通用配置
+__include: double_pinyin_flypy.schema:/
+
+
+########################以下是方案配置######################################################
+
+schema:
+  schema_id: whale_double_flypy
+  name: 鲸凉鹤
+  icon: ico/双.ico           # string 方案图标，格式： .ico
+  version: "2025.06.04"
+  author:
+    - double pinyin layout by 鶴
+    - Rime schema by zHon 
+    - 鲸凉鹤词库码表 by 鲸鱼会唱歌
+  description: |
+    白霜拼音＋小鹤双拼键位+鲸凉鹤字词码表
+    雾凇拼音 <https://github.com/iDvel/rime-ice>
+    白霜拼音 <https://github.com/gaboolic/rime-frost>
+  dependencies:
+    - wanxiang_pinyin_dz   # 万象拼音单字反查
+    - melt_eng # 英文
+    - tiger  # 虎码
+    - whaleHe  # 鲸凉鹤 
+    - radical_pinyin   # 部件拆字
+    - stroke   # 五筆畫
+
+# 拼写设定
+speller:
+  # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`;/" 
+  # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
+#  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
+# table_translator翻译器，支持自动上屏。例如 “zmhu”可以自动上屏“怎么回事”
+  auto_select: true
+#  auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}|^;(\w+|;)
+  auto_select_pattern: ^;\w+|^o\w{3}$
+  algebra:
+    __patch:
+      - config_pinyin:/小鹤双拼     #拼音转双拼码
+      - config_pinyin:/fly_kk_kw                              # 飞键 kuai
+      - config_pinyin:/fly_yi_ei                              # 飞键 yi
+      - config_pinyin:/fly_qx_qo                              # 飞键 qia
+      - config_pinyin:/fly_xq_xo                              # 飞键 xiu
+      - config_pinyin:/fly_rr_rp                              # 飞键 ruan
+      - config_pinyin:/fly_gf_gp                              # 飞键 gen
+      - config_pinyin:/fly_jn_ja                              # 飞键 jiao
+      - config_pinyin:/fly_po_ps                              # 飞键 po
+      - config_pinyin:/fly_fg_fs                              # 飞键 feng
+      - config_pinyin:/fly_qq_qh                              # 飞键 qiu
+      - config_pinyin:/fly_ww_wk                              # 飞键 wei
+      - config_pinyin:/fly_cs_cl                              # 飞键 cong
+      - config_pinyin:/fly_zs_zl                              # 飞键 zong
+      - config_pinyin:/fly_dc_dl                              # 飞键 dao
+      - config_pinyin:/fly_vr_vn                              # 飞键 zhuan
+      - config_pinyin:/fly_ce_cn                              # 飞键 ce
+      - config_pinyin:/fuzhu_flypy    #辅助码选择
+      - config_pinyin:/直接辅助       #辅助码类型
+
+
+__patch: 
+
+# 主翻译器
+  - translator/prism: whale  # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字 
+# 次翻译器固定词频
+  - fixed/dictionary: whaleHe          # 挂载词库
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##################################################
+  # 【重要】读取用户自定义补丁文件
+  - whale_double_flypy.custom:/patch?
+##################################################
+

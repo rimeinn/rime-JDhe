@@ -34,6 +34,8 @@ switches_engine_script:
     processors:
       - lua_processor@*shortcut*processor            # 快捷启动 
       - lua_processor@*select_character              # 以词定字
+      - lua_processor@*moran_processor               # Ctrl+l 快速取出/放回被吞掉的辅码，「;」次选跳过emoji
+      - lua_processor@*chinese_number*processor      # 大写金额数字
       - predictor                                    # 输入候选预测
       - ascii_composer     # 处理英文模式及中英文切换
       - recognizer         # 与 matcher 
@@ -63,7 +65,8 @@ switches_engine_script:
       - table_translator@tiger_lookup           # 虎码反查
       - table_translator@quick_symbol_phrase    # 快速符号短语词库       
       - history_translator@history              # 重复上屏
-      - lua_translator@*calculator              # 计算器功能，通过V实现  
+      - lua_translator@*calculator              # /= 触发简易计算器
+      - lua_translator@*chinese_number*translator  # /cn 触发大写金额数字 
       - lua_translator@*date_time               # 日期输入 date, week, time, /wd, /wk, /wt 触发                           
       - lua_translator@*chinese_lunar           # 中国农历 /nl 触发显示   
       - lua_translator@*shortcut*translator     #  /jk, /kj 触发快捷命令 
@@ -73,17 +76,13 @@ switches_engine_script:
     filters:      
       - lua_filter@*charset_filter@charset_filter # 自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
       - lua_filter@*single_char_only_for_full_code@single_char_only # 四码单字过滤 lua     
-      - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字反查显示编码      
-      - reverse_lookup_filter@stroke_reverse_lookup    # 五笔画反查显示编码      
-      - reverse_lookup_filter@wanxiang_py_reverse_lookup    # 万象拼音反查显示编码  
-      - reverse_lookup_filter@tiger_reverse_lookup        # 虎码反查显示编码
+      - reverse_lookup_filter@reverse_lookup_filter  # 反查的filter      
       - simplifier@emoji                              # Emoji     
       - lua_filter@*reduce_emoji                      # 降低emoji在候选的位置     
       - simplifier@pinyinhint                         # 拼音滤镜   
       - simplifier@simplification                     # 简繁切换            
       - lua_filter@*autocap_filter                    # 英文自动大写            
       - lua_filter@*pin_cand_filter                   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）            
-      - lua_filter@*reduce_english_filter             # 降低部分英语单词在候选项的位置
       - lua_filter@*is_in_user_dict                   # 根据是否在用户词典，在 comment 上加上一个标记
       - lua_filter@*en_spacer                         # 英文词条上屏自动空格
       - lua_filter@*multiline_filter                  # 在词典里面候选支持\r, \r\n, \n, <br>分割分行。&nbsp 表示空格
@@ -98,8 +97,9 @@ switches_engine_table:
   engine:
     processors:
       - lua_processor@*shortcut*processor            # 快捷启动 
-#      - lua_processor@*tiger/spelling_processor_v2   # 虎码拆字三重注解开关
       - lua_processor@*select_character              # 以词定字
+      - lua_processor@*moran_processor               # Ctrl+l 快速取出/放回被吞掉的辅码，「;」次选跳过emoji
+      - lua_processor@*chinese_number*processor      # 大写金额数字
       - predictor                                    # 输入候选预测
       - ascii_composer     # 处理英文模式及中英文切换
       - recognizer         # 与 matcher 
@@ -129,7 +129,8 @@ switches_engine_table:
       - table_translator@tiger_lookup           # 虎码反查
       - table_translator@quick_symbol_phrase    # 快速符号短语词库       
       - history_translator@history              # 重复上屏
-      - lua_translator@*calculator              # 计算器功能，通过V实现  
+      - lua_translator@*calculator              # /= 触发简易计算器
+      - lua_translator@*chinese_number*translator  # /cn 触发大写金额数字 
       - lua_translator@*date_time               # 日期输入 date, week, time, /wd, /wk, /wt 触发                           
       - lua_translator@*chinese_lunar           # 中国农历 /nl 触发显示   
       - lua_translator@*shortcut*translator     #  /jk, /kj 触发快捷命令 
@@ -139,25 +140,20 @@ switches_engine_table:
     filters:      
       - lua_filter@*charset_filter@charset_filter # 自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
       - lua_filter@*single_char_only_for_full_code@single_char_only # 四码单字过滤 lua     
-      - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字反查显示编码      
-      - reverse_lookup_filter@stroke_reverse_lookup    # 五笔画反查显示编码      
-      - reverse_lookup_filter@wanxiang_py_reverse_lookup    # 万象拼音反查显示编码  
-      - reverse_lookup_filter@tiger_reverse_lookup        # 虎码反查显示编码
+      - reverse_lookup_filter@reverse_lookup_filter  # 反查的filter      
       - simplifier@emoji                              # Emoji     
       - lua_filter@*reduce_emoji                      # 降低emoji在候选的位置     
       - simplifier@pinyinhint                         # 拼音滤镜   
       - simplifier@simplification                     # 简繁切换            
       - lua_filter@*autocap_filter                    # 英文自动大写            
       - lua_filter@*pin_cand_filter                   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）            
-      - lua_filter@*reduce_english_filter             # 降低部分英语单词在候选项的位置
       - lua_filter@*is_in_user_dict                   # 根据是否在用户词典，在 comment 上加上一个标记
       - lua_filter@*en_spacer                         # 英文词条上屏自动空格
       - lua_filter@*multiline_filter                  # 在词典里面候选支持\r, \r\n, \n, <br>分割分行。&nbsp 表示空格
       - lua_filter@*embeded_cands_v2@embeded_cands    # 字词候选嵌入编辑栏
       - lua_filter@*block_words                       # 屏蔽指定的字词列表，并通过开关控制是否启用
       - lua_filter@*moran_charset_comment_filter      # Unicode 區位提示
-      - uniquifier       
-
+      - uniquifier    
 
 
 opencc_config: 
@@ -195,21 +191,12 @@ reverse_config:
     tag: radical_lookup
     dictionary: radical_pinyin
     enable_user_dict: false
-    prefix: "oiz"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
+    enable_completion: true              #  编码提示开关（提前显示尚未输入完整码的字） 
+    prefix: "oiz"  # 反查前缀
     tips: "〔拆字〕"
     comment_format:
       - erase/^.*$//
 
-  # 部件拆字反查显示编码
-  radical_reverse_lookup:
-    tags: [ radical_lookup ]
-    # dictionary 为拼音标注来源。目前是显示本方案词库的注音，可去部件拆字方案下载更全的、带声调的、已编译好的词典
-    # https://github.com/mirtlecn/rime-radical-pinyin?tab=readme-ov-file#%E5%8F%8D%E6%9F%A5%E5%B8%A6%E5%A3%B0%E8%B0%83%E6%B3%A8%E9%9F%B3
-    dictionary: luna_pinyin.extended
-    comment_format:     # 自定义 comment，例如在左右加上括号
-    #  - xform/^/(/
-    #  - xform/$/)/
-      - xform/.*//           # 清空提示码 
 
   # 五笔画反查
   stroke_lookup:
@@ -219,15 +206,12 @@ reverse_config:
     enable_sentence:  false                 # 是否启用造句模式
     enable_user_dict: false
     enable_completion: true              #  编码提示开关（提前显示尚未输入完整码的字）    
-    prefix: "obh"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
+    prefix: "obh"  # 反查前缀
     tips: "〔横h竖s撇p捺n折z〕"
     preedit_format:
       - xlit/hspnz/⼀⼁⼃⼂⼄/  # 康熙部首（橫豎撇點折）
 
-  # 五笔画反查显示编码
-  stroke_reverse_lookup:
-    tags: [ stroke_lookup ]
-    dictionary: luna_pinyin.extended
+
 
   # 万象拼音反查
   wanxiang_py_lookup:
@@ -243,9 +227,6 @@ reverse_config:
       - "xform/^/ /"
       - xform/([nl])v/$1ü/
 
-  wanxiang_py_reverse_lookup: 
-    tags: [ wanxiang_py_lookup ]
-    dictionary: luna_pinyin.extended
 
   # 虎码反查
   tiger_lookup:
@@ -254,15 +235,19 @@ reverse_config:
     enable_encoder:  false                  # 是否启用 自动造词  
     enable_sentence:  false                 # 是否启用造句模式
     enable_user_dict: false
-    enable_completion: false              #  编码提示开关（提前显示尚未输入完整码的字）
+    enable_completion: true              #  编码提示开关（提前显示尚未输入完整码的字）
     prefix: "ohm"
     tips: "〔虎码〕"
     comment_format:
       - "xform/^/ /"
 
-  tiger_reverse_lookup: 
-    tags: [ tiger_lookup ]
-    dictionary: luna_pinyin.extended
+  reverse_lookup_filter: #该反查过滤器名
+    tags: [radical_lookup,stroke_lookup,wanxiang_py_lookup,tiger_lookup] #挂在这个tag所对应的翻译器上
+    overwrite_comment: true
+    dictionary: luna_pinyin.extended #反查所得词库
+    comment_format:
+      - xform/(\w\w);(\w\w);/$1[$2]/
+      - xform/(\w\w);(\w\w),(\w\w);/$1[$2][$3]/
 
 recognizer_config: 
   recognizer:
@@ -274,17 +259,19 @@ recognizer_config:
       uppercase: "" #中文状态大写锁定直接上屏 
       email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"  # email @ 之后不上屏                    
       url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"  # URL
-      expression: "^V.*$"           # cctest 計算機功能 通过V实现
+      calculator: "^(/=|cC)(.*)$"               # 简易计算器
+      chinese_number: "^(/cn|cN)[0-9.]+$"       # 中文大写数字(金额)
       week: "^(/wk|week|oxq|owk)$"  # 响应星期输入
       time: "^(/wt|time|osj|owt)$"  # 响应时间输入
       date: "^(/wd|date|orq|owd)$"  # 响应日期输入
       timestamp: "^/uts$"           # 时间戳
-      chinese_lunar: "^(/nl|onl)[0-9]*$"  # 中国农历(可反查)
-      shortcuts: "^/(jk|kj)[a-z]*$"       # 快捷指令(短语)
+      chinese_lunar: "^(/nl|nL)[0-9]*$"  # 中国农历(可反查)
+      shortcuts_app: "^/jk[a-z]*$"              # 快捷指令(启动应用)
+      shortcuts_cmd: "^/kj[a-z]*$"              # 快捷指令(执行命令)
       unicode: "^U[a-f0-9]+"  # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
-      radical_lookup: "^oiz[a-z]+$"   # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
-      stroke_lookup: "^obh[a-z]+$"    # 响应五笔画的反查，与 stroke_lookup/prefix 匹配
-      wanxiang_py_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`|[a-z][a-z]`)))"  # 响应 临时「`」统配反查
+      radical_lookup: "^oiz[A-Za-z]*$"   # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
+      stroke_lookup: "^obh[A-Za-z]*$"    # 响应五笔画的反查，与 stroke_lookup/prefix 匹配
+      wanxiang_py_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`))|^([a-z]{4}`))"  # 响应 临时「`」统配反查
       tiger_lookup: "^ohm[a-z]*'?$"  # 响应虎码的反查，与 tiger_lookup/prefix 匹配
 
 
@@ -331,23 +318,6 @@ key_config:
      # 打字时，Caps_Lock 选中第4个候选字发送
       - { accept: Release+Caps_Lock, send: Release+4, when: has_menu} 
 
-     # 打字时，Tab 输入「~」符号，配合辅助码 Lua 使用 
-  #    - { accept: Tab, send: asciitilde, when: composing }
-
-     # 打字时，Tab和Shift+Tab切换候选
-  #    - { accept: Tab, send: Down, when: has_menu} 
-     # 打字时，Tab和Shift+Tab切换候选
-  #    - { accept: Shift+Tab, send: Up, when: has_menu} 
-
-     # 使用 tab 在不同音節間跳轉
-  #    - { accept: Tab, send: Control+Right, when: has_menu }
-  #    - { accept: Tab, send: Control+Right, when: composing }
-
-     # Shift+Tab 向前翻页
-      - { accept: Shift+Tab, send: Page_Up, when: paging} 
-     # Tab 向后翻页
-      - { accept: Tab, send: Page_Down, when: has_menu} 
-
      # 减号向前翻页
       - { accept: minus, send: Page_Up, when: paging} 
      # 等于号向后翻页
@@ -376,11 +346,65 @@ key_config:
       - {accept: KP_Decimal, send: period, when: composing}    
       - {accept: KP_Enter, send: Return, when: composing}  
 
+  # 使用 tab 翻页
+  tab_Page:
+    __append:
+     # Tab 向后翻页
+      - { accept: Tab, send: Page_Down, when: has_menu} 
+     # Shift+Tab 向前翻页
+      - { accept: Shift+Tab, send: Page_Up, when: paging} 
+
+  # 使用 tab 在不同音节间跳转
+  tab_jump:
+    __append:
+     - { accept: Tab, send: Control+Right, when: has_menu }
+     - { accept: Tab, send: Control+Right, when: composing }
+
+  # 使用 tab 切换候选
+  tab_switch:
+    __append:
+     # 打字时，Tab 选中下一个候选
+     - { accept: Tab, send: Down, when: has_menu} 
+     # 打字时，Shift+Tab 选中上一个候选
+     - { accept: Shift+Tab, send: Up, when: has_menu} 
+
+
+  # 使用大写字母追加输入到上一个音节末尾
+  capital_for_last_syllable:
+    __append:
+      - { when: has_menu, accept: Shift+A, send_sequence: "{Control+Left}a{Control+Right}" }
+      - { when: has_menu, accept: Shift+B, send_sequence: "{Control+Left}b{Control+Right}" }
+      - { when: has_menu, accept: Shift+C, send_sequence: "{Control+Left}c{Control+Right}" }
+      - { when: has_menu, accept: Shift+D, send_sequence: "{Control+Left}d{Control+Right}" }
+      - { when: has_menu, accept: Shift+E, send_sequence: "{Control+Left}e{Control+Right}" }
+      - { when: has_menu, accept: Shift+F, send_sequence: "{Control+Left}f{Control+Right}" }
+      - { when: has_menu, accept: Shift+G, send_sequence: "{Control+Left}g{Control+Right}" }
+      - { when: has_menu, accept: Shift+H, send_sequence: "{Control+Left}h{Control+Right}" }
+      - { when: has_menu, accept: Shift+I, send_sequence: "{Control+Left}i{Control+Right}" }
+      - { when: has_menu, accept: Shift+J, send_sequence: "{Control+Left}j{Control+Right}" }
+      - { when: has_menu, accept: Shift+K, send_sequence: "{Control+Left}k{Control+Right}" }
+      - { when: has_menu, accept: Shift+L, send_sequence: "{Control+Left}l{Control+Right}" }
+      - { when: has_menu, accept: Shift+M, send_sequence: "{Control+Left}m{Control+Right}" }
+      - { when: has_menu, accept: Shift+N, send_sequence: "{Control+Left}n{Control+Right}" }
+      - { when: has_menu, accept: Shift+O, send_sequence: "{Control+Left}o{Control+Right}" }
+      - { when: has_menu, accept: Shift+P, send_sequence: "{Control+Left}p{Control+Right}" }
+      - { when: has_menu, accept: Shift+Q, send_sequence: "{Control+Left}q{Control+Right}" }
+      - { when: has_menu, accept: Shift+R, send_sequence: "{Control+Left}r{Control+Right}" }
+      - { when: has_menu, accept: Shift+S, send_sequence: "{Control+Left}s{Control+Right}" }
+      - { when: has_menu, accept: Shift+T, send_sequence: "{Control+Left}t{Control+Right}" }
+      - { when: has_menu, accept: Shift+U, send_sequence: "{Control+Left}u{Control+Right}" }
+      - { when: has_menu, accept: Shift+V, send_sequence: "{Control+Left}v{Control+Right}" }
+      - { when: has_menu, accept: Shift+W, send_sequence: "{Control+Left}w{Control+Right}" }
+      - { when: has_menu, accept: Shift+X, send_sequence: "{Control+Left}x{Control+Right}" }
+      - { when: has_menu, accept: Shift+Y, send_sequence: "{Control+Left}y{Control+Right}" }
+      - { when: has_menu, accept: Shift+Z, send_sequence: "{Control+Left}z{Control+Right}" }
+      - { when: has_menu, accept: Shift+BackSpace, send_sequence: "{Control+Left}{BackSpace}{Control+Right}" }
+
 
 Lua_config: 
   # 重复上屏
   history: 
-    input: ;k
+    input: ;d
     size: 1                             # 重复前几次上屏
     initial_quality: 1              # 初始权重
 
@@ -423,7 +447,14 @@ Lua_config:
 
   # Lua 配置: 自定义字集过滤 （影响范围）
   charset_filter: 
-    tags: [ abc, encode, punct, reverse_lookup ] 
+    tags: [ abc, encode, punct, wanxiang_py_lookup, reverse_lookup ] 
+  # 「常用」字符集设置
+  # 不影响「全集」：全集仍显示*所有*字符
+  #
+  # both: 允许繁体和简体同时显示
+  # simp: 只显示简化字
+  # trad: 只显示繁体字
+  charset: simp  # 或 simp, trad
 
   # Lua 配置：Emoji 降频到第 idx 个位置
   emoji_reduce:                      
@@ -445,42 +476,6 @@ Lua_config:
     separator: ""                                           # 候选之间的分隔符
     stash_placeholder: "~"  
     show_only_first_in_preedit: true  # 控制是否仅显示首选词在编辑栏
-
-# Lua 配置: 降低部分英语单词在候选项的位置。
-# 详细介绍 https://dvel.me/posts/make-rime-en-better/#短单词置顶的问题
-# 正常情况： 输入 rug 得到 「1.rug 2.如果 …… 」
-# 降低之后： 输入 rug 得到 「1.如果 2.rug …… 」
-# 几种模式：
-# all     降低脚本内置的单词（所有 3~4 位长度、前 2~3 位是完整拼音、最后一位是声母），words 作为自定义的额外补充
-# custom  完全自定义，只降低 words 里的
-# none    不降低任何单词，相当于没有启用这个 Lua
-# （匹配的是编码，不是单词）
-  reduce_english_filter:
-    mode: custom  # all | custom | none
-    idx: 2        # 降低到第 idx 个位置
-    # 自定义的单词列表，示例列表没有降低部分常用单词，如 and cat mail Mac but bad shit ……
-    words: [
-      aid, ann,
-      bail, bait, bam, band, bans, bat, bay, bend, bent, benz, bib, bid, bien, biz, boc, bop, bos, bud, buf, bach, bench, bush,
-      cab, cad, cain, cam, cans, cap, cas, cef, chad, chan, chap, chef, cher, chew, chic, chin, chip, chit, coup, cum, cunt, cur, couch,
-      dab, dag, dal, dam, dent, dew, dial, diet, dim, din, dip, dis, dit, doug, dub, dug, dunn, don,
-      fab, fax, fob, fog, foul, fur,
-      gag, gail, gain, gal, gam, gaol, ged, gel, ger, guam, gus, gut,
-      hail, ham, hank, hans, hat, hay, heil, heir, hem, hep, hud, hum, hung, hunk, hut, hush,
-      jim, jug,
-      kat,
-      lab, lad, lag, laid, lam, laos, lap, lat, lax, lay, led, leg, lex, liam, lib, lid, lied, lien, lies, linn, lip, lit, liz, lob, lug, lund, lung, lux, lash, loch, lush,
-      mag, maid, mann, mar, mat, med, mel, mend, mens, ment, mil, mins, mint, mob, moc, mop, mos, mot, mud, mug, mum, mesh,
-      nap, nat, nay, neil, nib, nip, noun, nous, nun, nut, nail, nash,
-      pac, paid, pail, pain, pair, pak, pal, pam, pans, pant, pap, par, pat, paw, pax, pens, pic, pier, pies, pins, pint, pit, pix, pod, pop, pos, pot, pour, pow, pub, pinch, pouch,
-      rand, rant, rent, rep, res, ret, rex, rib, rid, rig, rim, rub, rug, rum, runc, runs, ranch,
-      sac, sail, sal, sam, sans, sap, saw, sax, sew, sham, shaw, shin, sig, sin, sip, sis, suit, sung, suns, sup, sur, sus,
-      tad, tail, taj, tar, tax, tec, ted, tel, ter, tex, tic, tied, tier, ties, tim, tin, tit, tour, tout, tum,
-      wag, wand, womens, wap, wax, weir, won, went,
-      yan, yen,
-      zach
-      my, mt, dj, as, js, cs, ak, ps, cd, cn, hk, bt, pk  # 一些由算法转写的大写单词编码      
-    ]
 
 
 octagram:

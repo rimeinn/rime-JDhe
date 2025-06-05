@@ -1,11 +1,11 @@
 # Rime 输入法 「简单鹤」双拼辅助码方案
-Rime 输入法配置方案，小鹤双拼+**简单鹤**乱序字根辅助方案+修改配置后的**全拼**（可加辅码）与 **虎码**（字词合并）方案
+Rime 输入法配置方案，小鹤双拼+**「简单鹤」**「乱序字根辅助方案」+**「鲸凉鹤」**「官鹤音托字根辅码」+修改配置后的**全拼**（可加辅码）与 **虎码**（字词合并）方案
 
 ---
 
 ## [简单鹤](https://flauver.github.io/jdh/)介绍
 
-![简单鹤字根图V8.4](other/简单鹤字根图V8.4.png)
+![简单鹤字根图V8.4](other/简单鹤字根图V9.0.PNG)
 
 ####  乱序字根
 
@@ -114,7 +114,6 @@ o 也
 p 得 道 道：“
 s 时
 f 能
-je 及（唯一的一个二码，忘了也无所谓，本来也在四码）
 jo 几（以及相关词）
 be 百（以及相关词）
 
@@ -159,7 +158,9 @@ be 百（以及相关词）
   
   - Unicode（<kbd>U</kbd>+Unicode 码位）（取自 [雾凇拼音](https://github.com/iDvel/rime-ice)）
   
-  - 数字、人民币大写、简易计算器（<kbd>V</kbd> + 数字 或 算式）（取自 [空山五笔](https://github.com/mrshiqiqi/rime-wubi)）
+  - 简易计算器（<kbd>/=</kbd>或<kbd>cC</kbd> + 数字 或 算式）（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
+
+  - 数字、人民币大写（<kbd>/cn</kbd>或<kbd>cN</kbd>(简单鹤方案可用<kbd>ocn</kbd>) + 数字）（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
   - 日期、时间、星期、农历（<kbd>/</kbd>+wd、wt、wk、nl 农历可加数字输入。<kbd>o</kbd> 加对应的简拼也可以，如orq、oxq、osj、onl、）（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
@@ -177,10 +178,10 @@ be 百（以及相关词）
   - 字词候选嵌入输入栏开关（取自 [宇浩输入方案](https://github.com/forFudan/yuhao)）
   
   - 标点快符自动上屏 <kbd>；</kbd>+ 字母 比如输入 `;a` 自动上屏 `！`（详见配置 `custom_phrase/quick_symbol_phrase.txt` 文件）
+  - 重复上屏 `;d` 自动重复上屏 上一次输入的内容
+  - <kbd>/KJ</kbd> (简单鹤方案用<kbd>okj</kbd>) 前缀: 用于输入常用短语(邮箱/手机号/银行卡号/收件地址); 和打开常用网站网址, 本地文件路径; 执行常见指令(开关系统设置) 等等, 可自行在`Rime\lua\shortcut_config.lua` 里添加（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
-  - <kbd>/KJ</kbd> 前缀: 用于输入常用短语(邮箱/手机号/银行卡号/收件地址); 和打开常用网站网址, 本地文件路径; 执行常见指令(开关系统设置) 等等, 可自行在`Rime\lua\shortcut_config.lua` 里添加（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
-  
-  - <kbd>/JK</kbd> 前缀: 用于快速启动或切换程序 可自行在`Rime\lua\shortcut_config.lua` （取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
+  - <kbd>/JK</kbd>  (简单鹤方案用<kbd>ojk</kbd>) 前缀: 用于快速启动或切换程序 可自行在`Rime\lua\shortcut_config.lua` （取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
   - 根据是否在用户词典，在结尾加上一个标识（取自 [白霜拼音](https://github.com/gaboolic/rime-frost)）
     上屏过的候选词 末尾带有「✩」
@@ -236,19 +237,14 @@ be 百（以及相关词）
 **ctrl+~切换方案**
 
 - 简单鹤用户默认启用了 **「固词」**，体验完全体的简单鹤
-- 如需要启用**「动词」**，自行在`double_pinyin_flypy.custom.yaml/switches/inflexible/reset: 1` **修改为reset: 0**，启用后需要用户手动打开**「屏蔽」**这个开关选项（作用是可以屏蔽四码时简单鹤词库中为了固定单字次选的占位符号「➀」，因为默认动词下单字的会让给词组，故不需要占位符号，不去除的话，单字会被挤占到3选的位置）
 
 **简单鹤**（虽然文件名是朴素的 double_pinyin_flypy，但实际上补丁中已让其大变样）
 
 **简单鹤・字词**（四码定长，自动上屏）
 
-- **如果打开过上述「屏蔽」开关，请手动切换到「正常」，将占位符号「➀」恢复，否则四码无词时，单字会在首选**
-
 **朙月拼音・全拼**（虽然文件名是朴素的 luna_pinyin，但实际上补丁中已让其大变样，词库也改为使用白霜拼音。因为小狼毫在「用户配置文件为空」时每次部署都会生成「luna_pinyin.userdb」，本人不想手动删除，索性自用方案也改为 「luna_pinyin」）
 
 **虎码** （虽然文件名是朴素的 tiger，但实际上补丁中已让其大变样。本人在使用简单鹤前，为虎码用户，该方案是单字+词组，两库融合，纯单用户可用开关控制其为纯单 ）
-
-## 简单鹤 🐧交流群：819641961
 
 
 

@@ -8,10 +8,10 @@ patch:
   style/layout/shadow_radius: 10                       # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
   style/color_scheme: minimalism_white      # 浅色模式下，配色方案
   style/color_scheme_dark: minimalism_white                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
-#  style/layout/margin_x: 4
-#  style/layout/margin_y: 4  
-#  style/layout/hilite_padding: 4  
-#  style/hilited_corner_radius: 0                   # macOS选中框 圆角半径  
+  style/layout/margin_x: 5
+  style/layout/margin_y: 5  
+  style/layout/hilite_padding: 3  
+  style/hilited_corner_radius: 0                   # macOS选中框 圆角半径  
   style/layout/max_width: 400                           # 候选框最大宽度，文本竖排模式下如高度超此尺寸则换列显示候选，设置为 0 则不启用此功能 
 
   # 修改候选项标签
@@ -27,8 +27,13 @@ patch:
     - "9"
     - "0"
 
+  # 切换中英：
+  ascii_composer/switch_key/Shift_L: noop
+  ascii_composer/switch_key/Shift_R: inline_ascii
+
+
   # 禁用根据是否在用户词典，在 comment 上加上一个标记
-  'engine/filters/@013': null
+  'engine/filters/@014': null
 
 
   # 簡快碼提示符
@@ -37,4 +42,58 @@ patch:
   moran/quick_code_indicator: ""
   # 简码提示（包括字和詞）
   moran/enable_quick_code_hint: true
+
+  #  emoji
+  emoji/tips: none   # 转换提示: all 都显示 | char 仅单字显示 | none 
+
+
+  # 增加一个辅助识别器
+  'engine/segmentors/@after 01': matcher@recognizer_secondary
+  # 给英文翻译器添加tag匹配规则
+  melt_eng/tag: english  # librime<=1.11 請在 custom 中置空
+  # 辅助识别器
+  recognizer_secondary:
+    patterns:
+      # {4} 表示輸入長度達到 4 後開始輸出英語
+      english: '^[A-Za-z]{4}[A-Za-z]*'
+
+######【注意】此功能开启后，四码词组会根据使用习惯动态调整候选词排序 #########
+# 简单鹤方案下动词模式必须 打开屏蔽开关，将原先的「①」占位符屏蔽。
+#  switches/@10/reset: 1
+# 开启动词后简单鹤「单字固定次选」的特性有些会丢失
+# 所以建议「完全熟悉简单鹤」 又想自动根据自己输入习惯动态排序四码词组的用户开启
+#  switches/@13/reset: 0
+#  switches/@13/states: [ 动词, 固词 ] # 「固詞」表示「固頂詞」註釋隱藏開關，請直接在此指定 reset
+#  moran/ijrq/enable: false       # 如果开启动词，注意关闭单字的出简让全
+#################################################################
+
+#  moran/ijrq/enable_word: true               # 词语级出简让全
+#  moran/enable_word_filter: false       # 如果开启词语级出简让全，注意关闭词辅功能
+
+##################################################################
+
+  key_binder/bindings: 
+    __patch: 
+      - double_pinyin_flypy.custom:/key_binder/custom_bindings?
+      - config_base:/key_config/options_toggle
+      - config_base:/key_config/tab_jump # 使用 tab 在不同音节间跳转
+      - config_base:/key_config/keys
+      # 大写字母追加辅助码到上一个音节 (该功能可使用 tab 跳转音节替代)
+#      - config_base:/key_config/capital_for_last_syllable
+ 
+# 增加快捷键设置
+key_binder: 
+  custom_bindings:
+    __append: 
+      # 在這裏添加只在本方案中生效的按鍵綁定
+      # 打字时，' 选中第3个候选字发送 (音码方案需要此键 分词，形码单独启用)
+      - { accept: apostrophe, send: 3, when: has_menu} 
+      # 简单鹤字根拆分显示开关
+      - { when: has_menu, accept: "Control+i", toggle: chaifen }     
+      # 固定词序or动态词序 临时切换开关
+      - { when: has_menu, accept: "Control+g", toggle: inflexible }     
+
+
+
+
 

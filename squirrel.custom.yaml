@@ -22,11 +22,11 @@ patch:
     # 如果将字体设置为 PingFangSC-Regular
     # 会让 🈶🈚️🉑🈲🉐 这几个 Emoji 失去彩色效果，留空反而可以显示。。。  
   style/font_face: "霞鹜文楷 GB 屏幕阅读版,MiSans L3"            # 候选词字体
-  style/font_point: 18                                         #候选字词大小
+  style/font_point: 17                                         #候选字词大小
 #  stylelabel_font_face: ""                                 # 候选编号字体
-  style/label_font_point: 15                               # 候选编号大小
+  style/label_font_point: 12                               # 候选编号大小
   style/comment_font_face: "Helvetica, TumanPUA"    # 注释字体
-  style/comment_font_point: 16                       # 注释字体字号
+  style/comment_font_point: 12                       # 注释字体字号
   style/candidate_format: '%c %@'                    # 标签字符
 
 
@@ -246,4 +246,4 @@ patch:
       hilited_comment_text_color: 0x0763EB    # 选中注释颜色
       text_color: 0xFF9F48                    # 拼音颜色 （inline_preedit: false）
       hilited_text_color: 0xFF9F48            # 选中拼音颜色 （inline_preedit: false）
-      border_color: 0xe3e3e3                       # 外边框颜色
+      border_color: 0xffffff                       # 外边框颜色
