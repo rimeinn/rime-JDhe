@@ -68,7 +68,8 @@ __patch:
 # 次翻译器固定词频
   - fixed/dictionary: whaleHe          # 挂载词库
   
-
+  # 反查显示编码的词库
+  - reverse_lookup_filter/dictionary: whaleHe
 
 
 
