@@ -125,7 +125,7 @@ use_preset_vocabulary: true
 柯利犬	ke;wj,wo;mk; li;ui;hd; quan;bb,xh;dd;	0
 克伦伯长猎犬	ke;sk;ue; lun;ea,xa;rb; bo;xs;rb; chang;uh;pn; lie;bv;qo; quan;bb,xh;dd;	0
 昆明犬	kun;va;ob; ming;vl;oo; quan;bb,xh;dd;	3
-拉不拉多	la;jb;fl; bu;dh;ad; la;jb;fl; duo;ff;xx;	2
+拉不拉多	la;jb;fl; bu;dh,df;ad; la;jb;fl; duo;ff;xx;	2
 拉布拉多猎犬	la;jb;fl; bu;sy,dy;uj; la;jb;fl; duo;ff;xx; lie;bv;qo; quan;bb,xh;dd;	1
 腊肠狗	la;lv;oo; chang;lu;op; gou;bi;qk;	5
 腊肠犬	la;lv;oo; chang;lu;op; quan;bb,xh;dd;	5
@@ -327,7 +327,7 @@ use_preset_vocabulary: true
 雪纳瑞	xue;ys;ye; na;ee;sn; rui;ae;we;	10
 英国古代牧羊犬	ying;zx,ze;cy; guo;na,nh;ky; gu;so;uk; dai;xa,xh;ry; mu;bj;nw; yang;fp;bl; quan;bb,xh;dd;	0
 藏獒	zang;zh;ci; ao;ab,ah;fq;	220
-暗脉菜粉蝶	an;vv;oo; mai;lh,lo;oy; cai;zw;cm; fen;li,lu;md; die;fw;im;	0
+暗脉菜粉蝶	an;vc,vv;oo; mai;lh,lo;oy; cai;zw;cm; fen;li,lu;md; die;fw;im;	0
 巴黎翠凤蝶	ba;tt;sl,vv; li;uo,uf;hu; cui;ds;xu; feng;il;jy; die;fw;im;	0
 白带凤蝶	bai;ss;po; dai;zy;fj; feng;il;jy; die;fw;im;	0
 白点褐蚬蝶	bai;ss;po; dian;pn;lh; he;hr;pv; xian;fk,fr;ie; die;fw;im;	0
@@ -348,7 +348,7 @@ use_preset_vocabulary: true
 橙黄豆粉蝶	cheng;wd;ma; huang;zf;cb; dou;dd;aa; fen;li,lu;md; die;fw;im;	0
 赤顶粉蝶	chi;gf,gi;td; ding;jm;dr; fen;li,lu;md; die;fw;im;	0
 齿缘红蛱蝶	chi;rp;vk; yuan;eh;su; hong;ep;sg; jia;fx;ij; die;fw;im;	0
-串珠环蝶	chuan;op;ll; zhu;ae;wv; huan;ah;wb; die;fw;im;	0
+串珠环蝶	chuan;op;ll; zhu;ae;wv; huan;ah,af;wb; die;fw;im;	0
 槌果藤粉蝶	chui;wq;mz; guo;vw;ln; teng;zo,zf;cu; fen;li,lu;md; die;fw;im;	0
 粗纹青斑蝶	cu;lu;mq; wen;ej;sw; qing;al;fo; ban;aj,aa;ww; die;fw;im;	0
 翠袖锯眼蝶	cui;ds;xu; xiu;hp;py; ju;do;jk; yan;sh;og; die;fw;im;	0
@@ -359,7 +359,7 @@ use_preset_vocabulary: true
 大纹白粉蝶	da;xx;un; wen;ej;sw; bai;ss;po; fen;li,lu;md; die;fw;im;	0
 大紫蛱蝶	da;xx;un; zi;rf;vx; jia;fx;ij; die;fw;im;	0
 淡纹青斑蝶	dan;kt;dh; wen;ej;sw; qing;al;fo; ban;aj,aa;ww; die;fw;im;	0
-地珠环蝶	di;gr,ga;ty; zhu;ae;wv; huan;ah;wb; die;fw;im;	0
+地珠环蝶	di;gr,ga;ty; zhu;ae;wv; huan;ah,af;wb; die;fw;im;	0
 电蛱蝶	dian;ee,ve;lv; jia;fx;ij; die;fw;im;	0
 颠眼蝶	dian;sm;ur; yan;sh;og; die;fw;im;	0
 东方菜粉蝶	dong;df,af;ad; fang;ff;dw; cai;zw;cm; fen;li,lu;md; die;fw;im;	0
@@ -370,7 +370,7 @@ use_preset_vocabulary: true
 飞龙粉蝶	fei;rh;vd; long;sh,dh;ud; fen;li,lu;md; die;fw;im;	0
 凤蝶	feng;il;jy; die;fw;im;	16
 凤尾青凤蝶	feng;il;jy; wei;qr,qa;um; qing;al;fo; feng;il;jy; die;fw;im;	0
-凤眼方环蝶	feng;il;jy; yan;sh;og; fang;ff;dw; huan;ah;wb; die;fw;im;	0
+凤眼方环蝶	feng;il;jy; yan;sh;og; fang;ff;dw; huan;ah,af;wb; die;fw;im;	0
 柑橘凤蝶	gan;wv;mg; ju;wo;mk; feng;il;jy; die;fw;im;	0
 果神粉蝶	guo;vw;ln; shen;hp;pu; fen;li,lu;md; die;fw;im;	0
 鹤顶粉蝶	he;ic;dn; ding;jm;dr; fen;li,lu;md; die;fw;im;	0
@@ -385,7 +385,7 @@ use_preset_vocabulary: true
 黑脉桦斑蝶	hei;nn;lh; mai;lh,lo;oy; hua;ws;mu; ban;aj,aa;ww; die;fw;im;	0
 黑脉园粉蝶	hei;nn;lh; mai;lh,lo;oy; yuan;nk;ke; fen;li,lu;md; die;fw;im;	0
 黑燕尾蚬蝶	hei;nn;lh; yan;vn;ah,nh; wei;qr,qa;um; xian;fk,fr;ie; die;fw;im;	0
-横纹环蝶	heng;wf;mb; wen;ej;sw; huan;ah;wb; die;fw;im;	0
+横纹环蝶	heng;wf;mb; wen;ej;sw; huan;ah,af;wb; die;fw;im;	0
 红灰蝶	hong;ep;sg; hui;dt,st;uh; die;fw;im;	0
 红襟粉蝶	hong;ep;sg; jin;hf;px; fen;li,lu;md; die;fw;im;	0
 红锯蛱蝶	hong;ep;sg; ju;do;jk; jia;fx;ij; die;fw;im;	0
@@ -406,10 +406,10 @@ use_preset_vocabulary: true
 黄扇蝶	huang;zf;cb; shan;qd;hx; die;fw;im;	0
 黄裳凤蝶	huang;zf;cb; shang;hk;xy; feng;il;jy; die;fw;im;	0
 黄帅蛱蝶	huang;zf;cb; shuai;py;lj; jia;fx;ij; die;fw;im;	0
-灰翅串珠环蝶	hui;dt,st;uh; chi;sd;ux; chuan;op;ll; zhu;ae;wv; huan;ah;wb; die;fw;im;	0
+灰翅串珠环蝶	hui;dt,st;uh; chi;sd;ux; chuan;op;ll; zhu;ae;wv; huan;ah,af;wb; die;fw;im;	0
 尖翅弄蝶	jian;px;xd; chi;sd;ux; nong;ap,az;wc; die;fw;im;	0
 尖翅银灰蝶	jian;px;xd; chi;sd;ux; yin;dh;jg; hui;dt,st;uh; die;fw;im;	0
-箭环蝶	jian;ni;vd; huan;ah;wb; die;fw;im;	0
+箭环蝶	jian;ni;vd; huan;ah,af;wb; die;fw;im;	0
 姜黄弄蝶	jiang;fy;yn; huang;zf;cb; nong;ap,az;wc; die;fw;im;	0
 金斑蝶	jin;ed,ef;ra; ban;aj,aa;ww; die;fw;im;	0
 金凤蝶	jin;ed,ef;ra; feng;il;jy; die;fw;im;	0
@@ -450,7 +450,7 @@ use_preset_vocabulary: true
 迁粉蝶	qian;sq;zq; fen;li,lu;md; die;fw;im;	0
 牵牛灰蝶	qian;xb;dn; niu;bb;pl; hui;dt,st;uh; die;fw;im;	0
 青斑蝶	qing;al;fo; ban;aj,aa;ww; die;fw;im;	0
-青城箭环蝶	qing;al;fo; cheng;gh;ti; jian;ni;vd; huan;ah;wb; die;fw;im;	0
+青城箭环蝶	qing;al;fo; cheng;gh;ti; jian;ni;vd; huan;ah,af;wb; die;fw;im;	0
 青凤蝶	qing;al;fo; feng;il;jy; die;fw;im;	0
 蜻蜓蝶	qing;fl;io; ting;fq;iz; die;fw;im;	0
 曲纹袖弄蝶	qu;pd,vp;la; wen;ej;sw; xiu;hp;py; nong;ap,az;wc; die;fw;im;	0
@@ -462,7 +462,7 @@ use_preset_vocabulary: true
 鼠李粉蝶	shu;sr;jv; li;wa;mz; fen;li,lu;md; die;fw;im;	0
 双色带蛱蝶	shuang;ll;yy; se;gt;db; dai;zy;fj; jia;fx;ij; die;fw;im;	0
 双尾蛱蝶	shuang;ll;yy; wei;qr,qa;um; jia;fx;ij; die;fw;im;	0
-双星箭环蝶	shuang;ll;yy; xing;vg,va;ou; jian;ni;vd; huan;ah;wb; die;fw;im;	0
+双星箭环蝶	shuang;ll;yy; xing;vg,va;ou; jian;ni;vd; huan;ah,af;wb; die;fw;im;	0
 双眼蚬蝶	shuang;ll;yy; yan;sh;og; xian;fk,fr;ie; die;fw;im;	0
 丝链荫眼蝶	si;ee,rd;va; lian;dq;jz; yin;zl;co; yan;sh;og; die;fw;im;	0
 碎斑凤蝶	sui;ts;uu; ban;aj,aa;ww; feng;il;jy; die;fw;im;	0
@@ -476,7 +476,7 @@ use_preset_vocabulary: true
 统帅青凤蝶	tong;ek;se; shuai;py;lj; qing;al;fo; feng;il;jy; die;fw;im;	0
 透翅斑蝶	tou;uq;zn; chi;sd;ux; ban;aj,aa;ww; die;fw;im;	0
 桅子灰蝶	wei;wt;mv; zi;aa;va; hui;dt,st;uh; die;fw;im;	0
-纹环蝶	wen;ej;sw; huan;ah;wb; die;fw;im;	0
+纹环蝶	wen;ej;sw; huan;ah,af;wb; die;fw;im;	0
 无尾灰蝶	wu;uk,ur;ay; wei;qr,qa;um; hui;dt,st;uh; die;fw;im;	0
 乌鸦凤蝶	wu;ud;pa; ya;dc;yn; feng;il;jy; die;fw;im;	0
 无趾弄蝶	wu;uk,ur;ay; zhi;gr;zv; nong;ap,az;wc; die;fw;im;	0
@@ -490,7 +490,7 @@ use_preset_vocabulary: true
 蚜灰蝶	ya;fu;iy; hui;dt,st;uh; die;fw;im;	0
 雅灰蝶	ya;da;yf; hui;dt,st;uh; die;fw;im;	0
 燕凤蝶	yan;vn;ah,nh; feng;il;jy; die;fw;im;	0
-烟环蝶	yan;td,tx;hd; huan;ah;wb; die;fw;im;	0
+烟环蝶	yan;tx;hd; huan;ah,af;wb; die;fw;im;	0
 瑶凤蝶	yao;ap;wf; feng;il;jy; die;fw;im;	0
 椰眼蝶	ye;wb;me; yan;sh;og; die;fw;im;	0
 异型紫斑蝶	yi;tp,tz;sc; xing;ug;kt; zi;rf;vx; ban;aj,aa;ww; die;fw;im;	0
@@ -499,10 +499,10 @@ use_preset_vocabulary: true
 玉斑凤蝶	yu;ah,aa;wd; ban;aj,aa;ww; feng;il;jy; die;fw;im;	0
 玉带蝶	yu;ah,aa;wd; dai;zy;fj; die;fw;im;	0
 玉带凤蝶	yu;ah,aa;wd; dai;zy;fj; feng;il;jy; die;fw;im;	0
-鱼纹环蝶	yu;qq;da; wen;ej;sw; huan;ah;wb; die;fw;im;	0
+鱼纹环蝶	yu;qq;da; wen;ej;sw; huan;ah,af;wb; die;fw;im;	0
 圆翅钩粉蝶	yuan;nm;kr; chi;sd;ux; gou;dp;js; fen;li,lu;md; die;fw;im;	0
 圆弧蛱蝶	yuan;nm;kr; hu;rh;gg; jia;fx;ij; die;fw;im;	0
-月纹矩环蝶	yue;ll;ka; wen;ej;sw; ju;er;uj; huan;ah;wb; die;fw;im;	0
+月纹矩环蝶	yue;ll;ka; wen;ej;sw; ju;er;uj; huan;ah,af;wb; die;fw;im;	0
 窄斑翠凤蝶	zhai;iu;bv; ban;aj,aa;ww; cui;ds;xu; feng;il;jy; die;fw;im;	0
 樟青凤蝶	zhang;ws;mu; qing;al;fo; feng;il;jy; die;fw;im;	0
 赭灰蝶	zhe;gv;to; hui;dt,st;uh; die;fw;im;	0
@@ -523,10 +523,10 @@ use_preset_vocabulary: true
 福犬	fu;hw;pt; quan;bb,xh;dd;	0
 雪橇犬	xue;ys;ye; qiao;wr,wa;mm; quan;bb,xh;dd;	20
 菜粉蝶	cai;zw;cm; fen;li,lu;md; die;fw;im;	6
-单环蛱蝶	dan;fs;bl; huan;ah;wb; jia;fx;ij; die;fw;im;	0
+单环蛱蝶	dan;fs;bl; huan;ah,af;wb; jia;fx;ij; die;fw;im;	0
 黑弄蝶	hei;nn;lh; nong;ap,az;wc; die;fw;im;	0
 蛱蝶	jia;fx;ij; die;fw;im;	12
-双环蛱蝶	shuang;ll;yy; huan;ah;wb; jia;fx;ij; die;fw;im;	0
+双环蛱蝶	shuang;ll;yy; huan;ah,af;wb; jia;fx;ij; die;fw;im;	0
 眼碟	yan;sh;og; die;tw;um;	0
 阿比西尼亚猫	a;bj,bo;ek; bi;aa;bb; xi;pp;aa; ni;qa;ub; ya;dd;ay; mao;bw;qt;	2
 埃及猫	ai;gx;tu; ji;uh,rh;pn; mao;bw;qt;	1

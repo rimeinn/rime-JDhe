@@ -47,7 +47,9 @@ encoder:
 剑	jme
 剪	jmq
 煎	jmq
-箭	jmw
+剪	jmqd
+煎	jmqh
+箭	jmvq
 景	jkg
 劫	jpq
 剧	jus
@@ -168,8 +170,8 @@ encoder:
 念道：“	nmjf
 暗道	anjf
 暗道：“	anjf
-之道	vijf
-一道	yijf
+惊道	jkjf
+惊道：“	jkjf
 回答道	hvdajf
 回答道：“	hvdajf
 笑骂道	xnmajf
@@ -213,6 +215,7 @@ encoder:
 贫道	pbjf
 跑道	pcjf
 坡道	pojf
+几道	jejf
 道别	jfbp
 道德	jfde
 道钉	jfdk
@@ -288,6 +291,8 @@ encoder:
 正道	vgjf
 证道	vgjf
 栈道	vjjf
+之道	vijf
+之道	vpjf
 王道	whjf
 弯道	wjjf
 味道	wwjf
@@ -295,6 +300,12 @@ encoder:
 邪道	xpjf
 修道	xqjf
 要道	ycjf
+一道	yijf
+一刀	yijf
+一到	yijf
+一道	eijf
+一刀	eijf
+一到	eijf
 远道	yrjf
 匝道	zajf
 打交道	dajnjf
@@ -357,237 +368,6 @@ encoder:
 远道而来	yrjferld
 怨声载道	yrugzdjf
 尊师重道	zyuivsjf
-第几	dije
-好几	hcje
-茶几	iaje
-初几	iuje
-几把	jeba
-几包	jebc
-几百	jebd
-几本	jebf
-几笔	jebi
-几班	jebj
-几柄	jebk
-几遍	jebm
-几波	jebo
-几拨	jebo
-几步	jebu
-几部	jebu
-几倍	jebw
-几杯	jebw
-几槽	jecc
-几册	jece
-几层	jecg
-几餐	jecj
-几撮	jeco
-几簇	jecu
-几大	jeda
-几打	jeda
-几道	jedc
-几代	jedd
-几袋	jedd
-几等	jedg
-几滴	jedi
-几担	jedj
-几石	jedj
-几顶	jedk
-几点	jedm
-几吊	jedn
-几朵	jedo
-几叠	jedp
-几段	jedr
-几栋	jeds
-几度	jedu
-几对	jedv
-几堆	jedv
-几顿	jedy
-几吨	jedy
-几发	jefa
-几封	jefg
-几方	jefh
-几番	jefj
-几副	jefu
-几幅	jefu
-几根	jegf
-几杆	jegj
-几管	jegr
-几弓	jegs
-几股	jegu
-几挂	jegx
-几滚	jegy
-几号	jehc
-几何	jehe
-几盒	jehe
-几行	jehh
-几伙	jeho
-几乎	jehu
-几户	jehu
-几回	jehv
-几黑	jehw
-几车	jeie
-几成	jeig
-几场	jeih
-几尺	jeii
-几床	jeil
-几串	jeir
-几重	jeis
-几处	jeiu
-几筹	jeiz
-几斤	jejb
-几近	jejb
-几级	jeji
-几经	jejk
-几件	jejm
-几间	jejm
-几角	jejn
-几届	jejp
-几节	jejp
-几丘	jejq
-几卷	jejr
-几觉	jejt
-几句	jeju
-几局	jeju
-几家	jejx
-几架	jejx
-几开	jekd
-几颗	jeke
-几棵	jeke
-几块	jekk
-几款	jekr
-几孔	jeks
-几阕	jekv
-几捆	jeky
-几口	jekz
-几拉	jela
-几粒	jeli
-几领	jelk
-几辆	jell
-几摞	jelo
-几列	jelp
-几溜	jelq
-几炉	jelu
-几率	jelv
-几缕	jelv
-几累	jelw
-几轮	jely
-几楼	jelz
-几码	jema
-几脉	jemd
-几门	jemf
-几米	jemi
-几名	jemk
-几面	jemm
-几秒	jemn
-几亩	jemu
-几枚	jemw
-几年	jenm
-几女	jenv
-几泡	jepc
-几排	jepd
-几盆	jepf
-几批	jepi
-几盘	jepj
-几瓶	jepk
-几篇	jepm
-几片	jepm
-几票	jepn
-几撇	jepp
-几铺	jepu
-几抔	jepz
-几顷	jeqb
-几起	jeqi
-几千	jeqm
-几帖	jeqp
-几圈	jeqr
-几拳	jeqr
-几区	jequ
-几曲	jequ
-几群	jeqy
-几人	jerf
-几日	jeri
-几丝	jesi
-几所	jeso
-几岁	jesv
-几艘	jesz
-几沓	jeta
-几套	jetc
-几台	jetd
-几趟	jeth
-几提	jeti
-几滩	jetj
-几坛	jetj
-几挺	jetk
-几天	jetm
-几条	jetn
-几贴	jetp
-几团	jetr
-几桶	jets
-几头	jetz
-几身	jeuf
-几声	jeug
-几十	jeui
-几扇	jeuj
-几双	jeul
-几束	jeuu
-几首	jeuz
-几手	jeuz
-几匝	jeva
-几招	jevc
-几帧	jevf
-几阵	jevf
-几张	jevh
-几章	jevh
-几丈	jevh
-几只	jevi
-几支	jevi
-几盏	jevj
-几桩	jevl
-几转	jevr
-几种	jevs
-几株	jevu
-几抓	jevx
-几周	jevz
-几文	jewf
-几万	jewj
-几窝	jewo
-几无	jewu
-几位	jeww
-几席	jexi
-几项	jexl
-几箱	jexl
-几线	jexm
-几些	jexp
-几下	jexx
-几旬	jexy
-几巡	jexy
-几引	jeyb
-几页	jeye
-几样	jeyh
-几亿	jeyi
-几眼	jeyj
-几月	jeyt
-几遭	jezc
-几载	jezd
-几则	jeze
-几宗	jezs
-几座	jezo
-几组	jezu
-几尊	jezy
-几毛	jemc
-几几	jeje
-几分	jeff
-几份	jeff
-几个	jege
-几次	jeci
-几进	jejb
-几选	jexr
-老几	lcje
-哪几	naje
-那几	naje
-前几	qmje
-十几	uije
-这几	veje
-周几	vzje
 笔直	biv
 不仅	bjo
 不止	bvl
@@ -833,7 +613,6 @@ encoder:
 一撇	eipp
 一赔	eipw
 一抔	eipz
-一盆	eipf
 一喷	eipf
 一起	eiqi
 一齐	eiqi
@@ -850,7 +629,6 @@ encoder:
 一热	eire
 一扔	eirg
 一人	eirf
-一扔	eirg
 一日	eiri
 一如	eiru
 一扫	eisc
@@ -975,15 +753,11 @@ encoder:
 一寸	eicy
 一层	eicg
 一方	eifh
-一位	eiww
-一味	eiww
 一座	eizo
-一股	eigu
 一家	eijx
 一架	eijx
 一会	eihv
 一回	eihv
-一段	eidr
 一边	eibm
 一遍	eibm
 一共	eigs
@@ -991,9 +765,7 @@ encoder:
 一行	eihh
 一天	eitm
 一套	eitc
-一番	eifj
 一看	eikj
-一面	eimm
 一声	eiug
 一生	eiug
 一份	eiff
@@ -1002,13 +774,8 @@ encoder:
 一般	eibj
 一半	eibj
 一瓣	eibj
-一眼	eiyj
-一场	eiih
-一丝	eisi
 一旦	eidj
 一块	eikk
-一年	einm
-一名	eimk
 一点	eidm
 一下	eixx
 一次	eici
@@ -1016,9 +783,7 @@ encoder:
 一处	eiiu
 一旁	eiph
 一肃	eisu
-一千	eiqm
 一诺	eino
-一人	eirf
 高一	gcei
 合一	heei
 初一	iuei
@@ -1243,6 +1008,8 @@ encoder:
 几周	jevz
 几文	jewf
 几万	jewj
+几碗	jewj
+几晚	jewj
 几窝	jewo
 几无	jewu
 几位	jeww
@@ -1270,7 +1037,6 @@ encoder:
 几尊	jezy
 几毛	jemc
 几几	jeje
-几分	jeff
 几份	jeff
 几个	jege
 几次	jeci
@@ -1308,6 +1074,7 @@ encoder:
 ～	op
 ~	op
 ！	oa
+&	oa
 ！！！	oa
 ！！！！！！！	oa
 ……	os
@@ -1321,44 +1088,46 @@ encoder:
 《	of
 》	oj
 <	of
-做法	of
 ^	of
 >	oj
-『	og
-』	ob
-「	og
-」	ob
+#	oj
+（	og
+）	oh
+[	og
+]	oh
 做过	og
 做个	og
-%	ob
-。”	oh
-！”	oh
-？”	oh
+_	oh
 说话	oh
-#	ok
-👌	ok
+￥	ok
+$	ok
 做客	ok
+👌	ok
 /	ol
 \	ol
 |	ol
 /简单鹤	ol
-（	oz
-[	oz
+【	oz
+】	oc
+{	oz
+}	oc
 *	ox
 或许	ox
 ♥	ox
 ♡	ox
-）	oc
-]	oc
 ——	ov
 —	ov
-_	ov
-【	on
-】	om
-{	on
-}	om
-做梦	om
-$	om
+-	ov
+。”	ob
+%	ob
+『	on
+』	om
+「	on
+」	om
+﹃	on
+﹄	om
+﹁	on
+﹂	om
 ！”	oae
 ？”	owe
 。”	oje
@@ -1398,6 +1167,9 @@ $	om
 嗯？	enw
 嗯！	ena
 嗯……	ens
+啦！	laa
+啦？	law
+啦……	las
 吗？”	mawe
 吗！”	maae
 吧！”	baae
@@ -1414,11 +1186,14 @@ $	om
 啥！”	uaae
 嗯？”	enwe
 嗯！”	enae
+啦？”	lawe
+啦！”	laae
 么……”	mese
 呢……”	nese
 哦……”	oose
 吧……”	base
 嗯……”	ense
+啦……”	lase
 也	a
 与	a
 一个	a
@@ -1694,8 +1469,9 @@ $	om
 帮助	bv
 保证	bv
 被	bw
-背	bw
+北	bw
 把我	bw
+帮我	bw
 必须	bx
 不想	bx
 不行	bx
@@ -1756,8 +1532,8 @@ $	om
 此乃	cn
 菜鸟	cn
 错	co
-①	co
-①	co
+此时	co
+×	co
 裁判	cp
 搭配	cp
 对象	cp
@@ -1855,8 +1631,9 @@ $	om
 的人	dr
 敌人	dr
 动	ds
-打算	ds
+东	ds
 第三	ds
+打算	ds
 点头	dt
 低头	dt
 大腿	dt
@@ -1867,7 +1644,7 @@ $	om
 倒是	du
 对	dv
 带着	dv
-堆	dv
+✓	dv
 对着	dv
 打	dw
 地位	dw
@@ -1880,6 +1657,7 @@ $	om
 遁	dy
 对于	dy
 都有	dy
+都	dz
 都在	dz
 肚子	dz
 恩爱	ea
@@ -2142,6 +1920,7 @@ $	om
 滚	gy
 过于	gy
 关于	gy
+够	gz
 各自	gz
 工作	gz
 哈	ha
@@ -2371,7 +2150,7 @@ $	om
 将来	jl
 剧烈	jl
 间	jm
-渐	jm
+简	jm
 见面	jm
 急忙	jm
 叫	jn
@@ -2409,8 +2188,9 @@ $	om
 脚趾	jv
 紧张	jv
 极为	jw
-绝望	jw
 今晚	jw
+绝望	jw
+较为	jw
 加	jx
 架	jx
 进行	jx
@@ -2510,8 +2290,8 @@ $	om
 口	kz
 扣	kz
 裤子	kz
-拉	la
 啦	la
+拉	la
 恋爱	la
 林	lb
 淋	lb
@@ -2752,8 +2532,9 @@ $	om
 那片	np
 哪怕	np
 牛	nq
-年轻	nq
 拿起	nq
+年轻	nq
+扭曲	nq
 暖	nr
 女人	nr
 男人	nr
@@ -2923,9 +2704,9 @@ $	om
 强迫	qp
 欺骗	qp
 求	qq
-求求	qq
 轻轻	qq
 悄悄	qq
+求求	qq
 全	qr
 确认	qr
 亲人	qr
@@ -3074,7 +2855,8 @@ $	om
 寺	si
 丝	si
 散	sj
-随机	sj
+手机	sj
+实际	sj
 司机	sj
 思考	sk
 随口	sk
@@ -3082,6 +2864,7 @@ $	om
 散开	sk
 算了	sl
 死了	sl
+实力	sl
 撕裂	sl
 什么	sm
 是吗	sm
@@ -3122,6 +2905,7 @@ $	om
 思维	sw
 思想	sx
 缩小	sx
+实现	sx
 私下	sx
 所以	sy
 是呀	sy
@@ -3213,6 +2997,7 @@ $	om
 提醒	tx
 天下	tx
 同学	tx
+挑选	tx
 同样	ty
 同意	ty
 讨厌	ty
@@ -3234,6 +3019,7 @@ $	om
 说道	ud
 说道：“	ud
 手段	ud
+收到	ud
 射	ue
 蛇	ue
 生意	ue
@@ -3524,6 +3310,7 @@ $	om
 相互	xh
 小孩	xh
 系	xi
+西	xi
 形成	xi
 现场	xi
 细节	xj
@@ -3558,6 +3345,7 @@ $	om
 信任	xr
 兄	xs
 凶	xs
+现实	xs
 迅速	xs
 学	xt
 相同	xt
@@ -3784,6 +3572,7 @@ $	om
 𣊫	oerih
 鍂	oerjb
 競	oerjk
+吅	oerkz
 龖	oerls
 𤘧	oernq
 㚣	oernv
@@ -3998,6 +3787,7 @@ $	om
 會	ofhv
 匯	ofhv
 迴	ofhv
+囬	ofhv
 話	ofhx
 畫	ofhx
 劃	ofhx
@@ -4164,7 +3954,6 @@ $	om
 為	ofww
 衛	ofww
 戰	ofvj
-專	ofvr
 習	ofxi
 係	ofxi
 戲	ofxi
@@ -6008,6 +5797,8 @@ $	om
 农作物	nzw
 偶尔间	oej
 偶然间	orj
+欧洲杯	ovb
+做准备	ovb
 皮包骨	pbg
 怕不怕	pbp
 配不上	pbu
@@ -6790,6 +6581,7 @@ $	om
 这些事	vxu
 中学生	vxu
 只想说	vxu
+展现着	vxv
 只希望	vxw
 只需要	vxy
 这一次	vyc
@@ -7627,6 +7419,7 @@ $	om
 座上宾	zub
 暂时性	zux
 再说下	zux
+做准备	zvb
 在这里	zvl
 自制力	zvl
 增长率	zvl
@@ -8061,12 +7854,7 @@ o(>ω<)o	ofyw
 （￣へ￣）	ofyw
 o(´^｀)o	ofyw
 (*ˉ﹃ˉ)	ofyw
-https://	http
-.com	com
-steam://install/	steam
-magnet:?xt=urn:btih:	xylw
-www.baidu.com	baidu
-https://pan.baidu.com/s/	whpj
+
 按	anf
 腌	aao
 吖	aak
@@ -8564,8 +8352,8 @@ https://pan.baidu.com/s/	whpj
 逋	buzf
 备	bww
 倍	bwr
-北	bwl
 背	bwl
+北	bwl
 背	bwlo
 呗	bwk
 贝	bwk
@@ -8710,6 +8498,7 @@ https://pan.baidu.com/s/	whpj
 醭	buyn
 蔀	buc
 鞴	bwgy
+鞁	bwgy
 鐾	bwuj
 庳	bwgu
 椑	bwmu
@@ -9431,7 +9220,6 @@ https://pan.baidu.com/s/	whpj
 墩	dytw
 盹	dyot
 沌	dydt
-都	dz
 逗	dzz
 斗	dzd
 豆	dza
@@ -10393,7 +10181,6 @@ https://pan.baidu.com/s/	whpj
 辊	gyi
 棍	gymb
 辊	gyib
-够	gz
 狗	gzq
 沟	gzd
 购	gzk
@@ -11921,6 +11708,8 @@ https://pan.baidu.com/s/	whpj
 舰	jmve
 健	jmrz
 箭	jmvd
+箭	jmv
+笕	jmv
 简	jmv
 捡	jmf
 剪	jmbd
@@ -12260,8 +12049,8 @@ https://pan.baidu.com/s/	whpj
 筠	jyvd
 浚	jydw
 鸡蛋	jidj
-忌惮	jidj
 汲	jidj
+忌惮	jidj
 漈	jidx
 璟	jkwx
 蒹	jmcn
@@ -12468,7 +12257,6 @@ https://pan.baidu.com/s/	whpj
 监	jml
 槛	jmm
 僭	jmr
-笕	jmv
 戬	jmy
 醮	jny
 诘	jpy
@@ -12868,7 +12656,7 @@ https://pan.baidu.com/s/	whpj
 堀	kut
 砢	keuk
 㙓	kvtt
-立	liwa
+拉	laf
 啦	lak
 辣	lal
 腊	lao
@@ -13012,6 +12800,7 @@ https://pan.baidu.com/s/	whpj
 礼	lip
 莉	lic
 历	lii
+立	liwa
 粒	liml
 梨	lihm
 厉	liiw
@@ -14192,7 +13981,6 @@ https://pan.baidu.com/s/	whpj
 𬇕	mjdw
 𬙊	most
 𬭁	mujm
-吗	ma
 民	mbvv
 们	mfrm
 𫞩	mfwl
@@ -16117,7 +15905,6 @@ https://pan.baidu.com/s/	whpj
 塌	tatx
 嗒	takk
 獭	taqr
-套	tc
 淘	tcdf
 陶	tce
 逃	tcz
@@ -18023,6 +17810,7 @@ https://pan.baidu.com/s/	whpj
 围	wwkw
 薇	wwc
 委	wwh
+魏	wwh
 惟	wwxf
 危	wwd
 谓	wwy
@@ -19635,7 +19423,6 @@ https://pan.baidu.com/s/	whpj
 鋆	yytj
 麀	yzgb
 衙	yai
-吖	yak
 讶	yay
 龈	ybv
 漾	yhd
@@ -21788,7 +21575,6 @@ B超	biic
 半仙	bjxm
 不尽相同	bjxt
 不介意	bjy
-不建议	bjy
 不经意	bjy
 不经意间	bjy
 板鸭	bjya
@@ -24774,9 +24560,6 @@ B超	biic
 操作系统	czxt
 凑足	czzu
 惨淡经营	cdjy
-词频	cipb
-赐予	ciyu
-错失	coui
 答案	daan
 大碍	daai
 大爱	daai
@@ -28459,7 +28242,6 @@ B超	biic
 都江堰	djy
 电视剧	duj
 单引号	dyh
-大涨	davh
 大侠	daxx
 多此一举	dcyj
 大打出手	ddiu
@@ -30913,7 +30695,6 @@ B超	biic
 沸沸扬扬	ffyy
 放火	fhho
 飞来飞去	flfq
-浮标	fubn
 肥水不流外人田	fubt
 分身乏术	fufu
 付费	fufw
@@ -34894,7 +34675,6 @@ B超	biic
 花开两朵，各表一枝	hklv
 航空母舰	hkmj
 怀念	hknm
-很可能是	hknu
 海阔凭鱼跃	hkpy
 坏人	hkrf
 怀柔	hkrz
@@ -36173,7 +35953,6 @@ B超	biic
 黑奴	hwnu
 黑屏	hwpk
 黑皮	hwpi
-核武器	hwq
 黑气	hwqi
 黑骑	hwqi
 黑旗	hwqi
@@ -37145,7 +36924,6 @@ B超	biic
 拆解	idjp
 拆借	idjp
 赤道几内亚	idjy
-吃得开	idk
 拆开	idkd
 吃得苦中苦	idkk
 吃得苦中苦，方为人上人	idkr
@@ -37844,11 +37622,13 @@ B超	biic
 痴呆	iidd
 吃定	iidk
 吃点	iidm
+迟点	iidm
 吃掉	iidn
 褫夺	iido
 楚楚动人	iidr
 尺度	iidu
 迟钝	iidy
+持盾	iidy
 吃饭	iifj
 吃法	iifa
 吃光	iigl
@@ -37861,18 +37641,25 @@ B超	biic
 吃货	iiho
 吃吃喝喝	iihh
 迟缓	iihr
+弛缓	iihr
 赤红	iihs
 吃荤	iihy
 赤橙黄绿青蓝紫	iihz
 驰骋	iiig
+赤诚	iiig
+吃撑	iiig
 迟迟	iiii
+痴痴	iiii
 吃穿	iiir
+吃串	iiir
 吃茶	iiia
 持久	iijq
+吃酒	iijq
 吃紧	iijb
 驰骋疆场	iiji
 长长久久	iijj
 吃惊	iijk
+吃鲸	iijk
 赤脚	iijn
 持家	iijx
 持戒	iijp
@@ -37886,15 +37673,21 @@ B超	biic
 迟了	iil
 迟来	iild
 吃了	iile
+迟了	iile
+痴了	iile
 齿冷	iilg
 吃力	iili
 赤裸	iilo
 哧溜	iilq
+吃辣	iila
 嗤啦	iila
 齿轮	iily
 敕令	iilk
 尺码	iima
+吃吗	iima
+斥骂	iima
 痴迷	iimi
+侈靡	iimi
 驰名	iimk
 初出茅庐	iiml
 吃面	iimm
@@ -37912,17 +37705,22 @@ B超	biic
 持枪	iiql
 炽热	iire
 吃人	iirf
+痴人	iirf
 吵吵嚷嚷	iirr
 耻辱	iiru
+吃入	iiru
 吃肉	iirz
 吃素	iisu
 池塘	iith
+吃糖	iith
 吃透	iitz
 吃剩	iiug
+炽盛	iiug
 赤身	iiuf
 吃屎	iiui
 吃上	iiuh
 赤手	iiuz
+吃手	iiuz
 吃水	iiuv
 叱咤	iiva
 唇齿之邦	iivb
@@ -37930,6 +37728,7 @@ B超	biic
 吃着	iive
 迟滞	iivi
 持重	iivs
+翅中	iivs
 吃住	iivu
 吃准	iivy
 吃穿住行	iivx
@@ -37939,14 +37738,23 @@ B超	biic
 迟误	iiwu
 颤颤巍巍	iiww
 痴心	iixb
+赤心	iixb
 耻笑	iixn
+嗤笑	iixn
+痴笑	iixn
 持续	iixu
 吃些	iixp
+迟些	iixp
+持械	iixp
 吃相	iixl
+吃翔	iixl
+吃香	iixl
 吃下	iixx
 唇齿相依	iixy
 赤诚相待	iixd
 持有	iiyz
+蚩尤	iiyz
+豉油	iiyz
 吃药	iiyc
 蠢蠢欲动	iiyd
 迟疑	iiyi
@@ -37954,6 +37762,7 @@ B超	biic
 驰援	iiyr
 绰绰有余	iiyy
 迟早	iizc
+吃枣	iizc
 斥责	iize
 池子	iizi
 尺子	iizi
@@ -37966,13 +37775,16 @@ B超	biic
 产地	ijdi
 颤动	ijds
 颤抖	ijdz
+缠斗	ijdz
 禅定	ijdk
 超级大国	ijdg
 穿金戴银	ijdy
 初见端倪	ijdn
 阐发	ijfa
 产房	ijfh
+禅房	ijfh
 搀扶	ijfu
+产妇	ijfu
 成绩斐然	ijfr
 馋鬼	ijgv
 初具规模	ijgm
@@ -37982,9 +37794,12 @@ B超	biic
 掺和	ijho
 忏悔	ijhv
 产后	ijhz
-吹尽黄沙始到金	ijhj
 潺潺	ijij
+颤颤	ijij
+铲铲	ijij
 产出	ijiu
+铲除	ijiu
+蟾蜍	ijiu
 馋虫	ijis
 铲车	ijie
 初见成效	ijix
@@ -37992,16 +37807,19 @@ B超	biic
 缠结	ijjp
 婵娟	ijjr
 产假	ijjx
+掺假	ijjx
 产科	ijke
 春节快乐	ijkl
 吃尽苦头	ijkt
 产量	ijll
+产粮	ijll
 蝉联	ijlm
 产卵	ijlr
 掣襟露肘	ijlv
 成家立业	ijly
 馋猫	ijmc
 阐明	ijmk
+蝉鸣	ijmk
 缠绵	ijmm
 谄媚	ijmw
 产能	ijng
@@ -38022,7 +37840,11 @@ B超	biic
 蝉蜕	ijtv
 缠身	ijuf
 产生	ijug
+颤声	ijug
+蝉声	ijug
+禅师	ijui
 阐释	ijui
+铲屎	ijui
 触景生情	ijuq
 阐述	ijuu
 掺水	ijuv
@@ -38032,13 +37854,17 @@ B超	biic
 产值	ijvi
 长久之计	ijvj
 产物	ijwu
+谄笑	ijxn
 产销	ijxn
 颤音	ijyb
 产业	ijye
 谗言	ijyj
-产于	ijyu
+禅语	ijyu
+单于	ijyu
+谄谀	ijyu
 除旧迎新	ijyx
 掺杂	ijza
+铲子	ijzi
 产自	ijzi
 缠足	ijzu
 馋嘴	ijzv
@@ -38046,9 +37872,9 @@ B超	biic
 揣测	ikce
 揣度	ikdo
 插科打诨	ikdh
-冲口而出	ikei
 出口成章	ikiv
 揣摩	ikmo
+揣摸	ikmo
 吃苦耐劳	iknl
 出口伤人	ikur
 揣进	ikjb
@@ -38063,7 +37889,10 @@ B超	biic
 吃了豹子胆	ilbd
 吃力不讨好	ilbh
 创办	ilbj
+床板	ilbj
 床边	ilbm
+窗边	ilbm
+创编	ilbm
 吃粮不管事	ilbu
 川流不息	ilbx
 闯荡	ildh
@@ -38085,52 +37914,73 @@ B超	biic
 闯进	iljb
 创建	iljm
 床脚	iljn
+床角	iljn
 创举	ilju
+床具	ilju
 窗口	ilkz
+创口	ilkz
+疮口	ilkz
 创刊	ilkj
 乘龙快婿	ilkx
 出了口气	ilkq
 创立	illi
+创利	illi
 窗棂	illk
 窗帘	illm
+床帘	illm
 创面	ilmm
 出了名的	ilmd
 触类旁通	ilpt
 床铺	ilpu
 吃里扒外	ilpw
 窗前	ilqm
-吃了枪子	ilqz
+床前	ilqm
 春兰秋菊	ilqj
 怆然	ilrj
 闯入	ilru
+床褥	ilru
 床头	iltz
+创投	iltz
 床榻	ilta
 窗台	iltd
 创痛	ilts
+怆痛	ilts
 垂帘听政	iltv
+窗体	ilti
+床体	ilti
+①	ilti
 吹拉弹唱	ilti
 初露头角	iltj
 床上	ilu
 创设	ilue
+床上	iluh
 创伤	iluh
 创始	ilui
+创世	ilui
 创收	iluz
 窗纱	ilua
 床罩	ilvc
+床照	ilvc
 初来乍到	ilvd
 创制	ilvi
 窗外	ilwd
 床位	ilww
+床尾	ilww
+创维	ilww
 创新	ilxb
 创下	ilxx
+床下	ilxx
+窗下	ilxx
 吃了熊心豹子胆	ilxd
 创意	ilyi
 创业	ilye
-吃了一惊	ilyj
+床沿	ilyj
+窗沿	ilyj
 出了一口气	ilyq
 创优	ilyz
 创造	ilzc
 窗子	ilzi
+床笫	ilzi
 创作	ilzo
 沉默不语	imby
 出毛病了	imbl
@@ -38222,46 +38072,67 @@ IP地址	ipdv
 出去一下	iqyx
 出去走走	iqzz
 穿帮	irbh
+船帮	irbh
 宠辱不惊	irbj
 传遍	irbm
+船边	irbm
 传播	irbo
+船舶	irbo
 吃人不吐骨头	irbt
 川贝	irbw
 吃软不吃硬	irby
 成人不自在	irbz
 川菜	ircd
+传菜	ircd
 船舱	irch
 穿刺	irci
+串词	irci
 传导	ird
 传达	irda
+穿搭	irda
+川大	irda
 传到	irdc
+传导	irdc
+传道	irdc
 穿戴	irdd
+传代	irdd
 传荡	irdh
 穿裆	irdh
 传递	irdi
+船底	irdi
 传单	irdj
 趁热打铁	irdt
 船队	irdv
 传动	irds
+船东	irds
 吃软饭	irf
 船夫	irfu
 船帆	irfj
+穿反	irfj
 穿过	irgo
+传国	irgo
+船工	irgs
+传功	irgs
 串供	irgs
 传给	irgw
 传感	irgj
 穿好	irhc
 串行	irhh
+川航	irhh
 传唤	irhr
+穿环	irhr
 传呼	irhu
 传话	irhx
 传出	iriu
 串场	irih
+传唱	irih
 穿插	iria
 传抄	iric
 传承	irig
+穿成	irig
 串串	irir
 船桨	irjl
+串讲	irjl
 传教	irjn
 川剧	irju
 宠辱皆忘	irjw
@@ -38271,13 +38142,17 @@ IP地址	ipdv
 串口	irkz
 传来	irld
 传令	irlk
+船龄	irlk
 串联	irlm
+串连	irlm
 常任理事国	irlg
 串门	irmf
 传媒	irmw
 船票	irpn
+传票	irpn
 穿破	irpo
 传奇	irqi
+喘气	irqi
 穿墙	irql
 传球	irqq
 成仁取义	irqy
@@ -38287,21 +38162,33 @@ IP地址	ipdv
 传人	irrf
 传入	irru
 传送	irss
+传颂	irss
+传诵	irss
 穿梭	irso
 串通	irt
 出人头地	irtd
 传统	irts
+串通	irts
 穿透	irtz
+船头	irtz
 传说	iruo
 传神	iruf
+船身	iruf
 穿上	iruh
+船上	iruh
 传世	irui
 痴人说梦	irum
 串烧	iruc
 传输	iruu
+传书	iruu
+川蜀	iruu
+穿书	iruu
 传授	iruz
+船首	iruz
 穿着	irve
+喘着	irve
 传真	irvf
+穿针	irvf
 船长	irvh
 船只	irvi
 成人之美	irvm
@@ -38309,30 +38196,39 @@ IP地址	ipdv
 传召	irvc
 传中	irvs
 船主	irvu
+串珠	irvu
 船闸	irva
 趁人之危	irvw
 传闻	irwf
 超然物外	irww
 船坞	irwu
+船务	irwu
+传武	irwu
 传信	irxb
 穿心	irxb
 船新	irxb
 耻辱下播	irxb
 仇人相见，分外眼红	irxh
 喘息	irxi
+川西	irxi
+串戏	irxi
 穿行	irxk
 船舷	irxm
 传销	irxn
 穿鞋	irxp
 传讯	irxy
 传言	iryj
+串演	iryj
+穿烟	iryj
 传扬	iryh
 穿衣	iryi
+传艺	iryi
 传谣	iryc
 出人意料	iryl
 出人意外	iryw
 传音	iryb
 船运	iryy
+穿云	iryy
 船员	iryr
 穿越	iryt
 传阅	iryt
@@ -38342,13 +38238,17 @@ IP地址	ipdv
 崇拜	isbd
 抽丝剥茧	isbj
 重播	isbo
+重拨	isbo
 虫草	iscc
+重操	iscc
 冲刺	isci
+充磁	isci
 差三错四	iscs
 冲动	isd
 冲动	isds
 虫洞	isds
 重打	isda
+崇达	isda
 撑死胆大的	isdd
 充当	isdh
 冲淡	isdj
@@ -38356,10 +38256,14 @@ IP地址	ipdv
 冲掉	isdn
 重叠	isdp
 宠儿	iser
+虫儿	iser
 充分	isff
+宠粉	isff
 冲锋	isfg
+重逢	isfg
 重返	isfj
 重复	isfu
+冲服	isfu
 冲高	isg
 崇高	isgc
 冲过	isgo
@@ -38368,33 +38272,52 @@ IP地址	ipdv
 重合	ishe
 宠坏	ishk
 重获	isho
+重活	isho
 虫害	ishd
 重回	ishv
+冲回	ishv
+冲毁	ishv
 重婚	ishy
+冲昏	ishy
 冲茶	isia
+重插	isia
 重重	isis
+冲冲	isis
+虫虫	isis
 重唱	isih
+充场	isih
 充斥	isii
 冲出	isiu
+重出	isiu
 冲进	isjb
+冲劲	isjb
+重进	isjb
 冲击	isji
 充饥	isji
 冲剂	isji
 憧憬	isjk
+崇敬	isjk
 重建	isjm
+重见	isjm
 重聚	isju
 充军	isjy
 重开	iskd
+冲开	iskd
 冲垮	iskx
 冲凉	isll
+冲量	isll
 重来	isld
 冲浪	islh
 冲力	isli
 虫卵	islr
+冲乱	islr
 重连	islm
+重练	islm
+冲烂	islj
 沉思良久	islj
 充满	ismj
 重码	isma
+虫鸣	ismk
 重名	ismk
 宠溺	isni
 冲破	ispo
@@ -38405,6 +38328,7 @@ IP地址	ipdv
 充气	isqi
 宠妻	isqi
 冲入	isru
+宠辱	isru
 重塑	issu
 充塞	isse
 重孙	issy
@@ -38412,26 +38336,41 @@ IP地址	ipdv
 冲突	istu
 重提	isti
 冲天	istm
+充填	istm
 充实	isui
+重拾	isui
+重试	isui
 冲杀	isua
 重设	isue
 重申	isuf
 重生	isug
+冲绳	isug
 崇尚	isuh
 充数	isuu
 冲刷	isux
+重刷	isux
 冲着	isve
+宠着	isve
 重振	isvf
+崇祯	isvf
 重整	isvg
 充值	isvi
+重置	isvi
 冲撞	isvl
+重装	isvl
+重铸	isvu
 虫蛀	isvu
 垂死挣扎	isvv
 重温	iswf
+崇文	iswf
+宠文	iswf
 宠物	iswu
+崇武	iswu
 重围	isww
 重新	isxb
+宠信	isxb
 冲洗	isxi
+冲喜	isxi
 宠幸	isxk
 冲向	isxl
 重现	isxm
@@ -38439,22 +38378,28 @@ IP地址	ipdv
 重写	isxp
 重修	isxq
 充血	isxt
+重学	isxt
 重下	isxx
+冲下	isxx
 充裕	isyu
 冲呀	isya
 冲鸭	isya
-冲压	isya
 虫牙	isya
 重演	isyj
+虫眼	isyj
 充盈	isyk
 重影	isyk
 重阳	isyh
+重样	isyh
 充溢	isyi
 畅所欲言	isyy
 重组	isz
 虫子	iszi
 充足	iszu
+重组	iszu
+虫族	iszu
 冲走	iszz
+重奏	iszz
 长痛不如短痛	itbt
 丑态百出	itbi
 长途跋涉	itbu
@@ -38483,67 +38428,119 @@ IP地址	ipdv
 出殡	iubb
 出手不凡	iubf
 出版	iubj
+初版	iubj
 出兵	iubk
 长生不老	iubl
 储备	iubw
 成事不足	iubz
 成事不足，败事有余	iuby
 储存	iucy
+出村	iucy
 除草	iucc
+锄草	iucc
 出彩	iucd
+楚菜	iucd
 储藏	iuch
 初次	iuci
+楚辞	iuci
 出错	iuco
 出道	iudc
+出刀	iudc
+初到	iudc
 初等	iudg
 触底	iudi
+触地	iudi
+锄地	iudi
 触电	iudm
+触点	iudm
+厨电	iudm
 除掉	iudn
+出掉	iudn
+出动	iuds
 触动	iuds
+初冬	iuds
+出洞	iuds
 初二	iuer
+雏儿	iuer
 抽身而去	iueq
 出发	iufa
 触发	iufa
 处罚	iufa
 处分	iuff
+出分	iuff
 厨房	iufh
+处方	iufh
 触犯	iufj
+初犯	iufj
 出水芙蓉	iufr
 除非	iufw
 橱柜	iug
 初稿	iugc
 出港	iugh
 出格	iuge
+楚歌	iuge
 触感	iugj
 出国	iugo
+出锅	iugo
+楚国	iugo
 出轨	iugv
+橱柜	iugv
+出柜	iugv
+出鬼	iugv
+出海	iuhd
 除害	iuhd
 出汗	iuhj
+楚汉	iuhj
 出货	iuho
 出乎	iuhu
+储户	iuhu
 出差	iuid
+出尘	iuif
 除尘	iuif
 初春	iuiy
 出城	iuig
+初成	iuig
+褚橙	iuig
 出场	iuih
+出厂	iuih
 出产	iuij
 橱窗	iuil
+初创	iuil
 除虫	iuis
+出处	iuiu
 处处	iuiu
+楚楚	iuiu
 出丑	iuiz
+除臭	iuiz
 出尽	iujb
+除尽	iujb
+初进	iujb
+出金	iujb
 初级	iuji
 触及	iuji
 出击	iuji
 初见	iujm
+出剑	iujm
+锄奸	iujm
 常胜将军	iujj
 处境	iujk
 崇山峻岭	iujl
 触角	iujn
+触礁	iujn
+出脚	iujn
+出界	iujp
 出借	iujp
+出街	iujp
+初阶	iujp
+触觉	iujt
 处决	iujt
 出局	iuju
+出具	iuju
+厨具	iuju
+雏菊	iuju
 出家	iujx
+出嫁	iujx
+出价	iujx
 初始阶段	iujd
 出口	iukz
 除开	iukd
@@ -38552,23 +38549,32 @@ IP地址	ipdv
 触控	iuks
 触手可及	iukj
 处理	iuli
+矗立	iuli
+出力	iuli
 出来	iuld
+初来	iuld
 除了	iule
 储量	iull
+储粮	iull
 初恋	iulm
 出落	iulo
 出笼	iuls
 赤身裸体	iult
 出路	iulu
+出炉	iulu
+初露	iulu
 出列	iulp
 出马	iuma
 出卖	iumd
 出门	iumf
 出名	iumk
+除名	iumk
 车水马龙	iuml
 抽水马桶	iumt
 出面	iumm
 触摸	iumo
+出没	iumo
+除魔	iumo
 触目	iumu
 处女	iunv
 出纳	iuna
@@ -38577,22 +38583,32 @@ IP地址	ipdv
 承受能力	iunl
 初生牛犊不怕虎	iunh
 处男	iunj
+雏男	iunj
 初年	iunm
 触怒	iunu
 出品	iupb
 出牌	iupd
 触碰	iupg
 触屏	iupk
+初评	iupk
 出去	iuqu
+除去	iuqu
 出勤	iuqb
 初期	iuqi
+出气	iuqi
+出奇	iuqi
+初七	iuqi
 出钱	iuqm
 出鞘	iuqn
+出窍	iuqn
+出糗	iuqq
 初秋	iuqq
-除权	iuqr
+出拳	iuqr
+出圈	iuqr
 除却	iuqt
 承上启下	iuqx
 出任	iurf
+楚人	iurf
 出神入化	iurh
 出生入死	iurs
 出双入对	iurd
@@ -38600,71 +38616,119 @@ IP地址	ipdv
 初入	iuru
 初赛	iusd
 出色	iuse
+除色	iuse
 处死	iusi
 初三	iusj
 处所	iuso
 出头	iutz
+锄头	iutz
 出逃	iutc
 出台	iutd
 出挑	iutn
 出题	iuti
 初探	iutj
+出摊	iutj
 出庭	iutk
+初听	iutk
 触痛	iuts
 出土	iutu
+出图	iutu
 出身	iuuf
+出神	iuuf
+初审	iuuf
+厨神	iuuf
 出生	iuug
+畜生	iuug
+出声	iuug
+畜牲	iuug
 厨师	iuui
+初始	iuui
+出示	iuui
+出事	iuui
 出山	iuuj
 出水	iuuv
+出手	iuuz
 出售	iuuz
+触手	iuuz
 除霜	iuul
 诚实守信	iuux
 出招	iuvc
 出诊	iuvf
 出征	iuvg
 处长	iuvh
+出掌	iuvh
+出账	iuvh
 处置	iuvi
+储值	iuvi
+出战	iuvj
 出站	iuvj
+①	iuvj
+乘胜追击	iuvj
+出众	iuvs
 初中	iuvs
 初衷	iuvs
-出众	iuvs
 初始状态	iuvt
 除外	iuwd
 初吻	iuwf
 触网	iuwh
 储物	iuwu
+初五	iuwu
+除雾	iuwu
 出师未捷	iuwj
 出席	iuxi
+出息	iuxi
+除夕	iuxi
+出戏	iuxi
+出行	iuxk
 雏形	iuxk
+处刑	iuxk
 出现	iuxm
+出线	iuxm
+初现	iuxm
 初心	iuxb
+出血	iuxt
 初学	iuxt
+初雪	iuxt
+除雪	iuxt
 储蓄	iuxu
+触须	iuxu
 初夏	iuxx
 春生夏长	iuxv
 出巡	iuxy
 纯属虚构	iuxg
 出于	iuy
 初夜	iuye
+厨艺	iuyi
 初一	iuyi
+处以	iuyi
+除以	iuyi
 出演	iuyj
 出院	iuyr
+初愿	iuyr
 处于	iuyu
+出于	iuyu
+出狱	iuyu
+初遇	iuyu
 出游	iuyz
+出油	iuyz
 纯属意外	iuyw
 处在	iuzd
 出自	iuzi
+出资	iuzi
+厨子	iuzi
+处子	iuzi
 成事在天	iuzt
 处事作风	iuzf
 出租	iuzu
 出走	iuzz
-城市大学	iudx
 垂爱	ivai
 捶背	ivbw
-常抓不懈	ivbx
 垂钓	ivdn
+吹掉	ivdn
 捶打	ivda
+锤打	ivda
+吹打	ivda
+吹到	ivdc
 吹倒	ivdc
 吹灯	ivdg
 沉重代价	ivdj
@@ -38684,11 +38748,16 @@ IP地址	ipdv
 吹了	ivle
 吹来	ivld
 锤炼	ivlm
+垂怜	ivlm
+垂帘	ivlm
 垂柳	ivlq
 垂泪	ivlw
+吹擂	ivlw
 吹落	ivlo
+垂落	ivlo
 吹灭	ivmp
 垂暮	ivmu
+垂目	ivmu
 晨钟暮鼓	ivmg
 陈芝麻烂谷子	ivmz
 揣着明白装糊涂	ivmt
@@ -38699,11 +38768,15 @@ IP地址	ipdv
 吹破	ivpo
 沉住气	ivq
 吹气	ivqi
+吹起	ivqi
 垂青	ivqk
+垂情	ivqk
 重整旗鼓	ivqg
 传之其人	ivqr
 垂死	ivsi
 吹散	ivsj
+垂头	ivtz
+锤头	ivtz
 吹头	ivtz
 处之泰然	ivtr
 捶腿	ivtv
@@ -38711,6 +38784,7 @@ IP地址	ipdv
 吹哨	ivuc
 吹水	ivuv
 垂首	ivuz
+垂手	ivuz
 垂直	ivvi
 吹着	ivve
 池中之物	ivvw
@@ -38721,6 +38795,7 @@ IP地址	ipdv
 成者王侯败者寇	ivwk
 垂涎	ivxm
 吹响	ivxl
+吹向	ivxl
 吹箫	ivxn
 吹嘘	ivxu
 垂下	ivxx
@@ -38732,6 +38807,7 @@ IP地址	ipdv
 炊烟	ivyj
 穿针引线	ivyx
 吹奏	ivzz
+吹走	ivzz
 锤子	ivzi
 成竹在胸	ivzx
 成王败寇	iwbk
@@ -38742,7 +38818,6 @@ IP地址	ipdv
 传为佳话	iwjh
 重温旧梦	iwjm
 成为可能	iwkn
-出问题了	iwtl
 查无实据	iwuj
 常务委员会	iwwh
 常务委员	iwwy
@@ -38757,7 +38832,6 @@ IP地址	ipdv
 乘兴而来	ixel
 丑媳妇总得见公婆	ixfp
 吃香喝辣	ixhl
-船小好调头	ixht
 诚心诚意	ixiy
 吃现成饭	ixif
 处心积虑	ixjl
@@ -38775,7 +38849,6 @@ IP地址	ipdv
 吃相太难看	ixtk
 长袖善舞	ixuw
 喘息之间	ixvj
-抽薪止沸	ixvf
 城下之盟	ixvm
 痴心妄想	ixwx
 喘息未定	ixwd
@@ -38790,11 +38863,14 @@ IP地址	ipdv
 迟疑不决	iybj
 吃哑巴亏	iybk
 出言不逊	iybx
+蠢材	iycd
+唇彩	iycd
 蠢才	iycd
 春蚕	iycj
 纯粹	iycv
 愁云惨雾	iycw
 蠢蛋	iydj
+纯单	iydj
 纯度	iydu
 差一点点	iydd
 穿衣打扮	iydb
@@ -38809,9 +38885,11 @@ IP地址	ipdv
 春宫	iygs
 春花	iyhx
 春寒	iyhj
+蠢汉	iyhj
 蠢货	iyho
 春晖	iyhv
 醇厚	iyhz
+淳厚	iyhz
 唇齿	iyii
 春茶	iyia
 春潮	iyic
@@ -38821,24 +38899,30 @@ IP地址	ipdv
 茶余酒后	iyjh
 春季	iyji
 纯净	iyjk
+春景	iyjk
+唇间	iyjm
 纯碱	iyjm
 纯洁	iyjp
+春节	iyjp
 春卷	iyjr
 差远了	iyl
 纯利	iyli
+春丽	iyli
 春联	iylm
 春意阑珊	iylu
 蠢驴	iylv
 春雷	iylw
 沉鱼落雁	iyly
 沉冤莫白	iymb
-纯毛	iymc
+唇毛	iymc
+蠢萌	iymg
 春梦	iymg
 纯棉	iymm
 崇洋媚外	iymw
 彻夜难眠	iynm
 出淤泥而不染	iynr
 淳朴	iypu
+纯朴	iypu
 穿云破雾	iypw
 春秋	iyqq
 纯情	iyqk
@@ -38849,17 +38933,25 @@ IP地址	ipdv
 尺有所短，寸有所长	iysi
 尺有所短	iysd
 春色	iyse
+唇色	iyse
+纯色	iyse
 春笋	iysy
 春天	iytm
 穿一条裤子	iytz
 纯属	iyuu
+纯熟	iyuu
+椿树	iyuu
 唇舌	iyue
 蠢事	iyui
+春水	iyuv
 纯水	iyuv
 朝野上下	iyux
 纯真	iyvf
+纯甄	iyvf
 纯正	iyvg
+醇正	iyvg
 春装	iyvl
+唇妆	iyvl
 纯种	iyvs
 蠢猪	iyvu
 春晚	iywj
@@ -38868,15 +38960,22 @@ IP地址	ipdv
 彻夜未眠	iywm
 出洋相	iyx
 春心	iyxb
+纯心	iyxb
+纯新	iyxb
 成也萧何，败也萧何	iyxh
 醇香	iyxl
+纯享	iyxl
 唇形	iyxk
 唇线	iyxm
+纯鲜	iyxm
+春宵	iyxn
 春晓	iyxn
 春夏	iyxx
 春药	iyyc
 春意	iyyi
 春雨	iyyu
+唇语	iyyu
+纯欲	iyyu
 春运	iyyy
 春游	iyyz
 抽油烟机	iyyj
@@ -38885,6 +38984,7 @@ IP地址	ipdv
 筹备	izbw
 筹措	izco
 抽调	izdn
+抽掉	izdn
 抽打	izda
 仇敌	izdi
 车载斗量	izdl
@@ -38896,53 +38996,81 @@ IP地址	ipdv
 仇恨	izhf
 穿凿附会	izfh
 臭汗	izhj
+丑汉	izhj
 抽回	izhv
 筹划	izhx
+丑话	izhx
+丑化	izhx
+仇华	izhx
 常在河边走	izhz
 踌躇	izi
 抽查	izia
+抽插	izia
 惆怅	izih
+愁肠	izih
 抽成	izig
 臭虫	izis
-抽出	iziu
 抽搐	iziu
 踌躇	iziu
+抽出	iziu
 瞅瞅	iziz
+臭臭	iziz
 抽筋	izjb
+酬金	izjb
 传宗接代	izjd
 筹集	izji
 抽奖	izjl
+瞅见	izjm
 筹建	izjm
+抽检	izjm
 筹借	izjp
 丑角	izjt
 仇家	izjx
+愁嫁	izjx
 抽空	izks
 筹款	izkr
 愁苦	izku
+丑哭	izku
 抽离	izli
 创造力	izl
 酬劳	izlc
 丑陋	izlz
 筹码	izma
+臭骂	izma
 愁闷	izmf
 稠密	izmi
 筹募	izmu
 臭美	izmw
+愁眉	izmw
 筹谋	izmz
 臭屁	izpi
 筹拍	izpd
+抽牌	izpd
 抽签	izqm
+筹钱	izqm
+臭钱	izqm
 抽泣	izqi
+臭气	izqi
+筹齐	izqi
 抽取	izqu
+抽去	izqu
 仇人	izrf
+愁人	izrf
 愁容	izrs
 筹算	izsr
 丑态	iztd
 抽屉	izti
+抽题	izti
 抽身	izuf
+愁深	izuf
 仇杀	izua
+瞅啥	izua
 仇视	izui
+丑事	izui
+丑时	izui
 抽水	izuv
+臭水	izuv
+抽税	izuv
 抽中	izvs
 瞅准	izvy
 赤子之心	izvx
@@ -38951,6 +39079,7 @@ IP地址	ipdv
 抽完	izwj
 成则为王，败则为寇	izwk
 抽象	izxl
+丑相	izxl
 酬谢	izxp
 抽血	izxt
 愁绪	izxu
@@ -38959,8 +39088,11 @@ IP地址	ipdv
 丑样	izyh
 姹紫嫣红	izyh
 抽烟	izyj
+抽验	izyj
 仇怨	izyr
+愁怨	izyr
 筹资	izzi
+绸子	izzi
 臭嘴	izzv
 抽走	izzz
 诧异	iayi
@@ -38975,21 +39107,11 @@ IP地址	ipdv
 春花秋月	ihqy
 彻彻底底	iidd
 垂垂老矣	iily
-蟾蜍	ijiu
 臭名远扬	imyy
-船舶	irbo
 怅然若失	irru
-重逢	isfg
-冲剂	isji
-崇敬	isjk
-处事不惊	iubj
 长盛不衰	iubu
-出动	iuds
 成双成对	iuid
-出糗	iuqq
-畜生	iuug
 重拾信心	iuxx
-乘胜追击	iuvj
 察言观色	iygs
 桀骜不驯	jabx
 举案齐眉	jaqm
@@ -38999,42 +39121,73 @@ IP地址	ipdv
 骄傲自满	jazm
 紧挨	jbai
 进步	jbbu
+进补	jbbu
 骄兵必败	jbbb
 近百	jbbd
 紧绷	jbbg
 金榜	jbbh
 金币	jbbi
+紧闭	jbbi
+禁闭	jbbi
 金边	jbbm
+金箔	jbbo
 禁播	jbbo
 津巴布韦	jbbw
 仅此	jbci
+仅次	jbci
+今次	jbci
+谨此	jbci
 进餐	jbcj
+金蚕	jbcj
+金灿	jbcj
 紧蹙	jbcu
+紧促	jbcu
+锦簇	jbcu
 仅存	jbcy
+进村	jbcy
 紧凑	jbcz
+进到	jbdc
+劲道	jbdc
+近道	jbdc
 近代	jbdd
+晋代	jbdd
 禁地	jbdi
 紧盯	jbdk
+金鼎	jbdk
+金顶	jbdk
 锦缎	jbdr
 记不得了	jbdl
 进度	jbdu
+禁毒	jbdu
 筋斗	jbdz
+金豆	jbdz
 见不得光	jbdg
 金丹	jbdj
+金蛋	jbdj
 金额	jbee
 进而	jber
+今儿	jber
+劲儿	jber
 结伴而行	jbex
 金发	jbfa
+进发	jbfa
 谨防	jbfh
-绝不放手	jbfu
+进房	jbfh
+紧缚	jbfu
+劲夫	jbfu
+禁飞	jbfw
 紧跟	jbgf
 金刚	jbgh
 金光	jbgl
 巾帼	jbgo
 尽管	jbgr
 进攻	jbgs
+仅供	jbgs
+进宫	jbgs
 筋骨	jbgu
+禁锢	jbgu
 金贵	jbgv
+金龟	jbgv
 绝不姑息	jbgx
 金碧辉煌	jbhh
 襟怀	jbhk
@@ -39042,18 +39195,28 @@ IP地址	ipdv
 进货	jbho
 尽欢	jbhr
 近乎	jbhu
+进户	jbhu
 进化	jbhx
+金华	jbhx
+金花	jbhx
 金婚	jbhy
 今后	jbhz
 金叉	jbia
 金钗	jbid
 今晨	jbif
 进程	jbig
+进城	jbig
+晋城	jbig
 进场	jbih
+进厂	jbih
 矜持	jbii
 进出	jbiu
+近处	jbiu
+①	jbiu
 久病成医	jbiy
 仅仅	jbjb
+紧紧	jbjb
+近景	jbjk
 进京	jbjk
 加班加点	jbjd
 紧急	jbji
@@ -39061,68 +39224,113 @@ IP地址	ipdv
 禁忌	jbji
 谨记	jbji
 近郊	jbjn
+金角	jbjn
 进阶	jbjp
+紧接	jbjp
 精兵简政	jbjv
 进价	jbjx
+金价	jbjx
+金甲	jbjx
+禁军	jbjy
 进军	jbjy
 金卡	jbka
 近看	jbkj
+仅靠	jbkc
+紧靠	jbkc
+①	jbkc
 坚不可摧	jbkc
 急不可待	jbkd
 急不可耐	jbkn
 尽可	jbke
 尽快	jbkk
+金块	jbkk
+金矿	jbkl
 近况	jbkl
 金库	jbku
+进库	jbku
+①	jbku
+机不可失	jbku
 进口	jbkz
+紧扣	jbkz
+禁口	jbkz
 揭不开锅	jbkg
 家不可一日无主	jbkv
+紧邻	jblb
 近邻	jblb
+金鳞	jblb
 进来	jbld
+近来	jbld
 尽力	jbli
+锦鲤	jbli
 禁令	jblk
 尽量	jbll
+斤两	jbll
 金兰	jblj
 金莲	jblm
 禁猎	jblp
 禁脔	jblr
+金銮	jblr
 金龙	jbls
-锦纶	jbly
+金轮	jbly
 近路	jblu
 进门	jbmf
+金门	jbmf
 紧密	jbmi
 浸没	jbmo
+筋膜	jbmo
+禁摩	jbmo
 筋脉	jbmd
 今年	jbnm
+近年	jbnm
 金牛	jbnq
 剑拔弩张	jbnv
 浸泡	jbpc
+锦袍	jbpc
 金牌	jbpd
 捷报频传	jbpi
 仅凭	jbpk
+金瓶	jbpk
 紧迫	jbpo
 记不清了	jbql
 近亲	jbqb
 近期	jbqi
+锦旗	jbqi
+进气	jbiq
 精兵强将	jbqj
 尽情	jbqk
 金钱	jbqm
+近前	jbqm
 紧俏	jbqn
+金桥	jbqn
 进球	jbqq
+金秋	jbqq
+金球	jbqq
 紧缺	jbqt
+金雀	jbqt
+金阙	jbqt
 进去	jbqu
+禁区	jbqu
+进取	jbqu
+金曲	jbqu
 坚壁清野	jbqy
 即便如此	jbrc
 健步如飞	jbrf
 今日	jbri
+近日	jbri
+浸染	jbrj
 尽然	jbrj
+矜然	jbrj
 技不如人	jbrr
 金融	jbrs
+仅容	jbrs
 进入	jbru
+浸入	jbru
 今不如昔	jbrx
 禁赛	jbsd
 金色	jbse
+锦瑟	jbse
 近似	jbsi
+金丝	jbsi
 紧缩	jbso
 紧锁	jbso
 金锁	jbso
@@ -39130,76 +39338,128 @@ IP地址	ipdv
 紧随	jbsv
 戒备森严	jbsy
 尽头	jbtz
+浸透	jbtz
+劲头	jbtz
 今天	jbtm
 记不太清	jbtq
 基本条件	jbtj
 金条	jbtn
+紧贴	jbtp
 津贴	jbtp
 金榜题名时	jbtu
 进退	jbtv
+尽褪	jbtv
 基本上	jbu
 就不是	jbu
 绝不是	jbu
 脊背生寒	jbuh
 谨慎	jbuf
-仅剩	jbug
+近身	jbuf
+紧身	jbuf
+金身	jbuf
 晋升	jbug
+仅剩	jbug
 今生	jbug
 噤声	jbug
 尽是	jbui
 进食	jbui
-进士	jbui
+近视	jbui
 浸湿	jbui
 金山	jbuj
+进山	jbuj
 金属	jbuu
+尽数	jbuu
+禁书	jbuu
 进水	jbuv
+浸水	jbuv
 今朝	jbvc
+近照	jbvc
 紧着	jbve
 紧张	jbvh
+进账	jbvh
 禁止	jbvi
+尽职	jbvi
+紧致	jbvi
+进制	jbvi
 进展	jbvj
+近战	jbvj
+进站	jbjv
 金针	jbvf
+进针	jbvf
 金镯	jbvo
 金砖	jbvr
 尽忠	jbvs
 进驻	jbvu
+金主	jbvu
 紧追	jbvv
 紧抓	jbvx
 今晚	jbwj
 紧握	jbwo
 进屋	jbwu
+金乌	jbwu
 仅为	jbww
 禁卫	jbww
 近卫	jbww
 洁白无瑕	jbwx
 久病无孝子	jbwz
 进行	jbxk
+尽兴	jbxk
+金星	jbxk
 尽心	jbxb
+尽信	jbxb
 进项	jbxl
+金像	jbxl
 今昔	jbxi
+今夕	jbxi
 仅限	jbxm
+尽显	jbxm
 今宵	jbxn
+尽孝	jbxn
+进修	jbxq
 锦绣	jbxq
 箭不虚发	jbxf
 金牙	jbya
+紧压	jbya
 金银	jbyb
+浸淫	jbyb
 紧要	jbyc
+紧咬	jbyc
+禁药	jbyc
 今夜	jbye
+金叶	jbye
+津液	jbye
 禁言	jbyj
+禁烟	jbyj
 禁用	jbys
+仅用	jbys
+金庸	jbys
 金鱼	jbyu
+禁欲	jbyu
+①	jbyu
+技不压身	jbyu
 禁运	jbyy
 仅有	jbyz
 简便易行	jbyx
+尽早	jbzc
 今早	jbzc
 尽在	jbzd
+仅在	jbzd
+浸在	jbzd
 尽责	jbze
 金子	jbzi
+金字	jbzi
+禁足	jbzu
+进组	jbzu
+①	jbzu
 饥不择食	jbzu
 酒不醉人人自醉	jbzz
+进店	jbdm
+金店	jbdm
+近点	jbdm
 金殿	jbdm
 锦囊	jbnh
 金奖	jbjl
+晋江	jbjl
 局促不安	jcba
 就此罢手	jcbu
 仅此而已	jcey
@@ -39414,15 +39674,24 @@ IP地址	ipdv
 浸会大学	jhdx
 激昂	jiah
 几把	jiba
+鸡巴	jiba
+寄吧	jiba
+挤爆	jibc
+鸡煲	jibc
 季报	jibc
 击败	jibd
+祭拜	jibd
 几百	jibd
 基本	jibf
 击毙	jibi
 羁绊	jibj
 疾病	jibk
+急病	jibk
 即便	jibm
+畸变	jibm
 几遍	jibm
+鸡脖	jibo
+瘠薄	jibo
 级别	jibp
 纠缠不清	jibq
 几倍	jibw
@@ -39433,21 +39702,41 @@ IP地址	ipdv
 机舱	jich
 几次	jici
 记错	jico
+寄错	jico
 急促	jicu
 寄存	jicy
 极大	jida
+击打	jida
+即答	jida
 亟待	jidd
 记得	jide
+急得	jide
+积德	jide
+基德	jide
+击倒	jidc
 寄到	jidc
+挤到	jidc
+几道	jidc
 嫉妒	jidu
+极度	jidu
+季度	jidu
+基督	jidu
 激荡	jidh
 基地	jidi
+极地	jidi
+极低	jidi
 既定	jidk
-几点	jidm
+鸡丁	jidk
 极点	jidm
 祭奠	jidm
+积淀	jidm
+几点	jidm
 基调	jidn
+挤掉	jidn
+寄掉	jidn
 极端	jidr
+极短	jidr
+几段	jidr
 激动	jids
 机动	jids
 悸动	jids
@@ -39455,61 +39744,131 @@ IP地址	ipdv
 挤兑	jidv
 饥饿	jiee
 继而	jier
+鸡儿	jier
 绝尘而去	jieq
 激发	jifa
+技法	jifa
 积分	jiff
+激愤	jiff
+齑粉	jiff
+几分	jiff
 讥讽	jifg
+疾风	jifg
+季风	jifg
+机锋	jifg
 机房	jifh
+己方	jifh
 几番	jifj
 肌肤	jifu
+继父	jifu
+几副	jifu
+绝处逢生	jifu
 计费	jifw
+击飞	jifw
 极高	jigc
+鸡哥	jige
+及格	jige
 几个	jige
+鸡肝	jigj
+肌酐	jigj
 激光	jigl
+极光	jigl
 记过	jigo
 机关	jigr
+籍贯	jigr
+脊骨	jigu
 击鼓	jigu
+几股	jigu
+技工	jigs
 济公	jigs
+鸡公	jigs
 寄给	jigw
 记挂	jigx
 机构	jigz
+积垢	jigz
 记号	jihc
+极好	jihc
+几号	jihc
 集合	jihe
+几何	jihe
+几盒	jihe
 记恨	jihf
 嫉恨	jihf
 饥荒	jihl
+机皇	jihl
+①	jihl
 激活	jiho
+集火	jiho
+寄货	jiho
 疾患	jihr
 几乎	jihu
+疾呼	jihu
 机会	jihv
+忌讳	jihv
+集会	jihv
+积灰	jihv
 计划	jihx
+激化	jihx
 稽查	jiia
+极差	jiia
 讥嘲	jiic
 击沉	jiif
 继承	jiig
+集成	jiig
+几成	jiig
 机场	jiih
 鸡翅	jiii
+疾驰	jiii
 机床	jiil
 击穿	jiir
+几重	jiis
 基础	jiiu
+寄出	jiiu
 记仇	jiiz
+极丑	jiiz
+激进	jijb
 基金	jijb
+集锦	jijb
 积极	jiji
+急急	jiji
+叽叽	jiji
+唧唧	jiji
 寂静	jijk
+鸡精	jijk
+机警	jijk
 即将	jijl
+激将	jijl
 击键	jijm
+极简	jijm
+击剑	jijm
+纪检	jijm
 计较	jijn
+犄角	jijn
+鸡脚	jijn
+鸡叫	jijn
 季节	jijp
+集结	jijp
 急救	jijq
-几句	jiju
+忌酒	jijq
+祭酒	jijq
+基酒	jijq
+急剧	jiju
+极具	jiju
+寄居	jiju
+积聚	jiju
+机甲	jijx
+极佳	jijx
 计价	jijx
+鸡架	jijx
 季军	jijy
 检察机关	jijg
 坚持己见	jijj
 即可	jike
 即刻	jike
 饥渴	jike
+极客	jike
 极快	jikk
+鸡块	jikk
 几块	jikk
 疾苦	jiku
 击溃	jikv
@@ -39519,34 +39878,54 @@ IP地址	ipdv
 籍口	jikz
 吉林	jilb
 记牢	jilc
+基佬	jilc
 寄来	jild
 急了	jile
+极了	jile
+极乐	jile
+寄了	jile
 激励	jili
+极力	jili
+吉利	jili
+机理	jili
 机灵	jilk
+激灵	jilk
+伎俩	jill
+脊梁	jill
+剂量	jill
 计量	jill
 寂寥	jiln
 击落	jilo
 激烈	jilp
 激流	jilq
+鸡柳	jilq
+鸡笼	jils
 基隆	jils
 记录	jilu
+纪录	jilu
 几率	jilv
 纪律	jilv
 羁旅	jilv
 积累	jilw
+鸡肋	jilw
 机敏	jimb
-极慢	jimj
+饥民	jimb
 挤满	jimj
+极慢	jimj
 积满	jimj
 极	jimj
 几秒	jimn
+机瞄	jimn
 鸡毛	jimc
+集贸	jimc
 寂灭	jimp
 急忙	jimh
 寄卖	jimd
 机密	jimi
+吉米	jimi
 几名	jimk
 寂寞	jimo
+积木	jimu
 继母	jimu
 计谋	jimz
 缉拿	jina
@@ -39554,37 +39933,78 @@ IP地址	ipdv
 机能	jing
 既能	jing
 济南	jinj
+极难	jinj
+暨南	jinj
+纪念	jinm
 几年	jinm
 激怒	jinu
 妓女	jinv
+继女	jinv
 挤奶	jind
 奇偶	jiou
 极品	jipb
+祭品	jipb
+急聘	jipb
 几篇	jipm
 机票	jipn
+计票	jipn
+季票	jipn
+饥殍	jipn
 急迫	jipo
+击破	jipo
 鸡排	jipd
+记牌	jipd
 吉普	jipu
+记谱	jipu
 机器	jiqi
+极其	jiqi
+及其	jiqi
+集齐	jiqi
 激情	jiqk
+基情	jiqk
+记清	jiqk
+机枪	jiql
 极强	jiql
 几千	jiqm
 技巧	jiqn
+机巧	jiqn
+讥诮	jiqn
 集群	jiqy
 急切	jiqp
 击球	jiqq
+急求	jiqq
+集权	jiqr
+集全	jiqr
 几圈	jiqr
 汲取	jiqu
+寄去	jiqu
 几人	jirf
+忌日	jiri
+祭日	jiri
+吉日	jiri
 即日	jiri
 酒池肉林	jirl
 既然	jirj
+寂然	jirj
 积弱	jiro
-记入	jiru
+极弱	jiro
+计入	jiru
+挤入	jiru
 肌肉	jirz
+鸡肉	jirz
 祭扫	jisc
 祭祀	jisi
+祭司	jisi
+缉私	jisi
+急死	jisi
+计算	jisr
+急速	jisu
+极速	jisu
 激素	jisu
+寄宿	jisu
+脊髓	jisv
+击碎	jisv
+既遂	jisv
 几岁	jisv
 吉他	jita
 几套	jitc
@@ -39592,6 +40012,7 @@ IP地址	ipdv
 祭台	jitd
 鸡汤	jith
 集体	jiti
+机体	jiti
 祭坛	jitj
 几天	jitm
 几条	jitn
@@ -39599,81 +40020,156 @@ IP地址	ipdv
 金蝉脱壳	jitq
 集团	jitr
 鸡腿	jitv
+击退	jitv
 鸡头	jitz
+机头	jitz
 击杀	jiua
+急刹	jiua
 极少	jiuc
 跻身	jiuf
 寄生	jiug
 即使	jiui
+及时	jiui
+计时	jiui
+纪实	jiui
 技术	jiuu
+基数	jiuu
+计数	jiuu
+奇数	jiuu
 积水	jiuv
+计税	jiuv
 棘手	jiuz
+寄售	jiuz
 系上	jiuh
+击伤	jiuh
+记上	jiuh
 记者	jive
+急着	jive
+记着	jive
 急诊	jivf
+鸡胗	jivf
+集镇	jivf
 急症	jivg
+机长	jivh
+击掌	jivh
+记账	jivh
 几张	jivh
-极致	jivi
 机制	jivi
+极致	jivi
 机智	jivi
-鸡汁	jivi
+极值	jivi
 激战	jivj
+挤占	jivj
+基站	jivj
 集中	jivs
 击中	jivs
+几种	jivs
 记住	jivu
+脊柱	jivu
+机主	jivu
 脊椎	jivv
+急追	jivv
 基准	jivy
+鸡肫	jivy
 几周	jivz
 鸡爪	jivx
 就吃这一套	jivt
 既往	jiwh
+寄往	jiwh
+寄望	jiwh
 祭文	jiwf
+鸡瘟	jiwf
+激吻	jiwf
+急弯	jiwj
+己烷	jiwj
 几万	jiwj
 鸡窝	jiwo
+激我	jiwo
 既无	jiwu
+机务	jiwu
 极为	jiww
+纪委	jiww
+继位	jiww
+几位	jiww
+急袭	jixi
+极细	jixi
 即席	jixi
+机洗	jixi
 畸形	jixk
 记性	jixk
 急性	jixk
 即兴	jixk
+寄信	jixb
 机芯	jixb
-迹象	jixl
+鸡心	jixb
 吉祥	jixl
+迹象	jixl
 机箱	jixl
 极限	jixm
+基线	jixm
+集显	jixm
 绩效	jixn
+讥笑	jixn
+技校	jixn
 机械	jixp
 机修	jixq
 鸡胸	jixs
+吉凶	jixs
+缉凶	jixs
 积雪	jixt
 继续	jixu
-几下	jixx
+积蓄	jixu
+急需	jixu
+亟需	jixu
 记下	jixx
 挤下	jixx
+几下	jixx
 集训	jixy
 挤压	jiya
+积压	jiya
+羁押	jiya
+鸡鸭	jiya
 基因	jiyb
 既要	jiyc
+纪要	jiyc
+机要	jiyc
 基业	jiye
 几样	jiyh
 记忆	jiyi
+技艺	jiyi
+机翼	jiyi
+鸡翼	jiyi
+纪元	jiyr
 机缘	jiyr
+妓院	jiyr
+积怨	jiyr
 急用	jiys
 机遇	jiyu
 觊觎	jiyu
 际遇	jiyu
 鲫鱼	jiyu
+急眼	jiyj
+吉言	jiyj
 既有	jiyz
+基友	jiyz
+机油	jiyz
+集邮	jiyz
 鸡杂	jiza
 急躁	jizc
+及早	jizc
 记载	jizd
 记在	jizd
 挤在	jizd
 鸡仔	jizd
 激增	jizg
+集资	jizi
 机子	jizi
+鸡子	jizi
+继子	jizi
 积攒	jizj
+集赞	jizj
+几暂	jizj
+祭祖	jizu
 机组	jizu
 鸡贼	jizw
 计将安出	jjai
@@ -39777,71 +40273,133 @@ IP地址	ipdv
 节节胜利	jjul
 敬爱	jkai
 警报	jkbc
+劲爆	jkbc
+惊爆	jkbc
 叫苦不迭	jkbd
 经办	jkbj
 精兵	jkbk
 竞标	jkbn
+警标	jkbn
 绝口不提	jkbt
 缄口不言	jkby
 颈部	jkbu
+静步	jkbu
+竟被	jkbw
 警备	jkbw
 精彩	jkcd
+竞猜	jkcd
+竞彩	jkcd
 精粹	jkcv
 惊呆	jkdd
+静待	jkdd
+惊道	jkdc
+惊到	jkdc
 精到	jkdc
 境地	jkdi
+劲敌	jkdi
+警笛	jkdi
+井底	jkdi
 经典	jkdm
+景点	jkdm
+静电	jkdm
 惊动	jkds
+京东	jkds
 警队	jkdv
 精度	jkdu
+京都	jkdu
+经度	jkdu
+警督	jkdu
 惊愕	jkee
 净额	jkee
 艰苦奋斗	jkfd
 警方	jkfh
 经费	jkfw
+警匪	jkfw
 经过	jkgo
 警告	jkgc
+敬告	jkgc
 竟敢	jkgj
+精干	jkgj
+①	jkgj
 精怪	jkgk
+惊怪	jkgk
+精光	jkgl
 京广	jkgl
 景观	jkgr
+警官	jkgr
+静观	jkgr
+经管	jkgr
 井盖	jkgd
 警棍	jkgy
 进可攻，退可守	jkgu
 精华	jkhx
+净化	jkhx
+警花	jkhx
+京华	jkhx
 竟会	jkhv
 警徽	jkhv
 惊骇	jkhd
+静海	jkhf
 精悍	jkhj
 惊慌	jkhl
+惊惶	jkhl
 惊呼	jkhu
+京沪	jkhu
 惊魂	jkhy
+精魂	jkhy
 静候	jkhz
+敬候	jkhz
+颈后	jkhz
 警察	jkia
+惊诧	jkia
+敬茶	jkia
 警车	jkie
 京城	jkig
+竟成	jkig
+敬称	jkig
 经常	jkih
 健康成长	jkiv
 交口称赞	jkiz
 经济	jkji
+荆棘	jkji
+竞技	jkji
+京畿	jkji
 静静	jkjk
 精进	jkjb
+京津	jkjb
 精简	jkjm
+精减	jkjm
+警监	jkjm
+颈间	jkjm
 境界	jkjp
+警戒	jkjp
 敬酒	jkjq
+劲酒	jkjq
 警觉	jkjt
+惊觉	jkjt
 京剧	jkju
+惊惧	jkju
+警局	jkju
 竞价	jkjx
-救苦救难	jkjn
+惊叫	jkjn
+精校	jkjn
+京郊	jkjn
 惊恐	jkks
 荆轲	jkke
 境况	jkkl
+镜框	jkkl
 敬老	jklc
 经历	jkli
+经理	jkli
+精力	jkli
+敬礼	jkli
 精灵	jklk
+警铃	jklk
 精良	jkll
+竟连	jklm
 精炼	jklm
 经络	jklo
+鲸落	jklo
 痉挛	jklr
 叫苦连天	jklt
 劲旅	jklv
@@ -39850,72 +40408,110 @@ IP地址	ipdv
 警民	jkmb
 经贸	jkmc
 静脉	jkmd
+经脉	jkmd
 荆门	jkmf
 精密	jkmi
+静谧	jkmi
+粳米	jkmi
 精明	jkmk
 精妙	jkmn
 静默	jkmo
 镜面	jkmm
+静穆	jkmu
 敬慕	jkmu
 精美	jkmw
+竟能	jkng
 经年	jknm
 饥渴难耐	jknn
 境内	jknw
+颈内	jknw
 精品	jkpb
+竞品	jkpb
+竞聘	jkpb
 井喷	jkpf
 竞拍	jkpd
 精辟	jkpi
+静僻	jkpi
 镜片	jkpm
+晶片	jkpm
+景片	jkpm
 景颇	jkpo
 敬佩	jkpw
 艰苦朴素	jkps
 惊奇	jkqi
+精气	jkqi
+旌旗	jkqi
+景气	jkqi
 敬请	jkqk
 京腔	jkql
+警枪	jkql
 精巧	jkqn
 警犬	jkqr
+京圈	jkqr
 精确	jkqt
 景区	jkqu
 惊扰	jkrc
 惊人	jkrf
+经人	jkrf
 竟然	jkrj
+井然	jkrj
 精锐	jkrv
 竞赛	jksd
 景色	jkse
 竞速	jksu
+精苏	jksu
 捷克斯洛伐克	jksk
 惊悚	jkss
 精髓	jksv
 惊涛	jktc
 静态	jktd
 警惕	jkti
+晶体	jkti
 惊叹	jktj
+警探	jktj
 静听	jktk
 惊天	jktm
 精通	jkts
+经痛	jkts
 净土	jktu
 鲸吞	jkty
 镜头	jktz
 鲸鲨	jkua
+京少	jkuc
 劲射	jkue
 精神	jkuf
+景深	jkuf
+精深	jkuf
 经商	jkuh
+敬上	jkuh
+颈上	jkuh
 竟是	jkui
 警示	jkui
 晶石	jkui
 京师	jkui
 经书	jkuu
+警署	jkuu
+井水	jkuv
 净水	jkuv
 经受	jkuz
+经手	jkuz
+精瘦	jkuz
 惊蛰	jkve
+惊着	jkve
 竞争	jkvg
+净整	jkvg
 警长	jkvh
 精致	jkvi
-静止	jkvi
 径直	jkvi
+静止	jkvi
+景致	jkvi
 精湛	jkvj
 精装	jkvl
+精壮	jkvl
+敬重	jkvs
 警钟	jkvs
+镜中	jkvs
+净重	jkvs
 竞逐	jkvu
 颈椎	jkvv
 精准	jkvy
@@ -39923,44 +40519,73 @@ IP地址	ipdv
 境外	jkwd
 静卧	jkwo
 经文	jkwf
+惊闻	jkwf
 景物	jkwu
+警务	jkwu
+静物	jkwu
+劲舞	jkwu
 惊恐万状	jkwv
 敬畏	jkww
+警卫	jkww
+经纬	jkww
 精心	jkxb
+静心	jkxb
 惊喜	jkxi
+精细	jkxi
 惊醒	jkxk
+警醒	jkxk
+景象	jkxl
 镜像	jkxl
 惊险	jkxm
+惊现	jkxm
 经销	jkxn
+警校	jkxn
 精选	jkxr
+竞选	jkxr
+精血	jkxt
 经血	jkxt
+经学	jkxt
+精修	jkxq
 静修	jkxq
 惊吓	jkxx
+井下	jkxx
 就可以	jky
 既可以	jky
 惊讶	jkya
 静音	jkyb
+竟要	jkyc
 精要	jkyc
 敬业	jkye
+精液	jkye
+京爷	jkye
 敬仰	jkyh
+景仰	jkyh
+静养	jkyh
 惊异	jkyi
-惊疑	jkyi
 敬意	jkyi
+惊疑	jkyi
 经验	jkyj
+惊艳	jkyj
 经营	jkyk
-晶莹	jkyk
 精英	jkyk
+晶莹	jkyk
 菁英	jkyk
 经用	jkys
 金科玉律	jkyl
 警员	jkyr
+精元	jkyr
 鲸鱼	jkyu
 境遇	jkyu
 经与	jkyu
 金口玉言	jkyy
+竟有	jkyz
+经由	jkyz
 精油	jkyz
 净增	jkzg
 镜子	jkzi
+径自	jkzi
+精子	jkzi
+颈子	jkzi
 静坐	jkzo
 京族	jkzu
 竞走	jkzz
@@ -40108,9 +40733,9 @@ IP地址	ipdv
 兼得	jmde
 建党	jmdh
 减低	jmdi
+渐	jmdj
 简单	jmdj
 煎蛋	jmdj
-渐	jmdj
 坚定	jmdk
 检点	jmdm
 剪掉	jmdn
@@ -41729,44 +42354,17 @@ IP地址	ipdv
 局限性	jxx
 进一步	jyb
 见不得人	jbdr
-禁锢	jbgu
 久别重逢	jbif
-紧紧	jbjb
-机不可失	jbku
 间不容发	jbrf
 金榜题名	jbtm
 举步维艰	jbwj
-进修	jbxq
-技不压身	jbyu
 兼而有之	jeyv
 家常便饭	jibf
-季度	jidu
-绝处逢生	jifu
-籍贯	jigr
-忌讳	jihv
-鸡精	jijk
 家长里短	jild
-饥肠辘辘	jill
-纪念	jinm
-鸡肉	jirz
-缉私	jisi
-精诚所至	jisv
 精诚团结	jitj
-既成事实	jiuu
-挤占	jivj
-积压	jiya
 加减乘除	jjii
-惊艳	jkyj
-警官	jkgr
-竞技	jkji
-经理	jkli
 几可乱真	jklv
-景气	jkqi
 艰苦卓绝	jkvj
-敬重	jkvs
-警卫	jkww
-景象	jkxl
-竞选	jkxr
 剪刀	jmdc
 鉴定	jmdk
 间断	jmdr
@@ -44038,6 +44636,9 @@ IP地址	ipdv
 两米	llmi
 两名	llmk
 两面	llmm
+凉面	llmm
+泪流满面	llmm
+琳琅满目	llmm
 两枚	llmw
 两年	llnm
 两难	llnj
@@ -44326,6 +44927,8 @@ IP地址	ipdv
 落成	loig
 落锤	loiv
 逻辑	loji
+罗技	loji
+洛基	loji
 落脚	lojn
 箩筐	lokl
 落款	lokr
@@ -45222,7 +45825,6 @@ IP地址	ipdv
 两只手	lvu
 老顽童	lwt
 六月份	lyf
-懒洋洋	lyy
 聊表寸心	lbcx
 连本带利	lbdl
 拉帮结派	lbjp
@@ -45245,7 +45847,6 @@ IP地址	ipdv
 亮点	lldm
 来来回回	llhh
 绫罗绸缎	llid
-泪流满面	llmm
 来龙去脉	llqm
 冷冷清清	llqq
 啰啰嗦嗦	llss
@@ -45256,7 +45857,6 @@ IP地址	ipdv
 流落异乡	llyx
 连蒙带猜	lmdc
 两面三刀	lmsd
-留点	lqdm
 两全其美	lqqm
 留宿	lqsu
 流血	lqxt
@@ -51903,7 +52503,6 @@ pdf文件	pdfj
 屈才	qucd
 驱策	quce
 屈从	qucs
-渠道	qudc
 取代	qudd
 取得	qude
 取缔	qudi
@@ -52278,7 +52877,6 @@ pdf文件	pdfj
 栖息	qixi
 气喘吁吁	qixx
 欺压	qiya
-起义	qiyi
 青出于蓝而胜于蓝	qiyl
 弃用	qiys
 契约	qiyt
@@ -59341,6 +59939,8 @@ txt文件	txtj
 炸毁	vahv
 轧差	vaia
 炸鸡	vaji
+札记	vaji
+闸机	jiva
 乍见	vajm
 诈捐	vajr
 炸开	vakd
@@ -62539,6 +63139,7 @@ wifi	wifi
 我辈	wobw
 窝藏	woch
 卧槽	wocc
+我的	wode
 卧底	wodi
 卧倒	wodc
 窝点	wodm
@@ -63038,8 +63639,7 @@ wifi	wifi
 围拢	wwls
 卫龙	wwls
 威龙	wwls
-唯唯连声	wwlu
-物我两忘	wwlw
+味蕾	wwlw
 为民	wwmb
 威猛	wwmg
 萎靡	wwmi
@@ -64103,7 +64703,10 @@ wifi	wifi
 相悖	xlbw
 血流不止	xlbv
 香草	xlcc
+香菜	xlcd
 湘菜	xlcd
+①	xlcd
+笑里藏刀	xlcd
 相册	xlce
 悬梁刺股	xlcg
 香醋	xlcu
@@ -65815,7 +66418,6 @@ wifi	wifi
 席卷一空	xjyk
 性命	xkmk
 形势	xkui
-笑里藏刀	xlcd
 降龙伏虎	xlfh
 血流成河	xlih
 橡胶	xljn
@@ -66380,7 +66982,6 @@ wifi	wifi
 羊大为美	ydwm
 异端邪说	ydxu
 一代新人换旧人	ydxr
-一定要	ydy
 一点也不	ydyb
 一点一滴	ydyd
 一带一路	ydyl
@@ -69545,6 +70146,7 @@ wifi	wifi
 糟粕	zcpo
 早起	zcq
 早期	zcqi
+早起	zcqi
 早前	zcqm
 早秋	zcqq
 早日	zcri
@@ -70146,7 +70748,6 @@ wifi	wifi
 自鸣得意	zmdy
 怎么搞的	zmgd
 走马观花	zmgh
-怎么回事	zmhu
 走马换将	zmhj
 自谋出路	zmil
 走马看花	zmkh
@@ -70909,7 +71510,6 @@ wifi	wifi
 自助	zivu
 自愿	ziyr
 自成一体	ziyt
-纵观	zsgr
 坐失良机	zulj
 足矣	zuyi
 载誉归来	zygl
@@ -81951,7 +82551,7 @@ wifi	wifi
 坻崿	iiee
 痴儿	iier
 吃粉	iiff
-赤峰	iifg
+敕封	iifg
 吃放	iifh
 尺幅	iifu
 痴肥	iifw
@@ -81971,16 +82571,21 @@ wifi	wifi
 赤虎	iihu
 吃灰	iihv
 赤黑	iihw
-赤化	iihx
+痴话	iihx
 赤潮	iiic
 赤忱	iiif
 痴缠	iiij
 驰创	iiil
+彳亍	iiiu
+踟蹰	iiiu
+踟躇	iiiu
 吃出	iiiu
 吃春	iiiy
 持筹	iiiz
 吃姜	iijl
 持剑	iijm
+翅尖	iijm
+齿间	iijm
 赤坑	iikg
 赤坎	iikj
 吃块	iikk
@@ -81991,7 +82596,8 @@ wifi	wifi
 赤磷	iilb
 赤佬	iilc
 驰狼	iilh
-吃凉	iill
+吃粮	iill
+赤炼	iilm
 赤练	iilm
 吃料	iiln
 炽烈	iilp
@@ -82005,11 +82611,12 @@ wifi	wifi
 痴梦	iimg
 吃满	iimj
 吃馍	iimo
-吃没	iimw
+魑魅	iimw
+赤眉	iimw
 吃那	iina
 吃呢	iine
 痴男	iinj
-吃年	iinm
+痴念	iinm
 痴女	iinv
 池内	iinw
 吃哦	iioo
@@ -82043,13 +82650,16 @@ wifi	wifi
 赤铁	iitp
 赤瞳	iits
 吃土	iitu
+赤兔	iitu
 斥退	iitv
 吃啥	iiua
+痴傻	iiua
 赤芍	iiuc
 赤舌	iiue
 赤山	iiuj
 迟帅	iiuk
 吃书	iiuu
+敕书	iiuu
 池沼	iivc
 池震	iivf
 持证	iivg
@@ -82073,11 +82683,10 @@ wifi	wifi
 吃在	iizd
 池座	iizo
 池总	iizs
-吃嘴	iizv
 浐灞	ijba
 缠绑	ijbh
 铲板	ijbj
-禅道	ijdc
+铲刀	ijdc
 产的	ijde
 掺兑	ijdv
 产额	ijee
@@ -82086,6 +82695,8 @@ wifi	wifi
 蟾宫	ijgs
 产股	ijgu
 谗害	ijhd
+掺合	ijhe
+掺和	ijhe
 瀍河	ijhe
 产幻	ijhr
 蝉花	ijhx
@@ -82095,10 +82706,12 @@ wifi	wifi
 产经	ijjk
 产检	ijjm
 阐教	ijjn
+缠脚	ijjn
 巉峻	ijjy
 产库	ijku
 禅林	ijlb
 禅理	ijli
+颤栗	ijli
 产灵	ijlk
 禅门	ijmf
 缠膜	ijmo
@@ -82117,10 +82730,13 @@ wifi	wifi
 缠人	ijrf
 产融	ijrs
 掺入	ijru
+禅寺	ijsi
 馋死	ijsi
+缠丝	ijsi
 蟾酥	ijsu
 禅堂	ijth
 产痛	ijts
+产铜	ijts
 铲射	ijue
 缠上	ijuh
 铲山	ijuj
@@ -82133,21 +82749,28 @@ wifi	wifi
 僝僽	ijvz
 缠丸	ijwj
 馋我	ijwo
+颤巍	ijww
 禅位	ijww
+①	ijww
 禅心	ijxb
 婵皙	ijxi
-掺香	ijxl
+禅香	ijxl
+馋相	ijxl
 产线	ijxm
 铲雪	ijxt
+禅学	ijxt
 产下	ijxx
 阐扬	ijyh
 禅意	ijyi
+蝉翼	ijyi
 禅院	ijyr
+产院	ijyr
 蝉蛹	ijys
 禅悦	ijyt
 铲运	ijyy
 颤悠	ijyz
 缠在	ijzd
+产崽	ijzd
 禅坐	ijzo
 踹到	ikdc
 踹飞	ikfw
@@ -82180,6 +82803,8 @@ wifi	wifi
 窗缝	ilfg
 创房	ilfh
 创富	ilfu
+创飞	ilfw
+床费	ilfw
 创高	ilgc
 床盖	ilgd
 创个	ilge
@@ -82196,6 +82821,7 @@ wifi	wifi
 创驰	ilii
 闯闯	ilil
 闯出	iliu
+创出	iliu
 窗机	ilji
 创景	iljk
 创角	iljt
@@ -82208,6 +82834,7 @@ wifi	wifi
 创库	ilku
 创了	ille
 床栏	illj
+创烂	illj
 创龙	ills
 床吗	ilma
 窗门	ilmf
@@ -82216,7 +82843,7 @@ wifi	wifi
 创明	ilmk
 创模	ilmo
 床母	ilmu
-创美	ilmw
+窗楣	ilmw
 床呢	ilne
 创能	ilng
 创诺	ilno
@@ -82279,12 +82906,14 @@ wifi	wifi
 戳死	iosi
 戳图	iotu
 戳头	iotz
+戳透	iotz
 戳烧	iouc
 戳着	iove
 戳中	iovs
 戳我	iowo
 戳心	ioxb
 戳瞎	ioxx
+戳下	ioxx
 啜饮	ioyb
 戳爷	ioye
 辍演	ioyj
@@ -82299,6 +82928,7 @@ wifi	wifi
 串标	irbn
 喘憋	irbp
 传布	irbu
+船埠	irbu
 传参	ircj
 传错	irco
 川村	ircy
@@ -82307,11 +82937,13 @@ wifi	wifi
 穿钉	irdk
 穿点	irdm
 船钓	irdn
+穿貂	irdn
 穿多	irdo
 川断	irdr
 穿盾	irdy
 舛讹	iree
 串儿	irer
+船儿	irer
 穿法	irfa
 传粉	irff
 传峰	irfg
@@ -82319,6 +82951,7 @@ wifi	wifi
 船费	irfw
 传告	irgc
 穿个	irge
+船歌	irge
 串岗	irgh
 川光	irgl
 穿管	irgr
@@ -82334,9 +82967,10 @@ wifi	wifi
 传进	irjb
 传经	irjk
 穿件	irjm
-传戒	irjp
 穿久	irjq
 穿甲	irjx
+传家	irjx
+船家	irjx
 川军	irjy
 船卡	irka
 传看	irkj
@@ -82348,8 +82982,9 @@ wifi	wifi
 传力	irli
 船寮	irln
 串流	irlq
+川流	irlq
 传龙	irls
-川路	irlu
+传胪	irlu
 串码	irma
 船民	irmb
 船锚	irmc
@@ -82357,13 +82992,14 @@ wifi	wifi
 穿么	irme
 传梦	irmg
 穿模	irmo
+船模	irmo
 串谋	irmz
 传你	irni
 川南	irnj
 川宁	irnk
 穿暖	irnr
 川农	irns
-川内	irnw
+船内	irnw
 穿品	irpb
 船篷	irpg
 串皮	irpi
@@ -82371,7 +83007,7 @@ wifi	wifi
 串骗	irpm
 川普	irpu
 串亲	irqb
-船钱	irqm
+川黔	irqm
 传切	irqp
 川穹	irqs
 传去	irqu
@@ -82389,8 +83025,10 @@ wifi	wifi
 传图	irtu
 川沙	irua
 传射	irue
+传声	irug
 穿绳	irug
 穿山	iruj
+川陕	iruj
 穿双	irul
 川水	iruv
 船政	irvg
@@ -82408,8 +83046,9 @@ wifi	wifi
 船用	irys
 川渝	iryu
 穿有	iryz
+串游	iryz
 穿在	irzd
-川资	irzi
+串子	irzi
 串座	irzo
 传宗	irzs
 冲啊	isaa
@@ -82423,6 +83062,7 @@ wifi	wifi
 冲裁	iscd
 充错	isco
 冲到	isdc
+冲刀	isdc
 重登	isdg
 冲抵	isdi
 冲顶	isdk
@@ -82438,6 +83078,7 @@ wifi	wifi
 重感	isgj
 崇光	isgl
 冲关	isgr
+重估	isgu
 虫谷	isgu
 重归	isgv
 充好	ishc
@@ -82446,6 +83087,7 @@ wifi	wifi
 冲红	ishs
 重画	ishx
 重抄	isic
+虫巢	isic
 冲车	isie
 宠臣	isif
 冲程	isig
@@ -82468,6 +83110,7 @@ wifi	wifi
 冲口	iskz
 冲啦	isla
 冲了	isle
+重了	isle
 充楞	islg
 宠灵	islk
 重落	islo
@@ -82475,6 +83118,7 @@ wifi	wifi
 虫类	islw
 重楼	islz
 重买	ismd
+冲脉	ismd
 冲门	ismf
 铳梦	ismg
 舂米	ismi
@@ -82487,6 +83131,7 @@ wifi	wifi
 宠内	isnw
 冲泡	ispc
 重拍	ispd
+重排	ispd
 重啤	ispi
 冲平	ispk
 冲片	ispm
@@ -82515,6 +83160,7 @@ wifi	wifi
 崇山	isuj
 重说	isuo
 冲水	isuv
+充水	isuv
 崇寿	isuz
 重找	isvc
 冲账	isvh
@@ -82526,14 +83172,16 @@ wifi	wifi
 重选	isxr
 冲虚	isxu
 重印	isyb
-虫咬	isyc
 崇业	isye
 重圆	isyr
 宠用	isys
 重游	isyz
 冲澡	iszc
+重造	iszc
 虫灾	iszd
+重载	iszd
 重做	iszo
+充作	iszo
 冲钻	iszr
 初爱	iuai
 初八	iuba
@@ -82548,39 +83196,48 @@ wifi	wifi
 初代	iudd
 出单	iudj
 初定	iudk
-初度	iudu
+初读	iudu
 出兑	iudv
 褚墩	iudy
 出都	iudz
 除恶	iuee
 出风	iufg
+楚风	iufg
+雏凤	iufg
 除根	iugf
 出怪	iugk
 出光	iugl
+出关	iugr
 储罐	iugr
 出恭	iugs
 出谷	iugu
 出给	iugw
 除垢	iugz
+处好	iuhc
 除号	iuhc
+出号	iuhc
+楚河	iuhe
 锄禾	iuhe
 出航	iuhh
 除患	iuhr
 出红	iuhs
-初回	iuhv
+除灰	iuhv
 初婚	iuhy
 出后	iuhz
 初查	iuia
 出川	iuir
 初九	iujq
+除旧	iujq
 出卷	iujr
 除菌	iujy
+储君	iujy
 出卡	iuka
 初考	iukc
 出克	iuke
 出矿	iukl
 出款	iukr
 出库	iuku
+储库	iuku
 初亏	iukv
 出啦	iula
 除磷	iulb
@@ -82589,6 +83246,7 @@ wifi	wifi
 初灵	iulk
 出料	iuln
 初六	iulq
+出溜	iulq
 畜类	iulw
 初民	iumb
 楚梦	iumg
@@ -82601,23 +83259,24 @@ wifi	wifi
 雏鸟	iunn
 搐搦	iuno
 出牛	iunq
-初盘	iupj
 出片	iupm
 出票	iupn
 出圃	iupu
 储配	iupw
 出清	iuqk
 出墙	iuql
+出枪	iuql
 出群	iuqy
 刍荛	iurc
 储热	iure
 初日	iuri
 怵然	iurj
+楚然	iurj
 出肉	iurz
 初速	iusu
 初岁	iusv
 出塔	iuta
-初唐	iuth
+出膛	iuth
 楚天	iutm
 出脱	iuto
 除铁	iutp
@@ -82625,18 +83284,18 @@ wifi	wifi
 黜退	iutv
 出啥	iuua
 初筛	iuud
-初设	iuue
+初涉	iuue
 初上	iuuh
 出书	iuuu
-出渣	iuva
+出闸	iuva
 处着	iuve
 出装	iuvl
 楚竹	iuvu
 滁州	iuvz
 出窝	iuwo
 厨卫	iuww
-出翔	iuxl
 出校	iuxn
+初晓	iuxn
 出血	iuxp
 除锈	iuxq
 楚雄	iuxs
@@ -82656,6 +83315,7 @@ wifi	wifi
 吹不	ivbu
 吹得	ivde
 捶地	ivdi
+吹笛	ivdi
 锤锻	ivdr
 垂耳	iver
 吹罚	ivfa
@@ -82664,7 +83324,7 @@ wifi	wifi
 吹个	ivge
 吹管	ivgr
 垂拱	ivgs
-锤骨	ivgu
+吹鼓	ivgu
 垂挂	ivgx
 吹号	ivhc
 吹灰	ivhv
@@ -82699,6 +83359,7 @@ wifi	wifi
 吹啥	ivua
 吹神	ivuf
 锤石	ivui
+炊事	ivui
 圌山	ivuj
 垂坠	ivvv
 炊帚	ivvz
@@ -82706,7 +83367,7 @@ wifi	wifi
 吹完	ivwj
 捶我	ivwo
 垂心	ivxb
-吹袭	ivxi
+吹熄	ivxi
 垂悬	ivxr
 捶胸	ivxs
 吹呀	ivya
@@ -82718,7 +83379,9 @@ wifi	wifi
 纯爱	iyai
 淳安	iyan
 春宝	iybc
+唇笔	iybi
 蠢逼	iybi
+蠢比	iybi
 唇边	iybm
 春波	iybo
 唇部	iybu
@@ -82733,7 +83396,9 @@ wifi	wifi
 春凳	iydg
 纯涤	iydi
 唇钉	iydk
+纯电	iydm
 唇动	iyds
+春冬	iyds
 春儿	iyer
 春发	iyfa
 春福	iyfu
@@ -82757,13 +83422,14 @@ wifi	wifi
 春川	iyir
 春初	iyiu
 纯纯	iyiy
+蠢蠢	iyiy
 春绸	iyiz
 春江	iyjl
 唇角	iyjn
 春酒	iyjq
 春菊	iyju
 春假	iyjx
-春考	iykc
+纯靠	iykc
 春款	iykr
 蠢哭	iyku
 春困	iyky
@@ -82771,7 +83437,7 @@ wifi	wifi
 春林	iylb
 春来	iyld
 春浪	iylh
-春兰	iylj
+纯蓝	iylj
 春玲	iylk
 纯良	iyll
 纯料	iyln
@@ -82789,7 +83455,7 @@ wifi	wifi
 纯酿	iynl
 春牛	iynq
 醇浓	iyns
-纯女	iynv
+蠢女	iynv
 纯品	iypb
 春拍	iypd
 春鹏	iypg
@@ -82822,19 +83488,21 @@ wifi	wifi
 纯帅	iyuk
 春招	iyvc
 纯债	iyvd
-纯质	iyvi
+唇脂	iyvi
 唇纹	iywf
 春望	iywh
-春物	iywu
+蠢物	iywu
 春伟	iyww
 春熙	iyxi
 春鞋	iyxp
+纯血	iyxp
 春秀	iyxq
 椿萱	iyxr
 春雪	iyxt
 春旭	iyxu
 春芽	iyya
 纯银	iyyb
+唇印	iyyb
 春夜	iyye
 纯阳	iyyh
 春英	iyyk
@@ -82846,13 +83514,17 @@ wifi	wifi
 愁啊	izaa
 抽吧	izba
 丑爆	izbc
+臭宝	izbc
 抽帮	izbh
+丑逼	izbi
 臭逼	izbi
+丑比	izbi
 绸布	izbu
 抽采	izcd
 抽测	izce
 愁惨	izcj
 抽到	izdc
+抽刀	izdc
 绸带	izdd
 丑的	izde
 臭蛋	izdj
@@ -82865,6 +83537,7 @@ wifi	wifi
 愁烦	izfj
 丑佛	izfo
 仇富	izfu
+丑妇	izfu
 丑妃	izfw
 抽个	izge
 抽根	izgf
@@ -82874,6 +83547,7 @@ wifi	wifi
 抽过	izgo
 丑鬼	izgv
 筹够	izgz
+臭狗	izgz
 抽号	izhc
 酬和	izhe
 丑火	izho
@@ -82893,7 +83567,8 @@ wifi	wifi
 抽了	izle
 抽蓝	izlj
 臭脸	izlm
-抽滤	izlv
+丑脸	izlm
+愁虑	izlv
 丑类	izlw
 丑么	izme
 丑萌	izmg
@@ -82901,6 +83576,7 @@ wifi	wifi
 抽秒	izmn
 愁呢	izne
 抽你	izni
+瞅你	izni
 丑男	iznj
 丑娘	iznl
 抽搦	izno
@@ -82914,12 +83590,17 @@ wifi	wifi
 抽青	izqk
 臭球	izqq
 仇日	izri
+畴日	izri
 臭肉	izrz
+抽死	izsi
+抽丝	izsi
+臭死	izsi
 愁死	izsi
 抽缩	izso
 抽送	izss
 抽穗	izsv
 抽他	izta
+瞅他	izta
 抽条	iztn
 抽痛	izts
 丑土	iztu
@@ -82933,12 +83614,13 @@ wifi	wifi
 瞅着	izve
 抽针	izvf
 抽纸	izvi
+抽脂	izvi
+抽枝	izvi
 臭猪	izvu
 稠州	izvz
 丑娃	izwa
 仇外	izwd
 抽我	izwo
-抽芯	izxb
 抽吸	izxi
 抽闲	izxm
 仇晓	izxn
@@ -82948,16 +83630,14 @@ wifi	wifi
 愁呀	izya
 愁银	izyb
 抽噎	izye
-抽绎	izyi
 酬应	izyk
 抽佣	izys
 愁云	izyy
 抽油	izyz
 臭作	izzo
-筹组	izzu
+筹足	izzu
 持币观望	ibgw
 赤壁怀古	ibhg
-传杯换盏	ibhv
 齿白唇红	ibih
 吃饱穿暖	ibin
 传不习乎	ibxh
@@ -82965,16 +83645,13 @@ wifi	wifi
 除此而外	icew
 除残去秽	icqh
 吹灯拔蜡	idbl
-出敌不意	idby
 插电混动	idhd
-川端康成	idki
 尝鼎一脔	idyl
 春风风人	iffr
 惩腐倡廉	ifil
 长发及腰	ifjy
 长发飘飘	ifpp
 冲锋在前	ifzq
-撑杆跳高	igtg
 传国玉玺	igyx
 长河落日	ihlr
 除患宁乱	ihnl
@@ -82982,7 +83659,6 @@ wifi	wifi
 超尘拔俗	iibs
 察察为明	iiwm
 戳脊梁骨	ijlg
-醇酒美人	ijmr
 冲积平原	ijpy
 传经送宝	ijsb
 唇焦舌敝	ijub
@@ -82995,7 +83671,6 @@ wifi	wifi
 痴迷不悟	imbw
 茶马古道	imgd
 触目可及	imkj
-瞋目切齿	imqi
 垂名青史	imqu
 春满人间	imrj
 愁眉锁眼	imsy
@@ -83069,9 +83744,13 @@ wifi	wifi
 金奥	jbao
 劲爆	jbbc
 进本	jbbf
+近半	jbbj
 进班	jbbj
 进兵	jbbk
+金兵	jbbk
 锦标	jbbn
+金标	jbbn
+金表	jbbn
 今草	jbcc
 金策	jbce
 进仓	jbch
@@ -83080,11 +83759,15 @@ wifi	wifi
 金翠	jbcv
 晋档	jbdh
 尽调	jbdn
+禁掉	jbdn
 金蝶	jbdp
 进洞	jbds
+靳东	jbds
+仅对	jbdv
 进队	jbdv
 金恩	jben
-晋封	jbfg
+进奉	jbfg
+金凤	jbfg
 进犯	jbfj
 金佛	jbfo
 浸膏	jbgc
@@ -83099,9 +83782,11 @@ wifi	wifi
 进车	jbie
 金蝉	jbij
 金创	jbil
+金疮	jbil
 金川	jbir
 金宠	jbis
 金锤	jbiv
+觐见	jbjm
 进谏	jbjm
 金爵	jbjt
 金句	jbju
@@ -83116,6 +83801,7 @@ wifi	wifi
 金冷	jblg
 金狼	jblh
 进料	jbln
+筋络	jblo
 金锣	jblo
 金流	jblq
 金磊	jblw
@@ -83125,7 +83811,8 @@ wifi	wifi
 进么	jbme
 进盟	jbmg
 紧忙	jbmh
-金曼	jbmj
+浸满	jbmj
+禁漫	jbmj
 今明	jbmk
 锦棉	jbmm
 金苗	jbmn
@@ -83174,10 +83861,13 @@ wifi	wifi
 禁谁	jbuw
 金顺	jbuy
 仅售	jbuz
+禁售	jbuz
 金吒	jbva
 金寨	jbvd
 金正	jbvg
 进准	jbvy
+紧皱	jbvz
+禁咒	jbvz
 金州	jbvz
 金文	jbwf
 金旺	jbwh
@@ -83188,16 +83878,21 @@ wifi	wifi
 仅需	jbxu
 今夏	jbxx
 金阳	jbyh
+仅以	jbyi
 锦衣	jbyi
+近义	jbyi
+谨以	jbyi
 金鹰	jbyk
-金源	jbyr
-金悦	jbyt
+近月	jbyt
 今咋	jbza
 进藏	jbzh
-金座	jbzo
+仅作	jbzo
+近作	jbzo
 金钻	jbzr
 金总	jbzs
 谨遵	jbzy
+金尊	jbzy
+金樽	jbyz
 极爱	jiai
 吉奥	jiao
 纪斌	jibb
@@ -83221,8 +83916,11 @@ wifi	wifi
 冀衡	jihg
 几行	jihh
 饥寒	jihj
+极寒	jihj
+急坏	jihk
 极坏	jihk
 继红	jihs
+记混	jihy
 击昏	jihy
 济柴	jiid
 击锤	jiiv
@@ -83238,7 +83936,7 @@ wifi	wifi
 极冷	jilg
 激浪	jilh
 基兰	jilj
-级联	jilm
+畸恋	jilm
 几轮	jily
 几楼	jilz
 几码	jima
@@ -83246,12 +83944,16 @@ wifi	wifi
 激萌	jimg
 几面	jimm
 集美	jimw
+极美	jimw
+继妹	jimw
+几枚	jimw
 激恼	jinc
 基诺	jino
 急钮	jinq
 唧哝	jins
 机内	jinw
 疾跑	jipc
+机炮	jipc
 几盆	jipf
 鸡棚	jipg
 鸡皮	jipi
@@ -83269,12 +83971,15 @@ wifi	wifi
 几贴	jitp
 几桶	jits
 棘突	jitu
+激射	jiue
+疾射	jiue
 鸡舍	jiue
 几双	jiul
 吉兆	jivc
+急招	jivc
 集装	jivl
 急转	jivr
-脊瓦	jiwa
+鸡娃	jiwa
 吉翁	jiwg
 机选	jixr
 佶唷	jiyo
@@ -83282,23 +83987,29 @@ wifi	wifi
 吉泽	jize
 鸡枞	jizs
 忌嘴	jizv
-寄走	jizz
+疾走	jizz
+急走	jizz
+挤走	jizz
 静安	jkan
-晶澳	jkao
+竟把	jkba
 京巴	jkba
 京滨	jkbb
 京本	jkbf
 晶棒	jkbh
 井壁	jkbi
+晶壁	jkbi
 精编	jkbm
-京博	jkbo
+惊变	jkbm
+颈脖	jkbo
 景别	jkbp
 劲草	jkcc
 精测	jkce
 敬辞	jkci
+竟从	jkcs
 京葱	jkcs
 景村	jkcy
 竞答	jkda
+竟达	jkda
 静的	jkde
 精当	jkdh
 静定	jkdk
@@ -83307,19 +84018,28 @@ wifi	wifi
 精盾	jkdy
 京豆	jkdz
 静儿	jker
+经法	jkfa
+竞发	jkfa
 经发	jkfa
 精分	jkff
 敬奉	jkfg
+劲风	jkfg
 经幡	jkfj
-劲歌	jkge
+晶格	jkge
+警哥	jkge
 精耕	jkgg
 精钢	jkgh
+竞岗	jkgh
 精工	jkgs
 镜柜	jkgv
 竞购	jkgz
 京哈	jkha
 静好	jkhc
+警号	jkhc
+井号	jkhc
 泾河	jkhe
+晶核	jkhe
+竞合	jkhe
 景恒	jkhg
 京杭	jkhh
 精活	jkho
@@ -83329,10 +84049,12 @@ wifi	wifi
 精赤	jkii
 惊颤	jkij
 精创	jkil
-泾川	jkir
+经传	jkir
 荆楚	jkiu
+惊出	jkiu
 精纯	jkiy
 靖江	jkjl
+精讲	jkjl
 经卷	jkjr
 景军	jkjy
 京卡	jkka
@@ -83357,6 +84079,7 @@ wifi	wifi
 径路	jklu
 井楼	jklz
 京骂	jkma
+竟拿	jkna
 净拿	jkna
 精奶	jknd
 精囊	jknh
@@ -83364,6 +84087,7 @@ wifi	wifi
 京南	jknj
 静宁	jknk
 精酿	jknl
+惊怒	jknu
 劲弩	jknu
 竞女	jknv
 惊怕	jkpa
@@ -83371,7 +84095,8 @@ wifi	wifi
 景鹏	jkpg
 净瓶	jkpk
 京秦	jkqb
-经前	jkqm
+镜前	jkqm
+颈前	jkqm
 精切	jkqp
 静秋	jkqq
 竟让	jkrh
@@ -83405,6 +84130,7 @@ wifi	wifi
 荆州	jkvz
 井蛙	jkwa
 净网	jkwh
+靖王	jkwh
 敬挽	jkwj
 警械	jkxp
 静雄	jkxs
@@ -83416,7 +84142,8 @@ wifi	wifi
 净宗	jkzs
 讲啊	jlaa
 将爱	jlai
-江安	jlan
+将按	jlan
+江岸	jlan
 酱爆	jlbc
 降本	jlbf
 降板	jlbj
@@ -84557,10 +85284,12 @@ wifi	wifi
 降得	jlde
 酒保	jqbc
 简傲绝俗	jajs
-旧病复发	jbff
+金粉	jbff
 基本国情	jbgq
+仅够	jbgz
+①	jbgz
 煎饼果子	jbgz
-精兵悍将	jbhj
+仅含	jbhj
 冀北空群	jbkq
 家败人亡	jbrw
 吉卜赛人	jbsr
@@ -110214,7 +110943,8 @@ QQ五笔	qqwb
 象鸟	xlnn
 香糯	xlno
 向暖	xlnr
-想弄	xlns
+香浓	xlns
+巷弄	xlns
 象奴	xlnu
 想偶	xlou
 象帕	xlpa
@@ -115533,7 +116263,6 @@ QQ五笔	qqwb
 冰冰凉凉	bkll
 层层叠叠	cgdp
 匆匆忙忙	csmh
-层层叠叠	cgdp
 苍苍茫茫	chmh
 葱葱茏茏	csls
 从从容容	csrs
@@ -115587,7 +116316,6 @@ QQ五笔	qqwb
 风风韵韵	fgyy
 风风雅雅	fgya
 疯疯癫癫	fgdm
-方方正正	fhvg
 浮浮沉沉	fuif
 肥肥圆圆	fwyr
 鬼鬼祟祟	gvsv
@@ -115659,7 +116387,6 @@ QQ五笔	qqwb
 叽叽喳喳	jiva
 简简单单	jmdj
 汲汲皇皇	jihl
-继继承承	jiig
 继继存存	jicy
 继继绳绳	jiug
 兢兢干干	jkgj
@@ -115804,11 +116531,9 @@ QQ五笔	qqwb
 三三四四	sjsi
 三三五五	sjwu
 斯斯文文	siwf
-洒洒潇潇	saxn
 丝丝缕缕	silv
 四四方方	sifh
 酥酥脆脆	sucv
-随随便便	svbm
 拖拖拉拉	tola
 堂堂正正	thvg
 坛坛罐罐	tjgr

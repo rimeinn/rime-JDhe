@@ -15,7 +15,7 @@
 #          这样小字表里存在的字按权重靠前排列，大字表殿后，生僻字自动就排在末尾。
 ---
 name: wanxiang_pinyin_dz
-version: "2025-06-04"
+version: "2025-06-07"
 sort: by_weight
 ...
 ## 8150
@@ -52,7 +52,7 @@ sort: by_weight
 安	an;iy;bn;bn;wb;	4835
 案	an;iw;bm;bm,ma;we;	4058
 俺	an;xe,xr;rd;rd,ry;ja;	3597
-暗	an;vv;oo;oy;ox;	1775
+暗	an;vc,vv;oo;oy;ox;	1775
 氨	an;sy;qn;qa;vb;	626
 胺	an;ly;on;oa;vb;	456
 庵	an;re,rr;gd;gd,gy;xa;	358
@@ -220,7 +220,7 @@ sort: by_weight
 背	bei;ll;lo;ob;av;	26971
 倍	bei;xo;rk;rk,rp;jd;	24566
 呗	bei;om;kr;kb;do;	11048
-杯	bei;wh;mb;mb;ec;	5628
+杯	bei;wh,wf;mb;mb;ec;	5628
 北	bei;la;lb;ap,bj;av;	3816
 贝	bei;mm;kr;ad,kr;ob;	1372
 备	bei;jw;wt;wt;hq;	1166
@@ -292,7 +292,7 @@ sort: by_weight
 铋	bi;du;jb;jb;zt;	223
 敝	bi;fj;dw;wb;fh;	168
 匕	bi;aa;pv;pg;vb;	125
-毙	bi;af;bb;bs,sb;vv;	123
+毙	bi;aa,af;bb;bs,sb;vv;	123
 俾	bi;xs;ru;rb;jn;	110
 鄙	bi;ob;ke;eh;dt;	102
 蔽	bi;zj;cw;cb,cw;lh;	97
@@ -486,13 +486,13 @@ sort: by_weight
 礴	bo;tk;uc;ub;mk;	0
 欂	bo;wk;mc;mb;ek;	0
 𬭛	bo;dl;jy;jb;zr;	0
-不	bu;dh;ad;ad,ax;cb;	198117
+不	bu;dh,df;ad;ad,ax;cb;	198117
 部	bu;bb;le;ek,ep;it;	11286
 补	bu;hh;pb;yb;ty;	8346
 步	bu;ru;vp;vx;ss;	4574
 布	bu;sy,dy;uj;ju,uj;nr;	2852
 簿	bu;nk;vc;vc,vf;rk;	353
-钚	bu;dh;jb;jb;zc;	322
+钚	bu;dh,df;jb;jb;zc;	322
 捕	bu;jh;ff;ff;un;	305
 卜	bu;ph;ld;ad;yb;	269
 怖	bu;ny;xj;xb;hr;	60
@@ -543,7 +543,7 @@ sort: by_weight
 伧	cang;xt;rv;rc;jz;	3
 草	cao;zs;cu;cz;ln;	4116
 槽	cao;wv;mo;mc;eo;	2173
-曹	cao;dv;ao;oc,co;fo;	1973
+曹	cao;dv,zv;ao;oc,co;fo;	1973
 操	cao;jw;fm;fz;ue;	1934
 艹	cao;zz;;aa,ck;lc;	1461
 糙	cao;lq;mz;mz;pu;	559
@@ -1221,7 +1221,7 @@ sort: by_weight
 菂	di;zh;cu;cd;li;	21
 娣	di;yu;np;nd;bt;	17
 诋	di;ch;yd;yd;si;	16
-觌	di;sk,sr;ue;jm;ne;	11
+觌	di;sr,sk;ue;jm;ne;	11
 羝	di;fh;yd;yd;gi;	11
 柢	di;wh;md;md;ei;	5
 翟	di;da;xf;yv;zu;	4
@@ -1520,7 +1520,7 @@ sort: by_weight
 砝	fa;tp;us;uq;mk;	3
 反	fan;ul;py;py;xr;	11762
 饭	fan;gl;uy;uf;qr;	9492
-翻	fan;hd;px;yf;tz;	7887
+翻	fan;hd,ud;px;yf;tz;	7887
 犯	fan;bt;qv;qe;mz;	3950
 范	fan;zt;cv;ce,cf;lz;	2420
 泛	fan;kh;df;df;kr;	2779
@@ -1546,7 +1546,7 @@ sort: by_weight
 畈	fan;wl;ty;tf;qr;	7
 墦	fan;gw;tt;tf;gq;	1
 𫔍	fan;dw;jt;jf;zq;	0
-𬸪	fan;hc;pn;nf,fn;tx;	0
+𬸪	fan;hc,uc;pn;nf,fn;tx;	0
 放	fang;fj;fw;wf,fw;lh;	25775
 方	fang;ff;dw;dg,wd,dp,dw;lf;	14245
 防	fang;bf;ef;ef;tl;	6348
@@ -1700,7 +1700,7 @@ sort: by_weight
 蝠	fu;fw;it;if,it;cq;	57
 祓	fu;hl,hh;pd;ub,uy;fi;	52
 脯	fu;lh;of;of;vn;	50
-芣	fu;zh;cb;cb;lc;	43
+芣	fu;zh,zf;cb;cb;lc;	43
 黼	fu;ph,hh;yf;fb,yf;cn;	41
 鄜	fu;rb;ge;el;xt;	40
 馥	fu;uj;hw;hf,xf;xh;	41
@@ -1724,7 +1724,7 @@ sort: by_weight
 蝮	fu;fj;iw;if;ch;	10
 稃	fu;ua;hz;hf;xh;	10
 匐	fu;uw;bt;gf,gt;nq;	8
-罘	fu;ah;sb;sb;yc;	8
+罘	fu;ah,af;sb;sb;yc;	8
 驸	fu;zw,zk;mc;mf;nk;	8
 怫	fu;np;xf;xf;ht;	7
 呋	fu;oe;kf;kf;dh;	7
@@ -2271,7 +2271,7 @@ sort: by_weight
 虹	hong;fp;ig;ig;cu;	509
 洪	hong;kf;db;dg;kh;	474
 鸿	hong;kc;dn;dn,nj;kx;	310
-薨	hong;zf;cb;cs;lv;	241
+薨	hong;zf,za;cb;cs;lv;	241
 弘	hong;rp;gs;gs;bk;	134
 泓	hong;kp;ds;dh,ds;kk;	113
 纮	hong;ep;ss;sh,ss;ik;	43
@@ -2376,15 +2376,15 @@ sort: by_weight
 砉	hua;at;fu;fu,uf;am;	8
 铧	hua;ds;ju;jh;zn;	6
 觟	hua;gg;dt;jg;xg;	0
-坏	huai;gh;tb;tb;gc;	5752
-怀	huai;nh;xb;xb;hc;	632
+坏	huai;gh,gf;tb;tb;gc;	5752
+怀	huai;nh,nf;xb;xb;hc;	632
 淮	huai;ka;df;dv;ku;	379
 踝	huai;gw;zg;zg;pe;	130
 槐	huai;ws,wp;mg;mg;ea;	71
 徊	huai;ho,hd;ik;xh;wd;	9
 换	huan;jx,je;fd;fh;um;	21799
 还	huan;dq;zb;zb;cu;	12353
-环	huan;ah;wb;wb;nc;	3519
+环	huan;ah,af;wb;wb;nc;	3519
 患	huan;on;ix;xi;dh;	2328
 幻	huan;rr;yv;yg;ia;	697
 缓	huan;el;sy;sy;ir;	696
@@ -2567,7 +2567,7 @@ sort: by_weight
 寄	ji;ij,io;bk;bq;wz;	1889
 姬	ji;yr;ni,nl;ni;bq;	1240
 技	ji;jl;fy;fv;uc;	1407
-祭	ji;ff;px;uy,ou;hf;	1441
+祭	ji;ff,uf;px;uy,ou;hf;	1441
 吉	ji;go;uk;ku,uk;gd;	1499
 寂	ji;il;by;bu;wr;	927
 籍	ji;nv;vo;vj,vx;ro;	1062
@@ -4661,7 +4661,7 @@ sort: by_weight
 锫	pei;do;jk;jk,jp;zd;	21
 帔	pei;yl;jy;jp;rr;	7
 霈	pei;yy;yl;yp;tr;	4
-衃	pei;uh;xb;xb;tc;	0
+衃	pei;uh,uf;xb;xb;tc;	0
 喷	pen;om;kr;kb;do;	11545
 盆	pen;fd,fa;bm;mf;ha;	1772
 湓	pen;kd,ka;dm;dp;ka;	18
@@ -4818,7 +4818,7 @@ sort: by_weight
 钷	po;dr;jk;jk,jp;zd;	42
 泊	po;ks;db;db;ku;	37
 粕	po;ls;mb;mb;pu;	25
-鄱	po;hb;pe;ef;tt;	14
+鄱	po;hb,ub;pe;ef;tt;	14
 皤	po;sw;bt;bf;uq;	13
 叵	po;dr;kk;kk;nd;	5
 酦	po;ph,pl;yd;yf;yi;	3
@@ -4831,7 +4831,7 @@ sort: by_weight
 剖	pou;bi;ld;dk,dp;ip;	194
 裒	pou;ih;wy;wy,yj;tp;	14
 掊	pou;jo;fk;fk,fp;ud;	10
-抔	pou;jh;fb;fb;uc;	6
+抔	pou;jh,jf;fb;fb;uc;	6
 谱	pu;cv;yo;yp;so;	2800
 铺	pu;dh;jf;jf;zn;	2271
 普	pu;fv;bo;ob,bo;ho;	1569
@@ -5269,7 +5269,7 @@ sort: by_weight
 囷	qun;nw,nf;kh;kh;rx;	22
 麇	qun;rf,rw;gh;lh;xx;	10
 逡	qun;pq;zw;zw,zj;ku;	4
-然	ran;fn;ph;hq;vc;	3016
+然	ran;fn,un;ph;hq;vc;	3016
 燃	ran;tn;hh;hr;cc;	789
 染	ran;kw;dm;mg,mj;ke;	571
 冉	ran;og,pd;la;aa,kt;mg;	117
@@ -5296,24 +5296,24 @@ sort: by_weight
 热	re;jn;fh;hv;uc;	9325
 惹	re;zn;cx;cx,xr;lh;	2226
 人	ren;ee;pn;pd;jr;	190759
-任	ren;xd,xg;rr;rr;jg;	3950
+任	ren;xd,xg,xa;rr;rr;jg;	3950
 认	ren;ce;yr;yr;sj;	2175
 忍	ren;in,rn;rx;xr;ph;	1522
 仁	ren;xu;re;re;jm;	1113
 刃	ren;ih,rh;dd;dd;pi;	742
-壬	ren;ug,sd,ud;pu,qa;pu,qa;tg;	327
+壬	ren;ug,sd,ud,aa;pu,qa;pu,qa;tg;	327
 韧	ren;uh;wr;wr;gi;	154
-饪	ren;gd,gg;ur;ur;qg;	65
+饪	ren;gd,gg,ga;ur;ur;qg;	65
 稔	ren;un;hx;hn;xh;	56
-妊	ren;yd,yg;nr;nr;bg;	12
-衽	ren;hd,hg;pr;yr;tg;	11
+妊	ren;yd,yg,ya;nr;nr;bg;	12
+衽	ren;hd,hg,ha;pr;yr;tg;	11
 纫	ren;eh;sr;sr;ii;	8
 仞	ren;xh;rr;rr;ji;	8
 轫	ren;th;ir;ir;yi;	5
 讱	ren;ch;yr;yr;si;	4
-纴	ren;ed,eg;sr;sr;ig;	4
+纴	ren;ed,eg,ea;sr;sr;ig;	4
 葚	ren;zr;cv;cu;la;	2
-荏	ren;zd,zg;cr;cr;lg;	1
+荏	ren;zd,zg,za;cr;cr;lg;	1
 仍	reng;xu;rn;rn;jv;	9852
 扔	reng;ju;fn;fn;uv;	6291
 日	ri;vv;ka;aa,or,ri;or;	109872
@@ -5342,7 +5342,7 @@ sort: by_weight
 蹂	rou;gw;zm;zr;pe;	6
 𫐓	rou;tw;im;ir;ye;	0
 如	ru;yo;nk;nk;bd;	89385
-入	ru;ee;pn;pd;ju;	8304
+入	ru;ee,uh;pn;pd;ju;	8304
 乳	ru;hr;pv;gf,fg;ya;	794
 汝	ru;ky;dn;dn;kb;	809
 儒	ru;xe;re;rx;jl;	370
@@ -5650,7 +5650,7 @@ sort: by_weight
 誓	shi;jc;fk;yv;us;	333
 拾	shi;jo;fk;fh;ud;	306
 弑	shi;ya,yp;xg;iu,uu;bu;	297
-释	shi;hp;pl;pf,bf;tu;	272
+释	shi;hp,up;pl;pf,bf;tu;	272
 示	shi;uf;ex;ex,ad;fs;	274
 恃	shi;nk;xc;xs;hk;	241
 侍	shi;xk;rc;rs;jk;	216
@@ -5695,7 +5695,7 @@ sort: by_weight
 䏡	shi;lf;ox;ou;vf;	0
 䴓	shi;dc;an;nz;fx;	0
 𫚕	shi;qy;aj;yu;wr;	0
-𬤊	shi;ce;yr;yu;st;	0
+𬤊	shi;;yr;yu;st;	0
 受	shou;hl;py;vy,yb;yr;	21294
 手	shou;up;pl;pa,ub;us;	17690
 收	shou;rj;vw;wj,jw;ih;	10324
@@ -6502,7 +6502,7 @@ sort: by_weight
 蕹	weng;za;cf;cv,cy;lu;	2
 鹟	weng;fc;bn;nw;hx;	2
 𬭩	weng;dd;jx;jw;zz;	0
-我	wo;uh,ah,ud,ha,ua;pd;pd,pp;tp;	874308
+我	wo;ah,ud,ha,ua,uh;pd;pd,pp;tp;	874308
 喔	wo;og;kt;kw;dy;	2771
 窝	wo;ie;bn;xn,xg,bn,bg;ej;	1354
 握	wo;jg;ft;fw;uy;	949
@@ -6510,7 +6510,7 @@ sort: by_weight
 卧	wo;dh;ib;bi,ib;qy;	448
 涡	wo;ke;dn;dg,dn;kj;	160
 倭	wo;xy;rn;rw;jb;	120
-斡	wo;ss,sh;uu;du,ud;nj;	125
+斡	wo;sh,ss;uu;du,ud;nj;	125
 龌	wo;rg;vt;iw;ly;	99
 渥	wo;kg;dt;dw;ky;	81
 偓	wo;xg;rt;rw;jy;	26
@@ -6608,7 +6608,7 @@ sort: by_weight
 惜	xi;nv;xo;xx;ho;	388
 袭	xi;sk,dk;ly;ly,yl;tt;	387
 溪	xi;kx;dd;dx;km;	328
-悉	xi;hn;px;xm,xb;th;	336
+悉	xi;hn,un;px;xm,xb;th;	336
 徙	xi;he;ir;xb,xv;ws;	330
 曦	xi;va,vh,vr;od;ox,og;op;	255
 析	xi;wp;mj;mj;et;	243
@@ -7158,7 +7158,7 @@ sort: by_weight
 盐	yan;gd,ga;tm;mb;ga;	8775
 眼	yan;sh;og;og;qi;	4708
 演	yan;kf;db;dy;kh;	4827
-烟	yan;td,tx;hd;hy;cm;	3685
+烟	yan;tx;hd;hy;cm;	3685
 言	yan;cc,io;wk;da,dk,wk;sy;	3301
 沿	yan;ko;dk;dk;kd;	2592
 研	yan;tp;uk;uk;ml;	1928
@@ -7171,7 +7171,7 @@ sort: by_weight
 燕	yan;vn;ah,nh;ch,hb;lc;	664
 验	yan;zd;ma;ma,mq;nf;	601
 炎	yan;tt;hh;hh;cc;	553
-咽	yan;ox,od;kd;ky;dm;	475
+咽	yan;ox;kd;ky;dm;	475
 延	yan;uq;zv;zv;tu;	461
 彦	yan;bu,iu;ip;dp,ip,wp;ie;	477
 阎	yan;os;mj;mj,mx;ap;	250
@@ -7217,7 +7217,7 @@ sort: by_weight
 黡	yan;rn;ih;hy,ih;xp;	7
 嬿	yan;yn;nh;ny;bc;	6
 唁	yan;oc,oo;kk;ky;ds;	5
-胭	yan;lx,ld;od;oy;vm;	6
+胭	yan;lx;od;oy;vm;	6
 蜒	yan;fq;iz;iy;cu;	5
 渰	yan;kp,kz;dc;dc,dy;kl;	4
 墕	yan;gn;th;ty;gc;	3
@@ -7334,7 +7334,7 @@ sort: by_weight
 腋	ye;lh;on;oy;vv;	36
 靥	ye;ru,rd;im;im,my;xb;	29
 倻	ye;xb;re;ry;jt;	23
-咽	ye;ox,od;kd;ky;dm;	6
+咽	ye;ox;kd;ky;dm;	6
 馌	ye;gd,ga;um;uh,um;qa;	3
 揶	ye;jb;fe;fy;ut;	0
 以	yi;re;vr;rd,ry;vj;	201356
@@ -7486,25 +7486,25 @@ sort: by_weight
 吟	yin;or;kv;kj;da;	369
 寅	yin;if;bb;bb;wh;	280
 荫	yin;zl;co;cy;lv;	250
-淫	yin;kd,kg;dr;dr;kg;	241
+淫	yin;kd,kg,ka;dr;dr;kg;	241
 胤	yin;ur;pv;pg,eo;pv;	209
 龈	yin;rh;vg;ig;li;	115
-铟	yin;dx,dd;jd;jy;zm;	111
-洇	yin;kd,kx;dd;dy;km;	88
+铟	yin;dx;jd;jy;zm;	111
+洇	yin;kx;dd;dy;km;	88
 蚓	yin;fp;il;iy;cg;	86
-茵	yin;zd,zx;cd;cy;lm;	82
+茵	yin;zx;cd;cy;lm;	82
 鄞	yin;vb;ne;ej;lt;	65
 堙	yin;gg;tt;tt,ty;gg;	39
 愔	yin;nc,nv;xo;xy;hx;	37
-骃	yin;zx,zd;md;my;nm;	30
+骃	yin;zx;md;my;nm;	30
 喑	yin;oc,ov;ko;ky;dx;	16
 垠	yin;gh;tg;tg;gi;	14
 窨	yin;ic,ib;bo;xy,by;ex;	12
-氤	yin;sx,sd;qd;qy;vm;	10
+氤	yin;sx;qd;qy;vm;	10
 禋	yin;hg;pt;ut,uy;fg;	10
 嚚	yin;oo;kk;ik,kk;dd;	10
-霪	yin;yd,yg;yr;yy;tg;	9
-姻	yin;yd,yx;nd;ny;bm;	7
+霪	yin;ya,yd,yg;yr;yy;tg;	9
+姻	yin;yx;nd;ny;bm;	7
 訚	yin;oc,oo;mk;my;as;	7
 龂	yin;rp;vj;ij;lt;	5
 崟	yin;pd,pf;ej;uj;vz;	5
@@ -7519,7 +7519,7 @@ sort: by_weight
 珢	yin;ah;wg;wg;ni;	0
 歅	yin;pe;xr;qt,qy;ve;	0
 䲟	yin;qb;ae;yy;wz;	0
-𬘡	yin;ex,ed;sd;sy;im;	0
+𬘡	yin;ex;sd;sy;im;	0
 𬤇	yin;cg;yt;yt;sg;	0
 𬮱	yin;og;mt;mt;ag;	0
 应	ying;rd;ga;ga;xf;	13163
@@ -7618,7 +7618,7 @@ sort: by_weight
 祐	you;ho;pk;uy;fd;	435
 忧	you;nh;xy;xy;ho;	394
 幽	you;pp;ey;uy;vi;	357
-釉	you;hp;py;py,by;td;	330
+釉	you;hp,up;py;py,by;td;	330
 幼	you;ru;yl;ly,yl;is;	319
 邮	you;vb;ye;ey;dt;	357
 酉	you;dd,pd;aa,xa;aa;yy;	185
@@ -7996,7 +7996,7 @@ sort: by_weight
 寨	zhai;if;bm;mb,bm;we;	781
 斋	zhai;je;we;we;vl;	645
 翟	zhai;da;xf;yv;zu;	276
-祭	zhai;ff;px;uy,ou;hf;	2
+祭	zhai;ff,uf;px;uy,ou;hf;	2
 择	zhai;jp;fl;ff;uu;	2
 瘵	zhai;mf;bx;bj;af;	1
 豸	zhai;uu;pp;pp,vi;mi;	1
@@ -8190,7 +8190,7 @@ sort: by_weight
 植	zhi;wd,wu;mq;mv;ef;	196
 滞	zhi;ky;dj;dd;kr;	175
 跖	zhi;gt;zu;zu;pm;	177
-炙	zhi;ft;ph;ho,hy,oh,yh;vc;	167
+炙	zhi;ft,ut;ph;ho,hy,oh,yh;vc;	167
 秩	zhi;ue;hu;hu;xh;	166
 旨	zhi;av;bo;bo,ob;vo;	156
 侄	zhi;xg;rt;rv;jy;	146
@@ -15612,7 +15612,7 @@ sort: by_weight
 炰	fou;un;;hb;nc;	1
 殕	fou;fo;;dk,dp;gd;	1
 缻	fou;eh;;fw;ar;	1
-不	fou;dh;ad;ad,ax;cb;	0
+不	fou;dh,df;ad;ad,ax;cb;	0
 㓡	fou;ei;;df;ap;	0
 䬏	fou;io;;fp;od;	0
 䳕	fou;hn;;nf;yx;	0
@@ -16897,7 +16897,7 @@ sort: by_weight
 𩶦	guai;;;yz;wg;	0
 關	guan;pd;;ma;al;	163
 館	guan;ed;;ug;qk;	158
-斡	guan;ss,sh;uu;du,ud;nj;	0
+斡	guan;sh,ss;uu;du,ud;nj;	0
 矜	guan;pr;sv;mj;ia;	0
 觀	guan;zk;;jv;le;	96
 関	guan;px;;mg;am;	97
@@ -24363,7 +24363,7 @@ sort: by_weight
 両	liang;dp;;au;ml;	31
 樑	liang;ww;;ml;ee;	26
 哴	liang;oh;;kl;di;	4
-涼	liang;ki;;dj;ky;	19
+涼	liang;kf;;dj;ky;	19
 糧	liang;lg;;ml;pd;	12
 倞	liang;xf;rx;rj;jy;	0
 魎	liang;se;;gl,gr;am;	6
@@ -28634,7 +28634,7 @@ sort: by_weight
 怌	pei;nd;;xp;hf;	1
 柭	pei;wh;;mb;ei;	1
 錇	pei;eo;;jk,jp;zd;	1
-坏	pei;gh;tb;tb;gc;	0
+坏	pei;gh,gf;tb;tb;gc;	0
 㟝	pei;po;;up;vd;	0
 㣆	pei;ra;;gw;bn;	0
 㤄	pei;ny;;xu;hr;	0
@@ -28852,7 +28852,7 @@ sort: by_weight
 鎞	pi;ea;;jb;zv;	1
 魾	pi;gd;;yp;wf;	1
 被	pi;hl;py;yp;tr;	0
-坏	pi;gh;tb;tb;gc;	0
+坏	pi;gh,gf;tb;tb;gc;	0
 副	pi;di;ad;df,dt;fp;	0
 罢	pi;ap;ss;sq;yk;	0
 㓟	pi;ri;;dp;rp;	0

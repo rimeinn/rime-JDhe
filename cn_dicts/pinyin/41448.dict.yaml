@@ -7080,7 +7080,7 @@ sort: by_weight
 炰	fou;un;;	1
 殕	fou;fo;;	1
 缻	fou;eh;;	1
-不	fou;dh;ad;	0
+不	fou;dh,df;ad;	0
 㓡	fou;ei;;	0
 䬏	fou;io;;	0
 䳕	fou;hn;;	0
@@ -8365,7 +8365,7 @@ sort: by_weight
 𩶦	guai;;;	0
 關	guan;pd;;	163
 館	guan;ed;;	158
-斡	guan;ss,sh;uu;	0
+斡	guan;sh,ss;uu;	0
 矜	guan;pr;sv;	0
 觀	guan;zk;;	96
 関	guan;px;;	97
@@ -15831,7 +15831,7 @@ sort: by_weight
 両	liang;dp;;	31
 樑	liang;ww;;	26
 哴	liang;oh;;	4
-涼	liang;ki;;	19
+涼	liang;kf;;	19
 糧	liang;lg;;	12
 倞	liang;xf;rx;	0
 魎	liang;se;;	6
@@ -20102,7 +20102,7 @@ sort: by_weight
 怌	pei;nd;;	1
 柭	pei;wh;;	1
 錇	pei;eo;;	1
-坏	pei;gh;tb;	0
+坏	pei;gh,gf;tb;	0
 㟝	pei;po;;	0
 㣆	pei;ra;;	0
 㤄	pei;ny;;	0
@@ -20320,7 +20320,7 @@ sort: by_weight
 鎞	pi;ea;;	1
 魾	pi;gd;;	1
 被	pi;hl;py;	0
-坏	pi;gh;tb;	0
+坏	pi;gh,gf;tb;	0
 副	pi;di;ad;	0
 罢	pi;ap;ss;	0
 㓟	pi;ri;;	0
