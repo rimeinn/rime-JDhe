@@ -67,7 +67,7 @@ sort: by_weight
 角门西	jiao;gp;dy; men;oo;dv; xi;pp;aa;	0
 马家堡	ma;zz;va; jia;ih;bu; bao;xg;rt;	6
 北京南站	bei;la;lb; jing;if;wx; nan;ss,sp;ug,ag; zhan;bo;lk;	48
-陶然亭	tao;bp;ef; ran;fn;ph; ting;ij;wd;	40
+陶然亭	tao;bp;ef; ran;fn,un;ph; ting;ij;wd;	40
 菜市口	cai;zw;cm; shi;iy;wj; kou;oo;la;	59
 灵境胡同	ling;st;eh; jing;gk;te; hu;sl;uo; tong;oo;kk;	2
 西四	xi;pp;aa; si;nk;ke;	40
@@ -337,7 +337,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 次渠	ci;fe;dr; qu;kw;dm;	5
 亦庄火车站	yi;ih,ii,if;wd; zhuang;rg;gt; huo;tt;dr; che;tt;al; zhan;bo;lk;	0
 莘庄	xin;zs;cu; zhuang;rg;gt;	67
-外环路	wai;fh;xb; huan;ah;wb; lu;go;zk;	5
+外环路	wai;fh;xb; huan;ah,af;wb; lu;go;zk;	5
 莲花路	lian;zq;cz; hua;za;cb; lu;go;zk;	9
 锦江乐园	jin;dy;jj; jiang;kp;dg; le;uf;pd; yuan;nk;ke;	3
 上海南站	shang;pd,pu;la; hai;kh;dm; nan;ss,sp;ug,ag; zhan;bo;lk;	27
@@ -411,7 +411,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 宝山路	bao;ia,ih;by; shan;pp;lk; lu;go;zk;	4
 中潭路	zhong;op;ll; tan;ks;du; lu;go;zk;	2
 镇坪路	zhen;df;jb; ping;gf,gs;tp; lu;go;zk;	8
-曹杨路	cao;dv;ao; yang;wu;mp; lu;go;zk;	8
+曹杨路	cao;dv,zv;ao; yang;wu;mp; lu;go;zk;	8
 金沙江路	jin;ed,ef;ra; sha;ku;du; jiang;kp;dg; lu;go;zk;	6
 延安西路	yan;uq;zv; an;iy;bn; xi;pp;aa; lu;go;zk;	19
 虹桥路	hong;fp;ig; qiao;wp;ml; lu;go;zk;	7
@@ -447,7 +447,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 西渡	xi;pp;aa; du;kl;dy;	92
 萧塘	xiao;zf;cs; tang;go;tk;	0
 奉浦大道	feng;up;fl; pu;kh;df; da;xx;un; dao;fq;zz;	0
-环城东路	huan;ah;wb; cheng;gh;ti; dong;df,af;ad; lu;go;zk;	4
+环城东路	huan;ah,af;wb; cheng;gh;ti; dong;df,af;ad; lu;go;zk;	4
 望园路	wang;ia;ww; yuan;nk;ke; lu;go;zk;	0
 金海湖	jin;ed,ef;ra; hai;kh;dm; hu;kl;do;	7
 奉贤新城	feng;up;fl; xian;pm;lr; xin;bp;lj; cheng;gh;ti;	5
@@ -529,7 +529,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 翔殷路	xiang;fd;yx; yin;ul;py; lu;go;zk;	10
 嫩江路	nen;yj;nw; jiang;kp;dg; lu;go;zk;	0
 市光路	shi;iy;wj; guang;hk;xw; lu;go;zk;	0
-曹路	cao;dv;ao; lu;go;zk;	9
+曹路	cao;dv,zv;ao; lu;go;zk;	9
 民雷路	min;rr;vv; lei;yw;yt; lu;go;zk;	0
 顾唐路	gu;rm;ir; tang;ro;gk; lu;go;zk;	1
 金海路	jin;ed,ef;ra; hai;kh;dm; lu;go;zk;	4
@@ -641,7 +641,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 大渡河路	da;xx;un; du;kl;dy; he;kj,ko;dk; lu;go;zk;	2
 武宁路	wu;dr,ha;av; ning;ij;bd; lu;go;zk;	5
 江宁路	jiang;kp;dg; ning;ij;bd; lu;go;zk;	7
-自然博物馆	zi;ss;po; ran;fn;ph; bo;sk;uc; wu;bi,bu;nw; guan;gd;uk;	0
+自然博物馆	zi;ss;po; ran;fn,un;ph; bo;sk;uc; wu;bi,bu;nw; guan;gd;uk;	0
 淮海中路	huai;ka;df; hai;kh;dm; zhong;op;ll; lu;go;zk;	83
 世博会博物馆	shi;vr;av; bo;sk;uc; hui;ep;rs; bo;sk;uc; wu;bi,bu;nw; guan;gd;uk;	2
 世博大道	shi;vr;av; bo;sk;uc; da;xx;un; dao;fq;zz;	4
@@ -997,7 +997,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 清湖	qing;kl;do; hu;kl;do;	9
 临海	lin;pd;la; hai;kh;dm;	202
 宝华	bao;ia,ih;by; hua;xs;ru;	111
-翻身	fan;hd;px; shen;uu;pp;	2867
+翻身	fan;hd,ud;px; shen;uu;pp;	2867
 灵芝	ling;st;eh; zhi;zh;cv;	373
 洪浪北	hong;kf;db; lang;kh;dl; bei;la;lb;	1
 兴东	xing;hf;xb; dong;df,af;ad;	5
@@ -1089,7 +1089,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 舵落口	duo;ta;vb; luo;zo;ck; kou;oo;la;	0
 竹叶海	zhu;nn;gg,pl; ye;os;ku; hai;kh;dm;	1
 额头湾	e;im;br; tou;hx;dd; wan;kr;dg;	0
-五环大道	wu;gg;aa; huan;ah;wb; da;xx;un; dao;fq;zz;	0
+五环大道	wu;gg;aa; huan;ah,af;wb; da;xx;un; dao;fq;zz;	0
 东吴大道	dong;df,af;ad; wu;ox;kt; da;xx;un; dao;fq;zz;	0
 码头潭公园	ma;tz;um; tou;hx;dd; tan;ks;du; gong;fp;bs; yuan;nk;ke;	0
 三店	san;uu;ae; dian;ro;gk;	7
@@ -1285,7 +1285,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 咸阳路	xian;rh;ad,wk,xk; yang;bv;eo; lu;go;zk;	0
 芥园西道	jie;zp;cl; yuan;nk;ke; xi;pp;aa; dao;fq;zz;	0
 卞兴	bian;ih;dx; xing;hf;xb;	0
-曹庄	cao;dv;ao; zhuang;rg;gt;	4
+曹庄	cao;dv,zv;ao; zhuang;rg;gt;	4
 小淀	xiao;pf;ld; dian;ke;dr;	0
 丰产河	feng;aa;al; chan;bu,br,ir;lp; he;kj,ko;dk;	0
 华北集团	hua;xs;ru; bei;la;lb; ji;xw;rm; tuan;nu;kc;	5
@@ -1738,7 +1738,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 九曲河	jiu;ur;pv; qu;pd,vp;la; he;kj,ko;dk;	0
 礼嘉	li;hr;pv; jia;go;uk;	2
 金山寺	jin;ed,ef;ra; shan;pp;lk; si;gk;tc;	74
-曹家湾	cao;dv;ao; jia;ih;bu; wan;kr;dg;	1
+曹家湾	cao;dv,zv;ao; jia;ih;bu; wan;kr;dg;	1
 蔡家	cai;zf;cx; jia;ih;bu;	47
 向家岗	xiang;uo;pk; jia;ih;bu; gang;py;ex;	0
 龙凤溪	long;sh,dh;ud; feng;il;jy; xi;kx;dd;	0
@@ -1755,7 +1755,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 民心佳园	min;rr;vv; xin;nn;dd; jia;xg;rt; yuan;nk;ke;	0
 三亚湾	san;uu;ae; ya;dd;ay; wan;kr;dg;	9
 上湾路	shang;pd,pu;la; wan;kr;dg; lu;go;zk;	0
-环山公园	huan;ah;wb; shan;pp;lk; gong;fp;bs; yuan;nk;ke;	0
+环山公园	huan;ah,af;wb; shan;pp;lk; gong;fp;bs; yuan;nk;ke;	0
 长河	chang;uh;pn; he;kj,ko;dk;	197
 江北机场T3航站楼	jiang;kp;dg; bei;la;lb; ji;wi;mj; chang;gu;tp; T3;;; hang;;; zhan;ti;vj; lou;bo;lk;	0
 渝北广场	yu;ki;dd; bei;la;lb; guang;rr;di,wp; chang;gu;tp;	0
@@ -1810,7 +1810,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 南苑	nan;ss,sp;ug,ag; yuan;zt;cv;	88
 临平	lin;pd;la; ping;ds,sf;au;	30
 朝阳	zhao;sl;uo; yang;bv;eo;	1204
-曹家桥	cao;dv;ao; jia;ih;bu; qiao;wp;ml;	0
+曹家桥	cao;dv,zv;ao; jia;ih;bu; qiao;wp;ml;	0
 潘水	pan;kw;dt; shui;oo;ln;	0
 人民路	ren;ee;pn; min;rr;vv; lu;go;zk;	70
 杭发厂	hang;wi;mj; fa;rh,rl;vd; chang;rr;ap;	0
@@ -1854,7 +1854,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 滂江街	pang;kf;df; jiang;kp;dg; jie;hj,hp;ii;	0
 东中街	dong;df,af;ad; zhong;op;ll; jie;hj,hp;ii;	2
 中街	zhong;op;ll; jie;hj,hp;ii;	44
-怀远门	huai;nh;xb; yuan;uq;ze; men;oo;dv;	3
+怀远门	huai;nh,nf;xb; yuan;uq;ze; men;oo;dv;	3
 青年大街	qing;al;fo; nian;es;pl; da;xx;un; jie;hj,hp;ii;	1
 南市场	nan;ss,sp;ug,ag; shi;iy;wj; chang;gu;tp;	1
 太原街	tai;xh;dd; yuan;rf;ix; jie;hj,hp;ii;	11
@@ -2109,7 +2109,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 金花	jin;ed,ef;ra; hua;za;cb;	272
 双流机场1航站楼	shuang;ll;yy; liu;kr;dv; ji;wi;mj; chang;gu;tp; 1;;; hang;ti;vj; zhan;bo;lk; lou;wy;mn;	0
 双流机场2航站楼	shuang;ll;yy; liu;kr;dv; ji;wi;mj; chang;gu;tp; 2;;; hang;ti;vj; zhan;bo;lk; lou;wy;mn;	0
-北环城路	bei;la;lb; huan;ah;wb; cheng;gh;ti; lu;go;zk;	0
+北环城路	bei;la;lb; huan;ah,af;wb; cheng;gh;ti; lu;go;zk;	0
 庆丰路	qing;rx;gd; feng;aa;al; lu;go;zk;	0
 一匡街	yi;dd;aa; kuang;dr;kw; jie;hj,hp;ii;	0
 长春站北	chang;uh;pn; chun;uv;fo; zhan;bo;lk; bei;la;lb;	0
@@ -2126,7 +2126,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 双丰	shuang;ll;yy; feng;aa;al;	1
 长春西站	chang;uh;pn; chun;uv;fo; xi;pp;aa; zhan;bo;lk;	0
 兴隆堡	xing;hf;xb; long;ba,bg;eu; bao;xg;rt;	0
-西环城路	xi;pp;aa; huan;ah;wb; cheng;gh;ti; lu;go;zk;	0
+西环城路	xi;pp;aa; huan;ah,af;wb; cheng;gh;ti; lu;go;zk;	0
 和平大街	he;uo;hk; ping;ds,sf;au; da;xx;un; jie;hj,hp;ii;	3
 万福街	wan;du;ap; fu;hw;pt; jie;hj,hp;ii;	0
 景阳广场	jing;vf;ox; yang;bv;eo; guang;rr;di,wp; chang;gu;tp;	0
@@ -2137,7 +2137,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 南关	nan;ss,sp;ug,ag; guan;fx;bt;	25
 吉林大路	ji;go;uk; lin;ww;mm; da;xx;un; lu;go;zk;	0
 东盛大街	dong;df,af;ad; sheng;rd,ra;im; da;xx;un; jie;hj,hp;ii;	0
-东环城路	dong;df,af;ad; huan;ah;wb; cheng;gh;ti; lu;go;zk;	1
+东环城路	dong;df,af;ad; huan;ah,af;wb; cheng;gh;ti; lu;go;zk;	1
 长青	chang;uh;pn; qing;al;fo;	192
 东方广场	dong;df,af;ad; fang;ff;dw; guang;rr;di,wp; chang;gu;tp;	24
 辽宁路	liao;rq;zl; ning;ij;bd; lu;go;zk;	2
@@ -2169,8 +2169,8 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 滑雪场	hua;kc;dg; xue;ys;ye; chang;gu;tp;	557
 长影世纪城	zhang;uh;pn; ying;vu;op; shi;vr;av; ji;et;sj; cheng;gh;ti;	1
 车场	che;tt;al; chang;gu;tp;	53
-南四环	nan;ss,sp;ug,ag; si;nk;ke; huan;ah;wb;	28
-南三环	nan;ss,sp;ug,ag; san;uu;ae; huan;ah;wb;	24
+南四环	nan;ss,sp;ug,ag; si;nk;ke; huan;ah,af;wb;	28
+南三环	nan;ss,sp;ug,ag; san;uu;ae; huan;ah,af;wb;	24
 世荣路	shi;vr;av; rong;zw;cm; lu;go;zk;	0
 卫星路	wei;bd,rd;ea,va; xing;vg,va;ou; lu;go;zk;	0
 北海路	bei;la;lb; hai;kh;dm; lu;go;zk;	2
@@ -2197,14 +2197,14 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 苏州乐园	su;zf;cb; zhou;hp;dl; le;uf;pd; yuan;nk;ke;	5
 塔园路	ta;go;tk; yuan;nk;ke; lu;go;zk;	0
 滨河路	bin;kf;db; he;kj,ko;dk; lu;go;zk;	17
-西环路	xi;pp;aa; huan;ah;wb; lu;go;zk;	5
+西环路	xi;pp;aa; huan;ah,af;wb; lu;go;zk;	5
 桐泾北路	tong;wo;mk; jing;kp;dg; bei;la;lb; lu;go;zk;	0
 广济南路	guang;rr;di,wp; ji;kp;dl; nan;ss,sp;ug,ag; lu;go;zk;	1
 养育巷	yang;fp;yl; yu;il;wo; xiang;zt;cs;	1
 乐桥	le;uf;pd; qiao;wp;ml;	7
 临顿路	lin;pd;la; dun;dm;tr; lu;go;zk;	4
 相门	xiang;ws;mo; men;oo;dv;	4
-东环路	dong;df,af;ad; huan;ah;wb; lu;go;zk;	7
+东环路	dong;df,af;ad; huan;ah,af;wb; lu;go;zk;	7
 东方之门	dong;df,af;ad; fang;ff;dw; zhi;hh;dn; men;oo;dv;	9
 文化博览中心	wen;jj;wx; hua;xa;rb; bo;sk;uc; lan;pk,pr;le; zhong;op;ll; xin;nn;dd;	0
 时代广场	shi;vk;oc; dai;xa,xh;ry; guang;rr;di,wp; chang;gu;tp;	175
@@ -2281,7 +2281,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 天鹅荡路	tian;ue;ad; e;uc;wn; dang;zu;cp; lu;go;zk;	0
 苏州湾北	su;zf;cb; zhou;hp;dl; wan;kr;dg; bei;la;lb;	0
 木里	mu;ww;an,un; li;vg;la;	38
-环城南路	huan;ah;wb; cheng;gh;ti; nan;ss,sp;ug,ag; lu;go;zk;	12
+环城南路	huan;ah,af;wb; cheng;gh;ti; nan;ss,sp;ug,ag; lu;go;zk;	12
 昆明火车站	kun;va;ob; ming;vl;oo; huo;tt;dr; che;tt;al; zhan;bo;lk;	12
 福德	fu;hw;pt; de;hn;ix;	248
 日新路	ri;vv;ka; xin;bp;lj; lu;go;zk;	0
@@ -2419,7 +2419,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 兰寨	lan;fu;bs; zhai;if;bm;	0
 铁炉	tie;de;ju; lu;tq;hh;	18
 西流湖	xi;pp;aa; liu;kr;dv; hu;kl;do;	2
-西三环	xi;pp;aa; san;uu;ae; huan;ah;wb;	33
+西三环	xi;pp;aa; san;uu;ae; huan;ah,af;wb;	33
 秦岭路	qin;uf,uw;fh; ling;pp,ph;es; lu;go;zk;	1
 五一公园	wu;gg;aa; yi;dd;aa; gong;fp;bs; yuan;nk;ke;	0
 碧沙岗	bi;at;wu; sha;ku;du; gang;py;ex;	0
@@ -2440,7 +2440,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 刘庄	liu;ji;wd; zhuang;rg;gt;	72
 柳林	liu;wb;me; lin;ww;mm;	71
 沙门	sha;ku;du; men;oo;dv;	152
-北三环	bei;la;lb; san;uu;ae; huan;ah;wb;	51
+北三环	bei;la;lb; san;uu;ae; huan;ah,af;wb;	51
 东风路	dong;df,af;ad; feng;iy;jx; lu;go;zk;	2
 关虎屯	guan;fx;bt; hu;pi;hj; tun;dr;av;	0
 黄河路	huang;zf;cb; he;kj,ko;dk; lu;go;zk;	34
@@ -2514,7 +2514,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 宝幢	bao;ia,ih;by; chuang;yg;jl;	19
 五乡	wu;gg;aa; xiang;ru;vp;	15
 邱隘东	qiu;ub;qe; ai;bd,ba;em; dong;df,af;ad;	0
-东环南路	dong;df,af;ad; huan;ah;wb; nan;ss,sp;ug,ag; lu;go;zk;	0
+东环南路	dong;df,af;ad; huan;ah,af;wb; nan;ss,sp;ug,ag; lu;go;zk;	0
 盛莫路	sheng;rd,ra;im; mo;zx;cd; lu;go;zk;	0
 福庆北路	fu;hw;pt; qing;rx;gd; bei;la;lb; lu;go;zk;	0
 海晏北路	hai;kh;dm; yan;vy;on; bei;la;lb; lu;go;zk;	0
@@ -2669,7 +2669,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 双港	shuang;ll;yy; gang;kt;ds;	3
 孔目湖	kong;ar;zv; mu;ss;ka; hu;kl;do;	1
 庐山南大道	lu;rq;gh; shan;pp;lk; nan;ss,sp;ug,ag; da;xx;un; dao;fq;zz;	2
-绿茵路	lv;eo,ef;su; yin;zd,zx;cd; lu;go;zk;	1
+绿茵路	lv;eo,ef;su; yin;zx;cd; lu;go;zk;	1
 卫东	wei;bd,rd;ea,va; dong;df,af;ad;	231
 秋水广场	qiu;ut;hh; shui;oo;ln; guang;rr;di,wp; chang;gu;tp;	3
 滕王阁	teng;lo,lf;ou; wang;aa;at; ge;oo;mk;	76
@@ -2852,7 +2852,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 园博苑	yuan;nk;ke; bo;sk;uc; yuan;zt;cv;	8
 杏林村	xing;wo;mk; lin;ww;mm; cun;wk;mc;	0
 杏锦路	xing;wo;mk; jin;dy;jj; lu;go;zk;	1
-官任	guan;id;bk; ren;xd,xg;rr;	7
+官任	guan;id;bk; ren;xd,xg,xa;rr;	7
 诚毅广场	cheng;ch;yi; yi;bl,il;ly; guang;rr;di,wp; chang;gu;tp;	0
 集美软件园	ji;xw;rm; mei;fx;yd; ruan;te;ir; jian;xb;rn; yuan;nk;ke;	0
 集美大道	ji;xw;rm; mei;fx;yd; da;xx;un; dao;fq;zz;	0
@@ -2874,7 +2874,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 铁路局	tie;de;ju; lu;go;zk; ju;qo;uk;	125
 博物馆	bo;sk;uc; wu;bi,bu;nw; guan;gd;uk;	7607
 医大一院	yi;dr;ku; da;xx;un; yi;dd;aa; yuan;bk;ee;	11
-烟厂	yan;td,tx;hd; chang;rr;ap;	52
+烟厂	yan;tx;hd; chang;rr;ap;	52
 工程大学	gong;pp;aa; cheng;ua;hw; da;xx;un; xue;ha;xz;	266
 太平桥	tai;xh;dd; ping;ds,sf;au; qiao;wp;ml;	24
 交通学院	jiao;iy;wx; tong;pq;zy; xue;ha;xz; yuan;bk;ee;	31
@@ -2917,7 +2917,7 @@ T2航站楼	T2;;; hang;;; zhan;ti;vj; lou;bo;lk;	19
 临津江	lin;pd;la; jin;kp;dy; jiang;kp;dg;	3
 仁和镇	ren;xu;re; he;uo;hk; zhen;df;jb;	1
 保圣寺	bao;xw;rm; sheng;lg;yt; si;gk;tc;	2
-南内环	nan;ss,sp;ug,ag; nei;oe;ld; huan;ah;wb;	1
+南内环	nan;ss,sp;ug,ag; nei;oe;ld; huan;ah,af;wb;	1
 南延段	nan;ss,sp;ug,ag; yan;uq;zv; duan;ul;py;	1
 南明河	nan;ss,sp;ug,ag; ming;vl;oo; he;kj,ko;dk;	1
 南漪湖	nan;ss,sp;ug,ag; yi;kj,ko;dk; hu;kl;do;	1

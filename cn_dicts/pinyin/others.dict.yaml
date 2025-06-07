@@ -60,7 +60,7 @@ sort: by_weight
 郭明錤	guo;ib;we; ming;vl;oo; qi;ef;;	38
 # 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
 李昌镐	li;wa;mz; chang;vv;oo; hao;do;jk;	242
-曹世镐	cao;dv;ao; shi;vr;av; hao;do;jk;	0
+曹世镐	cao;dv,zv;ao; shi;vr;av; hao;do;jk;	0
 张镐哲	zhang;rh;gi; gao;do;jk; zhe;jo;fk;	0
 姜成镐	jiang;fy;yn; cheng;rh;wv; hao;do;jk;	0
 姜镐童	jiang;fy;yn; hao;do;jk; tong;bg;ll;	0
@@ -175,8 +175,8 @@ sort: by_weight
 暖和	nuan;vl;oy; he;uo;hk;	743
 模棱两可	mo;wx;md; leng;wj;mw; liang;de;ad; ke;jj,jo;dk;	848
 模棱两可	mo;wx;md; ling;wj;mw; liang;de;ad; ke;jj,jo;dk;	848
-鄱阳湖	po;hb;pe; yang;bv;eo; hu;kl;do;	1336
-鄱阳湖	pan;hb;pe; yang;bv;eo; hu;kl;do;	1336
+鄱阳湖	po;hb,ub;pe; yang;bv;eo; hu;kl;do;	1336
+鄱阳湖	pan;hb,ub;pe; yang;bv;eo; hu;kl;do;	1336
 脖颈	bo;la;oz; geng;rm;vr;	483
 脖颈	bo;la;oz; jing;rm;vr;	483
 脖颈儿	bo;la;oz; geng;rm;vr; er;kk;pv;	1
@@ -228,8 +228,8 @@ sort: by_weight
 曾今	ceng;fv;bo; jin;er;rv;	105
 按捺	an;jy;fn; na;jf;fx;	127
 按耐	an;jy;fn; nai;ek;ec;	8
-按捺不住	an;jy;fn; na;jf;fx; bu;dh;ad; zhu;xa,xg;rv;	345
-按耐不住	an;jy;fn; nai;ek;ec; bu;dh;ad; zhu;xa,xg;rv;	0
+按捺不住	an;jy;fn; na;jf;fx; bu;dh,df;ad; zhu;xa,xg;rv;	345
+按耐不住	an;jy;fn; nai;ek;ec; bu;dh,df;ad; zhu;xa,xg;rv;	0
 别价	bie;oi;kd; jie;xp;rl;	1
 别介	bie;oi;kd; jie;ep;rl;	31
 甭价	beng;dp;by; jie;xp;rl;	0
@@ -320,7 +320,7 @@ sort: by_weight
 两个龍	liang;de;ad; ge;ep;rl; long;bu;;	0
 两个馬	liang;de;ad; ge;ep;rl; ma;dn;;	0
 两个犬	liang;de;ad; ge;ep;rl; quan;bb,xh;dd;	0
-两个入	liang;de;ad; ge;ep;rl; ru;ee;pn;	0
+两个入	liang;de;ad; ge;ep;rl; ru;ee,uh;pn;	0
 两个习	liang;de;ad; ge;ep;rl; xi;dd;vd;	0
 两个卪	liang;de;ad; ge;ep;rl; jie;bh;;	0
 两个㔾	liang;de;ad; ge;ep;rl; jie;tt;;	0
@@ -409,7 +409,7 @@ sort: by_weight
 两个串	liang;de;ad; ge;ep;rl; chuan;op;ll;	0
 两个米	liang;de;ad; ge;ep;rl; mi;ll;dm;	0
 两个隶	liang;de;ad; ge;ep;rl; li;rf,ro,so;vn;	0
-两个不	liang;de;ad; ge;ep;rl; bu;dh;ad;	0
+两个不	liang;de;ad; ge;ep;rl; bu;dh,df;ad;	0
 两个龙	liang;de;ad; ge;ep;rl; long;sh,dh;ud;	0
 两个乞	liang;de;ad; ge;ep;rl; qi;er;pv;	0
 两个夋	liang;de;ad; ge;ep;rl; qun;pj;;	0
