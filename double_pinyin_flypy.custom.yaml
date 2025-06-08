@@ -39,6 +39,7 @@ patch:
   # 简码提示（包括字和詞）
   moran/enable_quick_code_hint: true
 
+
   #  emoji
   emoji/tips: none   # 转换提示: all 都显示 | char 仅单字显示 | none 
 
