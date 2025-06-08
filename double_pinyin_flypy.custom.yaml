@@ -27,10 +27,6 @@ patch:
     - "9"
     - "0"
 
-  # 切换中英：
-  ascii_composer/switch_key/Shift_L: noop
-  ascii_composer/switch_key/Shift_R: inline_ascii
-
 
   # 禁用根据是否在用户词典，在 comment 上加上一个标记
   'engine/filters/@014': null
