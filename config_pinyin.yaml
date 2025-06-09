@@ -469,6 +469,9 @@ fly_vr_vn:                              # zhuan
 fly_ce_cn:                              # ce
   __append:
     - derive/ce;/cn;/
+fly_bm_bz:                              # bian
+  __append:
+    - derive/bm;/bz;/
 
 ############################################
 
