@@ -472,6 +472,13 @@ fly_ce_cn:                              # ce
 fly_bm_bz:                              # bian
   __append:
     - derive/bm;/bz;/
+fly_ji_jo:                              # ji
+  __append:
+    - derive/ji;/jo;/
+fly_bd_be:                              # bai
+  __append:
+    - derive/bd;/be;/
+
 
 ############################################
 

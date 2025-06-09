@@ -76,6 +76,8 @@ speller:
       - config_pinyin:/fly_vr_vn                              # 飞键 zhuan
       - config_pinyin:/fly_ce_cn                              # 飞键 ce
       - config_pinyin:/fly_bm_bz                              # 飞键 bian
+      - config_pinyin:/fly_ji_jo                              # 飞键 ji
+      - config_pinyin:/fly_bd_be                              # 飞键 bai
       - set_algebra_fuzhu    #辅助码选择
       - set_fuzhu_type       #辅助码类型
 
