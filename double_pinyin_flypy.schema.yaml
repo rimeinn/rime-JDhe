@@ -96,6 +96,25 @@ translator:
 #    - "^[a-z;,./][a-z;,./][a-z;,./][a-z;,./]$"  # 禁止四码词调频    
   preedit_format: 
     - xform/([a-z][a-z][a-z][a-z])o/$1°/    
+    - xform/wk/ẇẇ/
+    - xform/zl/żṡ/
+    - xform/cl/ċṡ/
+    - xform/rp/ṙṙ/
+    - xform/kw/ǩǩ/
+    - xform/bz/ḃṁ/
+    - xform/vn/ṿṙ/
+    - xform/be/ḃḋ/
+    - xform/jo/ĵí/
+    - xform/ei/ẏí/
+    - xform/qo/ʠẋ/
+    - xform/xo/ẋʠ/
+    - xform/gp/ġḟ/
+    - xform/ja/ĵṅ/
+    - xform/ps/ṗȯ/
+    - xform/fs/ḟġ/
+    - xform/qh/ʠʠ/
+    - xform/dl/ḋċ/
+    - xform/cn/ċė/
     - xform/(?<=[A-Z])\s(?=[A-Z])//  # 消除大写字母之间的空格
 
 # 标点符号
