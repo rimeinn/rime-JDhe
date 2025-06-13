@@ -145,6 +145,9 @@ key_binder:
       - config_base:/key_config/tab_Page
       - config_base:/key_config/keys
 __patch:
+  # 增加一个辅助识别器
+  - 'engine/segmentors/@after 01': matcher@recognizer_secondary
+##################################################
   # 禁用原方案的翻译器
   - 'engine/translators/@02': null
   # 魔然翻譯器
@@ -329,11 +332,17 @@ custom_phrase:
 # 次翻译器，英文
 melt_eng:
   dictionary: melt_eng     # 挂载词库 melt_eng.dict.yaml
+  tag: english  # librime<=1.11 請在 custom 中置空
   enable_sentence: false   # 禁止造句
   enable_user_dict: false  # 禁用用户词典
   initial_quality: 1.1     # 初始权重
   comment_format:          # 自定义提示码
     - xform/.*//           # 清空提示码
+
+recognizer_secondary:
+  patterns:
+    # {4} 表示輸入長度達到 4 後開始輸出英語
+    english: '^[A-Za-z]{4}[A-Za-z]*'
 
 ##################################################
 # 中英混合词汇
