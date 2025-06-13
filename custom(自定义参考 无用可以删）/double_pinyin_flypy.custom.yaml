@@ -74,15 +74,7 @@ patch:
   # Lua 配置：Emoji 降频到第 idx 个位置
   emoji_reduce/idx: 6                    
 
-  # 增加一个辅助识别器
-  'engine/segmentors/@after 01': matcher@recognizer_secondary
-  # 给英文翻译器添加tag匹配规则
-  melt_eng/tag: english  # librime<=1.11 請在 custom 中置空
-  # 辅助识别器
-  recognizer_secondary:
-    patterns:
-      # {4} 表示輸入長度達到 4 後開始輸出英語
-      english: '^[A-Za-z]{4}[A-Za-z]*'
+
 
 ######【注意】此功能开启后，四码词组会根据使用习惯动态调整候选词排序 #########
 # 简单鹤方案下动词模式必须 打开屏蔽开关，将原先的「①」占位符屏蔽。
