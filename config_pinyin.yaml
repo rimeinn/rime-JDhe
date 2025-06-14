@@ -500,6 +500,18 @@ fly_dd_db:                              # dai
 fly_zr_zn:                              # zuan
   __append:
     - derive/zr;/zn;/
+fly_xs_xh:                              # xiong
+  __append:
+    - derive/xs;/xh;/
+fly_il_iq:                              # chuang
+  __append:
+    - derive/il;/iq;/
+fly_zc_zp:                              # zao
+  __append:
+    - derive/zc;/zp;/
+fly_vc_vp:                              # zhao
+  __append:
+    - derive/vc;/vp;/
 
 
 
