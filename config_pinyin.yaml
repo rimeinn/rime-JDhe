@@ -479,6 +479,19 @@ fly_bd_be:                              # bai
   __append:
     - derive/bd;/be;/
 
+fly_sz_sn:                              # sou
+  __append:
+    - derive/sz;/sn;/
+fly_sc_sl:                              # sao
+  __append:
+    - derive/sc;/sl;/
+fly_sr_sp:                              # suan
+  __append:
+    - derive/sr;/sp;/
+fly_nm_nx:                              # nian
+  __append:
+    - derive/nm;/nx;/
+
 
 ############################################
 
