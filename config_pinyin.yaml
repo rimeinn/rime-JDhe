@@ -491,6 +491,16 @@ fly_sr_sp:                              # suan
 fly_nm_nx:                              # nian
   __append:
     - derive/nm;/nx;/
+fly_td_tl:                              # tai
+  __append:
+    - derive/td;/tl;/
+fly_dd_db:                              # dai
+  __append:
+    - derive/dd;/db;/
+fly_zr_zn:                              # zuan
+  __append:
+    - derive/zr;/zn;/
+
 
 
 ############################################
