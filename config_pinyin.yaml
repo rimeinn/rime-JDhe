@@ -479,15 +479,13 @@ fly_bd_be:                              # bai
   __append:
     - derive/bd;/be;/
 
-fly_sz_sn:                              # sou
-  __append:
-    - derive/sz;/sn;/
+
 fly_sc_sl:                              # sao
   __append:
     - derive/sc;/sl;/
-fly_sr_sp:                              # suan
+fly_sr_sn:                              # suan
   __append:
-    - derive/sr;/sp;/
+    - derive/sr;/sn;/
 fly_nm_nx:                              # nian
   __append:
     - derive/nm;/nx;/
@@ -506,13 +504,15 @@ fly_xs_xh:                              # xiong
 fly_il_iq:                              # chuang
   __append:
     - derive/il;/iq;/
-fly_zc_zp:                              # zao
+fly_vg_vp:                              # zheng
   __append:
-    - derive/zc;/zp;/
-fly_vc_vp:                              # zhao
+    - derive/vg;/vp;/
+fly_tc_tb:                              # tao
   __append:
-    - derive/vc;/vp;/
-
+    - derive/tc;/tb;/
+fly_cr_cp:                              # cuan
+  __append:
+    - derive/cr;/cp;/
 
 
 ############################################
