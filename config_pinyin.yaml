@@ -262,7 +262,59 @@ algebra_xhup:
   # 双拼简拼, 开启后可能性能不佳, 视情况开启
     - abbrev/^(.).+$/$1/
 
-########## 万象词库解码规则，以下是拼写运算规则中全拼转双拼码以及形码的过程，按照不同的方案规则划分段落 ############
+# 乱序17双拼按键映射
+algebra_lx17: 
+  __append:
+    - erase/^xx$/
+    - derive/^([jqxy])u$/$1Ⓥ/
+    - xform/^ch/Ⓒ/
+    - xform/^c/Ⓕ/
+    - xform/^k/Ⓙ/
+    - xform/^([aoe].*)$/Ⓠ$1/
+    - xform/^p/Ⓗ/
+    - xform/^r/Ⓝ/
+    - xform/^sh/Ⓢ/
+    - xform/^s/Ⓜ/
+    - xform/^zh/Ⓩ/
+    - xform/^z/Ⓦ/
+    - xform/uang$/Ⓠ/
+    - xform/iang$/Ⓒ/
+    - xform/iong$/Ⓑ/
+    - xform/ang$/Ⓩ/
+    - xform/eng$/Ⓨ/
+    - xform/ian$/Ⓠ/
+    - xform/iao$/Ⓩ/
+    - xform/ing$/Ⓨ/
+    - xform/ong$/Ⓣ/
+    - xform/uai$/Ⓧ/
+    - xform/uan$/Ⓧ/
+    - xform/ai$/Ⓛ/
+    - xform/an$/Ⓝ/
+    - xform/ao$/Ⓑ/
+    - xform/ei$/Ⓖ/
+    - xform/en$/Ⓢ/
+    - xform/er$/Ⓣ/
+    - xform/ua$/Ⓗ/
+    - xform/ie$/Ⓜ/
+    - xform/in$/Ⓢ/
+    - xform/iu$/Ⓕ/
+    - xform/ou$/Ⓕ/
+    - xform/ia$/Ⓗ/
+    - xform/[uv]e$/Ⓛ/
+    - xform/ui$/Ⓒ/
+    - xform/un$/Ⓖ/
+    - xform/uo$/Ⓜ/
+    - xform/a$/Ⓗ/
+    - xform/e$/Ⓦ/
+    - xform/i$/Ⓙ/
+    - xform/o$/Ⓧ/
+    - xform/u$/Ⓓ/
+    - xform/v$/Ⓧ/
+    - xlit/ⓆⓌⒺⓇⓉⓎⓄⓅⒶⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwertyopasdfghjklzxcvbnm/
+
+
+
+########## 带辅码词库解码规则，以下是拼写运算规则中全拼转双拼码以及形码的过程，按照不同的方案规则划分段落 ############
 全拼: 
   __append: 
     - erase/^xx;.*$/
@@ -270,7 +322,7 @@ algebra_xhup:
 自然码: 
   __append:
     #- erase/^xx;.*$/
-    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+#    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - derive/^([jqxy])u(;.*)$/$1v$2/
     - derive/^([aoe])([ioun])(;.*)$/$1$1$2$3/
     - xform/^([aoe])(ng)?(;.*)$/$1$1$2$3/
@@ -327,7 +379,7 @@ algebra_xhup:
     - xform/^(\w+?)ian(;.*)/$1Ⓜ$2/
     - xform/^(\w+?)an(;.*)/$1Ⓙ$2/
     - xform/^(\w+?)ou(;.*)/$1Ⓩ$2/
-    - xform/^(\w+?)iao(;.*)/$1Ⓝ$2/
+    - xform/^(\w+?)iao(;.*)/$1Ⓝ$2/^(\
     - xform/^(\w+?)[iu]a(;.*)/$1Ⓧ$2/
     - xform/^(\w+?)ao(;.*)/$1Ⓒ$2/
     - xform/^(\w+?)ui(;.*)/$1Ⓥ$2/
@@ -338,6 +390,57 @@ algebra_xhup:
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/
   # 双拼简拼, 开启后可能性能不佳, 视情况开启
 #    - abbrev/^(.).+$/$1/
+
+
+乱序17双拼: 
+  __append:
+#    - erase/^xx$/
+    - derive/^([jqxy])u(;.*)$/$1Ⓥ$2/
+    - xform/^ch/Ⓒ/
+    - xform/^c/Ⓕ/
+    - xform/^k/Ⓙ/
+    - xform/^([aoe].*)(;.*)$/Ⓠ$1$2/
+    - xform/^p/Ⓗ/
+    - xform/^r/Ⓝ/
+    - xform/^sh/Ⓢ/
+    - xform/^s/Ⓜ/
+    - xform/^zh/Ⓩ/
+    - xform/^z/Ⓦ/
+    - xform/(\w+?)uang(;.*)$/$1Ⓠ$2/
+    - xform/(\w+?)iang(;.*)$/$1Ⓒ$2/
+    - xform/(\w+?)iong(;.*)$/$1Ⓑ$2/
+    - xform/(\w+?)ang(;.*)$/$1Ⓩ$2/
+    - xform/(\w+?)eng(;.*)$/$1Ⓨ$2/
+    - xform/(\w+?)ian(;.*)$/$1Ⓠ$2/
+    - xform/(\w+?)iao(;.*)$/$1Ⓩ$2/
+    - xform/(\w+?)ing(;.*)$/$1Ⓨ$2/
+    - xform/(\w+?)ong(;.*)$/$1Ⓣ$2/
+    - xform/(\w+?)uai(;.*)$/$1Ⓧ$2/
+    - xform/(\w+?)uan(;.*)$/$1Ⓧ$2/
+    - xform/(\w+?)ai(;.*)$/$1Ⓛ$2/
+    - xform/(\w+?)an(;.*)$/$1Ⓝ$2/
+    - xform/(\w+?)ao(;.*)$/$1Ⓑ$2/
+    - xform/(\w+?)ei(;.*)$/$1Ⓖ$2/
+    - xform/(\w+?)en(;.*)$/$1Ⓢ$2/
+    - xform/(\w+?)er(;.*)$/$1Ⓣ$2/
+    - xform/(\w+?)ua(;.*)$/$1Ⓗ$2/
+    - xform/(\w+?)ie(;.*)$/$1Ⓜ$2/
+    - xform/(\w+?)in(;.*)$/$1Ⓢ$2/
+    - xform/(\w+?)iu(;.*)$/$1Ⓕ$2/
+    - xform/(\w+?)ou(;.*)$/$1Ⓕ$2/
+    - xform/(\w+?)ia(;.*)$/$1Ⓗ$2/
+    - xform/(\w+?)[uv]e(;.*)$/$1Ⓛ$2/
+    - xform/(\w+?)ui(;.*)$/$1Ⓒ$2/
+    - xform/(\w+?)un(;.*)$/$1Ⓖ$2/
+    - xform/(\w+?)uo(;.*)$/$1Ⓜ$2/
+    - xform/(\w+?)a(;.*)$/$1Ⓗ$2/
+    - xform/(\w+?)e(;.*)$/$1Ⓦ$2/
+    - xform/(\w+?)i(;.*)$/$1Ⓙ$2/
+    - xform/(\w+?)o(;.*)$/$1Ⓧ$2/
+    - xform/(\w+?)u(;.*)$/$1Ⓓ$2/
+    - xform/(\w+?)v(;.*)$/$1Ⓧ$2/
+    - xlit/ⓆⓌⒺⓇⓉⓎⓄⓅⒶⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwertyopasdfghjklzxcvbnm/
+
 
 
 ###################### 以下是用来配置不同的辅助码方案 ###############################################
@@ -498,9 +601,6 @@ fly_dd_db:                              # dai
 fly_zr_zn:                              # zuan
   __append:
     - derive/zr;/zn;/
-fly_xs_xh:                              # xiong
-  __append:
-    - derive/xs;/xh;/
 fly_il_iq:                              # chuang
   __append:
     - derive/il;/iq;/
@@ -513,9 +613,36 @@ fly_tc_tb:                              # tao
 fly_cr_cp:                              # cuan
   __append:
     - derive/cr;/cp;/
-
+fly_fz_fm:                              # fou
+  __append:
+    - derive/fz;/fm;/
+fly_xr_xh:                              # xuan
+  __append:
+    - derive/xr;/xh;/
 
 ############################################
+# 小鹤双拼下的模糊音
+fly_in_ing_buhun: 
+  __append:
+    - derive/^([bdjlmnpqtxy])k/$1b/
+    - derive/^([bjlmnpqxy])b/$1k/
+fly_an_ang_buhun: 
+  __append:
+    - derive/^([bpmfdtnlgkhjqxviurzcsyw])j/$1h/
+    - derive/^([bpmfdtnlgkhviurzcsy])h/$1j/
+fly_en_eng_buhun: 
+  __append:
+    - derive/^([bpmfngkhrw])f/$1g/
+    - derive/^([bpmfdtnlgkhrzcsy])g/$1f/
+
+fly_ro_lo_buhun: 
+  __append:
+    - derive/ro;/lo;/
+    - derive/lo;/ro;/
+fly_rong_long_buhun: 
+  __append:
+    - derive/rs;/ls;/
+    - derive/ls;/rs;/
 
 flypy_preedit_format:         # 小鹤双拼编码转换成全拼                     
   __append:  
