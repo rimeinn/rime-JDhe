@@ -29,6 +29,8 @@ encoder:
     - length_in_range: [4, 99]
       formula: "AaBaCaZa"
 ...
+# 此行之后不能写注释
+# no comment
 瓣	bjg
 辨	bmld
 辫	bmls
