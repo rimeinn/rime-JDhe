@@ -355,7 +355,7 @@ key_config:
       - { accept: Shift+Tab, send: Page_Up, when: paging} 
 
   # 使用 tab 在不同音节间跳转
-  tab_jump:
+  tab跳转音节:
     __append:
      - { accept: Tab, send: Control+Right, when: has_menu }
      - { accept: Tab, send: Control+Right, when: composing }
@@ -368,11 +368,11 @@ key_config:
      # 打字时，Shift+Tab 选中上一个候选
      - { accept: Shift+Tab, send: Up, when: has_menu} 
 
-  # 使用 9(或0) 在不同音节间跳转
-  90_jump:
+  # 使用 「(」或「)」 在不同音节间跳转
+  Shift加左右括号跳转音节:
     __append:
-      - { when: composing, accept: 9, send: Shift+Left }
-      - { when: composing, accept: 0, send: Shift+Right }
+      - { when: composing, accept: Shift+parenleft, send: Shift+Left }
+      - { when: composing, accept: Shift+parenright, send: Shift+Right }
 
   # 使用大写字母追加输入到上一个音节末尾
   capital_for_last_syllable:
