@@ -595,9 +595,6 @@ fly_nm_nx:                              # nian
 fly_td_tl:                              # tai
   __append:
     - derive/td;/tl;/
-fly_dd_db:                              # dai
-  __append:
-    - derive/dd;/db;/
 fly_zr_zn:                              # zuan
   __append:
     - derive/zr;/zn;/
@@ -619,6 +616,10 @@ fly_fz_fm:                              # fou
 fly_xr_xh:                              # xuan
   __append:
     - derive/xr;/xh;/
+fly_gr_gn:                              # guan
+  __append:
+    - derive/gr;/gn;/
+
 
 ############################################
 # 小鹤双拼下的模糊音
@@ -632,13 +633,20 @@ fly_an_ang_buhun:
     - derive/^([bpmfdtnlgkhviurzcsy])h/$1j/
 fly_en_eng_buhun: 
   __append:
-    - derive/^([bpmfngkhrw])f/$1g/
-    - derive/^([bpmfdtnlgkhrzcsy])g/$1f/
-
+    - derive/^([bpmfngkhrwuiv])f/$1g/
+    - derive/^([bpmfdtnlgkhrzcsyuivw])g/$1f/
 fly_ro_lo_buhun: 
   __append:
     - derive/ro;/lo;/
     - derive/lo;/ro;/
+fly_rj_lj_buhun: 
+  __append:
+    - derive/rj;/lj;/
+    - derive/lj;/rj;/
+fly_ru_lu_buhun: 
+  __append:
+    - derive/ru;/lu;/
+    - derive/lu;/ru;/
 fly_rong_long_buhun: 
   __append:
     - derive/rs;/ls;/

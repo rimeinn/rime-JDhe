@@ -368,6 +368,11 @@ key_config:
      # 打字时，Shift+Tab 选中上一个候选
      - { accept: Shift+Tab, send: Up, when: has_menu} 
 
+  # 使用 9(或0) 在不同音节间跳转
+  90_jump:
+    __append:
+      - { when: composing, accept: 9, send: Shift+Left }
+      - { when: composing, accept: 0, send: Shift+Right }
 
   # 使用大写字母追加输入到上一个音节末尾
   capital_for_last_syllable:
