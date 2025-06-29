@@ -623,6 +623,18 @@ fly_gr_gn:                              # guan
 
 ############################################
 # 小鹤双拼下的模糊音
+fly_z_zh_buhun: 
+  __append:
+    - derive/^z([adcjhzsfguvyorev])/v$1/
+    - derive/^v([aedczjhfgsuxokvryl])/z$1/
+fly_s_sh_buhun: 
+  __append:
+    - derive/^s([aedcjhzsfguvyor])/u$1/
+    - derive/^u([aedczjhfgsuxokvryl])/s$1/
+fly_c_ch_buhun: 
+  __append:
+    - derive/^c([aedcjhzsfguvyo])/i$1/
+    - derive/^i([aedczjhfgsuxokvryl])/c$1/
 fly_in_ing_buhun: 
   __append:
     - derive/^([bdjlmnpqtxy])k/$1b/

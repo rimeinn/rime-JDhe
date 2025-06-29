@@ -369,10 +369,10 @@ key_config:
      - { accept: Shift+Tab, send: Up, when: has_menu} 
 
   # 使用 「(」或「)」 在不同音节间跳转
-  Shift加左右括号跳转音节:
+  数字9和0跳转音节:
     __append:
-      - { when: composing, accept: Shift+parenleft, send: Shift+Left }
-      - { when: composing, accept: Shift+parenright, send: Shift+Right }
+      - { when: has_menu, accept: 9, send: Control+Right }
+      - { when: composing, accept: 0, send: Control+Right }
 
   # 使用大写字母追加输入到上一个音节末尾
   capital_for_last_syllable:
