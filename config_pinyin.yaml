@@ -626,15 +626,15 @@ fly_gr_gn:                              # guan
 fly_z_zh_buhun: 
   __append:
     - derive/^z([adcjhzsfguvyorev])/v$1/
-    - derive/^v([aedczjhfgsuxokvryl])/z$1/
+    - derive/^v([aedczjhfgsuxokvry])/z$1/
 fly_s_sh_buhun: 
   __append:
     - derive/^s([aedcjhzsfguvyor])/u$1/
-    - derive/^u([aedczjhfgsuxokvryl])/s$1/
+    - derive/^u([aedczjhfgsuxokvry])/s$1/
 fly_c_ch_buhun: 
   __append:
     - derive/^c([aedcjhzsfguvyo])/i$1/
-    - derive/^i([aedczjhfgsuxokvryl])/c$1/
+    - derive/^i([aedczjhfgsuxokvry])/c$1/
 fly_in_ing_buhun: 
   __append:
     - derive/^([bdjlmnpqtxy])k/$1b/
@@ -651,7 +651,7 @@ fly_ro_lo_buhun:
   __append:
     - derive/ro;/lo;/
     - derive/lo;/ro;/
-fly_rj_lj_buhun: 
+fly_ran_lan_buhun: 
   __append:
     - derive/rj;/lj;/
     - derive/lj;/rj;/
@@ -663,6 +663,11 @@ fly_rong_long_buhun:
   __append:
     - derive/rs;/ls;/
     - derive/ls;/rs;/
+fly_uan_uang_buhun: 
+  __append:
+    - derive/^([gk])r;/$1l;/
+    - derive/^([gk])l;/$1r;/
+
 
 flypy_preedit_format:         # 小鹤双拼编码转换成全拼                     
   __append:  
