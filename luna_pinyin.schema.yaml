@@ -1,6 +1,5 @@
 # Rime schema
 # encoding: utf-8
-# 本方案匹配词库解码顺序为：全拼拼音;简单鹤;自然码;虎码首末;官版鹤形
 #############DIY你想要的方案组合吧###########################
 set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
   __include: config_pinyin:/全拼  #可选解码规则有   全拼，自然码，小鹤双拼，微软双拼
@@ -92,6 +91,9 @@ key_binder:
       - config_base:/key_config/keys
 
 __patch:
+  # 增加一个辅助识别器
+  - 'engine/segmentors/@after 01': matcher@recognizer_secondary
+##################################################
   # 自定义短语
   - 'engine/translators/@after 02': table_translator@custom_phrase 
   # 英文输入
@@ -134,11 +136,17 @@ custom_phrase:
 # 次翻译器，英文
 melt_eng:
   dictionary: melt_eng     # 挂载词库 melt_eng.dict.yaml
+  tag: english  # librime<=1.11 請在 custom 中置空
   enable_sentence: false   # 禁止造句
   enable_user_dict: false  # 禁用用户词典
   initial_quality: 1.1     # 初始权重
   comment_format:          # 自定义提示码
     - xform/.*//           # 清空提示码
+
+recognizer_secondary:
+  patterns:
+    # {4} 表示輸入長度達到 4 後開始輸出英語
+    english: '^[A-Za-z]{4}[A-Za-z]*'
 
 # 中英混合词汇
 cn_en:

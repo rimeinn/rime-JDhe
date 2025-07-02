@@ -350,7 +350,7 @@ function pin_filter.func(t_input, env)
         end
         -- descending sort
         table.sort(commits, function(a, b)
-            return a.commits > b.commits
+            return a.commits < b.commits
         end)
         for _, unpacked in ipairs(commits) do
             local cand = Candidate("pinned", 0, #input, unpacked.phrase, env.indicator)
