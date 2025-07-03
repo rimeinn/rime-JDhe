@@ -62,3 +62,10 @@ gone	gone
 Go程	gocheng
 code	code
 SOHO	soho
+Amy  amy
+Vina  vina
+Matt  matt
+Echo  echo
+Olive  olive
+Zoey  zoey
+Ivy  ivy
