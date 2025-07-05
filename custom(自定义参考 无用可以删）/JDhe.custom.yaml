@@ -13,3 +13,116 @@ patch:
   style/hilited_corner_radius: 6                   # macOS选中框 圆角半径  
   style/layout/max_width: 250                           # 候选框最大宽度，文本竖排模式下如高度超此尺寸则换列显示候选，设置为 0 则不启用此功能 
   style/preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
+
+
+  # 修改候选项标签
+  menu/alternative_select_labels: 
+    - "␣"
+    - ";"
+    - "3'"
+    - "4["
+    - "5]"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - "0"
+
+# 中西文切换
+#
+# good_old_caps_lock:
+# true   切换大写
+# false  切换中英
+# macOS 偏好设置的优先级更高，如果勾选【使用大写锁定键切换“ABC”输入法】则始终会切换输入法。
+#
+# 切换中英：
+# 不同的选项表示：打字打到一半时按下了 CapsLock、Shift、Control 后：
+# commit_code  上屏原始的编码，然后切换到英文
+# commit_text  上屏拼出的词句，然后切换到英文
+# clear        清除未上屏内容，然后切换到英文
+# inline_ascii 切换到临时英文模式，按回车上屏后回到中文状态
+# noop         屏蔽快捷键，不切换中英，但不要屏蔽 CapsLock
+  ascii_composer:
+    good_old_caps_lock: true  # true | false
+    switch_key:
+      Caps_Lock: clear      # commit_code | commit_text | clear
+      Eisu_toggle: clear      # commit_code | commit_text | clear
+      Shift_L: noop  # commit_code | commit_text | inline_ascii | clear | noop
+      Shift_R: inline_ascii         # commit_code | commit_text | inline_ascii | clear | noop
+      Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
+      Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop  
+
+
+  # 左 Shift 清空编码
+  editor/bindings/Shift_L: cancel
+
+
+  #  emoji
+  emoji/tips: none   # 转换提示: all 都显示 | char 仅单字显示 | none 
+  #  关闭中英文混输词库
+  cn_en/user_dict: null
+
+
+
+ ######################################################################
+  # 替换 自定义置顶词 自造词 快捷键响应
+  'engine/processors/@02': lua_processor@*moran_pin*pin_processor
+
+  # 增加 自造词翻译器
+  'engine/translators/@before 03': table_translator@fixed
+  # 替换 自定义置顶词 自造词
+  'engine/translators/@09': lua_translator@*moran_pin*panacea_translator
+
+  # 替换 魔然版本自定义置顶词
+  'engine/filters/@before 04': lua_filter@*moran_hint_filter
+  'engine/filters/@09': lua_filter@*moran_pin*pin_filter
+  # 简快码提示
+
+
+  fixed:
+    dictionary: JDhe
+    db_class: tabledb
+    enable_charset_filter: false
+    enable_sentence: false             # 是否启用造句模式
+    enable_completion: false           # 编码提示开关（提前显示尚未输入完整码的字）
+    enable_user_dict: true             # 是否启用用户词典（记录动态字词频、自造词）
+    enable_encoder: true               # 是否启用 自动造词
+    encode_commit_history: false       # 是否開啓自動造詞
+    initial_quality: 2
+
+
+  moran:
+    # 簡快碼提示符
+    # 修改爲 "" 可取消提示符
+    # 建議在熟悉簡碼後再取消
+    quick_code_indicator: "⚡"
+
+   # 簡快碼提示（包括字和詞）
+    # 例如 輸入 yy te er 英特爾 會提示「⚡yte」，即使用 yte 可以打出這個詞
+    enable_quick_code_hint: true
+    # 取消單字的簡快碼提示
+    quick_code_hint_skip_chars: true
+
+    # 「置頂」功能相關設置
+    # 輸入時通過快捷鍵 Ctrl+t 可以將高亮顯示的候選置頂，被置頂的候選位置固定，不再參與調頻
+    # 對同一輸入碼最高支持8個置頂詞，當嘗試置頂第9個詞時，最早被置頂的詞將會失效
+    pin:
+      # 「置頂」功能開關
+      enable: true
+      # 置頂詞提示符
+      indicator: "ᵀᴼᴾ"
+      # 「萬靈藥」加詞功能
+      # 通過輸入 「編碼A」//「編碼B」 實現造詞功能，編碼A是這個新詞的新編碼 編碼B是目前可以打出該詞的編碼
+      # 例如 輸入 tnfb 不能得到「頭腦風暴」這一候選， 此時我們可以輸入 tnfb//tbnkfgbk 按下空格 讓「頭腦風暴」候選上屏，上屏的詞會被加入用戶詞庫中，之後我們可以用 tnfb 來得到「頭腦風暴」這一候選了
+      # 造出的詞與置頂詞是等同的
+      panacea:
+        # 加詞狀態提示
+        prompt: "〔加詞〕"
+        # 加詞中綴引導符
+        infix: "//"
+#     # 自由加詞模式開關，開啓此模式後，輸入「編碼A」//並空格上屏後會進入加詞狀態，此時可以連續地、不受束縛地輸入，再次按下x//空格退出加詞狀態，期間輸入的內容將會被記錄爲「編碼A」的新置頂詞
+    # 能造出不受碼表的限制的詞，因此適合字詞模式使用
+    # 例如 輸入tnfb//空格 然後輸入tbnk上屏「頭腦」 fgbk上屏「風暴」，再輸入x//空格，則可以用tnfb上屏「頭腦風暴」
+        freestyle: true
+
+ ######################################################################
