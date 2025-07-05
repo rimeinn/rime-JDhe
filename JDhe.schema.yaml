@@ -120,7 +120,7 @@ __patch:
   # 自定义置顶词 ctrl-t
   - 'engine/translators/@after 08': lua_translator@*jdh/pin_word*translator
   # 替换掉雾凇版本自定义置顶词  
-  - 'engine/filters/@10': lua_filter@*jdh/pin_word*filter
+  - 'engine/filters/@09': lua_filter@*jdh/pin_word*filter
 ##################################################
   # 顶词空格单 正则按键绑定处理器
 #  - 'engine/processors/@after 02': lua_processor@*jdh/key_binder
