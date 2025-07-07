@@ -71,6 +71,7 @@ switches_engine_script:
       - lua_translator@*chinese_lunar           # 中国农历 /nl 触发显示   
       - lua_translator@*shortcut*translator     #  /jk, /kj 触发快捷命令 
       - lua_translator@*unicode                 # Unicode 输入          
+      - lua_translator@*help_menu               # /oh 触发进入帮助菜单     
       - predict_translator                      # 输入预测  
       - lua_translator@*force_gc                # 暴力GC，尝试解决小狼毫长期使用的卡顿
     filters:      
@@ -135,6 +136,7 @@ switches_engine_table:
       - lua_translator@*chinese_lunar           # 中国农历 /nl 触发显示   
       - lua_translator@*shortcut*translator     #  /jk, /kj 触发快捷命令 
       - lua_translator@*unicode                 # Unicode 输入          
+      - lua_translator@*help_menu               # /oh 触发进入帮助菜单     
       - predict_translator                      # 输入预测  
       - lua_translator@*force_gc                # 暴力GC，尝试解决小狼毫长期使用的卡顿
     filters:      
@@ -269,6 +271,7 @@ recognizer_config:
       shortcuts_app: "^/jk[a-z]*$"              # 快捷指令(启动应用)
       shortcuts_cmd: "^/kj[a-z]*$"              # 快捷指令(执行命令)
       unicode: "^U[a-f0-9]+"  # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
+      help_menu: "^(/oh|oH)$"                  # 帮助菜单
       radical_lookup: "^oiz[A-Za-z]*$"   # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
       stroke_lookup: "^obh[A-Za-z]*$"    # 响应五笔画的反查，与 stroke_lookup/prefix 匹配
       wanxiang_py_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`))|^([a-z]{4}`))"  # 响应 临时「`」统配反查

@@ -153,6 +153,7 @@ __patch:
   - recognizer/patterns/shortcuts_app: "^ojk[a-z]*$"        # 快捷指令(启动应用)
   - recognizer/patterns/shortcuts_cmd: "^okj[a-z]*$"        # 快捷指令(执行命令)
   - recognizer/patterns/chinese_number: "^(/cn|ocn)[0-9.]*$"       # 中文大写数字(金额)
+  - recognizer/patterns/help_menu: "^(/oh|obv)$"                  # 帮助菜单
 
 ##################################################
 
