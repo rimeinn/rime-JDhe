@@ -340,7 +340,7 @@ melt_eng:
   tag: english  # librime<=1.11 請在 custom 中置空
   enable_sentence: false   # 禁止造句
   enable_user_dict: false  # 禁用用户词典
-  initial_quality: 1.1     # 初始权重
+  initial_quality: 0     # 初始权重
   comment_format:          # 自定义提示码
     - xform/.*//           # 清空提示码
 
