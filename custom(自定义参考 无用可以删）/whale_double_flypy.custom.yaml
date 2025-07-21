@@ -14,3 +14,27 @@ patch:
   style/layout/max_width: 250                           # 候选框最大宽度，文本竖排模式下如高度超此尺寸则换列显示候选，设置为 0 则不启用此功能 
   style/preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
   
+
+  key_binder/bindings: 
+    __patch: 
+      - whale_double_flypy.custom:/key_binder/custom_bindings?
+      - config_base:/key_config/options_toggle
+#      - config_base:/key_config/tab跳转音节 # 使用 tab 在不同音节间跳转
+      - config_base:/key_config/tab_Page # 使用 tab 翻页候选
+      - config_base:/key_config/keys
+ 
+# 增加快捷键设置
+key_binder: 
+  custom_bindings:
+    __append: 
+      # 在這裏添加只在本方案中生效的按鍵綁定
+      # 打字时，' 选中第3个候选字发送 (音码方案需要此键 分词，形码单独启用)
+      - { accept: apostrophe, send: 3, when: has_menu} 
+     # 打字时，9 选中第4个候选字发送
+      - { accept: 9, send: 4, when: has_menu} 
+     # 打字时，0 选中第5个候选字发送
+      - { accept: 0, send: 5, when: has_menu}  
+      # 简单鹤字根拆分显示开关
+      - { when: has_menu, accept: "Control+i", toggle: chaifen }     
+      # 固定词序or动态词序 临时切换开关
+      - { when: has_menu, accept: "Control+g", toggle: inflexible }     
