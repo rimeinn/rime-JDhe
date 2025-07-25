@@ -641,8 +641,8 @@ fly_in_ing_buhun:
     - derive/^([bjlmnpqxy])b/$1k/
 fly_an_ang_buhun: 
   __append:
-    - derive/^([bpmfdtnlgkhjqxviurzcsyw])j/$1h/
-    - derive/^([bpmfdtnlgkhviurzcsy])h/$1j/
+    - derive/^([bpmfdtnlgkhjqxviurzcsw])j/$1h/
+    - derive/^([bpmfdtnlgkhviurzcs])h/$1j/
 fly_en_eng_buhun: 
   __append:
     - derive/^([bpmfngkhrwuiv])f/$1g/
