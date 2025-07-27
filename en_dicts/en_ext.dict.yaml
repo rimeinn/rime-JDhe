@@ -240,6 +240,7 @@ macOS Monterey	macOSMonterey
 macOS Ventura	macOSVentura
 macOS Sonoma	macOSSonoma
 macOS Sequoia	macOSSequoia
+macOS Tahoe	macOSTahoe
 Windows 95	Windows95
 Windows 98	Windows98
 Windows Me	WindowsMe
@@ -495,6 +496,7 @@ YAML Ain't Markup Language	YAML
 TOML	TOML
 Tom's Obvious Minimal Language	TOML
 Hexo	Hexo
+hexo	hexo
 Hugo	Hugo
 Epic	Epic
 Epic Games	EpicGames
@@ -844,7 +846,7 @@ Secure Sockets Layer	SSL
 StackSocial	StackSocial
 Sublime Text	SublimeText
 TechWeb	TechWeb
-Terminal	Terminal
+# Terminal	Terminal
 TestFlight	TestFlight
 Texshop	Texshop
 Textastic	Textastic
@@ -933,8 +935,8 @@ Greenwich Mean Time	GMT
 Greenwich Mean Time	GreenwichMeanTime
 GoDaddy	GoDaddy
 SQLAlchemy	SQLAlchemy
-Admin	Admin
-Administrator	Administrator
+# Admin	Admin
+# Administrator	Administrator
 ASMR	ASMR
 Autonomous sensory meridian response	ASMR
 Autonomous sensory meridian response	Autonomoussensorymeridianresponse
@@ -2167,3 +2169,32 @@ DeepSeek	DeepSeek
 Mercedes-Benz	Mercedes-Benz
 1Password	1Password
 WD-40	WD-40
+OpenStreetMap	OpenStreetMap
+BanG Dream!	BanGDream!
+MyGO!!!!!	MyGO!!!!!
+Ave Mujica	AveMujica
+GPT-4.1	GPT-4.1
+GPT-4.5	GPT-4.5
+Rust	Rust
+Syncthing	Syncthing
+Heptabase	Heptabase
+Ghostty	Ghostty
+WezTerm	WezTerm
+Wez's Terminal Emulator	WezTerm
+Phigros	Phigros
+Arcaea	Arcaea
+OsmAnd	OsmAnd
+Xray	Xray
+sing-box	sing-box
+live house	livehouse
+Clang	Clang
+CMake	CMake
+DiskGenius	DiskGenius
+AList	AList
+OpenList	OpenList
+ICPC	ICPC
+International Collegiate Programming Contest	ICPC
+International Collegiate Programming Contest	InternationalCollegiateProgrammingContest
+UML	UML
+Unified Modeling Language	UML
+Unified Modeling Language	UnifiedModelingLanguage
