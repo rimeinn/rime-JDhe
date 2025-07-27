@@ -1,35 +1,38 @@
--- 根据是否在用户词典，在结尾加上一个星号 *
--- is_in_user_dict: true           输入过的内容
--- is_in_user_dict: false 或不写    未输入过的内容
+-- 功能：根据候选类型添加标记（通过选项开关控制）
+-- 开启时效果：
+--   user_phrase   => ✩
+--   user_table    => ❖
+--   sentence      => ∞
 
 local M = {}
 
 function M.init(env)
-    local config = env.engine.schema.config
-    env.name_space = env.name_space:gsub('^*', '')
-    M.is_in_user_dict = config:get_bool(env.name_space) or true
+    -- 不需要从 config 读取配置，使用 context:get_option 读取实时开关状态
 end
 
 function M.func(input, env)
+    local ctx = env.engine.context
+    local enabled = ctx:get_option("is_in_user_dict")  -- 读取开关选项
+
     for cand in input:iter() do
-        -- 用户词库，加上*号
-        if cand.type == "user_phrase" then
-            cand.comment = cand.comment .. '✩'
+        if enabled then
+          -- 用户词库，加上*号
+            if cand.type == "user_phrase" then
+                cand.comment = cand.comment .. "✩"
+            end
+          -- 用户短语词库
+            if cand.type == "user_table" then
+                cand.comment = cand.comment .. "❖"
+            end
+          -- 整句拼写，加上𑄗符号
+            if cand.type == "sentence" then
+                cand.comment = cand.comment .. "∞"
+            end
+            -- dict 字典
+--            if cand.type == 'phrase' then
+--                cand.comment = cand.comment .. '字典'
+--            end  
         end
-        -- 用户自定义置顶词
-        if cand.type == "user_table" then
-            cand.comment = cand.comment .. '❖'
-        end
-
-        -- 整句联想，加上𑄗符号
-        if cand.type == 'sentence' then
-            cand.comment = cand.comment .. '∞'
-        end
-
-        -- dict 字典
-    --    if cand.type == 'phrase' then
-    --        cand.comment = cand.comment .. '字典'
-    --    end    
         yield(cand)
     end
 end

@@ -23,12 +23,11 @@ local chinese_charset = {
     { first = 0x3007, last = 0x3007 }    -- 〇
 }
 
-local function read_charset()
-    return require('charset')  -- 应定义为 { ['字'] = 'j'/'f'/'t' }
-end
-
-local function init(env)
-    env.charsets = read_charset()
+local function is_chinese(code)
+    for _, range in ipairs(chinese_charset) do
+        if code >= range.first and code <= range.last then return true end
+    end
+    return false
 end
 
 local function get_charset_option(env)
@@ -44,18 +43,6 @@ local function get_charset_mode(env)
     return config:get_string("charset") or "both"
 end
 
-local function get_charset(env, option)
-    if option then return env.charsets end
-    return nil
-end
-
-local function is_chinese(code)
-    for _, range in ipairs(chinese_charset) do
-        if code >= range.first and code <= range.last then return true end
-    end
-    return false
-end
-
 local function should_include_char(tag, mode)
     if mode == "both" then return tag == 't' or tag == 'f' or tag == 'j' end
     if mode == "simp" then return tag == 'j' or tag == 't' end
@@ -63,12 +50,13 @@ local function should_include_char(tag, mode)
     return true
 end
 
-local function filter_charset(str, charset, mode)
-    if not charset then return true end
+local function filter_charset(str, charsetdb, mode)
+    if not charsetdb then return true end
     for _, code in utf8.codes(str) do
         local ch = utf8.char(code)
-        local tag = charset[ch]
-        if tag and not should_include_char(tag, mode) then
+        local tag = charsetdb:lookup(ch)  -- 使用反查字典
+        tag = tag:sub(1, 1)
+        if tag == "" or not should_include_char(tag, mode) then
             return false
         end
     end
@@ -86,12 +74,12 @@ local function charset_filter(input, env)
     local charset_option = get_charset_option(env)
     local chinese_only_option = get_chinese_only_option(env)
     local charset_mode = get_charset_mode(env)
-    local charset = get_charset(env, charset_option)
+    local charsetdb = charset_option and env.charsetdb or nil
 
     for cand in input:iter() do
         local cand_gen = cand:get_genuine()
         if filter_chinese(cand_gen.text) then
-            if filter_charset(cand_gen.text, charset, charset_mode) then
+            if filter_charset(cand_gen.text, charsetdb, charset_mode) then
                 yield(cand)
             end
         else
@@ -100,6 +88,12 @@ local function charset_filter(input, env)
             end
         end
     end
+end
+
+-- 初始化时加载反查字典文件
+local function init(env)
+    -- 使用 ReverseLookup 加载名为 "charset" 的字典
+    env.charsetdb = ReverseLookup("charset")  -- 这里会自动加载名为 charset 的字典
 end
 
 return { init = init, func = charset_filter }

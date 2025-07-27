@@ -1,0 +1,2992 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 行业产品
+
+---
+name: alibaba_product
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+版材	ban;ul;py; cai;wu;mc;	4
+包装薄膜	bao;ut;bs; zhuang;lk;dy; bao;zk;cc; mo;lx;od;	2
+包装防伪	bao;ut;bs; zhuang;lk;dy; fang;bf;ef; wei;xu,xh;rw;	0
+包装印刷加工	bao;ut;bs; zhuang;lk;dy; yin;ub;pe; shua;qi;ud; jia;uo;lk; gong;pp;aa;	0
+标识防伪	biao;wf;mx; zhi;cf;yb; fang;bf;ef; wei;xu,xh;rw;	0
+玻璃类印刷	bo;al;wy; li;ah,ap;wd; lei;lx;md; yin;ub;pe; shua;qi;ud;	0
+玻璃油墨	bo;al;wy; li;ah,ap;wd; you;kp;dy; mo;ng;ht;	0
+不干胶印刷	bu;dh,df;ad; gan;ss;au; jiao;ly;ox; yin;ub;pe; shua;qi;ud;	0
+产品防伪	chan;bu,br,ir;lp; pin;oo;kk; fang;bf;ef; wei;xu,xh;rw;	3
+打样机	da;jj;fd; yang;wp;my; ji;wi;mj;	0
+电晕笔	dian;ee,ve;lv; yun;vt;oi; bi;nr,na;vm;	0
+镀锡板卷马口铁	du;dl;jy; xi;di,du;jw; ban;wl;my; juan;ft;jv; ma;zz;va; kou;oo;la; tie;de;ju;	0
+二手印刷设备	er;uu;aa; shou;up;pl; yin;ub;pe; shua;qi;ud; she;cl;yy; bei;jw;wt;	0
+防伪技术产品	fang;bf;ef; wei;xu,xh;rw; ji;jl;fy; shu;wh;md; chan;bu,br,ir;lp; pin;oo;kk;	0
+纺织及皮革类印刷	fang;ef;sf; zhi;ef;sb; ji;uh,rh;pn; pi;rl;vy; ge;vs;nl; lei;lx;md; yin;ub;pe; shua;qi;ud;	0
+分离薄膜	fen;fu,fi;bd; li;ih,ip;wd; bao;zk;cc; mo;lx;od;	0
+复合类印刷	fu;ej;pw; he;eo;rk; lei;lx;md; yin;ub;pe; shua;qi;ud;	0
+覆膜机	fu;pj;xw; mo;lx;od; ji;wi;mj;	0
+功能薄膜	gong;pu;gl; neng;pa;sb; bao;zk;cc; mo;lx;od;	2
+挂历印刷	gua;jg;ft; li;ru;il; yin;ub;pe; shua;qi;ud;	0
+刮墨刀	gua;si;qd; mo;ng;ht; dao;ii,ru;vp;	0
+瓜米石	gua;uh;pn; mi;ll;dm; shi;tt;ak;	1
+海报印刷	hai;kh;dm; bao;jl;fy; yin;ub;pe; shua;qi;ud;	6
+降解薄膜	jiang;bp;el; jie;gb;dn; bao;zk;cc; mo;lx;od;	0
+胶辊	jiao;ly;ox; gun;ta;ib;	1
+搅墨棒	jiao;jk,jr;fe; mo;ng;ht; bang;wp;ml;	0
+胶印机	jiao;ly;ox; yin;ub;pe; ji;wi;mj;	1
+金属类印刷	jin;ed,ef;ra; shu;qh;uy; lei;lx;md; yin;ub;pe; shua;qi;ud;	0
+开槽机	kai;dz,dp,up;ac; cao;wv;mo; ji;wi;mj;	0
+名片印刷	ming;fo;xk; pian;ii,ur;pv; yin;ub;pe; shua;qi;ud;	0
+模切机	mu;wx;md; qie;ai,au;qd; ji;wi;mj;	0
+农用薄膜	nong;ih;dn; yong;lp;kl; bao;zk;cc; mo;lx;od;	1
+票据印刷	piao;pf;xx; ju;jo;fk; yin;ub;pe; shua;qi;ud;	0
+其他包装印刷加工	qi;vf;qb; ta;xr;ry; bao;ut;bs; zhuang;lk;dy; yin;ub;pe; shua;qi;ud; jia;uo;lk; gong;pp;aa;	0
+其他防伪技术产品	qi;vf;qb; ta;xr;ry; fang;bf;ef; wei;xu,xh;rw; ji;jl;fy; shu;wh;md; chan;bu,br,ir;lp; pin;oo;kk;	0
+其他商业印刷加工	qi;vf;qb; ta;xr;ry; shang;io;wk; ye;pd,hd;la; yin;ub;pe; shua;qi;ud; jia;uo;lk; gong;pp;aa;	0
+其他塑料薄膜	qi;vf;qb; ta;xr;ry; su;fg;bt; liao;ls,lh;mu; bao;zk;cc; mo;lx;od;	0
+其他文化	qi;vf;qb; ta;xr;ry; wen;jj;wx; hua;xa;rb;	0
+其他印后加工设备	qi;vf;qb; ta;xr;ry; yin;ub;pe; hou;uo;pk; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+其他印前处理设备	qi;vf;qb; ta;xr;ry; yin;ub;pe; qian;fi;bd; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+其他印刷机	qi;vf;qb; ta;xr;ry; yin;ub;pe; shua;qi;ud; ji;wi;mj;	0
+其他印刷机械专用配件	qi;vf;qb; ta;xr;ry; yin;ub;pe; shua;qi;ud; ji;wi;mj; xie;wa,wz,wp,wh;mc; zhuan;uh;ad; yong;lp;kl; pei;pt;yj; jian;xb;rn;	0
+其他油墨	qi;vf;qb; ta;xr;ry; you;kp;dy; mo;ng;ht;	0
+柔印机	rou;pw;sm; yin;ub;pe; ji;wi;mj;	0
+晒版机	shai;vp;ox; ban;ul;py; ji;wi;mj;	0
+商标防伪	shang;io;wk; biao;wf;mx; fang;bf;ef; wei;xu,xh;rw;	0
+上光机	shang;pd,pu;la; guang;hk;xw; ji;wi;mj;	0
+商业印刷加工	shang;io;wk; ye;pd,hd;la; yin;ub;pe; shua;qi;ud; jia;uo;lk; gong;pp;aa;	0
+书刊印刷加工	shu;rh;vd; kan;si;gd; yin;ub;pe; shua;qi;ud; jia;uo;lk; gong;pp;aa;	0
+书刊纸	shu;rh;vd; kan;si;gd; zhi;er,eh;su;	0
+数码印刷机	shu;lj;mw; ma;tz;um; yin;ub;pe; shua;qi;ud; ji;wi;mj;	1
+水辊	shui;oo;ln; gun;ta;ib;	0
+水印纸	shui;oo;ln; yin;ub;pe; zhi;er,eh;su;	3
+丝印机	si;ee,rd;va; yin;ub;pe; ji;wi;mj;	1
+塑料类印刷	su;fg;bt; liao;ls,lh;mu; lei;lx;md; yin;ub;pe; shua;qi;ud;	0
+塑料油墨	su;fg;bt; liao;ls,lh;mu; you;kp;dy; mo;ng;ht;	0
+台历印刷	tai;po;sk; li;ru;il; yin;ub;pe; shua;qi;ud;	0
+烫金机	tang;kt;dh; jin;ed,ef;ra; ji;wi;mj;	0
+陶瓷类印刷	tao;bp;ef; ci;fh;dw; lei;lx;md; yin;ub;pe; shua;qi;ud;	0
+陶瓷油墨	tao;bp;ef; ci;fh;dw; you;kp;dy; mo;ng;ht;	0
+文件防伪	wen;jj;wx; jian;xb;rn; fang;bf;ef; wei;xu,xh;rw;	0
+橡皮布	xiang;wh;mn; pi;rl;vy; bu;sy,dy;uj;	0
+信封印刷	xin;xo,xc;rk; feng;gk;tc; yin;ub;pe; shua;qi;ud;	0
+信息用化学品	xin;xo,xc;rk; xi;sn;zx; yong;lp;kl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+压痕机	ya;rh;id; hen;mh;bg; ji;wi;mj;	0
+压纹机	ya;rh;id; wen;ej;sw; ji;wi;mj;	0
+压纸轮	ya;rh;id; zhi;er,eh;su; lun;ta;ib;	0
+艺术纸	yi;zr;cv; shu;wh;md; zhi;er,eh;su;	18
+移印机	yi;uf;hx; yin;ub;pe; ji;wi;mj;	0
+印布油墨	yin;ub;pe; bu;sy,dy;uj; you;kp;dy; mo;ng;ht;	0
+印后加工设备	yin;ub;pe; hou;uo;pk; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+印前处理设备	yin;ub;pe; qian;fi;bd; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+印刷材料	yin;ub;pe; shua;qi;ud; cai;wu;mc; liao;ls,lh;mu;	46
+印刷服务	yin;ub;pe; shua;qi;ud; fu;ll;oy; wu;ju;wl;	3
+印刷耗材代理	yin;ub;pe; shua;qi;ud; hao;ar,aa;lm; cai;wu;mc; dai;xa,xh;ry; li;ag;wl;	0
+印刷机械专用配件	yin;ub;pe; shua;qi;ud; ji;wi;mj; xie;wa,wz,wp,wh;mc; zhuan;uh;ad; yong;lp;kl; pei;pt;yj; jian;xb;rn;	0
+印刷检测仪器	yin;ub;pe; shua;qi;ud; jian;wd;ma; ce;ki;dd; yi;xy,xh;ry; qi;oo;kk;	0
+印刷配套设备	yin;ub;pe; shua;qi;ud; pei;pt;yj; tao;xp,xh;ds; she;cl;yy; bei;jw;wt;	0
+印刷项目合作	yin;ub;pe; shua;qi;ud; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+印刷用纸	yin;ub;pe; shua;qi;ud; yong;lp;kl; zhi;er,eh;su;	10
+印铁油墨	yin;ub;pe; tie;de;ju; you;kp;dy; mo;ng;ht;	0
+印章防伪	yin;ub;pe; zhang;bs,cs;lu; fang;bf;ef; wei;xu,xh;rw;	0
+印纸油墨	yin;ub;pe; zhi;er,eh;su; you;kp;dy; mo;ng;ht;	0
+有价证券防伪	you;sl,dl;uo; jia;xp;rl; zheng;cr;yv; quan;fu,fi;jd; fang;bf;ef; wei;xu,xh;rw;	0
+邮票纸	you;vb;ye; piao;pf;xx; zhi;er,eh;su;	1
+折页机	zhe;jp;fj; ye;dm;ar; ji;wi;mj;	0
+制版机	zhi;bi;pd; ban;ul;py; ji;wi;mj;	0
+纸类印刷	zhi;er,eh;su; lei;lx;md; yin;ub;pe; shua;qi;ud;	2
+竹木类印刷	zhu;nn;gg,pl; mu;ww;an,un; lei;lx;md; yin;ub;pe; shua;qi;ud;	0
+字典纸	zi;ia;bz; dian;pf;lb; zhi;er,eh;su;	1
+薄膜拉丝机	bao;zk;cc; mo;lx;od; la;jb;fl; si;ee,rd;va; ji;wi;mj;	0
+标胶	biao;wf;mx; jiao;ly;ox;	3
+吹膜机	chui;oe;kr; mo;lx;od; ji;wi;mj;	0
+吹塑加工	chui;oe;kr; su;fg;bt; jia;uo;lk; gong;pp;aa;	0
+发泡设备	fa;rh,rl;vd; pao;kt;ds; she;cl;yy; bei;jw;wt;	0
+工程机械轮胎	gong;pp;aa; cheng;ua;hw; ji;wi;mj; xie;wa,wz,wp,wh;mc; lun;ta;ib; tai;lo;ok;	0
+工农业用塑料制品	gong;pp;aa; nong;ih;dn; ye;pd,hd;la; yong;lp;kl; su;fg;bt; liao;ls,lh;mu; zhi;bi;pd; pin;oo;kk;	0
+工业用橡胶制品	gong;pp;aa; ye;pd,hd;la; yong;lp;kl; xiang;wh;mn; jiao;ly;ox; zhi;bi;pd; pin;oo;kk;	1
+光稳定剂	guang;hk;xw; wen;un;hx; ding;ie;br; ji;ji;wd;	0
+合成材料抗氧化剂	he;eo;rk; cheng;rh;wv; cai;wu;mc; liao;ls,lh;mu; kang;ji;fj; yang;sp;qy; hua;xa;rb; ji;ji;wd;	0
+合成材料助剂	he;eo;rk; cheng;rh;wv; cai;wu;mc; liao;ls,lh;mu; zhu;pu;ql; ji;ji;wd;	0
+合成材料阻燃剂	he;eo;rk; cheng;rh;wv; cai;wu;mc; liao;ls,lh;mu; zu;bu;eq; ran;tn;hh; ji;ji;wd;	0
+混炼机	hun;ka;db; lian;tf;hd; ji;wi;mj;	0
+挤塑加工	ji;jp;fl; su;fg;bt; jia;uo;lk; gong;pp;aa;	0
+加料再生破碎机	jia;uo;lk; liao;ls,lh;mu; zai;dd,dg;ar; sheng;eg;pf; po;tl;uy; sui;ts;uu; ji;wi;mj;	0
+家用塑料制品	jia;ih;bu; yong;lp;kl; su;fg;bt; liao;ls,lh;mu; zhi;bi;pd; pin;oo;kk;	0
+聚氨酯橡胶	ju;dh;en; an;sy;qn; zhi;pv;yo; xiang;wh;mn; jiao;ly;ox;	1
+抗冲击剂	kang;ji;fj; chong;fp;dv; ji;up;ak; ji;ji;wd;	0
+硫化罐	liu;tr;uv; hua;xa;rb; guan;ea;ff;	0
+硫化机	liu;tr;uv; hua;xa;rb; ji;wi;mj;	1
+摩托车轮胎	mo;do,dp,rp;gu; tuo;ja,jr;fq; che;tt;al; lun;ta;ib; tai;lo;ok;	3
+农业用橡胶制品	nong;ih;dn; ye;pd,hd;la; yong;lp;kl; xiang;wh;mn; jiao;ly;ox; zhi;bi;pd; pin;oo;kk;	0
+农用车轮胎	nong;ih;dn; yong;lp;kl; che;tt;al; lun;ta;ib; tai;lo;ok;	0
+普通塑料工艺品	pu;fv;bo; tong;pq;zy; su;fg;bt; liao;ls,lh;mu; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+其他工程塑料	qi;vf;qb; ta;xr;ry; gong;pp;aa; cheng;ua;hw; su;fg;bt; liao;ls,lh;mu;	1
+其他合成材料助剂	qi;vf;qb; ta;xr;ry; he;eo;rk; cheng;rh;wv; cai;wu;mc; liao;ls,lh;mu; zhu;pu;ql; ji;ji;wd;	0
+其他合成橡胶	qi;vf;qb; ta;xr;ry; he;eo;rk; cheng;rh;wv; xiang;wh;mn; jiao;ly;ox;	0
+其他轮胎	qi;vf;qb; ta;xr;ry; lun;ta;ib; tai;lo;ok;	0
+其他热塑性弹性体	qi;vf;qb; ta;xr;ry; re;jn;fh; su;fg;bt; xing;ng,na;xu; tan;rs;gl; xing;ng,na;xu; ti;xd;rb;	0
+其他塑料包装制品	qi;vf;qb; ta;xr;ry; su;fg;bt; liao;ls,lh;mu; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+其他塑料工艺品	qi;vf;qb; ta;xr;ry; su;fg;bt; liao;ls,lh;mu; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+其他塑料管	qi;vf;qb; ta;xr;ry; su;fg;bt; liao;ls,lh;mu; guan;nd;vk;	0
+其他塑料机械	qi;vf;qb; ta;xr;ry; su;fg;bt; liao;ls,lh;mu; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+其他塑料加工	qi;vf;qb; ta;xr;ry; su;fg;bt; liao;ls,lh;mu; jia;uo;lk; gong;pp;aa;	0
+其他塑料制品	qi;vf;qb; ta;xr;ry; su;fg;bt; liao;ls,lh;mu; zhi;bi;pd; pin;oo;kk;	0
+其他天然橡胶	qi;vf;qb; ta;xr;ry; tian;ue;ad; ran;fn,un;ph; xiang;wh;mn; jiao;ly;ox;	0
+其他通用塑料	qi;vf;qb; ta;xr;ry; tong;pq;zy; yong;lp;kl; su;fg;bt; liao;ls,lh;mu;	0
+其他橡胶机械	qi;vf;qb; ta;xr;ry; xiang;wh;mn; jiao;ly;ox; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+其他橡胶加工	qi;vf;qb; ta;xr;ry; xiang;wh;mn; jiao;ly;ox; jia;uo;lk; gong;pp;aa;	0
+其他橡胶制品	qi;vf;qb; ta;xr;ry; xiang;wh;mn; jiao;ly;ox; zhi;bi;pd; pin;oo;kk;	0
+其他再生塑料	qi;vf;qb; ta;xr;ry; zai;dd,dg;ar; sheng;eg;pf; su;fg;bt; liao;ls,lh;mu;	0
+切胶机	qie;ai,au;qd; jiao;ly;ox; ji;wi;mj;	0
+热稳定剂	re;jn;fh; wen;un;hx; ding;ie;br; ji;ji;wd;	7
+生活日用橡胶制品	sheng;eg;pf; huo;ko;dk; ri;vv;ka; yong;lp;kl; xiang;wh;mn; jiao;ly;ox; zhi;bi;pd; pin;oo;kk;	0
+塑机辅机	su;fg;bt; ji;wi;mj; fu;th;if; ji;wi;mj;	0
+塑胶工艺品	su;fg;bt; jiao;ly;ox; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+塑料棒	su;fg;bt; liao;ls,lh;mu; bang;wp;ml;	7
+塑料包装制品	su;fg;bt; liao;ls,lh;mu; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	1
+塑料表面处理	su;fg;bt; liao;ls,lh;mu; biao;ah;fy; mian;dd,du;aa; chu;jh,uh;wb; li;ag;wl;	0
+塑料成型机	su;fg;bt; liao;ls,lh;mu; cheng;rh;wv; xing;ug;kt; ji;wi;mj;	0
+塑料工艺品	su;fg;bt; liao;ls,lh;mu; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+塑料挤出机	su;fg;bt; liao;ls,lh;mu; ji;jp;fl; chu;pp;vk; ji;wi;mj;	0
+塑料桶罐	su;fg;bt; liao;ls,lh;mu; tong;wp;my; guan;ea;ff;	0
+塑料压延机	su;fg;bt; liao;ls,lh;mu; ya;rh;id; yan;uq;zv; ji;wi;mj;	0
+塑料造粒机	su;fg;bt; liao;ls,lh;mu; zao;bq;zk; li;lb;ml; ji;wi;mj;	0
+特种塑料	te;bk;nc; zhong;up;hv; su;fg;bt; liao;ls,lh;mu;	2
+通用塑料	tong;pq;zy; yong;lp;kl; su;fg;bt; liao;ls,lh;mu;	5
+脱硫机	tuo;lk;oe; liu;tr;uv; ji;wi;mj;	0
+脱模剂	tuo;lk;oe; mo;wx;md; ji;ji;wd;	1
+文教用橡胶制品	wen;jj;wx; jiao;gj;lw; yong;lp;kl; xiang;wh;mn; jiao;ly;ox; zhi;bi;pd; pin;oo;kk;	0
+吸塑加工	xi;oh;kj; su;fg;bt; jia;uo;lk; gong;pp;aa;	0
+橡胶裁断机	xiang;wh;mn; jiao;ly;ox; cai;sk,ha,sh,gh;uy; duan;lp;mj; ji;wi;mj;	0
+橡胶成型机	xiang;wh;mn; jiao;ly;ox; cheng;rh;wv; xing;ug;kt; ji;wi;mj;	0
+橡胶成型加工	xiang;wh;mn; jiao;ly;ox; cheng;rh;wv; xing;ug;kt; jia;uo;lk; gong;pp;aa;	0
+橡胶定型机	xiang;wh;mn; jiao;ly;ox; ding;ie;br; xing;ug;kt; ji;wi;mj;	0
+橡胶后处理加工	xiang;wh;mn; jiao;ly;ox; hou;uo;pk; chu;jh,uh;wb; li;ag;wl; jia;uo;lk; gong;pp;aa;	0
+橡胶挤出机	xiang;wh;mn; jiao;ly;ox; ji;jp;fl; chu;pp;vk; ji;wi;mj;	0
+橡胶机械	xiang;wh;mn; jiao;ly;ox; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+橡胶加工	xiang;wh;mn; jiao;ly;ox; jia;uo;lk; gong;pp;aa;	0
+橡胶接头机	xiang;wh;mn; jiao;ly;ox; jie;jy;fn; tou;hx;dd; ji;wi;mj;	0
+橡胶贴合机	xiang;wh;mn; jiao;ly;ox; tie;mo;kk; he;eo;rk; ji;wi;mj;	0
+橡胶压延机	xiang;wh;mn; jiao;ly;ox; ya;rh;id; yan;uq;zv; ji;wi;mj;	0
+橡胶压延加工	xiang;wh;mn; jiao;ly;ox; ya;rh;id; yan;uq;zv; jia;uo;lk; gong;pp;aa;	0
+橡胶原料	xiang;wh;mn; jiao;ly;ox; yuan;rf;ix; liao;ls,lh;mu;	2
+橡胶造粒机	xiang;wh;mn; jiao;ly;ox; zao;bq;zk; li;lb;ml; ji;wi;mj;	0
+压克力工艺品	ya;rh;id; ke;sk;ue; li;uu;vp; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+压塑加工	ya;rh;id; su;fg;bt; jia;uo;lk; gong;pp;aa;	0
+烟胶	yan;tx;hd; jiao;ly;ox;	1
+乙丙橡胶	yi;rr;vv; bing;de;an; xiang;wh;mn; jiao;ly;ox;	0
+医用橡胶制品	yi;dr;ku; yong;lp;kl; xiang;wh;mn; jiao;ly;ox; zhi;bi;pd; pin;oo;kk;	0
+再生料	zai;dd,dg;ar; sheng;eg;pf; liao;ls,lh;mu;	7
+制袋机	zhi;bi;pd; dai;xk;ry; ji;wi;mj;	0
+中空吹塑机	zhong;op;ll; kong;ip;bg; chui;oe;kr; su;fg;bt; ji;wi;mj;	0
+铸塑加工	zhu;dk;jc; su;fg;bt; jia;uo;lk; gong;pp;aa;	0
+半金属	ban;fp,fs;dl; jin;ed,ef;ra; shu;qh;uy;	52
+半金属矿产	ban;fp,fs;dl; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	0
+板卷材	ban;wl;my; juan;ft;jv; cai;wu;mc;	0
+板坯	ban;wl;my; pi;gd;tp;	6
+爆破设备	bao;to,tf;hu; po;tl;uy; she;cl;yy; bei;jw;wt;	1
+不锈钢板卷	bu;dh,df;ad; xiu;du;jn; gang;dy;jx; ban;wl;my; juan;ft;jv;	0
+不锈钢棒材	bu;dh,df;ad; xiu;du;jn; gang;dy;jx; bang;wp;ml; cai;wu;mc;	0
+不锈钢坯	bu;dh,df;ad; xiu;du;jn; gang;dy;jx; pi;gd;tp;	1
+不锈钢线材不锈钢圆钢	bu;dh,df;ad; xiu;du;jn; gang;dy;jx; xian;ea;sj; cai;wu;mc; bu;dh,df;ad; xiu;du;jn; gang;dy;jx; yuan;nm;kr; gang;dy;jx;	0
+彩涂板卷	cai;hu;pp; tu;kf;dh; ban;wl;my; juan;ft;jv;	0
+长石	chang;uh;pn; shi;tt;ak;	71
+齿轮钢	chi;rp;vk; lun;ta;ib; gang;dy;jx;	0
+磁选设备	ci;tp;uy; xuan;bq;ze; she;cl;yy; bei;jw;wt;	0
+碲锭	di;ty;uj; ding;de;jr;	1
+低合金管	di;xh;rd; he;eo;rk; jin;ed,ef;ra; guan;nd;vk;	0
+地矿勘测设备	di;gr,ga;ty; kuang;tr;ug; kan;vu;ql; ce;ki;dd; she;cl;yy; bei;jw;wt;	0
+低中压锅炉管	di;xh;rd; zhong;op;ll; ya;rh;id; guo;de;jn; lu;tq;hh; guan;nd;vk;	0
+镀铬板卷	du;dl;jy; ge;do;jk; ban;wl;my; juan;ft;jv;	0
+镀铝锌	du;dl;jy; lv;do;jk; xin;ds;ju;	0
+镀锌板卷	du;dl;jy; xin;ds;ju; ban;wl;my; juan;ft;jv;	0
+二手矿业设备	er;uu;aa; shou;up;pl; kuang;tr;ug; ye;pd,hd;la; she;cl;yy; bei;jw;wt;	0
+二手冶炼设备	er;uu;aa; shou;up;pl; ye;fo;dk; lian;tf;hd; she;cl;yy; bei;jw;wt;	0
+防火材料	fang;bf;ef; huo;tt;dr; cai;wu;mc; liao;ls,lh;mu;	11
+方矩管	fang;ff;dw; ju;er;uj; guan;nd;vk;	0
+方坯	fang;ff;dw; pi;gd;tp;	2
+非金属粉末	fei;pu,up;la; jin;ed,ef;ra; shu;qh;uy; fen;li,lu;md; mo;ee;an;	0
+非金属矿产	fei;pu,up;la; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	4
+非金属矿物制品	fei;pu,up;la; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; wu;bi,bu;nw; zhi;bi;pd; pin;oo;kk;	2
+废铝	fei;rh,rl;gd; lv;do;jk;	8
+废镁	fei;rh,rl;gd; mei;dx;jd;	0
+废镍	fei;rh,rl;gd; nie;dw;jm;	0
+废锡	fei;rh,rl;gd; xi;di,du;jw;	0
+废锌	fei;rh,rl;gd; xin;ds;ju;	0
+分级设备	fen;fu,fi;bd; ji;eh;sj; she;cl;yy; bei;jw;wt;	0
+浮选设备	fu;ka;dz; xuan;bq;ze; she;cl;yy; bei;jw;wt;	0
+高压锅炉管	gao;io;wk; ya;rh;id; guo;de;jn; lu;tq;hh; guan;nd;vk;	0
+高压合金管	gao;io;wk; ya;rh;id; he;eo;rk; jin;ed,ef;ra; guan;nd;vk;	0
+工业炉	gong;pp;aa; ye;pd,hd;la; lu;tq;hh;	0
+钴及钴锭	gu;do;jk; ji;uh,rh;pn; gu;do;jk; ding;de;jr;	0
+管坯	guan;nd;vk; pi;gd;tp;	0
+贵金属合金	gui;fm;vr; jin;ed,ef;ra; shu;qh;uy; he;eo;rk; jin;ed,ef;ra;	7
+贵金属矿产	gui;fm;vr; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	0
+锅炉板	guo;de;jn; lu;tq;hh; ban;wl;my;	0
+合结钢	he;eo;rk; jie;eo;sk; gang;dy;jx;	0
+合金板	he;eo;rk; jin;ed,ef;ra; ban;wl;my;	5
+合金粉末	he;eo;rk; jin;ed,ef;ra; fen;li,lu;md; mo;ee;an;	3
+合金钢管	he;eo;rk; jin;ed,ef;ra; gang;dy;jx; guan;nd;vk;	1
+黑色金属矿产	hei;nn;lh; se;gt;db; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	0
+花纹板卷	hua;za;cb; wen;ej;sw; ban;wl;my; juan;ft;jv;	0
+焦化设备	jiao;xn;rh; hua;xa;rb; she;cl;yy; bei;jw;wt;	0
+结构钢管	jie;eo;sk; gou;wp;ms; gang;dy;jx; guan;nd;vk;	0
+金属板网	jin;ed,ef;ra; shu;qh;uy; ban;wl;my; wang;oy;kx;	0
+金属材料代理	jin;ed,ef;ra; shu;qh;uy; cai;wu;mc; liao;ls,lh;mu; dai;xa,xh;ry; li;ag;wl;	0
+金属成型设备	jin;ed,ef;ra; shu;qh;uy; cheng;rh;wv; xing;ug;kt; she;cl;yy; bei;jw;wt;	0
+金属丝绳	jin;ed,ef;ra; shu;qh;uy; si;ee,rd;va; sheng;er,ee;sd;	0
+库存及废料	ku;rt;gi; cun;sa,da;uz; ji;uh,rh;pn; fei;rh,rl;gd; liao;ls,lh;mu;	0
+库存金属材料	ku;rt;gi; cun;sa,da;uz; jin;ed,ef;ra; shu;qh;uy; cai;wu;mc; liao;ls,lh;mu;	0
+矿山施工设备	kuang;tr;ug; shan;pp;lk; shi;fr;fy; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+矿物代理	kuang;tr;ug; wu;bi,bu;nw; dai;xa,xh;ry; li;ag;wl;	0
+矿业测量仪器	kuang;tr;ug; ye;pd,hd;la; ce;ki;dd; liang;vg;ol; yi;xy,xh;ry; qi;oo;kk;	0
+矿业输送设备	kuang;tr;ug; ye;pd,hd;la; shu;ti;id; song;fq;zt; she;cl;yy; bei;jw;wt;	0
+矿业物探仪器	kuang;tr;ug; ye;pd,hd;la; wu;bi,bu;nw; tan;jw;fm; yi;xy,xh;ry; qi;oo;kk;	0
+矿业项目合作	kuang;tr;ug; ye;pd,hd;la; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+矿业装卸设备	kuang;tr;ug; ye;pd,hd;la; zhuang;lk;dy; xie;eb;pe,we; she;cl;yy; bei;jw;wt;	0
+矿用提升设备	kuang;tr;ug; yong;lp;kl; ti;je;fr; sheng;uz,up;pc; she;cl;yy; bei;jw;wt;	0
+蓝晶石	lan;zd,za;cm; jing;vv;oo; shi;tt;ak;	5
+冷拔钢	leng;fp,fh;ds; ba;jh;fd; gang;dy;jx;	0
+冷墩钢	leng;fp,fh;ds; dun;gj;tw; gang;dy;jx;	0
+冷拉钢	leng;fp,fh;ds; la;jb;fl; gang;dy;jx;	0
+冷弯型钢	leng;fp,fh;ds; wan;ir;wg; xing;ug;kt; gang;dy;jx;	1
+冷轧板卷	leng;fp,fh;ds; zha;tr;iv; ban;wl;my; juan;ft;jv;	0
+炼钢设备	lian;tf;hd; gang;dy;jx; she;cl;yy; bei;jw;wt;	4
+炼铁设备	lian;tf;hd; tie;de;ju; she;cl;yy; bei;jw;wt;	0
+硫矿	liu;tr;uv; kuang;tr;ug;	0
+流体管	liu;kr;dv; ti;xd;rb; guan;nd;vk;	0
+铝及铝锭	lv;do;jk; ji;uh,rh;pn; lv;do;jk; ding;de;jr;	0
+铝丝网	lv;do;jk; si;ee,rd;va; wang;oy;kx;	0
+镁及镁锭	mei;dx;jd; ji;uh,rh;pn; mei;dx;jd; ding;de;jr;	0
+耐腐蚀钢	nai;ek;ec; fu;re;gr; shi;gf;ui; gang;dy;jx;	0
+耐侯钢	nai;ek;ec; hou;xx;ru; gang;dy;jx;	0
+耐热钢	nai;ek;ec; re;jn;fh; gang;dy;jx;	0
+镍及镍锭	nie;dw;jm; ji;uh,rh;pn; nie;dw;jm; ding;de;jr;	0
+破碎设备	po;tl;uy; sui;ts;uu; she;cl;yy; bei;jw;wt;	9
+普通圆钢	pu;fv;bo; tong;pq;zy; yuan;nm;kr; gang;dy;jx;	0
+普中板	pu;fv;bo; zhong;op;ll; ban;wl;my;	0
+其他半金属	qi;vf;qb; ta;xr;ry; ban;fp,fs;dl; jin;ed,ef;ra; shu;qh;uy;	0
+其他板卷材	qi;vf;qb; ta;xr;ry; ban;wl;my; juan;ft;jv; cai;wu;mc;	0
+其他不锈钢材	qi;vf;qb; ta;xr;ry; bu;dh,df;ad; xiu;du;jn; gang;dy;jx; cai;wu;mc;	0
+其他磁性材料	qi;vf;qb; ta;xr;ry; ci;tp;uy; xing;ng,na;xu; cai;wu;mc; liao;ls,lh;mu;	0
+其他地矿勘测设备	qi;vf;qb; ta;xr;ry; di;gr,ga;ty; kuang;tr;ug; kan;vu;ql; ce;ki;dd; she;cl;yy; bei;jw;wt;	0
+其他废金属	qi;vf;qb; ta;xr;ry; fei;rh,rl;gd; jin;ed,ef;ra; shu;qh;uy;	0
+其他非金属矿产	qi;vf;qb; ta;xr;ry; fei;pu,up;la; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	0
+其他非金属矿物制品	qi;vf;qb; ta;xr;ry; fei;pu,up;la; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; wu;bi,bu;nw; zhi;bi;pd; pin;oo;kk;	0
+其他粉末冶金	qi;vf;qb; ta;xr;ry; fen;li,lu;md; mo;ee;an; ye;fo;dk; jin;ed,ef;ra;	0
+其他钢坯	qi;vf;qb; ta;xr;ry; gang;dy;jx; pi;gd;tp;	0
+其他管材	qi;vf;qb; ta;xr;ry; guan;nd;vk; cai;wu;mc;	1
+其他黑色金属矿产	qi;vf;qb; ta;xr;ry; hei;nn;lh; se;gt;db; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	0
+其他建筑钢材	qi;vf;qb; ta;xr;ry; jian;rq,sq;zy; zhu;nh;vf; gang;dy;jx; cai;wu;mc;	0
+其他金属丝	qi;vf;qb; ta;xr;ry; jin;ed,ef;ra; shu;qh;uy; si;ee,rd;va;	0
+其他金属网	qi;vf;qb; ta;xr;ry; jin;ed,ef;ra; shu;qh;uy; wang;oy;kx;	0
+其他矿山施工设备	qi;vf;qb; ta;xr;ry; kuang;tr;ug; shan;pp;lk; shi;fr;fy; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+其他炉料	qi;vf;qb; ta;xr;ry; lu;tq;hh; liao;ls,lh;mu;	0
+其他轻有色金属	qi;vf;qb; ta;xr;ry; qing;tp;ig; you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy;	0
+其他涂镀产品	qi;vf;qb; ta;xr;ry; tu;kf;dh; du;dl;jy; chan;bu,br,ir;lp; pin;oo;kk;	0
+其他型材	qi;vf;qb; ta;xr;ry; xing;ug;kt; cai;wu;mc;	0
+其他选矿设备	qi;vf;qb; ta;xr;ry; xuan;bq;ze; kuang;tr;ug; she;cl;yy; bei;jw;wt;	0
+其他冶炼设备	qi;vf;qb; ta;xr;ry; ye;fo;dk; lian;tf;hd; she;cl;yy; bei;jw;wt;	0
+其他有色金属合金	qi;vf;qb; ta;xr;ry; you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; he;eo;rk; jin;ed,ef;ra;	0
+其他有色金属加工材	qi;vf;qb; ta;xr;ry; you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; jia;uo;lk; gong;pp;aa; cai;wu;mc;	0
+其他有色金属矿产	qi;vf;qb; ta;xr;ry; you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	0
+其他优特钢	qi;vf;qb; ta;xr;ry; you;xh;ry; te;bk;nc; gang;dy;jx;	0
+其他重有色金属	qi;vf;qb; ta;xr;ry; zhong;sg;pa; you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy;	0
+其他铸造及热处理设备	qi;vf;qb; ta;xr;ry; zhu;dk;jc; zao;bq;zk; ji;uh,rh;pn; re;jn;fh; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+铅及铅锭	qian;do;jk; ji;uh,rh;pn; qian;do;jk; ding;de;jr;	0
+切断设备	qie;ai,au;qd; duan;lp;mj; she;cl;yy; bei;jw;wt;	0
+轻有色金属	qing;tp;ig; you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy;	0
+轻有色金属矿产	qing;tp;ig; you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	0
+燃气管道	ran;tn;hh; qi;ss;pv; guan;nd;vk; dao;fq;zz;	30
+热轧板卷	re;jn;fh; ya;tr;iv; ban;wl;my; juan;ft;jv;	0
+容器板	rong;io;bk; qi;oo;kk; ban;wl;my;	0
+筛分设备	shai;ny;vj; fen;fu,fi;bd; she;cl;yy; bei;jw;wt;	0
+石墨及碳素产品	shi;tt;ak; mo;ng;ht; ji;uh,rh;pn; tan;tt;uh; su;af;fx; chan;bu,br,ir;lp; pin;oo;kk;	0
+水力选矿设备	shui;oo;ln; li;uu;vp; xuan;bq;ze; kuang;tr;ug; she;cl;yy; bei;jw;wt;	0
+酸洗板卷	suan;pj;yw; xi;kk;de; ban;wl;my; juan;ft;jv;	0
+碳结钢	tan;tt;uh; jie;eo;sk; gang;dy;jx;	0
+铜及铜锭	tong;do;jk; ji;uh,rh;pn; tong;do;jk; ding;de;jr;	0
+铜丝网	tong;do;jk; si;ee,rd;va; wang;oy;kx;	0
+涂镀产品	tu;kf;dh; du;dl;jy; chan;bu,br,ir;lp; pin;oo;kk;	0
+无缝管	wu;uk,ur;ay; feng;eq;sz; guan;nd;vk;	1
+锡及锡锭	xi;di,du;jw; ji;uh,rh;pn; xi;di,du;jw; ding;de;jr;	0
+稀有金属合金	xi;uy;hj; you;sl,dl;uo; jin;ed,ef;ra; shu;qh;uy; he;eo;rk; jin;ed,ef;ra;	0
+稀有金属矿产	xi;uy;hj; you;sl,dl;uo; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	0
+稀有色金属	xi;uy;hj; you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy;	0
+相关服务	xiang;ws;mo; guan;fx;bt; fu;ll;oy; wu;ju;wl;	0
+锌及锌锭	xin;ds;ju; ji;uh,rh;pn; xin;ds;ju; ding;de;jr;	0
+冶金设备	ye;fo;dk; jin;ed,ef;ra; she;cl;yy; bei;jw;wt;	6
+冶金项目合作	ye;fo;dk; jin;ed,ef;ra; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+冶炼成套设备	ye;fo;dk; lian;tf;hd; cheng;rh;wv; tao;xp,xh;ds; she;cl;yy; bei;jw;wt;	0
+冶炼加工	ye;fo;dk; lian;tf;hd; jia;uo;lk; gong;pp;aa;	5
+异型钢	yi;tp,tz;sc; xing;ug;kt; gang;dy;jx;	0
+永奇昱祥	yong;hh;dn; qi;xj,xo;dk; yu;vb;ol; xiang;hp;py;	0
+有色金属板材	you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; ban;wl;my; cai;wu;mc;	0
+有色金属棒材	you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; bang;wp;ml; cai;wu;mc;	0
+有色金属带材	you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; dai;zy;fj; cai;wu;mc;	0
+有色金属管材	you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; guan;nd;vk; cai;wu;mc;	0
+有色金属合金	you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; he;eo;rk; jin;ed,ef;ra;	0
+有色金属及加工材	you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; ji;uh,rh;pn; jia;uo;lk; gong;pp;aa; cai;wu;mc;	0
+有色金属加工材	you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; jia;uo;lk; gong;pp;aa; cai;wu;mc;	0
+有色金属矿产	you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	1
+有色金属线材	you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; xian;ea;sj; cai;wu;mc;	0
+优特钢	you;xh;ry; te;bk;nc; gang;dy;jx;	0
+优质线材	you;xh;ry; zhi;um,rm;pr; xian;ea;sj; cai;wu;mc;	0
+造船板	zao;bq;zk; chuan;to;vk; ban;wl;my;	0
+凿岩机械	zao;pp,hp;yk; yan;pt;eu; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+轧钢设备	zha;tr;iv; gang;dy;jx; she;cl;yy; bei;jw;wt;	0
+蛭石	zhi;fg;it; shi;tt;ak;	180
+中频电源	zhong;op;ll; pin;rm;vr; dian;ee,ve;lv; yuan;kf;dx;	0
+重有色金属	zhong;sg;pa; you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy;	0
+重有色金属矿产	zhong;sg;pa; you;sl,dl;uo; se;gt;db; jin;ed,ef;ra; shu;qh;uy; kuang;tr;ug; chan;bu,br,ir;lp;	0
+铸造及热处理设备	zhu;dk;jc; zao;bq;zk; ji;uh,rh;pn; re;jn;fh; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+铸造设备	zhu;dk;jc; zao;bq;zk; she;cl;yy; bei;jw;wt;	1
+钻采设备	zuan;do;jk; cai;hw;pm; she;cl;yy; bei;jw;wt;	1
+白灵菇	bai;ss;po; ling;st;eh; gu;zo;ck;	1
+鳖类	bie;fq;da; lei;lx;md;	4
+饼干糕点	bing;gz,gp;uk; gan;ss;au; gao;ln;mh; dian;pn;lh;	2
+炒货类	chao;tu;hu; huo;xm;rr; lei;lx;md;	0
+冲饮品	chong;fp;dv; yin;ge;ur; pin;oo;kk;	1
+炊事设备	chui;te;hr; shi;dp;al; she;cl;yy; bei;jw;wt;	0
+粗加工水产品	cu;lu;mq; jia;uo;lk; gong;pp;aa; shui;oo;ln; chan;bu,br,ir;lp; pin;oo;kk;	0
+豆荚类	dou;dd;aa; jia;zx;cj; lei;lx;md;	4
+二手食品机械	er;uu;aa; shou;up;pl; shi;eh;rl; pin;oo;kk; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+改善记忆	gai;tj;jw; shan;fo;yk; ji;ct;yj; yi;nr;xv;	0
+改善视力	gai;tj;jw; shan;fo;yk; shi;hk,hr;pe; li;uu;vp;	66
+改善胃肠	gai;tj;jw; shan;fo;yk; wei;wl;to; chang;lu;op;	3
+干果类	gan;ss;au; guo;vw;ln; lei;lx;md;	20
+柑桔	gan;wv;mg; ju;wo;mk;	34
+干制水产品	gan;ss;au; zhi;bi;pd; shui;oo;ln; chan;bu,br,ir;lp; pin;oo;kk;	0
+瓜果类	gua;uh;pn; guo;vw;ln; lei;lx;md;	8
+罐头食品加工设备	guan;ea;ff; tou;hx;dd; shi;eh;rl; pin;oo;kk; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+果冻类	guo;vw;ln; dong;ff;dd; lei;lx;md;	1
+果露酒	guo;vw;ln; lu;yr,yo;yk; jiu;kd;dy;	1
+果蔬加工设备	guo;vw;ln; shu;zr;cv; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+护色剂	hu;jq;fh; se;gt;db; ji;ji;wd;	2
+花菜类	hua;za;cb; cai;zw;cm; lei;lx;md;	4
+灰树花	hui;dt,st;uh; shu;wk;mc; hua;za;cb;	1
+即冲汤料	ji;sb,rb;ge; chong;fp;dv; tang;ku;dp; liao;ls,lh;mu;	0
+简加工类	jian;nv;vo; jia;uo;lk; gong;pp;aa; lei;lx;md;	0
+酒及饮料生产设备	jiu;kd;dy; ji;uh,rh;pn; yin;ge;ur; liao;ls,lh;mu; sheng;eg;pf; chan;bu,br,ir;lp; she;cl;yy; bei;jw;wt;	0
+库存食品	ku;rt;gi; cun;sa,da;uz; shi;eh;rl; pin;oo;kk;	1
+块茎类	kuai;ge,gx;tg; jing;zp;cg; lei;lx;md;	14
+冷冻粗加工水产品	leng;fp,fh;ds; dong;ff;dd; cu;lu;mq; jia;uo;lk; gong;pp;aa; shui;oo;ln; chan;bu,br,ir;lp; pin;oo;kk;	0
+冷冻食品加工设备	leng;fp,fh;ds; dong;ff;dd; shi;eh;rl; pin;oo;kk; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+冷冻蔬菜	leng;fp,fh;ds; dong;ff;dd; shu;zr;cv; cai;zw;cm;	13
+麦类	mai;aj;fw; lei;lx;md;	25
+蜜饯类	mi;if;bi; jian;ga;uj; lei;lx;md;	6
+米面类	mi;ll;dm; mian;dd,du;aa; lei;lx;md;	8
+蜜制品	mi;if;bi; zhi;bi;pd; pin;oo;kk;	0
+免疫抗疲劳	mian;gk;dv; yi;ml;by; kang;ji;fj; pi;ml;by; lao;zu;cl;	0
+农牧渔类	nong;ih;dn; mu;bj;nw; yu;kq;da; lei;lx;md;	0
+其他保健食品	qi;vf;qb; ta;xr;ry; bao;xw;rm; jian;xq;rz; shi;eh;rl; pin;oo;kk;	0
+其他茶叶	qi;vf;qb; ta;xr;ry; cha;zf;cm; ye;os;ku;	0
+其他冲饮品	qi;vf;qb; ta;xr;ry; chong;fp;dv; yin;ge;ur; pin;oo;kk;	0
+其他粗加工水产品	qi;vf;qb; ta;xr;ry; cu;lu;mq; jia;uo;lk; gong;pp;aa; shui;oo;ln; chan;bu,br,ir;lp; pin;oo;kk;	0
+其他方便食品	qi;vf;qb; ta;xr;ry; fang;ff;dw; bian;xy;rg; shi;eh;rl; pin;oo;kk;	0
+其他罐头食品	qi;vf;qb; ta;xr;ry; guan;ea;ff; tou;hx;dd; shi;eh;rl; pin;oo;kk;	1
+其他酒类	qi;vf;qb; ta;xr;ry; jiu;kd;dy; lei;lx;md;	24
+其他粮食	qi;vf;qb; ta;xr;ry; liang;lh;ml; shi;eh;rl;	0
+其他米面类	qi;vf;qb; ta;xr;ry; mi;ll;dm; mian;dd,du;aa; lei;lx;md;	0
+其他禽类	qi;vf;qb; ta;xr;ry; qin;ep,eh;rd; lei;lx;md;	0
+其他肉类	qi;vf;qb; ta;xr;ry; rou;oe;nr; lei;lx;md;	0
+其他肉制品	qi;vf;qb; ta;xr;ry; rou;oe;nr; zhi;bi;pd; pin;oo;kk;	0
+其他软饮料	qi;vf;qb; ta;xr;ry; ruan;te;ir; yin;ge;ur; liao;ls,lh;mu;	1
+其他生鲜水果	qi;vf;qb; ta;xr;ry; sheng;eg;pf; xian;qp;ay; shui;oo;ln; guo;vw;ln;	0
+其他食品添加剂	qi;vf;qb; ta;xr;ry; shi;eh;rl; pin;oo;kk; tian;kf,kh;dx; jia;uo;lk; ji;ji;wd;	1
+其他食用菌	qi;vf;qb; ta;xr;ry; shi;eh;rl; yong;lp;kl; jun;zw,zf;ch;	0
+其他食用油	qi;vf;qb; ta;xr;ry; shi;eh;rl; yong;lp;kl; you;kp;dy;	5
+其他蔬菜制品	qi;vf;qb; ta;xr;ry; shu;zr;cv; cai;zw;cm; zhi;bi;pd; pin;oo;kk;	0
+其他糖类	qi;vf;qb; ta;xr;ry; tang;lo;mk; lei;lx;md;	4
+其他鲜活水产品	qi;vf;qb; ta;xr;ry; xian;qp;ay; huo;ko;dk; shui;oo;ln; chan;bu,br,ir;lp; pin;oo;kk;	0
+其他新鲜蔬菜	qi;vf;qb; ta;xr;ry; xin;bp;lj; xian;qp;ay; shu;zr;cv; cai;zw;cm;	1
+其他休闲食品	qi;vf;qb; ta;xr;ry; xiu;xw;rm; xian;ow;mm; shi;eh;rl; pin;oo;kk;	0
+肉干肉脯	rou;oe;nr; gan;ss;au; rou;oe;nr; fu;lh;of;	0
+肉制品加工设备	rou;oe;nr; zhi;bi;pd; pin;oo;kk; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+乳制品加工设备	ru;hr;pv; zhi;bi;pd; pin;oo;kk; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	1
+深加工类	shen;kw;dm; jia;uo;lk; gong;pp;aa; lei;lx;md;	0
+生鲜水果	sheng;eg;pf; xian;qp;ay; shui;oo;ln; guo;vw;ln;	23
+食品储运设备	shi;eh;rl; pin;oo;kk; chu;xv;ro; yun;uq;zs; she;cl;yy; bei;jw;wt;	0
+食品烘焙设备	shi;eh;rl; pin;oo;kk; hong;tf;hb; bei;to;hk; she;cl;yy; bei;jw;wt;	0
+食品饮料代理	shi;eh;rl; pin;oo;kk; yin;ge;ur; liao;ls,lh;mu; dai;xa,xh;ry; li;ag;wl;	0
+食品饮料加工	shi;eh;rl; pin;oo;kk; yin;ge;ur; liao;ls,lh;mu; jia;uo;lk; gong;pp;aa;	1
+食品饮料项目合作	shi;eh;rl; pin;oo;kk; yin;ge;ur; liao;ls,lh;mu; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+食用菌罐头	shi;eh;rl; yong;lp;kl; jun;zw,zf;ch; guan;ea;ff; tou;hx;dd;	0
+蔬菜罐头	shu;zr;cv; cai;zw;cm; guan;ea;ff; tou;hx;dd;	4
+水产罐头	shui;oo;ln; chan;bu,br,ir;lp; guan;ea;ff; tou;hx;dd;	0
+水生菜类	shui;oo;ln; sheng;eg;pf; cai;zw;cm; lei;lx;md;	0
+速冻面点	su;dq;zu; dong;ff;dd; mian;dd,du;aa; dian;pn;lh;	0
+速溶茶	su;dq;zu; rong;ko;dk; cha;zf;cm;	3
+碳酸饮料	tan;tt;uh; suan;pj;yw; yin;ge;ur; liao;ls,lh;mu;	552
+调味品加工设备	tiao;co;yk; wei;oe;kw; pin;oo;kk; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+鲜活水产品	xian;qp;ay; huo;ko;dk; shui;oo;ln; chan;bu,br,ir;lp; pin;oo;kk;	0
+蟹类	xie;gf;di; lei;lx;md;	15
+休闲食品	xiu;xw;rm; xian;ow;mm; shi;eh;rl; pin;oo;kk;	103
+休闲食品加工设备	xiu;xw;rm; xian;ow;mm; shi;eh;rl; pin;oo;kk; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+腌制水产品	yan;le,lr;od; zhi;bi;pd; shui;oo;ln; chan;bu,br,ir;lp; pin;oo;kk;	0
+养肾	yang;fp;yl; shen;pl;lo;	91
+野生菜类	ye;vp;ll; sheng;eg;pf; cai;zw;cm; lei;lx;md;	0
+饮料加工设备	yin;ge;ur; liao;ls,lh;mu; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+营养饮品	ying;zo;ck; yang;fp;yl; yin;ge;ur; pin;oo;kk;	3
+鱼干鱼丝	yu;qq;da; gan;ss;au; yu;qq;da; si;ee,rd;va;	0
+竹笋类	zhu;nn;gg,pl; sun;nu;vy; lei;lx;md;	1
+安全仪器	an;iy;bn; quan;ea;rw; yi;xy,xh;ry; qi;oo;kk;	0
+百分表	bai;ds;ab; fen;fu,fi;bd; biao;ah;fy;	1
+包装件试验机	bao;ut;bs; zhuang;lk;dy; jian;xb;rn; shi;cp;yg; yan;zd;ma; ji;wi;mj;	0
+玻璃温度计	bo;al;wy; li;ah,ap;wd; wen;kd,ka;dm; du;rl;gy; ji;cs;yu;	0
+测厚仪	ce;ki;dd; hou;ra;iz; yi;xy,xh;ry;	4
+测力仪表	ce;ki;dd; li;uu;vp; yi;xy,xh;ry; biao;ah;fy;	0
+车用仪表	che;tt;al; yong;lp;kl; yi;xy,xh;ry; biao;ah;fy;	0
+冲击试验机	chong;fp;dv; ji;up;ak; shi;cp;yg; yan;zd;ma; ji;wi;mj;	0
+船用仪器仪表	chuan;to;vk; yong;lp;kl; yi;xy,xh;ry; qi;oo;kk; yi;xy,xh;ry; biao;ah;fy;	0
+地上衡	di;gr,ga;ty; shang;pd,pu;la; heng;hj,hp;ii;	0
+地震仪器	di;gr,ga;ty; zhen;yh;yn; yi;xy,xh;ry; qi;oo;kk;	2
+电磁学计量标准器具	dian;ee,ve;lv; ci;tp;uy; xue;ha;xz; ji;cs;yu; liang;vg;ol; biao;wf;mx; zhun;fa;df; qi;oo;kk; ju;pf;qb;	0
+电导仪器	dian;ee,ve;lv; dao;tk;sc; yi;xy,xh;ry; qi;oo;kk;	0
+电动单元组合仪表	dian;ee,ve;lv; dong;uu;el; dan;fs;bl; yuan;uk;ee; zu;eu;sq; he;eo;rk; yi;xy,xh;ry; biao;ah;fy;	0
+电工仪器仪表	dian;ee,ve;lv; gong;pp;aa; yi;xy,xh;ry; qi;oo;kk; yi;xy,xh;ry; biao;ah;fy;	2
+电离辐射计量标准器具	dian;ee,ve;lv; li;ih,ip;wd; fu;tw;it; she;uk;uc; ji;cs;yu; liang;vg;ol; biao;wf;mx; zhun;fa;df; qi;oo;kk; ju;pf;qb;	0
+电流测量仪表	dian;ee,ve;lv; liu;kr;dv; ce;ki;dd; liang;vg;ol; yi;xy,xh;ry; biao;ah;fy;	0
+电能仪表	dian;ee,ve;lv; neng;pa;sb; yi;xy,xh;ry; biao;ah;fy;	0
+电位差计	dian;ee,ve;lv; wei;xb;rl; cha;fp;yg; ji;cs;yu;	0
+电压测量仪表	dian;ee,ve;lv; ya;rh;id; ce;ki;dd; liang;vg;ol; yi;xy,xh;ry; biao;ah;fy;	0
+电阻测量仪表	dian;ee,ve;lv; zu;bu;eq; ce;ki;dd; liang;vg;ol; yi;xy,xh;ry; biao;ah;fy;	0
+吊秤	diao;oy;kj; cheng;uf,us;hp;	0
+定量秤	ding;ie;br; liang;vg;ol; cheng;uf,us;hp;	0
+定硫仪	ding;ie;br; liu;tr;uv; yi;xy,xh;ry;	0
+二手仪器仪表	er;uu;aa; shou;up;pl; yi;xy,xh;ry; qi;oo;kk; yi;xy,xh;ry; biao;ah;fy;	0
+纺织用仪器	fang;ef;sf; zhi;ef;sb; yong;lp;kl; yi;xy,xh;ry; qi;oo;kk;	0
+非接触式温度计	fei;pu,up;la; jie;jy;fn; chu;gf;di; shi;dh,ha,ap;yg; wen;kd,ka;dm; du;rl;gy; ji;cs;yu;	0
+非金属材料试验机	fei;pu,up;la; jin;ed,ef;ra; shu;qh;uy; cai;wu;mc; liao;ls,lh;mu; shi;cp;yg; yan;zd;ma; ji;wi;mj;	0
+腐蚀试验箱	fu;re;gr; shi;gf;ui; shi;cp;yg; yan;zd;ma; xiang;ns;vo;	0
+功率测量仪表	gong;pu;gl; lv;is;wu; ce;ki;dd; liang;vg;ol; yi;xy,xh;ry; biao;ah;fy;	0
+工业计时器	gong;pp;aa; ye;pd,hd;la; ji;cs;yu; shi;vk;oc; qi;oo;kk;	0
+工艺试验机	gong;pp;aa; yi;zr;cv; shi;cp;yg; yan;zd;ma; ji;wi;mj;	0
+光学计量标准器具	guang;hk;xw; xue;ha;xz; ji;cs;yu; liang;vg;ol; biao;wf;mx; zhun;fa;df; qi;oo;kk; ju;pf;qb;	0
+轨道衡	gui;tr;ij; dao;fq;zz; heng;hj,hp;ii;	1
+恒温试验设备	heng;nd;xa; wen;kd,ka;dm; shi;cp;yg; yan;zd;ma; she;cl;yy; bei;jw;wt;	0
+化工仪表	hua;xa;rb; gong;pp;aa; yi;xy,xh;ry; biao;ah;fy;	1
+化学计量标准器具	hua;xa;rb; xue;ha;xz; ji;cs;yu; liang;vg;ol; biao;wf;mx; zhun;fa;df; qi;oo;kk; ju;pf;qb;	0
+基地式仪表	ji;vg;qt; di;gr,ga;ty; shi;dh,ha,ap;yg; yi;xy,xh;ry; biao;ah;fy;	0
+激光器件	ji;kj;dw; guang;hk;xw; qi;oo;kk; jian;xb;rn;	3
+计价秤	ji;cs;yu; jia;xp;rl; cheng;uf,us;hp;	0
+计量标准器具	ji;cs;yu; liang;vg;ol; biao;wf;mx; zhun;fa;df; qi;oo;kk; ju;pf;qb;	0
+机械量仪表	ji;wi;mj; xie;wa,wz,wp,wh;mc; liang;vg;ol; yi;xy,xh;ry; biao;ah;fy;	0
+集中控制装置	ji;xw;rm; zhong;op;ll; kong;jp;fg; zhi;bi;pd; zhuang;lk;dy; zhi;ad,au;sq;	0
+控制调节仪表	kong;jp;fg; zhi;bi;pd; tiao;co;yk; jie;zb;ce; yi;xy,xh;ry; biao;ah;fy;	0
+拉力试验机	la;jb;fl; li;uu;vp; shi;cp;yg; yan;zd;ma; ji;wi;mj;	1
+沥青试验仪器	li;ku;dl; qing;al;fo; shi;cp;yg; yan;zd;ma; yi;xy,xh;ry; qi;oo;kk;	0
+力学计量标准器具	li;uu;vp; xue;ha;xz; ji;cs;yu; liang;vg;ol; biao;wf;mx; zhun;fa;df; qi;oo;kk; ju;pf;qb;	0
+力与变形检测仪	li;uu;vp; yu;dd;aa; bian;il;wy; xing;uu;kp; jian;wd;ma; ce;ki;dd; yi;xy,xh;ry;	0
+量热仪	liang;vg;ol; re;jn;fh; yi;xy,xh;ry;	1
+量仪	liang;vg;ol; yi;xy,xh;ry;	0
+流量变送器	liu;kr;dv; liang;vg;ol; bian;il;wy; song;fq;zt; qi;oo;kk;	0
+流量仪表	liu;kr;dv; liang;vg;ol; yi;xy,xh;ry; biao;ah;fy;	1
+粘度计	nian;lo;mk; du;rl;gy; ji;cs;yu;	0
+扭转试验机	niu;jg;fi; zhuan;th;iv; shi;cp;yg; yan;zd;ma; ji;wi;mj;	0
+配料秤	pei;pt;yj; liao;ls,lh;mu; cheng;uf,us;hp;	0
+皮带秤	pi;rl;vy; dai;zy;fj; cheng;uf,us;hp;	0
+疲劳试验机	pi;ml;by; lao;zu;cl; shi;cp;yg; yan;zd;ma; ji;wi;mj;	8
+频率测量仪表	pin;rm;vr; lv;is;wu; ce;ki;dd; liang;vg;ol; yi;xy,xh;ry; biao;ah;fy;	0
+汽车试验设备	qi;ks;dq; che;tt;al; shi;cp;yg; yan;zd;ma; she;cl;yy; bei;jw;wt;	0
+气动单元组合仪表	qi;ss;pv; dong;uu;el; dan;fs;bl; yuan;uk;ee; zu;eu;sq; he;eo;rk; yi;xy,xh;ry; biao;ah;fy;	0
+气动量仪	qi;ss;pv; dong;uu;el; liang;vg;ol; yi;xy,xh;ry;	0
+其他电工仪器仪表	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; gong;pp;aa; yi;xy,xh;ry; qi;oo;kk; yi;xy,xh;ry; biao;ah;fy;	0
+其他分析仪器	qi;vf;qb; ta;xr;ry; fen;fu,fi;bd; xi;wp;mj; yi;xy,xh;ry; qi;oo;kk;	0
+其他光学仪器	qi;vf;qb; ta;xr;ry; guang;hk;xw; xue;ha;xz; yi;xy,xh;ry; qi;oo;kk;	1
+其他计量标准器具	qi;vf;qb; ta;xr;ry; ji;cs;yu; liang;vg;ol; biao;wf;mx; zhun;fa;df; qi;oo;kk; ju;pf;qb;	0
+其他机械量仪表	qi;vf;qb; ta;xr;ry; ji;wi;mj; xie;wa,wz,wp,wh;mc; liang;vg;ol; yi;xy,xh;ry; biao;ah;fy;	0
+其他量具	qi;vf;qb; ta;xr;ry; liang;vg;ol; ju;pf;qb;	0
+其他量仪	qi;vf;qb; ta;xr;ry; liang;vg;ol; yi;xy,xh;ry;	0
+其他流量仪表	qi;vf;qb; ta;xr;ry; liu;kr;dv; liang;vg;ol; yi;xy,xh;ry; biao;ah;fy;	0
+其他试验机	qi;vf;qb; ta;xr;ry; shi;cp;yg; yan;zd;ma; ji;wi;mj;	0
+其他实验仪器装置	qi;vf;qb; ta;xr;ry; shi;ix;bd; yan;zd;ma; yi;xy,xh;ry; qi;oo;kk; zhuang;lk;dy; zhi;ad,au;sq;	0
+其他未分类	qi;vf;qb; ta;xr;ry; wei;ee;an; fen;fu,fi;bd; lei;lx;md;	0
+其他压力仪表	qi;vf;qb; ta;xr;ry; ya;rh;id; li;uu;vp; yi;xy,xh;ry; biao;ah;fy;	0
+其他仪器仪表配附件	qi;vf;qb; ta;xr;ry; yi;xy,xh;ry; qi;oo;kk; yi;xy,xh;ry; biao;ah;fy; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+其他专用仪器仪表	qi;vf;qb; ta;xr;ry; zhuan;uh;ad; yong;lp;kl; yi;xy,xh;ry; qi;oo;kk; yi;xy,xh;ry; biao;ah;fy;	0
+气象仪器	qi;ss;pv; xiang;gh;dn; yi;xy,xh;ry; qi;oo;kk;	1
+千分表	qian;ss;pu; fen;fu,fi;bd; biao;ah;fy;	1
+钳型表	qian;dv;jg; xing;ug;kt; biao;ah;fy;	0
+强度试验机	qiang;rf;gi; du;rl;gy; shi;cp;yg; yan;zd;ma; ji;wi;mj;	0
+热量计	re;jn;fh; liang;vg;ol; ji;cs;yu;	1
+热学计量标准器具	re;jn;fh; xue;ha;xz; ji;cs;yu; liang;vg;ol; biao;wf;mx; zhun;fa;df; qi;oo;kk; ju;pf;qb;	0
+三坐标测量机	san;uu;ae; zuo;eg;rt; biao;wf;mx; ce;ki;dd; liang;vg;ol; ji;wi;mj;	3
+色差计	se;gt;db; cha;fp;yg; ji;cs;yu;	1
+时间频率计量标准器具	shi;vk;oc; jian;ov;mo; pin;rm;vr; lv;is;wu; ji;cs;yu; liang;vg;ol; biao;wf;mx; zhun;fa;df; qi;oo;kk; ju;pf;qb;	0
+实验仪器装置	shi;ix;bd; yan;zd;ma; yi;xy,xh;ry; qi;oo;kk; zhuang;lk;dy; zhi;ad,au;sq;	0
+双金属温度计	shuang;ll;yy; jin;ed,ef;ra; shu;qh;uy; wen;kd,ka;dm; du;rl;gy; ji;cs;yu;	0
+水分计	shui;oo;ln; fen;fu,fi;bd; ji;cs;yu;	0
+水文仪器	shui;oo;ln; wen;jj;wx; yi;xy,xh;ry; qi;oo;kk;	0
+水质分析仪	shui;oo;ln; zhi;um,rm;pr; fen;fu,fi;bd; xi;wp;mj; yi;xy,xh;ry;	0
+速度测量仪表	su;dq;zu; du;rl;gy; ce;ki;dd; liang;vg;ol; yi;xy,xh;ry; biao;ah;fy;	0
+天平仪器	tian;ue;ad; ping;ds,sf;au; yi;xy,xh;ry; qi;oo;kk;	0
+通讯检测仪器	tong;pq;zy; xun;cs;yu; jian;wd;ma; ce;ki;dd; yi;xy,xh;ry; qi;oo;kk;	0
+万能试验机	wan;du;ap; neng;pa;sb; shi;cp;yg; yan;zd;ma; ji;wi;mj;	0
+弯曲试验机	wan;ir;wg; qu;pd,vp;la; shi;cp;yg; yan;zd;ma; ji;wi;mj;	0
+温度变送器	wen;kd,ka;dm; du;rl;gy; bian;il;wy; song;fq;zt; qi;oo;kk;	0
+温度校验仪表	wen;kd,ka;dm; du;rl;gy; jiao;wy;mx; yan;zd;ma; yi;xy,xh;ry; biao;ah;fy;	0
+温度控制调节器	wen;kd,ka;dm; du;rl;gy; kong;jp;fg; zhi;bi;pd; tiao;co;yk; jie;zb;ce; qi;oo;kk;	0
+温度仪表	wen;kd,ka;dm; du;rl;gy; yi;xy,xh;ry; biao;ah;fy;	1
+无损检测仪器	wu;uk,ur;ay; sun;jm;fr; jian;wd;ma; ce;ki;dd; yi;xy,xh;ry; qi;oo;kk;	1
+物位仪表	wu;bi,bu;nw; wei;xb;rl; yi;xy,xh;ry; biao;ah;fy;	1
+显示仪表	xian;vd;oy; shi;uf;ex; yi;xy,xh;ry; biao;ah;fy;	3
+压力校验仪表	ya;rh;id; li;uu;vp; jiao;wy;mx; yan;zd;ma; yi;xy,xh;ry; biao;ah;fy;	0
+压力式温度计	ya;rh;id; li;uu;vp; shi;dh,ha,ap;yg; wen;kd,ka;dm; du;rl;gy; ji;cs;yu;	0
+压力试验机	ya;rh;id; li;uu;vp; shi;cp;yg; yan;zd;ma; ji;wi;mj;	0
+压力仪表	ya;rh;id; li;uu;vp; yi;xy,xh;ry; biao;ah;fy;	0
+仪表盒	yi;xy,xh;ry; biao;ah;fy; he;ed,ea;rm;	0
+仪表壳体	yi;xy,xh;ry; biao;ah;fy; qiao;gi;uj; ti;xd;rb;	0
+仪器仪表配附件	yi;xy,xh;ry; qi;oo;kk; yi;xy,xh;ry; biao;ah;fy; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+仪用电源	yi;xy,xh;ry; yong;lp;kl; dian;ee,ve;lv; yuan;kf;dx;	0
+圆度仪	yuan;nm;kr; du;rl;gy; yi;xy,xh;ry;	0
+造纸检测仪器	zao;bq;zk; zhi;er,eh;su; jian;wd;ma; ce;ki;dd; yi;xy,xh;ry; qi;oo;kk;	0
+折射仪	zhe;jp;fj; she;uk;uc; yi;xy,xh;ry;	1
+真空测量仪器	zhen;sf;ub; kong;ip;bg; ce;ki;dd; liang;vg;ol; yi;xy,xh;ry; qi;oo;kk;	0
+专用仪器仪表	zhuan;uh;ad; yong;lp;kl; yi;xy,xh;ry; qi;oo;kk; yi;xy,xh;ry; biao;ah;fy;	0
+浊度计	zhuo;kf;di; du;rl;gy; ji;cs;yu;	0
+自动化成套控制系统	zi;ss;po; dong;uu;el; hua;xa;rb; cheng;rh;wv; tao;xp,xh;ds; kong;jp;fg; zhi;bi;pd; xi;uf;px; tong;ek;se;	0
+保龄球用品	bao;xw;rm; ling;rp,rh;vs; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	0
+蹦极用品	beng;gl;zo; ji;wh;mj; yong;lp;kl; pin;oo;kk;	0
+宾馆服务	bin;if;bb; guan;gd;uk; fu;ll;oy; wu;ju;wl;	0
+宾馆酒店用品	bin;if;bb; guan;gd;uk; jiu;kd;dy; dian;ro;gk; yong;lp;kl; pin;oo;kk;	0
+裁判教练用具	cai;sk,ha,sh,gh;uy; pan;fi;bd; jiao;gj;lw; lian;ef;sd; yong;lp;kl; ju;pf;qb;	0
+餐饮设备	can;ph;ll; yin;ge;ur; she;cl;yy; bei;jw;wt;	1
+场地铺设器材	chang;gu;tp; di;gr,ga;ty; pu;dh;jf; she;cl;yy; qi;oo;kk; cai;wu;mc;	0
+充气沙发	chong;ik;we; qi;ss;pv; sha;ku;du; fa;rh,rl;vd;	13
+宠物服装	chong;ih;bl; wu;bi,bu;nw; fu;ll;oy; zhuang;lk;dy;	2
+宠物链圈	chong;ih;bl; wu;bi,bu;nw; lian;dq;jz; quan;nt;kv;	0
+宠物清洁用品	chong;ih;bl; wu;bi,bu;nw; qing;kl;do; jie;ko;dk; yong;lp;kl; pin;oo;kk;	0
+宠物食具	chong;ih;bl; wu;bi,bu;nw; shi;eh;rl; ju;pf;qb;	0
+宠物玩具	chong;ih;bl; wu;bi,bu;nw; wan;ak;we; ju;pf;qb;	13
+宠物窝	chong;ih;bl; wu;bi,bu;nw; wo;ie;bn;	3
+垂钓用品	chui;sg;pa; diao;dh;ju; yong;lp;kl; pin;oo;kk;	0
+吹奏类乐器	chui;oe;kr; zou;ux;ft; lei;lx;md; yue;uf;pd; qi;oo;kk;	9
+打击类乐器	da;jj;fd; ji;up;ak; lei;lx;md; yue;uf;pd; qi;oo;kk;	2
+大型游艺机	da;xx;un; xing;ug;kt; you;ka;dz; yi;zr;cv; ji;wi;mj;	0
+电动滑板车	dian;ee,ve;lv; dong;uu;el; hua;kc;dg; ban;wl;my; che;tt;al;	21
+钓鱼帽	diao;dh;ju; yu;qq;da; mao;ys;jo;	0
+多功能鞋	duo;ff;xx; gong;pu;gl; neng;pa;sb; xie;vg;gt;	0
+二手体育休闲设施	er;uu;aa; shou;up;pl; ti;xd;rb; yu;il;wo; xiu;xw;rm; xian;ow;mm; she;cl;yy; shi;fr;fy;	0
+二手通用零部件	er;uu;aa; shou;up;pl; tong;pq;zy; yong;lp;kl; ling;yp,yh;ys; bu;bb;le; jian;xb;rn;	0
+飞行鞋	fei;rh;vd; xing;hj,hp;ii; xie;vg;gt;	1
+橄榄球帽	gan;wj;mw; lan;wk,wr;me; qiu;ah;wq; mao;ys;jo;	0
+橄榄球用品	gan;wj;mw; lan;wk,wr;me; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	0
+高尔夫练习器具	gao;io;wk; er;gf;dx; fu;ee;an; lian;ef;sd; xi;dd;vd; qi;oo;kk; ju;pf;qb;	0
+高尔夫球车	gao;io;wk; er;gf;dx; fu;ee;an; qiu;ah;wq; che;tt;al;	4
+高尔夫球袋	gao;io;wk; er;gf;dx; fu;ee;an; qiu;ah;wq; dai;xk;ry;	0
+高尔夫球钉	gao;io;wk; er;gf;dx; fu;ee;an; qiu;ah;wq; ding;dj;jd;	0
+高尔夫球杆	gao;io;wk; er;gf;dx; fu;ee;an; qiu;ah;wq; gan;ws;mg;	168
+高尔夫球帽	gao;io;wk; er;gf;dx; fu;ee;an; qiu;ah;wq; mao;ys;jo;	0
+高尔夫鞋	gao;io;wk; er;gf;dx; fu;ee;an; xie;vg;gt;	0
+高尔夫用品	gao;io;wk; er;gf;dx; fu;ee;an; yong;lp;kl; pin;oo;kk;	13
+高尔夫组合球具	gao;io;wk; er;gf;dx; fu;ee;an; zu;eu;sq; he;eo;rk; qiu;ah;wq; ju;pf;qb;	0
+护踝	hu;jq;fh; huai;gw;zg;	50
+护头	hu;jq;fh; tou;hx;dd;	57
+户外运动服装	hu;qq;du; wai;fh;xb; yun;uq;zs; dong;uu;el; fu;ll;oy; zhuang;lk;dy;	3
+滑板车配件	hua;kc;dg; ban;wl;my; che;tt;al; pei;pt;yj; jian;xb;rn;	0
+滑雪固定器	hua;kc;dg; xue;ys;ye; gu;no;kk; ding;ie;br; qi;oo;kk;	0
+滑雪靴	hua;kc;dg; xue;ys;ye; xue;va;gb;	4
+滑雪用品	hua;kc;dg; xue;ys;ye; yong;lp;kl; pin;oo;kk;	4
+计时记分用具	ji;cs;yu; shi;vk;oc; ji;ct;yj; fen;fu,fi;bd; yong;lp;kl; ju;pf;qb;	0
+极限运动用品	ji;wh;mj; xian;bh;eg; yun;uq;zs; dong;uu;el; yong;lp;kl; pin;oo;kk;	0
+健腹器	jian;xq;rz; fu;lj;ow; qi;oo;kk;	0
+键盘类乐器	jian;dq;jz; pan;td,ta;vm; lei;lx;md; yue;uf;pd; qi;oo;kk;	30
+健身路径	jian;xq;rz; shen;uu;pp; lu;go;zk; jing;hp;ig;	1
+脚踏滑板车	jiao;lb;oe; ta;gv;zo; hua;kc;dg; ban;wl;my; che;tt;al;	0
+酒店茶几	jiu;kd;dy; dian;ro;gk; cha;zf;cm; ji;ii;pv;	0
+酒店成套家具	jiu;kd;dy; dian;ro;gk; cheng;rh;wv; tao;xp,xh;ds; jia;ih;bu; ju;pf;qb;	0
+酒店床头柜	jiu;kd;dy; dian;ro;gk; chuang;rw;gm; tou;hx;dd; gui;wr;mj;	0
+酒店大堂用品	jiu;kd;dy; dian;ro;gk; da;xx;un; tang;hg;xt; yong;lp;kl; pin;oo;kk;	0
+酒店电视柜	jiu;kd;dy; dian;ro;gk; dian;ee,ve;lv; shi;hk,hr;pe; gui;wr;mj;	0
+酒店客房床	jiu;kd;dy; dian;ro;gk; ke;io;bk; fang;qf;hf; chuang;rw;gm;	0
+酒店客房用品	jiu;kd;dy; dian;ro;gk; ke;io;bk; fang;qf;hf; yong;lp;kl; pin;oo;kk;	1
+酒店沙发	jiu;kd;dy; dian;ro;gk; sha;ku;du; fa;rh,rl;vd;	0
+酒店梳妆台	jiu;kd;dy; dian;ro;gk; shu;wr;mv; zhuang;ly;dn; tai;po;sk;	0
+酒店行李柜	jiu;kd;dy; dian;ro;gk; xing;hj,hp;ii; li;wa;mz; gui;wr;mj;	0
+酒店椅	jiu;kd;dy; dian;ro;gk; yi;wj,wo;mk;	0
+酒店桌	jiu;kd;dy; dian;ro;gk; zhuo;pw;lm;	0
+举重用品	ju;hp;xl; zhong;sg;pa; yong;lp;kl; pin;oo;kk;	0
+空中运动用品	kong;ip;bg; zhong;op;ll; yun;uq;zs; dong;uu;el; yong;lp;kl; pin;oo;kk;	0
+库存体育运动产品	ku;rt;gi; cun;sa,da;uz; ti;xd;rb; yu;il;wo; yun;uq;zs; dong;uu;el; chan;bu,br,ir;lp; pin;oo;kk;	0
+库存娱乐休闲产品	ku;rt;gi; cun;sa,da;uz; yu;yx;nt; le;uf;pd; xiu;xw;rm; xian;ow;mm; chan;bu,br,ir;lp; pin;oo;kk;	0
+拉弦类乐器	la;jb;fl; xian;rp;gy; lei;lx;md; yue;uf;pd; qi;oo;kk;	3
+篮球用品	lan;nd,na;vm; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	0
+垒球用品	lei;pg;st; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	0
+练功鞋	lian;ef;sd; gong;pu;gl; xie;vg;gt;	0
+马术用具	ma;zz;va; shu;wh;md; yong;lp;kl; ju;pf;qb;	0
+排球用品	pai;ju,jp;ff; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	0
+攀岩用品	pan;wp;mu; yan;pt;eu; yong;lp;kl; pin;oo;kk;	0
+漂流用品	piao;kf;dx; liu;kr;dv; yong;lp;kl; pin;oo;kk;	0
+票务服务	piao;pf;xx; wu;ju;wl; fu;ll;oy; wu;ju;wl;	3
+乒乓球用品	ping;uu;qp; pang;uh;qd; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	0
+汽动滑板车	qi;ks;dq; dong;uu;el; hua;kc;dg; ban;wl;my; che;tt;al;	0
+棋牌桌	qi;wf;mb; pai;us;pu; zhuo;pw;lm;	5
+其他宠物用品	qi;vf;qb; ta;xr;ry; chong;ih;bl; wu;bi,bu;nw; yong;lp;kl; pin;oo;kk;	1
+其他高尔夫用品	qi;vf;qb; ta;xr;ry; gao;io;wk; er;gf;dx; fu;ee;an; yong;lp;kl; pin;oo;kk;	0
+其他户外用品	qi;vf;qb; ta;xr;ry; hu;qq;du; wai;fh;xb; yong;lp;kl; pin;oo;kk;	0
+其他滑板车	qi;vf;qb; ta;xr;ry; hua;kc;dg; ban;wl;my; che;tt;al;	0
+其他极限运动用品	qi;vf;qb; ta;xr;ry; ji;wh;mj; xian;bh;eg; yun;uq;zs; dong;uu;el; yong;lp;kl; pin;oo;kk;	0
+其他健身器材	qi;vf;qb; ta;xr;ry; jian;xq;rz; shen;uu;pp; qi;oo;kk; cai;wu;mc;	24
+其他酒店家具	qi;vf;qb; ta;xr;ry; jiu;kd;dy; dian;ro;gk; jia;ih;bu; ju;pf;qb;	0
+其他溜冰	qi;vf;qb; ta;xr;ry; liu;kw;dt; bing;fo;du;	0
+其他棋牌	qi;vf;qb; ta;xr;ry; qi;wf;mb; pai;us;pu;	0
+其他烧烤用具	qi;vf;qb; ta;xr;ry; shao;tk;hw; kao;tr;hv; yong;lp;kl; ju;pf;qb;	0
+其他体育运动配套产品	qi;vf;qb; ta;xr;ry; ti;xd;rb; yu;il;wo; yun;uq;zs; dong;uu;el; pei;pt;yj; tao;xp,xh;ds; chan;bu,br,ir;lp; pin;oo;kk;	0
+其他休闲家具	qi;vf;qb; ta;xr;ry; xiu;xw;rm; xian;ow;mm; jia;ih;bu; ju;pf;qb;	0
+其他游艺设施	qi;vf;qb; ta;xr;ry; you;ka;dz; yi;zr;cv; she;cl;yy; shi;fr;fy;	0
+其他运动服装	qi;vf;qb; ta;xr;ry; yun;uq;zs; dong;uu;el; fu;ll;oy; zhuang;lk;dy;	0
+其他运动护具	qi;vf;qb; ta;xr;ry; yun;uq;zs; dong;uu;el; hu;jq;fh; ju;pf;qb;	0
+其他运动帽	qi;vf;qb; ta;xr;ry; yun;uq;zs; dong;uu;el; mao;ys;jo;	0
+其他运动鞋	qi;vf;qb; ta;xr;ry; yun;uq;zs; dong;uu;el; xie;vg;gt;	0
+潜水用品	qian;kv;do; shui;oo;ln; yong;lp;kl; pin;oo;kk;	0
+球裤	qiu;ah;wq; ku;ht;pi;	27
+球类打气筒	qiu;ah;wq; lei;lx;md; da;jj;fd; qi;ss;pv; tong;no;vk;	0
+拳击器械	quan;fp;ju; ji;up;ak; qi;oo;kk; xie;wa,wz,wp,wh;mc;	0
+赛车帽	sai;im;br; che;tt;al; mao;ys;jo;	0
+沙狐球用品	sha;ku;du; hu;bh;qg; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	0
+沙滩席	sha;ku;du; tan;ka;df; xi;ry;gj;	0
+烧烤叉	shao;tk;hw; kao;tr;hv; cha;lh;yd;	1
+烧烤网	shao;tk;hw; kao;tr;hv; wang;oy;kx;	1
+烧烤用具	shao;tk;hw; kao;tr;hv; yong;lp;kl; ju;pf;qb;	2
+射箭用品	she;uk;uc; jian;ni;vd; yong;lp;kl; pin;oo;kk;	2
+室内健身服装	shi;ig;bt; nei;oe;ld; jian;xq;rz; shen;uu;pp; fu;ll;oy; zhuang;lk;dy;	0
+手球用品	shou;up;pl; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	0
+水上游艺设施	shui;oo;ln; shang;pd,pu;la; you;ka;dz; yi;zr;cv; she;cl;yy; shi;fr;fy;	0
+水上运动用品	shui;oo;ln; shang;pd,pu;la; yun;uq;zs; dong;uu;el; yong;lp;kl; pin;oo;kk;	0
+水族器材	shui;oo;ln; zu;fx;fu; qi;oo;kk; cai;wu;mc;	0
+台球用品	tai;po;sk; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	0
+弹拨类乐器	tan;rs;gl; bo;jh,jl;fd; lei;lx;md; yue;uf;pd; qi;oo;kk;	8
+体操用品	ti;xd;rb; cao;jw;fm; yong;lp;kl; pin;oo;kk;	0
+体育运动产品代理	ti;xd;rb; yu;il;wo; yun;uq;zs; dong;uu;el; chan;bu,br,ir;lp; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+体育运动产品加工	ti;xd;rb; yu;il;wo; yun;uq;zs; dong;uu;el; chan;bu,br,ir;lp; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+体育运动配套产品	ti;xd;rb; yu;il;wo; yun;uq;zs; dong;uu;el; pei;pt;yj; tao;xp,xh;ds; chan;bu,br,ir;lp; pin;oo;kk;	0
+体育运动项目合作	ti;xd;rb; yu;il;wo; yun;uq;zs; dong;uu;el; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+田径用品	tian;ww;ku; jing;hp;ig; yong;lp;kl; pin;oo;kk;	0
+跳床	tiao;gh,gf;zd; chuang;rw;gm;	3
+网球用品	wang;oy;kx; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	2
+网羽运动鞋	wang;oy;kx; yu;dd;xx; yun;uq;zs; dong;uu;el; xie;vg;gt;	0
+武术用品	wu;dr,ha;av; shu;wh;md; yong;lp;kl; pin;oo;kk;	0
+戏剧用品	xi;la,lh;yg; ju;qi;ud; yong;lp;kl; pin;oo;kk;	0
+休闲家具	xiu;xw;rm; xian;ow;mm; jia;ih;bu; ju;pf;qb;	3
+野营灯	ye;vp;ll; ying;zo;ck; deng;tj;hd;	0
+游戏棋	you;ka;dz; xi;la,lh;yg; qi;wf;mb;	0
+游艺设施	you;ka;dz; yi;zr;cv; she;cl;yy; shi;fr;fy;	5
+娱乐休闲产品代理	yu;yx;nt; le;uf;pd; xiu;xw;rm; xian;ow;mm; chan;bu,br,ir;lp; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+娱乐休闲产品加工	yu;yx;nt; le;uf;pd; xiu;xw;rm; xian;ow;mm; chan;bu,br,ir;lp; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+娱乐休闲项目合作	yu;yx;nt; le;uf;pd; xiu;xw;rm; xian;ow;mm; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+娱乐休闲用品	yu;yx;nt; le;uf;pd; xiu;xw;rm; xian;ow;mm; yong;lp;kl; pin;oo;kk;	0
+羽毛球用品	yu;dd;xx; mao;ur,ua;pv; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	2
+乐器配件	yue;uf;pd; qi;oo;kk; pei;pt;yj; jian;xb;rn;	0
+运动测试仪器	yun;uq;zs; dong;uu;el; ce;ki;dd; shi;cp;yg; yi;xy,xh;ry; qi;oo;kk;	0
+运动垫子	yun;uq;zs; dong;uu;el; dian;jg;ft; zi;aa;va;	0
+运动服饰	yun;uq;zs; dong;uu;el; fu;ll;oy; shi;gy;uj;	27
+运动护具	yun;uq;zs; dong;uu;el; hu;jq;fh; ju;pf;qb;	12
+折叠床行军床	zhe;jp;fj; die;lu;yq; chuang;rw;gm; xing;hj,hp;ii; jun;it;bi; chuang;rw;gm;	0
+中式武术服装	zhong;op;ll; shi;dh,ha,ap;yg; wu;dr,ha;av; shu;wh;md; fu;ll;oy; zhuang;lk;dy;	0
+自行车帽	zi;ss;po; xing;hj,hp;ii; che;tt;al; mao;ys;jo;	0
+组合滑梯	zu;eu;sq; he;eo;rk; hua;kc;dg; ti;wu;mp;	0
+组合健身器械	zu;eu;sq; he;eo;rk; jian;xq;rz; shen;uu;pp; qi;oo;kk; xie;wa,wz,wp,wh;mc;	0
+组合烤具	zu;eu;sq; he;eo;rk; kao;tr;hv; ju;pf;qb;	0
+组合运动护具	zu;eu;sq; he;eo;rk; yun;uq;zs; dong;uu;el; hu;jq;fh; ju;pf;qb;	0
+足球用品	zu;gg;kr; qiu;ah;wq; yong;lp;kl; pin;oo;kk;	1
+足浴设备	zu;gg;kr; yu;ko;dk; she;cl;yy; bei;jw;wt;	0
+补偿装置	bu;hh;pb; chang;xp;rs; zhuang;lk;dy; zhi;ad,au;sq;	1
+柴油发电机组	chai;rw;vm; you;kp;dy; fa;rh,rl;vd; dian;ee,ve;lv; ji;wi;mj; zu;eu;sq;	5
+车用润滑油	che;tt;al; yong;lp;kl; run;ka;dw; hua;kc;dg; you;kp;dy;	1
+灯用煤油	deng;tj;hd; yong;lp;kl; mei;tw;hm; you;kp;dy;	1
+电池组配件	dian;ee,ve;lv; chi;kr;dy; zu;eu;sq; pei;pt;yj; jian;xb;rn;	0
+电源变压器	dian;ee,ve;lv; yuan;kf;dx; bian;il;wy; ya;rh;id; qi;oo;kk;	3
+电源柜	dian;ee,ve;lv; yuan;kf;dx; gui;wr;mj;	2
+发电机组零部件	fa;rh,rl;vd; dian;ee,ve;lv; ji;wi;mj; zu;eu;sq; ling;yp,yh;ys; bu;bb;le; jian;xb;rn;	0
+风力发电机组	feng;iy;jx; li;uu;vp; fa;rh,rl;vd; dian;ee,ve;lv; ji;wi;mj; zu;eu;sq;	5
+风能设备	feng;iy;jx; neng;pa;sb; she;cl;yy; bei;jw;wt;	2
+工业润滑油	gong;pp;aa; ye;pd,hd;la; run;ka;dw; hua;kc;dg; you;kp;dy;	2
+恒压变压器	heng;nd;xa; ya;rh;id; bian;il;wy; ya;rh;id; qi;oo;kk;	0
+节电设备	jie;zb;ce; dian;ee,ve;lv; she;cl;yy; bei;jw;wt;	0
+节水设备	jie;zb;ce; shui;oo;ln; she;cl;yy; bei;jw;wt;	0
+节油设备	jie;zb;ce; you;kp;dy; she;cl;yy; bei;jw;wt;	0
+炼化设备	lian;tf;hd; hua;xa;rb; she;cl;yy; bei;jw;wt;	2
+脉冲变压器	mai;lh,lo;oy; chong;fp;dv; bian;il;wy; ya;rh;id; qi;oo;kk;	0
+煤制品	mei;tw;hm; zhi;bi;pd; pin;oo;kk;	0
+能源产品代理	neng;pa;sb; yuan;kf;dx; chan;bu,br,ir;lp; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+能源产品加工	neng;pa;sb; yuan;kf;dx; chan;bu,br,ir;lp; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+能源项目合作	neng;pa;sb; yuan;kf;dx; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+耦合变压器	ou;ah;ly; he;eo;rk; bian;il;wy; ya;rh;id; qi;oo;kk;	0
+配电屏	pei;pt;yj; dian;ee,ve;lv; ping;qp,qz;uk;	1
+配电器	pei;pt;yj; dian;ee,ve;lv; qi;oo;kk;	1
+配电输电设备	pei;pt;yj; dian;ee,ve;lv; shu;ti;id; dian;ee,ve;lv; she;cl;yy; bei;jw;wt;	0
+其他变压器	qi;vf;qb; ta;xr;ry; bian;il;wy; ya;rh;id; qi;oo;kk;	0
+其他电池	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; chi;kr;dy;	0
+其他发电机	qi;vf;qb; ta;xr;ry; fa;rh,rl;vd; dian;ee,ve;lv; ji;wi;mj;	0
+其他节能设备	qi;vf;qb; ta;xr;ry; jie;zb;ce; neng;pa;sb; she;cl;yy; bei;jw;wt;	0
+其他煤制品	qi;vf;qb; ta;xr;ry; mei;tw;hm; zhi;bi;pd; pin;oo;kk;	0
+其他配电输电设备	qi;vf;qb; ta;xr;ry; pei;pt;yj; dian;ee,ve;lv; shu;ti;id; dian;ee,ve;lv; she;cl;yy; bei;jw;wt;	0
+其他润滑油脂	qi;vf;qb; ta;xr;ry; run;ka;dw; hua;kc;dg; you;kp;dy; zhi;lv;oo;	0
+其他石油加工设备	qi;vf;qb; ta;xr;ry; shi;tt;ak; you;kp;dy; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+其他石油燃料	qi;vf;qb; ta;xr;ry; shi;tt;ak; you;kp;dy; ran;tn;hh; liao;ls,lh;mu;	0
+其他太阳能设备	qi;vf;qb; ta;xr;ry; tai;xh;dd; yang;bv;eo; neng;pa;sb; she;cl;yy; bei;jw;wt;	0
+其他添加剂	qi;vf;qb; ta;xr;ry; tian;kf,kh;dx; jia;uo;lk; ji;ji;wd;	21
+其他原煤	qi;vf;qb; ta;xr;ry; yuan;rf;ix; mei;tw;hm;	0
+汽油发电机组	qi;ks;dq; you;kp;dy; fa;rh,rl;vd; dian;ee,ve;lv; ji;wi;mj; zu;eu;sq;	0
+燃料油添加剂	ran;tn;hh; liao;ls,lh;mu; you;kp;dy; tian;kf,kh;dx; jia;uo;lk; ji;ji;wd;	0
+燃煤发电机组	ran;tn;hh; mei;tw;hm; fa;rh,rl;vd; dian;ee,ve;lv; ji;wi;mj; zu;eu;sq;	2
+燃气发电机组	ran;tn;hh; qi;ss;pv; fa;rh,rl;vd; dian;ee,ve;lv; ji;wi;mj; zu;eu;sq;	2
+燃气设备	ran;tn;hh; qi;ss;pv; she;cl;yy; bei;jw;wt;	0
+润滑油添加剂	run;ka;dw; hua;kc;dg; you;kp;dy; tian;kf,kh;dx; jia;uo;lk; ji;ji;wd;	1
+石油产品添加剂	shi;tt;ak; you;kp;dy; chan;bu,br,ir;lp; pin;oo;kk; tian;kf,kh;dx; jia;uo;lk; ji;ji;wd;	0
+石油和天然气	shi;tt;ak; you;kp;dy; he;uo;hk; tian;ue;ad; ran;fn,un;ph; qi;ss;pv;	87
+石油加工设备	shi;tt;ak; you;kp;dy; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+石油蜡	shi;tt;ak; you;kp;dy; la;fv;io;	0
+石油燃料	shi;tt;ak; you;kp;dy; ran;tn;hh; liao;ls,lh;mu;	2
+水力发电机组	shui;oo;ln; li;uu;vp; fa;rh,rl;vd; dian;ee,ve;lv; ji;wi;mj; zu;eu;sq;	0
+太阳能发电机组	tai;xh;dd; yang;bv;eo; neng;pa;sb; fa;rh,rl;vd; dian;ee,ve;lv; ji;wi;mj; zu;eu;sq;	1
+太阳能设备	tai;xh;dd; yang;bv;eo; neng;pa;sb; she;cl;yy; bei;jw;wt;	9
+网络变压器	wang;oy;kx; luo;er,eo;sk; bian;il;wy; ya;rh;id; qi;oo;kk;	1
+异步发电机	yi;tp,tz;sc; bu;ru;vp; fa;rh,rl;vd; dian;ee,ve;lv; ji;wi;mj;	0
+音频变压器	yin;cc,bv;lo; pin;rm;vr; bian;il;wy; ya;rh;id; qi;oo;kk;	0
+沼气设备	zhao;ko;dk; qi;ss;pv; she;cl;yy; bei;jw;wt;	0
+自耦变压器	zi;ss;po; ou;ah;ly; bian;il;wy; ya;rh;id; qi;oo;kk;	1
+曝气设备	bao;vo,vf;ou; qi;ss;pv; she;cl;yy; bei;jw;wt;	1
+滗水器	bi;kr,ka;dm; shui;oo;ln; qi;oo;kk;	0
+超声波清洗设备	chao;go,qo;tk; sheng;gp;up; bo;kl;dy; qing;kl;do; xi;kk;de; she;cl;yy; bei;jw;wt;	0
+除氧设备	chu;bf;eh; yang;sp;qy; she;cl;yy; bei;jw;wt;	0
+道路清扫车	dao;fq;zz; lu;go;zk; qing;kl;do; sao;js;fe; che;tt;al;	1
+电渗析设备	dian;ee,ve;lv; shen;ku;dp; xi;wp;mj; she;cl;yy; bei;jw;wt;	0
+二手环保设备	er;uu;aa; shou;up;pl; huan;ah,af;wb; bao;xw;rm; she;cl;yy; bei;jw;wt;	0
+反渗透设备	fan;ul;py; shen;ku;dp; tou;uq;zn; she;cl;yy; bei;jw;wt;	1
+芳香除臭化学品	fang;zf;cf; xiang;uv;ho; chu;bf;eh; chou;sb,sh;zq; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+纺织废料	fang;ef;sf; zhi;ef;sb; fei;rh,rl;gd; liao;ls,lh;mu;	0
+废布	fei;rh,rl;gd; bu;sy,dy;uj;	5
+废催化剂	fei;rh,rl;gd; cui;xa;rf; hua;xa;rb; ji;ji;wd;	1
+废电子电器	fei;rh,rl;gd; dian;ee,ve;lv; zi;aa;va; dian;ee,ve;lv; qi;oo;kk;	0
+废海绵	fei;rh,rl;gd; hai;kh;dm; mian;ey;sj;	0
+废化纤	fei;rh,rl;gd; hua;xa;rb; xian;em,es;sq;	0
+废料回收	fei;rh,rl;gd; liao;ls,lh;mu; hui;no;kk; shou;rj;vw;	15
+废麻	fei;rh,rl;gd; ma;dd,rw;gm;	0
+废毛绒	fei;rh,rl;gd; mao;ur,ua;pv; rong;es,ea,eh;su;	0
+废尼龙	fei;rh,rl;gd; ni;qa;ub; long;sh,dh;ud;	0
+废气处理成套设备	fei;rh,rl;gd; qi;ss;pv; chu;jh,uh;wb; li;ag;wl; cheng;rh;wv; tao;xp,xh;ds; she;cl;yy; bei;jw;wt;	0
+废气吸附装置	fei;rh,rl;gd; qi;ss;pv; xi;oh;kj; fu;bk,bw;ec; zhuang;lk;dy; zhi;ad,au;sq;	0
+风幕机	feng;iy;jx; mu;zy;cj; ji;wi;mj;	0
+风叶	feng;iy;jx; ye;os;ku;	70
+高纯水制取设备	gao;io;wk; chun;er;st; shui;oo;ln; zhi;bi;pd; qu;dl;ey; she;cl;yy; bei;jw;wt;	0
+高压水流清洗机	gao;io;wk; ya;rh;id; shui;oo;ln; liu;kr;dv; qing;kl;do; xi;kk;de; ji;wi;mj;	0
+公共环卫设施	gong;fp;bs; gong;zf;cb; huan;ah,af;wb; wei;bd,rd;ea,va; she;cl;yy; shi;fr;fy;	0
+供水设备	gong;xf;rb; shui;oo;ln; she;cl;yy; bei;jw;wt;	10
+工业风扇	gong;pp;aa; ye;pd,hd;la; feng;iy;jx; shan;qd;hx;	16
+工业吸尘设备	gong;pp;aa; ye;pd,hd;la; xi;oh;kj; chen;pg;xt; she;cl;yy; bei;jw;wt;	0
+工业噪声控制设备	gong;pp;aa; ye;pd,hd;la; zao;ow;km; sheng;gp;up; kong;jp;fg; zhi;bi;pd; she;cl;yy; bei;jw;wt;	0
+贵金属盐废料	gui;fm;vr; jin;ed,ef;ra; shu;qh;uy; yan;gd,ga;tm; fei;rh,rl;gd; liao;ls,lh;mu;	0
+过滤材料	guo;kq;zc; lv;kn;dx; cai;wu;mc; liao;ls,lh;mu;	8
+海水淡化设备	hai;kh;dm; shui;oo;ln; dan;kt;dh; hua;xa;rb; she;cl;yy; bei;jw;wt;	5
+化工废料	hua;xa;rb; gong;pp;aa; fei;rh,rl;gd; liao;ls,lh;mu;	3
+环保厕所	huan;ah,af;wb; bao;xw;rm; ce;ri;id; suo;up;pj;	0
+环保设备代理	huan;ah,af;wb; bao;xw;rm; she;cl;yy; bei;jw;wt; dai;xa,xh;ry; li;ag;wl;	0
+环保设备加工	huan;ah,af;wb; bao;xw;rm; she;cl;yy; bei;jw;wt; jia;uo;lk; gong;pp;aa;	0
+环保项目合作	huan;ah,af;wb; bao;xw;rm; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+环保用品	huan;ah,af;wb; bao;xw;rm; yong;lp;kl; pin;oo;kk;	1
+环卫垃圾桶	huan;ah,af;wb; wei;bd,rd;ea,va; la;gb;tl; ji;gh;tj; tong;wp;my;	0
+家用净水器	jia;ih;bu; yong;lp;kl; jing;fp;dl; shui;oo;ln; qi;oo;kk;	8
+净水絮凝剂	jing;fp;dl; shui;oo;ln; xu;yf;nx; ning;fe;dr; ji;ji;wd;	0
+空气处理化学品	kong;ip;bg; qi;ss;pv; chu;jh,uh;wb; li;ag;wl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+空气净化装置	kong;ip;bg; qi;ss;pv; jing;fp;dl; hua;xa;rb; zhuang;lk;dy; zhi;ad,au;sq;	13
+垃圾处理机	la;gb;tl; ji;gh;tj; chu;jh,uh;wb; li;ag;wl; ji;wi;mj;	7
+离子风机	li;ih,ip;wd; zi;aa;va; feng;iy;jx; ji;wi;mj;	0
+离子交换设备	li;ih,ip;wd; zi;aa;va; jiao;iy;wx; huan;jx,je;fd; she;cl;yy; bei;jw;wt;	1
+滤板	lv;kn;dx; ban;wl;my;	2
+滤片	lv;kn;dx; pian;ii,ur;pv;	11
+滤油机	lv;kn;dx; you;kp;dy; ji;wi;mj;	0
+美废	mei;fx;yd; fei;rh,rl;gd;	2
+欧废	ou;de;kr; fei;rh,rl;gd;	0
+排风设备	pai;ju,jp;ff; feng;iy;jx; she;cl;yy; bei;jw;wt;	2
+排风设备配件	pai;ju,jp;ff; feng;iy;jx; she;cl;yy; bei;jw;wt; pei;pt;yj; jian;xb;rn;	0
+抛丸清理机	pao;ju;fl; wan;uh;pd; qing;kl;do; li;ag;wl; ji;wi;mj;	0
+喷洒车	pen;om;kr; sa;kp;dx; che;tt;al;	1
+皮革废料	pi;rl;vy; ge;vs;nl; fei;rh,rl;gd; liao;ls,lh;mu;	0
+汽车滤清器	qi;ks;dq; che;tt;al; lv;kn;dx; qing;kl;do; qi;oo;kk;	0
+汽车消声器	qi;ks;dq; che;tt;al; xiao;kl;do; sheng;gp;up; qi;oo;kk;	0
+气浮设备	qi;ss;pv; fu;ka;dz; she;cl;yy; bei;jw;wt;	0
+其他纺织废料	qi;vf;qb; ta;xr;ry; fang;ef;sf; zhi;ef;sb; fei;rh,rl;gd; liao;ls,lh;mu;	0
+其他废纸	qi;vf;qb; ta;xr;ry; fei;rh,rl;gd; zhi;er,eh;su;	0
+其他风机	qi;vf;qb; ta;xr;ry; feng;iy;jx; ji;wi;mj;	0
+其他公共环卫设施	qi;vf;qb; ta;xr;ry; gong;fp;bs; gong;zf;cb; huan;ah,af;wb; wei;bd,rd;ea,va; she;cl;yy; shi;fr;fy;	0
+其他过滤材料	qi;vf;qb; ta;xr;ry; guo;kq;zc; lv;kn;dx; cai;wu;mc; liao;ls,lh;mu;	0
+其他过滤设备	qi;vf;qb; ta;xr;ry; guo;kq;zc; lv;kn;dx; she;cl;yy; bei;jw;wt;	0
+其他化工废料	qi;vf;qb; ta;xr;ry; hua;xa;rb; gong;pp;aa; fei;rh,rl;gd; liao;ls,lh;mu;	0
+其他空气处理化学品	qi;vf;qb; ta;xr;ry; kong;ip;bg; qi;ss;pv; chu;jh,uh;wb; li;ag;wl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+其他空气净化装置	qi;vf;qb; ta;xr;ry; kong;ip;bg; qi;ss;pv; jing;fp;dl; hua;xa;rb; zhuang;lk;dy; zhi;ad,au;sq;	0
+其他皮革废料	qi;vf;qb; ta;xr;ry; pi;rl;vy; ge;vs;nl; fei;rh,rl;gd; liao;ls,lh;mu;	0
+其他清洗	qi;vf;qb; ta;xr;ry; qing;kl;do; xi;kk;de;	0
+其他水处理化学品	qi;vf;qb; ta;xr;ry; shui;oo;ln; chu;jh,uh;wb; li;ag;wl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+其他污水处理设备	qi;vf;qb; ta;xr;ry; wu;kr;dk; shui;oo;ln; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+其他消音降噪设备	qi;vf;qb; ta;xr;ry; xiao;kl;do; yin;cc,bv;lo; jiang;bp;el; zao;ow;km; she;cl;yy; bei;jw;wt;	0
+其他原水处理设备	qi;vf;qb; ta;xr;ry; yuan;rf;ix; shui;oo;ln; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+清理设备	qing;kl;do; li;ag;wl; she;cl;yy; bei;jw;wt;	2
+人造皮革废料	ren;ee;pn; zao;bq;zk; pi;rl;vy; ge;vs;nl; fei;rh,rl;gd; liao;ls,lh;mu;	0
+日废	ri;vv;ka; fei;rh,rl;gd;	0
+软化水设备	ruan;te;ir; hua;xa;rb; shui;oo;ln; she;cl;yy; bei;jw;wt;	0
+杀菌灭藻剂	sha;yf;xm; jun;zw,zf;ch; mie;dt;ah; zao;zw;cm; ji;ji;wd;	0
+生活饮用水处理设备	sheng;eg;pf; huo;ko;dk; yin;ge;ur; yong;lp;kl; shui;oo;ln; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+水处理化学品	shui;oo;ln; chu;jh,uh;wb; li;ag;wl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+水杀菌消毒设备	shui;oo;ln; sha;yf;xm; jun;zw,zf;ch; xiao;kl;do; du;ah;fm; she;cl;yy; bei;jw;wt;	0
+酸雾净化器	suan;pj;yw; wu;yu;yl; jing;fp;dl; hua;xa;rb; qi;oo;kk;	0
+脱硫除尘设备	tuo;lk;oe; liu;tr;uv; chu;bf;eh; chen;pg;xt; she;cl;yy; bei;jw;wt;	0
+尾气处理装置	wei;qr,qa;um; qi;ss;pv; chu;jh,uh;wb; li;ag;wl; zhuang;lk;dy; zhi;ad,au;sq;	7
+污泥处理设备	wu;kr;dk; ni;ka;db; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+污水处理成套设备	wu;kr;dk; shui;oo;ln; chu;jh,uh;wb; li;ag;wl; cheng;rh;wv; tao;xp,xh;ds; she;cl;yy; bei;jw;wt;	0
+污水处理设备	wu;kr;dk; shui;oo;ln; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	27
+消音降噪设备	xiao;kl;do; yin;cc,bv;lo; jiang;bp;el; zao;ow;km; she;cl;yy; bei;jw;wt;	0
+压滤设备	ya;rh;id; lv;kn;dx; she;cl;yy; bei;jw;wt;	0
+泳池水处理设备	yong;kh,ko;dy; chi;kr;dy; shui;oo;ln; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+油水分离设备	you;kp;dy; shui;oo;ln; fen;fu,fi;bd; li;ih,ip;wd; she;cl;yy; bei;jw;wt;	0
+油烟净化设备	you;kp;dy; yan;tx;hd; jing;fp;dl; hua;xa;rb; she;cl;yy; bei;jw;wt;	0
+原水处理设备	yuan;rf;ix; shui;oo;ln; chu;jh,uh;wb; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+杂质泵	za;uf;jm; zhi;um,rm;pr; beng;to;uu;	0
+真皮废料	zhen;sf;ub; pi;rl;vy; fei;rh,rl;gd; liao;ls,lh;mu;	0
+蒸汽清洗机	zheng;zn;ch; qi;ks;dq; qing;kl;do; xi;kk;de; ji;wi;mj;	1
+装修污染清除剂	zhuang;lk;dy; xiu;xu;rp; wu;kr;dk; ran;kw;dm; qing;kl;do; chu;bf;eh; ji;ji;wd;	0
+安全绳	an;iy;bn; quan;ea;rw; sheng;er,ee;sd;	127
+办公锁	ban;uf;ld; gong;fp;bs; suo;dm;jr;	0
+板岩	ban;wl;my; yan;pt;eu;	23
+报警器材及系统	bao;jl;fy; jing;zo,zc;ck; qi;oo;kk; cai;wu;mc; ji;uh,rh;pn; xi;uf;px; tong;ek;se;	0
+杯架	bei;wh,wf;mb; jia;uw;lm;	64
+铲土运输机械	chan;du,dr;ji; tu;gg;ua; yun;uq;zs; shu;ti;id; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+超市购物车	chao;go,qo;tk; shi;iy;wj; gou;mp;ks; wu;bi,bu;nw; che;tt;al;	2
+厨卫设施	chu;rk;ic; wei;bd,rd;ea,va; she;cl;yy; shi;fr;fy;	4
+窗轨	chuang;ij,if,id;bw; gui;tr;ij;	0
+窗锁	chuang;ij,if,id;bw; suo;dm;jr;	1
+炊具挂盘	chui;te;hr; ju;pf;qb; gua;jg;ft; pan;td,ta;vm;	0
+磁卡锁	ci;tp;uy; ka;ph;ub; suo;dm;jr;	0
+瓷砖胶	ci;fh;dw; zhuan;th;uv; jiao;ly;ox;	35
+地板料	di;gr,ga;ty; ban;wl;my; liao;ls,lh;mu;	0
+电梯及配件	dian;ee,ve;lv; ti;wu;mp; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+二手建材加工设备	er;uu;aa; shou;up;pl; jian;rq,sq;zy; cai;wu;mc; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+法兰盘	fa;kp;ds; lan;fu;bs; pan;td,ta;vm;	5
+阀片	fa;oa,oh;mg; pian;ii,ur;pv;	11
+阀芯	fa;oa,oh;mg; xin;zn;cx;	22
+防潮材料	fang;bf;ef; chao;kl;do; cai;wu;mc; liao;ls,lh;mu;	2
+防护耳塞耳罩	fang;bf;ef; hu;jq;fh; er;dd,du;aa; sai;ig;bt; er;dd,du;aa; zhao;as;su;	0
+防护面罩面具	fang;bf;ef; hu;jq;fh; mian;dd,du;aa; zhao;as;su; mian;dd,du;aa; ju;pf;qb;	0
+防护鞋	fang;bf;ef; hu;jq;fh; xie;vg;gt;	0
+防护眼镜眼罩	fang;bf;ef; hu;jq;fh; yan;sh;og; jing;dk;je; yan;sh;og; zhao;as;su;	0
+肥皂架	fei;lt;ob; zao;sa;bq; jia;uw;lm;	3
+复合窗	fu;ej;pw; he;eo;rk; chuang;ij,if,id;bw;	0
+钢筋和预应力机械	gang;dy;jx; jin;nu;vl; he;uo;hk; yu;pm;sr; ying;rd;ga; li;uu;vp; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+隔断与吊顶	ge;bp;el; duan;lp;mj; yu;dd;aa; diao;oy;kj; ding;jm;dr;	0
+格栅灯	ge;wo;mk; shan;wd,wj,ed;mc; deng;tj;hd;	1
+工程机械配件	gong;pp;aa; cheng;ua;hw; ji;wi;mj; xie;wa,wz,wp,wh;mc; pei;pt;yj; jian;xb;rn;	1
+工程与建筑机械	gong;pp;aa; cheng;ua;hw; yu;dd;aa; jian;rq,sq;zy; zhu;nh;vf; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+工地施工材料	gong;pp;aa; di;gr,ga;ty; shi;fr;fy; gong;pp;aa; cai;wu;mc; liao;ls,lh;mu;	0
+挂镜线	gua;jg;ft; jing;dk;je; xian;ea;sj;	2
+管道辅助材料	guan;nd;vk; dao;fq;zz; fu;th;if; zhu;pu;ql; cai;wu;mc; liao;ls,lh;mu;	0
+管件管材	guan;nd;vk; jian;xb;rn; guan;nd;vk; cai;wu;mc;	1
+焊接钢管	han;ts;hg; jie;jy;fn; gang;dy;jx; guan;nd;vk;	2
+花洒及配件	hua;za;cb; sa;kp;dx; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+花洒软管	hua;za;cb; sa;kp;dx; ruan;te;ir; guan;nd;vk;	2
+混凝土搅拌机械	hun;ka;db; ning;fe;dr; tu;gg;ua; jiao;jk,jr;fe; ban;jp,js;fb; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+混水阀	hun;ka;db; shui;oo;ln; fa;oa,oh;mg;	14
+机械门锁	ji;wi;mj; xie;wa,wz,wp,wh;mc; men;oo;dv; suo;dm;jr;	2
+家具锁	jia;ih;bu; ju;pf;qb; suo;dm;jr;	0
+建材机械及用具	jian;rq,sq;zy; cai;wu;mc; ji;wi;mj; xie;wa,wz,wp,wh;mc; ji;uh,rh;pn; yong;lp;kl; ju;pf;qb;	0
+建材加工	jian;rq,sq;zy; cai;wu;mc; jia;uo;lk; gong;pp;aa;	0
+建材类管材	jian;rq,sq;zy; cai;wu;mc; lei;lx;md; guan;nd;vk; cai;wu;mc;	0
+建材类管件	jian;rq,sq;zy; cai;wu;mc; lei;lx;md; guan;nd;vk; jian;xb;rn;	0
+建材生产加工机械	jian;rq,sq;zy; cai;wu;mc; sheng;eg;pf; chan;bu,br,ir;lp; jia;uo;lk; gong;pp;aa; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+监控器材及系统	jian;pd,pa;lm; kong;jp;fg; qi;oo;kk; cai;wu;mc; ji;uh,rh;pn; xi;uf;px; tong;ek;se;	0
+建筑玻璃	jian;rq,sq;zy; zhu;nh;vf; bo;al;wy; li;ah,ap;wd;	4
+建筑门窗及五金	jian;rq,sq;zy; zhu;nh;vf; men;oo;dv; chuang;ij,if,id;bw; ji;uh,rh;pn; wu;gg;aa; jin;ed,ef;ra;	0
+建筑配套设施及其他	jian;rq,sq;zy; zhu;nh;vf; pei;pt;yj; tao;xp,xh;ds; she;cl;yy; shi;fr;fy; ji;uh,rh;pn; qi;vf;qb; ta;xr;ry;	0
+建筑图纸	jian;rq,sq;zy; zhu;nh;vf; tu;nh;kd; zhi;er,eh;su;	20
+建筑项目合作	jian;rq,sq;zy; zhu;nh;vf; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+建筑用粘合剂	jian;rq,sq;zy; zhu;nh;vf; yong;lp;kl; nian;lo;mk; he;eo;rk; ji;ji;wd;	1
+建筑装潢工程承包	jian;rq,sq;zy; zhu;nh;vf; zhuang;lk;dy; huang;kf;db; gong;pp;aa; cheng;ua;hw; cheng;rh,ru;vn; bao;ut;bs;	0
+匠作工具	jiang;dr;kj; zuo;xu;rv; gong;pp;aa; ju;pf;qb;	0
+金属窗	jin;ed,ef;ra; shu;qh;uy; chuang;ij,if,id;bw;	0
+金属建材	jin;ed,ef;ra; shu;qh;uy; jian;rq,sq;zy; cai;wu;mc;	0
+金属胶	jin;ed,ef;ra; shu;qh;uy; jiao;ly;ox;	0
+绝缘板	jue;et;sb; yuan;eh;su; ban;wl;my;	0
+绝缘带	jue;et;sb; yuan;eh;su; dai;zy;fj;	0
+绝缘垫片	jue;et;sb; yuan;eh;su; dian;jg;ft; pian;ii,ur;pv;	0
+绝缘隔离柱	jue;et;sb; yuan;eh;su; ge;bp;el; li;ih,ip;wd; zhu;wa,wg;mv;	0
+绝缘套管	jue;et;sb; yuan;eh;su; tao;xp,xh;ds; guan;nd;vk;	0
+开门器	kai;dz,dp,up;ac; men;oo;dv; qi;oo;kk;	2
+库存及相关服务	ku;rt;gi; cun;sa,da;uz; ji;uh,rh;pn; xiang;ws;mo; guan;fx;bt; fu;ll;oy; wu;ju;wl;	0
+库存建材	ku;rt;gi; cun;sa,da;uz; jian;rq,sq;zy; cai;wu;mc;	0
+快开	kuai;nx,ne;xg; kai;dz,dp,up;ac;	49
+冷热水系统	leng;fp,fh;ds; re;jn;fh; shui;oo;ln; xi;uf;px; tong;ek;se;	0
+楼梯及配件	lou;wy;mn; ti;wu;mp; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+楼宇对讲设备	lou;wy;mn; yu;is;by; dui;lk;yc; jiang;cp;yj; she;cl;yy; bei;jw;wt;	0
+楼宇设施	lou;wy;mn; yu;is;by; she;cl;yy; shi;fr;fy;	0
+路面机械	lu;go;zk; mian;dd,du;aa; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+毛巾杆	mao;ur,ua;pv; jin;yy;ll; gan;ws;mg;	19
+门窗挂钩	men;oo;dv; chuang;ij,if,id;bw; gua;jg;ft; gou;dp;js;	0
+门夹	men;oo;dv; jia;dx;an;	19
+门禁考勤器材及系统	men;oo;dv; jin;wf;mx; kao;gr;lv; qin;vu;nl; qi;oo;kk; cai;wu;mc; ji;uh,rh;pn; xi;uf;px; tong;ek;se;	0
+门碰	men;oo;dv; peng;td;uy;	0
+门吸	men;oo;dv; xi;oh;kj;	27
+面盆及配件	mian;dd,du;aa; pen;fd,fa;bm; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+抹泥板	mo;je;fm; ni;ka;db; ban;wl;my;	0
+摩托车锁	mo;do,dp,rp;gu; tuo;ja,jr;fq; che;tt;al; suo;dm;jr;	0
+木工胶	mu;ww;an,un; gong;pp;aa; jiao;ly;ox;	14
+木工铣刀	mu;ww;an,un; gong;pp;aa; xi;dk;je; dao;ii,ru;vp;	0
+木工油漆	mu;ww;an,un; gong;pp;aa; you;kp;dy; qi;kf,ko;du;	0
+幕墙胶	mu;zy;cj; qiang;go,gd;tk; jiao;ly;ox;	0
+木质材料	mu;ww;an,un; zhi;um,rm;pr; cai;wu;mc; liao;ls,lh;mu;	43
+木质片材	mu;ww;an,un; zhi;um,rm;pr; pian;ii,ur;pv; cai;wu;mc;	0
+木质线材	mu;ww;an,un; zhi;um,rm;pr; xian;ea;sj; cai;wu;mc;	0
+木质型材	mu;ww;an,un; zhi;um,rm;pr; xing;ug;kt; cai;wu;mc;	0
+耐磨砖	nai;ek;ec; mo;dt,rt;gu; zhuan;th;uv;	3
+其他不动产	qi;vf;qb; ta;xr;ry; bu;dh,df;ad; dong;uu;el; chan;bu,br,ir;lp;	8
+其他厨房设施	qi;vf;qb; ta;xr;ry; chu;rk;ic; fang;qf;hf; she;cl;yy; shi;fr;fy;	0
+其他窗	qi;vf;qb; ta;xr;ry; chuang;ij,if,id;bw;	0
+其他地板	qi;vf;qb; ta;xr;ry; di;gr,ga;ty; ban;wl;my;	0
+其他工程承包	qi;vf;qb; ta;xr;ry; gong;pp;aa; cheng;ua;hw; cheng;rh,ru;vn; bao;ut;bs;	0
+其他工程与建筑机械	qi;vf;qb; ta;xr;ry; gong;pp;aa; cheng;ua;hw; yu;dd;aa; jian;rq,sq;zy; zhu;nh;vf; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+其他管道系统	qi;vf;qb; ta;xr;ry; guan;nd;vk; dao;fq;zz; xi;uf;px; tong;ek;se;	0
+其他管件	qi;vf;qb; ta;xr;ry; guan;nd;vk; jian;xb;rn;	0
+其他建筑	qi;vf;qb; ta;xr;ry; jian;rq,sq;zy; zhu;nh;vf;	0
+其他建筑玻璃	qi;vf;qb; ta;xr;ry; jian;rq,sq;zy; zhu;nh;vf; bo;al;wy; li;ah,ap;wd;	0
+其他建筑陶瓷	qi;vf;qb; ta;xr;ry; jian;rq,sq;zy; zhu;nh;vf; tao;bp;ef; ci;fh;dw;	0
+其他建筑涂料	qi;vf;qb; ta;xr;ry; jian;rq,sq;zy; zhu;nh;vf; tu;kf;dh; liao;ls,lh;mu;	0
+其他建筑用粘合剂	qi;vf;qb; ta;xr;ry; jian;rq,sq;zy; zhu;nh;vf; yong;lp;kl; nian;lo;mk; he;eo;rk; ji;ji;wd;	0
+其他匠作工具	qi;vf;qb; ta;xr;ry; jiang;dr;kj; zuo;xu;rv; gong;pp;aa; ju;pf;qb;	0
+其他绝缘材料	qi;vf;qb; ta;xr;ry; jue;et;sb; yuan;eh;su; cai;wu;mc; liao;ls,lh;mu;	0
+其他楼宇设施	qi;vf;qb; ta;xr;ry; lou;wy;mn; yu;is;by; she;cl;yy; shi;fr;fy;	0
+其他门	qi;vf;qb; ta;xr;ry; men;oo;dv;	0
+其他门窗五金	qi;vf;qb; ta;xr;ry; men;oo;dv; chuang;ij,if,id;bw; wu;gg;aa; jin;ed,ef;ra;	0
+其他木质材料	qi;vf;qb; ta;xr;ry; mu;ww;an,un; zhi;um,rm;pr; cai;wu;mc; liao;ls,lh;mu;	0
+其他石材石料	qi;vf;qb; ta;xr;ry; shi;tt;ak; cai;wu;mc; shi;tt;ak; liao;ls,lh;mu;	0
+其他室内照明灯具	qi;vf;qb; ta;xr;ry; shi;ig;bt; nei;oe;ld; zhao;vn;oh; ming;vl;oo; deng;tj;hd; ju;pf;qb;	0
+其他水暖五金	qi;vf;qb; ta;xr;ry; shui;oo;ln; nuan;vl;oy; wu;gg;aa; jin;ed,ef;ra;	0
+其他锁具	qi;vf;qb; ta;xr;ry; suo;dm;jr; ju;pf;qb;	0
+其他卫浴用五金件	qi;vf;qb; ta;xr;ry; wei;bd,rd;ea,va; yu;ko;dk; yong;lp;kl; wu;gg;aa; jin;ed,ef;ra; jian;xb;rn;	0
+其他装饰线板	qi;vf;qb; ta;xr;ry; zhuang;lk;dy; shi;gy;uj; xian;ea;sj; ban;wl;my;	0
+其他作业保护	qi;vf;qb; ta;xr;ry; zuo;xu;rv; ye;pd,hd;la; bao;xw;rm; hu;jq;fh;	0
+墙纸胶	qiang;go,gd;tk; zhi;er,eh;su; jiao;ly;ox;	4
+燃气系统	ran;tn;hh; qi;ss;pv; xi;uf;px; tong;ek;se;	1
+三角阀	san;uu;ae; jiao;gp;dy; fa;oa,oh;mg;	5
+上水系统	shang;pd,pu;la; shui;oo;ln; xi;uf;px; tong;ek;se;	2
+深加工玻璃	shen;kw;dm; jia;uo;lk; gong;pp;aa; bo;al;wy; li;ah,ap;wd;	0
+石材干挂胶	shi;tt;ak; cai;wu;mc; gan;ss;au; gua;jg;ft; jiao;ly;ox;	0
+石材加工	shi;tt;ak; cai;wu;mc; jia;uo;lk; gong;pp;aa;	3
+石材石料	shi;tt;ak; cai;wu;mc; shi;tt;ak; liao;ls,lh;mu;	0
+石材养护	shi;tt;ak; cai;wu;mc; yang;fp;yl; hu;jq;fh;	0
+室内涂料	shi;ig;bt; nei;oe;ld; tu;kf;dh; liao;ls,lh;mu;	0
+室内照明灯具	shi;ig;bt; nei;oe;ld; zhao;vn;oh; ming;vl;oo; deng;tj;hd; ju;pf;qb;	0
+室外涂料	shi;ig;bt; wai;fh;xb; tu;kf;dh; liao;ls,lh;mu;	0
+市政和环境卫生机械	shi;iy;wj; zheng;dj;vw; he;uo;hk; huan;ah,af;wb; jing;gk;te; wei;bd,rd;ea,va; sheng;eg;pf; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+手工刨	shou;up;pl; gong;pp;aa; bao;ui;bd;	1
+手纸架	shou;up;pl; zhi;er,eh;su; jia;uw;lm;	1
+水暖五金	shui;oo;ln; nuan;vl;oy; wu;gg;aa; jin;ed,ef;ra;	0
+水嘴	shui;oo;ln; zui;op;ky;	0
+锁具配件	suo;dm;jr; ju;pf;qb; pei;pt;yj; jian;xb;rn;	0
+陶瓷生产加工机械	tao;bp;ef; ci;fh;dw; sheng;eg;pf; chan;bu,br,ir;lp; jia;uo;lk; gong;pp;aa; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+特种建材	te;bk;nc; zhong;up;hv; jian;rq,sq;zy; cai;wu;mc;	1
+筒灯	tong;no;vk; deng;tj;hd;	165
+卫浴用五金件	wei;bd,rd;ea,va; yu;ko;dk; yong;lp;kl; wu;gg;aa; jin;ed,ef;ra; jian;xb;rn;	0
+污物桶	wu;kr;dk; wu;bi,bu;nw; tong;wp;my;	2
+箱包锁	xiang;ns;vo; bao;ut;bs; suo;dm;jr;	0
+信报箱	xin;xo,xc;rk; bao;jl;fy; xiang;ns;vo;	0
+压实机械	ya;rh;id; shi;ix;bd; ji;wi;mj; xie;wa,wz,wp,wh;mc;	2
+檐口线脚	yan;wo,wc;mk; kou;oo;la; xian;ea;sj; jiao;lb;oe;	0
+羊眼	yang;fp;bl; yan;sh;og;	5
+营业房	ying;zo;ck; ye;pd,hd;la; fang;qf;hf;	4
+油灰刀	you;kp;dy; hui;dt,st;uh; dao;ii,ru;vp;	2
+浴缸及配件	yu;ko;dk; gang;ep;fg; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+园林和高空作业机械	yuan;nk;ke; lin;ww;mm; he;uo;hk; gao;io;wk; kong;ip;bg; zuo;xu;rv; ye;pd,hd;la; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+原片玻璃	yuan;rf;ix; pian;ii,ur;pv; bo;al;wy; li;ah,ap;wd;	6
+砖瓦及砌块	zhuan;th;uv; wa;dh;ad; ji;uh,rh;pn; qi;ti,tu;ud; kuai;ge,gx;tg;	0
+桩工机械	zhuang;wg;mt; gong;pp;aa; ji;wi;mj; xie;wa,wz,wp,wh;mc;	1
+装饰建材代理	zhuang;lk;dy; shi;gy;uj; jian;rq,sq;zy; cai;wu;mc; dai;xa,xh;ry; li;ag;wl;	0
+装饰线板	zhuang;lk;dy; shi;gy;uj; xian;ea;sj; ban;wl;my;	0
+装修机械	zhuang;lk;dy; xiu;xu;rp; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+装载机械	zhuang;lk;dy; zai;st,ha,sh,gh,gt;ui; ji;wi;mj; xie;wa,wz,wp,wh;mc;	1
+座厕及配件	zuo;rg;gt; ce;ri;id; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+作业保护	zuo;xu;rv; ye;pd,hd;la; bao;xw;rm; hu;jq;fh;	0
+保健品代理	bao;xw;rm; jian;xq;rz; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+保健项目合作	bao;xw;rm; jian;xq;rz; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+保健用品加工	bao;xw;rm; jian;xq;rz; yong;lp;kl; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+畜用药	chu;iw;wt; yong;lp;kl; yao;zh;cu;	0
+电子脉冲治疗仪	dian;ee,ve;lv; zi;aa;va; mai;lh,lo;oy; chong;fp;dv; zhi;ko;dk; liao;mp;bl; yi;xy,xh;ry;	2
+动物原药材	dong;uu;el; wu;bi,bu;nw; yuan;rf;ix; yao;zh;cu; cai;wu;mc;	0
+儿科用药	er;kk;pv; ke;uh,us;hu; yong;lp;kl; yao;zh;cu;	1
+二手医疗设备	er;uu;aa; shou;up;pl; yi;dr;ku; liao;mp;bl; she;cl;yy; bei;jw;wt;	0
+二手制药设备	er;uu;aa; shou;up;pl; zhi;bi;pd; yao;zh;cu; she;cl;yy; bei;jw;wt;	0
+妇科用药	fu;ys;ne; ke;uh,us;hu; yong;lp;kl; yao;zh;cu;	0
+骨及关节康复用品	gu;cc;lo; ji;uh,rh;pn; guan;fx;bt; jie;zb;ce; kang;ro,rf;gn; fu;ej;pw; yong;lp;kl; pin;oo;kk;	0
+骨伤科用药	gu;cc;lo; shang;xu;rl; ke;uh,us;hu; yong;lp;kl; yao;zh;cu;	0
+护创材料	hu;jq;fh; chuang;ei;rd; cai;wu;mc; liao;ls,lh;mu;	0
+家用血糖仪	jia;ih;bu; yong;lp;kl; xue;ud,ua;pm; tang;lo;mk; yi;xy,xh;ry;	10
+家用血压计	jia;ih;bu; yong;lp;kl; xue;ud,ua;pm; ya;rh;id; ji;cs;yu;	1
+减肥用品	jian;fh;dk; fei;lt;ob; yong;lp;kl; pin;oo;kk;	0
+监护设备	jian;pd,pa;lm; hu;jq;fh; she;cl;yy; bei;jw;wt;	7
+检验分析设备	jian;wd;ma; yan;zd;ma; fen;fu,fi;bd; xi;wp;mj; she;cl;yy; bei;jw;wt;	0
+矫正设备	jiao;ep;ul; zheng;dr;av; she;cl;yy; bei;jw;wt;	2
+介入性材料	jie;ep;rl; ru;ee,uh;pn; xing;ng,na;xu; cai;wu;mc; liao;ls,lh;mu;	0
+康复理疗设备	kang;ro,rf;gn; fu;ej;pw; li;ag;wl; liao;mp;bl; she;cl;yy; bei;jw;wt;	0
+库存医药用品	ku;rt;gi; cun;sa,da;uz; yi;dr;ku; yao;zh;cu; yong;lp;kl; pin;oo;kk;	0
+矿物原药材	kuang;tr;ug; wu;bi,bu;nw; yuan;rf;ix; yao;zh;cu; cai;wu;mc;	0
+酶酵素制剂	mei;ph;ym; jiao;pa;yz; su;af;fx; zhi;bi;pd; ji;ji;wd;	0
+内科用药	nei;oe;ld; ke;uh,us;hu; yong;lp;kl; yao;zh;cu;	3
+其他保健用品	qi;vf;qb; ta;xr;ry; bao;xw;rm; jian;xq;rz; yong;lp;kl; pin;oo;kk;	0
+其他生物制品	qi;vf;qb; ta;xr;ry; sheng;eg;pf; wu;bi,bu;nw; zhi;bi;pd; pin;oo;kk;	0
+其它未分类	qi;vf;qb; ta;ia;bb; wei;ee;an; fen;fu,fi;bd; lei;lx;md;	0
+其他医疗器具	qi;vf;qb; ta;xr;ry; yi;dr;ku; liao;mp;bl; qi;oo;kk; ju;pf;qb;	0
+其他医用材料	qi;vf;qb; ta;xr;ry; yi;dr;ku; yong;lp;kl; cai;wu;mc; liao;ls,lh;mu;	0
+其他制药设备	qi;vf;qb; ta;xr;ry; zhi;bi;pd; yao;zh;cu; she;cl;yy; bei;jw;wt;	0
+其他中成药	qi;vf;qb; ta;xr;ry; zhong;op;ll; cheng;rh;wv; yao;zh;cu;	1
+气血循环机	qi;ss;pv; xue;ud,ua;pm; xun;hs;io; huan;ah,af;wb; ji;wi;mj;	0
+人造器官及植入体	ren;ee;pn; zao;bq;zk; qi;oo;kk; guan;id;bk; ji;uh,rh;pn; zhi;wd,wu;mq; ru;ee,uh;pn; ti;xd;rb;	0
+生物诊断试剂	sheng;eg;pf; wu;bi,bu;nw; zhen;cu;yp; duan;lp;mj; shi;cp;yg; ji;ji;wd;	0
+视力保健用品	shi;hk,hr;pe; li;uu;vp; bao;xw;rm; jian;xq;rz; yong;lp;kl; pin;oo;kk;	0
+手术卫生用品	shou;up;pl; shu;wh;md; wei;bd,rd;ea,va; sheng;eg;pf; yong;lp;kl; pin;oo;kk;	0
+手术专用设备	shou;up;pl; shu;wh;md; zhuan;uh;ad; yong;lp;kl; she;cl;yy; bei;jw;wt;	0
+睡眠保健用品	shui;sg;oi; mian;sr;om; bao;xw;rm; jian;xq;rz; yong;lp;kl; pin;oo;kk;	0
+通用医疗器具	tong;pq;zy; yong;lp;kl; yi;dr;ku; liao;mp;bl; qi;oo;kk; ju;pf;qb;	0
+外科用药	wai;fh;xb; ke;uh,us;hu; yong;lp;kl; yao;zh;cu;	0
+五官科用药	wu;gg;aa; guan;id;bk; ke;uh,us;hu; yong;lp;kl; yao;zh;cu;	0
+消毒防腐药剂	xiao;kl;do; du;ah;fm; fang;bf;ef; fu;re;gr; yao;zh;cu; ji;ji;wd;	0
+消毒灭菌设备	xiao;kl;do; du;ah;fm; mie;dt;ah; jun;zw,zf;ch; she;cl;yy; bei;jw;wt;	1
+血压调节用品	xue;ud,ua;pm; ya;rh;id; tiao;co;yk; jie;zb;ce; yong;lp;kl; pin;oo;kk;	0
+药品包装机械	yao;zh;cu; pin;oo;kk; bao;ut;bs; zhuang;lk;dy; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+药品加工	yao;zh;cu; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+药用包装材料	yao;zh;cu; yong;lp;kl; bao;ut;bs; zhuang;lk;dy; cai;wu;mc; liao;ls,lh;mu;	0
+药用粉碎机械	yao;zh;cu; yong;lp;kl; fen;li,lu;md; sui;ts;uu; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+一次性医用耗材	yi;dd;aa; ci;fe;dr; xing;ng,na;xu; yi;dr;ku; yong;lp;kl; hao;ar,aa;lm; cai;wu;mc;	0
+医护辅助设备	yi;dr;ku; hu;jq;fh; fu;th;if; zhu;pu;ql; she;cl;yy; bei;jw;wt;	0
+医疗保健服务	yi;dr;ku; liao;mp;bl; bao;xw;rm; jian;xq;rz; fu;ll;oy; wu;ju;wl;	19
+医疗器具	yi;dr;ku; liao;mp;bl; qi;oo;kk; ju;pf;qb;	7
+医疗器械代理	yi;dr;ku; liao;mp;bl; qi;oo;kk; xie;wa,wz,wp,wh;mc; dai;xa,xh;ry; li;ag;wl;	0
+医疗器械加工	yi;dr;ku; liao;mp;bl; qi;oo;kk; xie;wa,wz,wp,wh;mc; jia;uo;lk; gong;pp;aa;	0
+医疗器械制造设备	yi;dr;ku; liao;mp;bl; qi;oo;kk; xie;wa,wz,wp,wh;mc; zhi;bi;pd; zao;bq;zk; she;cl;yy; bei;jw;wt;	0
+医药项目合作	yi;dr;ku; yao;zh;cu; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+医用材料	yi;dr;ku; yong;lp;kl; cai;wu;mc; liao;ls,lh;mu;	36
+医用车	yi;dr;ku; yong;lp;kl; che;tt;al;	0
+医用器皿	yi;dr;ku; yong;lp;kl; qi;oo;kk; min;pd,aa;la;	1
+饮片机械	yin;ge;ur; pian;ii,ur;pv; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+原料药设备及机械	yuan;rf;ix; liao;ls,lh;mu; yao;zh;cu; she;cl;yy; bei;jw;wt; ji;uh,rh;pn; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+诊察设备	zhen;cu;yp; cha;if;bx; she;cl;yy; bei;jw;wt;	0
+制剂机械	zhi;bi;pd; ji;ji;wd; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+治疗设备	zhi;ko;dk; liao;mp;bl; she;cl;yy; bei;jw;wt;	0
+植物提取物	zhi;wd,wu;mq; wu;bi,bu;nw; ti;je;fr; qu;dl;ey; wu;bi,bu;nw;	88
+植物原药材	zhi;wd,wu;mq; wu;bi,bu;nw; yuan;rf;ix; yao;zh;cu; cai;wu;mc;	0
+制药辅料	zhi;bi;pd; yao;zh;cu; fu;th;if; liao;ls,lh;mu;	0
+制药设备	zhi;bi;pd; yao;zh;cu; she;cl;yy; bei;jw;wt;	6
+中医器械	zhong;op;ll; yi;dr;ku; qi;oo;kk; xie;wa,wz,wp,wh;mc;	0
+注射穿刺器械	zhu;kg,ka;dv; she;uk;uc; chuan;iu;by; ci;di;ad; qi;oo;kk; xie;wa,wz,wp,wh;mc;	0
+办公设备维修及安装	ban;uf;ld; gong;fp;bs; she;cl;yy; bei;jw;wt; wei;ea;sf; xiu;xu;rp; ji;uh,rh;pn; an;iy;bn; zhuang;lk;dy;	0
+保险服务	bao;xw;rm; xian;bd;ea; fu;ll;oy; wu;ju;wl;	0
+财务咨询	cai;mu;kc; wu;ju;wl; zi;fo;dk; xun;cv;yo;	66
+餐饮娱乐加盟	can;ph;ll; yin;ge;ur; yu;yx;nt; le;uf;pd; jia;uo;lk; meng;vd,va;om;	0
+仓储与配送	cang;et;rv; chu;xv;ro; yu;dd;aa; pei;pt;yj; song;fq;zt;	3
+产权债权转让	chan;bu,br,ir;lp; quan;wl;my; zhai;xm;rr; quan;wl;my; zhuan;th;iv; rang;cu,cd;yu;	0
+超市加盟	chao;go,qo;tk; shi;iy;wj; jia;uo;lk; meng;vd,va;om;	0
+出版展	chu;pp;vk; ban;ul;py; zhan;qh;un;	0
+电器维修及安装	dian;ee,ve;lv; qi;oo;kk; wei;ea;sf; xiu;xu;rp; ji;uh,rh;pn; an;iy;bn; zhuang;lk;dy;	0
+公关服务	gong;fp;bs; guan;fx;bt; fu;ll;oy; wu;ju;wl;	4
+公司注册服务	gong;fp;bs; si;ro;vk; zhu;kg,ka;dv; ce;jj,ud;pa; fu;ll;oy; wu;ju;wl;	3
+工艺品展	gong;pp;aa; yi;zr;cv; pin;oo;kk; zhan;qh;un;	0
+管理人员招聘	guan;nd;vk; li;ag;wl; ren;ee;pn; yuan;om;kr; zhao;jo;fk; pin;dr;ev;	0
+广告发布	guang;rr;di,wp; gao;bo;nk; fa;rh,rl;vd; bu;sy,dy;uj;	0
+国际陆运	guo;na,nh;ky; ji;bf;ex; lu;bp;ej; yun;uq;zs;	0
+国内空运	guo;na,nh;ky; nei;oe;ld; kong;ip;bg; yun;uq;zs;	0
+国内陆运	guo;na,nh;ky; nei;oe;ld; lu;bp;ej; yun;uq;zs;	3
+国内水运	guo;na,nh;ky; nei;oe;ld; shui;oo;ln; yun;uq;zs;	0
+环保展	huan;ah,af;wb; bao;xw;rm; zhan;qh;un;	1
+会务及活动策划	hui;ep;rs; wu;ju;wl; ji;uh,rh;pn; huo;ko;dk; dong;uu;el; ce;nh;vn; hua;ai,di;gd;	0
+技术人员招聘	ji;jl;fy; shu;wh;md; ren;ee;pn; yuan;om;kr; zhao;jo;fk; pin;dr;ev;	2
+建筑及模型设计	jian;rq,sq;zy; zhu;nh;vf; ji;uh,rh;pn; mo;wx;md; xing;ug;kt; she;cl;yy; ji;cs;yu;	0
+建筑展	jian;rq,sq;zy; zhu;nh;vf; zhan;qh;un;	11
+教育培训加盟	jiao;gj;lw; yu;il;wo; pei;go;tk; xun;cp;yi; jia;uo;lk; meng;vd,va;om;	3
+进出口代理	jin;uq;zj; chu;pp;vk; kou;oo;la; dai;xa,xh;ry; li;ag;wl;	1
+会计服务	kuai;ep;rs; ji;cs;yu; fu;ll;oy; wu;ju;wl;	0
+美容健身加盟	mei;fx;yd; rong;io;bk; jian;xq;rz; shen;uu;pp; jia;uo;lk; meng;vd,va;om;	0
+农业展	nong;ih;dn; ye;pd,hd;la; zhan;qh;un;	2
+配件展	pei;pt;yj; jian;xb;rn; zhan;qh;un;	0
+皮革展	pi;rl;vy; ge;vs;nl; zhan;qh;un;	0
+其他创意设计	qi;vf;qb; ta;xr;ry; chuang;ei;rd; yi;bn,cn;lx; she;cl;yy; ji;cs;yu;	1
+其他公关服务	qi;vf;qb; ta;xr;ry; gong;fp;bs; guan;fx;bt; fu;ll;oy; wu;ju;wl;	0
+其他广告服务	qi;vf;qb; ta;xr;ry; guang;rr;di,wp; gao;bo;nk; fu;ll;oy; wu;ju;wl;	0
+其他行业展会	qi;vf;qb; ta;xr;ry; hang;hj,hp;ii; ye;pd,hd;la; zhan;qh;un; hui;ep;rs;	0
+其他教育培训	qi;vf;qb; ta;xr;ry; jiao;gj;lw; yu;il;wo; pei;go;tk; xun;cp;yi;	0
+其他商务服务	qi;vf;qb; ta;xr;ry; shang;io;wk; wu;ju;wl; fu;ll;oy; wu;ju;wl;	1
+其他特许经营	qi;vf;qb; ta;xr;ry; te;bk;nc; xu;cs;yw; jing;ep;sg; ying;zo;ck;	0
+其他维修及安装	qi;vf;qb; ta;xr;ry; wei;ea;sf; xiu;xu;rp; ji;uh,rh;pn; an;iy;bn; zhuang;lk;dy;	0
+其他招聘	qi;vf;qb; ta;xr;ry; zhao;jo;fk; pin;dr;ev;	0
+其他知识产权服务	qi;vf;qb; ta;xr;ry; zhi;eo;uk; shi;cf;yb; chan;bu,br,ir;lp; quan;wl;my; fu;ll;oy; wu;ju;wl;	0
+其他中介服务	qi;vf;qb; ta;xr;ry; zhong;op;ll; jie;ep;rl; fu;ll;oy; wu;ju;wl;	0
+其他咨询	qi;vf;qb; ta;xr;ry; zi;fo;dk; xun;cv;yo;	0
+其他租赁	qi;vf;qb; ta;xr;ry; zu;uu;hq; lin;xm;rr;	3
+企业日常服务	qi;er;rv; ye;pd,hd;la; ri;vv;ka; chang;hy;xj; fu;ll;oy; wu;ju;wl;	0
+迁厂搬家	qian;sq;zq; chang;rr;ap; ban;jl;fy; jia;ih;bu;	0
+清洗及保洁服务	qing;kl;do; xi;kk;de; ji;uh,rh;pn; bao;xw;rm; jie;ko;dk; fu;ll;oy; wu;ju;wl;	0
+认证服务	ren;ce;yr; zheng;cr;yv; fu;ll;oy; wu;ju;wl;	0
+商标注册申请	shang;io;wk; biao;wf;mx; zhu;kg,ka;dv; ce;jj,ud;pa; shen;vp;ll; qing;cl;yo;	86
+商旅服务	shang;io;wk; lv;fh;fn; fu;ll;oy; wu;ju;wl;	0
+设备展	she;cl;yy; bei;jw;wt; zhan;qh;un;	3
+摄影摄像服务	she;jl;fy; ying;vu;op; she;jl;fy; xiang;xh;rn; fu;ll;oy; wu;ju;wl;	0
+生产设备维修及安装	sheng;eg;pf; chan;bu,br,ir;lp; she;cl;yy; bei;jw;wt; wei;ea;sf; xiu;xu;rp; ji;uh,rh;pn; an;iy;bn; zhuang;lk;dy;	0
+特种物流	te;bk;nc; zhong;up;hv; wu;bi,bu;nw; liu;kr;dv;	0
+玩具展	wan;ak;we; ju;pf;qb; zhan;qh;un;	16
+维修及安装服务	wei;ea;sf; xiu;xu;rp; ji;uh,rh;pn; an;iy;bn; zhuang;lk;dy; fu;ll;oy; wu;ju;wl;	0
+销售人员招聘	xiao;dl;jo; shou;xo;rk; ren;ee;pn; yuan;om;kr; zhao;jo;fk; pin;dr;ev;	0
+信息展	xin;xo,xc;rk; xi;sn;zx; zhan;qh;un;	1
+行政人员招聘	xing;hj,hp;ii; zheng;dj;vw; ren;ee;pn; yuan;om;kr; zhao;jo;fk; pin;dr;ev;	0
+演出服务	yan;kf;db; chu;pp;vk; fu;ll;oy; wu;ju;wl;	0
+影视节目制作	ying;vu;op; shi;hk,hr;pe; jie;zb;ce; mu;ss;ka; zhi;bi;pd; zuo;xu;rv;	4
+语言培训	yu;co;yk; yan;cc,io;wk; pei;go;tk; xun;cp;yi;	0
+展会服务	zhan;qh;un; hui;ep;rs; fu;ll;oy; wu;ju;wl;	3
+展览设计制作	zhan;qh;un; lan;pk,pr;le; she;cl;yy; ji;cs;yu; zhi;bi;pd; zuo;xu;rv;	0
+知识产权服务	zhi;eo;uk; shi;cf;yb; chan;bu,br,ir;lp; quan;wl;my; fu;ll;oy; wu;ju;wl;	39
+纸业展	zhi;er,eh;su; ye;pd,hd;la; zhan;qh;un;	0
+中介服务加盟	zhong;op;ll; jie;ep;rl; fu;ll;oy; wu;ju;wl; jia;uo;lk; meng;vd,va;om;	0
+专利版权申请	zhuan;uh;ad; li;ui;hd; ban;ul;py; quan;wl;my; shen;vp;ll; qing;cl;yo;	0
+专利版权转让	zhuan;uh;ad; li;ui;hd; ban;ul;py; quan;wl;my; zhuan;th;iv; rang;cu,cd;yu;	0
+资格考试培训	zi;fm;dr; ge;wo;mk; kao;gr;lv; shi;cp;yg; pei;go;tk; xun;cp;yi;	3
+综合类展会	zong;ef;sx; he;eo;rk; lei;lx;md; zhan;qh;un; hui;ep;rs;	0
+租赁服务	zu;uu;hq; lin;xm;rr; fu;ll;oy; wu;ju;wl;	68
+邦定加工	bang;ub;fe; ding;ie;br; jia;uo;lk; gong;pp;aa;	0
+杯灯	bei;wh,wf;mb; deng;tj;hd;	1
+彩色灯泡	cai;hu;pp; se;gt;db; deng;tj;hd; pao;kt;ds;	2
+草坪灯	cao;zs;cu; ping;gf,gs;tp; deng;tj;hd;	0
+插件加工	cha;js;fj; jian;xb;rn; jia;uo;lk; gong;pp;aa;	0
+充电手电筒	chong;ik;we; dian;ee,ve;lv; shou;up;pl; dian;ee,ve;lv; tong;no;vk;	0
+触片	chu;gf;di; pian;ii,ur;pv;	2
+道路照明灯	dao;fq;zz; lu;go;zk; zhao;vn;oh; ming;vl;oo; deng;tj;hd;	1
+灯具配附件	deng;tj;hd; ju;pf;qb; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+灯柱灯杆	deng;tj;hd; zhu;wa,wg;mv; deng;tj;hd; gan;ws;mg;	0
+电光源材料	dian;ee,ve;lv; guang;hk;xw; yuan;kf;dx; cai;wu;mc; liao;ls,lh;mu;	1
+电子粉	dian;ee,ve;lv; zi;aa;va; fen;li,lu;md;	0
+电子加工	dian;ee,ve;lv; zi;aa;va; jia;uo;lk; gong;pp;aa;	0
+电子组装加工	dian;ee,ve;lv; zi;aa;va; zu;eu;sq; zhuang;lk;dy; jia;uo;lk; gong;pp;aa;	0
+二手照明器材	er;uu;aa; shou;up;pl; zhao;vn;oh; ming;vl;oo; qi;oo;kk; cai;wu;mc;	0
+防爆灯具	fang;bf;ef; bao;to,tf;hu; deng;tj;hd; ju;pf;qb;	0
+高杆灯	gao;io;wk; gan;ws;mg; deng;tj;hd;	0
+工矿灯具	gong;pp;aa; kuang;tr;ug; deng;tj;hd; ju;pf;qb;	0
+工艺装饰灯具	gong;pp;aa; yi;zr;cv; zhuang;lk;dy; shi;gy;uj; deng;tj;hd; ju;pf;qb;	0
+广告灯具	guang;rr;di,wp; gao;bo;nk; deng;tj;hd; ju;pf;qb;	0
+光源器	guang;hk;xw; yuan;kf;dx; qi;oo;kk;	0
+焊接加工	han;ts;hg; jie;jy;fn; jia;uo;lk; gong;pp;aa;	3
+航空障碍灯	hang;ti;vj; kong;ip;bg; zhang;bs;eu; ai;tk;uc; deng;tj;hd;	0
+红外线灯泡	hong;ep;sg; wai;fh;xb; xian;ea;sj; deng;tj;hd; pao;kt;ds;	2
+环型荧光灯管	huan;ah,af;wb; xing;ug;kt; ying;zt;ch; guang;hk;xw; deng;tj;hd; guan;nd;vk;	0
+机床灯具	ji;wi;mj; chuang;rw;gm; deng;tj;hd; ju;pf;qb;	0
+检修灯	jian;wd;ma; xiu;xu;rp; deng;tj;hd;	0
+角灯	jiao;gp;dy; deng;tj;hd;	12
+交通警示灯	jiao;iy;wx; tong;pq;zy; jing;zo,zc;ck; shi;uf;ex; deng;tj;hd;	1
+金卤灯	jin;ed,ef;ra; lu;py,pd;lx; deng;tj;hd;	2
+聚光灯泡	ju;dh;en; guang;hk;xw; deng;tj;hd; pao;kt;ds;	0
+库存照明器材	ku;rt;gi; cun;sa,da;uz; zhao;vn;oh; ming;vl;oo; qi;oo;kk; cai;wu;mc;	0
+冷光片	leng;fp,fh;ds; guang;hk;xw; pian;ii,ur;pv;	0
+冷阴极荧光灯	leng;fp,fh;ds; yin;bl;eo; ji;wh;mj; ying;zt;ch; guang;hk;xw; deng;tj;hd;	1
+两极电源插头	liang;de;ad; ji;wh;mj; dian;ee,ve;lv; yuan;kf;dx; cha;js;fj; tou;hx;dd;	0
+两极电源插座	liang;de;ad; ji;wh;mj; dian;ee,ve;lv; yuan;kf;dx; cha;js;fj; zuo;rg;gt;	0
+卤钨灯泡	lu;py,pd;lx; wu;dd;jw; deng;tj;hd; pao;kt;ds;	2
+螺旋型荧光灯管	luo;ff;ix; xuan;fe;fr; xing;ug;kt; ying;zt;ch; guang;hk;xw; deng;tj;hd; guan;nd;vk;	0
+埋地灯	mai;gg;tl; di;gr,ga;ty; deng;tj;hd;	0
+霓虹灯管	ni;yk;ye; hong;fp;ig; deng;tj;hd; guan;nd;vk;	2
+泡壳	pao;kt;ds; ke;gi;uj;	1
+普通手电筒	pu;fv;bo; tong;pq;zy; shou;up;pl; dian;ee,ve;lv; tong;no;vk;	1
+普通照明白炽灯	pu;fv;bo; tong;pq;zy; zhao;vn;oh; ming;vl;oo; bai;ss;po; chi;tf;hb; deng;tj;hd;	1
+其他白炽灯	qi;vf;qb; ta;xr;ry; bai;ss;po; chi;tf;hb; deng;tj;hd;	0
+其他插头	qi;vf;qb; ta;xr;ry; cha;js;fj; tou;hx;dd;	0
+其他插座	qi;vf;qb; ta;xr;ry; cha;js;fj; zuo;rg;gt;	0
+其他车灯	qi;vf;qb; ta;xr;ry; che;tt;al; deng;tj;hd;	0
+其他灯具配附件	qi;vf;qb; ta;xr;ry; deng;tj;hd; ju;pf;qb; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+其他电光源材料	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; guang;hk;xw; yuan;kf;dx; cai;wu;mc; liao;ls,lh;mu;	0
+其他电子加工	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; zi;aa;va; jia;uo;lk; gong;pp;aa;	0
+其他冷光源	qi;vf;qb; ta;xr;ry; leng;fp,fh;ds; guang;hk;xw; yuan;kf;dx;	0
+其他气体放电灯	qi;vf;qb; ta;xr;ry; qi;ss;pv; ti;xd;rb; fang;fj;fw; dian;ee,ve;lv; deng;tj;hd;	0
+其他室外照明灯具	qi;vf;qb; ta;xr;ry; shi;ig;bt; wai;fh;xb; zhao;vn;oh; ming;vl;oo; deng;tj;hd; ju;pf;qb;	0
+其他手电筒	qi;vf;qb; ta;xr;ry; shou;up;pl; dian;ee,ve;lv; tong;no;vk;	0
+其他指示灯具	qi;vf;qb; ta;xr;ry; zhi;jv;fo; shi;uf;ex; deng;tj;hd; ju;pf;qb;	0
+其他专门用途灯具	qi;vf;qb; ta;xr;ry; zhuan;uh;ad; men;oo;dv; yong;lp;kl; tu;eq;zh; deng;tj;hd; ju;pf;qb;	0
+气体放电灯	qi;ss;pv; ti;xd;rb; fang;fj;fw; dian;ee,ve;lv; deng;tj;hd;	5
+桥梁灯具	qiao;wp;ml; liang;kw;dm; deng;tj;hd; ju;pf;qb;	0
+三极电源插头	san;uu;ae; ji;wh;mj; dian;ee,ve;lv; yuan;kf;dx; cha;js;fj; tou;hx;dd;	0
+三极电源插座	san;uu;ae; ji;wh;mj; dian;ee,ve;lv; yuan;kf;dx; cha;js;fj; zuo;rg;gt;	0
+设备指示灯	she;cl;yy; bei;jw;wt; zhi;jv;fo; shi;uf;ex; deng;tj;hd;	0
+摄影灯具	she;jl;fy; ying;vu;op; deng;tj;hd; ju;pf;qb;	3
+摄影灯泡	she;jl;fy; ying;vu;op; deng;tj;hd; pao;kt;ds;	0
+视频插头	shi;hk,hr;pe; pin;rm;vr; cha;js;fj; tou;hx;dd;	0
+视频插座	shi;hk,hr;pe; pin;rm;vr; cha;js;fj; zuo;rg;gt;	0
+室外照明灯具	shi;ig;bt; wai;fh;xb; zhao;vn;oh; ming;vl;oo; deng;tj;hd; ju;pf;qb;	0
+水下灯具	shui;oo;ln; xia;dh;ab; deng;tj;hd; ju;pf;qb;	0
+水下灯泡	shui;oo;ln; xia;dh;ab; deng;tj;hd; pao;kt;ds;	0
+隧道灯具	sui;bq;ez; dao;fq;zz; deng;tj;hd; ju;pf;qb;	0
+太阳能手电筒	tai;xh;dd; yang;bv;eo; neng;pa;sb; shou;up;pl; dian;ee,ve;lv; tong;no;vk;	0
+贴片加工	tie;mo;kk; pian;ii,ur;pv; jia;uo;lk; gong;pp;aa;	1
+微型灯泡	wei;hj;iw; xing;ug;kt; deng;tj;hd; pao;kt;ds;	0
+无电源手电筒	wu;uk,ur;ay; dian;ee,ve;lv; yuan;kf;dx; shou;up;pl; dian;ee,ve;lv; tong;no;vk;	0
+舞台灯具	wu;ep;pl; tai;po;sk; deng;tj;hd; ju;pf;qb;	0
+芯柱	xin;zn;cx; zhu;wa,wg;mv;	2
+型荧光灯管	xing;ug;kt; ying;zt;ch; guang;hk;xw; deng;tj;hd; guan;nd;vk;	0
+医疗灯具	yi;dr;ku; liao;mp;bl; deng;tj;hd; ju;pf;qb;	0
+应急指示灯具	ying;rd;ga; ji;gn;dx; zhi;jv;fo; shi;uf;ex; deng;tj;hd; ju;pf;qb;	0
+运动场馆灯具	yun;uq;zs; dong;uu;el; chang;gu;tp; guan;gd;uk; deng;tj;hd; ju;pf;qb;	0
+照明配附件	zhao;vn;oh; ming;vl;oo; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+照明器材代理	zhao;vn;oh; ming;vl;oo; qi;oo;kk; cai;wu;mc; dai;xa,xh;ry; li;ag;wl;	0
+照明器材项目合作	zhao;vn;oh; ming;vl;oo; qi;oo;kk; cai;wu;mc; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+指示灯具	zhi;jv;fo; shi;uf;ex; deng;tj;hd; ju;pf;qb;	0
+指示灯泡	zhi;jv;fo; shi;uf;ex; deng;tj;hd; pao;kt;ds;	0
+直型荧光灯管	zhi;sd,su;uq; xing;ug;kt; ying;zt;ch; guang;hk;xw; deng;tj;hd; guan;nd;vk;	0
+转换插座	zhuan;th;iv; huan;jx,je;fd; cha;js;fj; zuo;rg;gt;	3
+专门用途灯具	zhuan;uh;ad; men;oo;dv; yong;lp;kl; tu;eq;zh; deng;tj;hd; ju;pf;qb;	0
+装饰灯串	zhuang;lk;dy; shi;gy;uj; deng;tj;hd; chuan;op;ll;	0
+按摩鞋	an;jy;fn; mo;do,dp,rp;gu; xie;vg;gt;	2
+棒球运动手套	bang;wp;ml; qiu;ah;wq; yun;uq;zs; dong;uu;el; shou;up;pl; tao;xp,xh;ds;	0
+保安帽	bao;xw;rm; an;iy;bn; mao;ys;jo;	1
+保暖鞋	bao;xw;rm; nuan;vl;oy; xie;vg;gt;	2
+布拖鞋	bu;sy,dy;uj; tuo;jr;fy; xie;vg;gt;	0
+布制工作手套	bu;sy,dy;uj; zhi;bi;pd; gong;pp;aa; zuo;xu;rv; shou;up;pl; tao;xp,xh;ds;	0
+裁断机	cai;sk,ha,sh,gh;uy; duan;lp;mj; ji;wi;mj;	0
+长统袜	chang;uh;pn; tong;ek;se; wa;he;pm;	7
+成品鞋	cheng;rh;wv; pin;oo;kk; xie;vg;gt;	0
+成品鞋代理	cheng;rh;wv; pin;oo;kk; xie;vg;gt; dai;xa,xh;ry; li;ag;wl;	0
+成品鞋加工	cheng;rh;wv; pin;oo;kk; xie;vg;gt; jia;uo;lk; gong;pp;aa;	0
+厨师帽	chu;rk;ic; shi;py;lj; mao;ys;jo;	9
+穿刺饰	chuan;iu;by; ci;di;ad; shi;gy;uj;	0
+打钉机	da;jj;fd; ding;dj;jd; ji;wi;mj;	0
+袋鼠皮革	dai;xk;ry; shu;sr;jv; pi;rl;vy; ge;vs;nl;	0
+涤丝提花领带	di;kf;dm; si;ee,rd;va; ti;je;fr; hua;za;cb; ling;em;rr; dai;zy;fj;	0
+涤丝印花领带	di;kf;dm; si;ee,rd;va; yin;ub;pe; hua;za;cb; ling;em;rr; dai;zy;fj;	0
+电工作鞋	dian;ee,ve;lv; gong;pp;aa; zuo;xu;rv; xie;vg;gt;	0
+钉跟机	ding;dj;jd; gen;gh;zg; ji;wi;mj;	0
+多功能擦地拖鞋	duo;ff;xx; gong;pu;gl; neng;pa;sb; ca;jf;fx; di;gr,ga;ty; tuo;jr;fy; xie;vg;gt;	0
+二手制鞋设备	er;uu;aa; shou;up;pl; zhi;bi;pd; xie;vg;gt; she;cl;yy; bei;jw;wt;	0
+儿童短袜	er;kk;pv; tong;bg;ll; duan;ed;ua; wa;he;pm;	0
+儿童连裤袜	er;kk;pv; tong;bg;ll; lian;tq;zi; ku;ht;pi; wa;he;pm;	0
+儿童腰带	er;kk;pv; tong;bg;ll; yao;ly;on; dai;zy;fj;	0
+防尘帽	fang;bf;ef; chen;pg;xt; mao;ys;jo;	1
+防静电工作鞋	fang;bf;ef; jing;ap;fl; dian;ee,ve;lv; gong;pp;aa; zuo;xu;rv; xie;vg;gt;	0
+仿皮带	fang;xf;rf; pi;rl;vy; dai;zy;fj;	0
+仿丝长巾	fang;xf;rf; si;ee,rd;va; chang;uh;pn; jin;yy;ll;	0
+仿丝大方巾	fang;xf;rf; si;ee,rd;va; da;xx;un; fang;ff;dw; jin;yy;ll;	0
+仿丝小方巾	fang;xf;rf; si;ee,rd;va; xiao;pf;ld; fang;ff;dw; jin;yy;ll;	0
+仿羊绒围巾	fang;xf;rf; yang;fp;bl; rong;es,ea,eh;su; wei;np;kw; jin;yy;ll;	0
+服饰代理	fu;ll;oy; shi;gy;uj; dai;xa,xh;ry; li;ag;wl;	0
+服饰加工	fu;ll;oy; shi;gy;uj; jia;uo;lk; gong;pp;aa;	0
+服饰手套	fu;ll;oy; shi;gy;uj; shou;up;pl; tao;xp,xh;ds;	0
+服饰项目合作	fu;ll;oy; shi;gy;uj; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+钢包头工作鞋	gang;dy;jx; bao;ut;bs; tou;hx;dd; gong;pp;aa; zuo;xu;rv; xie;vg;gt;	0
+高尔夫运动手套	gao;io;wk; er;gf;dx; fu;ee;an; yun;uq;zs; dong;uu;el; shou;up;pl; tao;xp,xh;ds;	0
+工艺鞋	gong;pp;aa; yi;zr;cv; xie;vg;gt;	0
+工作手套	gong;pp;aa; zuo;xu;rv; shou;up;pl; tao;xp,xh;ds;	0
+鼓乐队帽	gu;gl;uy; yue;uf;pd; dui;be;er; mao;ys;jo;	0
+合成胶粘剂	he;eo;rk; cheng;rh;wv; jiao;ly;ox; zhan;lo;mk; ji;ji;wd;	1
+后帮机	hou;uo;pk; bang;uy;fj; ji;wi;mj;	0
+护士帽	hu;jq;fh; shi;gg;ua; mao;ys;jo;	5
+滑雪运动手套	hua;kc;dg; xue;ys;ye; yun;uq;zs; dong;uu;el; shou;up;pl; tao;xp,xh;ds;	0
+混纺围巾	hun;ka;db; fang;ef;sf; wei;np;kw; jin;yy;ll;	0
+挤水机	ji;jp;fl; shui;oo;ln; ji;wi;mj;	0
+加脂剂	jia;uo;lk; zhi;lv;oo; ji;ji;wd;	0
+减肥鞋	jian;fh;dk; fei;lt;ob; xie;vg;gt;	0
+脚饰	jiao;lb;oe; shi;gy;uj;	0
+结帮机	jie;eo;sk; bang;uy;fj; ji;wi;mj;	0
+浸灰剂	jin;kl;dy; hui;dt,st;uh; ji;ji;wd;	0
+金属腰带	jin;ed,ef;ra; shu;qh;uy; yao;ly;on; dai;zy;fj;	4
+浸水助剂	jin;kl;dy; shui;oo;ln; zhu;pu;ql; ji;ji;wd;	0
+浸酸剂	jin;kl;dy; suan;pj;yw; ji;ji;wd;	0
+刻楦机	ke;ii;wd; xuan;wd;ma; ji;wi;mj;	0
+扣饰	kou;jo;fk; shi;gy;uj;	2
+库存服饰	ku;rt;gi; cun;sa,da;uz; fu;ll;oy; shi;gy;uj;	1
+库存领带	ku;rt;gi; cun;sa,da;uz; ling;em;rr; dai;zy;fj;	0
+库存帽子	ku;rt;gi; cun;sa,da;uz; mao;ys;jo; zi;aa;va;	0
+库存手套	ku;rt;gi; cun;sa,da;uz; shou;up;pl; tao;xp,xh;ds;	0
+库存袜子	ku;rt;gi; cun;sa,da;uz; wa;he;pm; zi;aa;va;	0
+库存围巾	ku;rt;gi; cun;sa,da;uz; wei;np;kw; jin;yy;ll;	0
+库存鞋材	ku;rt;gi; cun;sa,da;uz; xie;vg;gt; cai;wu;mc;	0
+库存腰带	ku;rt;gi; cun;sa,da;uz; yao;ly;on; dai;zy;fj;	0
+烂花绒围巾	lan;tu;hs; hua;za;cb; rong;es,ea,eh;su; wei;np;kw; jin;yy;ll;	0
+礼仪手套	li;hr;pv; yi;xy,xh;ry; shou;up;pl; tao;xp,xh;ds;	0
+量革机	liang;vg;ol; ge;vs;nl; ji;wi;mj;	0
+驴皮革	lv;zq;mh; pi;rl;vy; ge;vs;nl;	0
+马皮革	ma;zz;va; pi;rl;vy; ge;vs;nl;	0
+毛呢帽	mao;ur,ua;pv; ni;oa;kb; mao;ys;jo;	0
+毛绒拖鞋	mao;ur,ua;pv; rong;es,ea,eh;su; tuo;jr;fy; xie;vg;gt;	6
+帽子手套二件套	mao;ys;jo; zi;aa;va; shou;up;pl; tao;xp,xh;ds; er;uu;aa; jian;xb;rn; tao;xp,xh;ds;	0
+帽子围巾二件套	mao;ys;jo; zi;aa;va; wei;np;kw; jin;yy;ll; er;uu;aa; jian;xb;rn; tao;xp,xh;ds;	0
+帽子围巾手套三件套	mao;ys;jo; zi;aa;va; wei;np;kw; jin;yy;ll; shou;up;pl; tao;xp,xh;ds; san;uu;ae; jian;xb;rn; tao;xp,xh;ds;	0
+门童帽	men;oo;dv; tong;bg;ll; mao;ys;jo;	0
+民族帽	min;rr;vv; zu;fx;fu; mao;ys;jo;	0
+木拖鞋	mu;ww;an,un; tuo;jr;fy; xie;vg;gt;	0
+耐酸碱鞋	nai;ek;ec; suan;pj;yw; jian;th;uk; xie;vg;gt;	0
+男包系列	nan;wu;tl; bao;ut;bs; xi;uf;px; lie;fi;dd;	0
+男棉袜	nan;wu;tl; mian;wy;mj; wa;he;pm;	0
+男式凉拖鞋	nan;wu;tl; shi;dh,ha,ap;yg; liang;ff;dx; tuo;jr;fy; xie;vg;gt;	0
+男式凉鞋	nan;wu;tl; shi;dh,ha,ap;yg; liang;ff;dx; xie;vg;gt;	0
+男式休闲布鞋	nan;wu;tl; shi;dh,ha,ap;yg; xiu;xw;rm; xian;ow;mm; bu;sy,dy;uj; xie;vg;gt;	0
+男式休闲仿皮鞋	nan;wu;tl; shi;dh,ha,ap;yg; xiu;xw;rm; xian;ow;mm; fang;xf;rf; pi;rl;vy; xie;vg;gt;	0
+男式休闲皮鞋	nan;wu;tl; shi;dh,ha,ap;yg; xiu;xw;rm; xian;ow;mm; pi;rl;vy; xie;vg;gt;	0
+男式正装仿皮鞋	nan;wu;tl; shi;dh,ha,ap;yg; zheng;dr;av; zhuang;lk;dy; fang;xf;rf; pi;rl;vy; xie;vg;gt;	0
+男式正装皮鞋	nan;wu;tl; shi;dh,ha,ap;yg; zheng;dr;av; zhuang;lk;dy; pi;rl;vy; xie;vg;gt;	0
+男丝袜	nan;wu;tl; si;ee,rd;va; wa;he;pm;	0
+男靴	nan;wu;tl; xue;va;gb;	3
+尼龙手套	ni;qa;ub; long;sh,dh;ud; shou;up;pl; tao;xp,xh;ds;	1
+牛皮革	niu;bb;pl; pi;rl;vy; ge;vs;nl;	18
+女包系列	nv;yy;va; bao;ut;bs; xi;uf;px; lie;fi;dd;	0
+女短丝袜	nv;yy;va; duan;ed;ua; si;ee,rd;va; wa;he;pm;	0
+女棉袜	nv;yy;va; mian;wy;mj; wa;he;pm;	0
+女式低靴	nv;yy;va; shi;dh,ha,ap;yg; di;xh;rd; xue;va;gb;	0
+女式高靴	nv;yy;va; shi;dh,ha,ap;yg; gao;io;wk; xue;va;gb;	0
+女式凉拖鞋	nv;yy;va; shi;dh,ha,ap;yg; liang;ff;dx; tuo;jr;fy; xie;vg;gt;	0
+女式凉鞋	nv;yy;va; shi;dh,ha,ap;yg; liang;ff;dx; xie;vg;gt;	1
+女式休闲布鞋	nv;yy;va; shi;dh,ha,ap;yg; xiu;xw;rm; xian;ow;mm; bu;sy,dy;uj; xie;vg;gt;	0
+女式休闲仿皮鞋	nv;yy;va; shi;dh,ha,ap;yg; xiu;xw;rm; xian;ow;mm; fang;xf;rf; pi;rl;vy; xie;vg;gt;	0
+女式休闲皮鞋	nv;yy;va; shi;dh,ha,ap;yg; xiu;xw;rm; xian;ow;mm; pi;rl;vy; xie;vg;gt;	0
+女式正装仿皮鞋	nv;yy;va; shi;dh,ha,ap;yg; zheng;dr;av; zhuang;lk;dy; fang;xf;rf; pi;rl;vy; xie;vg;gt;	0
+女式正装皮鞋	nv;yy;va; shi;dh,ha,ap;yg; zheng;dr;av; zhuang;lk;dy; pi;rl;vy; xie;vg;gt;	0
+女式中靴	nv;yy;va; shi;dh,ha,ap;yg; zhong;op;ll; xue;va;gb;	0
+皮包头工作鞋	pi;rl;vy; bao;ut;bs; tou;hx;dd; gong;pp;aa; zuo;xu;rv; xie;vg;gt;	0
+皮革服饰手套	pi;rl;vy; ge;vs;nl; fu;ll;oy; shi;gy;uj; shou;up;pl; tao;xp,xh;ds;	0
+皮革化学品	pi;rl;vy; ge;vs;nl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+皮革加工设备	pi;rl;vy; ge;vs;nl; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+皮拖鞋	pi;rl;vy; tuo;jr;fy; xie;vg;gt;	0
+皮制工作手套	pi;rl;vy; zhi;bi;pd; gong;pp;aa; zuo;xu;rv; shou;up;pl; tao;xp,xh;ds;	0
+片皮机	pian;ii,ur;pv; pi;rl;vy; ji;wi;mj;	0
+剖层机	pou;bi;ld; ceng;qp;us; ji;wi;mj;	0
+普通针织手套	pu;fv;bo; tong;pq;zy; zhen;ds;ju; zhi;ef;sb; shou;up;pl; tao;xp,xh;ds;	0
+其他服饰手套	qi;vf;qb; ta;xr;ry; fu;ll;oy; shi;gy;uj; shou;up;pl; tao;xp,xh;ds;	0
+其他功能鞋	qi;vf;qb; ta;xr;ry; gong;pu;gl; neng;pa;sb; xie;vg;gt;	0
+其他工作手套	qi;vf;qb; ta;xr;ry; gong;pp;aa; zuo;xu;rv; shou;up;pl; tao;xp,xh;ds;	0
+其他工作鞋	qi;vf;qb; ta;xr;ry; gong;pp;aa; zuo;xu;rv; xie;vg;gt;	0
+其他库存服饰	qi;vf;qb; ta;xr;ry; ku;rt;gi; cun;sa,da;uz; fu;ll;oy; shi;gy;uj;	0
+其他类型功能鞋	qi;vf;qb; ta;xr;ry; lei;lx;md; xing;ug;kt; gong;pu;gl; neng;pa;sb; xie;vg;gt;	0
+其他凉鞋	qi;vf;qb; ta;xr;ry; liang;ff;dx; xie;vg;gt;	0
+其他领带	qi;vf;qb; ta;xr;ry; ling;em;rr; dai;zy;fj;	0
+其他皮革	qi;vf;qb; ta;xr;ry; pi;rl;vy; ge;vs;nl;	0
+其他皮革化学品	qi;vf;qb; ta;xr;ry; pi;rl;vy; ge;vs;nl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+其他皮革加工设备	qi;vf;qb; ta;xr;ry; pi;rl;vy; ge;vs;nl; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+其他生活帽	qi;vf;qb; ta;xr;ry; sheng;eg;pf; huo;ko;dk; mao;ys;jo;	0
+其他时尚配饰	qi;vf;qb; ta;xr;ry; shi;vk;oc; shang;ho;xk; pei;pt;yj; shi;gy;uj;	0
+其他时装帽	qi;vf;qb; ta;xr;ry; shi;vk;oc; zhuang;lk;dy; mao;ys;jo;	0
+其他丝巾	qi;vf;qb; ta;xr;ry; si;ee,rd;va; jin;yy;ll;	0
+其他童鞋	qi;vf;qb; ta;xr;ry; tong;bg;ll; xie;vg;gt;	0
+其他拖鞋	qi;vf;qb; ta;xr;ry; tuo;jr;fy; xie;vg;gt;	0
+其他袜子	qi;vf;qb; ta;xr;ry; wa;he;pm; zi;aa;va;	2
+其他围巾	qi;vf;qb; ta;xr;ry; wei;np;kw; jin;yy;ll;	1
+其他围巾帽子手套套件	qi;vf;qb; ta;xr;ry; wei;np;kw; jin;yy;ll; mao;ys;jo; zi;aa;va; shou;up;pl; tao;xp,xh;ds; tao;xp,xh;ds; jian;xb;rn;	0
+其他鞋材化工	qi;vf;qb; ta;xr;ry; xie;vg;gt; cai;wu;mc; hua;xa;rb; gong;pp;aa;	0
+其他鞋底	qi;vf;qb; ta;xr;ry; xie;vg;gt; di;rh;gd;	0
+其他鞋辅件	qi;vf;qb; ta;xr;ry; xie;vg;gt; fu;th;if; jian;xb;rn;	0
+其他休闲鞋	qi;vf;qb; ta;xr;ry; xiu;xw;rm; xian;ow;mm; xie;vg;gt;	0
+其他靴子	qi;vf;qb; ta;xr;ry; xue;va;gb; zi;aa;va;	0
+其他腰带	qi;vf;qb; ta;xr;ry; yao;ly;on; dai;zy;fj;	0
+其他运动手套	qi;vf;qb; ta;xr;ry; yun;uq;zs; dong;uu;el; shou;up;pl; tao;xp,xh;ds;	0
+其他正装鞋	qi;vf;qb; ta;xr;ry; zheng;dr;av; zhuang;lk;dy; xie;vg;gt;	0
+其他制鞋机械	qi;vf;qb; ta;xr;ry; zhi;bi;pd; xie;vg;gt; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+其他职业帽	qi;vf;qb; ta;xr;ry; zhi;df;eb; ye;pd,hd;la; mao;ys;jo;	0
+前帮机	qian;fi;bd; bang;uy;fj; ji;wi;mj;	0
+乾祥	qian;sr;uq; xiang;hp;py;	1
+乾祥服饰	qian;sr;uq; xiang;hp;py; fu;ll;oy; shi;gy;uj;	0
+乾祥服饰旗舰店	qian;sr;uq; xiang;hp;py; fu;ll;oy; shi;gy;uj; qi;ff;fb; jian;tk,tr;ve; dian;ro;gk;	0
+乔丹篮球鞋	qiao;up;yl; dan;ua,ud,uz,od,oz;pa; lan;nd,na;vm; qiu;ah;wq; xie;vg;gt;	2
+晴纶围巾	qing;vl;oo; lun;ea;sb; wei;np;kw; jin;yy;ll;	0
+情侣手套	qing;nl;xo; lv;xo;rk; shou;up;pl; tao;xp,xh;ds;	0
+裘皮围巾	qiu;dk;qy; pi;rl;vy; wei;np;kw; jin;yy;ll;	0
+全棉围巾	quan;ea;rw; mian;wy;mj; wei;np;kw; jin;yy;ll;	0
+人棉围巾	ren;ee;pn; mian;wy;mj; wei;np;kw; jin;yy;ll;	0
+绒帽	rong;es,ea,eh;su; mao;ys;jo;	17
+乳胶工作手套	ru;hr;pv; jiao;ly;ox; gong;pp;aa; zuo;xu;rv; shou;up;pl; tao;xp,xh;ds;	0
+赛车手套	sai;im;br; che;tt;al; shou;up;pl; tao;xp,xh;ds;	4
+三角丝巾	san;uu;ae; jiao;gp;dy; si;ee,rd;va; jin;yy;ll;	0
+裳尚芊	shang;hk;xy; shang;ho;xk; qian;zs;cq;	0
+生活帽	sheng;eg;pf; huo;ko;dk; mao;ys;jo;	0
+时尚配饰	shi;vk;oc; shang;ho;xk; pei;pt;yj; shi;gy;uj;	11
+时装帽	shi;vk;oc; zhuang;lk;dy; mao;ys;jo;	0
+手饰	shou;up;pl; shi;gy;uj;	8
+首饰包装	shou;fs;bz; shi;gy;uj; bao;ut;bs; zhuang;lk;dy;	0
+丝绒手套	si;ee,rd;va; rong;es,ea,eh;su; shou;up;pl; tao;xp,xh;ds;	0
+丝绒围巾	si;ee,rd;va; rong;es,ea,eh;su; wei;np;kw; jin;yy;ll;	0
+丝袜裤	si;ee,rd;va; wa;he;pm; ku;ht;pi;	0
+塑料拖鞋	su;fg;bt; liao;ls,lh;mu; tuo;jr;fy; xie;vg;gt;	18
+塑料腰带	su;fg;bt; liao;ls,lh;mu; yao;ly;on; dai;zy;fj;	0
+特种工作手套	te;bk;nc; zhong;up;hv; gong;pp;aa; zuo;xu;rv; shou;up;pl; tao;xp,xh;ds;	0
+童凉鞋	tong;bg;ll; liang;ff;dx; xie;vg;gt;	0
+童帽	tong;bg;ll; mao;ys;jo;	0
+童皮鞋	tong;bg;ll; pi;rl;vy; xie;vg;gt;	1
+童拖鞋	tong;bg;ll; tuo;jr;fy; xie;vg;gt;	0
+童靴	tong;bg;ll; xue;va;gb;	51
+童运动鞋	tong;bg;ll; yun;uq;zs; dong;uu;el; xie;vg;gt;	0
+涂层工作手套	tu;kf;dh; ceng;qp;us; gong;pp;aa; zuo;xu;rv; shou;up;pl; tao;xp,xh;ds;	0
+涂饰剂	tu;kf;dh; shi;gy;uj; ji;ji;wd;	0
+脱灰剂	tuo;lk;oe; hui;dt,st;uh; ji;ji;wd;	0
+围巾帽子手套套件	wei;np;kw; jin;yy;ll; mao;ys;jo; zi;aa;va; shou;up;pl; tao;xp,xh;ds; tao;xp,xh;ds; jian;xb;rn;	0
+围巾手套二件套	wei;np;kw; jin;yy;ll; shou;up;pl; tao;xp,xh;ds; er;uu;aa; jian;xb;rn; tao;xp,xh;ds;	0
+橡胶鞋底	xiang;wh;mn; jiao;ly;ox; xie;vg;gt; di;rh;gd;	14
+鞋材化工	xie;vg;gt; cai;wu;mc; hua;xa;rb; gong;pp;aa;	0
+鞋材鞋件	xie;vg;gt; cai;wu;mc; xie;vg;gt; jian;xb;rn;	0
+鞋撑	xie;vg;gt; cheng;jp;fu;	8
+鞋成型机	xie;vg;gt; cheng;rh;wv; xing;ug;kt; ji;wi;mj;	0
+鞋辅件	xie;vg;gt; fu;th;if; jian;xb;rn;	0
+鞋花	xie;vg;gt; hua;za;cb;	0
+鞋机配件	xie;vg;gt; ji;wi;mj; pei;pt;yj; jian;xb;rn;	0
+鞋件	xie;vg;gt; jian;xb;rn;	0
+鞋件代理	xie;vg;gt; jian;xb;rn; dai;xa,xh;ry; li;ag;wl;	0
+鞋件加工	xie;vg;gt; jian;xb;rn; jia;uo;lk; gong;pp;aa;	0
+鞋蜡	xie;vg;gt; la;fv;io;	2
+鞋乳	xie;vg;gt; ru;hr;pv;	0
+鞋眼机	xie;vg;gt; yan;sh;og; ji;wi;mj;	0
+修鞋设备	xiu;xu;rp; xie;vg;gt; she;cl;yy; bei;jw;wt;	0
+雪纺围巾	xue;ys;ye; fang;ef;sf; wei;np;kw; jin;yy;ll;	0
+压底机	ya;rh;id; di;rh;gd; ji;wi;mj;	0
+压合机	ya;rh;id; he;eo;rk; ji;wi;mj;	0
+炎焱妖	yan;tt;hh; yan;tt;hh; yao;yx;ny;	0
+炎焱妖服饰	yan;tt;hh; yan;tt;hh; yao;yx;ny; fu;ll;oy; shi;gy;uj;	0
+羊毛围巾	yang;fp;bl; mao;ur,ua;pv; wei;np;kw; jin;yy;ll;	10
+羊皮革	yang;fp;bl; pi;rl;vy; ge;vs;nl;	0
+羊绒手套	yang;fp;bl; rong;es,ea,eh;su; shou;up;pl; tao;xp,xh;ds;	0
+羊绒围巾	yang;fp;bl; rong;es,ea,eh;su; wei;np;kw; jin;yy;ll;	9
+腰带配件	yao;ly;on; dai;zy;fj; pei;pt;yj; jian;xb;rn;	0
+摇立绒手套	yao;jp;ff; li;bb;wa; rong;es,ea,eh;su; shou;up;pl; tao;xp,xh;ds;	0
+鱼皮革	yu;qq;da; pi;rl;vy; ge;vs;nl;	1
+运动手套	yun;uq;zs; dong;uu;el; shou;up;pl; tao;xp,xh;ds;	4
+真皮带	zhen;sf;ub; pi;rl;vy; dai;zy;fj;	2
+真皮女靴	zhen;sf;ub; pi;rl;vy; nv;yy;va; xue;va;gb;	0
+真丝长巾	zhen;sf;ub; si;ee,rd;va; chang;uh;pn; jin;yy;ll;	0
+真丝大方巾	zhen;sf;ub; si;ee,rd;va; da;xx;un; fang;ff;dw; jin;yy;ll;	0
+真丝提花领带	zhen;sf;ub; si;ee,rd;va; ti;je;fr; hua;za;cb; ling;em;rr; dai;zy;fj;	0
+真丝小方巾	zhen;sf;ub; si;ee,rd;va; xiao;pf;ld; fang;ff;dw; jin;yy;ll;	0
+真丝印花领带	zhen;sf;ub; si;ee,rd;va; yin;ub;pe; hua;za;cb; ling;em;rr; dai;zy;fj;	0
+针织工作手套	zhen;ds;ju; zhi;ef;sb; gong;pp;aa; zuo;xu;rv; shou;up;pl; tao;xp,xh;ds;	0
+针织线帽	zhen;ds;ju; zhi;ef;sb; xian;ea;sj; mao;ys;jo;	0
+织布腰带	zhi;ef;sb; bu;sy,dy;uj; yao;ly;on; dai;zy;fj;	0
+制鞋机械	zhi;bi;pd; xie;vg;gt; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+制鞋设备	zhi;bi;pd; xie;vg;gt; she;cl;yy; bei;jw;wt;	0
+职业帽	zhi;df;eb; ye;pd,hd;la; mao;ys;jo;	0
+中统袜	zhong;op;ll; tong;ek;se; wa;he;pm;	0
+自行车手套	zi;ss;po; xing;hj,hp;ii; che;tt;al; shou;up;pl; tao;xp,xh;ds;	0
+场上作业机械	chang;gu;tp; shang;pd,pu;la; zuo;xu;rv; ye;pd,hd;la; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+除草剂混剂	chu;bf;eh; cao;zs;cu; ji;ji;wd; hun;ka;db; ji;ji;wd;	0
+动物毛鬃	dong;uu;el; wu;bi,bu;nw; mao;ur,ua;pv; zong;df;ax;	0
+动物提取物	dong;uu;el; wu;bi,bu;nw; ti;je;fr; qu;dl;ey; wu;bi,bu;nw;	0
+动物种苗	dong;uu;el; wu;bi,bu;nw; zhong;up;hv; miao;zw;ct;	0
+二手农业机械	er;uu;aa; shou;up;pl; nong;ih;dn; ye;pd,hd;la; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+肥料加工设备	fei;lt;ob; liao;ls,lh;mu; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+工业用动植物油	gong;pp;aa; ye;pd,hd;la; yong;lp;kl; dong;uu;el; zhi;wd,wu;mq; wu;bi,bu;nw; you;kp;dy;	0
+灌溉工具	guan;ka;df; gai;kk,kr;dv; gong;pp;aa; ju;pf;qb;	2
+含油子仁	han;eo;rk; you;kp;dy; zi;aa;va; ren;xu;re;	0
+花草盆景	hua;za;cb; cao;zs;cu; pen;fd,fa;bm; jing;vf;ox;	0
+花盆容器	hua;za;cb; pen;fd,fa;bm; rong;io;bk; qi;oo;kk;	0
+库存农产品	ku;rt;gi; cun;sa,da;uz; nong;ih;dn; chan;bu,br,ir;lp; pin;oo;kk;	0
+粮食加工设备	liang;lh;ml; shi;eh;rl; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+林业机械	lin;ww;mm; ye;pd,hd;la; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+绿化苗木	lv;eo,ef;su; hua;xa;rb; miao;zw;ct; mu;ww;an,un;	0
+棉麻毛初加工设备	mian;wy;mj; ma;dd,rw;gm; mao;ur,ua;pv; chu;hu,hi;pd; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+农产品代理	nong;ih;dn; chan;bu,br,ir;lp; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+农副产品加工	nong;ih;dn; fu;di;ad; chan;bu,br,ir;lp; pin;oo;kk; jia;uo;lk; gong;pp;aa;	2
+农机配件	nong;ih;dn; ji;wi;mj; pei;pt;yj; jian;xb;rn;	0
+农林牧渔项目合作	nong;ih;dn; lin;ww;mm; mu;bj;nw; yu;kq;da; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+农药制剂	nong;ih;dn; yao;zh;cu; zhi;bi;pd; ji;ji;wd;	2
+农业实验设备	nong;ih;dn; ye;pd,hd;la; shi;ix;bd; yan;zd;ma; she;cl;yy; bei;jw;wt;	0
+农业用具	nong;ih;dn; ye;pd,hd;la; yong;lp;kl; ju;pf;qb;	2
+农用工具	nong;ih;dn; yong;lp;kl; gong;pp;aa; ju;pf;qb;	4
+农作物种子	nong;ih;dn; zuo;xu;rv; wu;bi,bu;nw; zhong;up;hv; zi;aa;va;	8
+排灌机械	pai;ju,jp;ff; guan;ka;df; ji;wi;mj; xie;wa,wz,wp,wh;mc;	2
+攀援植物	pan;wp;mu; yuan;jl;fy; zhi;wd,wu;mq; wu;bi,bu;nw;	3
+其他含油子仁	qi;vf;qb; ta;xr;ry; han;eo;rk; you;kp;dy; zi;aa;va; ren;xu;re;	0
+其他化肥	qi;vf;qb; ta;xr;ry; hua;xa;rb; fei;lt;ob;	0
+其他花卉	qi;vf;qb; ta;xr;ry; hua;za;cb; hui;sp,sz;uc;	6
+其他坚果	qi;vf;qb; ta;xr;ry; jian;pg;lt; guo;vw;ln;	9
+其他绿化苗木	qi;vf;qb; ta;xr;ry; lv;eo,ef;su; hua;xa;rb; miao;zw;ct; mu;ww;an,un;	0
+其他农药原药	qi;vf;qb; ta;xr;ry; nong;ih;dn; yao;zh;cu; yuan;rf;ix; yao;zh;cu;	0
+其他农药制剂	qi;vf;qb; ta;xr;ry; nong;ih;dn; yao;zh;cu; zhi;bi;pd; ji;ji;wd;	0
+其他农业机械	qi;vf;qb; ta;xr;ry; nong;ih;dn; ye;pd,hd;la; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+其他农业用具	qi;vf;qb; ta;xr;ry; nong;ih;dn; ye;pd,hd;la; yong;lp;kl; ju;pf;qb;	0
+其他牲畜	qi;vf;qb; ta;xr;ry; sheng;bg,ba;nu; chu;iw;wt;	3
+其他生皮	qi;vf;qb; ta;xr;ry; sheng;eg;pf; pi;rl;vy;	0
+其他饲料	qi;vf;qb; ta;xr;ry; si;go;uk; liao;ls,lh;mu;	0
+其他饲料添加剂	qi;vf;qb; ta;xr;ry; si;go;uk; liao;ls,lh;mu; tian;kf,kh;dx; jia;uo;lk; ji;ji;wd;	0
+其他辛辣蔬菜	qi;vf;qb; ta;xr;ry; xin;bs;lu; la;bf;lu; shu;zr;cv; cai;zw;cm;	0
+其他园艺用具	qi;vf;qb; ta;xr;ry; yuan;nk;ke; yi;zr;cv; yong;lp;kl; ju;pf;qb;	0
+其他种子	qi;vf;qb; ta;xr;ry; zhong;up;hv; zi;aa;va;	0
+球类植物	qiu;ah;wq; lei;lx;md; zhi;wd,wu;mq; wu;bi,bu;nw;	0
+杀菌剂混剂	sha;yf;xm; jun;zw,zf;ch; ji;ji;wd; hun;ka;db; ji;ji;wd;	0
+杀螨混剂	sha;yf;xm; man;fe;il; hun;ka;db; ji;ji;wd;	0
+生白果	sheng;eg;pf; bai;ss;po; guo;vw;ln;	0
+生板栗	sheng;eg;pf; ban;wl;my; li;pw;xm;	10
+生瓜子	sheng;eg;pf; gua;uh;pn; zi;aa;va;	1
+生核桃	sheng;eg;pf; he;we,wh;mr; tao;wh,wf;md;	2
+生开心果	sheng;eg;pf; kai;dz,dp,up;ac; xin;nn;dd; guo;vw;ln;	0
+生榛子	sheng;eg;pf; zhen;wf,ww;mh; zi;aa;va;	1
+施肥机械	shi;fr;fy; fei;lt;ob; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+室内观果植物	shi;ig;bt; nei;oe;ld; guan;lk,lr;ye; guo;vw;ln; zhi;wd,wu;mq; wu;bi,bu;nw;	0
+室内观花植物	shi;ig;bt; nei;oe;ld; guan;lk,lr;ye; hua;za;cb; zhi;wd,wu;mq; wu;bi,bu;nw;	0
+室内观叶植物	shi;ig;bt; nei;oe;ld; guan;lk,lr;ye; ye;os;ku; zhi;wd,wu;mq; wu;bi,bu;nw;	3
+食用菌菌种	shi;eh;rl; yong;lp;kl; jun;zw,zf;ch; jun;zw,zf;ch; zhong;up;hv;	0
+食用油加工设备	shi;eh;rl; yong;lp;kl; you;kp;dy; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+收获机械	shou;rj;vw; huo;zb,zh;cq; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+树木盆景	shu;wk;mc; mu;ww;an,un; pen;fd,fa;bm; jing;vf;ox;	0
+饲料保藏剂	si;go;uk; liao;ls,lh;mu; bao;xw;rm; cang;zh;ci; ji;ji;wd;	0
+饲料加工设备	si;go;uk; liao;ls,lh;mu; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+特种养殖动物	te;bk;nc; zhong;up;hv; yang;fp;yl; zhi;fd,fu;dq; dong;uu;el; wu;bi,bu;nw;	0
+藤苇	teng;zo,zf;cu; wei;zp;cw;	0
+土壤耕整机械	tu;gg;ua; rang;gh;ty; geng;ap;lj; zheng;dr;uv; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+屠宰及肉类初加工设备	tu;qv;uo; zai;is;bu; ji;uh,rh;pn; rou;oe;nr; lei;lx;md; chu;hu,hi;pd; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+辛辣蔬菜	xin;bs;lu; la;bf;lu; shu;zr;cv; cai;zw;cm;	0
+养殖业机械	yang;fp;yl; zhi;fd,fu;dq; ye;pd,hd;la; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+药物性添加剂	yao;zh;cu; wu;bi,bu;nw; xing;ng,na;xu; tian;kf,kh;dx; jia;uo;lk; ji;ji;wd;	0
+一二年生草花	yi;dd;aa; er;uu;aa; nian;es;pl; sheng;eg;pf; cao;zs;cu; hua;za;cb;	0
+营养性添加剂	ying;zo;ck; yang;fp;yl; xing;ng,na;xu; tian;kf,kh;dx; jia;uo;lk; ji;ji;wd;	0
+渔业机械	yu;kq;da; ye;pd,hd;la; ji;wi;mj; xie;wa,wz,wp,wh;mc;	1
+渔业用具	yu;kq;da; ye;pd,hd;la; yong;lp;kl; ju;pf;qb;	0
+园林石工艺品	yuan;nk;ke; lin;ww;mm; shi;tt;ak; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+园艺护栏	yuan;nk;ke; yi;zr;cv; hu;jq;fh; lan;wu;ms;	0
+园艺剪	yuan;nk;ke; yi;zr;cv; jian;fu,fi;bd;	3
+园艺用具	yuan;nk;ke; yi;zr;cv; yong;lp;kl; ju;pf;qb;	1
+栽培基质	zai;sw,ha,sh,gh,gw;um; pei;go;tk; ji;vg;qt; zhi;um,rm;pr;	8
+植保机械	zhi;wd,wu;mq; bao;xw;rm; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+植物性饲料	zhi;wd,wu;mq; wu;bi,bu;nw; xing;ng,na;xu; si;go;uk; liao;ls,lh;mu;	2
+种植机械	zhong;up;hv; zhi;wd,wu;mq; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+竹类植物	zhu;nn;gg,pl; lei;lx;md; zhi;wd,wu;mq; wu;bi,bu;nw;	2
+棕榈类植物	zong;wf;mx; lv;wo;mk; lei;lx;md; zhi;wd,wu;mq; wu;bi,bu;nw;	0
+安检探测器	an;iy;bn; jian;wd;ma; tan;jw;fm; ce;ki;dd; qi;oo;kk;	0
+安全防护产品项目合作	an;iy;bn; quan;ea;rw; fang;bf;ef; hu;jq;fh; chan;bu,br,ir;lp; pin;oo;kk; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+安全检查设备	an;iy;bn; quan;ea;rw; jian;wd;ma; cha;wd;ma; she;cl;yy; bei;jw;wt;	0
+安全凸面镜	an;iy;bn; quan;ea;rw; tu;pd;la; mian;dd,du;aa; jing;dk;je;	0
+报警设备	bao;jl;fy; jing;zo,zc;ck; she;cl;yy; bei;jw;wt;	4
+窗磁	chuang;ij,if,id;bw; ci;tp;uy;	1
+道路减速设备	dao;fq;zz; lu;go;zk; jian;fh;dk; su;dq;zu; she;cl;yy; bei;jw;wt;	0
+电话报警设备	dian;ee,ve;lv; hua;co;yk; bao;jl;fy; jing;zo,zc;ck; she;cl;yy; bei;jw;wt;	0
+二手安防设备	er;uu;aa; shou;up;pl; an;iy;bn; fang;bf;ef; she;cl;yy; bei;jw;wt;	0
+反窃听器材	fan;ul;py; qie;ii,iu;bd; ting;op;kj; qi;oo;kk; cai;wu;mc;	0
+反偷拍	fan;ul;py; tou;xi;rd; pai;js;fb;	4
+防暴器材	fang;bf;ef; bao;vf,vo;ou; qi;oo;kk; cai;wu;mc;	0
+防护用品代理	fang;bf;ef; hu;jq;fh; yong;lp;kl; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+防护用品加工	fang;bf;ef; hu;jq;fh; yong;lp;kl; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+防静电产品	fang;bf;ef; jing;ap;fl; dian;ee,ve;lv; chan;bu,br,ir;lp; pin;oo;kk;	0
+防静电工具	fang;bf;ef; jing;ap;fl; dian;ee,ve;lv; gong;pp;aa; ju;pf;qb;	0
+防静电用品	fang;bf;ef; jing;ap;fl; dian;ee,ve;lv; yong;lp;kl; pin;oo;kk;	0
+防雷避雷产品	fang;bf;ef; lei;yw;yt; bi;qq;zu; lei;yw;yt; chan;bu,br,ir;lp; pin;oo;kk;	0
+防身用具	fang;bf;ef; shen;uu;pp; yong;lp;kl; ju;pf;qb;	0
+防撞设施	fang;bf;ef; zhuang;jg;fl; she;cl;yy; shi;fr;fy;	0
+非可视对讲	fei;pu,up;la; ke;jj,jo;dk; shi;hk,hr;pe; dui;lk;yc; jiang;cp;yj;	0
+隔离栅	ge;bp;el; li;ih,ip;wd; shan;wd,wj,ed;mc;	0
+个人报警器	ge;ep;rl; ren;ee;pn; bao;jl;fy; jing;zo,zc;ck; qi;oo;kk;	0
+公共广播系统	gong;fp;bs; gong;zf;cb; guang;rr;di,wp; bo;jw;ft; xi;uf;px; tong;ek;se;	0
+画面处理器	hua;dp;ak; mian;dd,du;aa; chu;jh,uh;wb; li;ag;wl; qi;oo;kk;	0
+火警探测	huo;tt;dr; jing;zo,zc;ck; tan;jw;fm; ce;ki;dd;	0
+集成防盗报警系统	ji;xw;rm; cheng;rh;wv; fang;bf;ef; dao;fa,fd;dm; bao;jl;fy; jing;zo,zc;ck; xi;uf;px; tong;ek;se;	0
+集成监控系统	ji;xw;rm; cheng;rh;wv; jian;pd,pa;lm; kong;jp;fg; xi;uf;px; tong;ek;se;	0
+记录设备	ji;ct;yj; lu;so,sf;eu; she;cl;yy; bei;jw;wt;	0
+监控器支架	jian;pd,pa;lm; kong;jp;fg; qi;oo;kk; zhi;sl;uy; jia;uw;lm;	0
+监控摄像机	jian;pd,pa;lm; kong;jp;fg; she;jl;fy; xiang;xh;rn; ji;wi;mj;	9
+监控主机	jian;pd,pa;lm; kong;jp;fg; zhu;ig,ha;dw; ji;wi;mj;	11
+交通安全标志	jiao;iy;wx; tong;pq;zy; an;iy;bn; quan;ea;rw; biao;wf;mx; zhi;gn;ux;	0
+交通安全服装	jiao;iy;wx; tong;pq;zy; an;iy;bn; quan;ea;rw; fu;ll;oy; zhuang;lk;dy;	0
+交通安全设备	jiao;iy;wx; tong;pq;zy; an;iy;bn; quan;ea;rw; she;cl;yy; bei;jw;wt;	0
+交通指挥设备	jiao;iy;wx; tong;pq;zy; zhi;jv;fo; hui;jt;fi; she;cl;yy; bei;jw;wt;	0
+救生器材	jiu;dj;qw; sheng;eg;pf; qi;oo;kk; cai;wu;mc;	0
+军需用品	jun;it;bi; xu;ye;ye; yong;lp;kl; pin;oo;kk;	9
+库存安全防护产品	ku;rt;gi; cun;sa,da;uz; an;iy;bn; quan;ea;rw; fang;bf;ef; hu;jq;fh; chan;bu,br,ir;lp; pin;oo;kk;	0
+离子风棒	li;ih,ip;wd; zi;aa;va; feng;iy;jx; bang;wp;ml;	0
+离子风枪	li;ih,ip;wd; zi;aa;va; feng;iy;jx; qiang;wt;mv;	0
+门禁读卡器	men;oo;dv; jin;wf;mx; du;ce,cx;yd; ka;ph;ub; qi;oo;kk;	1
+门禁考勤系统	men;oo;dv; jin;wf;mx; kao;gr;lv; qin;vu;nl; xi;uf;px; tong;ek;se;	0
+门禁控制器	men;oo;dv; jin;wf;mx; kong;jp;fg; zhi;bi;pd; qi;oo;kk;	1
+灭火器材	mie;dt;ah; huo;tt;dr; qi;oo;kk; cai;wu;mc;	2
+其他安全检查设备	qi;vf;qb; ta;xr;ry; an;iy;bn; quan;ea;rw; jian;wd;ma; cha;wd;ma; she;cl;yy; bei;jw;wt;	0
+其他防盗	qi;vf;qb; ta;xr;ry; fang;bf;ef; dao;fa,fd;dm;	0
+其他防静电产品	qi;vf;qb; ta;xr;ry; fang;bf;ef; jing;ap;fl; dian;ee,ve;lv; chan;bu,br,ir;lp; pin;oo;kk;	0
+其他监控器材及系统	qi;vf;qb; ta;xr;ry; jian;pd,pa;lm; kong;jp;fg; qi;oo;kk; cai;wu;mc; ji;uh,rh;pn; xi;uf;px; tong;ek;se;	0
+其他交通安全设备	qi;vf;qb; ta;xr;ry; jiao;iy;wx; tong;pq;zy; an;iy;bn; quan;ea;rw; she;cl;yy; bei;jw;wt;	0
+其他楼宇对讲设备	qi;vf;qb; ta;xr;ry; lou;wy;mn; yu;is;by; dui;lk;yc; jiang;cp;yj; she;cl;yy; bei;jw;wt;	0
+其他门禁考勤器材及系统	qi;vf;qb; ta;xr;ry; men;oo;dv; jin;wf;mx; kao;gr;lv; qin;vu;nl; qi;oo;kk; cai;wu;mc; ji;uh,rh;pn; xi;uf;px; tong;ek;se;	0
+其他消防设备	qi;vf;qb; ta;xr;ry; xiao;kl;do; fang;bf;ef; she;cl;yy; bei;jw;wt;	0
+其他智能卡	qi;vf;qb; ta;xr;ry; zhi;ev;uo; neng;pa;sb; ka;ph;ub;	0
+球罩	qiu;ah;wq; zhao;as;su;	1
+条码卡	tiao;jf;wm; ma;tz;um; ka;ph;ub;	0
+消防警示标志	xiao;kl;do; fang;bf;ef; jing;zo,zc;ck; shi;uf;ex; biao;wf;mx; zhi;gn;ux;	0
+一卡通管理系统	yi;dd;aa; ka;ph;ub; tong;pq;zy; guan;nd;vk; li;ag;wl; xi;uf;px; tong;ek;se;	0
+指纹采集仪	zhi;jv;fo; wen;ej;sw; cai;hw;pm; ji;xw;rm; yi;xy,xh;ry;	0
+自然灾害防护产品	zi;ss;po; ran;fn,un;ph; zai;it;bh; hai;io;bk; fang;bf;ef; hu;jq;fh; chan;bu,br,ir;lp; pin;oo;kk;	0
+豹纹面料	bao;uh;vu; wen;ej;sw; mian;dd,du;aa; liao;ls,lh;mu;	0
+编结工艺品	bian;ej,ed;sc; jie;eo;sk; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+变色布	bian;il;wy; se;gt;db; bu;sy,dy;uj;	0
+冰袋布	bing;fo;du; dai;xk;ry; bu;sy,dy;uj;	0
+朝阳格	chao;sl;uo; yang;bv;eo; ge;wo;mk;	0
+车用面料	che;tt;al; yong;lp;kl; mian;dd,du;aa; liao;ls,lh;mu;	0
+绸类	chou;eo;sk; lei;lx;md;	0
+厨房用纺织品	chu;rk;ic; fang;qf;hf; yong;lp;kl; fang;ef;sf; zhi;ef;sb; pin;oo;kk;	0
+春秋丁	chun;uv;fo; qiu;ut;hh; ding;jj;al;	0
+春亚纺	chun;uv;fo; ya;dd;ay; fang;ef;sf;	0
+刺绣面料	ci;di;ad; xiu;eu;sn; mian;dd,du;aa; liao;ls,lh;mu;	0
+大豆纤维	da;xx;un; dou;dd;aa; xian;em,es;sq; wei;ea;sf;	24
+大麻系列面料	da;xx;un; ma;dd,rw;gm; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+地巾	di;gr,ga;ty; jin;yy;ll;	5
+涤美丽	di;kf;dm; mei;fx;yd; li;dh;ad;	0
+涤丝纺	di;kf;dm; si;ee,rd;va; fang;ef;sf;	0
+滴塑布	di;ko;dk; su;fg;bt; bu;sy,dy;uj;	0
+涤塔夫	di;kf;dm; ta;go;tk; fu;ee;an;	1
+地毯面料	di;gr,ga;ty; tan;ut;mh; mian;dd,du;aa; liao;ls,lh;mu;	0
+电热水袋布	dian;ee,ve;lv; re;jn;fh; shui;oo;ln; dai;xk;ry; bu;sy,dy;uj;	0
+点塑布	dian;pn;lh; su;fg;bt; bu;sy,dy;uj;	0
+缎类	duan;el;sy; lei;lx;md;	0
+多款供选	duo;ff;xx; kuan;ge;ur; gong;xf;rb; xuan;bq;ze;	0
+二手纺织加工设备	er;uu;aa; shou;up;pl; fang;ef;sf; zhi;ef;sb; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+二手皮革加工设备	er;uu;aa; shou;up;pl; pi;rl;vy; ge;vs;nl; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+仿动物毛皮	fang;xf;rf; dong;uu;el; wu;bi,bu;nw; mao;ur,ua;pv; pi;rl;vy;	0
+防辐射面料	fang;bf;ef; fu;tw;it; she;uk;uc; mian;dd,du;aa; liao;ls,lh;mu;	0
+防静电面料	fang;bf;ef; jing;ap;fl; dian;ee,ve;lv; mian;dd,du;aa; liao;ls,lh;mu;	0
+纺类	fang;ef;sf; lei;lx;md;	0
+仿皮面料	fang;xf;rf; pi;rl;vy; mian;dd,du;aa; liao;ls,lh;mu;	0
+纺纱加工	fang;ef;sf; sha;eu;su; jia;uo;lk; gong;pp;aa;	0
+防酸面料	fang;bf;ef; suan;pj;yw; mian;dd,du;aa; liao;ls,lh;mu;	0
+纺织辅料	fang;ef;sf; zhi;ef;sb; fu;th;if; liao;ls,lh;mu;	0
+纺织加工	fang;ef;sf; zhi;ef;sb; jia;uo;lk; gong;pp;aa;	1
+纺织皮革相关项目合作	fang;ef;sf; zhi;ef;sb; pi;rl;vy; ge;vs;nl; xiang;ws;mo; guan;fx;bt; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+纺织品加工	fang;ef;sf; zhi;ef;sb; pin;oo;kk; jia;uo;lk; gong;pp;aa;	5
+纺织染整助剂	fang;ef;sf; zhi;ef;sb; ran;kw;dm; zheng;dr;uv; zhu;pu;ql; ji;ji;wd;	0
+纺织设备和器材	fang;ef;sf; zhi;ef;sb; she;cl;yy; bei;jw;wt; he;uo;hk; qi;oo;kk; cai;wu;mc;	0
+防紫外线面料	fang;bf;ef; zi;rf;vx; wai;fh;xb; xian;ea;sj; mian;dd,du;aa; liao;ls,lh;mu;	0
+废料与库存	fei;rh,rl;gd; liao;ls,lh;mu; yu;dd;aa; ku;rt;gi; cun;sa,da;uz;	0
+非织造及工业用布	fei;pu,up;la; zhi;ef;sb; zao;bq;zk; ji;uh,rh;pn; gong;pp;aa; ye;pd,hd;la; yong;lp;kl; bu;sy,dy;uj;	0
+高丝宝	gao;io;wk; si;ee,rd;va; bao;ia,ih;by;	0
+功能纤维	gong;pu;gl; neng;pa;sb; xian;em,es;sq; wei;ea;sf;	1
+功能性面料	gong;pu;gl; neng;pa;sb; xing;ng,na;xu; mian;dd,du;aa; liao;ls,lh;mu;	5
+工艺布料	gong;pp;aa; yi;zr;cv; bu;sy,dy;uj; liao;ls,lh;mu;	0
+工装面料	gong;pp;aa; zhuang;lk;dy; mian;dd,du;aa; liao;ls,lh;mu;	0
+工作服面料	gong;pp;aa; zuo;xu;rv; fu;ll;oy; mian;dd,du;aa; liao;ls,lh;mu;	0
+绗缝加工	hang;ej,ep;si; feng;eq;sz; jia;uo;lk; gong;pp;aa;	0
+绗缝面料	hang;ej,ep;si; feng;eq;sz; mian;dd,du;aa; liao;ls,lh;mu;	0
+虎纹面料	hu;pi;hj; wen;ej;sw; mian;dd,du;aa; liao;ls,lh;mu;	0
+花色布	hua;za;cb; se;gt;db; bu;sy,dy;uj;	0
+花色纱线	hua;za;cb; se;gt;db; sha;eu;su; xian;ea;sj;	0
+化纤类混纺	hua;xa;rb; xian;em,es;sq; lei;lx;md; hun;ka;db; fang;ef;sf;	0
+化纤坯布	hua;xa;rb; xian;em,es;sq; pi;gd;tp; bu;sy,dy;uj;	0
+化纤系列纱线	hua;xa;rb; xian;em,es;sq; xi;uf;px; lie;fi;dd; sha;eu;su; xian;ea;sj;	0
+花瑶	hua;za;cb; yao;ap;wf;	2
+环保布	huan;ah,af;wb; bao;xw;rm; bu;sy,dy;uj;	0
+黄麻系列面料	huang;zf;cb; ma;dd,rw;gm; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+混纺坯布	hun;ka;db; fang;ef;sf; pi;gd;tp; bu;sy,dy;uj;	0
+混纺系列纱线	hun;ka;db; fang;ef;sf; xi;uf;px; lie;fi;dd; sha;eu;su; xian;ea;sj;	0
+婚纱面料	hun;yv;no; sha;eu;su; mian;dd,du;aa; liao;ls,lh;mu;	0
+麂皮绒	ji;ri;gj; pi;rl;vy; rong;es,ea,eh;su;	9
+佳绩布	jia;xg;rt; ji;em;sr; bu;sy,dy;uj;	0
+甲壳素纤维	jia;vp;ll; ke;gi;uj; su;af;fx; xian;em,es;sq; wei;ea;sf;	1
+剪花布	jian;fu,fi;bd; hua;za;cb; bu;sy,dy;uj;	0
+剑麻系列面料	jian;ei;rd; ma;dd,rw;gm; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+胶点布	jiao;ly;ox; dian;pn;lh; bu;sy,dy;uj;	0
+交织类	jiao;iy;wx; zhi;ef;sb; lei;lx;md;	0
+交织类面料	jiao;iy;wx; zhi;ef;sb; lei;lx;md; mian;dd,du;aa; liao;ls,lh;mu;	0
+锦涤纺	jin;dy;jj; di;kf;dm; fang;ef;sf;	0
+锦类	jin;dy;jj; lei;lx;md;	1
+锦棉绸	jin;dy;jj; mian;wy;mj; chou;eo;sk;	0
+绢类	juan;el;so; lei;lx;md;	0
+卡丹绒	ka;ph;ub; dan;ua,ud,uz,od,oz;pa; rong;es,ea,eh;su;	0
+库存纺织品	ku;rt;gi; cun;sa,da;uz; fang;ef;sf; zhi;ef;sb; pin;oo;kk;	0
+库存皮革及制品	ku;rt;gi; cun;sa,da;uz; pi;rl;vy; ge;vs;nl; ji;uh,rh;pn; zhi;bi;pd; pin;oo;kk;	0
+烂花布	lan;tu;hs; hua;za;cb; bu;sy,dy;uj;	0
+劳保面料	lao;zu;cl; bao;xw;rm; mian;dd,du;aa; liao;ls,lh;mu;	0
+粒点布	li;lb;ml; dian;pn;lh; bu;sy,dy;uj;	0
+丽新布	li;dh;ad; xin;bp;lj; bu;sy,dy;uj;	1
+凉液垫布	liang;ff;dx; ye;kh;dn; dian;jg;ft; bu;sy,dy;uj;	0
+领带面料	ling;em;rr; dai;zy;fj; mian;dd,du;aa; liao;ls,lh;mu;	0
+绫类	ling;ej;sw; lei;lx;md;	0
+麻纺系列纱线	ma;dd,rw;gm; fang;ef;sf; xi;uf;px; lie;fi;dd; sha;eu;su; xian;ea;sj;	0
+麻类系列面料	ma;dd,rw;gm; lei;lx;md; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+毛纺系列面料	mao;ur,ua;pv; fang;ef;sf; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+毛纺系列纱线	mao;ur,ua;pv; fang;ef;sf; xi;uf;px; lie;fi;dd; sha;eu;su; xian;ea;sj;	0
+美佳布	mei;fx;yd; jia;xg;rt; bu;sy,dy;uj;	0
+美丽绸	mei;fx;yd; li;dh;ad; chou;eo;sk;	0
+米通面料	mi;ll;dm; tong;pq;zy; mian;dd,du;aa; liao;ls,lh;mu;	0
+棉类系列面料	mian;wy;mj; lei;lx;md; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+棉麻混纺	mian;wy;mj; ma;dd,rw;gm; hun;ka;db; fang;ef;sf;	12
+棉毛混纺	mian;wy;mj; mao;ur,ua;pv; hun;ka;db; fang;ef;sf;	0
+棉坯布	mian;wy;mj; pi;gd;tp; bu;sy,dy;uj;	1
+莫代尔纤维	mo;zx;cd; dai;xa,xh;ry; er;gf;dx; xian;em,es;sq; wei;ea;sf;	2
+磨毛布	mo;dt,rt;gu; mao;ur,ua;pv; bu;sy,dy;uj;	0
+纳米面料	na;ee;sn; mi;ll;dm; mian;dd,du;aa; liao;ls,lh;mu;	0
+呢类系列	ne;oa;kb; lei;lx;md; xi;uf;px; lie;fi;dd;	0
+尼丝纺	ni;qa;ub; si;ee,rd;va; fang;ef;sf;	0
+牛奶纤维	niu;bb;pl; nai;yu;nn; xian;em,es;sq; wei;ea;sf;	0
+皮革加工	pi;rl;vy; ge;vs;nl; jia;uo;lk; gong;pp;aa;	1
+皮革制品代理	pi;rl;vy; ge;vs;nl; zhi;bi;pd; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+漂白布	piao;kf;dx; bai;ss;po; bu;sy,dy;uj;	0
+平纹呢	ping;ds,sf;au; wen;ej;sw; ne;oa;kb;	0
+其他纺织辅料	qi;vf;qb; ta;xr;ry; fang;ef;sf; zhi;ef;sb; fu;th;if; liao;ls,lh;mu;	0
+其他纺织加工	qi;vf;qb; ta;xr;ry; fang;ef;sf; zhi;ef;sb; jia;uo;lk; gong;pp;aa;	0
+其他非织造及工业用布	qi;vf;qb; ta;xr;ry; fei;pu,up;la; zhi;ef;sb; zao;bq;zk; ji;uh,rh;pn; gong;pp;aa; ye;pd,hd;la; yong;lp;kl; bu;sy,dy;uj;	0
+其他服装辅料	qi;vf;qb; ta;xr;ry; fu;ll;oy; zhuang;lk;dy; fu;th;if; liao;ls,lh;mu;	0
+其他合成革	qi;vf;qb; ta;xr;ry; he;eo;rk; cheng;rh;wv; ge;vs;nl;	0
+其他化学纤维	qi;vf;qb; ta;xr;ry; hua;xa;rb; xue;ha;xz; xian;em,es;sq; wei;ea;sf;	0
+其他混纺	qi;vf;qb; ta;xr;ry; hun;ka;db; fang;ef;sf;	0
+其他麻类系列面料	qi;vf;qb; ta;xr;ry; ma;dd,rw;gm; lei;lx;md; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+其他毛纺系列面料	qi;vf;qb; ta;xr;ry; mao;ur,ua;pv; fang;ef;sf; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+其他毛巾	qi;vf;qb; ta;xr;ry; mao;ur,ua;pv; jin;yy;ll;	1
+其他面料	qi;vf;qb; ta;xr;ry; mian;dd,du;aa; liao;ls,lh;mu;	0
+其他坯布	qi;vf;qb; ta;xr;ry; pi;gd;tp; bu;sy,dy;uj;	0
+其他人造革	qi;vf;qb; ta;xr;ry; ren;ee;pn; zao;bq;zk; ge;vs;nl;	0
+其他纱线	qi;vf;qb; ta;xr;ry; sha;eu;su; xian;ea;sj;	0
+其他丝绸系列面料	qi;vf;qb; ta;xr;ry; si;ee,rd;va; chou;eo;sk; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+其他毯子	qi;vf;qb; ta;xr;ry; tan;ut;mh; zi;aa;va;	0
+其他天然纺织原料	qi;vf;qb; ta;xr;ry; tian;ue;ad; ran;fn,un;ph; fang;ef;sf; zhi;ef;sb; yuan;rf;ix; liao;ls,lh;mu;	0
+其他纬编	qi;vf;qb; ta;xr;ry; wei;ep;sw; bian;ej,ed;sc;	0
+青年布	qing;al;fo; nian;es;pl; bu;sy,dy;uj;	2
+染整加工	ran;kw;dm; zheng;dr;uv; jia;uo;lk; gong;pp;aa;	0
+色丁	se;gt;db; ding;jj;al;	2
+沙滩巾	sha;ku;du; tan;ka;df; jin;yy;ll;	0
+时装面料	shi;vk;oc; zhuang;lk;dy; mian;dd,du;aa; liao;ls,lh;mu;	0
+手工编织加工	shou;up;pl; gong;pp;aa; bian;ej,ed;sc; zhi;ef;sb; jia;uo;lk; gong;pp;aa;	0
+手绘面料	shou;up;pl; hui;ep;ss; mian;dd,du;aa; liao;ls,lh;mu;	0
+手套布	shou;up;pl; tao;xp,xh;ds; bu;sy,dy;uj;	0
+双色布	shuang;ll;yy; se;gt;db; bu;sy,dy;uj;	0
+水刺无纺布	shui;oo;ln; ci;di;ad; wu;uk,ur;ay; fang;ef;sf; bu;sy,dy;uj;	1
+水松胶	shui;oo;ln; song;wp;ms; jiao;ly;ox;	0
+水洗绒	shui;oo;ln; xi;kk;de; rong;es,ea,eh;su;	0
+睡衣面料	shui;sg;oi; yi;kk;wy; mian;dd,du;aa; liao;ls,lh;mu;	3
+丝绸系列面料	si;ee,rd;va; chou;eo;sk; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+梭织布	suo;wj;mw; zhi;ef;sb; bu;sy,dy;uj;	6
+塔丝隆	ta;go;tk; si;ee,rd;va; long;ba,bg;eu;	0
+特斯林面料	te;bk;nc; si;vp;qj; lin;ww;mm; mian;dd,du;aa; liao;ls,lh;mu;	0
+天然纺织原料	tian;ue;ad; ran;fn,un;ph; fang;ef;sf; zhi;ef;sb; yuan;rf;ix; liao;ls,lh;mu;	0
+天丝	tian;ue;ad; si;ee,rd;va;	40
+天丝面料	tian;ue;ad; si;ee,rd;va; mian;dd,du;aa; liao;ls,lh;mu;	7
+条花布	tiao;jf;wm; hua;za;cb; bu;sy,dy;uj;	0
+涂层布	tu;kf;dh; ceng;qp;us; bu;sy,dy;uj;	0
+五枚缎	wu;gg;aa; mei;wj;mw; duan;el;sy;	0
+洗涤标	xi;kk;de; di;kf;dm; biao;wf;mx;	0
+吸湿排汗面料	xi;oh;kj; shi;kd;dy; pai;ju,jp;ff; han;ks;dg; mian;dd,du;aa; liao;ls,lh;mu;	1
+箱包布	xiang;ns;vo; bao;ut;bs; bu;sy,dy;uj;	0
+箱包面料	xiang;ns;vo; bao;ut;bs; mian;dd,du;aa; liao;ls,lh;mu;	0
+校服面料	xiao;wy;mx; fu;ll;oy; mian;dd,du;aa; liao;ls,lh;mu;	0
+消光春亚纺	xiao;kl;do; guang;hk;xw; chun;uv;fo; ya;dd;ay; fang;ef;sf;	0
+消光涤塔夫	xiao;kl;do; guang;hk;xw; di;kf;dm; ta;go;tk; fu;ee;an;	0
+消光锦棉绸	xiao;kl;do; guang;hk;xw; jin;dy;jj; mian;wy;mj; chou;eo;sk;	0
+消光面料	xiao;kl;do; guang;hk;xw; mian;dd,du;aa; liao;ls,lh;mu;	0
+消光尼丝纺	xiao;kl;do; guang;hk;xw; ni;qa;ub; si;ee,rd;va; fang;ef;sf;	0
+消光塔丝隆	xiao;kl;do; guang;hk;xw; ta;go;tk; si;ee,rd;va; long;ba,bg;eu;	0
+新型功能性面料	xin;bp;lj; xing;ug;kt; gong;pu;gl; neng;pa;sb; xing;ng,na;xu; mian;dd,du;aa; liao;ls,lh;mu;	0
+新型纤维	xin;bp;lj; xing;ug;kt; xian;em,es;sq; wei;ea;sf;	1
+绣花加工	xiu;eu;sn; hua;za;cb; jia;uo;lk; gong;pp;aa;	0
+绣花面料	xiu;eu;sn; hua;za;cb; mian;dd,du;aa; liao;ls,lh;mu;	0
+休闲面料	xiu;xw;rm; xian;ow;mm; mian;dd,du;aa; liao;ls,lh;mu;	0
+亚麻系列面料	ya;dd;ay; ma;dd,rw;gm; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+应墩布	ying;rd;ga; dun;gj;tw; bu;sy,dy;uj;	0
+泳装面料	yong;kh,ko;dy; zhuang;lk;dy; mian;dd,du;aa; liao;ls,lh;mu;	0
+玉米纤维	yu;ah,aa;wd; mi;ll;dm; xian;em,es;sq; wei;ea;sf;	0
+雨衣布	yu;yy;ad; yi;kk;wy; bu;sy,dy;uj;	1
+扎染布	zha;jr;fv; ran;kw;dm; bu;sy,dy;uj;	1
+针刺无纺布	zhen;ds;ju; ci;di;ad; wu;uk,ur;ay; fang;ef;sf; bu;sy,dy;uj;	1
+真丝系列纱线	zhen;sf;ub; si;ee,rd;va; xi;uf;px; lie;fi;dd; sha;eu;su; xian;ea;sj;	0
+珍珠纱	zhen;au;wp; zhu;ae;wv; sha;eu;su;	0
+制服面料	zhi;bi;pd; fu;ll;oy; mian;dd,du;aa; liao;ls,lh;mu;	0
+止滑布	zhi;rr;la; hua;kc;dg; bu;sy,dy;uj;	0
+植绒面料	zhi;wd,wu;mq; rong;es,ea,eh;su; mian;dd,du;aa; liao;ls,lh;mu;	2
+织造加工	zhi;ef;sb; zao;bq;zk; jia;uo;lk; gong;pp;aa;	0
+皱布	zhou;gl;dy; bu;sy,dy;uj;	0
+绉类	zhou;es;se; lei;lx;md;	0
+皱纹布	zhou;gl;dy; wen;ej;sw; bu;sy,dy;uj;	0
+苎麻系列面料	zhu;zd;ca; ma;dd,rw;gm; xi;uf;px; lie;fi;dd; mian;dd,du;aa; liao;ls,lh;mu;	0
+装饰用纺织品	zhuang;lk;dy; shi;gy;uj; yong;lp;kl; fang;ef;sf; zhi;ef;sb; pin;oo;kk;	0
+阻燃面料	zu;bu;eq; ran;tn;hh; mian;dd,du;aa; liao;ls,lh;mu;	6
+坐垫面料	zuo;eg;rt; dian;jg;ft; mian;dd,du;aa; liao;ls,lh;mu;	1
+摆挂件饰品	bai;jp;fs; gua;jg;ft; jian;xb;rn; shi;gy;uj; pin;oo;kk;	0
+办公挂摆饰	ban;uf;ld; gong;fp;bs; gua;jg;ft; bai;jp;fs; shi;gy;uj;	0
+宝石首饰	bao;ia,ih;by; shi;tt;ak; shou;fs;bz; shi;gy;uj;	1
+宝石玉石工艺品	bao;ia,ih;by; shi;tt;ak; yu;ah,aa;wd; shi;tt;ak; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+编纺工艺品	bian;ej,ed;sc; fang;ef;sf; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+编织工艺品	bian;ej,ed;sc; zhi;ef;sb; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+殡葬用品	bin;ff;db; zang;zp,zz;cc; yong;lp;kl; pin;oo;kk;	4
+铂金首饰	bo;ds;jb; jin;ed,ef;ra; shou;fs;bz; shi;gy;uj;	39
+玻璃摆饰	bo;al;wy; li;ah,ap;wd; bai;jp;fs; shi;gy;uj;	0
+玻璃工艺品	bo;al;wy; li;ah,ap;wd; gong;pp;aa; yi;zr;cv; pin;oo;kk;	5
+博缘轩貔貅	bo;sk;uc; yuan;eh;su; xuan;ts;ig; pi;ua;vb; xiu;uw;vm;	0
+彩瓷工艺品	cai;hu;pp; ci;fh;dw; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+彩陶工艺品	cai;hu;pp; tao;bp;ef; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+草编工艺品	cao;zs;cu; bian;ej,ed;sc; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+春节用品	chun;uv;fo; jie;zb;ce; yong;lp;kl; pin;oo;kk;	0
+纯银首饰	chun;er;st; yin;dh;jg; shou;fs;bz; shi;gy;uj;	12
+刺绣工艺品	ci;di;ad; xiu;eu;sn; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+大理石工艺品	da;xx;un; li;ag;wl; shi;tt;ak; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+雕刻工艺品	diao;oa,ua;kf; ke;ii;wd; gong;pp;aa; yi;zr;cv; pin;oo;kk;	3
+多功能匙扣	duo;ff;xx; gong;pu;gl; neng;pa;sb; chi;va;ob; kou;jo;fk;	0
+仿古工艺品	fang;xf;rf; gu;so;uk; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+仿生仿真工艺品	fang;xf;rf; sheng;eg;pf; fang;xf;rf; zhen;sf;ub; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+复活节用品	fu;ej;pw; huo;ko;dk; jie;zb;ce; yong;lp;kl; pin;oo;kk;	0
+钢艺品	gang;dy;jx; yi;zr;cv; pin;oo;kk;	0
+工艺画	gong;pp;aa; yi;zr;cv; hua;dp;ak;	0
+工艺蜡烛	gong;pp;aa; yi;zr;cv; la;fv;io; zhu;tf;hi;	0
+工艺礼品代理	gong;pp;aa; yi;zr;cv; li;hr;pv; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+工艺礼品加工	gong;pp;aa; yi;zr;cv; li;hr;pv; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+工艺礼品加工设备	gong;pp;aa; yi;zr;cv; li;hr;pv; pin;oo;kk; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+工艺礼品项目合作	gong;pp;aa; yi;zr;cv; li;hr;pv; pin;oo;kk; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+工艺伞	gong;pp;aa; yi;zr;cv; san;es;ru;	0
+工艺原料	gong;pp;aa; yi;zr;cv; yuan;rf;ix; liao;ls,lh;mu;	4
+工艺钟	gong;pp;aa; yi;zr;cv; zhong;dp;jv;	0
+广告促销礼品	guang;rr;di,wp; gao;bo;nk; cu;xg;rr; xiao;dl;jo; li;hr;pv; pin;oo;kk;	0
+鬼节用品	gui;ss,up;ps; jie;zb;ce; yong;lp;kl; pin;oo;kk;	0
+航海模型	hang;ti;vj; hai;kh;dm; mo;wx;md; xing;ug;kt;	0
+合金艺品	he;eo;rk; jin;ed,ef;ra; yi;zr;cv; pin;oo;kk;	0
+黑陶工艺品	hei;nn;lh; tao;bp;ef; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+红陶工艺品	hong;ep;sg; tao;bp;ef; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+葫芦工艺品	hu;zl;co; lu;zq;ch; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+花岗岩工艺品	hua;za;cb; gang;py;ex; yan;pt;eu; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+节庆用品	jie;zb;ce; qing;rx;gd; yong;lp;kl; pin;oo;kk;	0
+金属匙扣	jin;ed,ef;ra; shu;qh;uy; chi;va;ob; kou;jo;fk;	0
+金属工艺品	jin;ed,ef;ra; shu;qh;uy; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+金银珠宝首饰	jin;ed,ef;ra; yin;dh;jg; zhu;ae;wv; bao;ia,ih;by; shou;fs;bz; shi;gy;uj;	0
+景泰蓝工艺品	jing;vf;ox; tai;uf,uo;fu; lan;zd,za;cm; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+卡通表	ka;ph;ub; tong;pq;zy; biao;ah;fy;	1
+库存工艺礼品	ku;rt;gi; cun;sa,da;uz; gong;pp;aa; yi;zr;cv; li;hr;pv; pin;oo;kk;	0
+框饰配件	kuang;wr;mw; shi;gy;uj; pei;pt;yj; jian;xb;rn;	0
+蜡烛及烛台	la;fv;io; zhu;tf;hi; ji;uh,rh;pn; zhu;tf;hi; tai;po;sk;	0
+蜡烛器皿及配件	la;fv;io; zhu;tf;hi; qi;oo;kk; min;pd,aa;la; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+柳编工艺品	liu;wb;me; bian;ej,ed;sc; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+琉璃水晶玻璃工艺品	liu;ar;wv; li;ah,ap;wd; shui;oo;ln; jing;vv;oo; bo;al;wy; li;ah,ap;wd; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+流苏工艺品	liu;kr;dv; su;zf;cb; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+铝艺品	lv;do;jk; yi;zr;cv; pin;oo;kk;	0
+民间工艺品	min;rr;vv; jian;ov;mo; gong;pp;aa; yi;zr;cv; pin;oo;kk;	1
+木鱼石工艺品	mu;ww;an,un; yu;qq;da; shi;tt;ak; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+泥塑工艺品	ni;ka;db; su;fg;bt; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+皮质匙扣	pi;rl;vy; zhi;um,rm;pr; chi;va;ob; kou;jo;fk;	0
+汽车挂摆饰	qi;ks;dq; che;tt;al; gua;jg;ft; bai;jp;fs; shi;gy;uj;	0
+漆器工艺品	qi;kf,ko;du; qi;oo;kk; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+其他摆挂件饰品	qi;vf;qb; ta;xr;ry; bai;jp;fs; gua;jg;ft; jian;xb;rn; shi;gy;uj; pin;oo;kk;	0
+其他编纺工艺品	qi;vf;qb; ta;xr;ry; bian;ej,ed;sc; fang;ef;sf; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+其他雕刻工艺品	qi;vf;qb; ta;xr;ry; diao;oa,ua;kf; ke;ii;wd; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+其他节庆用品	qi;vf;qb; ta;xr;ry; jie;zb;ce; qing;rx;gd; yong;lp;kl; pin;oo;kk;	0
+其他金属工艺品	qi;vf;qb; ta;xr;ry; jin;ed,ef;ra; shu;qh;uy; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+其他金银珠宝首饰	qi;vf;qb; ta;xr;ry; jin;ed,ef;ra; yin;dh;jg; zhu;ae;wv; bao;ia,ih;by; shou;fs;bz; shi;gy;uj;	0
+其他蜡烛及烛台	qi;vf;qb; ta;xr;ry; la;fv;io; zhu;tf;hi; ji;uh,rh;pn; zhu;tf;hi; tai;po;sk;	0
+其他民间工艺品	qi;vf;qb; ta;xr;ry; min;rr;vv; jian;ov;mo; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+其他模型玩具	qi;vf;qb; ta;xr;ry; mo;wx;md; xing;ug;kt; wan;ak;we; ju;pf;qb;	0
+其他盆景	qi;vf;qb; ta;xr;ry; pen;fd,fa;bm; jing;vf;ox;	0
+其他石料工艺品	qi;vf;qb; ta;xr;ry; shi;tt;ak; liao;ls,lh;mu; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+其他手机饰品	qi;vf;qb; ta;xr;ry; shou;up;pl; ji;wi;mj; shi;gy;uj; pin;oo;kk;	0
+其他水晶工艺品	qi;vf;qb; ta;xr;ry; shui;oo;ln; jing;vv;oo; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+其他陶瓷工艺品	qi;vf;qb; ta;xr;ry; tao;bp;ef; ci;fh;dw; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+其他相框	qi;vf;qb; ta;xr;ry; xiang;ws;mo; kuang;wr;mw;	0
+其他钥匙扣	qi;vf;qb; ta;xr;ry; yao;dl;jo; shi;va;ob; kou;jo;fk;	0
+其他钟表	qi;vf;qb; ta;xr;ry; zhong;dp;jv; biao;ah;fy;	1
+其他字画	qi;vf;qb; ta;xr;ry; zi;ia;bz; hua;dp;ak;	0
+青瓷工艺品	qing;al;fo; ci;fh;dw; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+日用挂摆饰	ri;vv;ka; yong;lp;kl; gua;jg;ft; bai;jp;fs; shi;gy;uj;	0
+日用蜡烛	ri;vv;ka; yong;lp;kl; la;fv;io; zhu;tf;hi;	0
+软陶工艺品	ruan;te;ir; tao;bp;ef; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+砂岩工艺品	sha;ti,tu;uu; yan;pt;eu; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+闪光用品	shan;oe;mr; guang;hk;xw; yong;lp;kl; pin;oo;kk;	0
+山水盆景	shan;pp;lk; shui;oo;ln; pen;fd,fa;bm; jing;vf;ox;	6
+绳带扣	sheng;er,ee;sd; dai;zy;fj; kou;jo;fk;	0
+石料工艺品	shi;tt;ak; liao;ls,lh;mu; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+饰品加工	shi;gy;uj; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+手机保护膜	shou;up;pl; ji;wi;mj; bao;xw;rm; hu;jq;fh; mo;lx;od;	0
+手机挂件	shou;up;pl; ji;wi;mj; gua;jg;ft; jian;xb;rn;	10
+手机来电闪	shou;up;pl; ji;wi;mj; lai;uf,ef,dl;an; dian;ee,ve;lv; shan;oe;mr;	0
+手机饰品	shou;up;pl; ji;wi;mj; shi;gy;uj; pin;oo;kk;	0
+手机贴纸	shou;up;pl; ji;wi;mj; tie;mo;kk; zhi;er,eh;su;	2
+手机座	shou;up;pl; ji;wi;mj; zuo;rg;gt;	3
+树脂工艺品	shu;wk;mc; zhi;lv;oo; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+水晶摆饰	shui;oo;ln; jing;vv;oo; bai;jp;fs; shi;gy;uj;	0
+水晶匙扣	shui;oo;ln; jing;vv;oo; chi;va;ob; kou;jo;fk;	0
+水晶工艺品	shui;oo;ln; jing;vv;oo; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+水晶内雕画	shui;oo;ln; jing;vv;oo; nei;oe;ld; diao;oa,ua;kf; hua;dp;ak;	0
+水晶器皿	shui;oo;ln; jing;vv;oo; qi;oo;kk; min;pd,aa;la;	2
+水晶首饰	shui;oo;ln; jing;vv;oo; shou;fs;bz; shi;gy;uj;	1
+塑料匙扣	su;fg;bt; liao;ls,lh;mu; chi;va;ob; kou;jo;fk;	0
+陶瓷工艺品	tao;bp;ef; ci;fh;dw; gong;pp;aa; yi;zr;cv; pin;oo;kk;	2
+藤编工艺品	teng;zo,zf;cu; bian;ej,ed;sc; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+天然工艺品	tian;ue;ad; ran;fn,un;ph; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+铁艺品	tie;de;ju; yi;zr;cv; pin;oo;kk;	0
+铜雕	tong;do;jk; diao;oa,ua;kf;	10
+铜艺品	tong;do;jk; yi;zr;cv; pin;oo;kk;	0
+微型盆景	wei;hj;iw; xing;ug;kt; pen;fd,fa;bm; jing;vf;ox;	0
+锡艺品	xi;di,du;jw; yi;zr;cv; pin;oo;kk;	0
+熏香及熏香炉	xun;sn;ph; xiang;uv;ho; ji;uh,rh;pn; xun;sn;ph; xiang;uv;ho; lu;tq;hh;	0
+烟花鞭炮	yan;tx;hd; hua;za;cb; bian;vh,vy;gg; pao;tt;hs;	5
+玉石首饰	yu;ah,aa;wd; shi;tt;ak; shou;fs;bz; shi;gy;uj;	0
+扎染工艺品	za;jr;fv; ran;kw;dm; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+针钩工艺品	zhen;ds;ju; gou;dp;js; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+纸制工艺品	zhi;er,eh;su; zhi;bi;pd; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+钟表配件	zhong;dp;jv; biao;ah;fy; pei;pt;yj; jian;xb;rn;	0
+竹编工艺品	zhu;nn;gg,pl; bian;ej,ed;sc; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+竹木雕	zhu;nn;gg,pl; mu;ww;an,un; diao;oa,ua;kf;	0
+竹木工艺品	zhu;nn;gg,pl; mu;ww;an,un; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+装饰盒	zhuang;lk;dy; shi;gy;uj; he;ed,ea;rm;	2
+紫砂工艺品	zi;rf;vx; sha;ti,tu;uu; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+宗教工艺品	zong;if;bx; jiao;gj;lw; gong;pp;aa; yi;zr;cv; pin;oo;kk;	0
+钻石首饰	zuan;do;jk; shi;tt;ak; shou;fs;bz; shi;gy;uj;	11
+拨号器	bo;jh,jl;fd; hao;or;kv; qi;oo;kk;	0
+布线产品	bu;sy,dy;uj; xian;ea;sj; chan;bu,br,ir;lp; pin;oo;kk;	0
+插卡电话机	cha;js;fj; ka;ph;ub; dian;ee,ve;lv; hua;co;yk; ji;wi;mj;	0
+触摸屏电话机	chu;gf;di; mo;jx;fd; ping;qp,qz;uk; dian;ee,ve;lv; hua;co;yk; ji;wi;mj;	0
+电话管理器	dian;ee,ve;lv; hua;co;yk; guan;nd;vk; li;ag;wl; qi;oo;kk;	0
+电话计费器	dian;ee,ve;lv; hua;co;yk; ji;cs;yu; fei;rm;fr; qi;oo;kk;	0
+电话机配附件	dian;ee,ve;lv; hua;co;yk; ji;wi;mj; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+电缆接线盒	dian;ee,ve;lv; lan;ek,er;se; jie;jy;fn; xian;ea;sj; he;ed,ea;rm;	0
+电脑接口线	dian;ee,ve;lv; nao;lp,ly;ok; jie;jy;fn; kou;oo;la; xian;ea;sj;	0
+多功能电话机	duo;ff;xx; gong;pu;gl; neng;pa;sb; dian;ee,ve;lv; hua;co;yk; ji;wi;mj;	0
+二手通信器材	er;uu;aa; shou;up;pl; tong;pq;zy; xin;xo,xc;rk; qi;oo;kk; cai;wu;mc;	0
+二手通讯产品	er;uu;aa; shou;up;pl; tong;pq;zy; xun;cs;yu; chan;bu,br,ir;lp; pin;oo;kk;	0
+复用设备	fu;ej;pw; yong;lp;kl; she;cl;yy; bei;jw;wt;	0
+光发射机	guang;hk;xw; fa;rh,rl;vd; she;uk;uc; ji;wi;mj;	0
+光接收机	guang;hk;xw; jie;jy;fn; shou;rj;vw; ji;wi;mj;	0
+光缆接头盒	guang;hk;xw; lan;ek,er;se; jie;jy;fn; tou;hx;dd; he;ed,ea;rm;	0
+光衰减器	guang;hk;xw; shuai;ih;wy; jian;fh;dk; qi;oo;kk;	2
+光纤波分复用器	guang;hk;xw; xian;em,es;sq; bo;kl;dy; fen;fu,fi;bd; fu;ej;pw; yong;lp;kl; qi;oo;kk;	0
+光纤放大器	guang;hk;xw; xian;em,es;sq; fang;fj;fw; da;xx;un; qi;oo;kk;	9
+光纤连接器	guang;hk;xw; xian;em,es;sq; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+光纤跳线	guang;hk;xw; xian;em,es;sq; tiao;gh,gf;zd; xian;ea;sj;	7
+红外线适配器	hong;ep;sg; wai;fh;xb; xian;ea;sj; shi;sq;zk; pei;pt;yj; qi;oo;kk;	0
+集团电话	ji;xw;rm; tuan;nu;kc; dian;ee,ve;lv; hua;co;yk;	0
+接入设备	jie;jy;fn; ru;ee,uh;pn; she;cl;yy; bei;jw;wt;	36
+接续设备	jie;jy;fn; xu;ex;sd; she;cl;yy; bei;jw;wt;	0
+卡备份器	ka;ph;ub; bei;jw;wt; fen;xi,xu;rd; qi;oo;kk;	1
+可视电话机	ke;jj,jo;dk; shi;hk,hr;pe; dian;ee,ve;lv; hua;co;yk; ji;wi;mj;	0
+库存通信器材	ku;rt;gi; cun;sa,da;uz; tong;pq;zy; xin;xo,xc;rk; qi;oo;kk; cai;wu;mc;	0
+库存通讯产品	ku;rt;gi; cun;sa,da;uz; tong;pq;zy; xun;cs;yu; chan;bu,br,ir;lp; pin;oo;kk;	0
+来电显示电话机	lai;uf,ef,dl;an; dian;ee,ve;lv; xian;vd;oy; shi;uf;ex; dian;ee,ve;lv; hua;co;yk; ji;wi;mj;	0
+来电显示器	lai;uf,ef,dl;an; dian;ee,ve;lv; xian;vd;oy; shi;uf;ex; qi;oo;kk;	0
+理线架	li;ag;wl; xian;ea;sj; jia;uw;lm;	2
+录音电话机	lu;so,sf;eu; yin;cc,bv;lo; dian;ee,ve;lv; hua;co;yk; ji;wi;mj;	0
+迷你造型电话	mi;lq;zm; ni;xf;rx; zao;bq;zk; xing;ug;kt; dian;ee,ve;lv; hua;co;yk;	0
+普通电话机	pu;fv;bo; tong;pq;zy; dian;ee,ve;lv; hua;co;yk; ji;wi;mj;	1
+汽车天线	qi;ks;dq; che;tt;al; tian;ue;ad; xian;ea;sj;	0
+其他布线产品	qi;vf;qb; ta;xr;ry; bu;sy,dy;uj; xian;ea;sj; chan;bu,br,ir;lp; pin;oo;kk;	0
+其他传输	qi;vf;qb; ta;xr;ry; chuan;xh;rv; shu;ti;id;	0
+其他电话机配附件	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; hua;co;yk; ji;wi;mj; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+其他电话卡	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; hua;co;yk; ka;ph;ub;	0
+其他固定电话	qi;vf;qb; ta;xr;ry; gu;no;kk; ding;ie;br; dian;ee,ve;lv; hua;co;yk;	0
+其他接续设备	qi;vf;qb; ta;xr;ry; jie;jy;fn; xu;ex;sd; she;cl;yy; bei;jw;wt;	0
+其他频率元件	qi;vf;qb; ta;xr;ry; pin;rm;vr; lv;is;wu; yuan;uk;ee; jian;xb;rn;	0
+其他天线	qi;vf;qb; ta;xr;ry; tian;ue;ad; xian;ea;sj;	0
+其他通信线缆	qi;vf;qb; ta;xr;ry; tong;pq;zy; xin;xo,xc;rk; xian;ea;sj; lan;ek,er;se;	0
+其他移动电话	qi;vf;qb; ta;xr;ry; yi;uf;hx; dong;uu;el; dian;ee,ve;lv; hua;co;yk;	0
+其他移动电话配附件	qi;vf;qb; ta;xr;ry; yi;uf;hx; dong;uu;el; dian;ee,ve;lv; hua;co;yk; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+声讯系统	sheng;gp;up; xun;cs;yu; xi;uf;px; tong;ek;se;	0
+手机按键	shou;up;pl; ji;wi;mj; an;jy;fn; jian;dq;jz;	10
+手机充电器	shou;up;pl; ji;wi;mj; chong;ik;we; dian;ee,ve;lv; qi;oo;kk;	60
+手机读卡器	shou;up;pl; ji;wi;mj; du;ce,cx;yd; ka;ph;ub; qi;oo;kk;	5
+手机耳机	shou;up;pl; ji;wi;mj; er;dd,du;aa; ji;wi;mj;	0
+手机连接器	shou;up;pl; ji;wi;mj; lian;tq;zi; jie;jy;fn; qi;oo;kk;	1
+手机免提设备	shou;up;pl; ji;wi;mj; mian;gk;dv; ti;je;fr; she;cl;yy; bei;jw;wt;	0
+手机模型	shou;up;pl; ji;wi;mj; mo;wx;md; xing;ug;kt;	0
+手机双卡通	shou;up;pl; ji;wi;mj; shuang;ll;yy; ka;ph;ub; tong;pq;zy;	0
+手机天线	shou;up;pl; ji;wi;mj; tian;ue;ad; xian;ea;sj;	13
+手机外壳	shou;up;pl; ji;wi;mj; wai;fh;xb; ke;gi;uj;	20
+手机显示屏	shou;up;pl; ji;wi;mj; xian;vd;oy; shi;uf;ex; ping;qp,qz;uk;	9
+手机转接头	shou;up;pl; ji;wi;mj; zhuan;th;iv; jie;jy;fn; tou;hx;dd;	0
+收音机天线	shou;rj;vw; yin;cc,bv;lo; ji;wi;mj; tian;ue;ad; xian;ea;sj;	3
+跳线架	tiao;gh,gf;zd; xian;ea;sj; jia;uw;lm;	0
+通信器材代理	tong;pq;zy; xin;xo,xc;rk; qi;oo;kk; cai;wu;mc; dai;xa,xh;ry; li;ag;wl;	0
+通信天线	tong;pq;zy; xin;xo,xc;rk; tian;ue;ad; xian;ea;sj;	21
+通信线缆	tong;pq;zy; xin;xo,xc;rk; xian;ea;sj; lan;ek,er;se;	2
+通讯产品代理	tong;pq;zy; xun;cs;yu; chan;bu,br,ir;lp; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+通讯产品加工	tong;pq;zy; xun;cs;yu; chan;bu,br,ir;lp; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+通讯电缆	tong;pq;zy; xun;cs;yu; dian;ee,ve;lv; lan;ek,er;se;	3
+通讯终端	tong;pq;zy; xun;cs;yu; zhong;eh;sd; duan;be;le;	7
+投币电话机	tou;jl;fy; bi;uy;pj; dian;ee,ve;lv; hua;co;yk; ji;wi;mj;	1
+网络测试设备	wang;oy;kx; luo;er,eo;sk; ce;ki;dd; shi;cp;yg; she;cl;yy; bei;jw;wt;	0
+网络电话机	wang;oy;kx; luo;er,eo;sk; dian;ee,ve;lv; hua;co;yk; ji;wi;mj;	0
+网络机柜	wang;oy;kx; luo;er,eo;sk; ji;wi;mj; gui;wr;mj;	5
+卫星移动电话	wei;bd,rd;ea,va; xing;vg,va;ou; yi;uf;hx; dong;uu;el; dian;ee,ve;lv; hua;co;yk;	0
+无线固话	wu;uk,ur;ay; xian;ea;sj; gu;no;kk; hua;co;yk;	0
+无线网络设备	wu;uk,ur;ay; xian;ea;sj; wang;oy;kx; luo;er,eo;sk; she;cl;yy; bei;jw;wt;	3
+线扣	xian;ea;sj; kou;jo;fk;	0
+信息面板	xin;xo,xc;rk; xi;sn;zx; mian;dd,du;aa; ban;wl;my;	0
+移动电话配附件	yi;uf;hx; dong;uu;el; dian;ee,ve;lv; hua;co;yk; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+语音传真网关	yu;co;yk; yin;cc,bv;lo; chuan;xh;rv; zhen;sf;ub; wang;oy;kx; guan;fx;bt;	0
+中框	zhong;op;ll; kuang;wr;mw;	225
+半挂牵引车	ban;fp,fs;dl; gua;jg;ft; qian;xb;dn; yin;rp;gl; che;tt;al;	5
+保温车	bao;xw;rm; wen;kd,ka;dm; che;tt;al;	0
+边三轮摩托车	bian;uq;zl; san;uu;ae; lun;ta;ib; mo;do,dp,rp;gu; tuo;ja,jr;fq; che;tt;al;	2
+仓储货架	cang;et;rv; chu;xv;ro; huo;xm;rr; jia;uw;lm;	1
+仓储笼	cang;et;rv; chu;xv;ro; long;nh;vl;	0
+船舶专用配件	chuan;to;vk; bo;ts;vb; zhuan;uh;ad; yong;lp;kl; pei;pt;yj; jian;xb;rn;	0
+船用发动机配件	chuan;to;vk; yong;lp;kl; fa;rh,rl;vd; dong;uu;el; ji;wi;mj; pei;pt;yj; jian;xb;rn;	0
+船用五金配件	chuan;to;vk; yong;lp;kl; wu;gg;aa; jin;ed,ef;ra; pei;pt;yj; jian;xb;rn;	0
+登车桥	deng;rd;va; che;tt;al; qiao;wp;ml;	0
+电动车电机	dian;ee,ve;lv; dong;uu;el; che;tt;al; dian;ee,ve;lv; ji;wi;mj;	8
+电动车控制器	dian;ee,ve;lv; dong;uu;el; che;tt;al; kong;jp;fg; zhi;bi;pd; qi;oo;kk;	5
+堆高车	dui;ga;tf; gao;io;wk; che;tt;al;	0
+二手船舶	er;uu;aa; shou;up;pl; chuan;to;vk; bo;ts;vb;	0
+二手交通工具	er;uu;aa; shou;up;pl; jiao;iy;wx; tong;pq;zy; gong;pp;aa; ju;pf;qb;	0
+二手摩托车	er;uu;aa; shou;up;pl; mo;do,dp,rp;gu; tuo;ja,jr;fq; che;tt;al;	7
+二手物流设备	er;uu;aa; shou;up;pl; wu;bi,bu;nw; liu;kr;dv; she;cl;yy; bei;jw;wt;	0
+非机动车配件	fei;pu,up;la; ji;wi;mj; dong;uu;el; che;tt;al; pei;pt;yj; jian;xb;rn;	0
+飞机及配件	fei;rh;vd; ji;wi;mj; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+粉粒物料运输车	fen;li,lu;md; li;lb;ml; wu;bi,bu;nw; liao;ls,lh;mu; yun;uq;zs; shu;ti;id; che;tt;al;	0
+轨道交通设备器材	gui;tr;ij; dao;fq;zz; jiao;iy;wx; tong;pq;zy; she;cl;yy; bei;jw;wt; qi;oo;kk; cai;wu;mc;	0
+航道设施	hang;ti;vj; dao;fq;zz; she;cl;yy; shi;fr;fy;	0
+护角	hu;jq;fh; jiao;gp;dy;	4
+混凝土搅拌车	hun;ka;db; ning;fe;dr; tu;gg;ua; jiao;jk,jr;fe; ban;jp,js;fb; che;tt;al;	5
+集装袋	ji;xw;rm; zhuang;lk;dy; dai;xk;ry;	0
+集装桶	ji;xw;rm; zhuang;lk;dy; tong;wp;my;	0
+集装整理设备	ji;xw;rm; zhuang;lk;dy; zheng;dr;uv; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+加油站设备	jia;uo;lk; you;kp;dy; zhan;bo;lk; she;cl;yy; bei;jw;wt;	0
+交通工具代理	jiao;iy;wx; tong;pq;zy; gong;pp;aa; ju;pf;qb; dai;xa,xh;ry; li;ag;wl;	0
+交通工具项目合作	jiao;iy;wx; tong;pq;zy; gong;pp;aa; ju;pf;qb; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+交通配套设施	jiao;iy;wx; tong;pq;zy; pei;pt;yj; tao;xp,xh;ds; she;cl;yy; shi;fr;fy;	0
+交通运输产品加工	jiao;iy;wx; tong;pq;zy; yun;uq;zs; shu;ti;id; chan;bu,br,ir;lp; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+交通运输工具	jiao;iy;wx; tong;pq;zy; yun;uq;zs; shu;ti;id; gong;pp;aa; ju;pf;qb;	14
+库存交通工具	ku;rt;gi; cun;sa,da;uz; jiao;iy;wx; tong;pq;zy; gong;pp;aa; ju;pf;qb;	0
+两轮摩托车	liang;de;ad; lun;ta;ib; mo;do,dp,rp;gu; tuo;ja,jr;fq; che;tt;al;	2
+旅居车	lv;fh;fn; ju;qo;uk; che;tt;al;	11
+锚绳	mao;dw;jt; sheng;er,ee;sd;	2
+其他仓储设备	qi;vf;qb; ta;xr;ry; cang;et;rv; chu;xv;ro; she;cl;yy; bei;jw;wt;	0
+其他船舶专用配件	qi;vf;qb; ta;xr;ry; chuan;to;vk; bo;ts;vb; zhuan;uh;ad; yong;lp;kl; pei;pt;yj; jian;xb;rn;	0
+其他二手交通工具	qi;vf;qb; ta;xr;ry; er;uu;aa; shou;up;pl; jiao;iy;wx; tong;pq;zy; gong;pp;aa; ju;pf;qb;	0
+其他非机动车	qi;vf;qb; ta;xr;ry; fei;pu,up;la; ji;wi;mj; dong;uu;el; che;tt;al;	0
+其他非机动车配件	qi;vf;qb; ta;xr;ry; fei;pu,up;la; ji;wi;mj; dong;uu;el; che;tt;al; pei;pt;yj; jian;xb;rn;	0
+其他集装整理设备	qi;vf;qb; ta;xr;ry; ji;xw;rm; zhuang;lk;dy; zheng;dr;uv; li;ag;wl; she;cl;yy; bei;jw;wt;	0
+其他类型专用汽车	qi;vf;qb; ta;xr;ry; lei;lx;md; xing;ug;kt; zhuan;uh;ad; yong;lp;kl; qi;ks;dq; che;tt;al;	0
+其他摩托车	qi;vf;qb; ta;xr;ry; mo;do,dp,rp;gu; tuo;ja,jr;fq; che;tt;al;	0
+其他起重装卸设备	qi;vf;qb; ta;xr;ry; qi;qt,gt;tj; zhong;sg;pa; zhuang;lk;dy; xie;eb;pe,we; she;cl;yy; bei;jw;wt;	0
+其他商用车	qi;vf;qb; ta;xr;ry; shang;io;wk; yong;lp;kl; che;tt;al;	0
+其他通用输送设备	qi;vf;qb; ta;xr;ry; tong;pq;zy; yong;lp;kl; shu;ti;id; song;fq;zt; she;cl;yy; bei;jw;wt;	0
+其他物流辅助器材	qi;vf;qb; ta;xr;ry; wu;bi,bu;nw; liu;kr;dv; fu;th;if; zhu;pu;ql; qi;oo;kk; cai;wu;mc;	0
+其他运输搬运设备	qi;vf;qb; ta;xr;ry; yun;uq;zs; shu;ti;id; ban;jl;fy; yun;uq;zs; she;cl;yy; bei;jw;wt;	0
+其他专用汽车	qi;vf;qb; ta;xr;ry; zhuan;uh;ad; yong;lp;kl; qi;ks;dq; che;tt;al;	0
+起重装卸设备	qi;qt,gt;tj; zhong;sg;pa; zhuang;lk;dy; xie;eb;pe,we; she;cl;yy; bei;jw;wt;	0
+轻便摩托车	qing;tp;ig; bian;xy;rg; mo;do,dp,rp;gu; tuo;ja,jr;fq; che;tt;al;	20
+调速转把	tiao;co;yk; su;dq;zu; zhuan;th;iv; ba;jt;fb;	0
+停车场设备	ting;xj;rd; che;tt;al; chang;gu;tp; she;cl;yy; bei;jw;wt;	2
+通用输送设备	tong;pq;zy; yong;lp;kl; shu;ti;id; song;fq;zt; she;cl;yy; bei;jw;wt;	0
+物流辅助器材	wu;bi,bu;nw; liu;kr;dv; fu;th;if; zhu;pu;ql; qi;oo;kk; cai;wu;mc;	0
+物流管理软件	wu;bi,bu;nw; liu;kr;dv; guan;nd;vk; li;ag;wl; ruan;te;ir; jian;xb;rn;	2
+物流手推车	wu;bi,bu;nw; liu;kr;dv; shou;up;pl; tui;ja;ff; che;tt;al;	0
+物流台车	wu;bi,bu;nw; liu;kr;dv; tai;po;sk; che;tt;al;	0
+液罐车	ye;kh;dn; guan;ea;ff; che;tt;al;	0
+液化气运输车	ye;kh;dn; hua;xa;rb; qi;ss;pv; yun;uq;zs; shu;ti;id; che;tt;al;	0
+运输搬运设备	yun;uq;zs; shu;ti;id; ban;jl;fy; yun;uq;zs; she;cl;yy; bei;jw;wt;	0
+闸把	zha;op;mj; ba;jt;fb;	1
+正三轮摩托车	zheng;dr;av; san;uu;ae; lun;ta;ib; mo;do,dp,rp;gu; tuo;ja,jr;fq; che;tt;al;	0
+办公用纸	ban;uf;ld; gong;fp;bs; yong;lp;kl; zhi;er,eh;su;	3
+板纸	ban;wl;my; zhi;er,eh;su;	4
+包装用纸	bao;ut;bs; zhuang;lk;dy; yong;lp;kl; zhi;er,eh;su;	1
+杯纸	bei;wh,wf;mb; zhi;er,eh;su;	1
+草浆	cao;zs;cu; jiang;lo;du;	16
+抄纸助剂	chao;ju;fu; zhi;er,eh;su; zhu;pu;ql; ji;ji;wd;	0
+电容器纸	dian;ee,ve;lv; rong;io;bk; qi;oo;kk; zhi;er,eh;su;	0
+二手造纸设备	er;uu;aa; shou;up;pl; zao;bq;zk; zhi;er,eh;su; she;cl;yy; bei;jw;wt;	0
+二手纸加工设备	er;uu;aa; shou;up;pl; zhi;er,eh;su; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+防锈纸	fang;bf;ef; xiu;du;jn; zhi;er,eh;su;	0
+废纸浆	fei;rh,rl;gd; zhi;er,eh;su; jiang;lo;du;	2
+分纸机	fen;fu,fi;bd; zhi;er,eh;su; ji;wi;mj;	0
+工业用纸	gong;pp;aa; ye;pd,hd;la; yong;lp;kl; zhi;er,eh;su;	0
+硅油纸	gui;tg;ut; you;kp;dy; zhi;er,eh;su;	21
+鸡皮纸	ji;lc;yn; pi;rl;vy; zhi;er,eh;su;	0
+卷烟用纸	juan;ft;jv; yan;tx;hd; yong;lp;kl; zhi;er,eh;su;	0
+绝缘纸	jue;et;sb; yuan;eh;su; zhi;er,eh;su;	3
+淋膜纸	lin;kw;dm; mo;lx;od; zhi;er,eh;su;	1
+其他办公用纸	qi;vf;qb; ta;xr;ry; ban;uf;ld; gong;fp;bs; yong;lp;kl; zhi;er,eh;su;	0
+其他包装用纸	qi;vf;qb; ta;xr;ry; bao;ut;bs; zhuang;lk;dy; yong;lp;kl; zhi;er,eh;su;	0
+其他工业用纸	qi;vf;qb; ta;xr;ry; gong;pp;aa; ye;pd,hd;la; yong;lp;kl; zhi;er,eh;su;	0
+其他生活用纸	qi;vf;qb; ta;xr;ry; sheng;eg;pf; huo;ko;dk; yong;lp;kl; zhi;er,eh;su;	0
+其他用途纸	qi;vf;qb; ta;xr;ry; yong;lp;kl; tu;eq;zh; zhi;er,eh;su;	0
+其他造纸化学品	qi;vf;qb; ta;xr;ry; zao;bq;zk; zhi;er,eh;su; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+其他纸加工机械	qi;vf;qb; ta;xr;ry; zhi;er,eh;su; jia;uo;lk; gong;pp;aa; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+其他纸浆	qi;vf;qb; ta;xr;ry; zhi;er,eh;su; jiang;lo;du;	0
+生活用纸	sheng;eg;pf; huo;ko;dk; yong;lp;kl; zhi;er,eh;su;	25
+收银纸	shou;rj;vw; yin;dh;jg; zhi;er,eh;su;	0
+碳素纸	tan;tt;uh; su;af;fx; zhi;er,eh;su;	0
+涂布剂	tu;kf;dh; bu;sy,dy;uj; ji;ji;wd;	0
+涂布助剂	tu;kf;dh; bu;sy,dy;uj; zhu;pu;ql; ji;ji;wd;	0
+瓦楞原纸	wa;dh;ad; leng;wf;mf; yuan;rf;ix; zhi;er,eh;su;	0
+造纸化学品	zao;bq;zk; zhi;er,eh;su; hua;xa;rb; xue;ha;xz; pin;oo;kk;	1
+造纸设备及配件	zao;bq;zk; zhi;er,eh;su; she;cl;yy; bei;jw;wt; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+造纸原料及助剂	zao;bq;zk; zhi;er,eh;su; yuan;rf;ix; liao;ls,lh;mu; ji;uh,rh;pn; zhu;pu;ql; ji;ji;wd;	0
+纸成型机械	zhi;er,eh;su; cheng;rh;wv; xing;ug;kt; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+纸袋纸	zhi;er,eh;su; dai;xk;ry; zhi;er,eh;su;	3
+纸及纸品代理	zhi;er,eh;su; ji;uh,rh;pn; zhi;er,eh;su; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+纸及纸品项目合作	zhi;er,eh;su; ji;uh,rh;pn; zhi;er,eh;su; pin;oo;kk; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+纸加工	zhi;er,eh;su; jia;uo;lk; gong;pp;aa;	0
+纸加工机械	zhi;er,eh;su; jia;uo;lk; gong;pp;aa; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+制浆助剂	zhi;bi;pd; jiang;lo;du; zhu;pu;ql; ji;ji;wd;	0
+纸类设备及服务	zhi;er,eh;su; lei;lx;md; she;cl;yy; bei;jw;wt; ji;uh,rh;pn; fu;ll;oy; wu;ju;wl;	0
+纸品加工	zhi;er,eh;su; pin;oo;kk; jia;uo;lk; gong;pp;aa;	1
+板弹簧	ban;wl;my; tan;rs;gl; huang;nf;vb;	0
+抱箍	bao;jt;fs; gu;nr;vj;	0
+扁嘴钳	bian;qj,qd;hc; zui;op;ky; qian;dv;jg;	0
+剥线钳	bo;si;ed; xian;ea;sj; qian;dv;jg;	5
+布轮	bu;sy,dy;uj; lun;ta;ib;	1
+裁缝剪	cai;sk,ha,sh,gh;uy; feng;eq;sz; jian;fu,fi;bd;	0
+插齿刀	cha;js;fj; chi;rp;vk; dao;ii,ru;vp;	0
+成型模	cheng;rh;wv; xing;ug;kt; mo;wx;md;	0
+齿轮刀具	chi;rp;vk; lun;ta;ib; dao;ii,ru;vp; ju;pf;qb;	2
+齿轮加工	chi;rp;vk; lun;ta;ib; jia;uo;lk; gong;pp;aa;	2
+冲压模	chong;fp;dv; ya;rh;id; mo;wx;md;	1
+厨用刀	chu;rk;ic; yong;lp;kl; dao;ii,ru;vp;	2
+伺服阀	ci;xo;rk; fu;ll;oy; fa;oa,oh;mg;	1
+打孔钳	da;jj;fd; kong;ar;zv; qian;dv;jg;	0
+大力钳	da;xx;un; li;uu;vp; qian;dv;jg;	0
+单头呆扳手	dan;fs;bl; tou;hx;dd; dai;ow;km; ban;jl;fy; shou;up;pl;	0
+刀带	dao;ii,ru;vp; dai;zy;fj;	0
+刀杆	dao;ii,ru;vp; gan;ws;mg;	11
+导套	dao;tk;sc; tao;xp,xh;ds;	0
+电池钳	dian;ee,ve;lv; chi;kr;dy; qian;dv;jg;	0
+电动扳手	dian;ee,ve;lv; dong;uu;el; ban;jl;fy; shou;up;pl;	2
+电动雕刻机	dian;ee,ve;lv; dong;uu;el; diao;oa,ua;kf; ke;ii;wd; ji;wi;mj;	0
+电动坡口机	dian;ee,ve;lv; dong;uu;el; po;gl;ty; kou;oo;la; ji;wi;mj;	0
+电动砂轮机	dian;ee,ve;lv; dong;uu;el; sha;ti,tu;uu; lun;ta;ib; ji;wi;mj;	0
+电动套丝机	dian;ee,ve;lv; dong;uu;el; tao;xp,xh;ds; si;ee,rd;va; ji;wi;mj;	0
+电工刀	dian;ee,ve;lv; gong;pp;aa; dao;ii,ru;vp;	1
+电工钳	dian;ee,ve;lv; gong;pp;aa; qian;dv;jg;	2
+电焊钳	dian;ee,ve;lv; han;ts;hg; qian;dv;jg;	0
+电剪刀	dian;ee,ve;lv; jian;fu,fi;bd; dao;ii,ru;vp;	0
+电缆钳	dian;ee,ve;lv; lan;ek,er;se; qian;dv;jg;	0
+电子五金件	dian;ee,ve;lv; zi;aa;va; wu;gg;aa; jin;ed,ef;ra; jian;xb;rn;	0
+碟形弹簧	die;tw;um; xing;uu;kp; tan;rs;gl; huang;nf;vb;	0
+斗齿	dou;hs,sh;du; chi;rp;vk;	1
+断线钳	duan;lp;mj; xian;ea;sj; qian;dv;jg;	0
+锻造模	duan;dl;jy; zao;bq;zk; mo;wx;md;	0
+多功能刀钳	duo;ff;xx; gong;pu;gl; neng;pa;sb; dao;ii,ru;vp; qian;dv;jg;	0
+多用扳手	duo;ff;xx; yong;lp;kl; ban;jl;fy; shou;up;pl;	0
+多用螺丝刀	duo;ff;xx; yong;lp;kl; luo;ff;ix; si;ee,rd;va; dao;ii,ru;vp;	0
+二手电动工具	er;uu;aa; shou;up;pl; dian;ee,ve;lv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+防爆工具	fang;bf;ef; bao;to,tf;hu; gong;pp;aa; ju;pf;qb;	0
+非标零件加工	fei;pu,up;la; biao;wf;mx; ling;yp,yh;ys; jian;xb;rn; jia;uo;lk; gong;pp;aa;	0
+分度盘	fen;fu,fi;bd; du;rl;gy; pan;td,ta;vm;	0
+分度头	fen;fu,fi;bd; du;rl;gy; tou;hx;dd;	0
+粉末冶金模	fen;li,lu;md; mo;ee;an; ye;fo;dk; jin;ed,ef;ra; mo;wx;md;	0
+钢锉	gang;dy;jx; cuo;dg;jt;	9
+钢镐	gang;dy;jx; gao;do;jk;	0
+钢号码	gang;dy;jx; hao;or;kv; ma;tz;um;	0
+钢锯架	gang;dy;jx; ju;do;jk; jia;uw;lm;	0
+钢丝轮	gang;dy;jx; si;ee,rd;va; lun;ta;ib;	1
+割炬	ge;ii;bd; ju;tr;hj;	0
+工装夹具	gong;pp;aa; zhuang;lk;dy; jia;dx;an; ju;pf;qb;	5
+钩形扳手	gou;dp;js; xing;uu;kp; ban;jl;fy; shou;up;pl;	0
+管类加工	guan;nd;vk; lei;lx;md; jia;uo;lk; gong;pp;aa;	0
+管螺纹丝锥	guan;nd;vk; luo;ff;ix; wen;ej;sw; si;ee,rd;va; zhui;da;jf;	0
+观赏刀具	guan;lk,lr;ye; shang;hm;xr; dao;ii,ru;vp; ju;pf;qb;	0
+管子扳手	guan;nd;vk; zi;aa;va; ban;jl;fy; shou;up;pl;	0
+管子割刀	guan;nd;vk; zi;aa;va; ge;ii;bd; dao;ii,ru;vp;	0
+光饰机	guang;hk;xw; shi;gy;uj; ji;wi;mj;	0
+滚筒刷	gun;kh;dy; tong;no;vk; shua;qi;ud;	7
+海绵轮	hai;kh;dm; mian;ey;sj; lun;ta;ib;	0
+海绵刷	hai;kh;dm; mian;ey;sj; shua;qi;ud;	4
+焊接材料与附件	han;ts;hg; jie;jy;fn; cai;wu;mc; liao;ls,lh;mu; yu;dd;aa; fu;bk,bw;ec; jian;xb;rn;	0
+焊炬	han;ts;hg; ju;tr;hj;	2
+胡桃钳	hu;sl;uo; tao;wh,wf;md; qian;dv;jg;	0
+划线器	hua;ai,di;gd; xian;ea;sj; qi;oo;kk;	1
+回火防止器	hui;no;kk; huo;tt;dr; fang;bf;ef; zhi;rr;la; qi;oo;kk;	0
+机床刀架	ji;wi;mj; chuang;rw;gm; dao;ii,ru;vp; jia;uw;lm;	0
+机床垫铁	ji;wi;mj; chuang;rw;gm; dian;jg;ft; tie;de;ju;	0
+机床附件	ji;wi;mj; chuang;rw;gm; fu;bk,bw;ec; jian;xb;rn;	1
+机床护罩	ji;wi;mj; chuang;rw;gm; hu;jq;fh; zhao;as;su;	0
+机床减震装置	ji;wi;mj; chuang;rw;gm; jian;fh;dk; zhen;yh;yn; zhuang;lk;dy; zhi;ad,au;sq;	0
+机床接杆	ji;wi;mj; chuang;rw;gm; jie;jy;fn; gan;ws;mg;	0
+机床丝杆	ji;wi;mj; chuang;rw;gm; si;ee,rd;va; gan;ws;mg;	0
+机床用虎钳	ji;wi;mj; chuang;rw;gm; yong;lp;kl; hu;pi;hj; qian;dv;jg;	0
+机床主轴	ji;wi;mj; chuang;rw;gm; zhu;ig,ha;dw; zhou;tp;iy;	1
+机械零部件加工	ji;wi;mj; xie;wa,wz,wp,wh;mc; ling;yp,yh;ys; bu;bb;le; jian;xb;rn; jia;uo;lk; gong;pp;aa;	0
+机械密封件	ji;wi;mj; xie;wa,wz,wp,wh;mc; mi;ip;be; feng;gk;tc; jian;xb;rn;	0
+机械五金件	ji;wi;mj; xie;wa,wz,wp,wh;mc; wu;gg;aa; jin;ed,ef;ra; jian;xb;rn;	0
+机用刀片	ji;wi;mj; yong;lp;kl; dao;ii,ru;vp; pian;ii,ur;pv;	0
+机用锯片	ji;wi;mj; yong;lp;kl; ju;do;jk; pian;ii,ur;pv;	0
+机用锯条	ji;wi;mj; yong;lp;kl; ju;do;jk; tiao;jf;wm;	0
+家用剪	jia;ih;bu; yong;lp;kl; jian;fu,fi;bd;	0
+剪切类气动工具	jian;fu,fi;bd; qie;ai,au;qd; lei;lx;md; qi;ss;pv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+建筑装饰五金	jian;rq,sq;zy; zhu;nh;vf; zhuang;lk;dy; shi;gy;uj; wu;gg;aa; jin;ed,ef;ra;	0
+铰板	jiao;dy;jx; ban;wl;my;	0
+角磨机	jiao;gp;dy; mo;dt,rt;gu; ji;wi;mj;	21
+紧线钳	jin;pf;lx; xian;ea;sj; qian;dv;jg;	0
+锯锉	ju;do;jk; cuo;dg;jt;	3
+卡簧钳	ka;ph;ub; huang;nf;vb; qian;dv;jg;	0
+卡圈	ka;ph;ub; quan;nt;kv;	18
+孔加工	kong;ar;zv; jia;uo;lk; gong;pp;aa;	2
+库存五金	ku;rt;gi; cun;sa,da;uz; wu;gg;aa; jin;ed,ef;ra;	0
+快速经济模具	kuai;nx,ne;xg; su;dq;zu; jing;ep;sg; ji;kp;dl; mu;wx;md; ju;pf;qb;	0
+拉刀	la;jb;fl; dao;ii,ru;vp;	4
+拉铆枪	la;jb;fl; mao;db;je; qiang;wt;mv;	0
+拉丝模	la;jb;fl; si;ee,rd;va; mo;wx;md;	0
+烙铁咀	lao;tr,to;hk; tie;de;ju; ju;ou;kq;	0
+冷压接钳	leng;fp,fh;ds; ya;rh;id; jie;jy;fn; qian;dv;jg;	0
+冷轧线钳	leng;fp,fh;ds; zha;tr;iv; xian;ea;sj; qian;dv;jg;	0
+理发剪	li;ag;wl; fa;rh,rl;vd; jian;fu,fi;bd;	4
+鲤鱼钳	li;qg;al; yu;qq;da; qian;dv;jg;	0
+螺纹刀具	luo;ff;ix; wen;ej;sw; dao;ii,ru;vp; ju;pf;qb;	0
+密封垫圈	mi;ip;be; feng;gk;tc; dian;jg;ft; juan;nt;kv;	6
+密封垫片	mi;ip;be; feng;gk;tc; dian;jg;ft; pian;ii,ur;pv;	4
+磨块	mo;dt,rt;gu; kuai;ge,gx;tg;	3
+磨抛光电动工具	mo;dt,rt;gu; pao;ju;fl; guang;hk;xw; dian;ee,ve;lv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+磨片	mo;dt,rt;gu; pian;ii,ur;pv;	11
+木工锉	mu;ww;an,un; gong;pp;aa; cuo;dg;jt;	1
+木工雕刻机	mu;ww;an,un; gong;pp;aa; diao;oa,ua;kf; ke;ii;wd; ji;wi;mj;	0
+木工锯	mu;ww;an,un; gong;pp;aa; ju;do;jk;	1
+木工修边机	mu;ww;an,un; gong;pp;aa; xiu;xu;rp; bian;uq;zl; ji;wi;mj;	0
+模具标准件	mu;wx;md; ju;pf;qb; biao;wf;mx; zhun;fa;df; jian;xb;rn;	0
+模具设备	mu;wx;md; ju;pf;qb; she;cl;yy; bei;jw;wt;	0
+内四方扳手	nei;oe;ld; si;nk;ke; fang;ff;dw; ban;jl;fy; shou;up;pl;	0
+扭力扳手	niu;jg;fi; li;uu;vp; ban;jl;fy; shou;up;pl;	9
+扭转弹簧	niu;jg;fi; zhuan;th;iv; tan;rs;gl; huang;nf;vb;	0
+抛光刷	pao;ju;fl; guang;hk;xw; shua;qi;ud;	0
+喷涂工具	pen;om;kr; tu;kf;dh; gong;pp;aa; ju;pf;qb;	2
+片弹簧	pian;ii,ur;pv; tan;rs;gl; huang;nf;vb;	0
+瓶阀	ping;fh;bw; fa;oa,oh;mg;	1
+普通螺纹丝锥	pu;fv;bo; tong;pq;zy; luo;ff;ix; wen;ej;sw; si;ee,rd;va; zhui;da;jf;	0
+气动铲	qi;ss;pv; dong;uu;el; chan;du,dr;ji;	0
+气动接头	qi;ss;pv; dong;uu;el; jie;jy;fn; tou;hx;dd;	0
+气割器材	qi;ss;pv; ge;ii;bd; qi;oo;kk; cai;wu;mc;	0
+其他扳手	qi;vf;qb; ta;xr;ry; ban;jl;fy; shou;up;pl;	0
+其他锉	qi;vf;qb; ta;xr;ry; cuo;dg;jt;	0
+其他刀	qi;vf;qb; ta;xr;ry; dao;ii,ru;vp;	0
+其他刀具	qi;vf;qb; ta;xr;ry; dao;ii,ru;vp; ju;pf;qb;	0
+其他电子五金件	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; zi;aa;va; wu;gg;aa; jin;ed,ef;ra; jian;xb;rn;	0
+其他焊接材料与附件	qi;vf;qb; ta;xr;ry; han;ts;hg; jie;jy;fn; cai;wu;mc; liao;ls,lh;mu; yu;dd;aa; fu;bk,bw;ec; jian;xb;rn;	0
+其他机床附件	qi;vf;qb; ta;xr;ry; ji;wi;mj; chuang;rw;gm; fu;bk,bw;ec; jian;xb;rn;	0
+其他机械零部件加工	qi;vf;qb; ta;xr;ry; ji;wi;mj; xie;wa,wz,wp,wh;mc; ling;yp,yh;ys; bu;bb;le; jian;xb;rn; jia;uo;lk; gong;pp;aa;	0
+其他剪	qi;vf;qb; ta;xr;ry; jian;fu,fi;bd;	0
+其他紧固件	qi;vf;qb; ta;xr;ry; jin;pf;lx; gu;no;kk; jian;xb;rn;	0
+其他锯	qi;vf;qb; ta;xr;ry; ju;do;jk;	0
+其他类型钳工工具	qi;vf;qb; ta;xr;ry; lei;lx;md; xing;ug;kt; qian;dv;jg; gong;pp;aa; gong;pp;aa; ju;pf;qb;	0
+其他螺丝刀	qi;vf;qb; ta;xr;ry; luo;ff;ix; si;ee,rd;va; dao;ii,ru;vp;	0
+其他密封件	qi;vf;qb; ta;xr;ry; mi;ip;be; feng;gk;tc; jian;xb;rn;	0
+其他磨具	qi;vf;qb; ta;xr;ry; mo;dt,rt;gu; ju;pf;qb;	0
+其他磨料	qi;vf;qb; ta;xr;ry; mo;dt,rt;gu; liao;ls,lh;mu;	1
+其他磨抛光电动工具	qi;vf;qb; ta;xr;ry; mo;dt,rt;gu; pao;ju;fl; guang;hk;xw; dian;ee,ve;lv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+其他农用工具	qi;vf;qb; ta;xr;ry; nong;ih;dn; yong;lp;kl; gong;pp;aa; ju;pf;qb;	0
+其他气动工具	qi;vf;qb; ta;xr;ry; qi;ss;pv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+其他气动元件	qi;vf;qb; ta;xr;ry; qi;ss;pv; dong;uu;el; yuan;uk;ee; jian;xb;rn;	0
+其他气焊	qi;vf;qb; ta;xr;ry; qi;ss;pv; han;ts;hg;	0
+其他钳工工具	qi;vf;qb; ta;xr;ry; qian;dv;jg; gong;pp;aa; gong;pp;aa; ju;pf;qb;	0
+其他钳子	qi;vf;qb; ta;xr;ry; qian;dv;jg; zi;aa;va;	0
+其他切削电动工具	qi;vf;qb; ta;xr;ry; qie;ai,au;qd; xiao;hi;xd; dian;ee,ve;lv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+其他刷	qi;vf;qb; ta;xr;ry; shua;qi;ud;	0
+其他丝锥	qi;vf;qb; ta;xr;ry; si;ee,rd;va; zhui;da;jf;	0
+其他弹簧	qi;vf;qb; ta;xr;ry; tan;rs;gl; huang;nf;vb;	0
+其他通用五金配件	qi;vf;qb; ta;xr;ry; tong;pq;zy; yong;lp;kl; wu;gg;aa; jin;ed,ef;ra; pei;pt;yj; jian;xb;rn;	0
+其他液压元件	qi;vf;qb; ta;xr;ry; ye;kh;dn; ya;rh;id; yuan;uk;ee; jian;xb;rn;	0
+其他轴承	qi;vf;qb; ta;xr;ry; zhou;tp;iy; cheng;rh,ru;vn;	0
+其他装配电动工具	qi;vf;qb; ta;xr;ry; zhuang;lk;dy; pei;pt;yj; dian;ee,ve;lv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+气源处理器	qi;ss;pv; yuan;kf;dx; chu;jh,uh;wb; li;ag;wl; qi;oo;kk;	0
+铅封钳	qian;do;jk; feng;gk;tc; qian;dv;jg;	0
+壳体加工	qiao;gi;uj; ti;xd;rb; jia;uo;lk; gong;pp;aa;	0
+切刀	qie;ai,au;qd; dao;ii,ru;vp;	211
+切割片	qie;ai,au;qd; ge;ii;bd; pian;ii,ur;pv;	0
+切削电动工具	qie;ai,au;qd; xiao;hi;xd; dian;ee,ve;lv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+曲线锯条	qu;pd,vp;la; xian;ea;sj; ju;do;jk; tiao;jf;wm;	0
+人造磨料	ren;ee;pn; zao;bq;zk; mo;dt,rt;gu; liao;ls,lh;mu;	0
+砂带	sha;ti,tu;uu; dai;zy;fj;	6
+砂带机	sha;ti,tu;uu; dai;zy;fj; ji;wi;mj;	4
+石材切割机	shi;tt;ak; cai;wu;mc; qie;ai,au;qd; ge;ii;bd; ji;wi;mj;	0
+十字扳手	shi;ss;al; zi;ia;bz; ban;jl;fy; shou;up;pl;	0
+十字螺丝刀	shi;ss;al; zi;ia;bz; luo;ff;ix; si;ee,rd;va; dao;ii,ru;vp;	15
+手动工具	shou;up;pl; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+手用锯条	shou;up;pl; yong;lp;kl; ju;do;jk; tiao;jf;wm;	0
+数控刀具	shu;lj;mw; kong;jp;fg; dao;ii,ru;vp; ju;pf;qb;	2
+双头呆扳手	shuang;ll;yy; tou;hx;dd; dai;ow;km; ban;jl;fy; shou;up;pl;	0
+水泵钳	shui;oo;ln; beng;to;uu; qian;dv;jg;	0
+丝锥扳手	si;ee,rd;va; zhui;da;jf; ban;jl;fy; shou;up;pl;	0
+丝锥板牙套装	si;ee,rd;va; zhui;da;jf; ban;wl;my; ya;du;ap; tao;xp,xh;ds; zhuang;lk;dy;	0
+台钻	tai;po;sk; zuan;do;jk;	5
+镗刀	tang;dg;jt; dao;ii,ru;vp;	0
+套筒扳手	tao;xp,xh;ds; tong;no;vk; ban;jl;fy; shou;up;pl;	3
+套装电动工具	tao;xp,xh;ds; zhuang;lk;dy; dian;ee,ve;lv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+剃齿刀	ti;fi;bd; chi;rp;vk; dao;ii,ru;vp;	0
+天然磨料	tian;ue;ad; ran;fn,un;ph; mo;dt,rt;gu; liao;ls,lh;mu;	0
+铁皮剪	tie;de;ju; pi;rl;vy; jian;fu,fi;bd;	0
+通用五金配件	tong;pq;zy; yong;lp;kl; wu;gg;aa; jin;ed,ef;ra; pei;pt;yj; jian;xb;rn;	0
+推力滚子轴承	tui;ja;ff; li;uu;vp; gun;kh;dy; zi;aa;va; zhou;tp;iy; cheng;rh,ru;vn;	0
+推力球轴承	tui;ja;ff; li;uu;vp; qiu;ah;wq; zhou;tp;iy; cheng;rh,ru;vn;	0
+托辊	tuo;ja,jr;fq; gun;ta;ib;	0
+拖链	tuo;jr;fy; lian;dq;jz;	1
+弯管器	wan;ir;wg; guan;nd;vk; qi;oo;kk;	1
+弯嘴钳	wan;ir;wg; zui;op;ky; qian;dv;jg;	0
+涡卷弹簧	wo;ke;dn; juan;ft;jv; tan;rs;gl; huang;nf;vb;	0
+五金工具代理	wu;gg;aa; jin;ed,ef;ra; gong;pp;aa; ju;pf;qb; dai;xa,xh;ry; li;ag;wl;	0
+五金工具加工	wu;gg;aa; jin;ed,ef;ra; gong;pp;aa; ju;pf;qb; jia;uo;lk; gong;pp;aa;	0
+五金工具项目合作	wu;gg;aa; jin;ed,ef;ra; gong;pp;aa; ju;pf;qb; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+五金配附件	wu;gg;aa; jin;ed,ef;ra; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+橡胶模	xiang;wh;mn; jiao;ly;ox; mo;wx;md;	0
+向心滚子轴承	xiang;uo;pk; xin;nn;dd; gun;kh;dy; zi;aa;va; zhou;tp;iy; cheng;rh,ru;vn;	0
+向心球轴承	xiang;uo;pk; xin;nn;dd; qiu;ah;wq; zhou;tp;iy; cheng;rh,ru;vn;	0
+斜嘴钳	xie;es,eh;ru; zui;op;ky; qian;dv;jg;	0
+型扳手	xing;ug;kt; ban;jl;fy; shou;up;pl;	2
+型材切割机	xing;ug;kt; cai;wu;mc; qie;ai,au;qd; ge;ii;bd; ji;wi;mj;	0
+鸭嘴钳	ya;vc;jn; zui;op;ky; qian;dv;jg;	2
+页轮	ye;dm;ar; lun;ta;ib;	0
+页片	ye;dm;ar; pian;ii,ur;pv;	13
+液压管件	ye;kh;dn; ya;rh;id; guan;nd;vk; jian;xb;rn;	0
+液压接头	ye;kh;dn; ya;rh;id; jie;jy;fn; tou;hx;dd;	0
+野营刀具	ye;vp;ll; ying;zo;ck; dao;ii,ru;vp; ju;pf;qb;	0
+乙炔发生器	yi;rr;vv; que;tx,te;hg; fa;rh,rl;vd; sheng;eg;pf; qi;oo;kk;	1
+异形锉	yi;tp,tz;sc; xing;uu;kp; cuo;dg;jt;	0
+一字螺丝刀	yi;dd;aa; zi;ia;bz; luo;ff;ix; si;ee,rd;va; dao;ii,ru;vp;	8
+圆盘刷	yuan;nm;kr; pan;td,ta;vm; shua;qi;ud;	0
+圆嘴钳	yuan;nm;kr; zui;op;ky; qian;dv;jg;	0
+直线运动轴承	zhi;sd,su;uq; xian;ea;sj; yun;uq;zs; dong;uu;el; zhou;tp;iy; cheng;rh,ru;vn;	0
+轴承附属件	zhou;tp;iy; cheng;rh,ru;vn; fu;bk,bw;ec; shu;qh;uy; jian;xb;rn;	0
+轴承加工	zhou;tp;iy; cheng;rh,ru;vn; jia;uo;lk; gong;pp;aa;	0
+轴类加工	zhou;tp;iy; lei;lx;md; jia;uo;lk; gong;pp;aa;	0
+铸造模	zhu;dk;jc; zao;bq;zk; mu;wx;md;	0
+抓钩	zhua;jh;fv; gou;dp;js;	76
+装配电动工具	zhuang;lk;dy; pei;pt;yj; dian;ee,ve;lv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+装配类气动工具	zhuang;lk;dy; pei;pt;yj; lei;lx;md; qi;ss;pv; dong;uu;el; gong;pp;aa; ju;pf;qb;	0
+组合扳手	zu;eu;sq; he;eo;rk; ban;jl;fy; shou;up;pl;	0
+组合工具	zu;eu;sq; he;eo;rk; gong;pp;aa; ju;pf;qb;	0
+组合螺丝刀	zu;eu;sq; he;eo;rk; luo;ff;ix; si;ee,rd;va; dao;ii,ru;vp;	0
+钻套	zuan;do;jk; tao;xp,xh;ds;	18
+座钻	zuo;rg;gt; zuan;do;jk;	0
+伴热设备	ban;xp,xs;rb; re;jn;fh; she;cl;yy; bei;jw;wt;	0
+波段开关	bo;kl;dy; duan;ul;py; kai;dz,dp,up;ac; guan;fx;bt;	0
+触控产品	chu;gf;di; kong;jp;fg; chan;bu,br,ir;lp; pin;oo;kk;	0
+船型开关	chuan;to;vk; xing;ug;kt; kai;dz,dp,up;ac; guan;fx;bt;	0
+伺服定位系统	ci;xo;rk; fu;ll;oy; ding;ie;br; wei;xb;rl; xi;uf;px; tong;ek;se;	0
+倒顺开关	dao;xi;rd; shun;um;ir; kai;dz,dp,up;ac; guan;fx;bt;	1
+低压接触器	di;xh;rd; ya;rh;id; jie;jy;fn; chu;gf;di; qi;oo;kk;	0
+低压开关柜	di;xh;rd; ya;rh;id; kai;dz,dp,up;ac; guan;fx;bt; gui;wr;mj;	26
+低压控制器	di;xh;rd; ya;rh;id; kong;jp;fg; zhi;bi;pd; qi;oo;kk;	0
+低压熔断器	di;xh;rd; ya;rh;id; rong;to;hk; duan;lp;mj; qi;oo;kk;	0
+电池充电器	dian;ee,ve;lv; chi;kr;dy; chong;ik;we; dian;ee,ve;lv; qi;oo;kk;	10
+电动车充电器	dian;ee,ve;lv; dong;uu;el; che;tt;al; chong;ik;we; dian;ee,ve;lv; qi;oo;kk;	23
+电动车用电动机	dian;ee,ve;lv; dong;uu;el; che;tt;al; yong;lp;kl; dian;ee,ve;lv; dong;uu;el; ji;wi;mj;	0
+电动工具开关	dian;ee,ve;lv; dong;uu;el; gong;pp;aa; ju;pf;qb; kai;dz,dp,up;ac; guan;fx;bt;	0
+电动工具用电动机	dian;ee,ve;lv; dong;uu;el; gong;pp;aa; ju;pf;qb; yong;lp;kl; dian;ee,ve;lv; dong;uu;el; ji;wi;mj;	0
+电动机保护器	dian;ee,ve;lv; dong;uu;el; ji;wi;mj; bao;xw;rm; hu;jq;fh; qi;oo;kk;	1
+电工电气产品代理	dian;ee,ve;lv; gong;pp;aa; dian;ee,ve;lv; qi;ss;pv; chan;bu,br,ir;lp; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+电工电气产品加工	dian;ee,ve;lv; gong;pp;aa; dian;ee,ve;lv; qi;ss;pv; chan;bu,br,ir;lp; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+电工电气项目合作	dian;ee,ve;lv; gong;pp;aa; dian;ee,ve;lv; qi;ss;pv; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+电工设备	dian;ee,ve;lv; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+电缆连接器	dian;ee,ve;lv; lan;ek,er;se; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+电脑连接器	dian;ee,ve;lv; nao;lp,ly;ok; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+电气设备用电缆	dian;ee,ve;lv; qi;ss;pv; she;cl;yy; bei;jw;wt; yong;lp;kl; dian;ee,ve;lv; lan;ek,er;se;	0
+电热带	dian;ee,ve;lv; re;jn;fh; dai;zy;fj;	0
+电热盘	dian;ee,ve;lv; re;jn;fh; pan;td,ta;vm;	8
+电热片	dian;ee,ve;lv; re;jn;fh; pian;ii,ur;pv;	0
+电热圈	dian;ee,ve;lv; re;jn;fh; quan;nt;kv;	0
+电热设备	dian;ee,ve;lv; re;jn;fh; she;cl;yy; bei;jw;wt;	0
+电热线	dian;ee,ve;lv; re;jn;fh; xian;ea;sj;	1
+电源连接器	dian;ee,ve;lv; yuan;kf;dx; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+电子工业用助剂	dian;ee,ve;lv; zi;aa;va; gong;pp;aa; ye;pd,hd;la; yong;lp;kl; zhu;pu;ql; ji;ji;wd;	0
+端子台	duan;be;le; zi;aa;va; tai;po;sk;	0
+二手电工电气产品	er;uu;aa; shou;up;pl; dian;ee,ve;lv; gong;pp;aa; dian;ee,ve;lv; qi;ss;pv; chan;bu,br,ir;lp; pin;oo;kk;	0
+发热盘	fa;rh,rl;vd; re;jn;fh; pan;td,ta;vm;	35
+发热芯	fa;rh,rl;vd; re;jn;fh; xin;zn;cx;	0
+浮球开关	fu;ka;dz; qiu;ah;wq; kai;dz,dp,up;ac; guan;fx;bt;	1
+高压成套电器	gao;io;wk; ya;rh;id; cheng;rh;wv; tao;xp,xh;ds; dian;ee,ve;lv; qi;oo;kk;	0
+高压断路器	gao;io;wk; ya;rh;id; duan;lp;mj; lu;go;zk; qi;oo;kk;	6
+高压接触器	gao;io;wk; ya;rh;id; jie;jy;fn; chu;gf;di; qi;oo;kk;	0
+高压开关柜	gao;io;wk; ya;rh;id; kai;dz,dp,up;ac; guan;fx;bt; gui;wr;mj;	3
+高压熔断器	gao;io;wk; ya;rh;id; rong;to;hk; duan;lp;mj; qi;oo;kk;	0
+工控系统及装备	gong;pp;aa; kong;jp;fg; xi;uf;px; tong;ek;se; ji;uh,rh;pn; zhuang;lk;dy; bei;jw;wt;	0
+工业电气	gong;pp;aa; ye;pd,hd;la; dian;ee,ve;lv; qi;ss;pv;	1
+工业烤箱	gong;pp;aa; ye;pd,hd;la; kao;tr;hv; xiang;ns;vo;	0
+光电开关	guang;hk;xw; dian;ee,ve;lv; kai;dz,dp,up;ac; guan;fx;bt;	0
+硅碳棒	gui;tg;ut; tan;tt;uh; bang;wp;ml;	0
+机械设备用电动机	ji;wi;mj; xie;wa,wz,wp,wh;mc; she;cl;yy; bei;jw;wt; yong;lp;kl; dian;ee,ve;lv; dong;uu;el; ji;wi;mj;	0
+家电用电动机	jia;ih;bu; dian;ee,ve;lv; yong;lp;kl; dian;ee,ve;lv; dong;uu;el; ji;wi;mj;	0
+接线座	jie;jy;fn; xian;ea;sj; zuo;rg;gt;	0
+矩形连接器	ju;er;uj; xing;uu;kp; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+绝缘导线	jue;et;sb; yuan;eh;su; dao;tk;sc; xian;ea;sj;	15
+库存电工电气产品	ku;rt;gi; cun;sa,da;uz; dian;ee,ve;lv; gong;pp;aa; dian;ee,ve;lv; qi;ss;pv; chan;bu,br,ir;lp; pin;oo;kk;	0
+流量开关	liu;kr;dv; liang;vg;ol; kai;dz,dp,up;ac; guan;fx;bt;	1
+裸电线	luo;hw;pg; dian;ee,ve;lv; xian;ea;sj;	0
+钮子开关	niu;dg;ji; zi;aa;va; kai;dz,dp,up;ac; guan;fx;bt;	0
+排母	pai;ju,jp;ff; mu;rh;vd;	0
+排针	pai;ju,jp;ff; zhen;ds;ju;	7
+汽车连接器	qi;ks;dq; che;tt;al; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+起动器	qi;qt,gt;tj; dong;uu;el; qi;oo;kk;	2
+其他充电器	qi;vf;qb; ta;xr;ry; chong;ik;we; dian;ee,ve;lv; qi;oo;kk;	0
+其他低压电器	qi;vf;qb; ta;xr;ry; di;xh;rd; ya;rh;id; dian;ee,ve;lv; qi;oo;kk;	0
+其他电动机	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; dong;uu;el; ji;wi;mj;	0
+其他电热设备	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; re;jn;fh; she;cl;yy; bei;jw;wt;	0
+其他电线	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; xian;ea;sj;	7
+其他高压电器	qi;vf;qb; ta;xr;ry; gao;io;wk; ya;rh;id; dian;ee,ve;lv; qi;oo;kk;	0
+其他工控系统及装备	qi;vf;qb; ta;xr;ry; gong;pp;aa; kong;jp;fg; xi;uf;px; tong;ek;se; ji;uh,rh;pn; zhuang;lk;dy; bei;jw;wt;	0
+其他开关	qi;vf;qb; ta;xr;ry; kai;dz,dp,up;ac; guan;fx;bt;	0
+其他连接器	qi;vf;qb; ta;xr;ry; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+墙壁开关	qiang;go,gd;tk; bi;qg;ut; kai;dz,dp,up;ac; guan;fx;bt;	34
+熔锡炉	rong;to;hk; xi;di,du;jw; lu;tq;hh;	0
+射频同轴连接器	she;uk;uc; pin;rm;vr; tong;oo;kk; zhou;tp;iy; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+视频连接器	shi;hk,hr;pe; pin;rm;vr; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+实验电炉	shi;ix;bd; yan;zd;ma; dian;ee,ve;lv; lu;tq;hh;	0
+特殊电机	te;bk;nc; shu;fe;dv; dian;ee,ve;lv; ji;wi;mj;	0
+调速开关	tiao;co;yk; su;dq;zu; kai;dz,dp,up;ac; guan;fx;bt;	0
+条形连接器	tiao;jf;wm; xing;uu;kp; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+微型电动机	wei;hj;iw; xing;ug;kt; dian;ee,ve;lv; dong;uu;el; ji;wi;mj;	0
+压力开关	ya;rh;id; li;uu;vp; kai;dz,dp,up;ac; guan;fx;bt;	3
+印刷板连接器	yin;ub;pe; shua;qi;ud; ban;wl;my; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+应急充电器	ying;rd;ga; ji;gn;dx; chong;ik;we; dian;ee,ve;lv; qi;oo;kk;	1
+圆形连接器	yuan;nm;kr; xing;uu;kp; lian;tq;zi; jie;jy;fn; qi;oo;kk;	0
+振动盘	zhen;jh;fn; dong;uu;el; pan;td,ta;vm;	1
+主令电器	zhu;ig,ha;dw; ling;ep,eh;rs; dian;ee,ve;lv; qi;oo;kk;	0
+按摩用品	an;jy;fn; mo;do,dp,rp;gu; yong;lp;kl; pin;oo;kk;	1
+办公沙发	ban;uf;ld; gong;fp;bs; sha;ku;du; fa;rh,rl;vd;	2
+办公台	ban;uf;ld; gong;fp;bs; tai;po;sk;	1
+抱带	bao;jt;fs; dai;zy;fj;	0
+保温壶	bao;xw;rm; wen;kd,ka;dm; hu;gd;uy;	63
+保温容器	bao;xw;rm; wen;kd,ka;dm; rong;io;bk; qi;oo;kk;	2
+彩妆化学品	cai;hu;pp; zhuang;ly;dn; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+餐具附件	can;ph;ll; ju;pf;qb; fu;bk,bw;ec; jian;xb;rn;	0
+餐厅家具	can;ph;ll; ting;rj;id; jia;ih;bu; ju;pf;qb;	7
+厕所刷	ce;ri;id; suo;up;pj; shua;qi;ud;	2
+厨房清洁剂	chu;rk;ic; fang;qf;hf; qing;kl;do; jie;ko;dk; ji;ji;wd;	2
+除毛	chu;bf;eh; mao;ur,ua;pv;	26
+炊具配件	chui;te;hr; ju;pf;qb; pei;pt;yj; jian;xb;rn;	0
+打火机及烟具	da;jj;fd; huo;tt;dr; ji;wi;mj; ji;uh,rh;pn; yan;tx;hd; ju;pf;qb;	0
+打火机配件	da;jj;fd; huo;tt;dr; ji;wi;mj; pei;pt;yj; jian;xb;rn;	0
+地柜	di;gr,ga;ty; gui;wr;mj;	188
+电灶具	dian;ee,ve;lv; zao;tg;ht; ju;pf;qb;	0
+定型水	ding;ie;br; xing;ug;kt; shui;oo;ln;	1
+儿童护肤品	er;kk;pv; tong;bg;ll; hu;jq;fh; fu;le;of; pin;oo;kk;	0
+儿童家具	er;kk;pv; tong;bg;ll; jia;ih;bu; ju;pf;qb;	99
+防蛀用品	fang;bf;ef; zhu;fa,fg;iv; yong;lp;kl; pin;oo;kk;	0
+缝纫编织	feng;eq;sz; ren;eh;sr; bian;ej,ed;sc; zhi;ef;sb;	0
+丰胸化学品	feng;aa;al; xiong;lp,ly;ok; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+个人护理用具	ge;ep;rl; ren;ee;pn; hu;jq;fh; li;ag;wl; yong;lp;kl; ju;pf;qb;	0
+公共场所家具	gong;fp;bs; gong;zf;cb; chang;gu;tp; suo;up;pj; jia;ih;bu; ju;pf;qb;	0
+锅刷	guo;de;jn; shua;qi;ud;	16
+护肤膏霜	hu;jq;fh; fu;le;of; gao;il;wo; shuang;ys;yo;	0
+护肤乳液	hu;jq;fh; fu;le;of; ru;hr;pv; ye;kh;dn;	3
+会客椅	hui;ep;rs; ke;io;bk; yi;wj,wo;mk;	0
+家具配件附件	jia;ih;bu; ju;pf;qb; pei;pt;yj; jian;xb;rn; fu;bk,bw;ec; jian;xb;rn;	0
+家居清洗用品	jia;ih;bu; ju;qo;uk; qing;kl;do; xi;kk;de; yong;lp;kl; pin;oo;kk;	0
+家居用品代理	jia;ih;bu; ju;qo;uk; yong;lp;kl; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+家居用品加工	jia;ih;bu; ju;qo;uk; yong;lp;kl; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+家居用品项目合作	jia;ih;bu; ju;qo;uk; yong;lp;kl; pin;oo;kk; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+家用玻璃制品	jia;ih;bu; yong;lp;kl; bo;al;wy; li;ah,ap;wd; zhi;bi;pd; pin;oo;kk;	0
+家用衡器	jia;ih;bu; yong;lp;kl; heng;hj,hp;ii; qi;oo;kk;	0
+家用金属制品	jia;ih;bu; yong;lp;kl; jin;ed,ef;ra; shu;qh;uy; zhi;bi;pd; pin;oo;kk;	0
+家用陶瓷	jia;ih;bu; yong;lp;kl; tao;bp;ef; ci;fh;dw;	0
+家用竹	jia;ih;bu; yong;lp;kl; zhu;nn;gg,pl;	0
+金属打火机	jin;ed,ef;ra; shu;qh;uy; da;jj;fd; huo;tt;dr; ji;wi;mj;	0
+揩布	kai;js;fb; bu;sy,dy;uj;	0
+客厅茶几	ke;io;bk; ting;rj;id; cha;zf;cm; ji;ii;pv;	22
+口腔清爽剂	kou;oo;la; qiang;lp;og; qing;kl;do; shuang;xy,de,dy;an,dx; ji;ji;wd;	0
+口腔用化学品	kou;oo;la; qiang;lp;og; yong;lp;kl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+口腔用具	kou;oo;la; qiang;lp;og; yong;lp;kl; ju;pf;qb;	0
+库存家居用品	ku;rt;gi; cun;sa,da;uz; jia;ih;bu; ju;qo;uk; yong;lp;kl; pin;oo;kk;	0
+毛发用化学品	mao;ur,ua;pv; fa;rh,rl;vd; yong;lp;kl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+美容材料及用具	mei;fx;yd; rong;io;bk; cai;wu;mc; liao;ls,lh;mu; ji;uh,rh;pn; yong;lp;kl; ju;pf;qb;	0
+美容仪器	mei;fx;yd; rong;io;bk; yi;xy,xh;ry; qi;oo;kk;	36
+门厅家具	men;oo;dv; ting;rj;id; jia;ih;bu; ju;pf;qb;	1
+内嵌式燃气灶具	nei;oe;ld; qian;pe;er; shi;dh,ha,ap;yg; ran;tn;hh; qi;ss;pv; zao;tg;ht; ju;pf;qb;	0
+尿垫	niao;qo;uu; dian;jg;ft;	16
+皮肤用化学品	pi;rl;vy; fu;le;of; yong;lp;kl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+瓶刷	ping;fh;bw; shua;qi;ud;	1
+平台式燃气灶具	ping;ds,sf;au; tai;po;sk; shi;dh,ha,ap;yg; ran;tn;hh; qi;ss;pv; zao;tg;ht; ju;pf;qb;	0
+其他办公家具	qi;vf;qb; ta;xr;ry; ban;uf;ld; gong;fp;bs; jia;ih;bu; ju;pf;qb;	1
+其他保温容器	qi;vf;qb; ta;xr;ry; bao;xw;rm; wen;kd,ka;dm; rong;io;bk; qi;oo;kk;	0
+其他彩妆化学品	qi;vf;qb; ta;xr;ry; cai;hu;pp; zhuang;ly;dn; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+其他餐具	qi;vf;qb; ta;xr;ry; can;ph;ll; ju;pf;qb;	1
+其他餐厅家具	qi;vf;qb; ta;xr;ry; can;ph;ll; ting;rj;id; jia;ih;bu; ju;pf;qb;	0
+其他厨房用纺织品	qi;vf;qb; ta;xr;ry; chu;rk;ic; fang;qf;hf; yong;lp;kl; fang;ef;sf; zhi;ef;sb; pin;oo;kk;	0
+其他厨具	qi;vf;qb; ta;xr;ry; chu;rk;ic; ju;pf;qb;	7
+其他床上用品	qi;vf;qb; ta;xr;ry; chuang;rw;gm; shang;pd,pu;la; yong;lp;kl; pin;oo;kk;	0
+其他炊具	qi;vf;qb; ta;xr;ry; chui;te;hr; ju;pf;qb;	0
+其他打火机及烟具	qi;vf;qb; ta;xr;ry; da;jj;fd; huo;tt;dr; ji;wi;mj; ji;uh,rh;pn; yan;tx;hd; ju;pf;qb;	0
+其他儿童家具	qi;vf;qb; ta;xr;ry; er;kk;pv; tong;bg;ll; jia;ih;bu; ju;pf;qb;	0
+其他芳香除臭化学品	qi;vf;qb; ta;xr;ry; fang;zf;cf; xiang;uv;ho; chu;bf;eh; chou;sb,sh;zq; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+其他个人护理用具	qi;vf;qb; ta;xr;ry; ge;ep;rl; ren;ee;pn; hu;jq;fh; li;ag;wl; yong;lp;kl; ju;pf;qb;	0
+其他家居清洗用品	qi;vf;qb; ta;xr;ry; jia;ih;bu; ju;qo;uk; qing;kl;do; xi;kk;de; yong;lp;kl; pin;oo;kk;	0
+其他客厅家具	qi;vf;qb; ta;xr;ry; ke;io;bk; ting;rj;id; jia;ih;bu; ju;pf;qb;	0
+其他口腔用化学品	qi;vf;qb; ta;xr;ry; kou;oo;la; qiang;lp;og; yong;lp;kl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+其他毛发用化学品	qi;vf;qb; ta;xr;ry; mao;ur,ua;pv; fa;rh,rl;vd; yong;lp;kl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+其他门厅家具	qi;vf;qb; ta;xr;ry; men;oo;dv; ting;rj;id; jia;ih;bu; ju;pf;qb;	0
+其他皮肤用化学品	qi;vf;qb; ta;xr;ry; pi;rl;vy; fu;le;of; yong;lp;kl; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+其他清洁用具	qi;vf;qb; ta;xr;ry; qing;kl;do; jie;ko;dk; yong;lp;kl; ju;pf;qb;	0
+其他驱虫灭害化学品	qi;vf;qb; ta;xr;ry; qu;zr;mx; chong;ff;vd; mie;dt;ah; hai;io;bk; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+其他卧室家具	qi;vf;qb; ta;xr;ry; wo;dh;ib; shi;ig;bt; jia;ih;bu; ju;pf;qb;	1
+其他箱包	qi;vf;qb; ta;xr;ry; xiang;ns;vo; bao;ut;bs;	0
+其他学校家具	qi;vf;qb; ta;xr;ry; xue;ha;xz; xiao;wy;mx; jia;ih;bu; ju;pf;qb;	0
+其他婴儿用品	qi;vf;qb; ta;xr;ry; ying;my;kn; er;kk;pv; yong;lp;kl; pin;oo;kk;	0
+其他雨具	qi;vf;qb; ta;xr;ry; yu;yy;ad; ju;pf;qb;	0
+其他灶具	qi;vf;qb; ta;xr;ry; zao;tg;ht; ju;pf;qb;	0
+其他装饰用纺织品	qi;vf;qb; ta;xr;ry; zhuang;lk;dy; shi;gy;uj; yong;lp;kl; fang;ef;sf; zhi;ef;sb; pin;oo;kk;	0
+驱虫灭害化学品	qu;zr;mx; chong;ff;vd; mie;dt;ah; hai;io;bk; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+祛臭液	qu;hp;ps; chou;sb,sh;zq; ye;kh;dn;	0
+驱蚊用品	qu;zr;mx; wen;fj;iw; yong;lp;kl; pin;oo;kk;	4
+驱蝇用品	qu;zr;mx; ying;fe,fr;id; yong;lp;kl; pin;oo;kk;	0
+日化用品	ri;vv;ka; hua;xa;rb; yong;lp;kl; pin;oo;kk;	48
+乳房护理	ru;hr;pv; fang;qf;hf; hu;jq;fh; li;ag;wl;	0
+伞附属品	san;es;ru; fu;bk,bw;ec; shu;qh;uy; pin;oo;kk;	0
+杀鼠用品	sha;yf;xm; shu;sr;jv; yong;lp;kl; pin;oo;kk;	0
+杀蟑用品	sha;yf;xm; zhang;fs;iu; yong;lp;kl; pin;oo;kk;	0
+食堂餐桌椅	shi;eh;rl; tang;hg;xt; can;ph;ll; zhuo;pw;lm; yi;wj,wo;mk;	0
+视听柜	shi;hk,hr;pe; ting;op;kj; gui;wr;mj;	1
+瘦身化学品	shou;ml;by; shen;uu;pp; hua;xa;rb; xue;ha;xz; pin;oo;kk;	0
+书房家具	shu;rh;vd; fang;qf;hf; jia;ih;bu; ju;pf;qb;	4
+塑料打火机	su;fg;bt; liao;ls,lh;mu; da;jj;fd; huo;tt;dr; ji;wi;mj;	5
+烫发剂	tang;kt;dh; fa;rh,rl;vd; ji;ji;wd;	8
+剃须膏	ti;fi;bd; xu;um;pr; gao;il;wo;	96
+童椅	tong;bg;ll; yi;wj,wo;mk;	3
+童桌	tong;bg;ll; zhuo;pw;lm;	0
+头发护理	tou;hx;dd; fa;rh,rl;vd; hu;jq;fh; li;ag;wl;	36
+围兜	wei;np;kw; dou;uk;pe;	17
+卫生间清洁剂	wei;bd,rd;ea,va; sheng;eg;pf; jian;ov;mo; qing;kl;do; jie;ko;dk; ji;ji;wd;	0
+卫浴用具	wei;bd,rd;ea,va; yu;ko;dk; yong;lp;kl; ju;pf;qb;	4
+西餐刀叉	xi;pp;aa; can;ph;ll; dao;ii,ru;vp; cha;lh;yd;	4
+洗衣刷	xi;kk;de; yi;kk;wy; shua;qi;ud;	0
+箱包配件	xiang;ns;vo; bao;ut;bs; pei;pt;yj; jian;xb;rn;	0
+鞋套机	xie;vg;gt; tao;xp,xh;ds; ji;wi;mj;	3
+学生床	xue;ha;xz; sheng;eg;pf; chuang;rw;gm;	0
+学校家具	xue;ha;xz; xiao;wy;mx; jia;ih;bu; ju;pf;qb;	0
+烟灰缸袋	yan;tx;hd; hui;dt,st;uh; gang;ep;fg; dai;xk;ry;	0
+衣帽刷	yi;kk;wy; mao;ys;jo; shua;qi;ud;	0
+衣物柔顺剂	yi;kk;wy; wu;bi,bu;nw; rou;pw;sm; shun;um;ir; ji;ji;wd;	4
+婴儿睡袋	ying;my;kn; er;kk;pv; shui;sg;oi; dai;xk;ry;	14
+浴缸刷	yu;ko;dk; gang;ep;fg; shua;qi;ud;	0
+阅览室桌椅	yue;ok;me; lan;pk,pr;le; shi;ig;bt; zhuo;pw;lm; yi;wj,wo;mk;	0
+灶具配件	zao;tg;ht; ju;pf;qb; pei;pt;yj; jian;xb;rn;	0
+指甲修护	zhi;jv;fo; jia;vp;ll; xiu;xu;rp; hu;jq;fh;	0
+职员椅	zhi;df;eb; yuan;om;kr; yi;wj,wo;mk;	2
+组合产品	zu;eu;sq; he;eo;rk; chan;bu,br,ir;lp; pin;oo;kk;	0
+坐具套	zuo;eg;rt; ju;pf;qb; tao;xp,xh;ds;	0
+安全相关软件	an;iy;bn; quan;ea;rw; xiang;ws;mo; guan;fx;bt; ruan;te;ir; jian;xb;rn;	1
+编程开发软件	bian;ej,ed;sc; cheng;ua;hw; kai;dz,dp,up;ac; fa;rh,rl;vd; ruan;te;ir; jian;xb;rn;	2
+便携式碟机	bian;xy;rg; xie;ju;fn; shi;dh,ha,ap;yg; die;tw;um; ji;wi;mj;	0
+财务管理软件	cai;mu;kc; wu;ju;wl; guan;nd;vk; li;ag;wl; ruan;te;ir; jian;xb;rn;	8
+插卡类	cha;js;fj; ka;ph;ub; lei;lx;md;	0
+打印机耗材	da;jj;fd; yin;ub;pe; ji;wi;mj; hao;ar,aa;lm; cai;wu;mc;	7
+打印机配件	da;jj;fd; yin;ub;pe; ji;wi;mj; pei;pt;yj; jian;xb;rn;	0
+等离子显示器	deng;nk;vc; li;ih,ip;wd; zi;aa;va; xian;vd;oy; shi;uf;ex; qi;oo;kk;	1
+电脑产品代理	dian;ee,ve;lv; nao;lp,ly;ok; chan;bu,br,ir;lp; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+电脑产品加工	dian;ee,ve;lv; nao;lp,ly;ok; chan;bu,br,ir;lp; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+电脑产品制造设备	dian;ee,ve;lv; nao;lp,ly;ok; chan;bu,br,ir;lp; pin;oo;kk; zhi;bi;pd; zao;bq;zk; she;cl;yy; bei;jw;wt;	0
+电脑读卡器	dian;ee,ve;lv; nao;lp,ly;ok; du;ce,cx;yd; ka;ph;ub; qi;oo;kk;	0
+电脑加密锁	dian;ee,ve;lv; nao;lp,ly;ok; jia;uo;lk; mi;ip;be; suo;dm;jr;	0
+电脑相关用品	dian;ee,ve;lv; nao;lp,ly;ok; xiang;ws;mo; guan;fx;bt; yong;lp;kl; pin;oo;kk;	0
+电脑项目合作	dian;ee,ve;lv; nao;lp,ly;ok; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+电脑用品及外设	dian;ee,ve;lv; nao;lp,ly;ok; yong;lp;kl; pin;oo;kk; ji;uh,rh;pn; wai;fh;xb; she;cl;yy;	0
+电脑游戏周边产品	dian;ee,ve;lv; nao;lp,ly;ok; you;ka;dz; xi;la,lh;yg; zhou;oo,uo;kk; bian;uq;zl; chan;bu,br,ir;lp; pin;oo;kk;	0
+二手电脑及配件	er;uu;aa; shou;up;pl; dian;ee,ve;lv; nao;lp,ly;ok; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+二手电子加工设备	er;uu;aa; shou;up;pl; dian;ee,ve;lv; zi;aa;va; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+防辐用品	fang;bf;ef; fu;tw;it; yong;lp;kl; pin;oo;kk;	0
+工控电脑产品	gong;pp;aa; kong;jp;fg; dian;ee,ve;lv; nao;lp,ly;ok; chan;bu,br,ir;lp; pin;oo;kk;	0
+光纤设备	guang;hk;xw; xian;em,es;sq; she;cl;yy; bei;jw;wt;	1
+轨迹球鼠标	gui;tr;ij; ji;iq;zd; qiu;ah;wq; shu;sr;jv; biao;wf;mx;	4
+行业专用软件	hang;hj,hp;ii; ye;pd,hd;la; zhuan;uh;ad; yong;lp;kl; ruan;te;ir; jian;xb;rn;	0
+绘图机	hui;ep;ss; tu;nh;kd; ji;wi;mj;	0
+机械鼠标	ji;wi;mj; xie;wa,wz,wp,wh;mc; shu;sr;jv; biao;wf;mx;	5
+教育教学软件	jiao;gj;lw; yu;il;wo; jiao;gj;lw; xue;ha;xz; ruan;te;ir; jian;xb;rn;	0
+客户管理软件	ke;io;bk; hu;qq;du; guan;nd;vk; li;ag;wl; ruan;te;ir; jian;xb;rn;	7
+刻字机	ke;ii;wd; zi;ia;bz; ji;wi;mj;	0
+库存电脑产品	ku;rt;gi; cun;sa,da;uz; dian;ee,ve;lv; nao;lp,ly;ok; chan;bu,br,ir;lp; pin;oo;kk;	0
+墨盒水	mo;ng;ht; he;ed,ea;rm; shui;oo;ln;	0
+其他插卡类	qi;vf;qb; ta;xr;ry; cha;js;fj; ka;ph;ub; lei;lx;md;	0
+其他打印机	qi;vf;qb; ta;xr;ry; da;jj;fd; yin;ub;pe; ji;wi;mj;	0
+其他打印机耗材	qi;vf;qb; ta;xr;ry; da;jj;fd; yin;ub;pe; ji;wi;mj; hao;ar,aa;lm; cai;wu;mc;	0
+其他电脑相关用品	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; nao;lp,ly;ok; xiang;ws;mo; guan;fx;bt; yong;lp;kl; pin;oo;kk;	0
+其他工具软件	qi;vf;qb; ta;xr;ry; gong;pp;aa; ju;pf;qb; ruan;te;ir; jian;xb;rn;	0
+其他管理软件	qi;vf;qb; ta;xr;ry; guan;nd;vk; li;ag;wl; ruan;te;ir; jian;xb;rn;	1
+其他光盘	qi;vf;qb; ta;xr;ry; guang;hk;xw; pan;td,ta;vm;	0
+其他驱动器	qi;vf;qb; ta;xr;ry; qu;zr;mx; dong;uu;el; qi;oo;kk;	0
+其他鼠标	qi;vf;qb; ta;xr;ry; shu;sr;jv; biao;wf;mx;	0
+其他网络设备	qi;vf;qb; ta;xr;ry; wang;oy;kx; luo;er,eo;sk; she;cl;yy; bei;jw;wt;	1
+其他显示器	qi;vf;qb; ta;xr;ry; xian;vd;oy; shi;uf;ex; qi;oo;kk;	0
+其他移动存储	qi;vf;qb; ta;xr;ry; yi;uf;hx; dong;uu;el; cun;sa,da;uz; chu;xv;ro;	0
+企业管理软件	qi;er;rv; ye;pd,hd;la; guan;nd;vk; li;ag;wl; ruan;te;ir; jian;xb;rn;	36
+热转印机	re;jn;fh; zhuan;th;iv; yin;ub;pe; ji;wi;mj;	0
+软件代理	ruan;te;ir; jian;xb;rn; dai;xa,xh;ry; li;ag;wl;	0
+视保屏	shi;hk,hr;pe; bao;xw;rm; ping;qp,qz;uk;	0
+视讯会议系统	shi;hk,hr;pe; xun;cs;yu; hui;ep;rs; yi;ch,cy;yy; xi;uf;px; tong;ek;se;	0
+数码录音笔	shu;lj;mw; ma;tz;um; lu;so,sf;eu; yin;cc,bv;lo; bi;nr,na;vm;	2
+数码配件	shu;lj;mw; ma;tz;um; pei;pt;yj; jian;xb;rn;	21
+数码摄像头	shu;lj;mw; ma;tz;um; she;jl;fy; xiang;xh;rn; tou;hx;dd;	1
+条码设备	tiao;jf;wm; ma;tz;um; she;cl;yy; bei;jw;wt;	0
+图文处理软件	tu;nh;kd; wen;jj;wx; chu;jh,uh;wb; li;ag;wl; ruan;te;ir; jian;xb;rn;	0
+网络工具软件	wang;oy;kx; luo;er,eo;sk; gong;pp;aa; ju;pf;qb; ruan;te;ir; jian;xb;rn;	0
+文件管理软件	wen;jj;wx; jian;xb;rn; guan;nd;vk; li;ag;wl; ruan;te;ir; jian;xb;rn;	16
+信息技术项目合作	xin;xo,xc;rk; xi;sn;zx; ji;jl;fy; shu;wh;md; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+游戏娱乐软件	you;ka;dz; xi;la,lh;yg; yu;yx;nt; le;uf;pd; ruan;te;ir; jian;xb;rn;	0
+编辑控制器	bian;ej,ed;sc; ji;tu;ie; kong;jp;fg; zhi;bi;pd; qi;oo;kk;	0
+编辑制作设备	bian;ej,ed;sc; ji;tu;ie; zhi;bi;pd; zuo;xu;rv; she;cl;yy; bei;jw;wt;	0
+充气模型	chong;ik;we; qi;ss;pv; mo;wx;md; xing;ug;kt;	1
+冲印彩扩设备	chong;fp;dv; yin;ub;pe; cai;hu;pp; kuo;jr;fg; she;cl;yy; bei;jw;wt;	0
+出版项目合作	chu;pp;vk; ban;ul;py; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+促销台	cu;xg;rr; xiao;dl;jo; tai;po;sk;	0
+灯箱布	deng;tj;hd; xiang;ns;vo; bu;sy,dy;uj;	6
+电影放映设备	dian;ee,ve;lv; ying;vu;op; fang;fj;fw; ying;ve,vx;oy; she;cl;yy; bei;jw;wt;	1
+二手广电设备	er;uu;aa; shou;up;pl; guang;rr;di,wp; dian;ee,ve;lv; she;cl;yy; bei;jw;wt;	0
+放音设备	fang;fj;fw; yin;cc,bv;lo; she;cl;yy; bei;jw;wt;	3
+非线性编辑系统	fei;pu,up;la; xian;ea;sj; xing;ng,na;xu; bian;ej,ed;sc; ji;tu;ie; xi;uf;px; tong;ek;se;	3
+分配系统放大器	fen;fu,fi;bd; pei;pt;yj; xi;uf;px; tong;ek;se; fang;fj;fw; da;xx;un; qi;oo;kk;	0
+分支器	fen;fu,fi;bd; zhi;sl;uy; qi;oo;kk;	1
+广播发射机	guang;rr;di,wp; bo;jw;ft; fa;rh,rl;vd; she;uk;uc; ji;wi;mj;	0
+广电信号分配器	guang;rr;di,wp; dian;ee,ve;lv; xin;xo,xc;rk; hao;or;kv; fen;fu,fi;bd; pei;pt;yj; qi;oo;kk;	0
+广电信号混合器	guang;rr;di,wp; dian;ee,ve;lv; xin;xo,xc;rk; hao;or;kv; hun;ka;db; he;eo;rk; qi;oo;kk;	0
+广电信号解调器	guang;rr;di,wp; dian;ee,ve;lv; xin;xo,xc;rk; hao;or;kv; jie;gb;dn; tiao;co;yk; qi;oo;kk;	0
+广电信号滤波器	guang;rr;di,wp; dian;ee,ve;lv; xin;xo,xc;rk; hao;or;kv; lv;kn;dx; bo;kl;dy; qi;oo;kk;	0
+广电信号调制器	guang;rr;di,wp; dian;ee,ve;lv; xin;xo,xc;rk; hao;or;kv; tiao;co;yk; zhi;bi;pd; qi;oo;kk;	0
+广告旗杆	guang;rr;di,wp; gao;bo;nk; qi;ff;fb; gan;ws;mg;	0
+光学摄像机	guang;hk;xw; xue;ha;xz; she;jl;fy; xiang;xh;rn; ji;wi;mj;	1
+光学相机	guang;hk;xw; xue;ha;xz; xiang;ws;mo; ji;wi;mj;	8
+科学技术类	ke;uh,us;hu; xue;ha;xz; ji;jl;fy; shu;wh;md; lei;lx;md;	3
+空白录像带	kong;ip;bg; bai;ss;po; lu;so,sf;eu; xiang;xh;rn; dai;zy;fj;	2
+空白录音带	kong;ip;bg; bai;ss;po; lu;so,sf;eu; yin;cc,bv;lo; dai;zy;fj;	0
+库存图书	ku;rt;gi; cun;sa,da;uz; tu;nh;kd; shu;rh;vd;	1
+库存音像制品	ku;rt;gi; cun;sa,da;uz; yin;cc,bv;lo; xiang;xh;rn; zhi;bi;pd; pin;oo;kk;	0
+录音设备	lu;so,sf;eu; yin;cc,bv;lo; she;cl;yy; bei;jw;wt;	195
+频道转换器	pin;rm;vr; dao;fq;zz; zhuan;th;iv; huan;jx,je;fd; qi;oo;kk;	0
+其他编辑制作设备	qi;vf;qb; ta;xr;ry; bian;ej,ed;sc; ji;tu;ie; zhi;bi;pd; zuo;xu;rv; she;cl;yy; bei;jw;wt;	0
+其他播出	qi;vf;qb; ta;xr;ry; bo;jw;ft; chu;pp;vk;	0
+其他广告	qi;vf;qb; ta;xr;ry; guang;rr;di,wp; gao;bo;nk;	0
+其他摄像器材	qi;vf;qb; ta;xr;ry; she;jl;fy; xiang;xh;rn; qi;oo;kk; cai;wu;mc;	0
+其他摄影器材	qi;vf;qb; ta;xr;ry; she;jl;fy; ying;vu;op; qi;oo;kk; cai;wu;mc;	0
+其他书籍	qi;vf;qb; ta;xr;ry; shu;rh;vd; ji;nv;vo;	0
+其他舞台设备	qi;vf;qb; ta;xr;ry; wu;ep;pl; tai;po;sk; she;cl;yy; bei;jw;wt;	0
+其他无线微波设备	qi;vf;qb; ta;xr;ry; wu;uk,ur;ay; xian;ea;sj; wei;hj;iw; bo;kl;dy; she;cl;yy; bei;jw;wt;	0
+其他无线卫星设备	qi;vf;qb; ta;xr;ry; wu;uk,ur;ay; xian;ea;sj; wei;bd,rd;ea,va; xing;vg,va;ou; she;cl;yy; bei;jw;wt;	0
+其他音像制品	qi;vf;qb; ta;xr;ry; yin;cc,bv;lo; xiang;xh;rn; zhi;bi;pd; pin;oo;kk;	0
+其他有线光缆设备	qi;vf;qb; ta;xr;ry; you;sl,dl;uo; xian;ea;sj; guang;hk;xw; lan;ek,er;se; she;cl;yy; bei;jw;wt;	0
+其他有线线缆设备	qi;vf;qb; ta;xr;ry; you;sl,dl;uo; xian;ea;sj; xian;ea;sj; lan;ek,er;se; she;cl;yy; bei;jw;wt;	0
+其他专业录音	qi;vf;qb; ta;xr;ry; zhuan;uh;ad; ye;pd,hd;la; lu;so,sf;eu; yin;cc,bv;lo;	0
+前端设备	qian;fi;bd; duan;be;le; she;cl;yy; bei;jw;wt;	18
+社会科学类	she;hg;pt; hui;ep;rs; ke;uh,us;hu; xue;ha;xz; lei;lx;md;	43
+摄录一体机	she;jl;fy; lu;so,sf;eu; yi;dd;aa; ti;xd;rb; ji;wi;mj;	19
+摄像器材	she;jl;fy; xiang;xh;rn; qi;oo;kk; cai;wu;mc;	8
+摄影背景	she;jl;fy; ying;vu;op; bei;ll;lo; jing;vf;ox;	0
+生活时尚类	sheng;eg;pf; huo;ko;dk; shi;vk;oc; shang;ho;xk; lei;lx;md;	0
+实时压缩系统	shi;ix;bd; shi;vk;oc; ya;rh;id; suo;eo,es;sb; xi;uf;px; tong;ek;se;	0
+数字卫星接收机	shu;lj;mw; zi;ia;bz; wei;bd,rd;ea,va; xing;vg,va;ou; jie;jy;fn; shou;rj;vw; ji;wi;mj;	1
+特技机	te;bk;nc; ji;jl;fy; ji;wi;mj;	1
+特技切换台	te;bk;nc; ji;jl;fy; qie;ai,au;qd; huan;jx,je;fd; tai;po;sk;	0
+贴纸相机	tie;mo;kk; zhi;er,eh;su; xiang;ws;mo; ji;wi;mj;	3
+图书代理	tu;nh;kd; shu;rh;vd; dai;xa,xh;ry; li;ag;wl;	0
+卫星接收天线	wei;bd,rd;ea,va; xing;vg,va;ou; jie;jy;fn; shou;rj;vw; tian;ue;ad; xian;ea;sj;	1
+文学艺术类	wen;jj;wx; xue;ha;xz; yi;zr;cv; shu;wh;md; lei;lx;md;	15
+舞台机械	wu;ep;pl; tai;po;sk; ji;wi;mj; xie;wa,wz,wp,wh;mc;	1
+舞台幕布	wu;ep;pl; tai;po;sk; mu;zy;cj; bu;sy,dy;uj;	5
+舞台设备	wu;ep;pl; tai;po;sk; she;cl;yy; bei;jw;wt;	11
+无线微波设备	wu;uk,ur;ay; xian;ea;sj; wei;hj;iw; bo;kl;dy; she;cl;yy; bei;jw;wt;	0
+无线卫星设备	wu;uk,ur;ay; xian;ea;sj; wei;bd,rd;ea,va; xing;vg,va;ou; she;cl;yy; bei;jw;wt;	0
+学习教育类	xue;ha;xz; xi;dd;vd; jiao;gj;lw; yu;il;wo; lei;lx;md;	1
+音像制品代理	yin;cc,bv;lo; xiang;xh;rn; zhi;bi;pd; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+音像制品加工	yin;cc,bv;lo; xiang;xh;rn; zhi;bi;pd; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+影视节目合作	ying;vu;op; shi;hk,hr;pe; jie;zb;ce; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+有线光缆设备	you;sl,dl;uo; xian;ea;sj; guang;hk;xw; lan;ek,er;se; she;cl;yy; bei;jw;wt;	0
+有线线缆设备	you;sl,dl;uo; xian;ea;sj; xian;ea;sj; lan;ek,er;se; she;cl;yy; bei;jw;wt;	0
+展览器材	zhan;qh;un; lan;pk,pr;le; qi;oo;kk; cai;wu;mc;	0
+展览帐篷	zhan;qh;un; lan;pk,pr;le; zhang;yh;ji; peng;nq;vz;	0
+专业话筒	zhuan;uh;ad; ye;pd,hd;la; hua;co;yk; tong;no;vk;	1
+专业录音	zhuan;uh;ad; ye;pd,hd;la; lu;so,sf;eu; yin;cc,bv;lo;	0
+包装产品代理	bao;ut;bs; zhuang;lk;dy; chan;bu,br,ir;lp; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+包装产品加工	bao;ut;bs; zhuang;lk;dy; chan;bu,br,ir;lp; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+包装成型机械	bao;ut;bs; zhuang;lk;dy; cheng;rh;wv; xing;ug;kt; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+包装服务	bao;ut;bs; zhuang;lk;dy; fu;ll;oy; wu;ju;wl;	0
+包装检测设备	bao;ut;bs; zhuang;lk;dy; jian;wd;ma; ce;ki;dd; she;cl;yy; bei;jw;wt;	0
+包装胶带	bao;ut;bs; zhuang;lk;dy; jiao;ly;ox; dai;zy;fj;	1
+包装生产线	bao;ut;bs; zhuang;lk;dy; sheng;eg;pf; chan;bu,br,ir;lp; xian;ea;sj;	2
+包装相关设备	bao;ut;bs; zhuang;lk;dy; xiang;ws;mo; guan;fx;bt; she;cl;yy; bei;jw;wt;	0
+包装项目合作	bao;ut;bs; zhuang;lk;dy; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+包装制品	bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+包装制品配附件	bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk; pei;pt;yj; fu;bk,bw;ec; jian;xb;rn;	0
+玻璃包装材料	bo;al;wy; li;ah,ap;wd; bao;ut;bs; zhuang;lk;dy; cai;wu;mc; liao;ls,lh;mu;	0
+玻璃包装制品	bo;al;wy; li;ah,ap;wd; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+不干胶标签	bu;dh,df;ad; gan;ss;au; jiao;ly;ox; biao;wf;mx; qian;nd;va;	0
+布类包装材料	bu;sy,dy;uj; lei;lx;md; bao;ut;bs; zhuang;lk;dy; cai;wu;mc; liao;ls,lh;mu;	0
+布料包装制品	bu;sy,dy;uj; liao;ls,lh;mu; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+充填机械	chong;ik;we; tian;gf;tb; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+多功能包装机	duo;ff;xx; gong;pu;gl; neng;pa;sb; bao;ut;bs; zhuang;lk;dy; ji;wi;mj;	0
+二手包装机械	er;uu;aa; shou;up;pl; bao;ut;bs; zhuang;lk;dy; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+封口机械	feng;gk;tc; kou;oo;la; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+复合包装材料	fu;ej;pw; he;eo;rk; bao;ut;bs; zhuang;lk;dy; cai;wu;mc; liao;ls,lh;mu;	0
+复合材料包装制品	fu;ej;pw; he;eo;rk; cai;wu;mc; liao;ls,lh;mu; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+辅助包装材料	fu;th;if; zhu;pu;ql; bao;ut;bs; zhuang;lk;dy; cai;wu;mc; liao;ls,lh;mu;	0
+辅助包装设备	fu;th;if; zhu;pu;ql; bao;ut;bs; zhuang;lk;dy; she;cl;yy; bei;jw;wt;	0
+工业胶带	gong;pp;aa; ye;pd,hd;la; jiao;ly;ox; dai;zy;fj;	0
+灌装机械	guan;ka;df; zhuang;lk;dy; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+裹包机械	guo;ih;wy; bao;ut;bs; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+集装机械	ji;xw;rm; zhuang;lk;dy; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+金属包装材料	jin;ed,ef;ra; shu;qh;uy; bao;ut;bs; zhuang;lk;dy; cai;wu;mc; liao;ls,lh;mu;	0
+金属包装机械	jin;ed,ef;ra; shu;qh;uy; bao;ut;bs; zhuang;lk;dy; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+金属包装制品	jin;ed,ef;ra; shu;qh;uy; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+金属盖	jin;ed,ef;ra; shu;qh;uy; gai;fd,fa;ym;	6
+金属盒	jin;ed,ef;ra; shu;qh;uy; he;ed,ea;rm;	21
+金属桶	jin;ed,ef;ra; shu;qh;uy; tong;wp;my;	13
+金属托盘	jin;ed,ef;ra; shu;qh;uy; tuo;ja,jr;fq; pan;td,ta;vm;	1
+警示胶带	jing;zo,zc;ck; shi;uf;ex; jiao;ly;ox; dai;zy;fj;	0
+捆扎机械	kun;jw;fm; za;jr;fv; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+其他包装材料	qi;vf;qb; ta;xr;ry; bao;ut;bs; zhuang;lk;dy; cai;wu;mc; liao;ls,lh;mu;	0
+其他包装成型机械	qi;vf;qb; ta;xr;ry; bao;ut;bs; zhuang;lk;dy; cheng;rh;wv; xing;ug;kt; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+其他包装相关设备	qi;vf;qb; ta;xr;ry; bao;ut;bs; zhuang;lk;dy; xiang;ws;mo; guan;fx;bt; she;cl;yy; bei;jw;wt;	0
+其他标签	qi;vf;qb; ta;xr;ry; biao;wf;mx; qian;nd;va;	0
+其他玻璃包装制品	qi;vf;qb; ta;xr;ry; bo;al;wy; li;ah,ap;wd; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+其他胶带	qi;vf;qb; ta;xr;ry; jiao;ly;ox; dai;zy;fj;	0
+其他金属包装制品	qi;vf;qb; ta;xr;ry; jin;ed,ef;ra; shu;qh;uy; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+其他托盘	qi;vf;qb; ta;xr;ry; tuo;ja,jr;fq; pan;td,ta;vm;	0
+其他纸类包装制品	qi;vf;qb; ta;xr;ry; zhi;er,eh;su; lei;lx;md; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+其他竹木包装制品	qi;vf;qb; ta;xr;ry; zhu;nn;gg,pl; mu;ww;an,un; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+清洗机械	qing;kl;do; xi;kk;de; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+塑胶标签	su;fg;bt; jiao;ly;ox; biao;wf;mx; qian;nd;va;	0
+塑料包装材料	su;fg;bt; liao;ls,lh;mu; bao;ut;bs; zhuang;lk;dy; cai;wu;mc; liao;ls,lh;mu;	5
+塑料包装机械	su;fg;bt; liao;ls,lh;mu; bao;ut;bs; zhuang;lk;dy; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+贴标机械	tie;mo;kk; biao;wf;mx; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+文具胶带	wen;jj;wx; ju;pf;qb; jiao;ly;ox; dai;zy;fj;	0
+扎带	zha;jr;fv; dai;zy;fj;	48
+纸包装机械	zhi;er,eh;su; bao;ut;bs; zhuang;lk;dy; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+纸浆模塑	zhi;er,eh;su; jiang;lo;du; mo;wx;md; su;fg;bt;	1
+纸类包装制品	zhi;er,eh;su; lei;lx;md; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+纸类标签	zhi;er,eh;su; lei;lx;md; biao;wf;mx; qian;nd;va;	0
+纸桶罐	zhi;er,eh;su; tong;wp;my; guan;ea;ff;	0
+纸筒管	zhi;er,eh;su; tong;no;vk; guan;nd;vk;	0
+竹木包装制品	zhu;nn;gg,pl; mu;ww;an,un; bao;ut;bs; zhuang;lk;dy; zhi;bi;pd; pin;oo;kk;	0
+氨基树脂	an;sy;qn; ji;vg;qt; shu;wk;mc; zhi;lv;oo;	0
+板式塔	ban;wl;my; shi;dh,ha,ap;yg; ta;go;tk;	0
+钡氧化物	bei;dm;jr; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	0
+苯醌	ben;zd;cb; kun;pa;yb;	19
+玻璃机械	bo;al;wy; li;ah,ap;wd; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+玻璃加工	bo;al;wy; li;ah,ap;wd; jia;uo;lk; gong;pp;aa;	1
+不饱和聚酯树脂	bu;dh,df;ad; bao;gt;us; he;uo;hk; ju;dh;en; zhi;pv;yo; shu;wk;mc; zhi;lv;oo;	0
+槽式反应器	cao;wv;mo; shi;dh,ha,ap;yg; fan;ul;py; ying;rd;ga; qi;oo;kk;	0
+除沫器	chu;bf;eh; mo;ke;dm; qi;oo;kk;	0
+储运容器	chu;xv;ro; yun;uq;zs; rong;io;bk; qi;oo;kk;	0
+储运设备	chu;xv;ro; yun;uq;zs; she;cl;yy; bei;jw;wt;	0
+传热设备	chuan;xh;rv; re;jn;fh; she;cl;yy; bei;jw;wt;	0
+传质设备	chuan;xh;rv; zhi;um,rm;pr; she;cl;yy; bei;jw;wt;	0
+萃取设备	cui;zs;cu; qu;dl;ey; she;cl;yy; bei;jw;wt;	1
+带式干燥设备	dai;zy;fj; shi;dh,ha,ap;yg; gan;ss;au; zao;tw;hm; she;cl;yy; bei;jw;wt;	0
+底阀	di;rh;gd; fa;oa,oh;mg;	3
+蝶阀	die;fw;im; fa;oa,oh;mg;	1
+二手化工设备	er;uu;aa; shou;up;pl; hua;xa;rb; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+发酵提取设备	fa;rh,rl;vd; jiao;pa;yz; ti;je;fr; qu;dl;ey; she;cl;yy; bei;jw;wt;	0
+反应设备	fan;ul;py; ying;rd;ga; she;cl;yy; bei;jw;wt;	0
+放料阀	fang;fj;fw; liao;ls,lh;mu; fa;oa,oh;mg;	0
+沸腾干燥机	fei;kp;df; teng;lz;om; gan;ss;au; zao;tw;hm; ji;wi;mj;	0
+酚类	fen;pi,pu;yd; lei;lx;md;	261
+分离设备	fen;fu,fi;bd; li;ih,ip;wd; she;cl;yy; bei;jw;wt;	3
+分凝器	fen;fu,fi;bd; ning;fe;dr; qi;oo;kk;	0
+分散机	fen;fu,fi;bd; san;zj;cw; ji;wi;mj;	0
+粉碎设备	fen;li,lu;md; sui;ts;uu; she;cl;yy; bei;jw;wt;	7
+分析试剂	fen;fu,fi;bd; xi;wp;mj; shi;cp;yg; ji;ji;wd;	4
+砜类	feng;ty;ux; lei;lx;md;	3
+呋喃树脂	fu;oe;kf; nan;os,op;kg; shu;wk;mc; zhi;lv;oo;	0
+钙氧化物	gai;dr;jg; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	0
+隔膜阀	ge;bp;el; mo;lx;od; fa;oa,oh;mg;	0
+铬氧化物	ge;do;jk; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	0
+工业淀粉	gong;pp;aa; ye;pd,hd;la; dian;ke;dr; fen;li,lu;md;	0
+钴氧化物	gu;do;jk; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	1
+管式反应器	guan;nd;vk; shi;dh,ha,ap;yg; fan;ul;py; ying;rd;ga; qi;oo;kk;	0
+硅氧化物	gui;tg;ut; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	1
+滚筒刮板干燥机	gun;kh;dy; tong;no;vk; gua;si;qd; ban;wl;my; gan;ss;au; zao;tw;hm; ji;wi;mj;	0
+化工产品加工	hua;xa;rb; gong;pp;aa; chan;bu,br,ir;lp; pin;oo;kk; jia;uo;lk; gong;pp;aa;	0
+化工成套设备	hua;xa;rb; gong;pp;aa; cheng;rh;wv; tao;xp,xh;ds; she;cl;yy; bei;jw;wt;	0
+化工成型设备	hua;xa;rb; gong;pp;aa; cheng;rh;wv; xing;ug;kt; she;cl;yy; bei;jw;wt;	0
+化工管道及配件	hua;xa;rb; gong;pp;aa; guan;nd;vk; dao;fq;zz; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+化工设备	hua;xa;rb; gong;pp;aa; she;cl;yy; bei;jw;wt;	14
+化工设备代理	hua;xa;rb; gong;pp;aa; she;cl;yy; bei;jw;wt; dai;xa,xh;ry; li;ag;wl;	0
+化工设备配件	hua;xa;rb; gong;pp;aa; she;cl;yy; bei;jw;wt; pei;pt;yj; jian;xb;rn;	0
+化工实验设备	hua;xa;rb; gong;pp;aa; shi;ix;bd; yan;zd;ma; she;cl;yy; bei;jw;wt;	0
+化工项目合作	hua;xa;rb; gong;pp;aa; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+化工原料代理	hua;xa;rb; gong;pp;aa; yuan;rf;ix; liao;ls,lh;mu; dai;xa,xh;ry; li;ag;wl;	0
+磺酸衍生物	huang;tf;ub; suan;pj;yw; yan;hj,hp;ii; sheng;eg;pf; wu;bi,bu;nw;	0
+混流泵	hun;ka;db; liu;kr;dv; beng;to;uu;	0
+火工产品	huo;tt;dr; gong;pp;aa; chan;bu,br,ir;lp; pin;oo;kk;	1
+加料机	jia;uo;lk; liao;ls,lh;mu; ji;wi;mj;	0
+角阀	jiao;gp;dy; fa;oa,oh;mg;	47
+脚踏阀	jiao;lb;oe; ta;gv;zo; fa;oa,oh;mg;	0
+结晶设备	jie;eo;sk; jing;vv;oo; she;cl;yy; bei;jw;wt;	0
+金属单质	jin;ed,ef;ra; shu;qh;uy; dan;fs;bl; zhi;um,rm;pr;	59
+腈类	jing;ll;oo; lei;lx;md;	2
+聚氨酯树脂	ju;dh;en; an;sy;qn; zhi;pv;yo; shu;wk;mc; zhi;lv;oo;	2
+聚酰胺树脂	ju;dh;en; xian;pk;ye; an;ly;on; shu;wk;mc; zhi;lv;oo;	0
+均质设备	jun;gf;td; zhi;um,rm;pr; she;cl;yy; bei;jw;wt;	0
+氪气	ke;sk;qe; qi;ss;pv;	14
+空心桨叶干燥机	kong;ip;bg; xin;nn;dd; jiang;lw;dm; ye;os;ku; gan;ss;au; zao;tw;hm; ji;wi;mj;	0
+库存化工设备	ku;rt;gi; cun;sa,da;uz; hua;xa;rb; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+库存化工原料	ku;rt;gi; cun;sa,da;uz; hua;xa;rb; gong;pp;aa; yuan;rf;ix; liao;ls,lh;mu;	0
+醌类	kun;pa;yb; lei;lx;md;	16
+淋水装置	lin;kw;dm; shui;oo;ln; zhuang;lk;dy; zhi;ad,au;sq;	0
+磷氧化物	lin;tp;ul; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	0
+流程泵	liu;kr;dv; cheng;ua;hw; beng;to;uu;	0
+流化床干燥设备	liu;kr;dv; hua;xa;rb; chuang;rw;gm; gan;ss;au; zao;tw;hm; she;cl;yy; bei;jw;wt;	0
+硫磺	liu;tr;uv; huang;tf;ub;	471
+流量控制阀	liu;kr;dv; liang;vg;ol; kong;jp;fg; zhi;bi;pd; fa;oa,oh;mg;	1
+卤酸盐	lu;py,pd;lx; suan;pj;yw; yan;gd,ga;tm;	0
+铝氧化物	lv;do;jk; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	1
+镁氧化物	mei;dx;jd; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	0
+锰氧化物	meng;dd,da;jm; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	2
+醚类	mi;pl;yz; lei;lx;md;	18
+耐腐蚀泵	nai;ek;ec; fu;re;gr; shi;gf;ui; beng;to;uu;	0
+萘醌	nai;zf;cx; kun;pa;yb;	0
+氖气	nai;su;qn; qi;ss;pv;	29
+捏合机	nie;jg;ft; he;eo;rk; ji;wi;mj;	0
+偶氮化合物	ou;xh;ry; dan;st;qh; hua;xa;rb; he;eo;rk; wu;bi,bu;nw;	0
+盘式干燥机	pan;td,ta;vm; shi;dh,ha,ap;yg; gan;ss;au; zao;tw;hm; ji;wi;mj;	0
+喷雾干燥机	pen;om;kr; wu;yu;yl; gan;ss;au; zao;tw;hm; ji;wi;mj;	0
+屏蔽泵	ping;qp,qz;uk; bi;zj;cw; beng;to;uu;	0
+瓶体	ping;fh;bw; ti;xd;rb;	27
+普通玻璃	pu;fv;bo; tong;pq;zy; bo;al;wy; li;ah,ap;wd;	0
+气流干燥设备	qi;ss;pv; liu;kr;dv; gan;ss;au; zao;tw;hm; she;cl;yy; bei;jw;wt;	0
+其他泵	qi;vf;qb; ta;xr;ry; beng;to;uu;	0
+其他玻璃	qi;vf;qb; ta;xr;ry; bo;al;wy; li;ah,ap;wd;	0
+其他储运设备	qi;vf;qb; ta;xr;ry; chu;xv;ro; yun;uq;zs; she;cl;yy; bei;jw;wt;	0
+其他传热设备	qi;vf;qb; ta;xr;ry; chuan;xh;rv; re;jn;fh; she;cl;yy; bei;jw;wt;	0
+其他传质设备	qi;vf;qb; ta;xr;ry; chuan;xh;rv; zhi;um,rm;pr; she;cl;yy; bei;jw;wt;	0
+其他醇类	qi;vf;qb; ta;xr;ry; chun;pa;yz; lei;lx;md;	0
+其他单质	qi;vf;qb; ta;xr;ry; dan;fs;bl; zhi;um,rm;pr;	0
+其他阀门	qi;vf;qb; ta;xr;ry; fa;oa,oh;mg; men;oo;dv;	0
+其他反应设备	qi;vf;qb; ta;xr;ry; fan;ul;py; ying;rd;ga; she;cl;yy; bei;jw;wt;	0
+其他分离设备	qi;vf;qb; ta;xr;ry; fen;fu,fi;bd; li;ih,ip;wd; she;cl;yy; bei;jw;wt;	0
+其他粉碎设备	qi;vf;qb; ta;xr;ry; fen;li,lu;md; sui;ts;uu; she;cl;yy; bei;jw;wt;	0
+其他干燥设备	qi;vf;qb; ta;xr;ry; gan;ss;au; zao;tw;hm; she;cl;yy; bei;jw;wt;	0
+其他合成树脂	qi;vf;qb; ta;xr;ry; he;eo;rk; cheng;rh;wv; shu;wk;mc; zhi;lv;oo;	0
+其他化学试剂	qi;vf;qb; ta;xr;ry; hua;xa;rb; xue;ha;xz; shi;cp;yg; ji;ji;wd;	0
+其他混合设备	qi;vf;qb; ta;xr;ry; hun;ka;db; he;eo;rk; she;cl;yy; bei;jw;wt;	0
+其他聚合物	qi;vf;qb; ta;xr;ry; ju;dh;en; he;eo;rk; wu;bi,bu;nw;	0
+其他醌类	qi;vf;qb; ta;xr;ry; kun;pa;yb; lei;lx;md;	0
+其他气体	qi;vf;qb; ta;xr;ry; qi;ss;pv; ti;xd;rb;	0
+其他实验室用品	qi;vf;qb; ta;xr;ry; shi;ix;bd; yan;zd;ma; shi;ig;bt; yong;lp;kl; pin;oo;kk;	0
+其他输送设备	qi;vf;qb; ta;xr;ry; shu;ti;id; song;fq;zt; she;cl;yy; bei;jw;wt;	0
+其他羧酸衍生物	qi;vf;qb; ta;xr;ry; suo;fj;yw; suan;pj;yw; yan;hj,hp;ii; sheng;eg;pf; wu;bi,bu;nw;	0
+其他碳水化合物	qi;vf;qb; ta;xr;ry; tan;tt;uh; shui;oo;ln; hua;xa;rb; he;eo;rk; wu;bi,bu;nw;	0
+其他烃类	qi;vf;qb; ta;xr;ry; ting;tp;hg; lei;lx;md;	0
+其他无机碱	qi;vf;qb; ta;xr;ry; wu;uk,ur;ay; ji;wi;mj; jian;th;uk;	0
+其他无机酸	qi;vf;qb; ta;xr;ry; wu;uk,ur;ay; ji;wi;mj; suan;pj;yw;	0
+其他无机盐	qi;vf;qb; ta;xr;ry; wu;uk,ur;ay; ji;wi;mj; yan;gd,ga;tm;	0
+其他氧化物	qi;vf;qb; ta;xr;ry; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	3
+其他杂环化合物	qi;vf;qb; ta;xr;ry; za;uf;jm; huan;ah,af;wb; hua;xa;rb; he;eo;rk; wu;bi,bu;nw;	0
+其他制冷设备	qi;vf;qb; ta;xr;ry; zhi;bi;pd; leng;fp,fh;ds; she;cl;yy; bei;jw;wt;	0
+铅氧化物	qian;do;jk; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	0
+醛类	quan;pa;yw; lei;lx;md;	133
+燃气阀	ran;tn;hh; qi;ss;pv; fa;oa,oh;mg;	3
+三元醇	san;uu;ae; yuan;uk;ee; chun;pa;yz;	0
+砂磨机	sha;ti,tu;uu; mo;dt,rt;gu; ji;wi;mj;	0
+生化试剂	sheng;eg;pf; hua;xa;rb; shi;cp;yg; ji;ji;wd;	5
+实验室用品	shi;ix;bd; yan;zd;ma; shi;ig;bt; yong;lp;kl; pin;oo;kk;	1
+手动阀	shou;up;pl; dong;uu;el; fa;oa,oh;mg;	0
+疏水阀	shu;rr;vv; shui;oo;ln; fa;oa,oh;mg;	0
+羧酸盐	suo;fj;yw; suan;pj;yw; yan;gd,ga;tm;	3
+羧酸衍生物	suo;fj;yw; suan;pj;yw; yan;hj,hp;ii; sheng;eg;pf; wu;bi,bu;nw;	5
+塔式反应器	ta;go;tk; shi;dh,ha,ap;yg; fan;ul;py; ying;rd;ga; qi;oo;kk;	0
+钛氧化物	tai;dh;jt; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	0
+陶瓷加工	tao;bp;ef; ci;fh;dw; jia;uo;lk; gong;pp;aa;	0
+锑氧化物	ti;du;jp; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	0
+填料塔	tian;gf;tb; liao;ls,lh;mu; ta;go;tk;	0
+铁氧化物	tie;de;ju; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	16
+铜氧化物	tong;do;jk; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	44
+通用无机试剂	tong;pq;zy; yong;lp;kl; wu;uk,ur;ay; ji;wi;mj; shi;cp;yg; ji;ji;wd;	0
+通用有机试剂	tong;pq;zy; yong;lp;kl; you;sl,dl;uo; ji;wi;mj; shi;cp;yg; ji;ji;wd;	0
+往复泵	wang;ha,hg;iv; fu;ej;pw; beng;to;uu;	0
+微波干燥设备	wei;hj;iw; bo;kl;dy; gan;ss;au; zao;tw;hm; she;cl;yy; bei;jw;wt;	0
+涡流泵	wo;ke;dn; liu;kr;dv; beng;to;uu;	0
+无机化工原料	wu;uk,ur;ay; ji;wi;mj; hua;xa;rb; gong;pp;aa; yuan;rf;ix; liao;ls,lh;mu;	0
+无机碱	wu;uk,ur;ay; ji;wi;mj; jian;th;uk;	0
+钨酸	wu;dd;jw; suan;pj;yw;	4
+硒氧化物	xi;tp;ux; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	0
+酰卤	xian;pk;ye; lu;py,pd;lx;	3
+箱式干燥设备	xiang;ns;vo; shi;dh,ha,ap;yg; gan;ss;au; zao;tw;hm; she;cl;yy; bei;jw;wt;	0
+硝基化合物	xiao;tl;uo; ji;vg;qt; hua;xa;rb; he;eo;rk; wu;bi,bu;nw;	10
+锌氧化物	xin;ds;ju; yang;sp;qy; hua;xa;rb; wu;bi,bu;nw;	0
+旋塞阀	xuan;fe;fr; sai;ig;bt; fa;oa,oh;mg;	0
+漩涡泵	xuan;ke;dr; wo;ke;dn; beng;to;uu;	0
+仪表阀	yi;xy,xh;ry; biao;ah;fy; fa;oa,oh;mg;	0
+有机硅树脂	you;sl,dl;uo; ji;wi;mj; gui;tg;ut; shu;wk;mc; zhi;lv;oo;	2
+有机化工原料	you;sl,dl;uo; ji;wi;mj; hua;xa;rb; gong;pp;aa; yuan;rf;ix; liao;ls,lh;mu;	1
+再沸器	zai;dd,dg;ar; fei;kp;df; qi;oo;kk;	0
+针阀	zhen;ds;ju; fa;oa,oh;mg;	0
+真空干燥机	zhen;sf;ub; kong;ip;bg; gan;ss;au; zao;tw;hm; ji;wi;mj;	0
+蒸馏设备	zheng;zn;ch; liu;gw;ut; she;cl;yy; bei;jw;wt;	10
+脂环烃	zhi;lv;oo; huan;ah,af;wb; ting;tp;hg;	0
+制粒干燥设备	zhi;bi;pd; li;lb;ml; gan;ss;au; zao;tw;hm; she;cl;yy; bei;jw;wt;	0
+重氮化合物	zhong;sg;pa; dan;st;qh; hua;xa;rb; he;eo;rk; wu;bi,bu;nw;	0
+柱塞阀	zhu;wa,wg;mv; sai;ig;bt; fa;oa,oh;mg;	0
+转子泵	zhuan;th;iv; zi;aa;va; beng;to;uu;	0
+自吸泵	zi;ss;po; xi;oh;kj; beng;to;uu;	0
+邦定机	bang;ub;fe; ding;ie;br; ji;wi;mj;	0
+泵配件	beng;to;uu; pei;pt;yj; jian;xb;rn;	1
+标价机	biao;wf;mx; jia;xp;rl; ji;wi;mj;	0
+剥线机	bo;si;ed; xian;ea;sj; ji;wi;mj;	0
+插床	cha;js;fj; chuang;rw;gm;	0
+齿轮加工机床	chi;rp;vk; lun;ta;ib; jia;uo;lk; gong;pp;aa; ji;wi;mj; chuang;rw;gm;	0
+充磁机	chong;ik;we; ci;tp;uy; ji;wi;mj;	1
+储能机	chu;xv;ro; neng;pa;sb; ji;wi;mj;	0
+出入口机	chu;pp;vk; ru;ee,uh;pn; kou;oo;la; ji;wi;mj;	0
+打胶机	da;jj;fd; jiao;ly;ox; ji;wi;mj;	0
+导线剥皮机	dao;tk;sc; xian;ea;sj; bo;si;ed; pi;rl;vy; ji;wi;mj;	0
+等离子焊机	deng;nk;vc; li;ih,ip;wd; zi;aa;va; han;ts;hg; ji;wi;mj;	0
+等离子切割机	deng;nk;vc; li;ih,ip;wd; zi;aa;va; qie;ai,au;qd; ge;ii;bd; ji;wi;mj;	6
+电镀加工	dian;ee,ve;lv; du;dl;jy; jia;uo;lk; gong;pp;aa;	2
+电镀设备	dian;ee,ve;lv; du;dl;jy; she;cl;yy; bei;jw;wt;	2
+点胶设备	dian;pn;lh; jiao;ly;ox; she;cl;yy; bei;jw;wt;	2
+电容剪脚机	dian;ee,ve;lv; rong;io;bk; jian;fu,fi;bd; jiao;lb;oe; ji;wi;mj;	0
+电子产品制造设备	dian;ee,ve;lv; zi;aa;va; chan;bu,br,ir;lp; pin;oo;kk; zhi;bi;pd; zao;bq;zk; she;cl;yy; bei;jw;wt;	0
+电子电器生产线	dian;ee,ve;lv; zi;aa;va; dian;ee,ve;lv; qi;oo;kk; sheng;eg;pf; chan;bu,br,ir;lp; xian;ea;sj;	0
+电子元件成型机	dian;ee,ve;lv; zi;aa;va; yuan;uk;ee; jian;xb;rn; cheng;rh;wv; xing;ug;kt; ji;wi;mj;	0
+电阻焊机	dian;ee,ve;lv; zu;bu;eq; han;ts;hg; ji;wi;mj;	0
+端子机	duan;be;le; zi;aa;va; ji;wi;mj;	0
+二手工程机械	er;uu;aa; shou;up;pl; gong;pp;aa; cheng;ua;hw; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+二手锅炉	er;uu;aa; shou;up;pl; guo;de;jn; lu;tq;hh;	0
+二手机床	er;uu;aa; shou;up;pl; ji;wi;mj; chuang;rw;gm;	0
+阀门配件	fa;oa,oh;mg; men;oo;dv; pei;pt;yj; jian;xb;rn;	2
+纺纱设备纺机	fang;ef;sf; sha;eu;su; she;cl;yy; bei;jw;wt; fang;ef;sf; ji;wi;mj;	0
+纺织配件	fang;ef;sf; zhi;ef;sb; pei;pt;yj; jian;xb;rn;	0
+非织造布机械	fei;pu,up;la; zhi;ef;sb; zao;bq;zk; bu;sy,dy;uj; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+服装加工设备	fu;ll;oy; zhuang;lk;dy; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+工业锅炉及配件	gong;pp;aa; ye;pd,hd;la; guo;de;jn; lu;tq;hh; ji;uh,rh;pn; pei;pt;yj; jian;xb;rn;	0
+工业制品代理	gong;pp;aa; ye;pd,hd;la; zhi;bi;pd; pin;oo;kk; dai;xa,xh;ry; li;ag;wl;	0
+柜员机设备	gui;wr;mj; yuan;om;kr; ji;wi;mj; she;cl;yy; bei;jw;wt;	0
+滚焊机	gun;kh;dy; han;ts;hg; ji;wi;mj;	0
+国外机床	guo;na,nh;ky; wai;fh;xb; ji;wi;mj; chuang;rw;gm;	0
+焊管机	han;ts;hg; guan;nd;vk; ji;wi;mj;	0
+焊接和粘接	han;ts;hg; jie;jy;fn; he;uo;hk; zhan;lo;mk; jie;jy;fn;	0
+焊台	han;ts;hg; tai;po;sk;	7
+焊锡机	han;ts;hg; xi;di,du;jw; ji;wi;mj;	0
+焊线机	han;ts;hg; xian;ea;sj; ji;wi;mj;	0
+行业专业设备	hang;hj,hp;ii; ye;pd,hd;la; zhuan;uh;ad; ye;pd,hd;la; she;cl;yy; bei;jw;wt;	0
+行业专用设备加工	hang;hj,hp;ii; ye;pd,hd;la; zhuan;uh;ad; yong;lp;kl; she;cl;yy; bei;jw;wt; jia;uo;lk; gong;pp;aa;	0
+回单管理系统	hui;no;kk; dan;fs;bl; guan;nd;vk; li;ag;wl; xi;uf;px; tong;ek;se;	0
+回流焊接机	hui;no;kk; liu;kr;dv; han;ts;hg; jie;jy;fn; ji;wi;mj;	0
+活动围栏	huo;ko;dk; dong;uu;el; wei;np;kw; lan;wu;ms;	0
+激光焊机	ji;kj;dw; guang;hk;xw; han;ts;hg; ji;wi;mj;	0
+激光切割机	ji;kj;dw; guang;hk;xw; qie;ai,au;qd; ge;ii;bd; ji;wi;mj;	14
+机械项目合作	ji;wi;mj; xie;wa,wz,wp,wh;mc; xiang;pm;gr; mu;ss;ka; he;eo;rk; zuo;xu;rv;	0
+家电制造设备	jia;ih;bu; dian;ee,ve;lv; zhi;bi;pd; zao;bq;zk; she;cl;yy; bei;jw;wt;	0
+家具制造机械	jia;ih;bu; ju;pf;qb; zhi;bi;pd; zao;bq;zk; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+绞线机	jiao;ey;sx; xian;ea;sj; ji;wi;mj;	0
+金融专用设备	jin;ed,ef;ra; rong;df;ai; zhuan;uh;ad; yong;lp;kl; she;cl;yy; bei;jw;wt;	0
+卷板机床	juan;ft;jv; ban;wl;my; ji;wi;mj; chuang;rw;gm;	0
+库存设备及工业用品	ku;rt;gi; cun;sa,da;uz; she;cl;yy; bei;jw;wt; ji;uh,rh;pn; gong;pp;aa; ye;pd,hd;la; yong;lp;kl; pin;oo;kk;	0
+捆钞机	kun;jw;fm; chao;du;ju; ji;wi;mj;	0
+螺纹加工机床	luo;ff;ix; wen;ej;sw; jia;uo;lk; gong;pp;aa; ji;wi;mj; chuang;rw;gm;	0
+铆接设备	mao;db;je; jie;jy;fn; she;cl;yy; bei;jw;wt;	0
+密码键盘	mi;ip;be; ma;tz;um; jian;dq;jz; pan;td,ta;vm;	16
+摩擦焊机	mo;do,dp,rp;gu; ca;jf;fx; han;ts;hg; ji;wi;mj;	0
+木工机床	mu;ww;an,un; gong;pp;aa; ji;wi;mj; chuang;rw;gm;	1
+排焊机	pai;ju,jp;ff; han;ts;hg; ji;wi;mj;	0
+碰焊机	peng;td;uy; han;ts;hg; ji;wi;mj;	0
+其他传动件	qi;vf;qb; ta;xr;ry; chuan;xh;rv; dong;uu;el; jian;xb;rn;	0
+其他电焊	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; han;ts;hg;	0
+其他电子产品制造设备	qi;vf;qb; ta;xr;ry; dian;ee,ve;lv; zi;aa;va; chan;bu,br,ir;lp; pin;oo;kk; zhi;bi;pd; zao;bq;zk; she;cl;yy; bei;jw;wt;	0
+其他纺织设备和器材	qi;vf;qb; ta;xr;ry; fang;ef;sf; zhi;ef;sb; she;cl;yy; bei;jw;wt; he;uo;hk; qi;oo;kk; cai;wu;mc;	0
+其他行业专用设备	qi;vf;qb; ta;xr;ry; hang;hj,hp;ii; ye;pd,hd;la; zhuan;uh;ad; yong;lp;kl; she;cl;yy; bei;jw;wt;	0
+其他机床	qi;vf;qb; ta;xr;ry; ji;wi;mj; chuang;rw;gm;	0
+其他金融专用设备	qi;vf;qb; ta;xr;ry; jin;ed,ef;ra; rong;df;ai; zhuan;uh;ad; yong;lp;kl; she;cl;yy; bei;jw;wt;	0
+其他金属加工	qi;vf;qb; ta;xr;ry; jin;ed,ef;ra; shu;qh;uy; jia;uo;lk; gong;pp;aa;	2
+其他商业专用设备	qi;vf;qb; ta;xr;ry; shang;io;wk; ye;pd,hd;la; zhuan;uh;ad; yong;lp;kl; she;cl;yy; bei;jw;wt;	0
+切割设备	qie;ai,au;qd; ge;ii;bd; she;cl;yy; bei;jw;wt;	2
+商超货架	shang;io;wk; chao;go,qo;tk; huo;xm;rr; jia;uw;lm;	0
+商业专用设备	shang;io;wk; ye;pd,hd;la; zhuan;uh;ad; yong;lp;kl; she;cl;yy; bei;jw;wt;	0
+塑焊机	su;fg;bt; han;ts;hg; ji;wi;mj;	1
+梭织设备	suo;wj;mw; zhi;ef;sb; she;cl;yy; bei;jw;wt;	0
+跳线机	tiao;gh,gf;zd; xian;ea;sj; ji;wi;mj;	0
+涂装设备	tu;kf;dh; zhuang;lk;dy; she;cl;yy; bei;jw;wt;	2
+玩具加工设备	wan;ak;we; ju;pf;qb; jia;uo;lk; gong;pp;aa; she;cl;yy; bei;jw;wt;	0
+线切割加工	xian;ea;sj; qie;ai,au;qd; ge;ii;bd; jia;uo;lk; gong;pp;aa;	0
+橡塑设备	xiang;wh;mn; su;fg;bt; she;cl;yy; bei;jw;wt;	0
+鞋帽设备	xie;vg;gt; mao;ys;jo; she;cl;yy; bei;jw;wt;	0
+压焊机	ya;rh;id; han;ts;hg; ji;wi;mj;	1
+压接机	ya;rh;id; jie;jy;fn; ji;wi;mj;	0
+压力加工	ya;rh;id; li;uu;vp; jia;uo;lk; gong;pp;aa;	1
+液压机械及部件	ye;kh;dn; ya;rh;id; ji;wi;mj; xie;wa,wz,wp,wh;mc; ji;uh,rh;pn; bu;bb;le; jian;xb;rn;	0
+仪器仪表加工	yi;xy,xh;ry; qi;oo;kk; yi;xy,xh;ry; biao;ah;fy; jia;uo;lk; gong;pp;aa;	0
+印染整机械与设备	yin;ub;pe; ran;kw;dm; zheng;dr;uv; ji;wi;mj; xie;wa,wz,wp,wh;mc; yu;dd;aa; she;cl;yy; bei;jw;wt;	0
+硬币清分机	ying;ty,th;ug; bi;uy;pj; qing;kl;do; fen;fu,fi;bd; ji;wi;mj;	3
+扎把机	zha;jr;fv; ba;jt;fb; ji;wi;mj;	0
+扎口机	zha;jr;fv; kou;oo;la; ji;wi;mj;	0
+针织机械	zhen;ds;ju; zhi;ef;sb; ji;wi;mj; xie;wa,wz,wp,wh;mc;	0
+整熨洗涤设备	zheng;dr;uv; yun;qt;uh; xi;kk;de; di;kf;dm; she;cl;yy; bei;jw;wt;	0
+制冷空调设备	zhi;bi;pd; leng;fp,fh;ds; kong;ip;bg; tiao;co;yk; she;cl;yy; bei;jw;wt;	0
+纸业设备	zhi;er,eh;su; ye;pd,hd;la; she;cl;yy; bei;jw;wt;	0
+铸造机床	zhu;dk;jc; zao;bq;zk; ji;wi;mj; chuang;rw;gm;	0
+专用机床	zhuan;uh;ad; yong;lp;kl; ji;wi;mj; chuang;rw;gm;	1
+组合机床	zu;eu;sq; he;eo;rk; ji;wi;mj; chuang;rw;gm;	0
+倍捻机	bei;xo;rk; nian;jn;fx; ji;wi;mj;	1
+荧光颜料	ying;zt;ch; guang;hk;xw; yan;bm,im;ir; liao;ls,lh;mu;	1
+蒸馏塔	zheng;zn;ch; liu;gw;ut; ta;go;tk;	2
+厌氧胶	yan;rb,rh;iq; yang;sp;qy; jiao;ly;ox;	1
+吹塑机	chui;oe;kr; su;fg;bt; ji;wi;mj;	1
+打标机	da;jj;fd; biao;wf;mx; ji;wi;mj;	1
+拉力机	la;jb;fl; li;uu;vp; ji;wi;mj;	1
+检针机	jian;wd;ma; zhen;ds;ju; ji;wi;mj;	1
+洗瓶机	xi;kk;de; ping;fh;bw; ji;wi;mj;	2
+粉粹机	fen;li,lu;md; cui;ls;mu; ji;wi;mj;	2
+起锚机	qi;qt,gt;tj; mao;dw;jt; ji;wi;mj;	0
+绞柱	jiao;ey;sx; zhu;wa,wg;mv;	0
+

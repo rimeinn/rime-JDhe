@@ -4,14 +4,11 @@
 config_version: '0.40'
 
 schema_list:
-  - schema: double_pinyin_flypy       # 简单鹤挂接小鹤双拼  
-  - schema: luna_pinyin                     # 朙月拼音（白霜词库）
-  - schema: JDhe                               # 简单鹤 （乱序字根音形） 
-  - schema: whale_double_flypy       # 鲸凉鹤挂接小鹤双拼   
-  - schema: whaleHe                            # 鲸凉鹤（小鹤音形官版字根）
-  - schema: tiger                                # 虎码  
-#  - schema: t9_pinyin                      # 手机专用 九宫格方案
-#  - schema: t17_pinyin_double       # 手机专用 17键乱序双拼
+  - schema: jde                        # 简单鹤(双拼辅助码)
+  - schema: pinyin                     # 拼音（全拼）
+  - schema: jde_fixed                  # 简单鹤 字词（四码定长） 
+  - schema: tiger                      # 虎码·单字
+
 
 switcher:
   caption: 〔方案選單〕
@@ -28,21 +25,13 @@ switcher:
     - simplification              # 简繁切换
     - emoji                     # emoji表情开关
     - single_char_only         # 单字模式
-    - embeded_cands         # 字词嵌入编辑栏
-    - no_quick_words         # 简码词开关
-    - spelling.off          # 虎码拆字注释  拆隐
-    - spelling.lv1          # 虎码拆字注释  拆显
-    - spelling.lv1.1          # 虎码拆字注释  编显 (虎码)
-    - spelling.lv1.2          # 虎码拆字注释  音显 (带声调全拼)       
-    - spelling.lv2          # 虎码拆字注释  拆+编
-    - spelling.lv3          # 虎码拆字注释 拆+编+音
     - autocompletion_filter      # 编码补全提示
     - pinyinhint                          # 拼音滤镜开关
-    - single_char_only_for_full_code        # 四码单字开关
     - chaifen        # 简单鹤拆字注释开关
     - inflexible    # 固词或动词开关
     - block_words_enabled   # 是否屏蔽指定的字词列表
     - prediction                 #输入联想预测
+    - is_in_user_dict                 #词库标记开关
   fold_options: true
   abbreviate_options: true
   option_list_separator: '／'

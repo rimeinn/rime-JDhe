@@ -17,15 +17,12 @@ switches_list:
     states: [ 关闭预测, 开启预测 ]
   - name: pinyinhint                   # 拼音滤镜
     states: [ 🔇, 🔊 ]          
-  - name: single_char_only_for_full_code             # 四码单字开关
-    states: [ 词组, 单字 ]
-  - name: embeded_cands   # 字词嵌入编辑栏
-    states: [普通, 嵌入]      
   - name: block_words_enabled   # 是否屏蔽指定的字词列表
     states: [ 正常, 屏蔽 ]      
   - name: unicode_comment   # Unicode 区位提示
     states: [ U关, U开 ]    
-
+  - name: is_in_user_dict   # 为输入过的内容加上标记
+    states: [ 🔕, 🔔 ] 
 
 switches_engine_script:
   switches:
@@ -50,7 +47,7 @@ switches_engine_script:
       - matcher
       - affix_segmentor@radical_lookup              # 部件拆字自定义 tag 
       - affix_segmentor@stroke_lookup               # 五笔画自定义 tag 
-      - affix_segmentor@wanxiang_py_lookup          # 万象拼音自定义 tag
+      - affix_segmentor@reverse_pinyin_lookup       # 拼音单字自定义 tag
       - affix_segmentor@tiger_lookup                # 虎码自定义 tag
       - abc_segmentor                               # 标记输入码的类型
       - punct_segmentor                             # 割界，与前后方的其他编码区分开
@@ -61,7 +58,7 @@ switches_engine_script:
       - script_translator                       # 码表转换
       - table_translator@radical_lookup         # 部件拆字反查
       - table_translator@stroke_lookup          # 五笔画反查 
-      - table_translator@wanxiang_py_lookup     # 万象拼音反查
+      - table_translator@reverse_pinyin_lookup  # 拼音单字反查
       - table_translator@tiger_lookup           # 虎码反查
       - table_translator@quick_symbol_phrase    # 快速符号短语词库       
       - history_translator@history              # 重复上屏
@@ -76,7 +73,6 @@ switches_engine_script:
       - lua_translator@*force_gc                # 暴力GC，尝试解决小狼毫长期使用的卡顿
     filters:      
       - lua_filter@*charset_filter@charset_filter # 自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
-      - lua_filter@*single_char_only_for_full_code@single_char_only # 四码单字过滤 lua     
       - reverse_lookup_filter@reverse_lookup_filter  # 反查的filter      
       - simplifier@emoji                              # Emoji     
       - lua_filter@*reduce_emoji                      # 降低emoji在候选的位置     
@@ -87,8 +83,7 @@ switches_engine_script:
       - lua_filter@*is_in_user_dict                   # 根据是否在用户词典，在 comment 上加上一个标记
       - lua_filter@*en_spacer                         # 英文词条上屏自动空格
       - lua_filter@*multiline_filter                  # 在词典里面候选支持\r, \r\n, \n, <br>分割分行。&nbsp 表示空格
-      - lua_filter@*embeded_cands_v2@embeded_cands    # 字词候选嵌入编辑栏
-      - lua_filter@*block_words                       # 屏蔽指定的字词列表，并通过开关控制是否启用
+      - lua_filter@*block_words@block_words                       # 屏蔽指定的字词列表，并通过开关控制是否启用
       - lua_filter@*moran_charset_comment_filter      # Unicode 區位提示
       - uniquifier    
 
@@ -115,7 +110,7 @@ switches_engine_table:
       - matcher
       - affix_segmentor@radical_lookup              # 部件拆字自定义 tag 
       - affix_segmentor@stroke_lookup               # 五笔画自定义 tag 
-      - affix_segmentor@wanxiang_py_lookup          # 万象拼音自定义 tag
+      - affix_segmentor@reverse_pinyin_lookup          # 万象拼音自定义 tag
       - affix_segmentor@tiger_lookup                # 虎码自定义 tag
       - abc_segmentor                               # 标记输入码的类型
       - punct_segmentor                             # 割界，与前后方的其他编码区分开
@@ -126,7 +121,7 @@ switches_engine_table:
       - table_translator                       # 码表转换
       - table_translator@radical_lookup         # 部件拆字反查
       - table_translator@stroke_lookup          # 五笔画反查 
-      - table_translator@wanxiang_py_lookup     # 万象拼音反查
+      - table_translator@reverse_pinyin_lookup     # 万象拼音反查
       - table_translator@tiger_lookup           # 虎码反查
       - table_translator@quick_symbol_phrase    # 快速符号短语词库       
       - history_translator@history              # 重复上屏
@@ -141,7 +136,6 @@ switches_engine_table:
       - lua_translator@*force_gc                # 暴力GC，尝试解决小狼毫长期使用的卡顿
     filters:      
       - lua_filter@*charset_filter@charset_filter # 自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
-      - lua_filter@*single_char_only_for_full_code@single_char_only # 四码单字过滤 lua     
       - reverse_lookup_filter@reverse_lookup_filter  # 反查的filter      
       - simplifier@emoji                              # Emoji     
       - lua_filter@*reduce_emoji                      # 降低emoji在候选的位置     
@@ -152,8 +146,7 @@ switches_engine_table:
       - lua_filter@*is_in_user_dict                   # 根据是否在用户词典，在 comment 上加上一个标记
       - lua_filter@*en_spacer                         # 英文词条上屏自动空格
       - lua_filter@*multiline_filter                  # 在词典里面候选支持\r, \r\n, \n, <br>分割分行。&nbsp 表示空格
-      - lua_filter@*embeded_cands_v2@embeded_cands    # 字词候选嵌入编辑栏
-      - lua_filter@*block_words                       # 屏蔽指定的字词列表，并通过开关控制是否启用
+      - lua_filter@*block_words@block_words                       # 屏蔽指定的字词列表，并通过开关控制是否启用
       - lua_filter@*moran_charset_comment_filter      # Unicode 區位提示
       - uniquifier    
 
@@ -215,10 +208,10 @@ reverse_config:
 
 
 
-  # 万象拼音反查
-  wanxiang_py_lookup:
-    tag: wanxiang_py_lookup
-    dictionary: wanxiang_pinyin_dz
+  # 拼音单字反查
+  reverse_pinyin_lookup:
+    tag: reverse_pinyin_lookup
+    dictionary: reverse_pinyin
     enable_encoder:  false                  # 是否启用 自动造词  
     enable_sentence:  false                 # 是否启用造句模式
     enable_user_dict: false
@@ -244,9 +237,9 @@ reverse_config:
       - "xform/^/ /"
 
   reverse_lookup_filter: #该反查过滤器名
-    tags: [radical_lookup,stroke_lookup,wanxiang_py_lookup,tiger_lookup] #挂在这个tag所对应的翻译器上
+    tags: [radical_lookup,stroke_lookup,reverse_pinyin_lookup,tiger_lookup] #挂在这个tag所对应的翻译器上
     overwrite_comment: true
-    dictionary: luna_pinyin.extended #反查所得词库
+    dictionary: reverse_pinyin #反查所得词库
     comment_format:
       - xform/(\w\w);(\w\w);/$1[$2]/
       - xform/(\w\w);(\w\w),(\w\w);/$1[$2][$3]/
@@ -274,7 +267,7 @@ recognizer_config:
       help_menu: "^(/oh|oH)$"                  # 帮助菜单
       radical_lookup: "^oiz[A-Za-z]*$"   # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
       stroke_lookup: "^obh[A-Za-z]*$"    # 响应五笔画的反查，与 stroke_lookup/prefix 匹配
-      wanxiang_py_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`))|^([a-z]{4}`))"  # 响应 临时「`」统配反查
+      reverse_pinyin_lookup: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`))|^([a-z]{4}`))"  # 响应 临时「`」统配反查
       tiger_lookup: "^ohm[a-z]*'?$"  # 响应虎码的反查，与 tiger_lookup/prefix 匹配
 
 
@@ -299,10 +292,7 @@ key_config:
       - { when: always, accept: "Control+Shift+Q", toggle: charset_filter }  
      # 拼音滤镜开关 
       - { when: always, accept: "Control+Shift+P", toggle: pinyin } 
-     # 四码单字开关 
-      - { when: always, accept: "Control+Shift+D", toggle: single_char_only_for_full_code } 
-     # 字词候选嵌入编辑栏 
-      - { when: always, accept: "Control+Shift+E", toggle: embeded_cands } 
+
 
   keys:
     __append:
@@ -449,13 +439,10 @@ Lua_config:
       Control+Delete: delete_candidate      # Ctrl+Delete键：删除或降权候选项
       Escape: cancel                        # Esc 键：取消输入
 
-  # Lua 配置: 四码单字过滤 （影响范围）
-  single_char_only: 
-    tags: [ abc ] 
 
   # Lua 配置: 自定义字集过滤 （影响范围）
   charset_filter: 
-    tags: [ abc, encode, punct, wanxiang_py_lookup, reverse_lookup ] 
+    tags: [ abc, encode, punct, reverse_pinyin_lookup, reverse_lookup ] 
   # 「常用」字符集设置
   # 不影响「全集」：全集仍显示*所有*字符
   #
@@ -468,22 +455,11 @@ Lua_config:
   emoji_reduce:                      
     idx: 6
 
-  # Lua 配置:  为输入过的内容加上标记
-  is_in_user_dict: true 
+  # Lua 配置: 屏蔽指定的字词列表 （影响范围）
+  block_words: 
+    tags: [ abc ] 
 
-  # Lua 配置: 字词嵌入编辑栏
-  # 嵌入候选的显示配置
-  # 默认显示效果为:
-  # 宇[浩¹]iwl ~淍² ~泃³
-  embeded_cands:
-    option_name: embeded_cands                               # 嵌入候选开关
-    index_indicators: [ ¹, ², ³, ⁴, ⁵, ⁶, ⁷, ⁸, ⁹, ⁰ ]       # 嵌入候选的序号显示格式
-#    first_format: "${Stash}[${候選}${Seq}]${Code}${Comment}"  # 默认 首选的渲染格式
-    first_format: "${Stash}[${候選}]${Code}"  # 默认 首选的渲染格式
-    next_format: "${Stash}${候選}${Seq}${Comment}"            # 非首选的渲染格式
-    separator: ""                                           # 候选之间的分隔符
-    stash_placeholder: "~"  
-    show_only_first_in_preedit: true  # 控制是否仅显示首选词在编辑栏
+
 
 
 octagram:

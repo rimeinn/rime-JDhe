@@ -1,0 +1,33 @@
+# Rime dictionary: jde
+# encoding: utf-8
+
+---
+name: jde_fixed
+version: "2025-07-27"
+sort: by_weight
+import_tables:
+  # ---------------------------------------
+  # 词库在「cn_dicts」文件目录下
+  # （使用#号禁用词库）
+  # ---------------------------------------  
+  - cn_dicts/jde/jde                   
+  - cn_dicts/my_user          # 用户词组 
+  - cn_dicts/jde/jde_ext      # 扩展字集
+
+  # ---------------------------------------  
+columns:
+  - text
+  - code
+  - weight
+  - stem
+encoder:
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+#      formula: "AaBaCaCb"
+      formula: "AaBaCa" # 改为三字首字母
+    - length_in_range: [4, 99]
+      formula: "AaBaCaZa"
+...
+#如果需自定义简词排序 在此添加
