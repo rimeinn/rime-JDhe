@@ -57,6 +57,8 @@ translator:
   enable_word_completion: true  # 大于 4 音节的词条自动补全，librime > 1.11.2
   enable_completion: true  # 启用候选词补全
   initial_quality: 1.2          # 拼音的权重应该比英文大  
+  core_word_length: 4
+  max_word_length: 10
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/

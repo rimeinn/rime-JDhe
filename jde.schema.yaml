@@ -79,6 +79,8 @@ translator:
   enable_completion: true  # 启用候选词补全
   spelling_hints: 3    # 设置多少字以内候选标注完整带调拼音
   initial_quality: 1.2          # 拼音的权重应该比英文大
+  core_word_length: 4
+  max_word_length: 10
   disable_user_dict_for_patterns: 
     - "^[a-z;,./]$"           # 禁止单码字调频
     - "^[a-z;,./][a-z;,./]$"  # 禁止双码字调频
