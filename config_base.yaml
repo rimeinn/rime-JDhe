@@ -367,6 +367,14 @@ key_config:
       - { when: has_menu, accept: 9, send: Control+Right }
       - { when: composing, accept: 0, send: Control+Right }
 
+  数字9和0充当候选4&5:
+    __append:
+      # 打字时，9 选中第4个候选字发送
+      - { accept: 9, send: 4, when: has_menu} 
+      # 打字时，0 选中第5个候选字发送
+      - { accept: 0, send: 5, when: has_menu}  
+
+
   # 使用大写字母追加输入到上一个音节末尾
   capital_for_last_syllable:
     __append:
