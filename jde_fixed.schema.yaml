@@ -36,7 +36,7 @@ speller:
   max_code_length: 4  # 形码最大码长，超过则顶字上屛  
   auto_select: true   #是否开启无重码时自动上屏（仅在编码吻合时判断）
 #  auto_select_pattern: ^;\w+|^\w{4}$   #自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏， 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  ，以此类推。直接注释禁用则达最大码长后，无重码时自动上屏
-  auto_select_pattern: ^;(\w+|;)
+  auto_select_pattern: ^;\w+|^o\w{3}$
   auto_clear: max_length # 3种选择， manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
   algebra:
     - xform/^\*//  # 特码以星号开头，以便在全码后置脚本中区分，以防识别为全码

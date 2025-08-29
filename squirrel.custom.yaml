@@ -46,7 +46,7 @@ patch:
       hilited_candidate_label_color: 0xA483EC       # 选中序号颜色
       candidate_text_color: 0x121212          # 文字颜色
       hilited_candidate_text_color: 0x7A40EC  # 选中文字颜色
-      comment_text_color: 0x8E8E8E            # 注释颜色
+      comment_text_color: 0x60C45B           # 注释颜色
       hilited_comment_text_color: 0x7A40EC    # 选中注释颜色
       text_color: 0x7A40EC                    # 拼音颜色 （inline_preedit: false）
       hilited_text_color: 0x7A40EC            # 选中拼音颜色 （inline_preedit: false）
@@ -65,7 +65,7 @@ patch:
       hilited_candidate_label_color: 0xA483EC       # 选中序号颜色
       candidate_text_color: 0xefefef          # 文字颜色
       hilited_candidate_text_color: 0x7A40EC  # 选中文字颜色
-      comment_text_color: 0xefefef            # 注释颜色
+      comment_text_color: 0x60C45B            # 注释颜色
       hilited_comment_text_color: 0x7A40EC    # 选中注释颜色
       text_color: 0x7A40EC                    # 拼音颜色 （inline_preedit: false）
       hilited_text_color: 0x424242            # 选中拼音颜色 （inline_preedit: false）
