@@ -13,21 +13,12 @@ import_tables:
   - cn_dicts/pinyin/8105                              # 字表
   - cn_dicts/pinyin/41448                            # 大字表（按需启用）
   - cn_dicts/pinyin/base                              # 基础词库
-  - cn_dicts/pinyin/ext                                # 扩展词库
-  - cn_dicts/pinyin/tencent_core                # 腾讯词库中抽取的一些词
-  - cn_dicts/pinyin/others                          # 一些杂项
+  - cn_dicts/pinyin/words                             # 补充词
+  - cn_dicts/pinyin/tencent                           # 腾讯词库
+  - cn_dicts/pinyin/moe                               # 萌娘百科词条
   # ---------------------------------------
   - cn_dicts/my_user          # 自定义词库 所有方案通用
   # ---------------------------------------
-    # 细胞词库
-  - cn_dicts/pinyin_ext/industry_product                    # 行业产品
-  - cn_dicts/pinyin_ext/exthot                                     # ext 网络热词
-  - cn_dicts/pinyin_ext/animal                                     # 动物
-  - cn_dicts/pinyin_ext/idiom                                     # 成语
-  - cn_dicts/pinyin_ext/shulihua                                # 数理化
-  - cn_dicts/pinyin_ext/place                                     # 地名 地铁
-  - cn_dicts/pinyin_ext/composite                         # 复合词 合成词
-  # ---------------------------------------  
 ...
 # 大写字母
 # 可在拼音方案下直接输入大写字母（Shift + 字母），大写字母参与造句。
