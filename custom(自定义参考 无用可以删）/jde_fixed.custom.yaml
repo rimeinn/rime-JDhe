@@ -6,7 +6,7 @@ patch:
   style/color_scheme_dark: win11dark                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
   style/horizontal: true # 候选词 true 为横排，竖排为 false
   style/inline_preedit: true   # 行内显示预编辑区：true；false
-  style/candidate_list_layout: stacked        # macOS 候选项排列方向 stacked(竖排) | linear  
+  style/candidate_list_layout: linear        # macOS 候选项排列方向 stacked(竖排) | linear  
   style/layout/margin_x: 7
   style/layout/margin_y: 7  
   style/layout/hilite_padding: 3  
@@ -20,8 +20,8 @@ patch:
     - "␣"
     - ";"
     - "3'"
-    - "4["
-    - "5]"
+    - "4[⁹"
+    - "5]⁰"
     - "6"
     - "7"
     - "8"
@@ -83,8 +83,8 @@ patch:
 
 
   fixed:
-    dictionary: jde_fixed
-    db_class: tabledb
+#    dictionary: jde_fixed
+#    db_class: tabledb
     enable_charset_filter: false
     enable_sentence: false             # 是否启用造句模式
     enable_completion: false           # 编码提示开关（提前显示尚未输入完整码的字）
@@ -129,3 +129,22 @@ patch:
         freestyle: true
 
  ######################################################################
+ 
+  key_binder/bindings: 
+    __patch: 
+      - jde_fixed.custom:/key_binder/custom_bindings?
+      - config_base:/key_config/options_toggle
+      - config_base:/key_config/tab_Page
+      - config_base:/key_config/keys
+      - config_base:/key_config/数字9和0充当候选4&5 # 打字时用「9」选择候选4 「0」选择候选5
+ 
+ # 增加快捷键设置
+key_binder: 
+  custom_bindings:
+    __append: 
+      # 在這裏添加只在本方案中生效的按鍵綁定
+      # 打字时，' 快速取出/放回被吞掉的辅码
+      - { accept: apostrophe, send: "Control+l", when: composing} 
+      # 简单鹤字根拆分显示开关
+      - { when: has_menu, accept: "Control+i", toggle: chaifen }     
+ 

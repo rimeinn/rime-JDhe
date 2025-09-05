@@ -6,8 +6,8 @@ patch:
 #  style/inline_preedit: false   # 行内显示预编辑区：true；false
   style/candidate_list_layout: linear        # macOS 候选项排列方向 stacked(竖排) | linear  
   style/layout/shadow_radius: 10                       # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
-  style/color_scheme: minimalism_white      # 浅色模式下，配色方案
-  style/color_scheme_dark: minimalism_white                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
+  style/color_scheme: Pink      # 浅色模式下，配色方案
+  style/color_scheme_dark: Pink_dark                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
   style/layout/margin_x: 5
   style/layout/margin_y: 5  
   style/layout/hilite_padding: 3  
@@ -19,8 +19,8 @@ patch:
     - "␣"
     - ";"
     - "3'"
-    - "4["
-    - "5]"
+    - "4[⁹"
+    - "5]⁰"
     - "6"
     - "7"
     - "8"
@@ -81,17 +81,104 @@ patch:
 
 
 ######【注意】此功能开启后，四码词组会根据使用习惯动态调整候选词排序 #########
-# 简单鹤方案下动词模式必须 打开屏蔽开关，将原先的「①」占位符屏蔽。
-  switches/@08/reset: 1
-# 开启动词后简单鹤「单字固定次选」的特性有些会丢失
 # 所以建议「完全熟悉简单鹤」 又想自动根据自己输入习惯动态排序四码词组的用户开启
-  switches/@12/reset: 0
-  switches/@12/states: [ 动词, 固词 ] # 「固詞」表示「固頂詞」註釋隱藏開關，請直接在此指定 reset
-  moran/ijrq/enable: false       # 如果开启动词，注意关闭单字的出简让全
+  switches/@11/reset: 0
+  switches/@11/states: [ 动词, 固词 ] # 「固詞」表示「固頂詞」註釋隱藏開關，請直接在此指定 reset
+# 简单鹤方案下动词模式必须 打开屏蔽开关，将原先的「①」占位符屏蔽。
+  switches/@12/reset: 1
+#  moran/ijrq/enable: false       # 如果开启动词，注意关闭单字的出简让全
 ##################################################################
 
   moran/ijrq/enable_word: true               # 词语级出简让全
   moran/enable_word_filter: true       # 如果开启词语级出简让全，注意关闭词辅功能
+
+
+##################################################################
+
+  fixed/dictionary_exclude: ["¿","؟","上海交通大学"]
+
+
+  # 拼写设定
+  speller/algebra: 
+    __patch:
+      - config_pinyin:/小鹤双拼
+      - config_pinyin:/fly_kk_kw                              # 飞键 kuai
+      - config_pinyin:/fly_yi_ei                              # 飞键 yi
+      - config_pinyin:/fly_qx_qo                              # 飞键 qia
+      - config_pinyin:/fly_xq_xo                              # 飞键 xiu
+      - config_pinyin:/fly_rr_rp                              # 飞键 ruan
+      - config_pinyin:/fly_gf_gp                              # 飞键 gen
+      - config_pinyin:/fly_jn_ja                              # 飞键 jiao
+      - config_pinyin:/fly_po_ps                              # 飞键 po
+      - config_pinyin:/fly_fg_fs                              # 飞键 feng
+      - config_pinyin:/fly_qq_qh                              # 飞键 qiu
+      - config_pinyin:/fly_ww_wk                              # 飞键 wei
+      - config_pinyin:/fly_cs_cl                              # 飞键 cong
+      - config_pinyin:/fly_zs_zl                              # 飞键 zong
+      - config_pinyin:/fly_dc_dl                              # 飞键 dao
+      - config_pinyin:/fly_vr_vn                              # 飞键 zhuan
+      - config_pinyin:/fly_ce_cn                              # 飞键 ce
+      - config_pinyin:/fly_bm_bz                              # 飞键 bian
+#      - config_pinyin:/fly_ji_jo                              # 飞键 ji
+      - config_pinyin:/fly_bd_be                              # 飞键 bai
+      - config_pinyin:/fly_sc_sl                              # 飞键 sao
+      - config_pinyin:/fly_sr_sn                              # 飞键 suan
+      - config_pinyin:/fly_nm_nx                              # 飞键 nian
+      - config_pinyin:/fly_td_tl                              # 飞键 tai
+      - config_pinyin:/fly_zr_zn                              # 飞键 zuan
+      - config_pinyin:/fly_il_iq                              # 飞键 chuang
+      - config_pinyin:/fly_vg_vp                              # 飞键 zheng
+      - config_pinyin:/fly_tc_tb                              # 飞键 tao
+      - config_pinyin:/fly_fz_fm                              # 飞键 fou
+      - config_pinyin:/fly_xr_xh                              # 飞键 xuan
+      - config_pinyin:/fly_gr_gn                              # 飞键 guan
+      - config_pinyin:/fly_z_zh_buhun                         # 模糊音 z or zh 不分
+      - config_pinyin:/fly_s_sh_buhun                         # 模糊音 s or sh 不分
+      - config_pinyin:/fly_c_ch_buhun                         # 模糊音 c or ch 不分
+      - config_pinyin:/fly_in_ing_buhun                       # 模糊音 in or ing 不分
+      - config_pinyin:/fly_an_ang_buhun                       # 模糊音 an or ang 不分
+      - config_pinyin:/fly_en_eng_buhun                       # 模糊音 en or eng 不分
+      - config_pinyin:/fly_ro_lo_buhun                        # 模糊音 ro or lo 不分
+      - config_pinyin:/fly_ran_lan_buhun                      # 模糊音 ran or lan 不分
+#      - config_pinyin:/fly_ru_lu_buhun                        # 模糊音 ru or lu 不分
+      - config_pinyin:/fly_rong_long_buhun                    # 模糊音 rong or long 不分
+      - config_pinyin:/fly_uan_uang_buhun                     # 模糊音 uan or uang 不分(部分)
+      - config_pinyin:/fuzhu_001
+      - config_pinyin:/直接辅助
+  # 主翻译器，拼音映射
+  translator/preedit_format:    
+    - xform/([a-z][a-z][a-z][a-z])o/$1°/    
+    - xform/wk/ẇẇ/
+    - xform/zl/żṡ/
+    - xform/cl/ċṡ/
+    - xform/rp/ṙṙ/
+    - xform/kw/ǩǩ/
+    - xform/bz/ḃṁ/
+    - xform/vn/ṿṙ/
+    - xform/be/ḃḋ/
+#    - xform/jo/ĵí/
+    - xform/ei/ẏí/
+    - xform/qo/ʠẋ/
+    - xform/xo/ẋʠ/
+    - xform/gp/ġḟ/
+    - xform/ja/ĵṅ/
+    - xform/ps/ṗȯ/
+    - xform/fs/ḟġ/
+    - xform/qh/ʠʠ/
+    - xform/dl/ḋċ/
+    - xform/cn/ċė/
+    - xform/sl/ṡċ/
+    - xform/sn/ṡṙ/
+    - xform/nx/ṅṁ/
+    - xform/tl/ṫḋ/
+    - xform/zn/żṙ/
+    - xform/iq/íĺ/
+    - xform/vp/ṿġ/
+    - xform/tb/ṫċ/
+    - xform/fm/ḟż/
+    - xform/xh/ẋṙ/
+    - xform/gn/ġṙ/
+    - xform/(?<=[A-Z])\s(?=[A-Z])//  # 消除大写字母之间的空格
 
 
 
@@ -99,12 +186,12 @@ patch:
     __patch: 
       - jde.custom:/key_binder/custom_bindings?
       - config_base:/key_config/options_toggle
-#      - config_base:/key_config/tab跳转音节 # 使用 tab 在不同音节间跳转
-      - config_base:/key_config/数字9和0跳转音节 # 使用「9」或「0」 在不同音节间跳转
-      - config_base:/key_config/tab_Page # 使用 tab 翻页候选
+      - config_base:/key_config/tab跳转音节 # 使用 tab 在不同音节间跳转
+      - config_base:/key_config/数字9和0充当候选4&5 # 打字时用「9」选择候选4 「0」选择候选5
+#      - config_base:/key_config/数字9和0跳转音节 # 使用「9」或「0」 在不同音节间跳转
+#      - config_base:/key_config/tab_Page # 使用 tab 翻页候选
       - config_base:/key_config/keys
-      # 大写字母追加辅助码到上一个音节 (该功能可使用 tab 跳转音节替代)
-#      - config_base:/key_config/capital_for_last_syllable
+#      - config_base:/key_config/capital_for_last_syllable # 大写字母追加辅助码到上一个音节 (该功能可使用 tab 跳转音节替代)
  
 # 增加快捷键设置
 key_binder: 
@@ -112,7 +199,9 @@ key_binder:
     __append: 
       # 在這裏添加只在本方案中生效的按鍵綁定
       # 打字时，' 快速取出/放回被吞掉的辅码
-      - { accept: apostrophe, send: "Control+l", when: composing} 
+#      - { accept: apostrophe, send: "Control+l", when: composing} 
+      # 打字时，' 选中第3个候选字发送
+      - { accept: apostrophe, send: 3, when: has_menu} 
       # 简单鹤字根拆分显示开关
       - { when: has_menu, accept: "Control+i", toggle: chaifen }     
       # 固定词序or动态词序 临时切换开关

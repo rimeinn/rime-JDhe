@@ -17,8 +17,6 @@ switches_list:
     states: [ 关闭预测, 开启预测 ]
   - name: pinyinhint                   # 拼音滤镜
     states: [ 🔇, 🔊 ]          
-  - name: block_words_enabled   # 是否屏蔽指定的字词列表
-    states: [ 正常, 屏蔽 ]      
   - name: unicode_comment   # Unicode 区位提示
     states: [ U关, U开 ]    
   - name: is_in_user_dict   # 为输入过的内容加上标记
@@ -83,7 +81,6 @@ switches_engine_script:
       - lua_filter@*is_in_user_dict                   # 根据是否在用户词典，在 comment 上加上一个标记
       - lua_filter@*en_spacer                         # 英文词条上屏自动空格
       - lua_filter@*multiline_filter                  # 在词典里面候选支持\r, \r\n, \n, <br>分割分行。&nbsp 表示空格
-      - lua_filter@*block_words@block_words                       # 屏蔽指定的字词列表，并通过开关控制是否启用
       - lua_filter@*moran_charset_comment_filter      # Unicode 區位提示
       - uniquifier    
 
@@ -146,7 +143,6 @@ switches_engine_table:
       - lua_filter@*is_in_user_dict                   # 根据是否在用户词典，在 comment 上加上一个标记
       - lua_filter@*en_spacer                         # 英文词条上屏自动空格
       - lua_filter@*multiline_filter                  # 在词典里面候选支持\r, \r\n, \n, <br>分割分行。&nbsp 表示空格
-      - lua_filter@*block_words@block_words                       # 屏蔽指定的字词列表，并通过开关控制是否启用
       - lua_filter@*moran_charset_comment_filter      # Unicode 區位提示
       - uniquifier    
 
@@ -462,11 +458,6 @@ Lua_config:
   # Lua 配置：Emoji 降频到第 idx 个位置
   emoji_reduce:                      
     idx: 6
-
-  # Lua 配置: 屏蔽指定的字词列表 （影响范围）
-  block_words: 
-    tags: [ abc ] 
-
 
 
 

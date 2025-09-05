@@ -112,7 +112,7 @@ __patch:
 ##################################################
 
   # 反查显示编码的词库
-  - reverse_lookup_filter/dictionary: JDhe 
+  - reverse_lookup_filter/dictionary: jde_fixed 
 
 ##################################################
 
@@ -174,7 +174,7 @@ double_pinyin_flypy:
 # 中英混合词汇
 cn_en:
   dictionary: ""
-  user_dict: en_dicts/cn_en_tiger
+  user_dict: en_dicts/cn_en_jdh
   db_class: stabledb
   enable_completion: true   # 补全提醒
   enable_sentence: false      # 禁止造句

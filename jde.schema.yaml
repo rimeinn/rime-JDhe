@@ -162,6 +162,8 @@ __patch:
 ##################################################
   # 简单鹤拆分滤镜
   - 'engine/filters/@after 07': simplifier@chaifen
+  # 屏蔽指定的字词列表，并通过开关控制是否启用（before last 在列表最后一个之前加上）
+  - 'engine/filters/@before last': lua_filter@*block_words@block_words
 
 
 ##################################################
@@ -174,6 +176,8 @@ __patch:
       # 默認情況下，輸入 4 碼時，會禁止碼表輸出（「動詞」模式）。
       # 這是因爲碼表最大碼長爲 4，可能會產生較低頻的多字詞，覆蓋過用戶自造的常用詞語。
       # 當固詞模式啓動後，輸入 4 碼時會優先輸出碼表中的二字詞，這些輸出帶有「⚡️」標記。
+    - name: block_words_enabled   # 是否屏蔽指定的字词列表
+      states: [ 正常, 屏蔽 ]      
 
   # 简繁切换  
   - simplification/tips: none   #简繁对照   转换提示: all 都显示 | char 仅单字显示 | none 不显示。
@@ -360,8 +364,6 @@ reverse_lookup:
     - xform/(\w\w);(\w\w),(\w\w),(\w\w),(\w\w),(\w\w);/$1[$2,$3,$4,$5,$6]/ 
 
 ##################################################
-
-##################################################
 chaifen:
   option_name: chaifen
   opencc_config: jdh_cf.json
@@ -371,3 +373,8 @@ chaifen:
   comment_format:
 #      - "xform/-/ /"
 #      - "xform/〕〔/｜/"
+
+##################################################
+# Lua 配置: 屏蔽指定的字词列表 （影响范围）
+block_words: 
+  tags: [ abc ] 
