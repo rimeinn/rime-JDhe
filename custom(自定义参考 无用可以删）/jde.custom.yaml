@@ -60,6 +60,18 @@ patch:
 
   # 关闭使用语言模型优化输出结果
   translator/contextual_suggestions: false 
+  # 輸入長度達到 4 後開始輸出拼音词库的候选
+  translator/tag: english  # librime<=1.11 請在 custom 中置空
+
+  'engine/segmentors/@before 03': matcher@recognizer_cn_en
+  cn_en/tag: cn_en  # librime<=1.11 請在 custom 中置空
+
+  recognizer_cn_en:
+    patterns:
+      # 1. 輸入長度達到 4 後開始輸出英語 *或* 前 4 字母中有大寫字母
+      cn_en: '(^[A-Za-z]{3}[A-Za-z]*)|(^[A-Z][A-Za-z]*)|(^[a-z][A-Z][a-zA-Z]*)|(^[a-z][a-z][A-Z][a-zA-Z]*)'
+
+
 
 
   # 簡快碼提示符
@@ -121,6 +133,7 @@ patch:
       - config_pinyin:/fly_bm_bz                              # 飞键 bian
 #      - config_pinyin:/fly_ji_jo                              # 飞键 ji
       - config_pinyin:/fly_bd_be                              # 飞键 bai
+      - config_pinyin:/fly_jm_jz                              # 飞键 jian
       - config_pinyin:/fly_sc_sl                              # 飞键 sao
       - config_pinyin:/fly_sr_sn                              # 飞键 suan
       - config_pinyin:/fly_nm_nx                              # 飞键 nian
@@ -156,6 +169,7 @@ patch:
     - xform/bz/ḃṁ/
     - xform/vn/ṿṙ/
     - xform/be/ḃḋ/
+    - xform/jz/ĵṁ/
 #    - xform/jo/ĵí/
     - xform/ei/ẏí/
     - xform/qo/ʠẋ/

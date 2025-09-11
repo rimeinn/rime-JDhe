@@ -77,7 +77,7 @@ patch:
   'engine/translators/@before 13': lua_translator@*moran_pin*panacea_translator
 
   # 替换 魔然版本自定义置顶词
-  'engine/filters/@before 02': lua_filter@*moran_hint_filter
+#  'engine/filters/@before 02': lua_filter@*moran_hint_filter
   'engine/filters/@08': lua_filter@*moran_pin*pin_filter
   # 简快码提示
 
@@ -99,6 +99,7 @@ patch:
     # 修改爲 "" 可取消提示符
     # 建議在熟悉簡碼後再取消
     quick_code_indicator: "⚡"
+
 
    # 簡快碼提示（包括字和詞）
     # 例如 輸入 yy te er 英特爾 會提示「⚡yte」，即使用 yte 可以打出這個詞
