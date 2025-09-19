@@ -4,7 +4,6 @@ patch:
   schema_list:
     - schema: jde                        # 简单鹤(双拼辅助码)
     - schema: pinyin                     # 拼音（全拼）
-#    - schema: jde_danzi                  # 简单鹤 纯单字 
     - schema: jde_fixed                  # 简单鹤 字词（四码定长） 
 #    - schema: tiger                      # 虎码·单字
 #    - schema: t9_pinyin                      # 手机专用 九宫格方案
