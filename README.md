@@ -205,7 +205,7 @@ be 百（以及相关词）
   
     详情见`double_pinyin_flypy.custom.yaml/moran/pin/enable`节点下注释
   
-    该方案也是将希望排序靠前的字词 按下<kbd>Ctrl</kbd>+<kbd>T</kbd>，再按一下取消指定。<kbd>Ctrl</kbd>+<kbd>-</kbd> 左移，<kbd>Ctrl</kbd>+<kbd>T</kbd> 右移，该功能数据保存在 「moran_pin.userdb」中，可以方便的使用 RIME 自带的同步功能将设备间 调整过的内容同步合并
+    该方案也是将希望排序靠前的字词 按下<kbd>Ctrl</kbd>+<kbd>T</kbd>，再按一下取消指定。<kbd>Ctrl</kbd>+<kbd>-</kbd> 左移，<kbd>Ctrl</kbd>+<kbd>=</kbd> 右移，该功能数据保存在 「moran_pin.userdb」中，可以方便的使用 RIME 自带的同步功能将设备间 调整过的内容同步合并
   
     造词功能 通过输入 “编码A”//“编码B” 实现造词功能，编码A是这个新词的新编码 
   
