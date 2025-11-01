@@ -72,7 +72,7 @@ speller:
 
 
 # 主翻译器，拼音
-translator:
+smart:
   dictionary: pinyin               # 挂载词库 引入增补自定词典
 #  prism: double_pinyin_flypy   # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
   enable_word_completion: true  # 大于 4 音节的词条自动补全，librime > 1.11.2
@@ -218,6 +218,11 @@ moran:
   # 修改爲 "" 可取消提示符
   # 建議在熟悉簡碼後再取消
   quick_code_indicator: "⌃"
+
+  # 在造詞/造句選字過程中亦使用固頂簡快碼，默認開啓
+  # 若設爲 false，則造詞時過程中完全不使用簡碼
+  # 通常來說，不應該禁用該選項。如果你有禁用它的理由，請告知開發者，以免該選項在未來被刪除。
+  quick_code_in_sentence_making: true
 
   # 詞輔功能
   # 當輸入二字或三字詞時，允許詞末輸入 *一位* 輔助碼篩選詞語。

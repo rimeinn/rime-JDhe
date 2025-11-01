@@ -61,7 +61,7 @@ patch:
   # 关闭使用语言模型优化输出结果
   translator/contextual_suggestions: false 
   # 輸入長度達到 4 後開始輸出拼音词库的候选
-  translator/tag: english  # librime<=1.11 請在 custom 中置空
+  smart/tag: english  # librime<=1.11 請在 custom 中置空
 
   'engine/segmentors/@before 03': matcher@recognizer_cn_en
   cn_en/tag: cn_en  # librime<=1.11 請在 custom 中置空
@@ -107,7 +107,7 @@ patch:
 
 ##################################################################
 
-  fixed/dictionary_exclude: ["¿","؟","上海交通大学"]
+  fixed/dictionary_exclude: ["¿","؟","上海交通大学","外行指导内行"]
 
 
   # 拼写设定
@@ -159,7 +159,7 @@ patch:
       - config_pinyin:/fuzhu_001
       - config_pinyin:/直接辅助
   # 主翻译器，拼音映射
-  translator/preedit_format:    
+  smart/preedit_format:    
     - xform/([a-z][a-z][a-z][a-z])o/$1°/    
     - xform/wk/ẇẇ/
     - xform/zl/żṡ/
