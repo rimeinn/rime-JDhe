@@ -166,11 +166,6 @@ be 百（以及相关词）
   
   - Emoji 表情符号排序后置 （详见配置 `config_base.yaml/emoji_reduce` 节点）（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
   
-  - 置顶候选项， 将希望排序靠前的字词 按下<kbd>Ctrl</kbd>+<kbd>T</kbd>，再按一下取消指定。数据保存在 `Rime\lua\jdh\pin_word_record.lua` 或 `Rime\lua\tiger\pin_word_record.lua` **仅限 「简单鹤・字词」和「虎码」两个方案下使用**（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
-  
-  - 隐藏候选词或降低排序，将不希望出现在候选中的词组，按下<kbd>Ctrl</kbd>+<kbd>X</kbd> 隐藏，按下<kbd>Ctrl</kbd>+<kbd>J</kbd> 降低排序，数据保存在 `Rime\lua\jdh\cold_word_records\hide_words.lua(隐藏组词)、reduce_freq_words.lua(降频词组)` 虎码方案下储存路径同理。**仅限 「简单鹤」「简单鹤・字词」和「虎码」三个方案下使用**（取自 [飞鹤快拼](https://github.com/boomker/rime-fast-xhup)）
-    在使用该方案时，如果不满意排序的候选，**建议**以此功能来修改，这样独立于码表，方便在后续更新方案时，不被覆盖掉个人的使用习惯
-  
   - 字集切换开关（区分常用单字和全字集）（取自 [虎码输入方案](https://github.com/ywxt/rime-huma?tab=readme-ov-file)）
   
   - 虎码拆字3重注释（已被本人修改为3.5重，0.5重为仅显示拼音，作为其他方案的拼音滤镜）（取自 [虎码输入方案](https://github.com/ywxt/rime-huma?tab=readme-ov-file)）
@@ -210,7 +205,7 @@ be 百（以及相关词）
   
     详情见`double_pinyin_flypy.custom.yaml/moran/pin/enable`节点下注释
   
-    该方案也是将希望排序靠前的字词 按下<kbd>Ctrl</kbd>+<kbd>T</kbd>，再按一下取消指定。但区别于主要功能中介绍的那个功能，该功能数据保存在 「moran_pin.userdb」中，可以方便的使用 RIME 自带的同步功能将设备间 调整过的内容同步合并
+    该方案也是将希望排序靠前的字词 按下<kbd>Ctrl</kbd>+<kbd>T</kbd>，再按一下取消指定。<kbd>Ctrl</kbd>+<kbd>-</kbd> 左移，<kbd>Ctrl</kbd>+<kbd>T</kbd> 右移，该功能数据保存在 「moran_pin.userdb」中，可以方便的使用 RIME 自带的同步功能将设备间 调整过的内容同步合并
   
     造词功能 通过输入 “编码A”//“编码B” 实现造词功能，编码A是这个新词的新编码 
   
