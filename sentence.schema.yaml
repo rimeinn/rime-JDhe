@@ -1,0 +1,15 @@
+schema:
+  schema_id: sentence
+  name: 勿用·工具方案
+  version: "1.0"
+
+engine: 
+  translators:
+    - script_translator
+
+translator:
+  dictionary: pinyin
+  prism: jde
+
+speller: 
+  __include: jde.schema:/speller        

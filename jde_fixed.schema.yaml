@@ -16,7 +16,7 @@ schema:
     - reverse_pinyin   # 拼音单字反查
     - melt_eng # 英文
     - tiger  # 虎码
-    - jde  # 简单鹤 
+    - sentence   # 整句 
     - radical_pinyin   # 部件拆字
     - stroke   # 五筆畫
     - charset   # 字集过滤

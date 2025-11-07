@@ -59,6 +59,9 @@ translator:
   initial_quality: 1.2          # 拼音的权重应该比英文大  
   core_word_length: 4
   max_word_length: 10
+  contextual_suggestions: true # 是否使用语言模型优化输出结果〔需配合 grammar 使用〕
+  max_homophones: 7 # 最大同音簇长度〔需配合 grammar 使用〕
+  max_homographs: 7 # 最大同形簇长度〔需配合 grammar 使用〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
