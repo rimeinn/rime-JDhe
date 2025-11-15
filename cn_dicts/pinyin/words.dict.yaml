@@ -3,8 +3,8 @@
 # license: CC-BY 4.0
 
 ---
-name: moran.words
-version: "20240616"
+name: words
+version: "20251110"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -3518,7 +3518,6 @@ columns:
 暴恐	1
 晓之以理	1
 晓岚	1
-曱甴	10000	ga;aa za;aa
 曲种	1
 曲线救国	1
 曲里八拐	1
@@ -8994,8 +8993,8 @@ columns:
 意符链	1
 后设叙事	1
 能指浮动	1
-干昆	1	qm;uq kp;uk
-干昆智驾	1	qm;uq kp;uk vi;ov jw;mj
+乾崑	1	qm;uq kp;uk
+乾崑智驾	1	qm;uq kp;uk vi;ov jw;mj
 调校	811
 物理机	100
 实体机	100
@@ -9155,6 +9154,82 @@ columns:
 霸王茶姬	10
 茶姬	1
 遇事不决	1
+掺入	20
+羼入	10
+寄己	10
+并发队列	100
+打斗云	1
+闪传	100
+教资	100
+叶音	100	xx;ku yn;lo
+下播	100
+上播	100
+主包	100
+红尾水鸲	10
+宏伟水渠	0
+肥啾	100
+龟男	10
+预载	100
+胶佬	100
+淤堵	100
+格罗滕迪克	100
+欧耶	100
+油泼	100
+干拌	100
+前肘
+后肘
+后蹄
+血脖
+干禄	1
+干禄字书	100
+智驾	500
+亚比	10
+古着	100
+盯鞋
+瞪鞋
+数摇
+锐舞
+鞑靼利亚
+碣石
+文能提笔安天下
+武能上马定乾坤
+厄加勒斯
+科里奥利
+科里奥利力
+达朗贝尔
+达朗贝尔力
+吕萨克
+萨伐尔
+格兰阴性
+赶得上
+星象馆
+淇淋
+麦淇淋
+闻弦歌
+闻弦音
+知雅意
+闻弦歌而知雅意
+闻弦音而知雅意
+睹远物
+知情意
+睹远物而知情意
+回坑
+核诡
+核心诡计
+时间诡计
+空间诡计
+颜色诡计
+隐藏诡计
+多重诡计
+身份置换
+分饰身份
+乐不思	100
+晕碳	100
+描改	100
+鹓鶵	5
+颠勺	100
+奥客
+沤客
 
 # Mini Lyre Dict
 # https://github.com/rimeinn/Lyre/commit/c020d23d334aec77a59b1d5a5b3bcc8c07c86bd0
@@ -9336,7 +9411,8 @@ columns:
 附点
 附点四分音符
 附点音符
-复调
+复调	1
+复调	100
 复调音乐
 复合音
 复音
@@ -19385,7 +19461,6 @@ MIDI键盘	1	midi jm;jj pj;mb
 的引导
 的形状
 的彩虹
-的彼岸
 的彼方
 的彼端
 的律
@@ -24307,6 +24382,8 @@ T恤	100	ti xu;xx
 up主	100	up vu;dw
 QQ群	100	QQ qp;yj
 QQ群	100	qq qp;yj
+QQ号	100	QQ hk;hk
+QQ号	100	qq hk;hk
 高ping	100	gk;wk ping
 高ping	100	gk;dk ping
 高ping	100	gk;wk py
@@ -24319,6 +24396,7 @@ K歌	10	kz ge;qg
 卡拉OK	10	ka;ux la;fl ou kz
 OK	10	OK
 OK	10	ou kz
+CoCo都可	10	coco du;ev ke;dk
 
 # 整句可用的无理码
 几	1	jo;yd
