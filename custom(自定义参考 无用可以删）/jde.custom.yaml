@@ -57,11 +57,15 @@ patch:
   editor/bindings/Shift_L: cancel
 
 
-
   # 关闭使用语言模型优化输出结果
-  translator/contextual_suggestions: false 
-  # 輸入長度達到 4 後開始輸出拼音词库的候选
+  smart/contextual_suggestions: false 
+
   smart/tag: english  # librime<=1.11 請在 custom 中置空
+  # 輸入長度達到 4 後開始輸出英語 *或* 前 4 字母中有大寫字母
+  recognizer_secondary/patterns/english: 
+    '(^[A-Za-z/]{4}[A-Za-z/]*)|(^[A-Z][A-Za-z]*)|(^[a-z][A-Z][a-zA-Z]*)|(^[a-z][a-z][A-Z][a-zA-Z]*)'
+  # 輸入長度達到 4 後開始輸出拼音词库的候选
+
 
   'engine/segmentors/@before 03': matcher@recognizer_cn_en
   cn_en/tag: cn_en  # librime<=1.11 請在 custom 中置空
@@ -72,6 +76,9 @@ patch:
       cn_en: '(^[A-Za-z]{3}[A-Za-z]*)|(^[A-Z][A-Za-z]*)|(^[a-z][A-Z][a-zA-Z]*)|(^[a-z][a-z][A-Z][a-zA-Z]*)'
 
 
+  # 「`」改为拆字反查
+  radical_lookup/prefix: "`"  # 反查前缀
+  recognizer/patterns/radical_lookup: "(^`$)|(^`[a-zA-Z]+$)"
 
 
   # 簡快碼提示符
