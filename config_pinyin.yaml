@@ -501,6 +501,9 @@ fuzhu_008:     ########################################位于词库第八个分�
     - abbrev/^(.+);.*?,.*?,.*?,(\w)(\w).*$/$1$2$3/
     - derive|^(.+);.*?,.*?,.*?,(\w)(\w).*$|$1$2$3/|
     - derive|^(.+);.*?,.*?,.*?,(\w)(\w).*$|$1$2$3o|
+# flypy-SPECIFIC: 特殊優化：部分音節字極少，幾乎不參與構詞，則提升對應四碼字的優先級
+# flypy-SPECIFIC: （僅對小鹤双拼有效，其他雙拼方案需作對應修改）
+    - derive/^(.+);(wq|aq|av|xh|bv|jz|hm|sn|iw|ak|fy|yx|wb|wr|yw|qz|ms|at|xf|gi|gn|or|fs|rl|cq|sw|sq|fp|ae|ix|ep|ar|wm|et|ct|os|zq|ew|fm|ab|tf|fx|we|wx|bq|ez|bs|ej|oh|ps|fr|pq|au|wc|wp|dt|qf|im|br|un|fi|zm|vn|oz|kt|rq|ay|fn|um|eq|eu|yq|tq|oi|ek|az|fv|zx|ut|ac|ws|af|qv|ea|qj|al|ol|on|sx|ap|eg|ey|em|ag|hi|ki|xz|xj|ad|ft|pt|op|vt|oj|kn|pr|hq|eb|ev|cx|am|ov|oq|ym|ef|ot|mr|rd|oc|oe|fq|cn|ok|rn|yv|wk|oy|bt|je|ow|xg|jj|rw|ja|wt|lf|xe|wy|sm|qe|xa|cw|zn|jo|kq|it|wv|fc|ob|vm|ed|xo|fl|gq|gt|of|pv|qa|yd|fe|og|iq|oa|uq|om|xv|mv|as|ox|km|zt|od|ht|el|hn|st|wn|mt|wi|aj|yg|jf|jg|es|ax|rt|yf|ex|rx|tt|us|qg|pe|qh|rm|jh|cm|yl|eo|ra|aw|tw|fk|gm|ec|be|vq|fd)$/$1$2/
     - erase/^(.+);(.+)$/              # 刪除原始編碼以加速檢索
     
 间接辅助:  ########################################位于词库第三个分号后
@@ -581,6 +584,9 @@ fly_ji_jo:                              # ji
 fly_bd_be:                              # bai
   __append:
     - derive/bd;/be;/
+fly_jm_jz:                              # jian
+  __append:
+    - derive/jm;/jz;/
 
 
 fly_sc_sl:                              # sao
