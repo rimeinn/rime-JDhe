@@ -60,21 +60,23 @@ patch:
   # 关闭使用语言模型优化输出结果
   smart/contextual_suggestions: false 
 
-  smart/tag: english  # librime<=1.11 請在 custom 中置空
-  # 輸入長度達到 4 後開始輸出英語 *或* 前 4 字母中有大寫字母
-  recognizer_secondary/patterns/english: 
-    '(^[A-Za-z/]{4}[A-Za-z/]*)|(^[A-Z][A-Za-z]*)|(^[a-z][A-Z][a-zA-Z]*)|(^[a-z][a-z][A-Z][a-zA-Z]*)'
-  # 輸入長度達到 4 後開始輸出拼音词库的候选
+### 注意 librime<=1.11 请勿启用 ######################################################
+#  melt_eng/tag: english  # librime<=1.11 請在 custom 中置空
+#  smart/tag: english  # librime<=1.11 請在 custom 中置空
+#  # 輸入長度達到 4 後開始輸出英語 *或* 前 4 字母中有大寫字母
+#  recognizer_secondary/patterns/english: 
+#    '(^[A-Za-z/]{4}[A-Za-z/]*)|(^[A-Z][A-Za-z]*)|(^[a-z][A-Z][a-zA-Z]*)|(^[a-z][a-z][A-Z][a-zA-Z]*)'
+  ### 輸入長度達到 4 後開始輸出拼音词库的候选
 
+#  'engine/segmentors/@before 03': matcher@recognizer_cn_en
+#  cn_en/tag: cn_en  # librime<=1.11 請在 custom 中置空
 
-  'engine/segmentors/@before 03': matcher@recognizer_cn_en
-  cn_en/tag: cn_en  # librime<=1.11 請在 custom 中置空
+#  recognizer_cn_en:
+#    patterns:
+      ### 1. 輸入長度達到 4 後開始輸出英語 *或* 前 4 字母中有大寫字母
+#      cn_en: '(^[A-Za-z]{3}[A-Za-z]*)|(^[A-Z][A-Za-z]*)|(^[a-z][A-Z][a-zA-Z]*)|(^[a-z][a-z][A-Z][a-zA-Z]*)'
 
-  recognizer_cn_en:
-    patterns:
-      # 1. 輸入長度達到 4 後開始輸出英語 *或* 前 4 字母中有大寫字母
-      cn_en: '(^[A-Za-z]{3}[A-Za-z]*)|(^[A-Z][A-Za-z]*)|(^[a-z][A-Z][a-zA-Z]*)|(^[a-z][a-z][A-Z][a-zA-Z]*)'
-
+######################################################
 
   # 「`」改为拆字反查
   radical_lookup/prefix: "`"  # 反查前缀
