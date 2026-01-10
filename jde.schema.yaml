@@ -87,7 +87,7 @@ smart:
   max_homographs: 7 # 最大同形簇长度〔需配合 grammar 使用〕
   disable_user_dict_for_patterns: 
     - "^[a-z;,./]$"           # 禁止单码字调频
-    - "^[a-z;,./][a-z;,./]$"  # 禁止双码字调频
+#    - "^[a-z;,./][a-z;,./]$"  # 禁止双码字调频
 #    - "^[a-z;,./][a-z;,./][a-z;,./][a-z;,./]$"  # 禁止四码词调频    
   preedit_format: 
     - xform/([a-z][a-z][a-z][a-z])o/$1°/    
