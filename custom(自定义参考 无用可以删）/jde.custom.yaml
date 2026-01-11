@@ -97,6 +97,7 @@ patch:
   moran/pin/indicator: "⌃"
 
 
+
   #  emoji
   emoji/tips: none   # 转换提示: all 都显示 | char 仅单字显示 | none 
   # Lua 配置：Emoji 降频到第 idx 个位置
@@ -156,17 +157,17 @@ patch:
       - config_pinyin:/fly_fz_fm                              # 飞键 fou
       - config_pinyin:/fly_xr_xh                              # 飞键 xuan
       - config_pinyin:/fly_gr_gn                              # 飞键 guan
-      - config_pinyin:/fly_z_zh_buhun                         # 模糊音 z or zh 不分
-      - config_pinyin:/fly_s_sh_buhun                         # 模糊音 s or sh 不分
-      - config_pinyin:/fly_c_ch_buhun                         # 模糊音 c or ch 不分
-      - config_pinyin:/fly_in_ing_buhun                       # 模糊音 in or ing 不分
-      - config_pinyin:/fly_an_ang_buhun                       # 模糊音 an or ang 不分
-      - config_pinyin:/fly_en_eng_buhun                       # 模糊音 en or eng 不分
-      - config_pinyin:/fly_ro_lo_buhun                        # 模糊音 ro or lo 不分
-      - config_pinyin:/fly_ran_lan_buhun                      # 模糊音 ran or lan 不分
+#      - config_pinyin:/fly_z_zh_buhun                         # 模糊音 z or zh 不分
+#      - config_pinyin:/fly_s_sh_buhun                         # 模糊音 s or sh 不分
+#      - config_pinyin:/fly_c_ch_buhun                         # 模糊音 c or ch 不分
+#      - config_pinyin:/fly_in_ing_buhun                       # 模糊音 in or ing 不分
+#      - config_pinyin:/fly_an_ang_buhun                       # 模糊音 an or ang 不分
+#      - config_pinyin:/fly_en_eng_buhun                       # 模糊音 en or eng 不分
+#      - config_pinyin:/fly_ro_lo_buhun                        # 模糊音 ro or lo 不分
+#      - config_pinyin:/fly_ran_lan_buhun                      # 模糊音 ran or lan 不分
 #      - config_pinyin:/fly_ru_lu_buhun                        # 模糊音 ru or lu 不分
-      - config_pinyin:/fly_rong_long_buhun                    # 模糊音 rong or long 不分
-      - config_pinyin:/fly_uan_uang_buhun                     # 模糊音 uan or uang 不分(部分)
+#      - config_pinyin:/fly_rong_long_buhun                    # 模糊音 rong or long 不分
+#      - config_pinyin:/fly_uan_uang_buhun                     # 模糊音 uan or uang 不分(部分)
       - config_pinyin:/fuzhu_001
       - config_pinyin:/直接辅助
   # 主翻译器，拼音映射
