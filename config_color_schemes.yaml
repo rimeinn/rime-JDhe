@@ -252,3 +252,51 @@ patch:
     label_color: 0xFFFFFF
     shadow_color: 0x00000000
     text_color: 0x0083FF
+    
+  preset_color_schemes/Customed:
+    name: "Customized"
+    author: 五笔小筑 <wubixiaozhu@126.com>
+    back_color: 0xdaf4f4f4
+    shadow_color: 0xf2747474
+    border_color: 0xdaf4f4f4
+    text_color: 0xf2747474
+    hilited_text_color: 0xff262626
+    hilited_back_color: 0x00ffffff
+    hilited_shadow_color: 0x00ffffff
+    hilited_mark_color: 0xff218fff
+    hilited_label_color: 0xffffffff
+    hilited_candidate_text_color: 0xffffffff
+    hilited_comment_text_color: 0xfff7f7f7
+    hilited_candidate_back_color: 0xee83b942
+    hilited_candidate_border_color: 0x00ffffff
+    hilited_candidate_shadow_color: 0xff4c4c4c
+    label_color: 0xff202020
+    candidate_text_color: 0xff202020
+    comment_text_color: 0xff494949
+    candidate_back_color: 0x00494949
+    candidate_border_color: 0x00494949
+    candidate_shadow_color: 0x00494949
+
+  preset_color_schemes/Customed_dark:
+    name: "Customized_dark"
+    author: 五笔小筑 <wubixiaozhu@126.com>
+    back_color: 0xff3a3a3a
+    shadow_color: 0xe2efefef
+    border_color: 0xff3a3a3a
+    text_color: 0xe2acacac
+    hilited_text_color: 0xe2ffffff
+    hilited_back_color: 0x48dddddd
+    hilited_shadow_color: 0x00ffffff
+    hilited_mark_color: 0xff3e3ec3
+    hilited_label_color: 0xffffffff
+    hilited_candidate_text_color: 0xffffffff
+    hilited_comment_text_color: 0xffd5d5d5
+    hilited_candidate_back_color: 0xffc39032
+    hilited_candidate_border_color: 0xffc39032
+    hilited_candidate_shadow_color: 0xf2ffffff
+    label_color: 0xffefefef
+    candidate_text_color: 0xffefefef
+    comment_text_color: 0xffe0e0e0
+    candidate_back_color: 0xa3e7b955
+    candidate_border_color: 0x8ae7b955
+    candidate_shadow_color: 0xd5ffffff
