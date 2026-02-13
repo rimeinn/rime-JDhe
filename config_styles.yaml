@@ -46,7 +46,7 @@ font_size_settings:
 font_face_settings:
   style/font_face:          "Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, 霞鹜文楷 GB 屏幕阅读版, 苹方, Microsoft YaHei, SF Pro, Noto Color Emoji, MiSans L3,"
   style/label_font_face:    "Segoe UI Emoji:30:39, WB091:E000:E200, Noto Color Emoji SVG, Arial:600:6ff, LXGW Wenkai"
-  style/comment_font_face:  "Microsoft YaHei, TumanPUA, Segoe UI Emoji:30:39, LXGW Wenkai :7c:7c, Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, LXGW Wenkai, Segoe UI Emoji, WB091:E000:E200, Noto Color Emoji SVG, Arial:600:6ff"
+  style/comment_font_face:  "OPPO Sans 4.0 Chai, Microsoft YaHei, TumanPUA, Segoe UI Emoji:30:39, LXGW Wenkai :7c:7c, Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, LXGW Wenkai, Segoe UI Emoji, WB091:E000:E200, Noto Color Emoji SVG, Arial:600:6ff"
 
 
 

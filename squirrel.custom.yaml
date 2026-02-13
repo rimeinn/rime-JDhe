@@ -25,7 +25,7 @@ patch:
   style/font_point: 17                                         #候选字词大小
 #  stylelabel_font_face: ""                                 # 候选编号字体
   style/label_font_point: 12                               # 候选编号大小
-  style/comment_font_face: "Helvetica, TumanPUA"    # 注释字体
+  style/comment_font_face: "OPPO Sans 4.0 Chai, Helvetica, TumanPUA"    # 注释字体
   style/comment_font_point: 12                       # 注释字体字号
   style/candidate_format: '%c %@'                    # 标签字符
 
