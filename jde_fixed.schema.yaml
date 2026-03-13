@@ -156,6 +156,7 @@ Eng:
 # 次翻译器 小鹤双拼(临时音码混输）
 double_pinyin_flypy:
   dictionary: pinyin                            # 挂载词库
+  prism: jde
   enable_encoder:  true                  # 是否启用 自动造词  
   enable_sentence:  true                 # 是否启用造句模式
   encode_commit_history: false     # 是否对已上屛词自动成词  

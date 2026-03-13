@@ -236,9 +236,9 @@ reverse_config:
     tags: [radical_lookup,stroke_lookup,reverse_pinyin_lookup,tiger_lookup] #挂在这个tag所对应的翻译器上
     overwrite_comment: true
     dictionary: reverse_pinyin #反查所得词库
-    comment_format:
-      - xform/(\w\w);(\w\w);/$1[$2]/
-      - xform/(\w\w);(\w\w),(\w\w);/$1[$2][$3]/
+#    comment_format:
+#      - xform/(\w\w);(\w\w);/$1[$2]/
+#      - xform/(\w\w);(\w\w),(\w\w);/$1[$2][$3]/
 
 recognizer_config: 
   recognizer:
