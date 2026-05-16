@@ -548,6 +548,9 @@ fly_gf_gp:                              # gen
 fly_jn_ja:                              # jiao
   __append:
     - derive/jn;/ja;/
+fly_bn_bq:                              # biao
+  __append:
+    - derive/bn;/bq;/
 fly_po_ps:                              # po
   __append:
     - derive/po;/ps;/
@@ -578,6 +581,9 @@ fly_ce_cn:                              # ce
 fly_bm_bz:                              # bian
   __append:
     - derive/bm;/bz;/
+fly_pm_pq:                              # pian
+  __append:
+    - derive/pm;/pq;/
 fly_ji_jo:                              # ji
   __append:
     - derive/ji;/jo;/
@@ -592,15 +598,18 @@ fly_jm_jz:                              # jian
 fly_sc_sl:                              # sao
   __append:
     - derive/sc;/sl;/
+fly_rc_rl:                              # rao
+  __append:
+    - derive/rc;/rl;/
 fly_sr_sn:                              # suan
   __append:
     - derive/sr;/sn;/
 fly_nm_nx:                              # nian
   __append:
     - derive/nm;/nx;/
-fly_td_tl:                              # tai
+fly_tv_tl:                              # tui
   __append:
-    - derive/td;/tl;/
+    - derive/tv;/tl;/
 fly_zr_zn:                              # zuan
   __append:
     - derive/zr;/zn;/
@@ -610,21 +619,27 @@ fly_il_iq:                              # chuang
 fly_vg_vp:                              # zheng
   __append:
     - derive/vg;/vp;/
-fly_tc_tb:                              # tao
-  __append:
-    - derive/tc;/tb;/
 fly_cr_cp:                              # cuan
   __append:
     - derive/cr;/cp;/
 fly_fz_fm:                              # fou
   __append:
     - derive/fz;/fm;/
+fly_rz_rm:                              # rou
+  __append:
+    - derive/rz;/rm;/
 fly_xr_xh:                              # xuan
   __append:
     - derive/xr;/xh;/
 fly_gr_gn:                              # guan
   __append:
     - derive/gr;/gn;/
+fly_za_zp:                              # za
+  __append:
+    - derive/za;/zp;/
+fly_yb_yq:                              # yq
+  __append:
+    - derive/yb;/yq;/
 
 
 ############################################

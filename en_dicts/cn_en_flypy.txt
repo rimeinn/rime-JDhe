@@ -8,6 +8,8 @@
 # 由 others/cn_en.txt 自动生成
 #
 # 此行之后不能写注释
+九号Mz1	jqhcmzyi
+首驱Sz	uzqusz
 X光	Xgl
 X光	xgl
 X光片	Xglpm

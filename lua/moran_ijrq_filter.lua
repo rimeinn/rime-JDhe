@@ -2,9 +2,13 @@
 --
 -- Part of Project Moran
 -- License: GPLv3
--- Version: 0.3.1
+-- Version: 0.3.3
 
 -- ChangeLog:
+--
+-- 0.3.3: 修復 0.3.2 中的一處 nil 引用問題。
+--
+-- 0.3.2: 修復 completion 誤被延遲的問題。
 --
 -- 0.3.1: 修復單字可能被本濾鏡讓全的問題。
 --
@@ -79,7 +83,14 @@ function Module.func(t_input, env)
         yield(first_cand)
         moran.yield_all(iter)
     elseif input_len == 5 or input_len == 7 or input_len == 9 then
-        if input:sub(1,input_len-1) ~= env.last_input or utf8.len(env.last_first_cand) == 1 then
+        local iter = moran.make_peekable(iter)
+        local first = iter:peek()
+        if not first then  -- No candidates
+            return
+        end
+        local last_len = utf8.len(env.last_first_cand)
+        local first_len = utf8.len(first.text)
+        if input:sub(1,input_len-1) ~= env.last_input or last_len == 1 or last_len ~= first_len then
             moran.yield_all(iter)
             return
         end
