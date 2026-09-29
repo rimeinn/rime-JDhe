@@ -326,6 +326,12 @@ moran:
   shorthands: false  
 
 
+  # 在輸入超過該長度前，禁止整句輸出。
+  # 例：若設爲 1，則在輸入 2 碼時才產生整句輸出。
+  # 默認爲：0
+  disable_sentence_candidates_upto: 0
+
+
 ##################################################
 # 自定义短语
 custom_phrase:

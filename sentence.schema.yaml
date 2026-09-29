@@ -3,6 +3,8 @@ schema:
   name: 勿用·工具方案
   version: "1.0"
 
+__include: config_base:/octagram/enable_for_sentence  # 启用语言模型
+
 engine: 
   translators:
     - script_translator
@@ -10,6 +12,9 @@ engine:
 translator:
   dictionary: pinyin
   prism: jde
+  core_word_length: 4
+  max_word_length: 10
+
 
 speller: 
   __include: jde.schema:/speller        

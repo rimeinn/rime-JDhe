@@ -283,6 +283,12 @@ local function variant_toggle_processor(key_event, env)
         -- 默認安裝中，首選項是 zh_t 或 zh_s（無 opencc），故選擇第二選項。
         ctx:set_option(v2, true)
         ctx:set_option(v1, false)
+    elseif not ctx:get_option(v1) and not ctx:get_option(v2) then
+        -- 其他用字標準被激活時，切換到第一個
+        for _, v in ipairs(env.variants) do
+            ctx:set_option(v, false)
+        end
+        ctx:set_option(v1, true)
     end
 
     return kAccepted
@@ -318,8 +324,11 @@ return {
                     and variants:get_at(1):get_value():get_string():match("^std_")
                 then
                     env.variants = {}
-                    for j = 0, variants.size do
-                        table.insert(env.variants, variants:get_at(j):get_value():get_string())
+                    for j = 0, variants.size - 1 do
+                        local variant = variants:get_at(j)
+                        if variant and variant.type == "kScalar" then
+                            table.insert(env.variants, variant:get_value():get_string())
+                        end
                     end
                     break
                 end
