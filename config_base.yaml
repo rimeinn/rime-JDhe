@@ -465,13 +465,22 @@ octagram:
   disable:
     __patch:
       grammar: {}
-  enable_for_sentence:
+  enable_for_sentence:  # （整句输入模式）
     __patch:
       grammar:
         language: zh-hans-t-essay-bgw # rime官方模型
         collocation_max_length: 4  # 最大搭配长度
         collocation_min_length: 3  #  最小搭配长度
-#      translator/contextual_suggestions: true # 是否使用语言模型优化输出结果〔需配合 grammar 使用〕
-#      translator/max_homophones: 7 # 最大同音簇长度〔需配合 grammar 使用〕
-#      translator/max_homographs: 7 # 最大同形簇长度〔需配合 grammar 使用〕"
+  enable_for_fixed:  # （固定候选模式）
+    __patch:
+      grammar:
+        language: zh-hans-t-essay-bgc
+        collocation_max_length: 4
+        collocation_min_length: 2
+#      fixed/+:
+#        contextual_suggestions: true
+#        max_homographs: 7
+#      translator/+:
+#        contextual_suggestions: true
+#        max_homographs: 7
 

@@ -30,7 +30,7 @@ __include: config_base:/opencc_config
 __include: config_base:/reverse_config                # 反查模块
 __include: config_base:/Lua_config                    # 自定义模块
 __include: config_base:/recognizer_config             # 识别器模块
-__include: config_base:/octagram/enable_for_sentence  # 启用语言模型
+__include: config_base:/octagram/enable_for_sentence  # 启用语言模型（整句输入模式）
 
 
 
@@ -215,7 +215,8 @@ fixed:
   enable_completion: false              # 编码提示开关（提前显示尚未输入完整码的字）
   enable_user_dict: false                 # 是否启用用户词典（记录动态字词频、自造词）
   initial_quality: 10                           # 初始权重应比其他高  
-
+  contextual_suggestions: false  # 是否使用语言模型优化输出结果〔需配合 grammar 使用〕
+  max_homographs: 7      # 最大同形簇长度〔需配合 grammar 使用〕
 
 moran:
   # 簡快碼提示符

@@ -54,13 +54,16 @@ patch:
 
 
   # 左 Shift 清空编码
-#  editor/bindings/Shift_L: cancel
+  editor/bindings/Shift_L: cancel
 
 
-  # 禁用语言模型 (Octagram）
-  __include: config_base:/octagram/disable
-  # 关闭使用语言模型优化输出结果
-  smart/contextual_suggestions: false 
+  # 语言模型 (Octagram）
+#  __include: config_base:/octagram/disable           # 禁用语言模型 (Octagram）
+  __include: config_base:/octagram/enable_for_fixed  # （固定候选模式）
+
+  # 固定候选模式启用使用语言模型优化输出结果(不建议开启，否则简词词序会随前一字跳动)
+#  fixed/contextual_suggestions: true 
+
 
 ### 注意 librime<=1.11 请勿启用 ######################################################
   melt_eng/tag: english  # librime<=1.11 請在 custom 中置空
@@ -104,23 +107,22 @@ patch:
   emoji_reduce/idx: 6                    
 
 
-######【注意】此功能开启后，四码词组会根据使用习惯动态调整候选词排序 #########
+######【注意】此功能开启后，四码词组会根据使用习惯动态调整候选词排序 ######【################################################################
 # 所以建议「完全熟悉简单鹤」 又想自动根据自己输入习惯动态排序四码词组的用户开启
   switches/@11/reset: 0
   switches/@11/states: [ 动词, 固词 ] # 「固詞」表示「固頂詞」註釋隱藏開關，請直接在此指定 reset
 # 简单鹤方案下动词模式必须 打开屏蔽开关，将原先的「①」占位符屏蔽。
   switches/@12/reset: 1
-#  moran/ijrq/enable: false       # 如果开启动词，注意关闭单字的出简让全
+#  moran/inject_fixed_chars: false   # 是否輸出簡碼碼表單字，例：輸入 jwrg 時，次選爲「佳」，关闭后全码单字需加o或/
 ##################################################################
 
   moran/ijrq/enable_word: true               # 词语级出简让全
-  moran/enable_word_filter: true       # 如果开启词语级出简让全，注意关闭词辅功能
-
+  moran/ijrq/enable_word_delay: 200          # 僅在設定 *毫秒* 之後，才有詞語級讓全效果
 
 ##################################################################
 
-  fixed/dictionary_exclude: ["¿","؟","上海交通大学","外行指导内行"]
-
+  fixed/dictionary_exclude:  #屏蔽简单鹤词库内部分词
+    __include: cn_dicts/exclude_words:/jde_fixed
 
   # 拼写设定
   speller/algebra: 
@@ -133,6 +135,7 @@ patch:
       - config_pinyin:/fly_rr_rp                              # 飞键 ruan
       - config_pinyin:/fly_gf_gp                              # 飞键 gen
       - config_pinyin:/fly_jn_ja                              # 飞键 jiao
+      - config_pinyin:/fly_bn_bq                              # 飞键 biao
       - config_pinyin:/fly_po_ps                              # 飞键 po
       - config_pinyin:/fly_fg_fs                              # 飞键 feng
       - config_pinyin:/fly_qq_qh                              # 飞键 qiu
@@ -147,27 +150,31 @@ patch:
       - config_pinyin:/fly_bd_be                              # 飞键 bai
       - config_pinyin:/fly_jm_jz                              # 飞键 jian
       - config_pinyin:/fly_sc_sl                              # 飞键 sao
+      - config_pinyin:/fly_rc_rl                              # 飞键 rao
       - config_pinyin:/fly_sr_sn                              # 飞键 suan
       - config_pinyin:/fly_nm_nx                              # 飞键 nian
-      - config_pinyin:/fly_td_tl                              # 飞键 tai
+      - config_pinyin:/fly_pm_pq                              # 飞键 pian
+      - config_pinyin:/fly_tv_tl                              # 飞键 tui
       - config_pinyin:/fly_zr_zn                              # 飞键 zuan
       - config_pinyin:/fly_il_iq                              # 飞键 chuang
       - config_pinyin:/fly_vg_vp                              # 飞键 zheng
-      - config_pinyin:/fly_tc_tb                              # 飞键 tao
       - config_pinyin:/fly_fz_fm                              # 飞键 fou
+      - config_pinyin:/fly_rz_rm                              # 飞键 rou
       - config_pinyin:/fly_xr_xh                              # 飞键 xuan
       - config_pinyin:/fly_gr_gn                              # 飞键 guan
-#      - config_pinyin:/fly_z_zh_buhun                         # 模糊音 z or zh 不分
-#      - config_pinyin:/fly_s_sh_buhun                         # 模糊音 s or sh 不分
-#      - config_pinyin:/fly_c_ch_buhun                         # 模糊音 c or ch 不分
-#      - config_pinyin:/fly_in_ing_buhun                       # 模糊音 in or ing 不分
-#      - config_pinyin:/fly_an_ang_buhun                       # 模糊音 an or ang 不分
-#      - config_pinyin:/fly_en_eng_buhun                       # 模糊音 en or eng 不分
-#      - config_pinyin:/fly_ro_lo_buhun                        # 模糊音 ro or lo 不分
-#      - config_pinyin:/fly_ran_lan_buhun                      # 模糊音 ran or lan 不分
+      - config_pinyin:/fly_za_zp                              # 飞键 za   
+      - config_pinyin:/fly_yb_yq                              # 飞键 yin           
+      - config_pinyin:/fly_z_zh_buhun                         # 模糊音 z or zh 不分
+      - config_pinyin:/fly_s_sh_buhun                         # 模糊音 s or sh 不分
+      - config_pinyin:/fly_c_ch_buhun                         # 模糊音 c or ch 不分
+      - config_pinyin:/fly_in_ing_buhun                       # 模糊音 in or ing 不分
+      - config_pinyin:/fly_an_ang_buhun                       # 模糊音 an or ang 不分
+      - config_pinyin:/fly_en_eng_buhun                       # 模糊音 en or eng 不分
+      - config_pinyin:/fly_ro_lo_buhun                        # 模糊音 ro or lo 不分
+      - config_pinyin:/fly_ran_lan_buhun                      # 模糊音 ran or lan 不分
 #      - config_pinyin:/fly_ru_lu_buhun                        # 模糊音 ru or lu 不分
-#      - config_pinyin:/fly_rong_long_buhun                    # 模糊音 rong or long 不分
-#      - config_pinyin:/fly_uan_uang_buhun                     # 模糊音 uan or uang 不分(部分)
+      - config_pinyin:/fly_rong_long_buhun                    # 模糊音 rong or long 不分
+      - config_pinyin:/fly_uan_uang_buhun                     # 模糊音 uan or uang 不分(部分)
       - config_pinyin:/fuzhu_001
       - config_pinyin:/直接辅助
   # 主翻译器，拼音映射
@@ -188,29 +195,34 @@ patch:
     - xform/xo/ẋʠ/
     - xform/gp/ġḟ/
     - xform/ja/ĵṅ/
+    - xform/bq/ḃṅ/
     - xform/ps/ṗȯ/
     - xform/fs/ḟġ/
     - xform/qh/ʠʠ/
     - xform/dl/ḋċ/
     - xform/cn/ċė/
     - xform/sl/ṡċ/
+    - xform/rl/ṙċ/
     - xform/sn/ṡṙ/
     - xform/nx/ṅṁ/
-    - xform/tl/ṫḋ/
+    - xform/pq/ṗṁ/
+    - xform/tl/ṫṿ/
     - xform/zn/żṙ/
     - xform/iq/íĺ/
     - xform/vp/ṿġ/
-    - xform/tb/ṫċ/
     - xform/fm/ḟż/
+    - xform/rm/ṙż/
     - xform/xh/ẋṙ/
     - xform/gn/ġṙ/
+    - xform/zp/żȧ/
+    - xform/yq/ẏḃ/
     - xform/(?<=[A-Z])\s(?=[A-Z])//  # 消除大写字母之间的空格
 
 
 
   key_binder/bindings: 
     __patch: 
-      - jde.custom:/key_binder/custom_bindings?
+      - jde.custom:/key_binder/custom_bindings
       - config_base:/key_config/options_toggle
       - config_base:/key_config/tab跳转音节 # 使用 tab 在不同音节间跳转
       - config_base:/key_config/数字9和0充当候选4&5 # 打字时用「9」选择候选4 「0」选择候选5
