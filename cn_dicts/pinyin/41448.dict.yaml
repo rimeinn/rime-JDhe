@@ -17,7 +17,7 @@
 #          这样小字表里存在的字按权重靠前排列，大字表殿后，生僻字自动就排在末尾。
 ---
 name: 41448
-version: "2026-05-03"
+version: "2026-07-01"
 sort: by_weight
 ...
 # 注释掉了一些
@@ -6096,6 +6096,7 @@ sort: by_weight
 棏	de;wk
 淂	de;kk
 的	de;sh
+脦	de;ln
 蚮	de;fa
 鍀	de;ek
 锝	de;dk
@@ -12142,6 +12143,7 @@ sort: by_weight
 歑	hu;pe
 汻	hu;ks
 沍	hu;kd
+沕	hu;ki
 沪	hu;kq
 泘	hu;kp
 浒	hu;ks
@@ -22708,7 +22710,6 @@ sort: by_weight
 䳮	mo;ln
 䴲	mo;se
 万	mo;du
-么	mo;up
 冒	mo;vs,ps,ss
 劘	mo;di
 嗼	mo;ox
@@ -24348,6 +24349,7 @@ sort: by_weight
 𪊪	ou;
 𪙃	ou;
 𫪘	ou;
+𫭟	ou;gr
 㞎	pa;qt
 䔤	pa;zs
 䯲	pa;dt
@@ -27553,6 +27555,7 @@ sort: by_weight
 取	qu;dl
 呿	qu;op
 坥	qu;gu
+塸	qu;gr
 娶	qu;dy
 屈	qu;qp
 岖	qu;pr
@@ -27746,6 +27749,7 @@ sort: by_weight
 𪌬	qu;
 𪍸	qu;
 𪛃	qu;
+𫭟	qu;gr
 𬸱	qu;
 㒰	quan;ep
 㟨	quan;pe
@@ -33673,6 +33677,7 @@ sort: by_weight
 啘	wa;ot
 嗗	wa;oc
 嗢	wa;oa
+坬	wa;gh
 娃	wa;yg
 娲	wa;ye
 婠	wa;yd

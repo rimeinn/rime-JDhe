@@ -10,14 +10,13 @@
 # 少数单词与 en 重复，纯粹是为了排版美观，部署时的报错 duplicate word definition 可忽略，无任何影响
 ---
 name: en_ext
-version: "2026-03-08"
+version: "2026-09-10"
 sort: by_weight
 ...
 # 一些杂项
 &nbsp;	&nbsp;
 .DS_Store	.DS_Store
 README.md	README.md
-Ninebot	ninebot
 
 # 按键
 Fn	Fn
@@ -134,10 +133,9 @@ net	net	2
 .NET	dotnet
 # 带权重的系列
 iPhone	iPhone	999
-iPhone 17	iPhone	4
-iPhone 17 Pro	iPhone	3
-iPhone 17 Pro Max	iPhone	2
-iPhone 17e	iPhone	1
+iPhone 18 Pro	iPhone	3
+iPhone 18 Pro Max	iPhone	2
+iPhone Duo	iPhone	1
 Mac OS X	MacOSX	999
 Mac OS X Cheetah	MacOSX	1
 Mac OS X Puma	MacOSX	2
@@ -163,6 +161,7 @@ macOS Ventura	macOS	7
 macOS Sonoma	macOS	8
 macOS Sequoia	macOS	9
 macOS Tahoe	macOS	10
+macOS Golden Gate	macOS	11
 Windows	Windows	999
 Windows 95	Windows	1
 Windows 98	Windows	2
@@ -175,7 +174,7 @@ Windows 7	Windows	7
 Windows 8	Windows	8
 Windows 10	Windows	10
 Windows 11	Windows	11
-# Windows 12	Windows	12
+Microsoft Defender	MicrosoftDefender
 # +_+
 iPhone 3G	iPhone3G
 iPhone 3GS	iPhone3GS
@@ -226,6 +225,9 @@ iPhone 17e	iPhone17e
 iPhone Air	iPhoneAir
 iPhone 17 Pro	iPhone17Pro
 iPhone 17 Pro Max	iPhone17ProMax
+iPhone 18 Pro	iPhone18Pro
+iPhone 18 Pro Max	iPhone18ProMax
+iPhone Duo	iPhoneDuo
 Mac OS X Cheetah	MacOSXCheetah
 Mac OS X Puma	MacOSXPuma
 Mac OS X Jaguar	MacOSXJaguar
@@ -248,6 +250,7 @@ macOS Ventura	macOSVentura
 macOS Sonoma	macOSSonoma
 macOS Sequoia	macOSSequoia
 macOS Tahoe	macOSTahoe
+macOS Golden Gate	macOSGoldenGate
 Windows 95	Windows95
 Windows 98	Windows98
 Windows Me	WindowsMe
@@ -353,6 +356,9 @@ Grand Theft Auto	GrandTheftAuto
 GTAV	GTAV
 Grand Theft Auto V	GTAV
 Grand Theft Auto V	GrandTheftAutoV
+GTAVI	GTAVI
+Grand Theft Auto VI	GTAVI
+Grand Theft Auto VI	GrandTheftAutoVI
 LGBT	LGBT
 GPS	GPS
 ATM	ATM
@@ -506,8 +512,8 @@ Shadowsocks	Shadowsocks
 PC	PC
 iStat	iStat
 ClashX	ClashX
+Clash Verge	ClashVerge
 ClashX Pro	ClashXPro
-Clash for Windows	ClashForWindows
 Clash for Android	ClashForAndroid
 OpenClash	OpenClash
 passwall	passwall
@@ -603,7 +609,7 @@ Spiritfarer	Spiritfarer
 TCP/IP	TCP/IP
 Twitter	Twitter
 V2EX	V2EX
-VSCode	VSCode
+VS Code	VSCode
 Vue	Vue
 Vue.js	Vue.js
 Vite+	Vite+
@@ -1003,6 +1009,7 @@ Software Development Kit	SoftwareDevelopmentKit
 Should I Sleep	ShouldISleep
 Simplenote	Simplenote
 Siri	Siri
+Siri AI	SiriAI
 Slicy	Slicy
 Snagit	Snagit
 Sparkbox	Sparkbox
@@ -1220,6 +1227,7 @@ Counter-Strike	CS
 Backblaze	Backblaze
 WebP	WebP
 WebM	WebM
+AHK	AHK
 CleanShot X	CleanShotX
 Setapp	Setapp
 GraphQL	GraphQL
@@ -1241,6 +1249,7 @@ eXtensible HyperText Markup Language	XHTML
 eXtensible HyperText Markup Language	eXtensibleHyperTextMarkupLanguage
 Baiduspider	Baiduspider
 Bingbot	Bingbot
+Bing	Bing
 SogouSpider	SogouSpider
 YoudaoBot	YoudaoBot
 GitHub Copilot	GitHubCopilot
@@ -1249,6 +1258,9 @@ GitHub Copilot CLI	GitHubCopilotCLI
 GitHub Copilot chat	GitHubCopilotchat
 iPadOS	iPadOS
 Apple Pencil	ApplePencil
+Apple Pencil Pro	ApplePencilPro
+Magic Mouse	MagicMouse
+Magic Keyboard	MagicKeyboard
 Reddit	Reddit
 HHKB	HHKB
 Happy Hacking Keyboard	HHKB
@@ -1345,6 +1357,8 @@ Basic Input/Output System	BasicInput/OutputSystem
 goroutine	goroutine
 goroutines	goroutines
 Celsius	Celsius
+AHK	AHK
+88VIP	88VIP
 Fahrenheit	Fahrenheit
 Mojito	Mojito
 Niconico	Niconico
@@ -1383,7 +1397,6 @@ Windows Media Player	WindowsMediaPlayer
 Visual Studio Code	VisualStudioCode
 Visual Studio Code	VSCode
 PowerShell	PowerShell
-Surface	Surface
 MSN	MSN
 Skype	Skype
 TOC	TOC
@@ -1578,6 +1591,7 @@ FIFO	FIFO
 First In, First Out	FIFO
 LIFO	LIFO
 Last In, First out	LIFO
+NDM	NDM
 Neat Download Manager	NDM
 Neat Download Manager	NeatDownloadManager
 Maine	Maine
@@ -1587,6 +1601,7 @@ Peace & Love	Peace&Love
 LCD	LCD
 Liquid Crystal Display	LCD
 Liquid Crystal Display	LiquidCrystalDisplay
+Liquid Glass	LiquidGlass
 Emotional Damage	EmotionalDamage
 GitLab	GitLab
 GitLab Runner	GitLabRunner
@@ -1887,6 +1902,8 @@ GPT-4.5	GPT-4.5
 GPT-5	GPT-5
 GPT-5.1	GPT-5.1
 GPT-5.2	GPT-5.2
+GPT-5.5	GPT-5.5
+GPT-5.4	GPT-5.4
 LaMDA	LaMDA
 Language Model for Dialogue Applications	LaMDA
 Coinbase Wallet	CoinbaseWallet
@@ -1904,6 +1921,9 @@ Rocky Linux	RockyLinux
 Vultr	Vultr
 GoFrame	GoFrame
 ORM	ORM
+AppImage	AppImage
+AutoHotkey	AutoHotkey
+hotkey	hotkey
 Object Relational Mapping	ORM
 Object Relational Mapping	ObjectRelationalMapping
 KPI	KPI
@@ -1995,6 +2015,11 @@ UUID	UUID
 Universally Unique Identifier	UUID
 Fyne	Fyne
 Claude	Claude
+Claude Mythos	ClaudeMythos
+Claude Fable	ClaudeFable
+Claude Opus	ClaudeOpus
+Claude Sonnet	ClaudeSonnet
+Claude Haiku	ClaudeHaiku
 Cinderella	Cinderella
 WebGPU	WebGPU
 Mailfence	Mailfence
@@ -2427,6 +2452,9 @@ Heptabase	Heptabase
 Ghostty	Ghostty
 WezTerm	WezTerm
 Wez's Terminal Emulator	WezTerm
+MobaXterm	MobaXterm
+MobaTextEditor	MobaTextEditor
+MobaDiff	MobaDiff
 Tailscale	Tailscale
 Shadowrocket	Shadowrocket
 Quantumult	Quantumult
@@ -2476,3 +2504,136 @@ Seedance	Seedance
 Dependabot	Dependabot
 KaTeX	KaTeX
 MathJax	MathJax
+Codex	Codex
+Codex CLI	CodexCLI
+Claude Code	ClaudeCode
+MCP	MCP
+IELTS	IELTS
+TOEFL	TOEFL
+Haskell	Haskell
+Vulkan	Vulkan
+LINUX DO	LINUXDO
+Capoo	Capoo
+OAuth	OAuth
+OAuth2	OAuth2
+2FA	2FA
+Hashsum	Hashsum
+Canva	Canva
+DISM	DISM
+FHD	FHD
+FHD+	FHD+
+HMCL	HMCL
+Hyper-V	Hyper-V
+HostUS	HostUS
+KOOK	KOOK
+KeepassXC	KeepassXC
+Keypirinha	Keypirinha
+Klei	Klei
+Koofr	Koofr
+Kong	Kong
+LTS	LTS
+LTSC	LTSC
+Manjaro	Manjaro
+mockup	mockup
+mockups	mockups
+linter	linter
+Nvdia	Nvdia
+OP	OP
+OptFine	OptFine
+Pinterest	Pinterest
+QHD+	QHD+
+QWERT	QWERT
+QuickLook	QuickLook
+Red Hat	RedHat
+rclone	rclone
+ShareX	ShareX
+Shopify	Shopify
+Termux	Termux
+VirtualBox	VirtualBox
+Oracle VirtualBox	OracleVirtualBox
+Xperia	Xperia
+alacritty	alacritty
+admx	admx
+chezmoi	chezmoi
+foobar	foobar
+gist	gist
+HEVC	HEVC
+H.265	H.265
+H.264	H.264
+keepass	keepass
+litemetica	litemetica
+pandoc	pandoc
+OnePlus	OnePlus
+stabledb	stabledb
+synthesia	synthesia
+tabledb	tabledb
+tabliss	tabliss
+pypinyin	pypinyin
+LineageOS	LineageOS
+referer	referer
+speedrun	speedrun
+RSSHub	RSSHub
+QA	QA
+Mothra	Mothra
+Koopa	Koopa
+NA	NA
+XD	XD
+Trime	Trime
+TPM	TPM
+CI	CI
+CP	CP
+GIPHY	GIPHY
+Feinberg	Feinberg
+Deadpool	Deadpool
+crDroid	crDroid
+Windsurf	Windsurf
+MiniMax	MiniMax
+OpenCode	OpenCode
+OpenCode Go	OpenCodeGo
+CLIProxyAPI	CLIProxyAPI
+NewAPI	NewAPI
+CC Switch	CCSwitch
+Trae	Trae
+Qoder	Qoder
+Comate	Comate
+CodeBuddy	CodeBuddy
+LibreChat	LibreChat
+LobeHub	LobeHub
+Open WebUI	OpenWebUI
+Kelivo	Kelivo
+AnythingLLM	AnythingLLM
+ChatBox	ChatBox
+FastGPT	FastGPT
+SearXNG	SearXNG
+SEGGER	SEGGER
+J-Link	J-Link
+J-Trace	J-Trace
+J-Flash	J-Flash
+J-Mem	J-Mem
+J-Scope	J-Scope
+JTAG	JTAG
+Joint Test Action Group	JTAG
+WinMerge	WinMerge
+Araxis Merge	AraxisMerge
+Source Insight	SourceInsight
+SourceMonitor	SourceMonitor
+WinSCP	WinSCP
+PuTTY	PuTTY
+Renesas	Renesas
+Infineon	Infineon
+AURIX	AURIX
+TriCore	TriCore
+Qualcomm	Qualcomm
+Hynix	Hynix
+Broadcom	Broadcom
+MediaTek	MediaTek
+KIOXIA	KIOXIA
+Microchip	Microchip
+Marvell	Marvell
+Realtek	Realtek
+GigaDevice	GigaDevice
+GPT‑5.6 Sol	GPT‑5.6Sol
+GPT-5.6 Terra	GPT-5.6Terra
+GPT-5.6 Luna	GPT-5.6Luna
+Nust	Nust
+MacPorts	MacPorts
